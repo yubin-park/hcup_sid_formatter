@@ -1,0 +1,95 @@
+Data Set Name: WV_SID_2001_CORE                
+Number of Observations: 274289
+Total Record Length: 314
+Total Number of Variables: 75
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 49    Variable name
+51- 54    Starting column of variable in ASCII file
+56- 59    Ending column of variable in ASCII file
+    61    Non-zero number of digits after decimal point for numeric variable
+63- 66    Variable type (Num=numeric; Char=character)
+68-167    Variable label
+
+
+WV  2001 CORE               1 KEY                    1   14   Num  HCUP record identifier
+WV  2001 CORE               2 AGE                   15   17   Num  Age in years at admission
+WV  2001 CORE               3 AGEDAY                18   20   Num  Age in days (when age < 1 year)
+WV  2001 CORE               4 AGEMONTH              21   23   Num  Age in months (when age < 11 years)
+WV  2001 CORE               5 AMONTH                24   25   Num  Admission month
+WV  2001 CORE               6 ASOURCE               26   27   Num  Admission source (uniform)
+WV  2001 CORE               7 ASOURCE_X             28   28   Char Admission source (as received from source)
+WV  2001 CORE               8 ATYPE                 29   30   Num  Admission type
+WV  2001 CORE               9 AWEEKEND              31   32   Num  Admission day is a weekend
+WV  2001 CORE              10 DIED                  33   34   Num  Died during hospitalization
+WV  2001 CORE              11 DISP_X                35   36   Char Disposition of patient (as received from source)
+WV  2001 CORE              12 DISPUB92              37   38   Num  Disposition of patient (UB-92 standard coding)
+WV  2001 CORE              13 DISPUNIFORM           39   40   Num  Disposition of patient (uniform)
+WV  2001 CORE              14 DQTR                  41   42   Num  Discharge quarter
+WV  2001 CORE              15 DRG                   43   45   Num  DRG in effect on discharge date
+WV  2001 CORE              16 DRG18                 46   48   Num  DRG, version 18
+WV  2001 CORE              17 DRGVER                49   50   Num  DRG grouper version used on discharge date
+WV  2001 CORE              18 DSHOSPID              51   63   Char Data source hospital identifier
+WV  2001 CORE              19 DX1                   64   68   Char Principal diagnosis
+WV  2001 CORE              20 DX2                   69   73   Char Diagnosis 2
+WV  2001 CORE              21 DX3                   74   78   Char Diagnosis 3
+WV  2001 CORE              22 DX4                   79   83   Char Diagnosis 4
+WV  2001 CORE              23 DX5                   84   88   Char Diagnosis 5
+WV  2001 CORE              24 DX6                   89   93   Char Diagnosis 6
+WV  2001 CORE              25 DX7                   94   98   Char Diagnosis 7
+WV  2001 CORE              26 DX8                   99  103   Char Diagnosis 8
+WV  2001 CORE              27 DX9                  104  108   Char Diagnosis 9
+WV  2001 CORE              28 DX10                 109  113   Char Diagnosis 10
+WV  2001 CORE              29 DXCCS1               114  117   Num  CCS: principal diagnosis
+WV  2001 CORE              30 DXCCS2               118  121   Num  CCS: diagnosis 2
+WV  2001 CORE              31 DXCCS3               122  125   Num  CCS: diagnosis 3
+WV  2001 CORE              32 DXCCS4               126  129   Num  CCS: diagnosis 4
+WV  2001 CORE              33 DXCCS5               130  133   Num  CCS: diagnosis 5
+WV  2001 CORE              34 DXCCS6               134  137   Num  CCS: diagnosis 6
+WV  2001 CORE              35 DXCCS7               138  141   Num  CCS: diagnosis 7
+WV  2001 CORE              36 DXCCS8               142  145   Num  CCS: diagnosis 8
+WV  2001 CORE              37 DXCCS9               146  149   Num  CCS: diagnosis 9
+WV  2001 CORE              38 DXCCS10              150  153   Num  CCS: diagnosis 10
+WV  2001 CORE              39 FEMALE               154  155   Num  Indicator of sex
+WV  2001 CORE              40 HOSPST               156  157   Char Hospital state postal code
+WV  2001 CORE              41 LOS                  158  162   Num  Length of stay (cleaned)
+WV  2001 CORE              42 LOS_X                163  168   Num  Length of stay (as received from source)
+WV  2001 CORE              43 MDC                  169  170   Num  MDC in effect on discharge date
+WV  2001 CORE              44 MDC18                171  172   Num  MDC, version 18
+WV  2001 CORE              45 MDNUM1_S             173  188   Char Physician 1 number (synthetic)
+WV  2001 CORE              46 MDNUM2_S             189  204   Char Physician 2 number (synthetic)
+WV  2001 CORE              47 NDX                  205  206   Num  Number of diagnoses on this record
+WV  2001 CORE              48 NEOMAT               207  208   Num  Neonatal and/or maternal DX and/or PR
+WV  2001 CORE              49 NPR                  209  210   Num  Number of procedures on this record
+WV  2001 CORE              50 PAY1                 211  212   Num  Primary expected payer (uniform)
+WV  2001 CORE              51 PAY2                 213  214   Num  Secondary expected payer (uniform)
+WV  2001 CORE              52 PAY1_X               215  216   Char Primary expected payer (as received from source)
+WV  2001 CORE              53 PAY2_X               217  218   Char Secondary expected payer (as received from source)
+WV  2001 CORE              54 PAYER1_X             219  222   Char Primary expected payer plan identifier (as received from source)
+WV  2001 CORE              55 PAYER2_X             223  226   Char Secondary expected payer plan identifier (as received from source)
+WV  2001 CORE              56 PR1                  227  230   Char Principal procedure
+WV  2001 CORE              57 PR2                  231  234   Char Procedure 2
+WV  2001 CORE              58 PR3                  235  238   Char Procedure 3
+WV  2001 CORE              59 PR4                  239  242   Char Procedure 4
+WV  2001 CORE              60 PR5                  243  246   Char Procedure 5
+WV  2001 CORE              61 PR6                  247  250   Char Procedure 6
+WV  2001 CORE              62 PRCCS1               251  253   Num  CCS: principal procedure
+WV  2001 CORE              63 PRCCS2               254  256   Num  CCS: procedure 2
+WV  2001 CORE              64 PRCCS3               257  259   Num  CCS: procedure 3
+WV  2001 CORE              65 PRCCS4               260  262   Num  CCS: procedure 4
+WV  2001 CORE              66 PRCCS5               263  265   Num  CCS: procedure 5
+WV  2001 CORE              67 PRCCS6               266  268   Num  CCS: procedure 6
+WV  2001 CORE              68 TOTCHG               269  278   Num  Total charges (cleaned)
+WV  2001 CORE              69 TOTCHG_X             279  293 2 Num  Total charges (as received from source)
+WV  2001 CORE              70 YEAR                 294  297   Num  Calendar year
+WV  2001 CORE              71 ZIP                  298  302   Char Patient ZIP Code
+WV  2001 CORE              72 AYEAR                303  306   Num  Admission year
+WV  2001 CORE              73 DMONTH               307  308   Num  Discharge month
+WV  2001 CORE              74 BMONTH               309  310   Num  Birth month
+WV  2001 CORE              75 BYEAR                311  314   Num  Birth year

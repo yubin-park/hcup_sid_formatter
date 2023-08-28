@@ -1,0 +1,113 @@
+Data Set Name: SC_SID_2001_CORE                
+Number of Observations: 540035
+Total Record Length: 350
+Total Number of Variables: 93
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 49    Variable name
+51- 54    Starting column of variable in ASCII file
+56- 59    Ending column of variable in ASCII file
+    61    Non-zero number of digits after decimal point for numeric variable
+63- 66    Variable type (Num=numeric; Char=character)
+68-167    Variable label
+
+
+SC  2001 CORE               1 KEY                    1   14   Num  HCUP record identifier
+SC  2001 CORE               2 AGE                   15   17   Num  Age in years at admission
+SC  2001 CORE               3 AMONTH                18   19   Num  Admission month
+SC  2001 CORE               4 ASOURCE               20   21   Num  Admission source (uniform)
+SC  2001 CORE               5 ASOURCE_X             22   22   Char Admission source (as received from source)
+SC  2001 CORE               6 ATYPE                 23   24   Num  Admission type
+SC  2001 CORE               7 AWEEKEND              25   26   Num  Admission day is a weekend
+SC  2001 CORE               8 DaysICU               27   29   Num  Days in medical/surgical intensive care unit (as received from the source)
+SC  2001 CORE               9 DIED                  30   31   Num  Died during hospitalization
+SC  2001 CORE              10 DISP_X                32   33   Char Disposition of patient (as received from source)
+SC  2001 CORE              11 DISPUB92              34   35   Num  Disposition of patient (UB-92 standard coding)
+SC  2001 CORE              12 DISPUNIFORM           36   37   Num  Disposition of patient (uniform)
+SC  2001 CORE              13 DQTR                  38   39   Num  Discharge quarter
+SC  2001 CORE              14 DRG                   40   42   Num  DRG in effect on discharge date
+SC  2001 CORE              15 DRG18                 43   45   Num  DRG, version 18
+SC  2001 CORE              16 DRGVER                46   47   Num  DRG grouper version used on discharge date
+SC  2001 CORE              17 DX1                   48   52   Char Principal diagnosis
+SC  2001 CORE              18 DX2                   53   57   Char Diagnosis 2
+SC  2001 CORE              19 DX3                   58   62   Char Diagnosis 3
+SC  2001 CORE              20 DX4                   63   67   Char Diagnosis 4
+SC  2001 CORE              21 DX5                   68   72   Char Diagnosis 5
+SC  2001 CORE              22 DX6                   73   77   Char Diagnosis 6
+SC  2001 CORE              23 DX7                   78   82   Char Diagnosis 7
+SC  2001 CORE              24 DX8                   83   87   Char Diagnosis 8
+SC  2001 CORE              25 DX9                   88   92   Char Diagnosis 9
+SC  2001 CORE              26 DX10                  93   97   Char Diagnosis 10
+SC  2001 CORE              27 DX11                  98  102   Char Diagnosis 11
+SC  2001 CORE              28 DX12                 103  107   Char Diagnosis 12
+SC  2001 CORE              29 DXCCS1               108  111   Num  CCS: principal diagnosis
+SC  2001 CORE              30 DXCCS2               112  115   Num  CCS: diagnosis 2
+SC  2001 CORE              31 DXCCS3               116  119   Num  CCS: diagnosis 3
+SC  2001 CORE              32 DXCCS4               120  123   Num  CCS: diagnosis 4
+SC  2001 CORE              33 DXCCS5               124  127   Num  CCS: diagnosis 5
+SC  2001 CORE              34 DXCCS6               128  131   Num  CCS: diagnosis 6
+SC  2001 CORE              35 DXCCS7               132  135   Num  CCS: diagnosis 7
+SC  2001 CORE              36 DXCCS8               136  139   Num  CCS: diagnosis 8
+SC  2001 CORE              37 DXCCS9               140  143   Num  CCS: diagnosis 9
+SC  2001 CORE              38 DXCCS10              144  147   Num  CCS: diagnosis 10
+SC  2001 CORE              39 DXCCS11              148  151   Num  CCS: diagnosis 11
+SC  2001 CORE              40 DXCCS12              152  155   Num  CCS: diagnosis 12
+SC  2001 CORE              41 FEMALE               156  157   Num  Indicator of sex
+SC  2001 CORE              42 HOSPST               158  159   Char Hospital state postal code
+SC  2001 CORE              43 LOS                  160  164   Num  Length of stay (cleaned)
+SC  2001 CORE              44 LOS_X                165  170   Num  Length of stay (as received from source)
+SC  2001 CORE              45 MDC                  171  172   Num  MDC in effect on discharge date
+SC  2001 CORE              46 MDC18                173  174   Num  MDC, version 18
+SC  2001 CORE              47 MDSPEC1              175  177   Char Physician 1 specialty (as received from source)
+SC  2001 CORE              48 MDSPEC2              178  180   Char Physician 2 specialty (as received from source)
+SC  2001 CORE              49 MRN_S                181  197   Char Medical record number (synthetic)
+SC  2001 CORE              50 NDX                  198  199   Num  Number of diagnoses on this record
+SC  2001 CORE              51 NEOMAT               200  201   Num  Neonatal and/or maternal DX and/or PR
+SC  2001 CORE              52 NPR                  202  203   Num  Number of procedures on this record
+SC  2001 CORE              53 PAY1                 204  205   Num  Primary expected payer (uniform)
+SC  2001 CORE              54 PAY2                 206  207   Num  Secondary expected payer (uniform)
+SC  2001 CORE              55 PAY1_X               208  209   Char Primary expected payer (as received from source)
+SC  2001 CORE              56 PAY2_X               210  211   Char Secondary expected payer (as received from source)
+SC  2001 CORE              57 PAY3_X               212  213   Char Tertiary expected payer (as received from source)
+SC  2001 CORE              58 PR1                  214  217   Char Principal procedure
+SC  2001 CORE              59 PR2                  218  221   Char Procedure 2
+SC  2001 CORE              60 PR3                  222  225   Char Procedure 3
+SC  2001 CORE              61 PR4                  226  229   Char Procedure 4
+SC  2001 CORE              62 PR5                  230  233   Char Procedure 5
+SC  2001 CORE              63 PR6                  234  237   Char Procedure 6
+SC  2001 CORE              64 PR7                  238  241   Char Procedure 7
+SC  2001 CORE              65 PR8                  242  245   Char Procedure 8
+SC  2001 CORE              66 PR9                  246  249   Char Procedure 9
+SC  2001 CORE              67 PR10                 250  253   Char Procedure 10
+SC  2001 CORE              68 PRCCS1               254  256   Num  CCS: principal procedure
+SC  2001 CORE              69 PRCCS2               257  259   Num  CCS: procedure 2
+SC  2001 CORE              70 PRCCS3               260  262   Num  CCS: procedure 3
+SC  2001 CORE              71 PRCCS4               263  265   Num  CCS: procedure 4
+SC  2001 CORE              72 PRCCS5               266  268   Num  CCS: procedure 5
+SC  2001 CORE              73 PRCCS6               269  271   Num  CCS: procedure 6
+SC  2001 CORE              74 PRCCS7               272  274   Num  CCS: procedure 7
+SC  2001 CORE              75 PRCCS8               275  277   Num  CCS: procedure 8
+SC  2001 CORE              76 PRCCS9               278  280   Num  CCS: procedure 9
+SC  2001 CORE              77 PRCCS10              281  283   Num  CCS: procedure 10
+SC  2001 CORE              78 PRDAY1               284  286   Num  Number of days from admission to PR1
+SC  2001 CORE              79 PRDAY2               287  289   Num  Number of days from admission to PR2
+SC  2001 CORE              80 PRDAY3               290  292   Num  Number of days from admission to PR3
+SC  2001 CORE              81 PRDAY4               293  295   Num  Number of days from admission to PR4
+SC  2001 CORE              82 PRDAY5               296  298   Num  Number of days from admission to PR5
+SC  2001 CORE              83 PRDAY6               299  301   Num  Number of days from admission to PR6
+SC  2001 CORE              84 PRDAY7               302  304   Num  Number of days from admission to PR7
+SC  2001 CORE              85 PRDAY8               305  307   Num  Number of days from admission to PR8
+SC  2001 CORE              86 PRDAY9               308  310   Num  Number of days from admission to PR9
+SC  2001 CORE              87 PRDAY10              311  313   Num  Number of days from admission to PR10
+SC  2001 CORE              88 PSTCO                314  318   Num  Patient state/county FIPS code
+SC  2001 CORE              89 RACE                 319  320   Num  Race (uniform)
+SC  2001 CORE              90 RACE_X               321  321   Char Race (as received from source)
+SC  2001 CORE              91 TOTCHG               322  331   Num  Total charges (cleaned)
+SC  2001 CORE              92 TOTCHG_X             332  346 2 Num  Total charges (as received from source)
+SC  2001 CORE              93 YEAR                 347  350   Num  Calendar year

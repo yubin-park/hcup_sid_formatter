@@ -1,0 +1,671 @@
+Data Set Name: MA_SIDC_2017_CORE               
+Number of Observations: 811627
+Total Record Length: 2765
+Total Number of Variables: 650
+Creation Date: 01/14/2020   
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 61    Variable name
+63- 66    Starting column of variable in ASCII file
+68- 71    Ending column of variable in ASCII file
+73- 73    Non-zero number of digits after decimal point for numeric variable
+75- 78    Variable type (Num=numeric; Char=character)
+80-179    Variable label
+
+
+MA  2017 CORE               1 ADRG                               1    3   Num  All Patient Refined DRG
+MA  2017 CORE               2 ADRGRISKMORTALITY                  4    5   Num  All Patient Refined DRG mortality risk
+MA  2017 CORE               3 ADRGSEV                            6    7   Num  All Patient Refined DRG severity level
+MA  2017 CORE               4 AGE                                8   10   Num  Age in years at admission
+MA  2017 CORE               5 AGEMONTH                          11   13   Num  Age in months (when age < 11 years)
+MA  2017 CORE               6 AMDC                              14   15   Num  All Patient Refined MDC
+MA  2017 CORE               7 AMONTH                            16   17   Num  Admission month
+MA  2017 CORE               8 ASOURCE                           18   19   Num  Admission source (uniform)
+MA  2017 CORE               9 ASOURCE_X                         20   20   Char Admission source (as received from source)
+MA  2017 CORE              10 ASOURCEUB92                       21   21   Char Admission source (UB-92 standard coding)
+MA  2017 CORE              11 ATYPE                             22   23   Num  Admission type
+MA  2017 CORE              12 AWEEKEND                          24   25   Num  Admission day is a weekend
+MA  2017 CORE              13 BWT                               26   29   Num  Birth weight in grams
+MA  2017 CORE              14 DaysBetweenVisits                 30   33   Num  Number of days between visits
+MA  2017 CORE              15 DaysToEvent                       34   39   Num  Days from 'start date' to admission
+MA  2017 CORE              16 DIED                              40   41   Num  Died during hospitalization
+MA  2017 CORE              17 DISP_X                            42   43   Char Disposition of patient (as received from source)
+MA  2017 CORE              18 DISPUB04                          44   45   Num  Disposition of patient (UB-04 standard coding)
+MA  2017 CORE              19 DISPUNIFORM                       46   47   Num  Disposition of patient (uniform)
+MA  2017 CORE              20 DMONTH                            48   49   Num  Discharge month
+MA  2017 CORE              21 DNR                               50   51   Num  Do not resuscitate indicator
+MA  2017 CORE              22 DQTR                              52   53   Num  Discharge quarter
+MA  2017 CORE              23 DRG                               54   56   Num  DRG in effect on discharge date
+MA  2017 CORE              24 DRG_NoPOA                         57   59   Num  DRG in use on discharge date, calculated without POA
+MA  2017 CORE              25 DRGVER                            60   61   Num  DRG grouper version used on discharge date
+MA  2017 CORE              26 DSHOSPID                          62   78   Char Data source hospital identifier
+MA  2017 CORE              27 DXPOA1                            79   79   Char Diagnosis 1, present on admission indicator
+MA  2017 CORE              28 DXPOA2                            80   80   Char Diagnosis 2, present on admission indicator
+MA  2017 CORE              29 DXPOA3                            81   81   Char Diagnosis 3, present on admission indicator
+MA  2017 CORE              30 DXPOA4                            82   82   Char Diagnosis 4, present on admission indicator
+MA  2017 CORE              31 DXPOA5                            83   83   Char Diagnosis 5, present on admission indicator
+MA  2017 CORE              32 DXPOA6                            84   84   Char Diagnosis 6, present on admission indicator
+MA  2017 CORE              33 DXPOA7                            85   85   Char Diagnosis 7, present on admission indicator
+MA  2017 CORE              34 DXPOA8                            86   86   Char Diagnosis 8, present on admission indicator
+MA  2017 CORE              35 DXPOA9                            87   87   Char Diagnosis 9, present on admission indicator
+MA  2017 CORE              36 DXPOA10                           88   88   Char Diagnosis 10, present on admission indicator
+MA  2017 CORE              37 DXPOA11                           89   89   Char Diagnosis 11, present on admission indicator
+MA  2017 CORE              38 DXPOA12                           90   90   Char Diagnosis 12, present on admission indicator
+MA  2017 CORE              39 DXPOA13                           91   91   Char Diagnosis 13, present on admission indicator
+MA  2017 CORE              40 DXPOA14                           92   92   Char Diagnosis 14, present on admission indicator
+MA  2017 CORE              41 DXPOA15                           93   93   Char Diagnosis 15, present on admission indicator
+MA  2017 CORE              42 DXPOA16                           94   94   Char Diagnosis 16, present on admission indicator
+MA  2017 CORE              43 DXPOA17                           95   95   Char Diagnosis 17, present on admission indicator
+MA  2017 CORE              44 DXPOA18                           96   96   Char Diagnosis 18, present on admission indicator
+MA  2017 CORE              45 DXPOA19                           97   97   Char Diagnosis 19, present on admission indicator
+MA  2017 CORE              46 DXPOA20                           98   98   Char Diagnosis 20, present on admission indicator
+MA  2017 CORE              47 DXPOA21                           99   99   Char Diagnosis 21, present on admission indicator
+MA  2017 CORE              48 DXPOA22                          100  100   Char Diagnosis 22, present on admission indicator
+MA  2017 CORE              49 DXPOA23                          101  101   Char Diagnosis 23, present on admission indicator
+MA  2017 CORE              50 DXPOA24                          102  102   Char Diagnosis 24, present on admission indicator
+MA  2017 CORE              51 DXPOA25                          103  103   Char Diagnosis 25, present on admission indicator
+MA  2017 CORE              52 DXPOA26                          104  104   Char Diagnosis 26, present on admission indicator
+MA  2017 CORE              53 DXPOA27                          105  105   Char Diagnosis 27, present on admission indicator
+MA  2017 CORE              54 DXPOA28                          106  106   Char Diagnosis 28, present on admission indicator
+MA  2017 CORE              55 DXPOA29                          107  107   Char Diagnosis 29, present on admission indicator
+MA  2017 CORE              56 DXPOA30                          108  108   Char Diagnosis 30, present on admission indicator
+MA  2017 CORE              57 DXPOA31                          109  109   Char Diagnosis 31, present on admission indicator
+MA  2017 CORE              58 DXPOA32                          110  110   Char Diagnosis 32, present on admission indicator
+MA  2017 CORE              59 DXPOA33                          111  111   Char Diagnosis 33, present on admission indicator
+MA  2017 CORE              60 DXPOA34                          112  112   Char Diagnosis 34, present on admission indicator
+MA  2017 CORE              61 DXPOA35                          113  113   Char Diagnosis 35, present on admission indicator
+MA  2017 CORE              62 DXPOA36                          114  114   Char Diagnosis 36, present on admission indicator
+MA  2017 CORE              63 DXPOA37                          115  115   Char Diagnosis 37, present on admission indicator
+MA  2017 CORE              64 DXPOA38                          116  116   Char Diagnosis 38, present on admission indicator
+MA  2017 CORE              65 DXPOA39                          117  117   Char Diagnosis 39, present on admission indicator
+MA  2017 CORE              66 DXPOA40                          118  118   Char Diagnosis 40, present on admission indicator
+MA  2017 CORE              67 DXPOA41                          119  119   Char Diagnosis 41, present on admission indicator
+MA  2017 CORE              68 DXPOA42                          120  120   Char Diagnosis 42, present on admission indicator
+MA  2017 CORE              69 DXPOA43                          121  121   Char Diagnosis 43, present on admission indicator
+MA  2017 CORE              70 DXPOA44                          122  122   Char Diagnosis 44, present on admission indicator
+MA  2017 CORE              71 DXPOA45                          123  123   Char Diagnosis 45, present on admission indicator
+MA  2017 CORE              72 DXPOA46                          124  124   Char Diagnosis 46, present on admission indicator
+MA  2017 CORE              73 DXPOA47                          125  125   Char Diagnosis 47, present on admission indicator
+MA  2017 CORE              74 DXPOA48                          126  126   Char Diagnosis 48, present on admission indicator
+MA  2017 CORE              75 DXPOA49                          127  127   Char Diagnosis 49, present on admission indicator
+MA  2017 CORE              76 DXPOA50                          128  128   Char Diagnosis 50, present on admission indicator
+MA  2017 CORE              77 DXPOA51                          129  129   Char Diagnosis 51, present on admission indicator
+MA  2017 CORE              78 DXPOA52                          130  130   Char Diagnosis 52, present on admission indicator
+MA  2017 CORE              79 DXPOA53                          131  131   Char Diagnosis 53, present on admission indicator
+MA  2017 CORE              80 DXPOA54                          132  132   Char Diagnosis 54, present on admission indicator
+MA  2017 CORE              81 DXPOA55                          133  133   Char Diagnosis 55, present on admission indicator
+MA  2017 CORE              82 DXPOA56                          134  134   Char Diagnosis 56, present on admission indicator
+MA  2017 CORE              83 DXPOA57                          135  135   Char Diagnosis 57, present on admission indicator
+MA  2017 CORE              84 DXPOA58                          136  136   Char Diagnosis 58, present on admission indicator
+MA  2017 CORE              85 DXPOA59                          137  137   Char Diagnosis 59, present on admission indicator
+MA  2017 CORE              86 DXPOA60                          138  138   Char Diagnosis 60, present on admission indicator
+MA  2017 CORE              87 DXPOA61                          139  139   Char Diagnosis 61, present on admission indicator
+MA  2017 CORE              88 DXPOA62                          140  140   Char Diagnosis 62, present on admission indicator
+MA  2017 CORE              89 DXPOA63                          141  141   Char Diagnosis 63, present on admission indicator
+MA  2017 CORE              90 DXPOA64                          142  142   Char Diagnosis 64, present on admission indicator
+MA  2017 CORE              91 DXPOA65                          143  143   Char Diagnosis 65, present on admission indicator
+MA  2017 CORE              92 DXPOA66                          144  144   Char Diagnosis 66, present on admission indicator
+MA  2017 CORE              93 DXPOA67                          145  145   Char Diagnosis 67, present on admission indicator
+MA  2017 CORE              94 DXPOA68                          146  146   Char Diagnosis 68, present on admission indicator
+MA  2017 CORE              95 DXPOA69                          147  147   Char Diagnosis 69, present on admission indicator
+MA  2017 CORE              96 DXPOA70                          148  148   Char Diagnosis 70, present on admission indicator
+MA  2017 CORE              97 DXPOA71                          149  149   Char Diagnosis 71, present on admission indicator
+MA  2017 CORE              98 DXPOA72                          150  150   Char Diagnosis 72, present on admission indicator
+MA  2017 CORE              99 DXPOA73                          151  151   Char Diagnosis 73, present on admission indicator
+MA  2017 CORE             100 DXPOA74                          152  152   Char Diagnosis 74, present on admission indicator
+MA  2017 CORE             101 DXPOA75                          153  153   Char Diagnosis 75, present on admission indicator
+MA  2017 CORE             102 DXPOA76                          154  154   Char Diagnosis 76, present on admission indicator
+MA  2017 CORE             103 DXPOA77                          155  155   Char Diagnosis 77, present on admission indicator
+MA  2017 CORE             104 DXPOA78                          156  156   Char Diagnosis 78, present on admission indicator
+MA  2017 CORE             105 DXPOA79                          157  157   Char Diagnosis 79, present on admission indicator
+MA  2017 CORE             106 DXPOA80                          158  158   Char Diagnosis 80, present on admission indicator
+MA  2017 CORE             107 DXPOA81                          159  159   Char Diagnosis 81, present on admission indicator
+MA  2017 CORE             108 DXPOA82                          160  160   Char Diagnosis 82, present on admission indicator
+MA  2017 CORE             109 DXPOA83                          161  161   Char Diagnosis 83, present on admission indicator
+MA  2017 CORE             110 DXPOA84                          162  162   Char Diagnosis 84, present on admission indicator
+MA  2017 CORE             111 DXPOA85                          163  163   Char Diagnosis 85, present on admission indicator
+MA  2017 CORE             112 DXPOA86                          164  164   Char Diagnosis 86, present on admission indicator
+MA  2017 CORE             113 DXPOA87                          165  165   Char Diagnosis 87, present on admission indicator
+MA  2017 CORE             114 DXPOA88                          166  166   Char Diagnosis 88, present on admission indicator
+MA  2017 CORE             115 DXPOA89                          167  167   Char Diagnosis 89, present on admission indicator
+MA  2017 CORE             116 DXPOA90                          168  168   Char Diagnosis 90, present on admission indicator
+MA  2017 CORE             117 DXPOA91                          169  169   Char Diagnosis 91, present on admission indicator
+MA  2017 CORE             118 DXPOA92                          170  170   Char Diagnosis 92, present on admission indicator
+MA  2017 CORE             119 DXPOA93                          171  171   Char Diagnosis 93, present on admission indicator
+MA  2017 CORE             120 DXPOA94                          172  172   Char Diagnosis 94, present on admission indicator
+MA  2017 CORE             121 DXPOA95                          173  173   Char Diagnosis 95, present on admission indicator
+MA  2017 CORE             122 DXPOA96                          174  174   Char Diagnosis 96, present on admission indicator
+MA  2017 CORE             123 DXPOA97                          175  175   Char Diagnosis 97, present on admission indicator
+MA  2017 CORE             124 DXPOA98                          176  176   Char Diagnosis 98, present on admission indicator
+MA  2017 CORE             125 DXPOA99                          177  177   Char Diagnosis 99, present on admission indicator
+MA  2017 CORE             126 DXPOA100                         178  178   Char Diagnosis 100, present on admission indicator
+MA  2017 CORE             127 DXPOA101                         179  179   Char Diagnosis 101, present on admission indicator
+MA  2017 CORE             128 DXPOA102                         180  180   Char Diagnosis 102, present on admission indicator
+MA  2017 CORE             129 DXPOA103                         181  181   Char Diagnosis 103, present on admission indicator
+MA  2017 CORE             130 DXPOA104                         182  182   Char Diagnosis 104, present on admission indicator
+MA  2017 CORE             131 DXPOA105                         183  183   Char Diagnosis 105, present on admission indicator
+MA  2017 CORE             132 DXPOA106                         184  184   Char Diagnosis 106, present on admission indicator
+MA  2017 CORE             133 DXPOA107                         185  185   Char Diagnosis 107, present on admission indicator
+MA  2017 CORE             134 DXPOA108                         186  186   Char Diagnosis 108, present on admission indicator
+MA  2017 CORE             135 DXVER                            187  189   Num  Diagnosis Version
+MA  2017 CORE             136 FEMALE                           190  191   Num  Indicator of sex
+MA  2017 CORE             137 HCUP_ED                          192  193   Num  HCUP Emergency Department service indicator
+MA  2017 CORE             138 HCUP_OS                          194  195   Num  HCUP Observation Stay service indicator
+MA  2017 CORE             139 HISPANIC                         196  197   Num  Hispanic ethnicity (uniform)
+MA  2017 CORE             140 HISPANIC_X                       198  212   Char Hispanic ethnicity (as received from source)
+MA  2017 CORE             141 Homeless                         213  214   Num  Indicator that patient is homeless
+MA  2017 CORE             142 HOSPST                           215  216   Char Hospital state postal code
+MA  2017 CORE             143 I10_DX_Admitting                 217  223   Char ICD-10-CM Admitting Diagnosis Code
+MA  2017 CORE             144 I10_DX1                          224  230   Char ICD-10-CM Diagnosis 1
+MA  2017 CORE             145 I10_DX2                          231  237   Char ICD-10-CM Diagnosis 2
+MA  2017 CORE             146 I10_DX3                          238  244   Char ICD-10-CM Diagnosis 3
+MA  2017 CORE             147 I10_DX4                          245  251   Char ICD-10-CM Diagnosis 4
+MA  2017 CORE             148 I10_DX5                          252  258   Char ICD-10-CM Diagnosis 5
+MA  2017 CORE             149 I10_DX6                          259  265   Char ICD-10-CM Diagnosis 6
+MA  2017 CORE             150 I10_DX7                          266  272   Char ICD-10-CM Diagnosis 7
+MA  2017 CORE             151 I10_DX8                          273  279   Char ICD-10-CM Diagnosis 8
+MA  2017 CORE             152 I10_DX9                          280  286   Char ICD-10-CM Diagnosis 9
+MA  2017 CORE             153 I10_DX10                         287  293   Char ICD-10-CM Diagnosis 10
+MA  2017 CORE             154 I10_DX11                         294  300   Char ICD-10-CM Diagnosis 11
+MA  2017 CORE             155 I10_DX12                         301  307   Char ICD-10-CM Diagnosis 12
+MA  2017 CORE             156 I10_DX13                         308  314   Char ICD-10-CM Diagnosis 13
+MA  2017 CORE             157 I10_DX14                         315  321   Char ICD-10-CM Diagnosis 14
+MA  2017 CORE             158 I10_DX15                         322  328   Char ICD-10-CM Diagnosis 15
+MA  2017 CORE             159 I10_DX16                         329  335   Char ICD-10-CM Diagnosis 16
+MA  2017 CORE             160 I10_DX17                         336  342   Char ICD-10-CM Diagnosis 17
+MA  2017 CORE             161 I10_DX18                         343  349   Char ICD-10-CM Diagnosis 18
+MA  2017 CORE             162 I10_DX19                         350  356   Char ICD-10-CM Diagnosis 19
+MA  2017 CORE             163 I10_DX20                         357  363   Char ICD-10-CM Diagnosis 20
+MA  2017 CORE             164 I10_DX21                         364  370   Char ICD-10-CM Diagnosis 21
+MA  2017 CORE             165 I10_DX22                         371  377   Char ICD-10-CM Diagnosis 22
+MA  2017 CORE             166 I10_DX23                         378  384   Char ICD-10-CM Diagnosis 23
+MA  2017 CORE             167 I10_DX24                         385  391   Char ICD-10-CM Diagnosis 24
+MA  2017 CORE             168 I10_DX25                         392  398   Char ICD-10-CM Diagnosis 25
+MA  2017 CORE             169 I10_DX26                         399  405   Char ICD-10-CM Diagnosis 26
+MA  2017 CORE             170 I10_DX27                         406  412   Char ICD-10-CM Diagnosis 27
+MA  2017 CORE             171 I10_DX28                         413  419   Char ICD-10-CM Diagnosis 28
+MA  2017 CORE             172 I10_DX29                         420  426   Char ICD-10-CM Diagnosis 29
+MA  2017 CORE             173 I10_DX30                         427  433   Char ICD-10-CM Diagnosis 30
+MA  2017 CORE             174 I10_DX31                         434  440   Char ICD-10-CM Diagnosis 31
+MA  2017 CORE             175 I10_DX32                         441  447   Char ICD-10-CM Diagnosis 32
+MA  2017 CORE             176 I10_DX33                         448  454   Char ICD-10-CM Diagnosis 33
+MA  2017 CORE             177 I10_DX34                         455  461   Char ICD-10-CM Diagnosis 34
+MA  2017 CORE             178 I10_DX35                         462  468   Char ICD-10-CM Diagnosis 35
+MA  2017 CORE             179 I10_DX36                         469  475   Char ICD-10-CM Diagnosis 36
+MA  2017 CORE             180 I10_DX37                         476  482   Char ICD-10-CM Diagnosis 37
+MA  2017 CORE             181 I10_DX38                         483  489   Char ICD-10-CM Diagnosis 38
+MA  2017 CORE             182 I10_DX39                         490  496   Char ICD-10-CM Diagnosis 39
+MA  2017 CORE             183 I10_DX40                         497  503   Char ICD-10-CM Diagnosis 40
+MA  2017 CORE             184 I10_DX41                         504  510   Char ICD-10-CM Diagnosis 41
+MA  2017 CORE             185 I10_DX42                         511  517   Char ICD-10-CM Diagnosis 42
+MA  2017 CORE             186 I10_DX43                         518  524   Char ICD-10-CM Diagnosis 43
+MA  2017 CORE             187 I10_DX44                         525  531   Char ICD-10-CM Diagnosis 44
+MA  2017 CORE             188 I10_DX45                         532  538   Char ICD-10-CM Diagnosis 45
+MA  2017 CORE             189 I10_DX46                         539  545   Char ICD-10-CM Diagnosis 46
+MA  2017 CORE             190 I10_DX47                         546  552   Char ICD-10-CM Diagnosis 47
+MA  2017 CORE             191 I10_DX48                         553  559   Char ICD-10-CM Diagnosis 48
+MA  2017 CORE             192 I10_DX49                         560  566   Char ICD-10-CM Diagnosis 49
+MA  2017 CORE             193 I10_DX50                         567  573   Char ICD-10-CM Diagnosis 50
+MA  2017 CORE             194 I10_DX51                         574  580   Char ICD-10-CM Diagnosis 51
+MA  2017 CORE             195 I10_DX52                         581  587   Char ICD-10-CM Diagnosis 52
+MA  2017 CORE             196 I10_DX53                         588  594   Char ICD-10-CM Diagnosis 53
+MA  2017 CORE             197 I10_DX54                         595  601   Char ICD-10-CM Diagnosis 54
+MA  2017 CORE             198 I10_DX55                         602  608   Char ICD-10-CM Diagnosis 55
+MA  2017 CORE             199 I10_DX56                         609  615   Char ICD-10-CM Diagnosis 56
+MA  2017 CORE             200 I10_DX57                         616  622   Char ICD-10-CM Diagnosis 57
+MA  2017 CORE             201 I10_DX58                         623  629   Char ICD-10-CM Diagnosis 58
+MA  2017 CORE             202 I10_DX59                         630  636   Char ICD-10-CM Diagnosis 59
+MA  2017 CORE             203 I10_DX60                         637  643   Char ICD-10-CM Diagnosis 60
+MA  2017 CORE             204 I10_DX61                         644  650   Char ICD-10-CM Diagnosis 61
+MA  2017 CORE             205 I10_DX62                         651  657   Char ICD-10-CM Diagnosis 62
+MA  2017 CORE             206 I10_DX63                         658  664   Char ICD-10-CM Diagnosis 63
+MA  2017 CORE             207 I10_DX64                         665  671   Char ICD-10-CM Diagnosis 64
+MA  2017 CORE             208 I10_DX65                         672  678   Char ICD-10-CM Diagnosis 65
+MA  2017 CORE             209 I10_DX66                         679  685   Char ICD-10-CM Diagnosis 66
+MA  2017 CORE             210 I10_DX67                         686  692   Char ICD-10-CM Diagnosis 67
+MA  2017 CORE             211 I10_DX68                         693  699   Char ICD-10-CM Diagnosis 68
+MA  2017 CORE             212 I10_DX69                         700  706   Char ICD-10-CM Diagnosis 69
+MA  2017 CORE             213 I10_DX70                         707  713   Char ICD-10-CM Diagnosis 70
+MA  2017 CORE             214 I10_DX71                         714  720   Char ICD-10-CM Diagnosis 71
+MA  2017 CORE             215 I10_DX72                         721  727   Char ICD-10-CM Diagnosis 72
+MA  2017 CORE             216 I10_DX73                         728  734   Char ICD-10-CM Diagnosis 73
+MA  2017 CORE             217 I10_DX74                         735  741   Char ICD-10-CM Diagnosis 74
+MA  2017 CORE             218 I10_DX75                         742  748   Char ICD-10-CM Diagnosis 75
+MA  2017 CORE             219 I10_DX76                         749  755   Char ICD-10-CM Diagnosis 76
+MA  2017 CORE             220 I10_DX77                         756  762   Char ICD-10-CM Diagnosis 77
+MA  2017 CORE             221 I10_DX78                         763  769   Char ICD-10-CM Diagnosis 78
+MA  2017 CORE             222 I10_DX79                         770  776   Char ICD-10-CM Diagnosis 79
+MA  2017 CORE             223 I10_DX80                         777  783   Char ICD-10-CM Diagnosis 80
+MA  2017 CORE             224 I10_DX81                         784  790   Char ICD-10-CM Diagnosis 81
+MA  2017 CORE             225 I10_DX82                         791  797   Char ICD-10-CM Diagnosis 82
+MA  2017 CORE             226 I10_DX83                         798  804   Char ICD-10-CM Diagnosis 83
+MA  2017 CORE             227 I10_DX84                         805  811   Char ICD-10-CM Diagnosis 84
+MA  2017 CORE             228 I10_DX85                         812  818   Char ICD-10-CM Diagnosis 85
+MA  2017 CORE             229 I10_DX86                         819  825   Char ICD-10-CM Diagnosis 86
+MA  2017 CORE             230 I10_DX87                         826  832   Char ICD-10-CM Diagnosis 87
+MA  2017 CORE             231 I10_DX88                         833  839   Char ICD-10-CM Diagnosis 88
+MA  2017 CORE             232 I10_DX89                         840  846   Char ICD-10-CM Diagnosis 89
+MA  2017 CORE             233 I10_DX90                         847  853   Char ICD-10-CM Diagnosis 90
+MA  2017 CORE             234 I10_DX91                         854  860   Char ICD-10-CM Diagnosis 91
+MA  2017 CORE             235 I10_DX92                         861  867   Char ICD-10-CM Diagnosis 92
+MA  2017 CORE             236 I10_DX93                         868  874   Char ICD-10-CM Diagnosis 93
+MA  2017 CORE             237 I10_DX94                         875  881   Char ICD-10-CM Diagnosis 94
+MA  2017 CORE             238 I10_DX95                         882  888   Char ICD-10-CM Diagnosis 95
+MA  2017 CORE             239 I10_DX96                         889  895   Char ICD-10-CM Diagnosis 96
+MA  2017 CORE             240 I10_DX97                         896  902   Char ICD-10-CM Diagnosis 97
+MA  2017 CORE             241 I10_DX98                         903  909   Char ICD-10-CM Diagnosis 98
+MA  2017 CORE             242 I10_DX99                         910  916   Char ICD-10-CM Diagnosis 99
+MA  2017 CORE             243 I10_DX100                        917  923   Char ICD-10-CM Diagnosis 100
+MA  2017 CORE             244 I10_DX101                        924  930   Char ICD-10-CM Diagnosis 101
+MA  2017 CORE             245 I10_DX102                        931  937   Char ICD-10-CM Diagnosis 102
+MA  2017 CORE             246 I10_DX103                        938  944   Char ICD-10-CM Diagnosis 103
+MA  2017 CORE             247 I10_DX104                        945  951   Char ICD-10-CM Diagnosis 104
+MA  2017 CORE             248 I10_DX105                        952  958   Char ICD-10-CM Diagnosis 105
+MA  2017 CORE             249 I10_DX106                        959  965   Char ICD-10-CM Diagnosis 106
+MA  2017 CORE             250 I10_DX107                        966  972   Char ICD-10-CM Diagnosis 107
+MA  2017 CORE             251 I10_DX108                        973  979   Char ICD-10-CM Diagnosis 108
+MA  2017 CORE             252 I10_NDX                          980  982   Num  ICD-10-CM Number of diagnoses on this record
+MA  2017 CORE             253 I10_NPR                          983  985   Num  ICD-10-PCS Number of procedures on this record
+MA  2017 CORE             254 I10_PR1                          986  992   Char ICD-10-PCS Procedure 1
+MA  2017 CORE             255 I10_PR2                          993  999   Char ICD-10-PCS Procedure 2
+MA  2017 CORE             256 I10_PR3                         1000 1006   Char ICD-10-PCS Procedure 3
+MA  2017 CORE             257 I10_PR4                         1007 1013   Char ICD-10-PCS Procedure 4
+MA  2017 CORE             258 I10_PR5                         1014 1020   Char ICD-10-PCS Procedure 5
+MA  2017 CORE             259 I10_PR6                         1021 1027   Char ICD-10-PCS Procedure 6
+MA  2017 CORE             260 I10_PR7                         1028 1034   Char ICD-10-PCS Procedure 7
+MA  2017 CORE             261 I10_PR8                         1035 1041   Char ICD-10-PCS Procedure 8
+MA  2017 CORE             262 I10_PR9                         1042 1048   Char ICD-10-PCS Procedure 9
+MA  2017 CORE             263 I10_PR10                        1049 1055   Char ICD-10-PCS Procedure 10
+MA  2017 CORE             264 I10_PR11                        1056 1062   Char ICD-10-PCS Procedure 11
+MA  2017 CORE             265 I10_PR12                        1063 1069   Char ICD-10-PCS Procedure 12
+MA  2017 CORE             266 I10_PR13                        1070 1076   Char ICD-10-PCS Procedure 13
+MA  2017 CORE             267 I10_PR14                        1077 1083   Char ICD-10-PCS Procedure 14
+MA  2017 CORE             268 I10_PR15                        1084 1090   Char ICD-10-PCS Procedure 15
+MA  2017 CORE             269 I10_PR16                        1091 1097   Char ICD-10-PCS Procedure 16
+MA  2017 CORE             270 I10_PR17                        1098 1104   Char ICD-10-PCS Procedure 17
+MA  2017 CORE             271 I10_PR18                        1105 1111   Char ICD-10-PCS Procedure 18
+MA  2017 CORE             272 I10_PR19                        1112 1118   Char ICD-10-PCS Procedure 19
+MA  2017 CORE             273 I10_PR20                        1119 1125   Char ICD-10-PCS Procedure 20
+MA  2017 CORE             274 I10_PR21                        1126 1132   Char ICD-10-PCS Procedure 21
+MA  2017 CORE             275 I10_PR22                        1133 1139   Char ICD-10-PCS Procedure 22
+MA  2017 CORE             276 I10_PR23                        1140 1146   Char ICD-10-PCS Procedure 23
+MA  2017 CORE             277 I10_PR24                        1147 1153   Char ICD-10-PCS Procedure 24
+MA  2017 CORE             278 I10_PR25                        1154 1160   Char ICD-10-PCS Procedure 25
+MA  2017 CORE             279 I10_PR26                        1161 1167   Char ICD-10-PCS Procedure 26
+MA  2017 CORE             280 I10_PR27                        1168 1174   Char ICD-10-PCS Procedure 27
+MA  2017 CORE             281 I10_PR28                        1175 1181   Char ICD-10-PCS Procedure 28
+MA  2017 CORE             282 I10_PR29                        1182 1188   Char ICD-10-PCS Procedure 29
+MA  2017 CORE             283 I10_PR30                        1189 1195   Char ICD-10-PCS Procedure 30
+MA  2017 CORE             284 I10_PR31                        1196 1202   Char ICD-10-PCS Procedure 31
+MA  2017 CORE             285 I10_PR32                        1203 1209   Char ICD-10-PCS Procedure 32
+MA  2017 CORE             286 I10_PR33                        1210 1216   Char ICD-10-PCS Procedure 33
+MA  2017 CORE             287 I10_PR34                        1217 1223   Char ICD-10-PCS Procedure 34
+MA  2017 CORE             288 I10_PR35                        1224 1230   Char ICD-10-PCS Procedure 35
+MA  2017 CORE             289 I10_PR36                        1231 1237   Char ICD-10-PCS Procedure 36
+MA  2017 CORE             290 I10_PR37                        1238 1244   Char ICD-10-PCS Procedure 37
+MA  2017 CORE             291 I10_PR38                        1245 1251   Char ICD-10-PCS Procedure 38
+MA  2017 CORE             292 I10_PR39                        1252 1258   Char ICD-10-PCS Procedure 39
+MA  2017 CORE             293 I10_PR40                        1259 1265   Char ICD-10-PCS Procedure 40
+MA  2017 CORE             294 I10_PR41                        1266 1272   Char ICD-10-PCS Procedure 41
+MA  2017 CORE             295 I10_PR42                        1273 1279   Char ICD-10-PCS Procedure 42
+MA  2017 CORE             296 I10_PR43                        1280 1286   Char ICD-10-PCS Procedure 43
+MA  2017 CORE             297 I10_PR44                        1287 1293   Char ICD-10-PCS Procedure 44
+MA  2017 CORE             298 I10_PR45                        1294 1300   Char ICD-10-PCS Procedure 45
+MA  2017 CORE             299 I10_PR46                        1301 1307   Char ICD-10-PCS Procedure 46
+MA  2017 CORE             300 I10_PR47                        1308 1314   Char ICD-10-PCS Procedure 47
+MA  2017 CORE             301 I10_PR48                        1315 1321   Char ICD-10-PCS Procedure 48
+MA  2017 CORE             302 I10_PR49                        1322 1328   Char ICD-10-PCS Procedure 49
+MA  2017 CORE             303 I10_PR50                        1329 1335   Char ICD-10-PCS Procedure 50
+MA  2017 CORE             304 I10_PR51                        1336 1342   Char ICD-10-PCS Procedure 51
+MA  2017 CORE             305 I10_PR52                        1343 1349   Char ICD-10-PCS Procedure 52
+MA  2017 CORE             306 I10_PR53                        1350 1356   Char ICD-10-PCS Procedure 53
+MA  2017 CORE             307 I10_PR54                        1357 1363   Char ICD-10-PCS Procedure 54
+MA  2017 CORE             308 I10_PR55                        1364 1370   Char ICD-10-PCS Procedure 55
+MA  2017 CORE             309 I10_PR56                        1371 1377   Char ICD-10-PCS Procedure 56
+MA  2017 CORE             310 I10_PR57                        1378 1384   Char ICD-10-PCS Procedure 57
+MA  2017 CORE             311 I10_PR58                        1385 1391   Char ICD-10-PCS Procedure 58
+MA  2017 CORE             312 I10_PR59                        1392 1398   Char ICD-10-PCS Procedure 59
+MA  2017 CORE             313 I10_PR60                        1399 1405   Char ICD-10-PCS Procedure 60
+MA  2017 CORE             314 I10_PR61                        1406 1412   Char ICD-10-PCS Procedure 61
+MA  2017 CORE             315 I10_PR62                        1413 1419   Char ICD-10-PCS Procedure 62
+MA  2017 CORE             316 I10_PR63                        1420 1426   Char ICD-10-PCS Procedure 63
+MA  2017 CORE             317 I10_PR64                        1427 1433   Char ICD-10-PCS Procedure 64
+MA  2017 CORE             318 I10_PR65                        1434 1440   Char ICD-10-PCS Procedure 65
+MA  2017 CORE             319 I10_PR66                        1441 1447   Char ICD-10-PCS Procedure 66
+MA  2017 CORE             320 I10_PR67                        1448 1454   Char ICD-10-PCS Procedure 67
+MA  2017 CORE             321 I10_PR68                        1455 1461   Char ICD-10-PCS Procedure 68
+MA  2017 CORE             322 I10_PR69                        1462 1468   Char ICD-10-PCS Procedure 69
+MA  2017 CORE             323 I10_PR70                        1469 1475   Char ICD-10-PCS Procedure 70
+MA  2017 CORE             324 I10_PR71                        1476 1482   Char ICD-10-PCS Procedure 71
+MA  2017 CORE             325 I10_PR72                        1483 1489   Char ICD-10-PCS Procedure 72
+MA  2017 CORE             326 I10_PR73                        1490 1496   Char ICD-10-PCS Procedure 73
+MA  2017 CORE             327 I10_PR74                        1497 1503   Char ICD-10-PCS Procedure 74
+MA  2017 CORE             328 I10_PR75                        1504 1510   Char ICD-10-PCS Procedure 75
+MA  2017 CORE             329 I10_PR76                        1511 1517   Char ICD-10-PCS Procedure 76
+MA  2017 CORE             330 I10_PR77                        1518 1524   Char ICD-10-PCS Procedure 77
+MA  2017 CORE             331 I10_PR78                        1525 1531   Char ICD-10-PCS Procedure 78
+MA  2017 CORE             332 I10_PR79                        1532 1538   Char ICD-10-PCS Procedure 79
+MA  2017 CORE             333 I10_PR80                        1539 1545   Char ICD-10-PCS Procedure 80
+MA  2017 CORE             334 I10_PR81                        1546 1552   Char ICD-10-PCS Procedure 81
+MA  2017 CORE             335 I10_PR82                        1553 1559   Char ICD-10-PCS Procedure 82
+MA  2017 CORE             336 I10_PR83                        1560 1566   Char ICD-10-PCS Procedure 83
+MA  2017 CORE             337 I10_PR84                        1567 1573   Char ICD-10-PCS Procedure 84
+MA  2017 CORE             338 I10_PR85                        1574 1580   Char ICD-10-PCS Procedure 85
+MA  2017 CORE             339 I10_PR86                        1581 1587   Char ICD-10-PCS Procedure 86
+MA  2017 CORE             340 I10_PR87                        1588 1594   Char ICD-10-PCS Procedure 87
+MA  2017 CORE             341 I10_PR88                        1595 1601   Char ICD-10-PCS Procedure 88
+MA  2017 CORE             342 I10_PR89                        1602 1608   Char ICD-10-PCS Procedure 89
+MA  2017 CORE             343 I10_PR90                        1609 1615   Char ICD-10-PCS Procedure 90
+MA  2017 CORE             344 I10_PROCTYPE                    1616 1618   Num  ICD-10-PCS Procedure type indicator
+MA  2017 CORE             345 KEY                             1619 1633   Num  HCUP record identifier
+MA  2017 CORE             346 LOS                             1634 1638   Num  Length of stay (cleaned)
+MA  2017 CORE             347 LOS_X                           1639 1644   Num  Length of stay (as received from source)
+MA  2017 CORE             348 MDC                             1645 1646   Num  MDC in effect on discharge date
+MA  2017 CORE             349 MDC_NoPOA                       1647 1648   Num  MDC in use on discharge date, calculated without POA
+MA  2017 CORE             350 MEDINCSTQ                       1649 1650   Num  Median household income state quartile for patient ZIP Code
+MA  2017 CORE             351 OS_TIME                         1651 1661 2 Num  Observation stay time summed from UNITS
+MA  2017 CORE             352 PAY1                            1662 1663   Num  Primary expected payer (uniform)
+MA  2017 CORE             353 PAY1_X                          1664 1664   Char Primary expected payer (as received from source)
+MA  2017 CORE             354 PAY2                            1665 1666   Num  Secondary expected payer (uniform)
+MA  2017 CORE             355 PAY2_X                          1667 1667   Char Secondary expected payer (as received from source)
+MA  2017 CORE             356 PAYER1_X                        1668 1670   Char Primary expected payer plan identifier (as received from source)
+MA  2017 CORE             357 PAYER2_X                        1671 1673   Char Secondary expected payer plan identifier (as received from source)
+MA  2017 CORE             358 PL_CBSA                         1674 1676   Num  Patient location: Core Based Statistical Area (CBSA)
+MA  2017 CORE             359 PL_UR_CAT4                      1677 1678   Num  Patient Location: Urban-Rural 4 Categories
+MA  2017 CORE             360 POA_Disch_Edit1                 1679 1680   Num  Discharge has POA missing on all nonexempt diagnoses
+MA  2017 CORE             361 POA_Disch_Edit2                 1681 1682   Num  Discharge has POA missing on all nonexempt secondary diagnoses
+MA  2017 CORE             362 POA_Hosp_Edit1                  1683 1684   Num  Hospital reported POA as Y on all diagnoses on all discharges
+MA  2017 CORE             363 POA_Hosp_Edit2                  1685 1686   Num  Hospital reported POA as missing on all non-Medicare discharges
+MA  2017 CORE             364 POA_Hosp_Edit3                  1687 1688   Num  Hospital reported POA as missing on all nonexempt diagnoses for 15% or more of discharges
+MA  2017 CORE             365 POA_Hosp_Edit3_Value            1689 1696 2 Num  Percentage of discharges with all nonexempt diagnoses missing POA indicators
+MA  2017 CORE             366 PRDAY1                          1697 1701   Num  Number of days from admission to I10_PR1
+MA  2017 CORE             367 PRDAY2                          1702 1706   Num  Number of days from admission to I10_PR2
+MA  2017 CORE             368 PRDAY3                          1707 1711   Num  Number of days from admission to I10_PR3
+MA  2017 CORE             369 PRDAY4                          1712 1716   Num  Number of days from admission to I10_PR4
+MA  2017 CORE             370 PRDAY5                          1717 1721   Num  Number of days from admission to I10_PR5
+MA  2017 CORE             371 PRDAY6                          1722 1726   Num  Number of days from admission to I10_PR6
+MA  2017 CORE             372 PRDAY7                          1727 1731   Num  Number of days from admission to I10_PR7
+MA  2017 CORE             373 PRDAY8                          1732 1736   Num  Number of days from admission to I10_PR8
+MA  2017 CORE             374 PRDAY9                          1737 1741   Num  Number of days from admission to I10_PR9
+MA  2017 CORE             375 PRDAY10                         1742 1746   Num  Number of days from admission to I10_PR10
+MA  2017 CORE             376 PRDAY11                         1747 1751   Num  Number of days from admission to I10_PR11
+MA  2017 CORE             377 PRDAY12                         1752 1756   Num  Number of days from admission to I10_PR12
+MA  2017 CORE             378 PRDAY13                         1757 1761   Num  Number of days from admission to I10_PR13
+MA  2017 CORE             379 PRDAY14                         1762 1766   Num  Number of days from admission to I10_PR14
+MA  2017 CORE             380 PRDAY15                         1767 1771   Num  Number of days from admission to I10_PR15
+MA  2017 CORE             381 PRDAY16                         1772 1776   Num  Number of days from admission to I10_PR16
+MA  2017 CORE             382 PRDAY17                         1777 1781   Num  Number of days from admission to I10_PR17
+MA  2017 CORE             383 PRDAY18                         1782 1786   Num  Number of days from admission to I10_PR18
+MA  2017 CORE             384 PRDAY19                         1787 1791   Num  Number of days from admission to I10_PR19
+MA  2017 CORE             385 PRDAY20                         1792 1796   Num  Number of days from admission to I10_PR20
+MA  2017 CORE             386 PRDAY21                         1797 1801   Num  Number of days from admission to I10_PR21
+MA  2017 CORE             387 PRDAY22                         1802 1806   Num  Number of days from admission to I10_PR22
+MA  2017 CORE             388 PRDAY23                         1807 1811   Num  Number of days from admission to I10_PR23
+MA  2017 CORE             389 PRDAY24                         1812 1816   Num  Number of days from admission to I10_PR24
+MA  2017 CORE             390 PRDAY25                         1817 1821   Num  Number of days from admission to I10_PR25
+MA  2017 CORE             391 PRDAY26                         1822 1826   Num  Number of days from admission to I10_PR26
+MA  2017 CORE             392 PRDAY27                         1827 1831   Num  Number of days from admission to I10_PR27
+MA  2017 CORE             393 PRDAY28                         1832 1836   Num  Number of days from admission to I10_PR28
+MA  2017 CORE             394 PRDAY29                         1837 1841   Num  Number of days from admission to I10_PR29
+MA  2017 CORE             395 PRDAY30                         1842 1846   Num  Number of days from admission to I10_PR30
+MA  2017 CORE             396 PRDAY31                         1847 1851   Num  Number of days from admission to I10_PR31
+MA  2017 CORE             397 PRDAY32                         1852 1856   Num  Number of days from admission to I10_PR32
+MA  2017 CORE             398 PRDAY33                         1857 1861   Num  Number of days from admission to I10_PR33
+MA  2017 CORE             399 PRDAY34                         1862 1866   Num  Number of days from admission to I10_PR34
+MA  2017 CORE             400 PRDAY35                         1867 1871   Num  Number of days from admission to I10_PR35
+MA  2017 CORE             401 PRDAY36                         1872 1876   Num  Number of days from admission to I10_PR36
+MA  2017 CORE             402 PRDAY37                         1877 1881   Num  Number of days from admission to I10_PR37
+MA  2017 CORE             403 PRDAY38                         1882 1886   Num  Number of days from admission to I10_PR38
+MA  2017 CORE             404 PRDAY39                         1887 1891   Num  Number of days from admission to I10_PR39
+MA  2017 CORE             405 PRDAY40                         1892 1896   Num  Number of days from admission to I10_PR40
+MA  2017 CORE             406 PRDAY41                         1897 1901   Num  Number of days from admission to I10_PR41
+MA  2017 CORE             407 PRDAY42                         1902 1906   Num  Number of days from admission to I10_PR42
+MA  2017 CORE             408 PRDAY43                         1907 1911   Num  Number of days from admission to I10_PR43
+MA  2017 CORE             409 PRDAY44                         1912 1916   Num  Number of days from admission to I10_PR44
+MA  2017 CORE             410 PRDAY45                         1917 1921   Num  Number of days from admission to I10_PR45
+MA  2017 CORE             411 PRDAY46                         1922 1926   Num  Number of days from admission to I10_PR46
+MA  2017 CORE             412 PRDAY47                         1927 1931   Num  Number of days from admission to I10_PR47
+MA  2017 CORE             413 PRDAY48                         1932 1936   Num  Number of days from admission to I10_PR48
+MA  2017 CORE             414 PRDAY49                         1937 1941   Num  Number of days from admission to I10_PR49
+MA  2017 CORE             415 PRDAY50                         1942 1946   Num  Number of days from admission to I10_PR50
+MA  2017 CORE             416 PRDAY51                         1947 1951   Num  Number of days from admission to I10_PR51
+MA  2017 CORE             417 PRDAY52                         1952 1956   Num  Number of days from admission to I10_PR52
+MA  2017 CORE             418 PRDAY53                         1957 1961   Num  Number of days from admission to I10_PR53
+MA  2017 CORE             419 PRDAY54                         1962 1966   Num  Number of days from admission to I10_PR54
+MA  2017 CORE             420 PRDAY55                         1967 1971   Num  Number of days from admission to I10_PR55
+MA  2017 CORE             421 PRDAY56                         1972 1976   Num  Number of days from admission to I10_PR56
+MA  2017 CORE             422 PRDAY57                         1977 1981   Num  Number of days from admission to I10_PR57
+MA  2017 CORE             423 PRDAY58                         1982 1986   Num  Number of days from admission to I10_PR58
+MA  2017 CORE             424 PRDAY59                         1987 1991   Num  Number of days from admission to I10_PR59
+MA  2017 CORE             425 PRDAY60                         1992 1996   Num  Number of days from admission to I10_PR60
+MA  2017 CORE             426 PRDAY61                         1997 2001   Num  Number of days from admission to I10_PR61
+MA  2017 CORE             427 PRDAY62                         2002 2006   Num  Number of days from admission to I10_PR62
+MA  2017 CORE             428 PRDAY63                         2007 2011   Num  Number of days from admission to I10_PR63
+MA  2017 CORE             429 PRDAY64                         2012 2016   Num  Number of days from admission to I10_PR64
+MA  2017 CORE             430 PRDAY65                         2017 2021   Num  Number of days from admission to I10_PR65
+MA  2017 CORE             431 PRDAY66                         2022 2026   Num  Number of days from admission to I10_PR66
+MA  2017 CORE             432 PRDAY67                         2027 2031   Num  Number of days from admission to I10_PR67
+MA  2017 CORE             433 PRDAY68                         2032 2036   Num  Number of days from admission to I10_PR68
+MA  2017 CORE             434 PRDAY69                         2037 2041   Num  Number of days from admission to I10_PR69
+MA  2017 CORE             435 PRDAY70                         2042 2046   Num  Number of days from admission to I10_PR70
+MA  2017 CORE             436 PRDAY71                         2047 2051   Num  Number of days from admission to I10_PR71
+MA  2017 CORE             437 PRDAY72                         2052 2056   Num  Number of days from admission to I10_PR72
+MA  2017 CORE             438 PRDAY73                         2057 2061   Num  Number of days from admission to I10_PR73
+MA  2017 CORE             439 PRDAY74                         2062 2066   Num  Number of days from admission to I10_PR74
+MA  2017 CORE             440 PRDAY75                         2067 2071   Num  Number of days from admission to I10_PR75
+MA  2017 CORE             441 PRDAY76                         2072 2076   Num  Number of days from admission to I10_PR76
+MA  2017 CORE             442 PRDAY77                         2077 2081   Num  Number of days from admission to I10_PR77
+MA  2017 CORE             443 PRDAY78                         2082 2086   Num  Number of days from admission to I10_PR78
+MA  2017 CORE             444 PRDAY79                         2087 2091   Num  Number of days from admission to I10_PR79
+MA  2017 CORE             445 PRDAY80                         2092 2096   Num  Number of days from admission to I10_PR80
+MA  2017 CORE             446 PRDAY81                         2097 2101   Num  Number of days from admission to I10_PR81
+MA  2017 CORE             447 PRDAY82                         2102 2106   Num  Number of days from admission to I10_PR82
+MA  2017 CORE             448 PRDAY83                         2107 2111   Num  Number of days from admission to I10_PR83
+MA  2017 CORE             449 PRDAY84                         2112 2116   Num  Number of days from admission to I10_PR84
+MA  2017 CORE             450 PRDAY85                         2117 2121   Num  Number of days from admission to I10_PR85
+MA  2017 CORE             451 PRDAY86                         2122 2126   Num  Number of days from admission to I10_PR86
+MA  2017 CORE             452 PRDAY87                         2127 2131   Num  Number of days from admission to I10_PR87
+MA  2017 CORE             453 PRDAY88                         2132 2136   Num  Number of days from admission to I10_PR88
+MA  2017 CORE             454 PRDAY89                         2137 2141   Num  Number of days from admission to I10_PR89
+MA  2017 CORE             455 PRDAY90                         2142 2146   Num  Number of days from admission to I10_PR90
+MA  2017 CORE             456 PRVER                           2147 2149   Num  Procedure Version
+MA  2017 CORE             457 PSTATE                          2150 2151   Char Patient State postal code
+MA  2017 CORE             458 PSTCO2                          2152 2156   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+MA  2017 CORE             459 RACE                            2157 2158   Num  Race (uniform)
+MA  2017 CORE             460 RACE_EDIT                       2159 2160   Num  Race Edit Checks
+MA  2017 CORE             461 RACE_X                          2161 2173   Char Race (as received from source)
+MA  2017 CORE             462 TOTCHG                          2174 2183   Num  Total charges (cleaned)
+MA  2017 CORE             463 TOTCHG_X                        2184 2198 2 Num  Total charges (as received from source)
+MA  2017 CORE             464 TRAN_IN                         2199 2200   Num  Transfer in indicator
+MA  2017 CORE             465 TRAN_OUT                        2201 2202   Num  Transfer out indicator
+MA  2017 CORE             466 VisitLink                       2203 2211   Num  Visit linkage variable
+MA  2017 CORE             467 YEAR                            2212 2215   Num  Calendar year
+MA  2017 CORE             468 ZIP3                            2216 2218   Char Patient ZIP Code, first 3 digits
+MA  2017 CORE             469 ZIPINC_QRTL                     2219 2221   Num  Median household income national quartile for patient ZIP Code
+MA  2017 CORE             470 AYEAR                           2222 2225   Num  Admission year
+MA  2017 CORE             471 PRMONTH1                        2226 2227   Num  Month of procedure 1
+MA  2017 CORE             472 PRMONTH2                        2228 2229   Num  Month of procedure 2
+MA  2017 CORE             473 PRMONTH3                        2230 2231   Num  Month of procedure 3
+MA  2017 CORE             474 PRMONTH4                        2232 2233   Num  Month of procedure 4
+MA  2017 CORE             475 PRMONTH5                        2234 2235   Num  Month of procedure 5
+MA  2017 CORE             476 PRMONTH6                        2236 2237   Num  Month of procedure 6
+MA  2017 CORE             477 PRMONTH7                        2238 2239   Num  Month of procedure 7
+MA  2017 CORE             478 PRMONTH8                        2240 2241   Num  Month of procedure 8
+MA  2017 CORE             479 PRMONTH9                        2242 2243   Num  Month of procedure 9
+MA  2017 CORE             480 PRMONTH10                       2244 2245   Num  Month of procedure 10
+MA  2017 CORE             481 PRMONTH11                       2246 2247   Num  Month of procedure 11
+MA  2017 CORE             482 PRMONTH12                       2248 2249   Num  Month of procedure 12
+MA  2017 CORE             483 PRMONTH13                       2250 2251   Num  Month of procedure 13
+MA  2017 CORE             484 PRMONTH14                       2252 2253   Num  Month of procedure 14
+MA  2017 CORE             485 PRMONTH15                       2254 2255   Num  Month of procedure 15
+MA  2017 CORE             486 PRMONTH16                       2256 2257   Num  Month of procedure 16
+MA  2017 CORE             487 PRMONTH17                       2258 2259   Num  Month of procedure 17
+MA  2017 CORE             488 PRMONTH18                       2260 2261   Num  Month of procedure 18
+MA  2017 CORE             489 PRMONTH19                       2262 2263   Num  Month of procedure 19
+MA  2017 CORE             490 PRMONTH20                       2264 2265   Num  Month of procedure 20
+MA  2017 CORE             491 PRMONTH21                       2266 2267   Num  Month of procedure 21
+MA  2017 CORE             492 PRMONTH22                       2268 2269   Num  Month of procedure 22
+MA  2017 CORE             493 PRMONTH23                       2270 2271   Num  Month of procedure 23
+MA  2017 CORE             494 PRMONTH24                       2272 2273   Num  Month of procedure 24
+MA  2017 CORE             495 PRMONTH25                       2274 2275   Num  Month of procedure 25
+MA  2017 CORE             496 PRMONTH26                       2276 2277   Num  Month of procedure 26
+MA  2017 CORE             497 PRMONTH27                       2278 2279   Num  Month of procedure 27
+MA  2017 CORE             498 PRMONTH28                       2280 2281   Num  Month of procedure 28
+MA  2017 CORE             499 PRMONTH29                       2282 2283   Num  Month of procedure 29
+MA  2017 CORE             500 PRMONTH30                       2284 2285   Num  Month of procedure 30
+MA  2017 CORE             501 PRMONTH31                       2286 2287   Num  Month of procedure 31
+MA  2017 CORE             502 PRMONTH32                       2288 2289   Num  Month of procedure 32
+MA  2017 CORE             503 PRMONTH33                       2290 2291   Num  Month of procedure 33
+MA  2017 CORE             504 PRMONTH34                       2292 2293   Num  Month of procedure 34
+MA  2017 CORE             505 PRMONTH35                       2294 2295   Num  Month of procedure 35
+MA  2017 CORE             506 PRMONTH36                       2296 2297   Num  Month of procedure 36
+MA  2017 CORE             507 PRMONTH37                       2298 2299   Num  Month of procedure 37
+MA  2017 CORE             508 PRMONTH38                       2300 2301   Num  Month of procedure 38
+MA  2017 CORE             509 PRMONTH39                       2302 2303   Num  Month of procedure 39
+MA  2017 CORE             510 PRMONTH40                       2304 2305   Num  Month of procedure 40
+MA  2017 CORE             511 PRMONTH41                       2306 2307   Num  Month of procedure 41
+MA  2017 CORE             512 PRMONTH42                       2308 2309   Num  Month of procedure 42
+MA  2017 CORE             513 PRMONTH43                       2310 2311   Num  Month of procedure 43
+MA  2017 CORE             514 PRMONTH44                       2312 2313   Num  Month of procedure 44
+MA  2017 CORE             515 PRMONTH45                       2314 2315   Num  Month of procedure 45
+MA  2017 CORE             516 PRMONTH46                       2316 2317   Num  Month of procedure 46
+MA  2017 CORE             517 PRMONTH47                       2318 2319   Num  Month of procedure 47
+MA  2017 CORE             518 PRMONTH48                       2320 2321   Num  Month of procedure 48
+MA  2017 CORE             519 PRMONTH49                       2322 2323   Num  Month of procedure 49
+MA  2017 CORE             520 PRMONTH50                       2324 2325   Num  Month of procedure 50
+MA  2017 CORE             521 PRMONTH51                       2326 2327   Num  Month of procedure 51
+MA  2017 CORE             522 PRMONTH52                       2328 2329   Num  Month of procedure 52
+MA  2017 CORE             523 PRMONTH53                       2330 2331   Num  Month of procedure 53
+MA  2017 CORE             524 PRMONTH54                       2332 2333   Num  Month of procedure 54
+MA  2017 CORE             525 PRMONTH55                       2334 2335   Num  Month of procedure 55
+MA  2017 CORE             526 PRMONTH56                       2336 2337   Num  Month of procedure 56
+MA  2017 CORE             527 PRMONTH57                       2338 2339   Num  Month of procedure 57
+MA  2017 CORE             528 PRMONTH58                       2340 2341   Num  Month of procedure 58
+MA  2017 CORE             529 PRMONTH59                       2342 2343   Num  Month of procedure 59
+MA  2017 CORE             530 PRMONTH60                       2344 2345   Num  Month of procedure 60
+MA  2017 CORE             531 PRMONTH61                       2346 2347   Num  Month of procedure 61
+MA  2017 CORE             532 PRMONTH62                       2348 2349   Num  Month of procedure 62
+MA  2017 CORE             533 PRMONTH63                       2350 2351   Num  Month of procedure 63
+MA  2017 CORE             534 PRMONTH64                       2352 2353   Num  Month of procedure 64
+MA  2017 CORE             535 PRMONTH65                       2354 2355   Num  Month of procedure 65
+MA  2017 CORE             536 PRMONTH66                       2356 2357   Num  Month of procedure 66
+MA  2017 CORE             537 PRMONTH67                       2358 2359   Num  Month of procedure 67
+MA  2017 CORE             538 PRMONTH68                       2360 2361   Num  Month of procedure 68
+MA  2017 CORE             539 PRMONTH69                       2362 2363   Num  Month of procedure 69
+MA  2017 CORE             540 PRMONTH70                       2364 2365   Num  Month of procedure 70
+MA  2017 CORE             541 PRMONTH71                       2366 2367   Num  Month of procedure 71
+MA  2017 CORE             542 PRMONTH72                       2368 2369   Num  Month of procedure 72
+MA  2017 CORE             543 PRMONTH73                       2370 2371   Num  Month of procedure 73
+MA  2017 CORE             544 PRMONTH74                       2372 2373   Num  Month of procedure 74
+MA  2017 CORE             545 PRMONTH75                       2374 2375   Num  Month of procedure 75
+MA  2017 CORE             546 PRMONTH76                       2376 2377   Num  Month of procedure 76
+MA  2017 CORE             547 PRMONTH77                       2378 2379   Num  Month of procedure 77
+MA  2017 CORE             548 PRMONTH78                       2380 2381   Num  Month of procedure 78
+MA  2017 CORE             549 PRMONTH79                       2382 2383   Num  Month of procedure 79
+MA  2017 CORE             550 PRMONTH80                       2384 2385   Num  Month of procedure 80
+MA  2017 CORE             551 PRMONTH81                       2386 2387   Num  Month of procedure 81
+MA  2017 CORE             552 PRMONTH82                       2388 2389   Num  Month of procedure 82
+MA  2017 CORE             553 PRMONTH83                       2390 2391   Num  Month of procedure 83
+MA  2017 CORE             554 PRMONTH84                       2392 2393   Num  Month of procedure 84
+MA  2017 CORE             555 PRMONTH85                       2394 2395   Num  Month of procedure 85
+MA  2017 CORE             556 PRMONTH86                       2396 2397   Num  Month of procedure 86
+MA  2017 CORE             557 PRMONTH87                       2398 2399   Num  Month of procedure 87
+MA  2017 CORE             558 PRMONTH88                       2400 2401   Num  Month of procedure 88
+MA  2017 CORE             559 PRMONTH89                       2402 2403   Num  Month of procedure 89
+MA  2017 CORE             560 PRMONTH90                       2404 2405   Num  Month of procedure 90
+MA  2017 CORE             561 PRYEAR1                         2406 2409   Num  Year of procedure 1
+MA  2017 CORE             562 PRYEAR2                         2410 2413   Num  Year of procedure 2
+MA  2017 CORE             563 PRYEAR3                         2414 2417   Num  Year of procedure 3
+MA  2017 CORE             564 PRYEAR4                         2418 2421   Num  Year of procedure 4
+MA  2017 CORE             565 PRYEAR5                         2422 2425   Num  Year of procedure 5
+MA  2017 CORE             566 PRYEAR6                         2426 2429   Num  Year of procedure 6
+MA  2017 CORE             567 PRYEAR7                         2430 2433   Num  Year of procedure 7
+MA  2017 CORE             568 PRYEAR8                         2434 2437   Num  Year of procedure 8
+MA  2017 CORE             569 PRYEAR9                         2438 2441   Num  Year of procedure 9
+MA  2017 CORE             570 PRYEAR10                        2442 2445   Num  Year of procedure 10
+MA  2017 CORE             571 PRYEAR11                        2446 2449   Num  Year of procedure 11
+MA  2017 CORE             572 PRYEAR12                        2450 2453   Num  Year of procedure 12
+MA  2017 CORE             573 PRYEAR13                        2454 2457   Num  Year of procedure 13
+MA  2017 CORE             574 PRYEAR14                        2458 2461   Num  Year of procedure 14
+MA  2017 CORE             575 PRYEAR15                        2462 2465   Num  Year of procedure 15
+MA  2017 CORE             576 PRYEAR16                        2466 2469   Num  Year of procedure 16
+MA  2017 CORE             577 PRYEAR17                        2470 2473   Num  Year of procedure 17
+MA  2017 CORE             578 PRYEAR18                        2474 2477   Num  Year of procedure 18
+MA  2017 CORE             579 PRYEAR19                        2478 2481   Num  Year of procedure 19
+MA  2017 CORE             580 PRYEAR20                        2482 2485   Num  Year of procedure 20
+MA  2017 CORE             581 PRYEAR21                        2486 2489   Num  Year of procedure 21
+MA  2017 CORE             582 PRYEAR22                        2490 2493   Num  Year of procedure 22
+MA  2017 CORE             583 PRYEAR23                        2494 2497   Num  Year of procedure 23
+MA  2017 CORE             584 PRYEAR24                        2498 2501   Num  Year of procedure 24
+MA  2017 CORE             585 PRYEAR25                        2502 2505   Num  Year of procedure 25
+MA  2017 CORE             586 PRYEAR26                        2506 2509   Num  Year of procedure 26
+MA  2017 CORE             587 PRYEAR27                        2510 2513   Num  Year of procedure 27
+MA  2017 CORE             588 PRYEAR28                        2514 2517   Num  Year of procedure 28
+MA  2017 CORE             589 PRYEAR29                        2518 2521   Num  Year of procedure 29
+MA  2017 CORE             590 PRYEAR30                        2522 2525   Num  Year of procedure 30
+MA  2017 CORE             591 PRYEAR31                        2526 2529   Num  Year of procedure 31
+MA  2017 CORE             592 PRYEAR32                        2530 2533   Num  Year of procedure 32
+MA  2017 CORE             593 PRYEAR33                        2534 2537   Num  Year of procedure 33
+MA  2017 CORE             594 PRYEAR34                        2538 2541   Num  Year of procedure 34
+MA  2017 CORE             595 PRYEAR35                        2542 2545   Num  Year of procedure 35
+MA  2017 CORE             596 PRYEAR36                        2546 2549   Num  Year of procedure 36
+MA  2017 CORE             597 PRYEAR37                        2550 2553   Num  Year of procedure 37
+MA  2017 CORE             598 PRYEAR38                        2554 2557   Num  Year of procedure 38
+MA  2017 CORE             599 PRYEAR39                        2558 2561   Num  Year of procedure 39
+MA  2017 CORE             600 PRYEAR40                        2562 2565   Num  Year of procedure 40
+MA  2017 CORE             601 PRYEAR41                        2566 2569   Num  Year of procedure 41
+MA  2017 CORE             602 PRYEAR42                        2570 2573   Num  Year of procedure 42
+MA  2017 CORE             603 PRYEAR43                        2574 2577   Num  Year of procedure 43
+MA  2017 CORE             604 PRYEAR44                        2578 2581   Num  Year of procedure 44
+MA  2017 CORE             605 PRYEAR45                        2582 2585   Num  Year of procedure 45
+MA  2017 CORE             606 PRYEAR46                        2586 2589   Num  Year of procedure 46
+MA  2017 CORE             607 PRYEAR47                        2590 2593   Num  Year of procedure 47
+MA  2017 CORE             608 PRYEAR48                        2594 2597   Num  Year of procedure 48
+MA  2017 CORE             609 PRYEAR49                        2598 2601   Num  Year of procedure 49
+MA  2017 CORE             610 PRYEAR50                        2602 2605   Num  Year of procedure 50
+MA  2017 CORE             611 PRYEAR51                        2606 2609   Num  Year of procedure 51
+MA  2017 CORE             612 PRYEAR52                        2610 2613   Num  Year of procedure 52
+MA  2017 CORE             613 PRYEAR53                        2614 2617   Num  Year of procedure 53
+MA  2017 CORE             614 PRYEAR54                        2618 2621   Num  Year of procedure 54
+MA  2017 CORE             615 PRYEAR55                        2622 2625   Num  Year of procedure 55
+MA  2017 CORE             616 PRYEAR56                        2626 2629   Num  Year of procedure 56
+MA  2017 CORE             617 PRYEAR57                        2630 2633   Num  Year of procedure 57
+MA  2017 CORE             618 PRYEAR58                        2634 2637   Num  Year of procedure 58
+MA  2017 CORE             619 PRYEAR59                        2638 2641   Num  Year of procedure 59
+MA  2017 CORE             620 PRYEAR60                        2642 2645   Num  Year of procedure 60
+MA  2017 CORE             621 PRYEAR61                        2646 2649   Num  Year of procedure 61
+MA  2017 CORE             622 PRYEAR62                        2650 2653   Num  Year of procedure 62
+MA  2017 CORE             623 PRYEAR63                        2654 2657   Num  Year of procedure 63
+MA  2017 CORE             624 PRYEAR64                        2658 2661   Num  Year of procedure 64
+MA  2017 CORE             625 PRYEAR65                        2662 2665   Num  Year of procedure 65
+MA  2017 CORE             626 PRYEAR66                        2666 2669   Num  Year of procedure 66
+MA  2017 CORE             627 PRYEAR67                        2670 2673   Num  Year of procedure 67
+MA  2017 CORE             628 PRYEAR68                        2674 2677   Num  Year of procedure 68
+MA  2017 CORE             629 PRYEAR69                        2678 2681   Num  Year of procedure 69
+MA  2017 CORE             630 PRYEAR70                        2682 2685   Num  Year of procedure 70
+MA  2017 CORE             631 PRYEAR71                        2686 2689   Num  Year of procedure 71
+MA  2017 CORE             632 PRYEAR72                        2690 2693   Num  Year of procedure 72
+MA  2017 CORE             633 PRYEAR73                        2694 2697   Num  Year of procedure 73
+MA  2017 CORE             634 PRYEAR74                        2698 2701   Num  Year of procedure 74
+MA  2017 CORE             635 PRYEAR75                        2702 2705   Num  Year of procedure 75
+MA  2017 CORE             636 PRYEAR76                        2706 2709   Num  Year of procedure 76
+MA  2017 CORE             637 PRYEAR77                        2710 2713   Num  Year of procedure 77
+MA  2017 CORE             638 PRYEAR78                        2714 2717   Num  Year of procedure 78
+MA  2017 CORE             639 PRYEAR79                        2718 2721   Num  Year of procedure 79
+MA  2017 CORE             640 PRYEAR80                        2722 2725   Num  Year of procedure 80
+MA  2017 CORE             641 PRYEAR81                        2726 2729   Num  Year of procedure 81
+MA  2017 CORE             642 PRYEAR82                        2730 2733   Num  Year of procedure 82
+MA  2017 CORE             643 PRYEAR83                        2734 2737   Num  Year of procedure 83
+MA  2017 CORE             644 PRYEAR84                        2738 2741   Num  Year of procedure 84
+MA  2017 CORE             645 PRYEAR85                        2742 2745   Num  Year of procedure 85
+MA  2017 CORE             646 PRYEAR86                        2746 2749   Num  Year of procedure 86
+MA  2017 CORE             647 PRYEAR87                        2750 2753   Num  Year of procedure 87
+MA  2017 CORE             648 PRYEAR88                        2754 2757   Num  Year of procedure 88
+MA  2017 CORE             649 PRYEAR89                        2758 2761   Num  Year of procedure 89
+MA  2017 CORE             650 PRYEAR90                        2762 2765   Num  Year of procedure 90

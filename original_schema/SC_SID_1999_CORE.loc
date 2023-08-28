@@ -1,0 +1,104 @@
+Columns   Description:
+=======   ============
+ 1- 2     State postal code
+ 5- 8     Discharge year of data
+10-14     File name
+19-21     Variable number
+23-40     Variable name
+43-45     Starting column of variable in ASCII file
+47-49     Ending column of variable in ASCII file
+   51     Non-zero number of digits after decimal point for numeric variable
+53-56     Variable type (NUM=numeric; CHAR=character)
+57-88     Variable label
+
+
+SC  1999 CORE     1   KEY                 1   14    Num HCUP record identifier
+SC  1999 CORE     2   AGE                 15  17    Num Age in years at admission
+SC  1999 CORE     3   AGEDAY              18  20    Num Age in days (when age < 1 year)
+SC  1999 CORE     4   AMONTH              21  22    Num Admission month
+SC  1999 CORE     5   ASOURCE             23  24    Num Admission source (uniform)
+SC  1999 CORE     6   ASOURCE_X           25  25    CharAdmission source (as received from source)
+SC  1999 CORE     7   ATYPE               26  27    Num Admission type
+SC  1999 CORE     8   AWEEKEND            28  29    Num Admission day is a weekend
+SC  1999 CORE     9   DIED                30  31    Num Died during hospitalization
+SC  1999 CORE     10  DISPUB92            32  33    Num Disposition of patient (UB-92 standard coding)
+SC  1999 CORE     11  DISPUNIFORM         34  35    Num Disposition of patient (uniform)
+SC  1999 CORE     12  DISP_X              36  37    CharDisposition of patient (as received from source)
+SC  1999 CORE     13  DQTR                38  38    Num Discharge quarter
+SC  1999 CORE     14  DRG                 39  41    Num DRG in effect on discharge date
+SC  1999 CORE     15  DRG10               42  44    Num DRG, version 10
+SC  1999 CORE     16  DRG18               45  47    Num DRG, version 18
+SC  1999 CORE     17  DRGVER              48  49    Num DRG grouper version used on discharge date
+SC  1999 CORE     18  DX1                 50  54    CharPrincipal diagnosis
+SC  1999 CORE     19  DX2                 55  59    CharDiagnosis 2
+SC  1999 CORE     20  DX3                 60  64    CharDiagnosis 3
+SC  1999 CORE     21  DX4                 65  69    CharDiagnosis 4
+SC  1999 CORE     22  DX5                 70  74    CharDiagnosis 5
+SC  1999 CORE     23  DX6                 75  79    CharDiagnosis 6
+SC  1999 CORE     24  DX7                 80  84    CharDiagnosis 7
+SC  1999 CORE     25  DX8                 85  89    CharDiagnosis 8
+SC  1999 CORE     26  DX9                 90  94    CharDiagnosis 9
+SC  1999 CORE     27  DX10                95  99    CharDiagnosis 10
+SC  1999 CORE     28  DXCCS1              100 103   Num CCS: principal diagnosis
+SC  1999 CORE     29  DXCCS2              104 107   Num CCS: diagnosis 2
+SC  1999 CORE     30  DXCCS3              108 111   Num CCS: diagnosis 3
+SC  1999 CORE     31  DXCCS4              112 115   Num CCS: diagnosis 4
+SC  1999 CORE     32  DXCCS5              116 119   Num CCS: diagnosis 5
+SC  1999 CORE     33  DXCCS6              120 123   Num CCS: diagnosis 6
+SC  1999 CORE     34  DXCCS7              124 127   Num CCS: diagnosis 7
+SC  1999 CORE     35  DXCCS8              128 131   Num CCS: diagnosis 8
+SC  1999 CORE     36  DXCCS9              132 135   Num CCS: diagnosis 9
+SC  1999 CORE     37  DXCCS10             136 139   Num CCS: diagnosis 10
+SC  1999 CORE     38  FEMALE              140 141   Num Indicator of sex
+SC  1999 CORE     39  HOSPST              142 143   CharHospital state postal code
+SC  1999 CORE     40  LOS                 144 148   Num Length of stay (cleaned)
+SC  1999 CORE     41  LOS_X               149 154   Num Length of stay (uncleaned)
+SC  1999 CORE     42  MDC                 155 156   Num MDC in effect on discharge date
+SC  1999 CORE     43  MDC10               157 158   Num MDC, version 10
+SC  1999 CORE     44  MDC18               159 160   Num MDC, version 18
+SC  1999 CORE     45  MDSPEC              161 163   CharPhysician specialty (as received from source)
+SC  1999 CORE     46  MRN_S               164 180   CharMedical record number (synthetic)
+SC  1999 CORE     47  NDX                 181 182   Num Number of diagnoses on this record
+SC  1999 CORE     48  NEOMAT              183 183   Num Neonatal and/or maternal DX and/or PR
+SC  1999 CORE     49  NPR                 184 185   Num Number of procedures on this record
+SC  1999 CORE     50  PAY1                186 187   Num Primary expected payer (uniform)
+SC  1999 CORE     51  PAY2                188 189   Num Secondary expected payer (uniform)
+SC  1999 CORE     52  PAY1_X              190 191   CharPrimary expected payer (as received from source)
+SC  1999 CORE     53  PAY2_X              192 193   CharSecondary expected payer (as received from source)
+SC  1999 CORE     54  PR1                 194 197   CharPrincipal procedure
+SC  1999 CORE     55  PR2                 198 201   CharProcedure 2
+SC  1999 CORE     56  PR3                 202 205   CharProcedure 3
+SC  1999 CORE     57  PR4                 206 209   CharProcedure 4
+SC  1999 CORE     58  PR5                 210 213   CharProcedure 5
+SC  1999 CORE     59  PR6                 214 217   CharProcedure 6
+SC  1999 CORE     60  PR7                 218 221   CharProcedure 7
+SC  1999 CORE     61  PR8                 222 225   CharProcedure 8
+SC  1999 CORE     62  PR9                 226 229   CharProcedure 9
+SC  1999 CORE     63  PR10                230 233   CharProcedure 10
+SC  1999 CORE     64  PRCCS1              234 236   Num CCS: principal procedure
+SC  1999 CORE     65  PRCCS2              237 239   Num CCS: procedure 2
+SC  1999 CORE     66  PRCCS3              240 242   Num CCS: procedure 3
+SC  1999 CORE     67  PRCCS4              243 245   Num CCS: procedure 4
+SC  1999 CORE     68  PRCCS5              246 248   Num CCS: procedure 5
+SC  1999 CORE     69  PRCCS6              249 251   Num CCS: procedure 6
+SC  1999 CORE     70  PRCCS7              252 254   Num CCS: procedure 7
+SC  1999 CORE     71  PRCCS8              255 257   Num CCS: procedure 8
+SC  1999 CORE     72  PRCCS9              258 260   Num CCS: procedure 9
+SC  1999 CORE     73  PRCCS10             261 263   Num CCS: procedure 10
+SC  1999 CORE     74  PRDAY1              264 266   Num Number of days from admission to PR1
+SC  1999 CORE     75  PRDAY2              267 269   Num Number of days from admission to PR2
+SC  1999 CORE     76  PRDAY3              270 272   Num Number of days from admission to PR3
+SC  1999 CORE     77  PRDAY4              273 275   Num Number of days from admission to PR4
+SC  1999 CORE     78  PRDAY5              276 278   Num Number of days from admission to PR5
+SC  1999 CORE     79  PRDAY6              279 281   Num Number of days from admission to PR6
+SC  1999 CORE     80  PRDAY7              282 284   Num Number of days from admission to PR7
+SC  1999 CORE     81  PRDAY8              285 287   Num Number of days from admission to PR8
+SC  1999 CORE     82  PRDAY9              288 290   Num Number of days from admission to PR9
+SC  1999 CORE     83  PRDAY10             291 293   Num Number of days from admission to PR10
+SC  1999 CORE     84  PSTCO               294 298   Num Patient state/county FIPS code
+SC  1999 CORE     85  RACE                299 300   Num Race (uniform)
+SC  1999 CORE     86  RACE_X              301 301   CharRace (as received from source)
+SC  1999 CORE     87  SURGSPEC            302 304   CharPrimary surgeon specialty code
+SC  1999 CORE     88  TOTCHG              305 314   Num Total charges (cleaned)
+SC  1999 CORE     89  TOTCHG_X            315 329 2 Num Total charges (as received from source)
+SC  1999 CORE     90  YEAR                330 333   Num Calendar year

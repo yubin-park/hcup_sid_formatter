@@ -1,0 +1,338 @@
+Data Set Name: KS_SIDC_2010_CORE               
+Number of Observations: 322687
+Total Record Length: 1225
+Total Number of Variables: 317
+Creation Date: 09/04/2019   
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 61    Variable name
+63- 66    Starting column of variable in ASCII file
+68- 71    Ending column of variable in ASCII file
+73- 73    Non-zero number of digits after decimal point for numeric variable
+75- 78    Variable type (Num=numeric; Char=character)
+80-179    Variable label
+
+
+KS  2010 CORE               1 AGE                                1    3   Num  Age in years at admission
+KS  2010 CORE               2 AGEDAY                             4    6   Num  Age in days (when age < 1 year)
+KS  2010 CORE               3 AGEMONTH                           7    9   Num  Age in months (when age < 11 years)
+KS  2010 CORE               4 AHOUR                             10   13   Num  Admission Hour
+KS  2010 CORE               5 AMONTH                            14   15   Num  Admission month
+KS  2010 CORE               6 ATYPE                             16   17   Num  Admission type
+KS  2010 CORE               7 AWEEKEND                          18   19   Num  Admission day is a weekend
+KS  2010 CORE               8 DHOUR                             20   23   Num  Discharge Hour
+KS  2010 CORE               9 DIED                              24   25   Num  Died during hospitalization
+KS  2010 CORE              10 DISPUB04                          26   27   Num  Disposition of patient (UB-04 standard coding)
+KS  2010 CORE              11 DISPUNIFORM                       28   29   Num  Disposition of patient (uniform)
+KS  2010 CORE              12 DISP_X                            30   31   Char Disposition of patient (as received from source)
+KS  2010 CORE              13 DQTR                              32   33   Num  Discharge quarter
+KS  2010 CORE              14 DRG                               34   36   Num  DRG in effect on discharge date
+KS  2010 CORE              15 DRG24                             37   39   Num  DRG, version 24
+KS  2010 CORE              16 DRGVER                            40   41   Num  DRG grouper version used on discharge date
+KS  2010 CORE              17 DRG_NoPOA                         42   44   Num  DRG in use on discharge date, calculated without POA
+KS  2010 CORE              18 DX1                               45   51   Char Diagnosis 1
+KS  2010 CORE              19 DX2                               52   58   Char Diagnosis 2
+KS  2010 CORE              20 DX3                               59   65   Char Diagnosis 3
+KS  2010 CORE              21 DX4                               66   72   Char Diagnosis 4
+KS  2010 CORE              22 DX5                               73   79   Char Diagnosis 5
+KS  2010 CORE              23 DX6                               80   86   Char Diagnosis 6
+KS  2010 CORE              24 DX7                               87   93   Char Diagnosis 7
+KS  2010 CORE              25 DX8                               94  100   Char Diagnosis 8
+KS  2010 CORE              26 DX9                              101  107   Char Diagnosis 9
+KS  2010 CORE              27 DX10                             108  114   Char Diagnosis 10
+KS  2010 CORE              28 DX11                             115  121   Char Diagnosis 11
+KS  2010 CORE              29 DX12                             122  128   Char Diagnosis 12
+KS  2010 CORE              30 DX13                             129  135   Char Diagnosis 13
+KS  2010 CORE              31 DX14                             136  142   Char Diagnosis 14
+KS  2010 CORE              32 DX15                             143  149   Char Diagnosis 15
+KS  2010 CORE              33 DX16                             150  156   Char Diagnosis 16
+KS  2010 CORE              34 DX17                             157  163   Char Diagnosis 17
+KS  2010 CORE              35 DX18                             164  170   Char Diagnosis 18
+KS  2010 CORE              36 DX19                             171  177   Char Diagnosis 19
+KS  2010 CORE              37 DX20                             178  184   Char Diagnosis 20
+KS  2010 CORE              38 DX21                             185  191   Char Diagnosis 21
+KS  2010 CORE              39 DX22                             192  198   Char Diagnosis 22
+KS  2010 CORE              40 DX23                             199  205   Char Diagnosis 23
+KS  2010 CORE              41 DX24                             206  212   Char Diagnosis 24
+KS  2010 CORE              42 DX25                             213  219   Char Diagnosis 25
+KS  2010 CORE              43 DX26                             220  226   Char Diagnosis 26
+KS  2010 CORE              44 DX27                             227  233   Char Diagnosis 27
+KS  2010 CORE              45 DX28                             234  240   Char Diagnosis 28
+KS  2010 CORE              46 DX29                             241  247   Char Diagnosis 29
+KS  2010 CORE              47 DX30                             248  254   Char Diagnosis 30
+KS  2010 CORE              48 DXCCS1                           255  258   Num  CCS: diagnosis 1
+KS  2010 CORE              49 DXCCS2                           259  262   Num  CCS: diagnosis 2
+KS  2010 CORE              50 DXCCS3                           263  266   Num  CCS: diagnosis 3
+KS  2010 CORE              51 DXCCS4                           267  270   Num  CCS: diagnosis 4
+KS  2010 CORE              52 DXCCS5                           271  274   Num  CCS: diagnosis 5
+KS  2010 CORE              53 DXCCS6                           275  278   Num  CCS: diagnosis 6
+KS  2010 CORE              54 DXCCS7                           279  282   Num  CCS: diagnosis 7
+KS  2010 CORE              55 DXCCS8                           283  286   Num  CCS: diagnosis 8
+KS  2010 CORE              56 DXCCS9                           287  290   Num  CCS: diagnosis 9
+KS  2010 CORE              57 DXCCS10                          291  294   Num  CCS: diagnosis 10
+KS  2010 CORE              58 DXCCS11                          295  298   Num  CCS: diagnosis 11
+KS  2010 CORE              59 DXCCS12                          299  302   Num  CCS: diagnosis 12
+KS  2010 CORE              60 DXCCS13                          303  306   Num  CCS: diagnosis 13
+KS  2010 CORE              61 DXCCS14                          307  310   Num  CCS: diagnosis 14
+KS  2010 CORE              62 DXCCS15                          311  314   Num  CCS: diagnosis 15
+KS  2010 CORE              63 DXCCS16                          315  318   Num  CCS: diagnosis 16
+KS  2010 CORE              64 DXCCS17                          319  322   Num  CCS: diagnosis 17
+KS  2010 CORE              65 DXCCS18                          323  326   Num  CCS: diagnosis 18
+KS  2010 CORE              66 DXCCS19                          327  330   Num  CCS: diagnosis 19
+KS  2010 CORE              67 DXCCS20                          331  334   Num  CCS: diagnosis 20
+KS  2010 CORE              68 DXCCS21                          335  338   Num  CCS: diagnosis 21
+KS  2010 CORE              69 DXCCS22                          339  342   Num  CCS: diagnosis 22
+KS  2010 CORE              70 DXCCS23                          343  346   Num  CCS: diagnosis 23
+KS  2010 CORE              71 DXCCS24                          347  350   Num  CCS: diagnosis 24
+KS  2010 CORE              72 DXCCS25                          351  354   Num  CCS: diagnosis 25
+KS  2010 CORE              73 DXCCS26                          355  358   Num  CCS: diagnosis 26
+KS  2010 CORE              74 DXCCS27                          359  362   Num  CCS: diagnosis 27
+KS  2010 CORE              75 DXCCS28                          363  366   Num  CCS: diagnosis 28
+KS  2010 CORE              76 DXCCS29                          367  370   Num  CCS: diagnosis 29
+KS  2010 CORE              77 DXCCS30                          371  374   Num  CCS: diagnosis 30
+KS  2010 CORE              78 DXPOA1                           375  375   Char Diagnosis 1, present on admission indicator
+KS  2010 CORE              79 DXPOA2                           376  376   Char Diagnosis 2, present on admission indicator
+KS  2010 CORE              80 DXPOA3                           377  377   Char Diagnosis 3, present on admission indicator
+KS  2010 CORE              81 DXPOA4                           378  378   Char Diagnosis 4, present on admission indicator
+KS  2010 CORE              82 DXPOA5                           379  379   Char Diagnosis 5, present on admission indicator
+KS  2010 CORE              83 DXPOA6                           380  380   Char Diagnosis 6, present on admission indicator
+KS  2010 CORE              84 DXPOA7                           381  381   Char Diagnosis 7, present on admission indicator
+KS  2010 CORE              85 DXPOA8                           382  382   Char Diagnosis 8, present on admission indicator
+KS  2010 CORE              86 DXPOA9                           383  383   Char Diagnosis 9, present on admission indicator
+KS  2010 CORE              87 DXPOA10                          384  384   Char Diagnosis 10, present on admission indicator
+KS  2010 CORE              88 DXPOA11                          385  385   Char Diagnosis 11, present on admission indicator
+KS  2010 CORE              89 DXPOA12                          386  386   Char Diagnosis 12, present on admission indicator
+KS  2010 CORE              90 DXPOA13                          387  387   Char Diagnosis 13, present on admission indicator
+KS  2010 CORE              91 DXPOA14                          388  388   Char Diagnosis 14, present on admission indicator
+KS  2010 CORE              92 DXPOA15                          389  389   Char Diagnosis 15, present on admission indicator
+KS  2010 CORE              93 DXPOA16                          390  390   Char Diagnosis 16, present on admission indicator
+KS  2010 CORE              94 DXPOA17                          391  391   Char Diagnosis 17, present on admission indicator
+KS  2010 CORE              95 DXPOA18                          392  392   Char Diagnosis 18, present on admission indicator
+KS  2010 CORE              96 DXPOA19                          393  393   Char Diagnosis 19, present on admission indicator
+KS  2010 CORE              97 DXPOA20                          394  394   Char Diagnosis 20, present on admission indicator
+KS  2010 CORE              98 DXPOA21                          395  395   Char Diagnosis 21, present on admission indicator
+KS  2010 CORE              99 DXPOA22                          396  396   Char Diagnosis 22, present on admission indicator
+KS  2010 CORE             100 DXPOA23                          397  397   Char Diagnosis 23, present on admission indicator
+KS  2010 CORE             101 DXPOA24                          398  398   Char Diagnosis 24, present on admission indicator
+KS  2010 CORE             102 DXPOA25                          399  399   Char Diagnosis 25, present on admission indicator
+KS  2010 CORE             103 DXPOA26                          400  400   Char Diagnosis 26, present on admission indicator
+KS  2010 CORE             104 DXPOA27                          401  401   Char Diagnosis 27, present on admission indicator
+KS  2010 CORE             105 DXPOA28                          402  402   Char Diagnosis 28, present on admission indicator
+KS  2010 CORE             106 DXPOA29                          403  403   Char Diagnosis 29, present on admission indicator
+KS  2010 CORE             107 DXPOA30                          404  404   Char Diagnosis 30, present on admission indicator
+KS  2010 CORE             108 ECODE1                           405  411   Char E code 1
+KS  2010 CORE             109 ECODE2                           412  418   Char E code 2
+KS  2010 CORE             110 ECODE3                           419  425   Char E code 3
+KS  2010 CORE             111 ECODE4                           426  432   Char E code 4
+KS  2010 CORE             112 ECODE5                           433  439   Char E code 5
+KS  2010 CORE             113 ECODE6                           440  446   Char E code 6
+KS  2010 CORE             114 ECODE7                           447  453   Char E code 7
+KS  2010 CORE             115 ECODE8                           454  460   Char E code 8
+KS  2010 CORE             116 ECODE9                           461  467   Char E code 9
+KS  2010 CORE             117 ECODE10                          468  474   Char E code 10
+KS  2010 CORE             118 E_CCS1                           475  478   Num  CCS: E Code 1
+KS  2010 CORE             119 E_CCS2                           479  482   Num  CCS: E Code 2
+KS  2010 CORE             120 E_CCS3                           483  486   Num  CCS: E Code 3
+KS  2010 CORE             121 E_CCS4                           487  490   Num  CCS: E Code 4
+KS  2010 CORE             122 E_CCS5                           491  494   Num  CCS: E Code 5
+KS  2010 CORE             123 E_CCS6                           495  498   Num  CCS: E Code 6
+KS  2010 CORE             124 E_CCS7                           499  502   Num  CCS: E Code 7
+KS  2010 CORE             125 E_CCS8                           503  506   Num  CCS: E Code 8
+KS  2010 CORE             126 E_CCS9                           507  510   Num  CCS: E Code 9
+KS  2010 CORE             127 E_CCS10                          511  514   Num  CCS: E Code 10
+KS  2010 CORE             128 E_POA1                           515  515   Char E Code 1, present on admission indicator
+KS  2010 CORE             129 E_POA2                           516  516   Char E Code 2, present on admission indicator
+KS  2010 CORE             130 E_POA3                           517  517   Char E Code 3, present on admission indicator
+KS  2010 CORE             131 E_POA4                           518  518   Char E Code 4, present on admission indicator
+KS  2010 CORE             132 E_POA5                           519  519   Char E Code 5, present on admission indicator
+KS  2010 CORE             133 E_POA6                           520  520   Char E Code 6, present on admission indicator
+KS  2010 CORE             134 E_POA7                           521  521   Char E Code 7, present on admission indicator
+KS  2010 CORE             135 E_POA8                           522  522   Char E Code 8, present on admission indicator
+KS  2010 CORE             136 E_POA9                           523  523   Char E Code 9, present on admission indicator
+KS  2010 CORE             137 E_POA10                          524  524   Char E Code 10, present on admission indicator
+KS  2010 CORE             138 FEMALE                           525  526   Num  Indicator of sex
+KS  2010 CORE             139 HCUP_ED                          527  528   Num  HCUP Emergency Department service indicator
+KS  2010 CORE             140 HCUP_OS                          529  530   Num  HCUP Observation Stay service indicator
+KS  2010 CORE             141 HISPANIC_X                       531  531   Char Hispanic ethnicity (as received from source)
+KS  2010 CORE             142 HOSPBRTH                         532  534   Num  Indicator of birth in this hospital
+KS  2010 CORE             143 HOSPST                           535  536   Char Hospital state postal code
+KS  2010 CORE             144 HospitalUnit                     537  538   Num  Indicator that patient was discharged from a special unit within an acute care hospital (reported by source)
+KS  2010 CORE             145 KEY                              539  553   Num  HCUP record identifier
+KS  2010 CORE             146 LOS                              554  558   Num  Length of stay (cleaned)
+KS  2010 CORE             147 LOS_X                            559  564   Num  Length of stay (as received from source)
+KS  2010 CORE             148 MDC                              565  566   Num  MDC in effect on discharge date
+KS  2010 CORE             149 MDC24                            567  568   Num  MDC, version 24
+KS  2010 CORE             150 MDC_NoPOA                        569  570   Num  MDC in use on discharge date, calculated without POA
+KS  2010 CORE             151 MEDINCSTQ                        571  572   Num  Median household income state quartile for patient ZIP Code
+KS  2010 CORE             152 NCHRONIC                         573  575   Num  Number of chronic conditions
+KS  2010 CORE             153 NDX                              576  578   Num  Number of diagnoses on this record
+KS  2010 CORE             154 NECODE                           579  580   Num  Number of E codes on this record
+KS  2010 CORE             155 NEOMAT                           581  582   Num  Neonatal and/or maternal DX and/or PR
+KS  2010 CORE             156 NPR                              583  585   Num  Number of procedures on this record
+KS  2010 CORE             157 ORPROC                           586  587   Num  Major operating room procedure indicator
+KS  2010 CORE             158 PAY1                             588  589   Num  Primary expected payer (uniform)
+KS  2010 CORE             159 PAY1_X                           590  592   Char Primary expected payer (as received from source)
+KS  2010 CORE             160 PAY2                             593  594   Num  Secondary expected payer (uniform)
+KS  2010 CORE             161 PAY2_X                           595  597   Char Secondary expected payer (as received from source)
+KS  2010 CORE             162 PAY3                             598  599   Num  Tertiary expected payer (uniform)
+KS  2010 CORE             163 PAY3_X                           600  602   Char Tertiary expected payer (as received from source)
+KS  2010 CORE             164 PL_CBSA                          603  605   Num  Patient location: Core Based Statistical Area (CBSA)
+KS  2010 CORE             165 PL_MSA1993                       606  608   Num  Patient location: Metropolitan Statistical Area (MSA), 1993
+KS  2010 CORE             166 PL_NCHS2006                      609  610   Num  Patient Location: NCHS Urban-Rural Code (V2006)
+KS  2010 CORE             167 PL_RUCA10_2005                   611  612   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, ten levels
+KS  2010 CORE             168 PL_RUCA2005                      613  616 1 Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes
+KS  2010 CORE             169 PL_RUCA4_2005                    617  618   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, four levels
+KS  2010 CORE             170 PL_RUCC2003                      619  620   Num  Patient location: Rural-Urban Continuum Codes(RUCC), 2003
+KS  2010 CORE             171 PL_UIC2003                       621  622   Num  Patient location: Urban Influence Codes, 2003
+KS  2010 CORE             172 PL_UR_CAT4                       623  624   Num  Patient Location: Urban-Rural 4 Categories
+KS  2010 CORE             173 PR1                              625  631   Char Procedure 1
+KS  2010 CORE             174 PR2                              632  638   Char Procedure 2
+KS  2010 CORE             175 PR3                              639  645   Char Procedure 3
+KS  2010 CORE             176 PR4                              646  652   Char Procedure 4
+KS  2010 CORE             177 PR5                              653  659   Char Procedure 5
+KS  2010 CORE             178 PR6                              660  666   Char Procedure 6
+KS  2010 CORE             179 PR7                              667  673   Char Procedure 7
+KS  2010 CORE             180 PR8                              674  680   Char Procedure 8
+KS  2010 CORE             181 PR9                              681  687   Char Procedure 9
+KS  2010 CORE             182 PR10                             688  694   Char Procedure 10
+KS  2010 CORE             183 PR11                             695  701   Char Procedure 11
+KS  2010 CORE             184 PR12                             702  708   Char Procedure 12
+KS  2010 CORE             185 PR13                             709  715   Char Procedure 13
+KS  2010 CORE             186 PR14                             716  722   Char Procedure 14
+KS  2010 CORE             187 PR15                             723  729   Char Procedure 15
+KS  2010 CORE             188 PR16                             730  736   Char Procedure 16
+KS  2010 CORE             189 PR17                             737  743   Char Procedure 17
+KS  2010 CORE             190 PR18                             744  750   Char Procedure 18
+KS  2010 CORE             191 PR19                             751  757   Char Procedure 19
+KS  2010 CORE             192 PR20                             758  764   Char Procedure 20
+KS  2010 CORE             193 PR21                             765  771   Char Procedure 21
+KS  2010 CORE             194 PR22                             772  778   Char Procedure 22
+KS  2010 CORE             195 PR23                             779  785   Char Procedure 23
+KS  2010 CORE             196 PR24                             786  792   Char Procedure 24
+KS  2010 CORE             197 PR25                             793  799   Char Procedure 25
+KS  2010 CORE             198 PRCCS1                           800  802   Num  CCS: procedure 1
+KS  2010 CORE             199 PRCCS2                           803  805   Num  CCS: procedure 2
+KS  2010 CORE             200 PRCCS3                           806  808   Num  CCS: procedure 3
+KS  2010 CORE             201 PRCCS4                           809  811   Num  CCS: procedure 4
+KS  2010 CORE             202 PRCCS5                           812  814   Num  CCS: procedure 5
+KS  2010 CORE             203 PRCCS6                           815  817   Num  CCS: procedure 6
+KS  2010 CORE             204 PRCCS7                           818  820   Num  CCS: procedure 7
+KS  2010 CORE             205 PRCCS8                           821  823   Num  CCS: procedure 8
+KS  2010 CORE             206 PRCCS9                           824  826   Num  CCS: procedure 9
+KS  2010 CORE             207 PRCCS10                          827  829   Num  CCS: procedure 10
+KS  2010 CORE             208 PRCCS11                          830  832   Num  CCS: procedure 11
+KS  2010 CORE             209 PRCCS12                          833  835   Num  CCS: procedure 12
+KS  2010 CORE             210 PRCCS13                          836  838   Num  CCS: procedure 13
+KS  2010 CORE             211 PRCCS14                          839  841   Num  CCS: procedure 14
+KS  2010 CORE             212 PRCCS15                          842  844   Num  CCS: procedure 15
+KS  2010 CORE             213 PRCCS16                          845  847   Num  CCS: procedure 16
+KS  2010 CORE             214 PRCCS17                          848  850   Num  CCS: procedure 17
+KS  2010 CORE             215 PRCCS18                          851  853   Num  CCS: procedure 18
+KS  2010 CORE             216 PRCCS19                          854  856   Num  CCS: procedure 19
+KS  2010 CORE             217 PRCCS20                          857  859   Num  CCS: procedure 20
+KS  2010 CORE             218 PRCCS21                          860  862   Num  CCS: procedure 21
+KS  2010 CORE             219 PRCCS22                          863  865   Num  CCS: procedure 22
+KS  2010 CORE             220 PRCCS23                          866  868   Num  CCS: procedure 23
+KS  2010 CORE             221 PRCCS24                          869  871   Num  CCS: procedure 24
+KS  2010 CORE             222 PRCCS25                          872  874   Num  CCS: procedure 25
+KS  2010 CORE             223 PRDAY1                           875  879   Num  Number of days from admission to PR1
+KS  2010 CORE             224 PRDAY2                           880  884   Num  Number of days from admission to PR2
+KS  2010 CORE             225 PRDAY3                           885  889   Num  Number of days from admission to PR3
+KS  2010 CORE             226 PRDAY4                           890  894   Num  Number of days from admission to PR4
+KS  2010 CORE             227 PRDAY5                           895  899   Num  Number of days from admission to PR5
+KS  2010 CORE             228 PRDAY6                           900  904   Num  Number of days from admission to PR6
+KS  2010 CORE             229 PRDAY7                           905  909   Num  Number of days from admission to PR7
+KS  2010 CORE             230 PRDAY8                           910  914   Num  Number of days from admission to PR8
+KS  2010 CORE             231 PRDAY9                           915  919   Num  Number of days from admission to PR9
+KS  2010 CORE             232 PRDAY10                          920  924   Num  Number of days from admission to PR10
+KS  2010 CORE             233 PRDAY11                          925  929   Num  Number of days from admission to PR11
+KS  2010 CORE             234 PRDAY12                          930  934   Num  Number of days from admission to PR12
+KS  2010 CORE             235 PRDAY13                          935  939   Num  Number of days from admission to PR13
+KS  2010 CORE             236 PRDAY14                          940  944   Num  Number of days from admission to PR14
+KS  2010 CORE             237 PRDAY15                          945  949   Num  Number of days from admission to PR15
+KS  2010 CORE             238 PRDAY16                          950  954   Num  Number of days from admission to PR16
+KS  2010 CORE             239 PRDAY17                          955  959   Num  Number of days from admission to PR17
+KS  2010 CORE             240 PRDAY18                          960  964   Num  Number of days from admission to PR18
+KS  2010 CORE             241 PRDAY19                          965  969   Num  Number of days from admission to PR19
+KS  2010 CORE             242 PRDAY20                          970  974   Num  Number of days from admission to PR20
+KS  2010 CORE             243 PRDAY21                          975  979   Num  Number of days from admission to PR21
+KS  2010 CORE             244 PRDAY22                          980  984   Num  Number of days from admission to PR22
+KS  2010 CORE             245 PRDAY23                          985  989   Num  Number of days from admission to PR23
+KS  2010 CORE             246 PRDAY24                          990  994   Num  Number of days from admission to PR24
+KS  2010 CORE             247 PRDAY25                          995  999   Num  Number of days from admission to PR25
+KS  2010 CORE             248 PROCTYPE                        1000 1002   Num  Procedure type indicator
+KS  2010 CORE             249 PSTATE                          1003 1004   Char Patient State postal code
+KS  2010 CORE             250 PSTCO                           1005 1009   Num  Patient state/county FIPS code
+KS  2010 CORE             251 PSTCO2                          1010 1014   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+KS  2010 CORE             252 PointOfOriginUB04               1015 1015   Char Point of origin for admission or visit, UB-04 standard coding
+KS  2010 CORE             253 PointOfOrigin_X                 1016 1016   Char Point of origin for admission or visit, as received from source
+KS  2010 CORE             254 RACE                            1017 1018   Num  Race (uniform)
+KS  2010 CORE             255 RACE_X                          1019 1019   Char Race (as received from source)
+KS  2010 CORE             256 TOTCHG                          1020 1029   Num  Total charges (cleaned)
+KS  2010 CORE             257 TOTCHG_X                        1030 1044 2 Num  Total charges (as received from source)
+KS  2010 CORE             258 TRAN_IN                         1045 1046   Num  Transfer in indicator
+KS  2010 CORE             259 TRAN_OUT                        1047 1048   Num  Transfer out indicator
+KS  2010 CORE             260 YEAR                            1049 1052   Num  Calendar year
+KS  2010 CORE             261 ZIP3                            1053 1055   Char Patient ZIP Code, first 3 digits
+KS  2010 CORE             262 ZIPINC_QRTL                     1056 1058   Num  Median household income national quartile for patient ZIP Code
+KS  2010 CORE             263 HOSPID                          1059 1063   Num  HCUP hospital identification number
+KS  2010 CORE             264 AYEAR                           1064 1067   Num  Admission year
+KS  2010 CORE             265 DMONTH                          1068 1069   Num  Discharge month
+KS  2010 CORE             266 BMONTH                          1070 1071   Num  Birth month
+KS  2010 CORE             267 BYEAR                           1072 1075   Num  Birth year
+KS  2010 CORE             268 PRMONTH1                        1076 1077   Num  Month of procedure 1
+KS  2010 CORE             269 PRMONTH2                        1078 1079   Num  Month of procedure 2
+KS  2010 CORE             270 PRMONTH3                        1080 1081   Num  Month of procedure 3
+KS  2010 CORE             271 PRMONTH4                        1082 1083   Num  Month of procedure 4
+KS  2010 CORE             272 PRMONTH5                        1084 1085   Num  Month of procedure 5
+KS  2010 CORE             273 PRMONTH6                        1086 1087   Num  Month of procedure 6
+KS  2010 CORE             274 PRMONTH7                        1088 1089   Num  Month of procedure 7
+KS  2010 CORE             275 PRMONTH8                        1090 1091   Num  Month of procedure 8
+KS  2010 CORE             276 PRMONTH9                        1092 1093   Num  Month of procedure 9
+KS  2010 CORE             277 PRMONTH10                       1094 1095   Num  Month of procedure 10
+KS  2010 CORE             278 PRMONTH11                       1096 1097   Num  Month of procedure 11
+KS  2010 CORE             279 PRMONTH12                       1098 1099   Num  Month of procedure 12
+KS  2010 CORE             280 PRMONTH13                       1100 1101   Num  Month of procedure 13
+KS  2010 CORE             281 PRMONTH14                       1102 1103   Num  Month of procedure 14
+KS  2010 CORE             282 PRMONTH15                       1104 1105   Num  Month of procedure 15
+KS  2010 CORE             283 PRMONTH16                       1106 1107   Num  Month of procedure 16
+KS  2010 CORE             284 PRMONTH17                       1108 1109   Num  Month of procedure 17
+KS  2010 CORE             285 PRMONTH18                       1110 1111   Num  Month of procedure 18
+KS  2010 CORE             286 PRMONTH19                       1112 1113   Num  Month of procedure 19
+KS  2010 CORE             287 PRMONTH20                       1114 1115   Num  Month of procedure 20
+KS  2010 CORE             288 PRMONTH21                       1116 1117   Num  Month of procedure 21
+KS  2010 CORE             289 PRMONTH22                       1118 1119   Num  Month of procedure 22
+KS  2010 CORE             290 PRMONTH23                       1120 1121   Num  Month of procedure 23
+KS  2010 CORE             291 PRMONTH24                       1122 1123   Num  Month of procedure 24
+KS  2010 CORE             292 PRMONTH25                       1124 1125   Num  Month of procedure 25
+KS  2010 CORE             293 PRYEAR1                         1126 1129   Num  Year of procedure 1
+KS  2010 CORE             294 PRYEAR2                         1130 1133   Num  Year of procedure 2
+KS  2010 CORE             295 PRYEAR3                         1134 1137   Num  Year of procedure 3
+KS  2010 CORE             296 PRYEAR4                         1138 1141   Num  Year of procedure 4
+KS  2010 CORE             297 PRYEAR5                         1142 1145   Num  Year of procedure 5
+KS  2010 CORE             298 PRYEAR6                         1146 1149   Num  Year of procedure 6
+KS  2010 CORE             299 PRYEAR7                         1150 1153   Num  Year of procedure 7
+KS  2010 CORE             300 PRYEAR8                         1154 1157   Num  Year of procedure 8
+KS  2010 CORE             301 PRYEAR9                         1158 1161   Num  Year of procedure 9
+KS  2010 CORE             302 PRYEAR10                        1162 1165   Num  Year of procedure 10
+KS  2010 CORE             303 PRYEAR11                        1166 1169   Num  Year of procedure 11
+KS  2010 CORE             304 PRYEAR12                        1170 1173   Num  Year of procedure 12
+KS  2010 CORE             305 PRYEAR13                        1174 1177   Num  Year of procedure 13
+KS  2010 CORE             306 PRYEAR14                        1178 1181   Num  Year of procedure 14
+KS  2010 CORE             307 PRYEAR15                        1182 1185   Num  Year of procedure 15
+KS  2010 CORE             308 PRYEAR16                        1186 1189   Num  Year of procedure 16
+KS  2010 CORE             309 PRYEAR17                        1190 1193   Num  Year of procedure 17
+KS  2010 CORE             310 PRYEAR18                        1194 1197   Num  Year of procedure 18
+KS  2010 CORE             311 PRYEAR19                        1198 1201   Num  Year of procedure 19
+KS  2010 CORE             312 PRYEAR20                        1202 1205   Num  Year of procedure 20
+KS  2010 CORE             313 PRYEAR21                        1206 1209   Num  Year of procedure 21
+KS  2010 CORE             314 PRYEAR22                        1210 1213   Num  Year of procedure 22
+KS  2010 CORE             315 PRYEAR23                        1214 1217   Num  Year of procedure 23
+KS  2010 CORE             316 PRYEAR24                        1218 1221   Num  Year of procedure 24
+KS  2010 CORE             317 PRYEAR25                        1222 1225   Num  Year of procedure 25

@@ -1,0 +1,133 @@
+Data Set Name: ME_SID_2003_CORE                
+Number of Observations: 165410
+Total Record Length: 426
+Total Number of Variables: 113
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 49    Variable name
+51- 54    Starting column of variable in ASCII file
+56- 59    Ending column of variable in ASCII file
+    61    Non-zero number of digits after decimal point for numeric variable
+63- 66    Variable type (Num=numeric; Char=character)
+68-167    Variable label
+
+
+ME  2003 CORE               1 KEY                    1   14   Num  HCUP record identifier
+ME  2003 CORE               2 ADRG                  15   17   Num  All Patient Refined DRG
+ME  2003 CORE               3 AGE                   18   20   Num  Age in years at admission
+ME  2003 CORE               4 AGEDAY                21   23   Num  Age in days (when age < 1 year)
+ME  2003 CORE               5 AGEMONTH              24   26   Num  Age in months (when age < 11 years)
+ME  2003 CORE               6 AMDC                  27   28   Num  All Patient Refined MDC
+ME  2003 CORE               7 AMONTH                29   30   Num  Admission month
+ME  2003 CORE               8 ASOURCE               31   32   Num  Admission source (uniform)
+ME  2003 CORE               9 ASOURCE_X             33   33   Char Admission source (as received from source)
+ME  2003 CORE              10 ASOURCEUB92           34   34   Char Admission source (UB-92 standard coding)
+ME  2003 CORE              11 ATYPE                 35   36   Num  Admission type
+ME  2003 CORE              12 AWEEKEND              37   38   Num  Admission day is a weekend
+ME  2003 CORE              13 DIED                  39   40   Num  Died during hospitalization
+ME  2003 CORE              14 DISP_X                41   42   Char Disposition of patient (as received from source)
+ME  2003 CORE              15 DISPUB92              43   44   Num  Disposition of patient (UB-92 standard coding)
+ME  2003 CORE              16 DISPUNIFORM           45   46   Num  Disposition of patient (uniform)
+ME  2003 CORE              17 DQTR                  47   48   Num  Discharge quarter
+ME  2003 CORE              18 DRG                   49   51   Num  DRG in effect on discharge date
+ME  2003 CORE              19 DRG18                 52   54   Num  DRG, version 18
+ME  2003 CORE              20 DRGVER                55   56   Num  DRG grouper version used on discharge date
+ME  2003 CORE              21 DSHOSPID              57   69   Char Data source hospital identifier
+ME  2003 CORE              22 DX1                   70   74   Char Principal diagnosis
+ME  2003 CORE              23 DX2                   75   79   Char Diagnosis 2
+ME  2003 CORE              24 DX3                   80   84   Char Diagnosis 3
+ME  2003 CORE              25 DX4                   85   89   Char Diagnosis 4
+ME  2003 CORE              26 DX5                   90   94   Char Diagnosis 5
+ME  2003 CORE              27 DX6                   95   99   Char Diagnosis 6
+ME  2003 CORE              28 DX7                  100  104   Char Diagnosis 7
+ME  2003 CORE              29 DX8                  105  109   Char Diagnosis 8
+ME  2003 CORE              30 DX9                  110  114   Char Diagnosis 9
+ME  2003 CORE              31 DX10                 115  119   Char Diagnosis 10
+ME  2003 CORE              32 DXCCS1               120  123   Num  CCS: principal diagnosis
+ME  2003 CORE              33 DXCCS2               124  127   Num  CCS: diagnosis 2
+ME  2003 CORE              34 DXCCS3               128  131   Num  CCS: diagnosis 3
+ME  2003 CORE              35 DXCCS4               132  135   Num  CCS: diagnosis 4
+ME  2003 CORE              36 DXCCS5               136  139   Num  CCS: diagnosis 5
+ME  2003 CORE              37 DXCCS6               140  143   Num  CCS: diagnosis 6
+ME  2003 CORE              38 DXCCS7               144  147   Num  CCS: diagnosis 7
+ME  2003 CORE              39 DXCCS8               148  151   Num  CCS: diagnosis 8
+ME  2003 CORE              40 DXCCS9               152  155   Num  CCS: diagnosis 9
+ME  2003 CORE              41 DXCCS10              156  159   Num  CCS: diagnosis 10
+ME  2003 CORE              42 ECODE1               160  164   Char E code 1
+ME  2003 CORE              43 ECODE2               165  169   Char E code 2
+ME  2003 CORE              44 ECODE3               170  174   Char E code 3
+ME  2003 CORE              45 ECODE4               175  179   Char E code 4
+ME  2003 CORE              46 ECODE5               180  184   Char E code 5
+ME  2003 CORE              47 E_CCS1               185  188   Num  CCS: E Code 1
+ME  2003 CORE              48 E_CCS2               189  192   Num  CCS: E Code 2
+ME  2003 CORE              49 E_CCS3               193  196   Num  CCS: E Code 3
+ME  2003 CORE              50 E_CCS4               197  200   Num  CCS: E Code 4
+ME  2003 CORE              51 E_CCS5               201  204   Num  CCS: E Code 5
+ME  2003 CORE              52 FEMALE               205  206   Num  Indicator of sex
+ME  2003 CORE              53 HOSPST               207  208   Char Hospital state postal code
+ME  2003 CORE              54 LOS                  209  213   Num  Length of stay (cleaned)
+ME  2003 CORE              55 LOS_X                214  219   Num  Length of stay (as received from source)
+ME  2003 CORE              56 MDC                  220  221   Num  MDC in effect on discharge date
+ME  2003 CORE              57 MDC18                222  223   Num  MDC, version 18
+ME  2003 CORE              58 MDSPEC1              224  225   Char Physician 1 specialty (as received from source)
+ME  2003 CORE              59 MDSPEC2              226  227   Char Physician 2 specialty (as received from source)
+ME  2003 CORE              60 MRN_R                228  236   Num  Medical record number (re-identified)
+ME  2003 CORE              61 NDX                  237  238   Num  Number of diagnoses on this record
+ME  2003 CORE              62 NECODE               239  240   Num  Number of E codes on this record
+ME  2003 CORE              63 NEOMAT               241  242   Num  Neonatal and/or maternal DX and/or PR
+ME  2003 CORE              64 NPR                  243  244   Num  Number of procedures on this record
+ME  2003 CORE              65 PAY1                 245  246   Num  Primary expected payer (uniform)
+ME  2003 CORE              66 PAY2                 247  248   Num  Secondary expected payer (uniform)
+ME  2003 CORE              67 PAY1_X               249  250   Char Primary expected payer (as received from source)
+ME  2003 CORE              68 PAY2_X               251  252   Char Secondary expected payer (as received from source)
+ME  2003 CORE              69 PAY3_X               253  254   Char Tertiary expected payer (as received from source)
+ME  2003 CORE              70 PAYER1_X             255  277   Char Primary expected payer plan identifier (as received from source)
+ME  2003 CORE              71 PL_CBSA              278  280   Num  Patient location: Core Based Statistical Area (CBSA)
+ME  2003 CORE              72 PL_MSA1993           281  283   Num  Patient location: Metropolitan Statistical Area (MSA), 1993
+ME  2003 CORE              73 PL_RUCA4             284  285   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, four levels
+ME  2003 CORE              74 PL_UIC2003           286  287   Num  Patient location: Urban Influence Codes, 2003
+ME  2003 CORE              75 PL_UR_CAT4           288  289   Num  Patient Location: Urban-Rural 4 Categories
+ME  2003 CORE              76 PL_UR_CAT5           290  291   Num  Patient Location: Urban-Rural 5 Categories
+ME  2003 CORE              77 PR1                  292  295   Char Principal procedure
+ME  2003 CORE              78 PR2                  296  299   Char Procedure 2
+ME  2003 CORE              79 PR3                  300  303   Char Procedure 3
+ME  2003 CORE              80 PR4                  304  307   Char Procedure 4
+ME  2003 CORE              81 PR5                  308  311   Char Procedure 5
+ME  2003 CORE              82 PR6                  312  315   Char Procedure 6
+ME  2003 CORE              83 PRCCS1               316  318   Num  CCS: principal procedure
+ME  2003 CORE              84 PRCCS2               319  321   Num  CCS: procedure 2
+ME  2003 CORE              85 PRCCS3               322  324   Num  CCS: procedure 3
+ME  2003 CORE              86 PRCCS4               325  327   Num  CCS: procedure 4
+ME  2003 CORE              87 PRCCS5               328  330   Num  CCS: procedure 5
+ME  2003 CORE              88 PRCCS6               331  333   Num  CCS: procedure 6
+ME  2003 CORE              89 PRDAY1               334  338   Num  Number of days from admission to PR1
+ME  2003 CORE              90 PRDAY2               339  343   Num  Number of days from admission to PR2
+ME  2003 CORE              91 PRDAY3               344  348   Num  Number of days from admission to PR3
+ME  2003 CORE              92 PRDAY4               349  353   Num  Number of days from admission to PR4
+ME  2003 CORE              93 PRDAY5               354  358   Num  Number of days from admission to PR5
+ME  2003 CORE              94 PRDAY6               359  363   Num  Number of days from admission to PR6
+ME  2003 CORE              95 PSTATE               364  365   Char Patient State postal code
+ME  2003 CORE              96 PSTCO                366  370   Num  Patient state/county FIPS code
+ME  2003 CORE              97 PSTCO2               371  375   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+ME  2003 CORE              98 YEAR                 376  379   Num  Calendar year
+ME  2003 CORE              99 ZIP_S                380  384   Char Patient ZIP Code (synthetic)
+ME  2003 CORE             100 AYEAR                385  388   Num  Admission year
+ME  2003 CORE             101 DMONTH               389  390   Num  Discharge month
+ME  2003 CORE             102 PRMONTH1             391  392   Num  Month of procedure 1
+ME  2003 CORE             103 PRMONTH2             393  394   Num  Month of procedure 2
+ME  2003 CORE             104 PRMONTH3             395  396   Num  Month of procedure 3
+ME  2003 CORE             105 PRMONTH4             397  398   Num  Month of procedure 4
+ME  2003 CORE             106 PRMONTH5             399  400   Num  Month of procedure 5
+ME  2003 CORE             107 PRMONTH6             401  402   Num  Month of procedure 6
+ME  2003 CORE             108 PRYEAR1              403  406   Num  Year of procedure 1
+ME  2003 CORE             109 PRYEAR2              407  410   Num  Year of procedure 2
+ME  2003 CORE             110 PRYEAR3              411  414   Num  Year of procedure 3
+ME  2003 CORE             111 PRYEAR4              415  418   Num  Year of procedure 4
+ME  2003 CORE             112 PRYEAR5              419  422   Num  Year of procedure 5
+ME  2003 CORE             113 PRYEAR6              423  426   Num  Year of procedure 6

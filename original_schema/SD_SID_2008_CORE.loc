@@ -1,0 +1,515 @@
+Data Set Name: SD_SIDC_2008_CORE               
+Number of Observations: 103833
+Total Record Length: 1728
+Total Number of Variables: 495
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 56    Variable name
+58- 61    Starting column of variable in ASCII file
+63- 66    Ending column of variable in ASCII file
+    68    Non-zero number of digits after decimal point for numeric variable
+70- 73    Variable type (Num=numeric; Char=character)
+75-174    Variable label
+
+
+SD  2008 CORE               1 AGE                           1    3   Num  Age in years at admission
+SD  2008 CORE               2 AGEDAY                        4    6   Num  Age in days (when age < 1 year)
+SD  2008 CORE               3 AGEMONTH                      7    9   Num  Age in months (when age < 11 years)
+SD  2008 CORE               4 AMONTH                       10   11   Num  Admission month
+SD  2008 CORE               5 ATYPE                        12   13   Num  Admission type
+SD  2008 CORE               6 AWEEKEND                     14   15   Num  Admission day is a weekend
+SD  2008 CORE               7 DIED                         16   17   Num  Died during hospitalization
+SD  2008 CORE               8 DISPUB04                     18   19   Num  Disposition of patient (UB-04 standard coding)
+SD  2008 CORE               9 DISPUNIFORM                  20   21   Num  Disposition of patient (uniform)
+SD  2008 CORE              10 DISP_X                       22   25   Char Disposition of patient (as received from source)
+SD  2008 CORE              11 DQTR                         26   27   Num  Discharge quarter
+SD  2008 CORE              12 DRG                          28   30   Num  DRG in effect on discharge date
+SD  2008 CORE              13 DRG24                        31   33   Num  DRG, version 24
+SD  2008 CORE              14 DRGVER                       34   35   Num  DRG grouper version used on discharge date
+SD  2008 CORE              15 DRG_NoPOA                    36   38   Num  DRG in use on discharge date, calculated without POA
+SD  2008 CORE              16 DX1                          39   43   Char Diagnosis 1
+SD  2008 CORE              17 DX2                          44   48   Char Diagnosis 2
+SD  2008 CORE              18 DX3                          49   53   Char Diagnosis 3
+SD  2008 CORE              19 DX4                          54   58   Char Diagnosis 4
+SD  2008 CORE              20 DX5                          59   63   Char Diagnosis 5
+SD  2008 CORE              21 DX6                          64   68   Char Diagnosis 6
+SD  2008 CORE              22 DX7                          69   73   Char Diagnosis 7
+SD  2008 CORE              23 DX8                          74   78   Char Diagnosis 8
+SD  2008 CORE              24 DX9                          79   83   Char Diagnosis 9
+SD  2008 CORE              25 DX10                         84   88   Char Diagnosis 10
+SD  2008 CORE              26 DX11                         89   93   Char Diagnosis 11
+SD  2008 CORE              27 DX12                         94   98   Char Diagnosis 12
+SD  2008 CORE              28 DX13                         99  103   Char Diagnosis 13
+SD  2008 CORE              29 DX14                        104  108   Char Diagnosis 14
+SD  2008 CORE              30 DX15                        109  113   Char Diagnosis 15
+SD  2008 CORE              31 DX16                        114  118   Char Diagnosis 16
+SD  2008 CORE              32 DX17                        119  123   Char Diagnosis 17
+SD  2008 CORE              33 DX18                        124  128   Char Diagnosis 18
+SD  2008 CORE              34 DX19                        129  133   Char Diagnosis 19
+SD  2008 CORE              35 DX20                        134  138   Char Diagnosis 20
+SD  2008 CORE              36 DX21                        139  143   Char Diagnosis 21
+SD  2008 CORE              37 DX22                        144  148   Char Diagnosis 22
+SD  2008 CORE              38 DX23                        149  153   Char Diagnosis 23
+SD  2008 CORE              39 DX24                        154  158   Char Diagnosis 24
+SD  2008 CORE              40 DX25                        159  163   Char Diagnosis 25
+SD  2008 CORE              41 DX26                        164  168   Char Diagnosis 26
+SD  2008 CORE              42 DX27                        169  173   Char Diagnosis 27
+SD  2008 CORE              43 DX28                        174  178   Char Diagnosis 28
+SD  2008 CORE              44 DX29                        179  183   Char Diagnosis 29
+SD  2008 CORE              45 DX30                        184  188   Char Diagnosis 30
+SD  2008 CORE              46 DX31                        189  193   Char Diagnosis 31
+SD  2008 CORE              47 DX32                        194  198   Char Diagnosis 32
+SD  2008 CORE              48 DX33                        199  203   Char Diagnosis 33
+SD  2008 CORE              49 DX34                        204  208   Char Diagnosis 34
+SD  2008 CORE              50 DX35                        209  213   Char Diagnosis 35
+SD  2008 CORE              51 DX36                        214  218   Char Diagnosis 36
+SD  2008 CORE              52 DX37                        219  223   Char Diagnosis 37
+SD  2008 CORE              53 DX38                        224  228   Char Diagnosis 38
+SD  2008 CORE              54 DX39                        229  233   Char Diagnosis 39
+SD  2008 CORE              55 DX40                        234  238   Char Diagnosis 40
+SD  2008 CORE              56 DX41                        239  243   Char Diagnosis 41
+SD  2008 CORE              57 DX42                        244  248   Char Diagnosis 42
+SD  2008 CORE              58 DX43                        249  253   Char Diagnosis 43
+SD  2008 CORE              59 DX44                        254  258   Char Diagnosis 44
+SD  2008 CORE              60 DX45                        259  263   Char Diagnosis 45
+SD  2008 CORE              61 DX46                        264  268   Char Diagnosis 46
+SD  2008 CORE              62 DX47                        269  273   Char Diagnosis 47
+SD  2008 CORE              63 DX48                        274  278   Char Diagnosis 48
+SD  2008 CORE              64 DX49                        279  283   Char Diagnosis 49
+SD  2008 CORE              65 DX50                        284  288   Char Diagnosis 50
+SD  2008 CORE              66 DX51                        289  293   Char Diagnosis 51
+SD  2008 CORE              67 DX52                        294  298   Char Diagnosis 52
+SD  2008 CORE              68 DX53                        299  303   Char Diagnosis 53
+SD  2008 CORE              69 DX54                        304  308   Char Diagnosis 54
+SD  2008 CORE              70 DX55                        309  313   Char Diagnosis 55
+SD  2008 CORE              71 DX56                        314  318   Char Diagnosis 56
+SD  2008 CORE              72 DX57                        319  323   Char Diagnosis 57
+SD  2008 CORE              73 DX58                        324  328   Char Diagnosis 58
+SD  2008 CORE              74 DX59                        329  333   Char Diagnosis 59
+SD  2008 CORE              75 DX60                        334  338   Char Diagnosis 60
+SD  2008 CORE              76 DX61                        339  343   Char Diagnosis 61
+SD  2008 CORE              77 DXCCS1                      344  347   Num  CCS: diagnosis 1
+SD  2008 CORE              78 DXCCS2                      348  351   Num  CCS: diagnosis 2
+SD  2008 CORE              79 DXCCS3                      352  355   Num  CCS: diagnosis 3
+SD  2008 CORE              80 DXCCS4                      356  359   Num  CCS: diagnosis 4
+SD  2008 CORE              81 DXCCS5                      360  363   Num  CCS: diagnosis 5
+SD  2008 CORE              82 DXCCS6                      364  367   Num  CCS: diagnosis 6
+SD  2008 CORE              83 DXCCS7                      368  371   Num  CCS: diagnosis 7
+SD  2008 CORE              84 DXCCS8                      372  375   Num  CCS: diagnosis 8
+SD  2008 CORE              85 DXCCS9                      376  379   Num  CCS: diagnosis 9
+SD  2008 CORE              86 DXCCS10                     380  383   Num  CCS: diagnosis 10
+SD  2008 CORE              87 DXCCS11                     384  387   Num  CCS: diagnosis 11
+SD  2008 CORE              88 DXCCS12                     388  391   Num  CCS: diagnosis 12
+SD  2008 CORE              89 DXCCS13                     392  395   Num  CCS: diagnosis 13
+SD  2008 CORE              90 DXCCS14                     396  399   Num  CCS: diagnosis 14
+SD  2008 CORE              91 DXCCS15                     400  403   Num  CCS: diagnosis 15
+SD  2008 CORE              92 DXCCS16                     404  407   Num  CCS: diagnosis 16
+SD  2008 CORE              93 DXCCS17                     408  411   Num  CCS: diagnosis 17
+SD  2008 CORE              94 DXCCS18                     412  415   Num  CCS: diagnosis 18
+SD  2008 CORE              95 DXCCS19                     416  419   Num  CCS: diagnosis 19
+SD  2008 CORE              96 DXCCS20                     420  423   Num  CCS: diagnosis 20
+SD  2008 CORE              97 DXCCS21                     424  427   Num  CCS: diagnosis 21
+SD  2008 CORE              98 DXCCS22                     428  431   Num  CCS: diagnosis 22
+SD  2008 CORE              99 DXCCS23                     432  435   Num  CCS: diagnosis 23
+SD  2008 CORE             100 DXCCS24                     436  439   Num  CCS: diagnosis 24
+SD  2008 CORE             101 DXCCS25                     440  443   Num  CCS: diagnosis 25
+SD  2008 CORE             102 DXCCS26                     444  447   Num  CCS: diagnosis 26
+SD  2008 CORE             103 DXCCS27                     448  451   Num  CCS: diagnosis 27
+SD  2008 CORE             104 DXCCS28                     452  455   Num  CCS: diagnosis 28
+SD  2008 CORE             105 DXCCS29                     456  459   Num  CCS: diagnosis 29
+SD  2008 CORE             106 DXCCS30                     460  463   Num  CCS: diagnosis 30
+SD  2008 CORE             107 DXCCS31                     464  467   Num  CCS: diagnosis 31
+SD  2008 CORE             108 DXCCS32                     468  471   Num  CCS: diagnosis 32
+SD  2008 CORE             109 DXCCS33                     472  475   Num  CCS: diagnosis 33
+SD  2008 CORE             110 DXCCS34                     476  479   Num  CCS: diagnosis 34
+SD  2008 CORE             111 DXCCS35                     480  483   Num  CCS: diagnosis 35
+SD  2008 CORE             112 DXCCS36                     484  487   Num  CCS: diagnosis 36
+SD  2008 CORE             113 DXCCS37                     488  491   Num  CCS: diagnosis 37
+SD  2008 CORE             114 DXCCS38                     492  495   Num  CCS: diagnosis 38
+SD  2008 CORE             115 DXCCS39                     496  499   Num  CCS: diagnosis 39
+SD  2008 CORE             116 DXCCS40                     500  503   Num  CCS: diagnosis 40
+SD  2008 CORE             117 DXCCS41                     504  507   Num  CCS: diagnosis 41
+SD  2008 CORE             118 DXCCS42                     508  511   Num  CCS: diagnosis 42
+SD  2008 CORE             119 DXCCS43                     512  515   Num  CCS: diagnosis 43
+SD  2008 CORE             120 DXCCS44                     516  519   Num  CCS: diagnosis 44
+SD  2008 CORE             121 DXCCS45                     520  523   Num  CCS: diagnosis 45
+SD  2008 CORE             122 DXCCS46                     524  527   Num  CCS: diagnosis 46
+SD  2008 CORE             123 DXCCS47                     528  531   Num  CCS: diagnosis 47
+SD  2008 CORE             124 DXCCS48                     532  535   Num  CCS: diagnosis 48
+SD  2008 CORE             125 DXCCS49                     536  539   Num  CCS: diagnosis 49
+SD  2008 CORE             126 DXCCS50                     540  543   Num  CCS: diagnosis 50
+SD  2008 CORE             127 DXCCS51                     544  547   Num  CCS: diagnosis 51
+SD  2008 CORE             128 DXCCS52                     548  551   Num  CCS: diagnosis 52
+SD  2008 CORE             129 DXCCS53                     552  555   Num  CCS: diagnosis 53
+SD  2008 CORE             130 DXCCS54                     556  559   Num  CCS: diagnosis 54
+SD  2008 CORE             131 DXCCS55                     560  563   Num  CCS: diagnosis 55
+SD  2008 CORE             132 DXCCS56                     564  567   Num  CCS: diagnosis 56
+SD  2008 CORE             133 DXCCS57                     568  571   Num  CCS: diagnosis 57
+SD  2008 CORE             134 DXCCS58                     572  575   Num  CCS: diagnosis 58
+SD  2008 CORE             135 DXCCS59                     576  579   Num  CCS: diagnosis 59
+SD  2008 CORE             136 DXCCS60                     580  583   Num  CCS: diagnosis 60
+SD  2008 CORE             137 DXCCS61                     584  587   Num  CCS: diagnosis 61
+SD  2008 CORE             138 DXPOA1                      588  588   Char Diagnosis 1, present on admission indicator
+SD  2008 CORE             139 DXPOA2                      589  589   Char Diagnosis 2, present on admission indicator
+SD  2008 CORE             140 DXPOA3                      590  590   Char Diagnosis 3, present on admission indicator
+SD  2008 CORE             141 DXPOA4                      591  591   Char Diagnosis 4, present on admission indicator
+SD  2008 CORE             142 DXPOA5                      592  592   Char Diagnosis 5, present on admission indicator
+SD  2008 CORE             143 DXPOA6                      593  593   Char Diagnosis 6, present on admission indicator
+SD  2008 CORE             144 DXPOA7                      594  594   Char Diagnosis 7, present on admission indicator
+SD  2008 CORE             145 DXPOA8                      595  595   Char Diagnosis 8, present on admission indicator
+SD  2008 CORE             146 DXPOA9                      596  596   Char Diagnosis 9, present on admission indicator
+SD  2008 CORE             147 DXPOA10                     597  597   Char Diagnosis 10, present on admission indicator
+SD  2008 CORE             148 DXPOA11                     598  598   Char Diagnosis 11, present on admission indicator
+SD  2008 CORE             149 DXPOA12                     599  599   Char Diagnosis 12, present on admission indicator
+SD  2008 CORE             150 DXPOA13                     600  600   Char Diagnosis 13, present on admission indicator
+SD  2008 CORE             151 DXPOA14                     601  601   Char Diagnosis 14, present on admission indicator
+SD  2008 CORE             152 DXPOA15                     602  602   Char Diagnosis 15, present on admission indicator
+SD  2008 CORE             153 DXPOA16                     603  603   Char Diagnosis 16, present on admission indicator
+SD  2008 CORE             154 DXPOA17                     604  604   Char Diagnosis 17, present on admission indicator
+SD  2008 CORE             155 DXPOA18                     605  605   Char Diagnosis 18, present on admission indicator
+SD  2008 CORE             156 DXPOA19                     606  606   Char Diagnosis 19, present on admission indicator
+SD  2008 CORE             157 DXPOA20                     607  607   Char Diagnosis 20, present on admission indicator
+SD  2008 CORE             158 DXPOA21                     608  608   Char Diagnosis 21, present on admission indicator
+SD  2008 CORE             159 DXPOA22                     609  609   Char Diagnosis 22, present on admission indicator
+SD  2008 CORE             160 DXPOA23                     610  610   Char Diagnosis 23, present on admission indicator
+SD  2008 CORE             161 DXPOA24                     611  611   Char Diagnosis 24, present on admission indicator
+SD  2008 CORE             162 DXPOA25                     612  612   Char Diagnosis 25, present on admission indicator
+SD  2008 CORE             163 DXPOA26                     613  613   Char Diagnosis 26, present on admission indicator
+SD  2008 CORE             164 DXPOA27                     614  614   Char Diagnosis 27, present on admission indicator
+SD  2008 CORE             165 DXPOA28                     615  615   Char Diagnosis 28, present on admission indicator
+SD  2008 CORE             166 DXPOA29                     616  616   Char Diagnosis 29, present on admission indicator
+SD  2008 CORE             167 DXPOA30                     617  617   Char Diagnosis 30, present on admission indicator
+SD  2008 CORE             168 DXPOA31                     618  618   Char Diagnosis 31, present on admission indicator
+SD  2008 CORE             169 DXPOA32                     619  619   Char Diagnosis 32, present on admission indicator
+SD  2008 CORE             170 DXPOA33                     620  620   Char Diagnosis 33, present on admission indicator
+SD  2008 CORE             171 DXPOA34                     621  621   Char Diagnosis 34, present on admission indicator
+SD  2008 CORE             172 DXPOA35                     622  622   Char Diagnosis 35, present on admission indicator
+SD  2008 CORE             173 DXPOA36                     623  623   Char Diagnosis 36, present on admission indicator
+SD  2008 CORE             174 DXPOA37                     624  624   Char Diagnosis 37, present on admission indicator
+SD  2008 CORE             175 DXPOA38                     625  625   Char Diagnosis 38, present on admission indicator
+SD  2008 CORE             176 DXPOA39                     626  626   Char Diagnosis 39, present on admission indicator
+SD  2008 CORE             177 DXPOA40                     627  627   Char Diagnosis 40, present on admission indicator
+SD  2008 CORE             178 DXPOA41                     628  628   Char Diagnosis 41, present on admission indicator
+SD  2008 CORE             179 DXPOA42                     629  629   Char Diagnosis 42, present on admission indicator
+SD  2008 CORE             180 DXPOA43                     630  630   Char Diagnosis 43, present on admission indicator
+SD  2008 CORE             181 DXPOA44                     631  631   Char Diagnosis 44, present on admission indicator
+SD  2008 CORE             182 DXPOA45                     632  632   Char Diagnosis 45, present on admission indicator
+SD  2008 CORE             183 DXPOA46                     633  633   Char Diagnosis 46, present on admission indicator
+SD  2008 CORE             184 DXPOA47                     634  634   Char Diagnosis 47, present on admission indicator
+SD  2008 CORE             185 DXPOA48                     635  635   Char Diagnosis 48, present on admission indicator
+SD  2008 CORE             186 DXPOA49                     636  636   Char Diagnosis 49, present on admission indicator
+SD  2008 CORE             187 DXPOA50                     637  637   Char Diagnosis 50, present on admission indicator
+SD  2008 CORE             188 DXPOA51                     638  638   Char Diagnosis 51, present on admission indicator
+SD  2008 CORE             189 DXPOA52                     639  639   Char Diagnosis 52, present on admission indicator
+SD  2008 CORE             190 DXPOA53                     640  640   Char Diagnosis 53, present on admission indicator
+SD  2008 CORE             191 DXPOA54                     641  641   Char Diagnosis 54, present on admission indicator
+SD  2008 CORE             192 DXPOA55                     642  642   Char Diagnosis 55, present on admission indicator
+SD  2008 CORE             193 DXPOA56                     643  643   Char Diagnosis 56, present on admission indicator
+SD  2008 CORE             194 DXPOA57                     644  644   Char Diagnosis 57, present on admission indicator
+SD  2008 CORE             195 DXPOA58                     645  645   Char Diagnosis 58, present on admission indicator
+SD  2008 CORE             196 DXPOA59                     646  646   Char Diagnosis 59, present on admission indicator
+SD  2008 CORE             197 DXPOA60                     647  647   Char Diagnosis 60, present on admission indicator
+SD  2008 CORE             198 DXPOA61                     648  648   Char Diagnosis 61, present on admission indicator
+SD  2008 CORE             199 ECODE1                      649  653   Char E code 1
+SD  2008 CORE             200 ECODE2                      654  658   Char E code 2
+SD  2008 CORE             201 ECODE3                      659  663   Char E code 3
+SD  2008 CORE             202 ECODE4                      664  668   Char E code 4
+SD  2008 CORE             203 ECODE5                      669  673   Char E code 5
+SD  2008 CORE             204 ECODE6                      674  678   Char E code 6
+SD  2008 CORE             205 E_CCS1                      679  682   Num  CCS: E Code 1
+SD  2008 CORE             206 E_CCS2                      683  686   Num  CCS: E Code 2
+SD  2008 CORE             207 E_CCS3                      687  690   Num  CCS: E Code 3
+SD  2008 CORE             208 E_CCS4                      691  694   Num  CCS: E Code 4
+SD  2008 CORE             209 E_CCS5                      695  698   Num  CCS: E Code 5
+SD  2008 CORE             210 E_CCS6                      699  702   Num  CCS: E Code 6
+SD  2008 CORE             211 E_POA1                      703  703   Char E Code 1, present on admission indicator
+SD  2008 CORE             212 E_POA2                      704  704   Char E Code 2, present on admission indicator
+SD  2008 CORE             213 E_POA3                      705  705   Char E Code 3, present on admission indicator
+SD  2008 CORE             214 E_POA4                      706  706   Char E Code 4, present on admission indicator
+SD  2008 CORE             215 E_POA5                      707  707   Char E Code 5, present on admission indicator
+SD  2008 CORE             216 E_POA6                      708  708   Char E Code 6, present on admission indicator
+SD  2008 CORE             217 FEMALE                      709  710   Num  Indicator of sex
+SD  2008 CORE             218 HCUP_ED                     711  712   Num  HCUP Emergency Department service indicator
+SD  2008 CORE             219 HCUP_OS                     713  714   Num  HCUP Observation Stay service indicator
+SD  2008 CORE             220 HOSPBRTH                    715  717   Num  Indicator of birth in this hospital
+SD  2008 CORE             221 HOSPST                      718  719   Char Hospital state postal code
+SD  2008 CORE             222 HospitalUnit                720  721   Num  Indicator that patient was discharged from a special unit within an acute care hospital (reported by source)
+SD  2008 CORE             223 KEY                         722  735   Num  HCUP record identifier
+SD  2008 CORE             224 LOS                         736  740   Num  Length of stay (cleaned)
+SD  2008 CORE             225 LOS_X                       741  746   Num  Length of stay (as received from source)
+SD  2008 CORE             226 MDC                         747  748   Num  MDC in effect on discharge date
+SD  2008 CORE             227 MDC24                       749  750   Num  MDC, version 24
+SD  2008 CORE             228 MDNUM1_R                    751  759   Num  Physician 1 number (re-identified)
+SD  2008 CORE             229 MDNUM2_R                    760  768   Num  Physician 2 number (re-identified)
+SD  2008 CORE             230 MDNUM3_R                    769  777   Num  Physician 3 number (re-identified)
+SD  2008 CORE             231 MEDINCSTQ                   778  779   Num  Median household income state quartile for patient ZIP Code
+SD  2008 CORE             232 MRN_R                       780  788   Num  Medical record number (re-identified)
+SD  2008 CORE             233 NDX                         789  790   Num  Number of diagnoses on this record
+SD  2008 CORE             234 NECODE                      791  792   Num  Number of E codes on this record
+SD  2008 CORE             235 NEOMAT                      793  794   Num  Neonatal and/or maternal DX and/or PR
+SD  2008 CORE             236 NPR                         795  796   Num  Number of procedures on this record
+SD  2008 CORE             237 PAY1                        797  798   Num  Primary expected payer (uniform)
+SD  2008 CORE             238 PL_CBSA                     799  801   Num  Patient location: Core Based Statistical Area (CBSA)
+SD  2008 CORE             239 PL_MSA1993                  802  804   Num  Patient location: Metropolitan Statistical Area (MSA), 1993
+SD  2008 CORE             240 PL_NCHS2006                 805  806   Num  Patient Location: NCHS Urban-Rural Code (V2006)
+SD  2008 CORE             241 PL_RUCA10_2005              807  808   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, ten levels
+SD  2008 CORE             242 PL_RUCA2005                 809  812 1 Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes
+SD  2008 CORE             243 PL_RUCA4_2005               813  814   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, four levels
+SD  2008 CORE             244 PL_RUCC2003                 815  816   Num  Patient location: Rural-Urban Continuum Codes(RUCC), 2003
+SD  2008 CORE             245 PL_UIC2003                  817  818   Num  Patient location: Urban Influence Codes, 2003
+SD  2008 CORE             246 PL_UR_CAT4                  819  820   Num  Patient Location: Urban-Rural 4 Categories
+SD  2008 CORE             247 PR1                         821  824   Char Procedure 1
+SD  2008 CORE             248 PR2                         825  828   Char Procedure 2
+SD  2008 CORE             249 PR3                         829  832   Char Procedure 3
+SD  2008 CORE             250 PR4                         833  836   Char Procedure 4
+SD  2008 CORE             251 PR5                         837  840   Char Procedure 5
+SD  2008 CORE             252 PR6                         841  844   Char Procedure 6
+SD  2008 CORE             253 PR7                         845  848   Char Procedure 7
+SD  2008 CORE             254 PR8                         849  852   Char Procedure 8
+SD  2008 CORE             255 PR9                         853  856   Char Procedure 9
+SD  2008 CORE             256 PR10                        857  860   Char Procedure 10
+SD  2008 CORE             257 PR11                        861  864   Char Procedure 11
+SD  2008 CORE             258 PR12                        865  868   Char Procedure 12
+SD  2008 CORE             259 PR13                        869  872   Char Procedure 13
+SD  2008 CORE             260 PR14                        873  876   Char Procedure 14
+SD  2008 CORE             261 PR15                        877  880   Char Procedure 15
+SD  2008 CORE             262 PR16                        881  884   Char Procedure 16
+SD  2008 CORE             263 PR17                        885  888   Char Procedure 17
+SD  2008 CORE             264 PR18                        889  892   Char Procedure 18
+SD  2008 CORE             265 PR19                        893  896   Char Procedure 19
+SD  2008 CORE             266 PR20                        897  900   Char Procedure 20
+SD  2008 CORE             267 PR21                        901  904   Char Procedure 21
+SD  2008 CORE             268 PR22                        905  908   Char Procedure 22
+SD  2008 CORE             269 PR23                        909  912   Char Procedure 23
+SD  2008 CORE             270 PR24                        913  916   Char Procedure 24
+SD  2008 CORE             271 PR25                        917  920   Char Procedure 25
+SD  2008 CORE             272 PR26                        921  924   Char Procedure 26
+SD  2008 CORE             273 PR27                        925  928   Char Procedure 27
+SD  2008 CORE             274 PR28                        929  932   Char Procedure 28
+SD  2008 CORE             275 PR29                        933  936   Char Procedure 29
+SD  2008 CORE             276 PR30                        937  940   Char Procedure 30
+SD  2008 CORE             277 PR31                        941  944   Char Procedure 31
+SD  2008 CORE             278 PR32                        945  948   Char Procedure 32
+SD  2008 CORE             279 PR33                        949  952   Char Procedure 33
+SD  2008 CORE             280 PR34                        953  956   Char Procedure 34
+SD  2008 CORE             281 PR35                        957  960   Char Procedure 35
+SD  2008 CORE             282 PR36                        961  964   Char Procedure 36
+SD  2008 CORE             283 PR37                        965  968   Char Procedure 37
+SD  2008 CORE             284 PR38                        969  972   Char Procedure 38
+SD  2008 CORE             285 PR39                        973  976   Char Procedure 39
+SD  2008 CORE             286 PR40                        977  980   Char Procedure 40
+SD  2008 CORE             287 PR41                        981  984   Char Procedure 41
+SD  2008 CORE             288 PR42                        985  988   Char Procedure 42
+SD  2008 CORE             289 PR43                        989  992   Char Procedure 43
+SD  2008 CORE             290 PR44                        993  996   Char Procedure 44
+SD  2008 CORE             291 PR45                        997 1000   Char Procedure 45
+SD  2008 CORE             292 PR46                       1001 1004   Char Procedure 46
+SD  2008 CORE             293 PRCCS1                     1005 1007   Num  CCS: procedure 1
+SD  2008 CORE             294 PRCCS2                     1008 1010   Num  CCS: procedure 2
+SD  2008 CORE             295 PRCCS3                     1011 1013   Num  CCS: procedure 3
+SD  2008 CORE             296 PRCCS4                     1014 1016   Num  CCS: procedure 4
+SD  2008 CORE             297 PRCCS5                     1017 1019   Num  CCS: procedure 5
+SD  2008 CORE             298 PRCCS6                     1020 1022   Num  CCS: procedure 6
+SD  2008 CORE             299 PRCCS7                     1023 1025   Num  CCS: procedure 7
+SD  2008 CORE             300 PRCCS8                     1026 1028   Num  CCS: procedure 8
+SD  2008 CORE             301 PRCCS9                     1029 1031   Num  CCS: procedure 9
+SD  2008 CORE             302 PRCCS10                    1032 1034   Num  CCS: procedure 10
+SD  2008 CORE             303 PRCCS11                    1035 1037   Num  CCS: procedure 11
+SD  2008 CORE             304 PRCCS12                    1038 1040   Num  CCS: procedure 12
+SD  2008 CORE             305 PRCCS13                    1041 1043   Num  CCS: procedure 13
+SD  2008 CORE             306 PRCCS14                    1044 1046   Num  CCS: procedure 14
+SD  2008 CORE             307 PRCCS15                    1047 1049   Num  CCS: procedure 15
+SD  2008 CORE             308 PRCCS16                    1050 1052   Num  CCS: procedure 16
+SD  2008 CORE             309 PRCCS17                    1053 1055   Num  CCS: procedure 17
+SD  2008 CORE             310 PRCCS18                    1056 1058   Num  CCS: procedure 18
+SD  2008 CORE             311 PRCCS19                    1059 1061   Num  CCS: procedure 19
+SD  2008 CORE             312 PRCCS20                    1062 1064   Num  CCS: procedure 20
+SD  2008 CORE             313 PRCCS21                    1065 1067   Num  CCS: procedure 21
+SD  2008 CORE             314 PRCCS22                    1068 1070   Num  CCS: procedure 22
+SD  2008 CORE             315 PRCCS23                    1071 1073   Num  CCS: procedure 23
+SD  2008 CORE             316 PRCCS24                    1074 1076   Num  CCS: procedure 24
+SD  2008 CORE             317 PRCCS25                    1077 1079   Num  CCS: procedure 25
+SD  2008 CORE             318 PRCCS26                    1080 1082   Num  CCS: procedure 26
+SD  2008 CORE             319 PRCCS27                    1083 1085   Num  CCS: procedure 27
+SD  2008 CORE             320 PRCCS28                    1086 1088   Num  CCS: procedure 28
+SD  2008 CORE             321 PRCCS29                    1089 1091   Num  CCS: procedure 29
+SD  2008 CORE             322 PRCCS30                    1092 1094   Num  CCS: procedure 30
+SD  2008 CORE             323 PRCCS31                    1095 1097   Num  CCS: procedure 31
+SD  2008 CORE             324 PRCCS32                    1098 1100   Num  CCS: procedure 32
+SD  2008 CORE             325 PRCCS33                    1101 1103   Num  CCS: procedure 33
+SD  2008 CORE             326 PRCCS34                    1104 1106   Num  CCS: procedure 34
+SD  2008 CORE             327 PRCCS35                    1107 1109   Num  CCS: procedure 35
+SD  2008 CORE             328 PRCCS36                    1110 1112   Num  CCS: procedure 36
+SD  2008 CORE             329 PRCCS37                    1113 1115   Num  CCS: procedure 37
+SD  2008 CORE             330 PRCCS38                    1116 1118   Num  CCS: procedure 38
+SD  2008 CORE             331 PRCCS39                    1119 1121   Num  CCS: procedure 39
+SD  2008 CORE             332 PRCCS40                    1122 1124   Num  CCS: procedure 40
+SD  2008 CORE             333 PRCCS41                    1125 1127   Num  CCS: procedure 41
+SD  2008 CORE             334 PRCCS42                    1128 1130   Num  CCS: procedure 42
+SD  2008 CORE             335 PRCCS43                    1131 1133   Num  CCS: procedure 43
+SD  2008 CORE             336 PRCCS44                    1134 1136   Num  CCS: procedure 44
+SD  2008 CORE             337 PRCCS45                    1137 1139   Num  CCS: procedure 45
+SD  2008 CORE             338 PRCCS46                    1140 1142   Num  CCS: procedure 46
+SD  2008 CORE             339 PRDAY1                     1143 1147   Num  Number of days from admission to PR1
+SD  2008 CORE             340 PRDAY2                     1148 1152   Num  Number of days from admission to PR2
+SD  2008 CORE             341 PRDAY3                     1153 1157   Num  Number of days from admission to PR3
+SD  2008 CORE             342 PRDAY4                     1158 1162   Num  Number of days from admission to PR4
+SD  2008 CORE             343 PRDAY5                     1163 1167   Num  Number of days from admission to PR5
+SD  2008 CORE             344 PRDAY6                     1168 1172   Num  Number of days from admission to PR6
+SD  2008 CORE             345 PRDAY7                     1173 1177   Num  Number of days from admission to PR7
+SD  2008 CORE             346 PRDAY8                     1178 1182   Num  Number of days from admission to PR8
+SD  2008 CORE             347 PRDAY9                     1183 1187   Num  Number of days from admission to PR9
+SD  2008 CORE             348 PRDAY10                    1188 1192   Num  Number of days from admission to PR10
+SD  2008 CORE             349 PRDAY11                    1193 1197   Num  Number of days from admission to PR11
+SD  2008 CORE             350 PRDAY12                    1198 1202   Num  Number of days from admission to PR12
+SD  2008 CORE             351 PRDAY13                    1203 1207   Num  Number of days from admission to PR13
+SD  2008 CORE             352 PRDAY14                    1208 1212   Num  Number of days from admission to PR14
+SD  2008 CORE             353 PRDAY15                    1213 1217   Num  Number of days from admission to PR15
+SD  2008 CORE             354 PRDAY16                    1218 1222   Num  Number of days from admission to PR16
+SD  2008 CORE             355 PRDAY17                    1223 1227   Num  Number of days from admission to PR17
+SD  2008 CORE             356 PRDAY18                    1228 1232   Num  Number of days from admission to PR18
+SD  2008 CORE             357 PRDAY19                    1233 1237   Num  Number of days from admission to PR19
+SD  2008 CORE             358 PRDAY20                    1238 1242   Num  Number of days from admission to PR20
+SD  2008 CORE             359 PRDAY21                    1243 1247   Num  Number of days from admission to PR21
+SD  2008 CORE             360 PRDAY22                    1248 1252   Num  Number of days from admission to PR22
+SD  2008 CORE             361 PRDAY23                    1253 1257   Num  Number of days from admission to PR23
+SD  2008 CORE             362 PRDAY24                    1258 1262   Num  Number of days from admission to PR24
+SD  2008 CORE             363 PRDAY25                    1263 1267   Num  Number of days from admission to PR25
+SD  2008 CORE             364 PRDAY26                    1268 1272   Num  Number of days from admission to PR26
+SD  2008 CORE             365 PRDAY27                    1273 1277   Num  Number of days from admission to PR27
+SD  2008 CORE             366 PRDAY28                    1278 1282   Num  Number of days from admission to PR28
+SD  2008 CORE             367 PRDAY29                    1283 1287   Num  Number of days from admission to PR29
+SD  2008 CORE             368 PRDAY30                    1288 1292   Num  Number of days from admission to PR30
+SD  2008 CORE             369 PRDAY31                    1293 1297   Num  Number of days from admission to PR31
+SD  2008 CORE             370 PRDAY32                    1298 1302   Num  Number of days from admission to PR32
+SD  2008 CORE             371 PRDAY33                    1303 1307   Num  Number of days from admission to PR33
+SD  2008 CORE             372 PRDAY34                    1308 1312   Num  Number of days from admission to PR34
+SD  2008 CORE             373 PRDAY35                    1313 1317   Num  Number of days from admission to PR35
+SD  2008 CORE             374 PRDAY36                    1318 1322   Num  Number of days from admission to PR36
+SD  2008 CORE             375 PRDAY37                    1323 1327   Num  Number of days from admission to PR37
+SD  2008 CORE             376 PRDAY38                    1328 1332   Num  Number of days from admission to PR38
+SD  2008 CORE             377 PRDAY39                    1333 1337   Num  Number of days from admission to PR39
+SD  2008 CORE             378 PRDAY40                    1338 1342   Num  Number of days from admission to PR40
+SD  2008 CORE             379 PRDAY41                    1343 1347   Num  Number of days from admission to PR41
+SD  2008 CORE             380 PRDAY42                    1348 1352   Num  Number of days from admission to PR42
+SD  2008 CORE             381 PRDAY43                    1353 1357   Num  Number of days from admission to PR43
+SD  2008 CORE             382 PRDAY44                    1358 1362   Num  Number of days from admission to PR44
+SD  2008 CORE             383 PRDAY45                    1363 1367   Num  Number of days from admission to PR45
+SD  2008 CORE             384 PRDAY46                    1368 1372   Num  Number of days from admission to PR46
+SD  2008 CORE             385 PROCTYPE                   1373 1375   Num  Procedure type indicator
+SD  2008 CORE             386 PSTATE                     1376 1377   Char Patient State postal code
+SD  2008 CORE             387 PSTCO                      1378 1382   Num  Patient state/county FIPS code
+SD  2008 CORE             388 PSTCO2                     1383 1387   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+SD  2008 CORE             389 PointOfOriginUB04          1388 1388   Char Point of origin for admission or visit, UB-04 standard coding
+SD  2008 CORE             390 PointOfOrigin_X            1389 1389   Char Point of origin for admission or visit, as received from source
+SD  2008 CORE             391 RACE                       1390 1391   Num  Race (uniform)
+SD  2008 CORE             392 RACE_X                     1392 1395   Char Race (as received from source)
+SD  2008 CORE             393 TOTCHG                     1396 1405   Num  Total charges (cleaned)
+SD  2008 CORE             394 TOTCHG_X                   1406 1420 2 Num  Total charges (as received from source)
+SD  2008 CORE             395 YEAR                       1421 1424   Num  Calendar year
+SD  2008 CORE             396 ZIP3                       1425 1427   Char Patient ZIP Code, first 3 digits
+SD  2008 CORE             397 ZIPINC_QRTL                1428 1430   Num  Median household income national quartile for patient ZIP Code
+SD  2008 CORE             398 HOSPID                     1431 1435   Num  HCUP hospital identification number
+SD  2008 CORE             399 ZIP                        1436 1440   Char Patient ZIP Code
+SD  2008 CORE             400 AYEAR                      1441 1444   Num  Admission year
+SD  2008 CORE             401 DMONTH                     1445 1446   Num  Discharge month
+SD  2008 CORE             402 BMONTH                     1447 1448   Num  Birth month
+SD  2008 CORE             403 BYEAR                      1449 1452   Num  Birth year
+SD  2008 CORE             404 PRMONTH1                   1453 1454   Num  Month of procedure 1
+SD  2008 CORE             405 PRMONTH2                   1455 1456   Num  Month of procedure 2
+SD  2008 CORE             406 PRMONTH3                   1457 1458   Num  Month of procedure 3
+SD  2008 CORE             407 PRMONTH4                   1459 1460   Num  Month of procedure 4
+SD  2008 CORE             408 PRMONTH5                   1461 1462   Num  Month of procedure 5
+SD  2008 CORE             409 PRMONTH6                   1463 1464   Num  Month of procedure 6
+SD  2008 CORE             410 PRMONTH7                   1465 1466   Num  Month of procedure 7
+SD  2008 CORE             411 PRMONTH8                   1467 1468   Num  Month of procedure 8
+SD  2008 CORE             412 PRMONTH9                   1469 1470   Num  Month of procedure 9
+SD  2008 CORE             413 PRMONTH10                  1471 1472   Num  Month of procedure 10
+SD  2008 CORE             414 PRMONTH11                  1473 1474   Num  Month of procedure 11
+SD  2008 CORE             415 PRMONTH12                  1475 1476   Num  Month of procedure 12
+SD  2008 CORE             416 PRMONTH13                  1477 1478   Num  Month of procedure 13
+SD  2008 CORE             417 PRMONTH14                  1479 1480   Num  Month of procedure 14
+SD  2008 CORE             418 PRMONTH15                  1481 1482   Num  Month of procedure 15
+SD  2008 CORE             419 PRMONTH16                  1483 1484   Num  Month of procedure 16
+SD  2008 CORE             420 PRMONTH17                  1485 1486   Num  Month of procedure 17
+SD  2008 CORE             421 PRMONTH18                  1487 1488   Num  Month of procedure 18
+SD  2008 CORE             422 PRMONTH19                  1489 1490   Num  Month of procedure 19
+SD  2008 CORE             423 PRMONTH20                  1491 1492   Num  Month of procedure 20
+SD  2008 CORE             424 PRMONTH21                  1493 1494   Num  Month of procedure 21
+SD  2008 CORE             425 PRMONTH22                  1495 1496   Num  Month of procedure 22
+SD  2008 CORE             426 PRMONTH23                  1497 1498   Num  Month of procedure 23
+SD  2008 CORE             427 PRMONTH24                  1499 1500   Num  Month of procedure 24
+SD  2008 CORE             428 PRMONTH25                  1501 1502   Num  Month of procedure 25
+SD  2008 CORE             429 PRMONTH26                  1503 1504   Num  Month of procedure 26
+SD  2008 CORE             430 PRMONTH27                  1505 1506   Num  Month of procedure 27
+SD  2008 CORE             431 PRMONTH28                  1507 1508   Num  Month of procedure 28
+SD  2008 CORE             432 PRMONTH29                  1509 1510   Num  Month of procedure 29
+SD  2008 CORE             433 PRMONTH30                  1511 1512   Num  Month of procedure 30
+SD  2008 CORE             434 PRMONTH31                  1513 1514   Num  Month of procedure 31
+SD  2008 CORE             435 PRMONTH32                  1515 1516   Num  Month of procedure 32
+SD  2008 CORE             436 PRMONTH33                  1517 1518   Num  Month of procedure 33
+SD  2008 CORE             437 PRMONTH34                  1519 1520   Num  Month of procedure 34
+SD  2008 CORE             438 PRMONTH35                  1521 1522   Num  Month of procedure 35
+SD  2008 CORE             439 PRMONTH36                  1523 1524   Num  Month of procedure 36
+SD  2008 CORE             440 PRMONTH37                  1525 1526   Num  Month of procedure 37
+SD  2008 CORE             441 PRMONTH38                  1527 1528   Num  Month of procedure 38
+SD  2008 CORE             442 PRMONTH39                  1529 1530   Num  Month of procedure 39
+SD  2008 CORE             443 PRMONTH40                  1531 1532   Num  Month of procedure 40
+SD  2008 CORE             444 PRMONTH41                  1533 1534   Num  Month of procedure 41
+SD  2008 CORE             445 PRMONTH42                  1535 1536   Num  Month of procedure 42
+SD  2008 CORE             446 PRMONTH43                  1537 1538   Num  Month of procedure 43
+SD  2008 CORE             447 PRMONTH44                  1539 1540   Num  Month of procedure 44
+SD  2008 CORE             448 PRMONTH45                  1541 1542   Num  Month of procedure 45
+SD  2008 CORE             449 PRMONTH46                  1543 1544   Num  Month of procedure 46
+SD  2008 CORE             450 PRYEAR1                    1545 1548   Num  Year of procedure 1
+SD  2008 CORE             451 PRYEAR2                    1549 1552   Num  Year of procedure 2
+SD  2008 CORE             452 PRYEAR3                    1553 1556   Num  Year of procedure 3
+SD  2008 CORE             453 PRYEAR4                    1557 1560   Num  Year of procedure 4
+SD  2008 CORE             454 PRYEAR5                    1561 1564   Num  Year of procedure 5
+SD  2008 CORE             455 PRYEAR6                    1565 1568   Num  Year of procedure 6
+SD  2008 CORE             456 PRYEAR7                    1569 1572   Num  Year of procedure 7
+SD  2008 CORE             457 PRYEAR8                    1573 1576   Num  Year of procedure 8
+SD  2008 CORE             458 PRYEAR9                    1577 1580   Num  Year of procedure 9
+SD  2008 CORE             459 PRYEAR10                   1581 1584   Num  Year of procedure 10
+SD  2008 CORE             460 PRYEAR11                   1585 1588   Num  Year of procedure 11
+SD  2008 CORE             461 PRYEAR12                   1589 1592   Num  Year of procedure 12
+SD  2008 CORE             462 PRYEAR13                   1593 1596   Num  Year of procedure 13
+SD  2008 CORE             463 PRYEAR14                   1597 1600   Num  Year of procedure 14
+SD  2008 CORE             464 PRYEAR15                   1601 1604   Num  Year of procedure 15
+SD  2008 CORE             465 PRYEAR16                   1605 1608   Num  Year of procedure 16
+SD  2008 CORE             466 PRYEAR17                   1609 1612   Num  Year of procedure 17
+SD  2008 CORE             467 PRYEAR18                   1613 1616   Num  Year of procedure 18
+SD  2008 CORE             468 PRYEAR19                   1617 1620   Num  Year of procedure 19
+SD  2008 CORE             469 PRYEAR20                   1621 1624   Num  Year of procedure 20
+SD  2008 CORE             470 PRYEAR21                   1625 1628   Num  Year of procedure 21
+SD  2008 CORE             471 PRYEAR22                   1629 1632   Num  Year of procedure 22
+SD  2008 CORE             472 PRYEAR23                   1633 1636   Num  Year of procedure 23
+SD  2008 CORE             473 PRYEAR24                   1637 1640   Num  Year of procedure 24
+SD  2008 CORE             474 PRYEAR25                   1641 1644   Num  Year of procedure 25
+SD  2008 CORE             475 PRYEAR26                   1645 1648   Num  Year of procedure 26
+SD  2008 CORE             476 PRYEAR27                   1649 1652   Num  Year of procedure 27
+SD  2008 CORE             477 PRYEAR28                   1653 1656   Num  Year of procedure 28
+SD  2008 CORE             478 PRYEAR29                   1657 1660   Num  Year of procedure 29
+SD  2008 CORE             479 PRYEAR30                   1661 1664   Num  Year of procedure 30
+SD  2008 CORE             480 PRYEAR31                   1665 1668   Num  Year of procedure 31
+SD  2008 CORE             481 PRYEAR32                   1669 1672   Num  Year of procedure 32
+SD  2008 CORE             482 PRYEAR33                   1673 1676   Num  Year of procedure 33
+SD  2008 CORE             483 PRYEAR34                   1677 1680   Num  Year of procedure 34
+SD  2008 CORE             484 PRYEAR35                   1681 1684   Num  Year of procedure 35
+SD  2008 CORE             485 PRYEAR36                   1685 1688   Num  Year of procedure 36
+SD  2008 CORE             486 PRYEAR37                   1689 1692   Num  Year of procedure 37
+SD  2008 CORE             487 PRYEAR38                   1693 1696   Num  Year of procedure 38
+SD  2008 CORE             488 PRYEAR39                   1697 1700   Num  Year of procedure 39
+SD  2008 CORE             489 PRYEAR40                   1701 1704   Num  Year of procedure 40
+SD  2008 CORE             490 PRYEAR41                   1705 1708   Num  Year of procedure 41
+SD  2008 CORE             491 PRYEAR42                   1709 1712   Num  Year of procedure 42
+SD  2008 CORE             492 PRYEAR43                   1713 1716   Num  Year of procedure 43
+SD  2008 CORE             493 PRYEAR44                   1717 1720   Num  Year of procedure 44
+SD  2008 CORE             494 PRYEAR45                   1721 1724   Num  Year of procedure 45
+SD  2008 CORE             495 PRYEAR46                   1725 1728   Num  Year of procedure 46

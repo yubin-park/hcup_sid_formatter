@@ -1,0 +1,88 @@
+WI  1995 CORE     1   SEQ_SID  1   13    Num I:HCUP SID record sequence number
+WI  1995 CORE     2   PROCESS  14  24    Num I:HCUP discharge processing ID number
+WI  1995 CORE     3   YEAR     25  26    Num Calendar year
+WI  1995 CORE     4   DSHOSPID 27  39    CharI:Data source hospital ID number
+WI  1995 CORE     5   DSNUM    40  41    Num I:Data source ID number
+WI  1995 CORE     6   DSTYPE   42  42    Num I:Data source type
+WI  1995 CORE     7   HOSPST   43  44    CharHospital state postal code
+WI  1995 CORE     8   AGE      45  47    Num I:Age in years at admission
+WI  1995 CORE     9   AGEDAY   48  50    Num I:Age in days (when < 1 year)
+WI  1995 CORE     10  SEX      51  52    Num I:Sex
+WI  1995 CORE     11  RACE     53  54    Num I:Race
+WI  1995 CORE     12  ADAYWK   55  56    Num I:Admission day of week
+WI  1995 CORE     13  AMONTH   57  58    Num I:Admission month
+WI  1995 CORE     14  DQTR     59  59    Num I:Discharge quarter
+WI  1995 CORE     15  LOS      60  64    Num I:Length of stay (cleaned)
+WI  1995 CORE     16  LOS_X    65  70    Num I:Length of stay (uncleaned)
+WI  1995 CORE     17  DISP     71  72    Num I:Disposition of patient
+WI  1995 CORE     18  DIED     73  74    Num I:Died during hospitalization
+WI  1995 CORE     19  NEOMAT   75  75    Num I:Neonatal and/or maternal DX and/or PR
+WI  1995 CORE     20  ATYPE    76  77    Num I:Admission type
+WI  1995 CORE     21  ASOURCE  78  79    Num I:Admission source
+WI  1995 CORE     22  DXSYS    80  81    Num I:Diagnosis coding system
+WI  1995 CORE     23  DSNDX    82  83    Num I:Max number of diagnoses from source
+WI  1995 CORE     24  NDX      84  85    Num I:Number of diagnoses on this discharge
+WI  1995 CORE     25  DX1      86  90    CharI:Principal diagnosis
+WI  1995 CORE     26  DX2      91  95    CharI:Diagnosis 2
+WI  1995 CORE     27  DX3      96  100   CharI:Diagnosis 3
+WI  1995 CORE     28  DX4      101 105   CharI:Diagnosis 4
+WI  1995 CORE     29  DX5      106 110   CharI:Diagnosis 5
+WI  1995 CORE     30  DX6      111 115   CharI:Diagnosis 6
+WI  1995 CORE     31  DX7      116 120   CharI:Diagnosis 7
+WI  1995 CORE     32  DX8      121 125   CharI:Diagnosis 8
+WI  1995 CORE     33  DX9      126 130   CharI:Diagnosis 9
+WI  1995 CORE     34  DX10     131 135   CharI:Diagnosis 10
+WI  1995 CORE     35  DXV1     136 137   Num I:Validity flag: principal diagnosis
+WI  1995 CORE     36  DXV2     138 139   Num I:Validity flag: diagnosis 2
+WI  1995 CORE     37  DXV3     140 141   Num I:Validity flag: diagnosis 3
+WI  1995 CORE     38  DXV4     142 143   Num I:Validity flag: diagnosis 4
+WI  1995 CORE     39  DXV5     144 145   Num I:Validity flag: diagnosis 5
+WI  1995 CORE     40  DXV6     146 147   Num I:Validity flag: diagnosis 6
+WI  1995 CORE     41  DXV7     148 149   Num I:Validity flag: diagnosis 7
+WI  1995 CORE     42  DXV8     150 151   Num I:Validity flag: diagnosis 8
+WI  1995 CORE     43  DXV9     152 153   Num I:Validity flag: diagnosis 9
+WI  1995 CORE     44  DXV10    154 155   Num I:Validity flag: diagnosis 10
+WI  1995 CORE     45  DCCHPR1  156 158   Num I:CCHPR: principal diagnosis
+WI  1995 CORE     46  DCCHPR2  159 161   Num I:CCHPR: diagnosis 2
+WI  1995 CORE     47  DCCHPR3  162 164   Num I:CCHPR: diagnosis 3
+WI  1995 CORE     48  DCCHPR4  165 167   Num I:CCHPR: diagnosis 4
+WI  1995 CORE     49  DCCHPR5  168 170   Num I:CCHPR: diagnosis 5
+WI  1995 CORE     50  DCCHPR6  171 173   Num I:CCHPR: diagnosis 6
+WI  1995 CORE     51  DCCHPR7  174 176   Num I:CCHPR: diagnosis 7
+WI  1995 CORE     52  DCCHPR8  177 179   Num I:CCHPR: diagnosis 8
+WI  1995 CORE     53  DCCHPR9  180 182   Num I:CCHPR: diagnosis 9
+WI  1995 CORE     54  DCCHPR10 183 185   Num I:CCHPR: diagnosis 10
+WI  1995 CORE     55  PRSYS    186 187   Num I:Procedure coding system
+WI  1995 CORE     56  DSNPR    188 189   Num I:Max number of procedures from source
+WI  1995 CORE     57  NPR      190 191   Num I:Number of procedures on this discharge
+WI  1995 CORE     58  PR1      192 195   CharI:Principal procedure
+WI  1995 CORE     59  PR2      196 199   CharI:Procedure 2
+WI  1995 CORE     60  PR3      200 203   CharI:Procedure 3
+WI  1995 CORE     61  PR4      204 207   CharI:Procedure 4
+WI  1995 CORE     62  PR5      208 211   CharI:Procedure 5
+WI  1995 CORE     63  PR6      212 215   CharI:Procedure 6
+WI  1995 CORE     64  PRV1     216 217   Num I:Validity flag: principal procedure
+WI  1995 CORE     65  PRV2     218 219   Num I:Validity flag: procedure 2
+WI  1995 CORE     66  PRV3     220 221   Num I:Validity flag: procedure 3
+WI  1995 CORE     67  PRV4     222 223   Num I:Validity flag: procedure 4
+WI  1995 CORE     68  PRV5     224 225   Num I:Validity flag: procedure 5
+WI  1995 CORE     69  PRV6     226 227   Num I:Validity flag: procedure 6
+WI  1995 CORE     70  PCCHPR1  228 230   Num I:CCHPR: principal procedure
+WI  1995 CORE     71  PCCHPR2  231 233   Num I:CCHPR: procedure 2
+WI  1995 CORE     72  PCCHPR3  234 236   Num I:CCHPR: procedure 3
+WI  1995 CORE     73  PCCHPR4  237 239   Num I:CCHPR: procedure 4
+WI  1995 CORE     74  PCCHPR5  240 242   Num I:CCHPR: procedure 5
+WI  1995 CORE     75  PCCHPR6  243 245   Num I:CCHPR: procedure 6
+WI  1995 CORE     76  PRDAY1   246 250   Num I:No. of days from admission to PR1
+WI  1995 CORE     77  DRG      251 253   Num I:DRG in effect on discharge date
+WI  1995 CORE     78  MDC      254 255   Num I:MDC in effect on discharge date
+WI  1995 CORE     79  DRGVER   256 257   Num I:DRG grouper version used on disch date
+WI  1995 CORE     80  DRG10    258 260   Num I:DRG, Version 10
+WI  1995 CORE     81  MDC10    261 262   Num I:MDC, Version 10
+WI  1995 CORE     82  PAY1     263 264   Num I:Primary expected payer, uniform
+WI  1995 CORE     83  PAY1_N   265 266   Num I:Primary expected payer, nonuniform
+WI  1995 CORE     84  PAY2     267 268   Num I:Secondary expected payer, uniform
+WI  1995 CORE     85  PAY2_N   269 270   Num I:Secondary expected payer, nonuniform
+WI  1995 CORE     86  TOTCHG   271 280   Num I:Total charges (cleaned)
+WI  1995 CORE     87  TOTCHG_X 281 295 2 Num I:Total charges (from data source)
+WI  1995 CORE     88  HOSPID   296 300   Num HCUP hospital ID number (SSHHH)

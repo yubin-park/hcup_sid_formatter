@@ -1,0 +1,140 @@
+Data Set Name: MD_SID_2000_CORE                
+Number of Observations: 644386
+Total Record Length: 483
+Total Number of Variables: 120
+
+
+Columns   Description:
+=======   ============
+ 1- 3     Database name
+ 5- 8     Discharge year of data
+10-17     File name
+19-21     Variable number
+23-41     Variable name
+43-45     Starting column of variable in ASCII file
+47-49     Ending column of variable in ASCII file
+   51     Non-zero number of digits after decimal point for numeric variable
+53-56     Variable type (Num=numeric; Char=character)
+58-113    Variable label
+
+
+MD  2000 CORE       1 KEY                   1  14   Num  HCUP record identifier
+MD  2000 CORE       2 AGE                  15  17   Num  Age in years at admission
+MD  2000 CORE       3 AGEDAY               18  20   Num  Age in days (when age < 1 year)
+MD  2000 CORE       4 AGEMONTH             21  23   Num  Age in months (when age < 11 years)
+MD  2000 CORE       5 ASOURCE              24  25   Num  Admission source (uniform)
+MD  2000 CORE       6 ASOURCE_X            26  27   Char Admission source (as received from source)
+MD  2000 CORE       7 ATYPE                28  29   Num  Admission type
+MD  2000 CORE       8 AWEEKEND             30  31   Num  Admission day is a weekend
+MD  2000 CORE       9 BWT                  32  35   Num  Birth weight in grams
+MD  2000 CORE      10 DaysBurnUnit         36  38   Num  Days in burn care unit (as received from the source)
+MD  2000 CORE      11 DaysCCU              39  41   Num  Days in coronary care unit (as received from the source)
+MD  2000 CORE      12 DaysICU              42  44   Num  Days in medical/surgical intensive care unit (as received from the source)
+MD  2000 CORE      13 DaysNICU             45  47   Num  Days in neonetal care unit (as received from the source)
+MD  2000 CORE      14 DaysPICU             48  50   Num  Days in pediatric care unit (as received from the source)
+MD  2000 CORE      15 DaysShockUnit        51  53   Num  Days in shock trauma unit (as received from the source)
+MD  2000 CORE      16 DIED                 54  55   Num  Died during hospitalization
+MD  2000 CORE      17 DISP_X               56  57   Char Disposition of patient (as received from source)
+MD  2000 CORE      18 DISPUNIFORM          58  59   Num  Disposition of patient, uniform
+MD  2000 CORE      19 DQTR                 60  61   Num  Discharge quarter
+MD  2000 CORE      20 DRG                  62  64   Num  DRG in effect on discharge date
+MD  2000 CORE      21 DRG18                65  67   Num  DRG, version 18
+MD  2000 CORE      22 DRGVER               68  69   Num  DRG grouper version used on discharge date
+MD  2000 CORE      23 DSHOSPID             70  82   Char Data source hospital identifier
+MD  2000 CORE      24 DX1                  83  87   Char Principal diagnosis
+MD  2000 CORE      25 DX2                  88  92   Char Diagnosis 2
+MD  2000 CORE      26 DX3                  93  97   Char Diagnosis 3
+MD  2000 CORE      27 DX4                  98 102   Char Diagnosis 4
+MD  2000 CORE      28 DX5                 103 107   Char Diagnosis 5
+MD  2000 CORE      29 DX6                 108 112   Char Diagnosis 6
+MD  2000 CORE      30 DX7                 113 117   Char Diagnosis 7
+MD  2000 CORE      31 DX8                 118 122   Char Diagnosis 8
+MD  2000 CORE      32 DX9                 123 127   Char Diagnosis 9
+MD  2000 CORE      33 DX10                128 132   Char Diagnosis 10
+MD  2000 CORE      34 DX11                133 137   Char Diagnosis 11
+MD  2000 CORE      35 DX12                138 142   Char Diagnosis 12
+MD  2000 CORE      36 DX13                143 147   Char Diagnosis 13
+MD  2000 CORE      37 DX14                148 152   Char Diagnosis 14
+MD  2000 CORE      38 DX15                153 157   Char Diagnosis 15
+MD  2000 CORE      39 DX16                158 162   Char Diagnosis 16
+MD  2000 CORE      40 DXCCS1              163 166   Num  CCS: principal diagnosis
+MD  2000 CORE      41 DXCCS2              167 170   Num  CCS: diagnosis 2
+MD  2000 CORE      42 DXCCS3              171 174   Num  CCS: diagnosis 3
+MD  2000 CORE      43 DXCCS4              175 178   Num  CCS: diagnosis 4
+MD  2000 CORE      44 DXCCS5              179 182   Num  CCS: diagnosis 5
+MD  2000 CORE      45 DXCCS6              183 186   Num  CCS: diagnosis 6
+MD  2000 CORE      46 DXCCS7              187 190   Num  CCS: diagnosis 7
+MD  2000 CORE      47 DXCCS8              191 194   Num  CCS: diagnosis 8
+MD  2000 CORE      48 DXCCS9              195 198   Num  CCS: diagnosis 9
+MD  2000 CORE      49 DXCCS10             199 202   Num  CCS: diagnosis 10
+MD  2000 CORE      50 DXCCS11             203 206   Num  CCS: diagnosis 11
+MD  2000 CORE      51 DXCCS12             207 210   Num  CCS: diagnosis 12
+MD  2000 CORE      52 DXCCS13             211 214   Num  CCS: diagnosis 13
+MD  2000 CORE      53 DXCCS14             215 218   Num  CCS: diagnosis 14
+MD  2000 CORE      54 DXCCS15             219 222   Num  CCS: diagnosis 15
+MD  2000 CORE      55 DXCCS16             223 226   Num  CCS: diagnosis 16
+MD  2000 CORE      56 FEMALE              227 228   Num  Indicator of sex
+MD  2000 CORE      57 HISPANIC_X          229 229   Char Hispanic ethnicity (as received from source)
+MD  2000 CORE      58 HOSPST              230 231   Char Hospital state postal code
+MD  2000 CORE      59 LOS                 232 236   Num  Length of stay (cleaned)
+MD  2000 CORE      60 LOS_X               237 242   Num  Length of stay (as received from source)
+MD  2000 CORE      61 MDC                 243 244   Num  MDC in effect on discharge date
+MD  2000 CORE      62 MDC18               245 246   Num  MDC, version 18
+MD  2000 CORE      63 MDID_S              247 262   Char Attending physician number (synthetic)
+MD  2000 CORE      64 MRN_S               263 279   Char Medical record number (synthetic)
+MD  2000 CORE      65 NDX                 280 281   Num  Number of diagnoses on this record
+MD  2000 CORE      66 NEOMAT              282 283   Num  Neonatal and/or maternal DX and/or PR
+MD  2000 CORE      67 NPR                 284 285   Num  Number of procedures on this record
+MD  2000 CORE      68 PAY1                286 287   Num  Primary expected payer (uniform)
+MD  2000 CORE      69 PAY2                288 289   Num  Secondary expected payer (uniform)
+MD  2000 CORE      70 PAY1_X              290 291   Char Primary expected payer (as received from source)
+MD  2000 CORE      71 PAY2_X              292 293   Char Secondary expected payer (as received from source)
+MD  2000 CORE      72 PAYER1_X            294 295   Char Primary expected payer plan identifier (as received from source)
+MD  2000 CORE      73 PAYER2_X            296 297   Char Secondary expected payer plan identifier (as received from source)
+MD  2000 CORE      74 PR1                 298 301   Char Principal procedure
+MD  2000 CORE      75 PR2                 302 305   Char Procedure 2
+MD  2000 CORE      76 PR3                 306 309   Char Procedure 3
+MD  2000 CORE      77 PR4                 310 313   Char Procedure 4
+MD  2000 CORE      78 PR5                 314 317   Char Procedure 5
+MD  2000 CORE      79 PR6                 318 321   Char Procedure 6
+MD  2000 CORE      80 PR7                 322 325   Char Procedure 7
+MD  2000 CORE      81 PR8                 326 329   Char Procedure 8
+MD  2000 CORE      82 PR9                 330 333   Char Procedure 9
+MD  2000 CORE      83 PR10                334 337   Char Procedure 10
+MD  2000 CORE      84 PR11                338 341   Char Procedure 11
+MD  2000 CORE      85 PR12                342 345   Char Procedure 12
+MD  2000 CORE      86 PR13                346 349   Char Procedure 13
+MD  2000 CORE      87 PR14                350 353   Char Procedure 14
+MD  2000 CORE      88 PR15                354 357   Char Procedure 15
+MD  2000 CORE      89 PRCCS1              358 360   Num  CCS: principal procedure
+MD  2000 CORE      90 PRCCS2              361 363   Num  CCS: procedure 2
+MD  2000 CORE      91 PRCCS3              364 366   Num  CCS: procedure 3
+MD  2000 CORE      92 PRCCS4              367 369   Num  CCS: procedure 4
+MD  2000 CORE      93 PRCCS5              370 372   Num  CCS: procedure 5
+MD  2000 CORE      94 PRCCS6              373 375   Num  CCS: procedure 6
+MD  2000 CORE      95 PRCCS7              376 378   Num  CCS: procedure 7
+MD  2000 CORE      96 PRCCS8              379 381   Num  CCS: procedure 8
+MD  2000 CORE      97 PRCCS9              382 384   Num  CCS: procedure 9
+MD  2000 CORE      98 PRCCS10             385 387   Num  CCS: procedure 10
+MD  2000 CORE      99 PRCCS11             388 390   Num  CCS: procedure 11
+MD  2000 CORE     100 PRCCS12             391 393   Num  CCS: procedure 12
+MD  2000 CORE     101 PRCCS13             394 396   Num  CCS: procedure 13
+MD  2000 CORE     102 PRCCS14             397 399   Num  CCS: procedure 14
+MD  2000 CORE     103 PRCCS15             400 402   Num  CCS: procedure 15
+MD  2000 CORE     104 PRDAY1              403 405   Num  Number of days from admission to PR1
+MD  2000 CORE     105 PRDAY2              406 408   Num  Number of days from admission to PR2
+MD  2000 CORE     106 PRDAY3              409 411   Num  Number of days from admission to PR3
+MD  2000 CORE     107 PRDAY4              412 414   Num  Number of days from admission to PR4
+MD  2000 CORE     108 PRDAY5              415 417   Num  Number of days from admission to PR5
+MD  2000 CORE     109 PRDAY6              418 420   Num  Number of days from admission to PR6
+MD  2000 CORE     110 PRDAY7              421 423   Num  Number of days from admission to PR7
+MD  2000 CORE     111 PRDAY8              424 426   Num  Number of days from admission to PR8
+MD  2000 CORE     112 PRDAY9              427 429   Num  Number of days from admission to PR9
+MD  2000 CORE     113 PRDAY10             430 432   Num  Number of days from admission to PR10
+MD  2000 CORE     114 PRDAY11             433 435   Num  Number of days from admission to PR11
+MD  2000 CORE     115 RACE                436 437   Num  Race (uniform)
+MD  2000 CORE     116 RACE_X              438 438   Char Race (as received from source)
+MD  2000 CORE     117 SURGID_S            439 454   Char Primary surgeon number (synthetic)
+MD  2000 CORE     118 TOTCHG              455 464   Num  Total charges (cleaned)
+MD  2000 CORE     119 TOTCHG_X            465 479 2 Num  Total charges (as received from source)
+MD  2000 CORE     120 YEAR                480 483   Num  Calendar year

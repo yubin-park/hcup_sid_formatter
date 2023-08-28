@@ -1,0 +1,241 @@
+Data Set Name: NV_SIDC_2009_CORE               
+Number of Observations: 306434
+Total Record Length: 755
+Total Number of Variables: 221
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 56    Variable name
+58- 61    Starting column of variable in ASCII file
+63- 66    Ending column of variable in ASCII file
+    68    Non-zero number of digits after decimal point for numeric variable
+70- 73    Variable type (Num=numeric; Char=character)
+75-174    Variable label
+
+
+NV  2009 CORE               1 AGE                           1    3   Num  Age in years at admission
+NV  2009 CORE               2 AGEDAY                        4    6   Num  Age in days (when age < 1 year)
+NV  2009 CORE               3 AGEMONTH                      7    9   Num  Age in months (when age < 11 years)
+NV  2009 CORE               4 AHOUR                        10   13   Num  Admission Hour
+NV  2009 CORE               5 AMONTH                       14   15   Num  Admission month
+NV  2009 CORE               6 ASOURCE                      16   17   Num  Admission source (uniform)
+NV  2009 CORE               7 ASOURCEUB92                  18   18   Char Admission source (UB-92 standard coding)
+NV  2009 CORE               8 ASOURCE_X                    19   20   Char Admission source (as received from source)
+NV  2009 CORE               9 ATYPE                        21   22   Num  Admission type
+NV  2009 CORE              10 AWEEKEND                     23   24   Num  Admission day is a weekend
+NV  2009 CORE              11 DHOUR                        25   28   Num  Discharge Hour
+NV  2009 CORE              12 DIED                         29   30   Num  Died during hospitalization
+NV  2009 CORE              13 DISPUB04                     31   32   Num  Disposition of patient (UB-04 standard coding)
+NV  2009 CORE              14 DISPUNIFORM                  33   34   Num  Disposition of patient (uniform)
+NV  2009 CORE              15 DISP_X                       35   36   Char Disposition of patient (as received from source)
+NV  2009 CORE              16 DQTR                         37   38   Num  Discharge quarter
+NV  2009 CORE              17 DRG                          39   41   Num  DRG in effect on discharge date
+NV  2009 CORE              18 DRG24                        42   44   Num  DRG, version 24
+NV  2009 CORE              19 DRGVER                       45   46   Num  DRG grouper version used on discharge date
+NV  2009 CORE              20 DRG_NoPOA                    47   49   Num  DRG in use on discharge date, calculated without POA
+NV  2009 CORE              21 DSHOSPID                     50   66   Char Data source hospital identifier
+NV  2009 CORE              22 DX1                          67   71   Char Diagnosis 1
+NV  2009 CORE              23 DX2                          72   76   Char Diagnosis 2
+NV  2009 CORE              24 DX3                          77   81   Char Diagnosis 3
+NV  2009 CORE              25 DX4                          82   86   Char Diagnosis 4
+NV  2009 CORE              26 DX5                          87   91   Char Diagnosis 5
+NV  2009 CORE              27 DX6                          92   96   Char Diagnosis 6
+NV  2009 CORE              28 DX7                          97  101   Char Diagnosis 7
+NV  2009 CORE              29 DX8                         102  106   Char Diagnosis 8
+NV  2009 CORE              30 DX9                         107  111   Char Diagnosis 9
+NV  2009 CORE              31 DX10                        112  116   Char Diagnosis 10
+NV  2009 CORE              32 DX11                        117  121   Char Diagnosis 11
+NV  2009 CORE              33 DX12                        122  126   Char Diagnosis 12
+NV  2009 CORE              34 DX13                        127  131   Char Diagnosis 13
+NV  2009 CORE              35 DX14                        132  136   Char Diagnosis 14
+NV  2009 CORE              36 DX15                        137  141   Char Diagnosis 15
+NV  2009 CORE              37 DX16                        142  146   Char Diagnosis 16
+NV  2009 CORE              38 DX17                        147  151   Char Diagnosis 17
+NV  2009 CORE              39 DX18                        152  156   Char Diagnosis 18
+NV  2009 CORE              40 DX19                        157  161   Char Diagnosis 19
+NV  2009 CORE              41 DX20                        162  166   Char Diagnosis 20
+NV  2009 CORE              42 DX21                        167  171   Char Diagnosis 21
+NV  2009 CORE              43 DX22                        172  176   Char Diagnosis 22
+NV  2009 CORE              44 DX23                        177  181   Char Diagnosis 23
+NV  2009 CORE              45 DX24                        182  186   Char Diagnosis 24
+NV  2009 CORE              46 DX25                        187  191   Char Diagnosis 25
+NV  2009 CORE              47 DX26                        192  196   Char Diagnosis 26
+NV  2009 CORE              48 DX27                        197  201   Char Diagnosis 27
+NV  2009 CORE              49 DX28                        202  206   Char Diagnosis 28
+NV  2009 CORE              50 DX29                        207  211   Char Diagnosis 29
+NV  2009 CORE              51 DX30                        212  216   Char Diagnosis 30
+NV  2009 CORE              52 DX31                        217  221   Char Diagnosis 31
+NV  2009 CORE              53 DX32                        222  226   Char Diagnosis 32
+NV  2009 CORE              54 DX33                        227  231   Char Diagnosis 33
+NV  2009 CORE              55 DXCCS1                      232  235   Num  CCS: diagnosis 1
+NV  2009 CORE              56 DXCCS2                      236  239   Num  CCS: diagnosis 2
+NV  2009 CORE              57 DXCCS3                      240  243   Num  CCS: diagnosis 3
+NV  2009 CORE              58 DXCCS4                      244  247   Num  CCS: diagnosis 4
+NV  2009 CORE              59 DXCCS5                      248  251   Num  CCS: diagnosis 5
+NV  2009 CORE              60 DXCCS6                      252  255   Num  CCS: diagnosis 6
+NV  2009 CORE              61 DXCCS7                      256  259   Num  CCS: diagnosis 7
+NV  2009 CORE              62 DXCCS8                      260  263   Num  CCS: diagnosis 8
+NV  2009 CORE              63 DXCCS9                      264  267   Num  CCS: diagnosis 9
+NV  2009 CORE              64 DXCCS10                     268  271   Num  CCS: diagnosis 10
+NV  2009 CORE              65 DXCCS11                     272  275   Num  CCS: diagnosis 11
+NV  2009 CORE              66 DXCCS12                     276  279   Num  CCS: diagnosis 12
+NV  2009 CORE              67 DXCCS13                     280  283   Num  CCS: diagnosis 13
+NV  2009 CORE              68 DXCCS14                     284  287   Num  CCS: diagnosis 14
+NV  2009 CORE              69 DXCCS15                     288  291   Num  CCS: diagnosis 15
+NV  2009 CORE              70 DXCCS16                     292  295   Num  CCS: diagnosis 16
+NV  2009 CORE              71 DXCCS17                     296  299   Num  CCS: diagnosis 17
+NV  2009 CORE              72 DXCCS18                     300  303   Num  CCS: diagnosis 18
+NV  2009 CORE              73 DXCCS19                     304  307   Num  CCS: diagnosis 19
+NV  2009 CORE              74 DXCCS20                     308  311   Num  CCS: diagnosis 20
+NV  2009 CORE              75 DXCCS21                     312  315   Num  CCS: diagnosis 21
+NV  2009 CORE              76 DXCCS22                     316  319   Num  CCS: diagnosis 22
+NV  2009 CORE              77 DXCCS23                     320  323   Num  CCS: diagnosis 23
+NV  2009 CORE              78 DXCCS24                     324  327   Num  CCS: diagnosis 24
+NV  2009 CORE              79 DXCCS25                     328  331   Num  CCS: diagnosis 25
+NV  2009 CORE              80 DXCCS26                     332  335   Num  CCS: diagnosis 26
+NV  2009 CORE              81 DXCCS27                     336  339   Num  CCS: diagnosis 27
+NV  2009 CORE              82 DXCCS28                     340  343   Num  CCS: diagnosis 28
+NV  2009 CORE              83 DXCCS29                     344  347   Num  CCS: diagnosis 29
+NV  2009 CORE              84 DXCCS30                     348  351   Num  CCS: diagnosis 30
+NV  2009 CORE              85 DXCCS31                     352  355   Num  CCS: diagnosis 31
+NV  2009 CORE              86 DXCCS32                     356  359   Num  CCS: diagnosis 32
+NV  2009 CORE              87 DXCCS33                     360  363   Num  CCS: diagnosis 33
+NV  2009 CORE              88 DXPOA1                      364  364   Char Diagnosis 1, present on admission indicator
+NV  2009 CORE              89 DXPOA2                      365  365   Char Diagnosis 2, present on admission indicator
+NV  2009 CORE              90 DXPOA3                      366  366   Char Diagnosis 3, present on admission indicator
+NV  2009 CORE              91 DXPOA4                      367  367   Char Diagnosis 4, present on admission indicator
+NV  2009 CORE              92 DXPOA5                      368  368   Char Diagnosis 5, present on admission indicator
+NV  2009 CORE              93 DXPOA6                      369  369   Char Diagnosis 6, present on admission indicator
+NV  2009 CORE              94 DXPOA7                      370  370   Char Diagnosis 7, present on admission indicator
+NV  2009 CORE              95 DXPOA8                      371  371   Char Diagnosis 8, present on admission indicator
+NV  2009 CORE              96 DXPOA9                      372  372   Char Diagnosis 9, present on admission indicator
+NV  2009 CORE              97 DXPOA10                     373  373   Char Diagnosis 10, present on admission indicator
+NV  2009 CORE              98 DXPOA11                     374  374   Char Diagnosis 11, present on admission indicator
+NV  2009 CORE              99 DXPOA12                     375  375   Char Diagnosis 12, present on admission indicator
+NV  2009 CORE             100 DXPOA13                     376  376   Char Diagnosis 13, present on admission indicator
+NV  2009 CORE             101 DXPOA14                     377  377   Char Diagnosis 14, present on admission indicator
+NV  2009 CORE             102 DXPOA15                     378  378   Char Diagnosis 15, present on admission indicator
+NV  2009 CORE             103 DXPOA16                     379  379   Char Diagnosis 16, present on admission indicator
+NV  2009 CORE             104 DXPOA17                     380  380   Char Diagnosis 17, present on admission indicator
+NV  2009 CORE             105 DXPOA18                     381  381   Char Diagnosis 18, present on admission indicator
+NV  2009 CORE             106 DXPOA19                     382  382   Char Diagnosis 19, present on admission indicator
+NV  2009 CORE             107 DXPOA20                     383  383   Char Diagnosis 20, present on admission indicator
+NV  2009 CORE             108 DXPOA21                     384  384   Char Diagnosis 21, present on admission indicator
+NV  2009 CORE             109 DXPOA22                     385  385   Char Diagnosis 22, present on admission indicator
+NV  2009 CORE             110 DXPOA23                     386  386   Char Diagnosis 23, present on admission indicator
+NV  2009 CORE             111 DXPOA24                     387  387   Char Diagnosis 24, present on admission indicator
+NV  2009 CORE             112 DXPOA25                     388  388   Char Diagnosis 25, present on admission indicator
+NV  2009 CORE             113 DXPOA26                     389  389   Char Diagnosis 26, present on admission indicator
+NV  2009 CORE             114 DXPOA27                     390  390   Char Diagnosis 27, present on admission indicator
+NV  2009 CORE             115 DXPOA28                     391  391   Char Diagnosis 28, present on admission indicator
+NV  2009 CORE             116 DXPOA29                     392  392   Char Diagnosis 29, present on admission indicator
+NV  2009 CORE             117 DXPOA30                     393  393   Char Diagnosis 30, present on admission indicator
+NV  2009 CORE             118 DXPOA31                     394  394   Char Diagnosis 31, present on admission indicator
+NV  2009 CORE             119 DXPOA32                     395  395   Char Diagnosis 32, present on admission indicator
+NV  2009 CORE             120 DXPOA33                     396  396   Char Diagnosis 33, present on admission indicator
+NV  2009 CORE             121 ECODE1                      397  401   Char E code 1
+NV  2009 CORE             122 ECODE2                      402  406   Char E code 2
+NV  2009 CORE             123 ECODE3                      407  411   Char E code 3
+NV  2009 CORE             124 E_CCS1                      412  415   Num  CCS: E Code 1
+NV  2009 CORE             125 E_CCS2                      416  419   Num  CCS: E Code 2
+NV  2009 CORE             126 E_CCS3                      420  423   Num  CCS: E Code 3
+NV  2009 CORE             127 E_POA1                      424  424   Char E Code 1, present on admission indicator
+NV  2009 CORE             128 E_POA2                      425  425   Char E Code 2, present on admission indicator
+NV  2009 CORE             129 E_POA3                      426  426   Char E Code 3, present on admission indicator
+NV  2009 CORE             130 FEMALE                      427  428   Num  Indicator of sex
+NV  2009 CORE             131 HCUP_ED                     429  430   Num  HCUP Emergency Department service indicator
+NV  2009 CORE             132 HCUP_OS                     431  432   Num  HCUP Observation Stay service indicator
+NV  2009 CORE             133 HOSPBRTH                    433  435   Num  Indicator of birth in this hospital
+NV  2009 CORE             134 HOSPST                      436  437   Char Hospital state postal code
+NV  2009 CORE             135 HOSP_NPI                    438  447   Char Hospital NPI
+NV  2009 CORE             136 Homeless                    448  449   Num  Indicator that patient is homeless
+NV  2009 CORE             137 INTENSIVECARE               450  452   Num  Indicator of type of intensive care received by patient (as received from source)
+NV  2009 CORE             138 KEY                         453  466   Num  HCUP record identifier
+NV  2009 CORE             139 LOS                         467  471   Num  Length of stay (cleaned)
+NV  2009 CORE             140 LOS_X                       472  477   Num  Length of stay (as received from source)
+NV  2009 CORE             141 MARITALSTATUSUB04           478  478   Char Patient's marital status, UB-04 standard coding
+NV  2009 CORE             142 MARITALSTATUS_X             479  479   Char Patient's marital status (as received from source)
+NV  2009 CORE             143 MDC                         480  481   Num  MDC in effect on discharge date
+NV  2009 CORE             144 MDC24                       482  483   Num  MDC, version 24
+NV  2009 CORE             145 MDC_NoPOA                   484  485   Num  MDC in use on discharge date, calculated without POA
+NV  2009 CORE             146 MDNUM1_R                    486  494   Num  Physician 1 number (re-identified)
+NV  2009 CORE             147 MDNUM2_R                    495  503   Num  Physician 2 number (re-identified)
+NV  2009 CORE             148 MDNUMTYPE1                  504  504   Char Physician 1 number type
+NV  2009 CORE             149 MDNUMTYPE2                  505  505   Char Physician 2 number type
+NV  2009 CORE             150 MEDINCSTQ                   506  507   Num  Median household income state quartile for patient ZIP Code
+NV  2009 CORE             151 NCHRONIC                    508  510   Num  Number of chronic conditions
+NV  2009 CORE             152 NDX                         511  512   Num  Number of diagnoses on this record
+NV  2009 CORE             153 NECODE                      513  514   Num  Number of E codes on this record
+NV  2009 CORE             154 NEOMAT                      515  516   Num  Neonatal and/or maternal DX and/or PR
+NV  2009 CORE             155 NPR                         517  518   Num  Number of procedures on this record
+NV  2009 CORE             156 ORPROC                      519  520   Num  Major operating room procedure indicator
+NV  2009 CORE             157 PAY1                        521  522   Num  Primary expected payer (uniform)
+NV  2009 CORE             158 PAY1_X                      523  524   Char Primary expected payer (as received from source)
+NV  2009 CORE             159 PAY2                        525  526   Num  Secondary expected payer (uniform)
+NV  2009 CORE             160 PAY2_X                      527  528   Char Secondary expected payer (as received from source)
+NV  2009 CORE             161 PAY3_X                      529  530   Char Tertiary expected payer (as received from source)
+NV  2009 CORE             162 PL_NCHS2006                 531  532   Num  Patient Location: NCHS Urban-Rural Code (V2006)
+NV  2009 CORE             163 PL_RUCA10_2005              533  534   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, ten levels
+NV  2009 CORE             164 PL_RUCA2005                 535  538 1 Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes
+NV  2009 CORE             165 PL_RUCA4_2005               539  540   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, four levels
+NV  2009 CORE             166 PL_RUCC2003                 541  542   Num  Patient location: Rural-Urban Continuum Codes(RUCC), 2003
+NV  2009 CORE             167 PL_UIC2003                  543  544   Num  Patient location: Urban Influence Codes, 2003
+NV  2009 CORE             168 PL_UR_CAT4                  545  546   Num  Patient Location: Urban-Rural 4 Categories
+NV  2009 CORE             169 PR1                         547  550   Char Procedure 1
+NV  2009 CORE             170 PR2                         551  554   Char Procedure 2
+NV  2009 CORE             171 PR3                         555  558   Char Procedure 3
+NV  2009 CORE             172 PR4                         559  562   Char Procedure 4
+NV  2009 CORE             173 PR5                         563  566   Char Procedure 5
+NV  2009 CORE             174 PR6                         567  570   Char Procedure 6
+NV  2009 CORE             175 PR7                         571  574   Char Procedure 7
+NV  2009 CORE             176 PR8                         575  578   Char Procedure 8
+NV  2009 CORE             177 PR9                         579  582   Char Procedure 9
+NV  2009 CORE             178 PR10                        583  586   Char Procedure 10
+NV  2009 CORE             179 PR11                        587  590   Char Procedure 11
+NV  2009 CORE             180 PR12                        591  594   Char Procedure 12
+NV  2009 CORE             181 PRCCS1                      595  597   Num  CCS: procedure 1
+NV  2009 CORE             182 PRCCS2                      598  600   Num  CCS: procedure 2
+NV  2009 CORE             183 PRCCS3                      601  603   Num  CCS: procedure 3
+NV  2009 CORE             184 PRCCS4                      604  606   Num  CCS: procedure 4
+NV  2009 CORE             185 PRCCS5                      607  609   Num  CCS: procedure 5
+NV  2009 CORE             186 PRCCS6                      610  612   Num  CCS: procedure 6
+NV  2009 CORE             187 PRCCS7                      613  615   Num  CCS: procedure 7
+NV  2009 CORE             188 PRCCS8                      616  618   Num  CCS: procedure 8
+NV  2009 CORE             189 PRCCS9                      619  621   Num  CCS: procedure 9
+NV  2009 CORE             190 PRCCS10                     622  624   Num  CCS: procedure 10
+NV  2009 CORE             191 PRCCS11                     625  627   Num  CCS: procedure 11
+NV  2009 CORE             192 PRCCS12                     628  630   Num  CCS: procedure 12
+NV  2009 CORE             193 PRDAY1                      631  635   Num  Number of days from admission to PR1
+NV  2009 CORE             194 PRDAY2                      636  640   Num  Number of days from admission to PR2
+NV  2009 CORE             195 PRDAY3                      641  645   Num  Number of days from admission to PR3
+NV  2009 CORE             196 PRDAY4                      646  650   Num  Number of days from admission to PR4
+NV  2009 CORE             197 PRDAY5                      651  655   Num  Number of days from admission to PR5
+NV  2009 CORE             198 PRDAY6                      656  660   Num  Number of days from admission to PR6
+NV  2009 CORE             199 PRDAY7                      661  665   Num  Number of days from admission to PR7
+NV  2009 CORE             200 PRDAY8                      666  670   Num  Number of days from admission to PR8
+NV  2009 CORE             201 PRDAY9                      671  675   Num  Number of days from admission to PR9
+NV  2009 CORE             202 PRDAY10                     676  680   Num  Number of days from admission to PR10
+NV  2009 CORE             203 PRDAY11                     681  685   Num  Number of days from admission to PR11
+NV  2009 CORE             204 PRDAY12                     686  690   Num  Number of days from admission to PR12
+NV  2009 CORE             205 PROCTYPE                    691  693   Num  Procedure type indicator
+NV  2009 CORE             206 PSTATE                      694  695   Char Patient State postal code
+NV  2009 CORE             207 PSTCO                       696  700   Num  Patient state/county FIPS code
+NV  2009 CORE             208 PointOfOriginUB04           701  701   Char Point of origin for admission or visit, UB-04 standard coding
+NV  2009 CORE             209 PointOfOrigin_X             702  703   Char Point of origin for admission or visit, as received from source
+NV  2009 CORE             210 RACE                        704  705   Num  Race (uniform)
+NV  2009 CORE             211 RACE_X                      706  707   Char Race (as received from source)
+NV  2009 CORE             212 TOTCHG                      708  717   Num  Total charges (cleaned)
+NV  2009 CORE             213 TOTCHG_X                    718  732 2 Num  Total charges (as received from source)
+NV  2009 CORE             214 TRAN_IN                     733  734   Num  Transfer in indicator
+NV  2009 CORE             215 TRAN_OUT                    735  736   Num  Transfer out indicator
+NV  2009 CORE             216 YEAR                        737  740   Num  Calendar year
+NV  2009 CORE             217 ZIPINC_QRTL                 741  743   Num  Median household income national quartile for patient ZIP Code
+NV  2009 CORE             218 AYEAR                       744  747   Num  Admission year
+NV  2009 CORE             219 DMONTH                      748  749   Num  Discharge month
+NV  2009 CORE             220 PRMONTH1                    750  751   Num  Month of procedure 1
+NV  2009 CORE             221 PRYEAR1                     752  755   Num  Year of procedure 1

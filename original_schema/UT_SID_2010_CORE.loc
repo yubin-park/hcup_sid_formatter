@@ -1,0 +1,145 @@
+Data Set Name: UT_SIDC_2010_CORE               
+Number of Observations: 274576
+Total Record Length: 456
+Total Number of Variables: 125
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 56    Variable name
+58- 61    Starting column of variable in ASCII file
+63- 66    Ending column of variable in ASCII file
+    68    Non-zero number of digits after decimal point for numeric variable
+70- 73    Variable type (Num=numeric; Char=character)
+75-174    Variable label
+
+
+UT  2010 CORE               1 ADRG                          1    3   Num  All Patient Refined DRG
+UT  2010 CORE               2 ADRGRISKMORTALITY             4    5   Num  All Patient Refined DRG mortality risk
+UT  2010 CORE               3 ADRGSEV                       6    7   Num  All Patient Refined DRG severity level
+UT  2010 CORE               4 AGE                           8   10   Num  Age in years at admission
+UT  2010 CORE               5 AGEDAY                       11   13   Num  Age in days (when age < 1 year)
+UT  2010 CORE               6 AGEMONTH                     14   16   Num  Age in months (when age < 11 years)
+UT  2010 CORE               7 AMONTH                       17   18   Num  Admission month
+UT  2010 CORE               8 ATYPE                        19   20   Num  Admission type
+UT  2010 CORE               9 AWEEKEND                     21   22   Num  Admission day is a weekend
+UT  2010 CORE              10 DIED                         23   24   Num  Died during hospitalization
+UT  2010 CORE              11 DISPUB04                     25   26   Num  Disposition of patient (UB-04 standard coding)
+UT  2010 CORE              12 DISPUNIFORM                  27   28   Num  Disposition of patient (uniform)
+UT  2010 CORE              13 DISP_X                       29   30   Char Disposition of patient (as received from source)
+UT  2010 CORE              14 DQTR                         31   32   Num  Discharge quarter
+UT  2010 CORE              15 DRG                          33   35   Num  DRG in effect on discharge date
+UT  2010 CORE              16 DRG24                        36   38   Num  DRG, version 24
+UT  2010 CORE              17 DRGVER                       39   40   Num  DRG grouper version used on discharge date
+UT  2010 CORE              18 DRG_NoPOA                    41   43   Num  DRG in use on discharge date, calculated without POA
+UT  2010 CORE              19 DSHOSPID                     44   60   Char Data source hospital identifier
+UT  2010 CORE              20 DX1                          61   65   Char Diagnosis 1
+UT  2010 CORE              21 DX2                          66   70   Char Diagnosis 2
+UT  2010 CORE              22 DX3                          71   75   Char Diagnosis 3
+UT  2010 CORE              23 DX4                          76   80   Char Diagnosis 4
+UT  2010 CORE              24 DX5                          81   85   Char Diagnosis 5
+UT  2010 CORE              25 DX6                          86   90   Char Diagnosis 6
+UT  2010 CORE              26 DX7                          91   95   Char Diagnosis 7
+UT  2010 CORE              27 DX8                          96  100   Char Diagnosis 8
+UT  2010 CORE              28 DX9                         101  105   Char Diagnosis 9
+UT  2010 CORE              29 DXCCS1                      106  109   Num  CCS: diagnosis 1
+UT  2010 CORE              30 DXCCS2                      110  113   Num  CCS: diagnosis 2
+UT  2010 CORE              31 DXCCS3                      114  117   Num  CCS: diagnosis 3
+UT  2010 CORE              32 DXCCS4                      118  121   Num  CCS: diagnosis 4
+UT  2010 CORE              33 DXCCS5                      122  125   Num  CCS: diagnosis 5
+UT  2010 CORE              34 DXCCS6                      126  129   Num  CCS: diagnosis 6
+UT  2010 CORE              35 DXCCS7                      130  133   Num  CCS: diagnosis 7
+UT  2010 CORE              36 DXCCS8                      134  137   Num  CCS: diagnosis 8
+UT  2010 CORE              37 DXCCS9                      138  141   Num  CCS: diagnosis 9
+UT  2010 CORE              38 DaysToEvent                 142  147   Num  Days from 'start date' to admission
+UT  2010 CORE              39 ECODE1                      148  152   Char E code 1
+UT  2010 CORE              40 ECODE2                      153  157   Char E code 2
+UT  2010 CORE              41 ECODE3                      158  162   Char E code 3
+UT  2010 CORE              42 ECODE4                      163  167   Char E code 4
+UT  2010 CORE              43 ECODE5                      168  172   Char E code 5
+UT  2010 CORE              44 ECODE6                      173  177   Char E code 6
+UT  2010 CORE              45 ECODE7                      178  182   Char E code 7
+UT  2010 CORE              46 E_CCS1                      183  186   Num  CCS: E Code 1
+UT  2010 CORE              47 E_CCS2                      187  190   Num  CCS: E Code 2
+UT  2010 CORE              48 E_CCS3                      191  194   Num  CCS: E Code 3
+UT  2010 CORE              49 E_CCS4                      195  198   Num  CCS: E Code 4
+UT  2010 CORE              50 E_CCS5                      199  202   Num  CCS: E Code 5
+UT  2010 CORE              51 E_CCS6                      203  206   Num  CCS: E Code 6
+UT  2010 CORE              52 E_CCS7                      207  210   Num  CCS: E Code 7
+UT  2010 CORE              53 FEMALE                      211  212   Num  Indicator of sex
+UT  2010 CORE              54 HCUP_ED                     213  214   Num  HCUP Emergency Department service indicator
+UT  2010 CORE              55 HCUP_OS                     215  216   Num  HCUP Observation Stay service indicator
+UT  2010 CORE              56 HISPANIC_X                  217  217   Char Hispanic ethnicity (as received from source)
+UT  2010 CORE              57 HOSPBRTH                    218  220   Num  Indicator of birth in this hospital
+UT  2010 CORE              58 HOSPST                      221  222   Char Hospital state postal code
+UT  2010 CORE              59 Homeless                    223  224   Num  Indicator that patient is homeless
+UT  2010 CORE              60 KEY                         225  238   Num  HCUP record identifier
+UT  2010 CORE              61 LOS                         239  243   Num  Length of stay (cleaned)
+UT  2010 CORE              62 LOS_X                       244  249   Num  Length of stay (as received from source)
+UT  2010 CORE              63 MARITALSTATUSUB04           250  250   Char Patient's marital status, UB-04 standard coding
+UT  2010 CORE              64 MARITALSTATUS_X             251  251   Char Patient's marital status (as received from source)
+UT  2010 CORE              65 MDC                         252  253   Num  MDC in effect on discharge date
+UT  2010 CORE              66 MDC24                       254  255   Num  MDC, version 24
+UT  2010 CORE              67 MDC_NoPOA                   256  257   Num  MDC in use on discharge date, calculated without POA
+UT  2010 CORE              68 MDNUM1_R                    258  266   Num  Physician 1 number (re-identified)
+UT  2010 CORE              69 MDSPEC1                     267  273   Char Physician 1 specialty (as received from source)
+UT  2010 CORE              70 MDSPEC2                     274  280   Char Physician 2 specialty (as received from source)
+UT  2010 CORE              71 MEDINCSTQ                   281  282   Num  Median household income state quartile for patient ZIP Code
+UT  2010 CORE              72 NCHRONIC                    283  285   Num  Number of chronic conditions
+UT  2010 CORE              73 NDX                         286  287   Num  Number of diagnoses on this record
+UT  2010 CORE              74 NECODE                      288  289   Num  Number of E codes on this record
+UT  2010 CORE              75 NEOMAT                      290  291   Num  Neonatal and/or maternal DX and/or PR
+UT  2010 CORE              76 NPR                         292  293   Num  Number of procedures on this record
+UT  2010 CORE              77 ORPROC                      294  295   Num  Major operating room procedure indicator
+UT  2010 CORE              78 PAY1                        296  297   Num  Primary expected payer (uniform)
+UT  2010 CORE              79 PAY1_X                      298  299   Char Primary expected payer (as received from source)
+UT  2010 CORE              80 PAY2                        300  301   Num  Secondary expected payer (uniform)
+UT  2010 CORE              81 PAY2_X                      302  303   Char Secondary expected payer (as received from source)
+UT  2010 CORE              82 PAY3                        304  305   Num  Tertiary expected payer (uniform)
+UT  2010 CORE              83 PAY3_X                      306  307   Char Tertiary expected payer (as received from source)
+UT  2010 CORE              84 PL_CBSA                     308  310   Num  Patient location: Core Based Statistical Area (CBSA)
+UT  2010 CORE              85 PL_MSA1993                  311  313   Num  Patient location: Metropolitan Statistical Area (MSA), 1993
+UT  2010 CORE              86 PL_NCHS2006                 314  315   Num  Patient Location: NCHS Urban-Rural Code (V2006)
+UT  2010 CORE              87 PL_RUCA10_2005              316  317   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, ten levels
+UT  2010 CORE              88 PL_RUCA2005                 318  321 1 Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes
+UT  2010 CORE              89 PL_RUCA4_2005               322  323   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, four levels
+UT  2010 CORE              90 PL_RUCC2003                 324  325   Num  Patient location: Rural-Urban Continuum Codes(RUCC), 2003
+UT  2010 CORE              91 PL_UIC2003                  326  327   Num  Patient location: Urban Influence Codes, 2003
+UT  2010 CORE              92 PL_UR_CAT4                  328  329   Num  Patient Location: Urban-Rural 4 Categories
+UT  2010 CORE              93 PR1                         330  333   Char Procedure 1
+UT  2010 CORE              94 PR2                         334  337   Char Procedure 2
+UT  2010 CORE              95 PR3                         338  341   Char Procedure 3
+UT  2010 CORE              96 PR4                         342  345   Char Procedure 4
+UT  2010 CORE              97 PR5                         346  349   Char Procedure 5
+UT  2010 CORE              98 PR6                         350  353   Char Procedure 6
+UT  2010 CORE              99 PRCCS1                      354  356   Num  CCS: procedure 1
+UT  2010 CORE             100 PRCCS2                      357  359   Num  CCS: procedure 2
+UT  2010 CORE             101 PRCCS3                      360  362   Num  CCS: procedure 3
+UT  2010 CORE             102 PRCCS4                      363  365   Num  CCS: procedure 4
+UT  2010 CORE             103 PRCCS5                      366  368   Num  CCS: procedure 5
+UT  2010 CORE             104 PRCCS6                      369  371   Num  CCS: procedure 6
+UT  2010 CORE             105 PROCTYPE                    372  374   Num  Procedure type indicator
+UT  2010 CORE             106 PSTATE                      375  376   Char Patient State postal code
+UT  2010 CORE             107 PSTCO                       377  381   Num  Patient state/county FIPS code
+UT  2010 CORE             108 PSTCO2                      382  386   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+UT  2010 CORE             109 PointOfOriginUB04           387  387   Char Point of origin for admission or visit, UB-04 standard coding
+UT  2010 CORE             110 PointOfOrigin_X             388  388   Char Point of origin for admission or visit, as received from source
+UT  2010 CORE             111 RACE                        389  390   Num  Race (uniform)
+UT  2010 CORE             112 RACE_X                      391  391   Char Race (as received from source)
+UT  2010 CORE             113 TOTCHG                      392  401   Num  Total charges (cleaned)
+UT  2010 CORE             114 TOTCHG_X                    402  416 2 Num  Total charges (as received from source)
+UT  2010 CORE             115 TRAN_IN                     417  418   Num  Transfer in indicator
+UT  2010 CORE             116 TRAN_OUT                    419  420   Num  Transfer out indicator
+UT  2010 CORE             117 VisitLink                   421  429   Num  Visit linkage variable
+UT  2010 CORE             118 YEAR                        430  433   Num  Calendar year
+UT  2010 CORE             119 ZIP3                        434  436   Char Patient ZIP Code, first 3 digits
+UT  2010 CORE             120 ZIPINC_QRTL                 437  439   Num  Median household income national quartile for patient ZIP Code
+UT  2010 CORE             121 ZIP                         440  444   Char Patient ZIP Code
+UT  2010 CORE             122 AYEAR                       445  448   Num  Admission year
+UT  2010 CORE             123 DMONTH                      449  450   Num  Discharge month
+UT  2010 CORE             124 BMONTH                      451  452   Num  Birth month
+UT  2010 CORE             125 BYEAR                       453  456   Num  Birth year

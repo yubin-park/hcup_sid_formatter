@@ -1,0 +1,191 @@
+Data Set Name: MI_SID_2001_CORE                
+Number of Observations: 1270817
+Total Record Length: 685
+Total Number of Variables: 171
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 49    Variable name
+51- 54    Starting column of variable in ASCII file
+56- 59    Ending column of variable in ASCII file
+    61    Non-zero number of digits after decimal point for numeric variable
+63- 66    Variable type (Num=numeric; Char=character)
+68-167    Variable label
+
+
+MI  2001 CORE               1 HOSPID                 1    5   Num  HCUP hospital identification number
+MI  2001 CORE               2 HOSPST                 6    7   Char Hospital state postal code
+MI  2001 CORE               3 KEY                    8   21   Num  HCUP record identifier
+MI  2001 CORE               4 ADRG                  22   24   Num  All Patient Refined DRG
+MI  2001 CORE               5 ADRGRISKMORTALITY     25   26   Num  All Patient Refined DRG mortality risk
+MI  2001 CORE               6 ADRGSEV               27   28   Num  All Patient Refined DRG severity level
+MI  2001 CORE               7 AGE                   29   31   Num  Age in years at admission
+MI  2001 CORE               8 AGEDAY                32   34   Num  Age in days (when age < 1 year)
+MI  2001 CORE               9 AGEMONTH              35   37   Num  Age in months (when age < 11 years)
+MI  2001 CORE              10 AMONTH                38   39   Num  Admission month
+MI  2001 CORE              11 ASOURCE               40   41   Num  Admission source (uniform)
+MI  2001 CORE              12 ASOURCE_X             42   42   Char Admission source (as received from source)
+MI  2001 CORE              13 ATYPE                 43   44   Num  Admission type
+MI  2001 CORE              14 AWEEKEND              45   46   Num  Admission day is a weekend
+MI  2001 CORE              15 DaysCCU               47   49   Num  Days in coronary care unit (as received from the source)
+MI  2001 CORE              16 DaysICU               50   52   Num  Days in medical/surgical intensive care unit (as received from the source)
+MI  2001 CORE              17 DIED                  53   54   Num  Died during hospitalization
+MI  2001 CORE              18 DISP_X                55   56   Char Disposition of patient (as received from source)
+MI  2001 CORE              19 DISPUB92              57   58   Num  Disposition of patient (UB-92 standard coding)
+MI  2001 CORE              20 DISPUNIFORM           59   60   Num  Disposition of patient (uniform)
+MI  2001 CORE              21 DQTR                  61   62   Num  Discharge quarter
+MI  2001 CORE              22 DRG                   63   65   Num  DRG in effect on discharge date
+MI  2001 CORE              23 DRG18                 66   68   Num  DRG, version 18
+MI  2001 CORE              24 DRGVER                69   70   Num  DRG grouper version used on discharge date
+MI  2001 CORE              25 DX1                   71   75   Char Principal diagnosis
+MI  2001 CORE              26 DX2                   76   80   Char Diagnosis 2
+MI  2001 CORE              27 DX3                   81   85   Char Diagnosis 3
+MI  2001 CORE              28 DX4                   86   90   Char Diagnosis 4
+MI  2001 CORE              29 DX5                   91   95   Char Diagnosis 5
+MI  2001 CORE              30 DX6                   96  100   Char Diagnosis 6
+MI  2001 CORE              31 DX7                  101  105   Char Diagnosis 7
+MI  2001 CORE              32 DX8                  106  110   Char Diagnosis 8
+MI  2001 CORE              33 DX9                  111  115   Char Diagnosis 9
+MI  2001 CORE              34 DX10                 116  120   Char Diagnosis 10
+MI  2001 CORE              35 DX11                 121  125   Char Diagnosis 11
+MI  2001 CORE              36 DX12                 126  130   Char Diagnosis 12
+MI  2001 CORE              37 DX13                 131  135   Char Diagnosis 13
+MI  2001 CORE              38 DX14                 136  140   Char Diagnosis 14
+MI  2001 CORE              39 DX15                 141  145   Char Diagnosis 15
+MI  2001 CORE              40 DX16                 146  150   Char Diagnosis 16
+MI  2001 CORE              41 DX17                 151  155   Char Diagnosis 17
+MI  2001 CORE              42 DX18                 156  160   Char Diagnosis 18
+MI  2001 CORE              43 DX19                 161  165   Char Diagnosis 19
+MI  2001 CORE              44 DX20                 166  170   Char Diagnosis 20
+MI  2001 CORE              45 DX21                 171  175   Char Diagnosis 21
+MI  2001 CORE              46 DX22                 176  180   Char Diagnosis 22
+MI  2001 CORE              47 DX23                 181  185   Char Diagnosis 23
+MI  2001 CORE              48 DX24                 186  190   Char Diagnosis 24
+MI  2001 CORE              49 DX25                 191  195   Char Diagnosis 25
+MI  2001 CORE              50 DX26                 196  200   Char Diagnosis 26
+MI  2001 CORE              51 DX27                 201  205   Char Diagnosis 27
+MI  2001 CORE              52 DX28                 206  210   Char Diagnosis 28
+MI  2001 CORE              53 DX29                 211  215   Char Diagnosis 29
+MI  2001 CORE              54 DX30                 216  220   Char Diagnosis 30
+MI  2001 CORE              55 DXCCS1               221  224   Num  CCS: principal diagnosis
+MI  2001 CORE              56 DXCCS2               225  228   Num  CCS: diagnosis 2
+MI  2001 CORE              57 DXCCS3               229  232   Num  CCS: diagnosis 3
+MI  2001 CORE              58 DXCCS4               233  236   Num  CCS: diagnosis 4
+MI  2001 CORE              59 DXCCS5               237  240   Num  CCS: diagnosis 5
+MI  2001 CORE              60 DXCCS6               241  244   Num  CCS: diagnosis 6
+MI  2001 CORE              61 DXCCS7               245  248   Num  CCS: diagnosis 7
+MI  2001 CORE              62 DXCCS8               249  252   Num  CCS: diagnosis 8
+MI  2001 CORE              63 DXCCS9               253  256   Num  CCS: diagnosis 9
+MI  2001 CORE              64 DXCCS10              257  260   Num  CCS: diagnosis 10
+MI  2001 CORE              65 DXCCS11              261  264   Num  CCS: diagnosis 11
+MI  2001 CORE              66 DXCCS12              265  268   Num  CCS: diagnosis 12
+MI  2001 CORE              67 DXCCS13              269  272   Num  CCS: diagnosis 13
+MI  2001 CORE              68 DXCCS14              273  276   Num  CCS: diagnosis 14
+MI  2001 CORE              69 DXCCS15              277  280   Num  CCS: diagnosis 15
+MI  2001 CORE              70 DXCCS16              281  284   Num  CCS: diagnosis 16
+MI  2001 CORE              71 DXCCS17              285  288   Num  CCS: diagnosis 17
+MI  2001 CORE              72 DXCCS18              289  292   Num  CCS: diagnosis 18
+MI  2001 CORE              73 DXCCS19              293  296   Num  CCS: diagnosis 19
+MI  2001 CORE              74 DXCCS20              297  300   Num  CCS: diagnosis 20
+MI  2001 CORE              75 DXCCS21              301  304   Num  CCS: diagnosis 21
+MI  2001 CORE              76 DXCCS22              305  308   Num  CCS: diagnosis 22
+MI  2001 CORE              77 DXCCS23              309  312   Num  CCS: diagnosis 23
+MI  2001 CORE              78 DXCCS24              313  316   Num  CCS: diagnosis 24
+MI  2001 CORE              79 DXCCS25              317  320   Num  CCS: diagnosis 25
+MI  2001 CORE              80 DXCCS26              321  324   Num  CCS: diagnosis 26
+MI  2001 CORE              81 DXCCS27              325  328   Num  CCS: diagnosis 27
+MI  2001 CORE              82 DXCCS28              329  332   Num  CCS: diagnosis 28
+MI  2001 CORE              83 DXCCS29              333  336   Num  CCS: diagnosis 29
+MI  2001 CORE              84 DXCCS30              337  340   Num  CCS: diagnosis 30
+MI  2001 CORE              85 FEMALE               341  342   Num  Indicator of sex
+MI  2001 CORE              86 HISPANIC_X           343  343   Char Hispanic ethnicity (as received from source)
+MI  2001 CORE              87 LOS                  344  348   Num  Length of stay (cleaned)
+MI  2001 CORE              88 LOS_X                349  354   Num  Length of stay (as received from source)
+MI  2001 CORE              89 MDC                  355  356   Num  MDC in effect on discharge date
+MI  2001 CORE              90 MDC18                357  358   Num  MDC, version 18
+MI  2001 CORE              91 MDNUM1_S             359  374   Char Physician 1 number (synthetic)
+MI  2001 CORE              92 MDNUM2_S             375  390   Char Physician 2 number (synthetic)
+MI  2001 CORE              93 MRN_S                391  407   Char Medical record number (synthetic)
+MI  2001 CORE              94 NDX                  408  409   Num  Number of diagnoses on this record
+MI  2001 CORE              95 NEOMAT               410  411   Num  Neonatal and/or maternal DX and/or PR
+MI  2001 CORE              96 NPR                  412  413   Num  Number of procedures on this record
+MI  2001 CORE              97 PAY1                 414  415   Num  Primary expected payer (uniform)
+MI  2001 CORE              98 PAY2                 416  417   Num  Secondary expected payer (uniform)
+MI  2001 CORE              99 PAY1_X               418  419   Char Primary expected payer (as received from source)
+MI  2001 CORE             100 PAY2_X               420  421   Char Secondary expected payer (as received from source)
+MI  2001 CORE             101 PR1                  422  425   Char Principal procedure
+MI  2001 CORE             102 PR2                  426  429   Char Procedure 2
+MI  2001 CORE             103 PR3                  430  433   Char Procedure 3
+MI  2001 CORE             104 PR4                  434  437   Char Procedure 4
+MI  2001 CORE             105 PR5                  438  441   Char Procedure 5
+MI  2001 CORE             106 PR6                  442  445   Char Procedure 6
+MI  2001 CORE             107 PR7                  446  449   Char Procedure 7
+MI  2001 CORE             108 PR8                  450  453   Char Procedure 8
+MI  2001 CORE             109 PR9                  454  457   Char Procedure 9
+MI  2001 CORE             110 PR10                 458  461   Char Procedure 10
+MI  2001 CORE             111 PR11                 462  465   Char Procedure 11
+MI  2001 CORE             112 PR12                 466  469   Char Procedure 12
+MI  2001 CORE             113 PR13                 470  473   Char Procedure 13
+MI  2001 CORE             114 PR14                 474  477   Char Procedure 14
+MI  2001 CORE             115 PR15                 478  481   Char Procedure 15
+MI  2001 CORE             116 PR16                 482  485   Char Procedure 16
+MI  2001 CORE             117 PR17                 486  489   Char Procedure 17
+MI  2001 CORE             118 PR18                 490  493   Char Procedure 18
+MI  2001 CORE             119 PR19                 494  497   Char Procedure 19
+MI  2001 CORE             120 PR20                 498  501   Char Procedure 20
+MI  2001 CORE             121 PR21                 502  505   Char Procedure 21
+MI  2001 CORE             122 PR22                 506  509   Char Procedure 22
+MI  2001 CORE             123 PR23                 510  513   Char Procedure 23
+MI  2001 CORE             124 PR24                 514  517   Char Procedure 24
+MI  2001 CORE             125 PR25                 518  521   Char Procedure 25
+MI  2001 CORE             126 PR26                 522  525   Char Procedure 26
+MI  2001 CORE             127 PR27                 526  529   Char Procedure 27
+MI  2001 CORE             128 PR28                 530  533   Char Procedure 28
+MI  2001 CORE             129 PR29                 534  537   Char Procedure 29
+MI  2001 CORE             130 PR30                 538  541   Char Procedure 30
+MI  2001 CORE             131 PRCCS1               542  544   Num  CCS: principal procedure
+MI  2001 CORE             132 PRCCS2               545  547   Num  CCS: procedure 2
+MI  2001 CORE             133 PRCCS3               548  550   Num  CCS: procedure 3
+MI  2001 CORE             134 PRCCS4               551  553   Num  CCS: procedure 4
+MI  2001 CORE             135 PRCCS5               554  556   Num  CCS: procedure 5
+MI  2001 CORE             136 PRCCS6               557  559   Num  CCS: procedure 6
+MI  2001 CORE             137 PRCCS7               560  562   Num  CCS: procedure 7
+MI  2001 CORE             138 PRCCS8               563  565   Num  CCS: procedure 8
+MI  2001 CORE             139 PRCCS9               566  568   Num  CCS: procedure 9
+MI  2001 CORE             140 PRCCS10              569  571   Num  CCS: procedure 10
+MI  2001 CORE             141 PRCCS11              572  574   Num  CCS: procedure 11
+MI  2001 CORE             142 PRCCS12              575  577   Num  CCS: procedure 12
+MI  2001 CORE             143 PRCCS13              578  580   Num  CCS: procedure 13
+MI  2001 CORE             144 PRCCS14              581  583   Num  CCS: procedure 14
+MI  2001 CORE             145 PRCCS15              584  586   Num  CCS: procedure 15
+MI  2001 CORE             146 PRCCS16              587  589   Num  CCS: procedure 16
+MI  2001 CORE             147 PRCCS17              590  592   Num  CCS: procedure 17
+MI  2001 CORE             148 PRCCS18              593  595   Num  CCS: procedure 18
+MI  2001 CORE             149 PRCCS19              596  598   Num  CCS: procedure 19
+MI  2001 CORE             150 PRCCS20              599  601   Num  CCS: procedure 20
+MI  2001 CORE             151 PRCCS21              602  604   Num  CCS: procedure 21
+MI  2001 CORE             152 PRCCS22              605  607   Num  CCS: procedure 22
+MI  2001 CORE             153 PRCCS23              608  610   Num  CCS: procedure 23
+MI  2001 CORE             154 PRCCS24              611  613   Num  CCS: procedure 24
+MI  2001 CORE             155 PRCCS25              614  616   Num  CCS: procedure 25
+MI  2001 CORE             156 PRCCS26              617  619   Num  CCS: procedure 26
+MI  2001 CORE             157 PRCCS27              620  622   Num  CCS: procedure 27
+MI  2001 CORE             158 PRCCS28              623  625   Num  CCS: procedure 28
+MI  2001 CORE             159 PRCCS29              626  628   Num  CCS: procedure 29
+MI  2001 CORE             160 PRCCS30              629  631   Num  CCS: procedure 30
+MI  2001 CORE             161 PRDAY1               632  636   Num  Number of days from admission to PR1
+MI  2001 CORE             162 RACE                 637  638   Num  Race (uniform)
+MI  2001 CORE             163 RACE_X               639  639   Char Race (as received from source)
+MI  2001 CORE             164 TOTCHG               640  649   Num  Total charges (cleaned)
+MI  2001 CORE             165 TOTCHG_X             650  664 2 Num  Total charges (as received from source)
+MI  2001 CORE             166 YEAR                 665  668   Num  Calendar year
+MI  2001 CORE             167 ZIP                  669  673   Char Patient ZIP Code
+MI  2001 CORE             168 AYEAR                674  677   Num  Admission year
+MI  2001 CORE             169 DMONTH               678  679   Num  Discharge month
+MI  2001 CORE             170 BMONTH               680  681   Num  Birth month
+MI  2001 CORE             171 BYEAR                682  685   Num  Birth year

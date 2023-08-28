@@ -1,0 +1,196 @@
+Data Set Name: NY_SID_1999_CORE                
+Number of Observations: 2429753
+Total Record Length: 630
+Total Number of Variables: 176
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 49    Variable name
+51- 53    Starting column of variable in ASCII file
+55- 57    Ending column of variable in ASCII file
+    59    Non-zero number of digits after decimal point for numeric variable
+61- 64    Variable type (Num=numeric; Char=character)
+66-165    Variable label
+
+
+NY  1999 CORE               1 KEY                   1  14   Num  HCUP record identifier
+NY  1999 CORE               2 AGE                  15  17   Num  Age in years at admission
+NY  1999 CORE               3 AGEDAY               18  20   Num  Age in days (when age < 1 year)
+NY  1999 CORE               4 AGEMONTH             21  23   Num  Age in months (when age < 11 years)
+NY  1999 CORE               5 AMONTH               24  25   Num  Admission month
+NY  1999 CORE               6 ANESTH               26  28   Num  Method of anesthesia
+NY  1999 CORE               7 ASCHED               29  30   Num  Admission scheduled vs. unscheduled
+NY  1999 CORE               8 ASOURCE              31  32   Num  Admission source (uniform)
+NY  1999 CORE               9 ASOURCE_X            33  33   Char Admission source (as received from source)
+NY  1999 CORE              10 ATYPE                34  35   Num  Admission type
+NY  1999 CORE              11 AWEEKEND             36  37   Num  Admission day is a weekend
+NY  1999 CORE              12 BLOOD                38  44 2 Num  Pints of blood furnished to the patient
+NY  1999 CORE              13 BWT                  45  48   Num  Birth weight in grams
+NY  1999 CORE              14 DIED                 49  50   Num  Died during hospitalization
+NY  1999 CORE              15 DISPUB92             51  52   Num  Disposition of patient (UB-92 standard coding)
+NY  1999 CORE              16 DISPUNIFORM          53  54   Num  Disposition of patient (uniform)
+NY  1999 CORE              17 DISP_X               55  56   Char Disposition of patient (as received from source)
+NY  1999 CORE              18 DQTR                 57  58   Num  Discharge quarter
+NY  1999 CORE              19 DRG                  59  61   Num  DRG in effect on discharge date
+NY  1999 CORE              20 DRG10                62  64   Num  DRG, version 10
+NY  1999 CORE              21 DRG18                65  67   Num  DRG, version 18
+NY  1999 CORE              22 DRGVER               68  69   Num  DRG grouper version used on discharge date
+NY  1999 CORE              23 DSHOSPID             70  82   Char Data source hospital identifier
+NY  1999 CORE              24 DX1                  83  87   Char Principal diagnosis
+NY  1999 CORE              25 DX2                  88  92   Char Diagnosis 2
+NY  1999 CORE              26 DX3                  93  97   Char Diagnosis 3
+NY  1999 CORE              27 DX4                  98 102   Char Diagnosis 4
+NY  1999 CORE              28 DX5                 103 107   Char Diagnosis 5
+NY  1999 CORE              29 DX6                 108 112   Char Diagnosis 6
+NY  1999 CORE              30 DX7                 113 117   Char Diagnosis 7
+NY  1999 CORE              31 DX8                 118 122   Char Diagnosis 8
+NY  1999 CORE              32 DX9                 123 127   Char Diagnosis 9
+NY  1999 CORE              33 DX10                128 132   Char Diagnosis 10
+NY  1999 CORE              34 DX11                133 137   Char Diagnosis 11
+NY  1999 CORE              35 DX12                138 142   Char Diagnosis 12
+NY  1999 CORE              36 DX13                143 147   Char Diagnosis 13
+NY  1999 CORE              37 DX14                148 152   Char Diagnosis 14
+NY  1999 CORE              38 DX15                153 157   Char Diagnosis 15
+NY  1999 CORE              39 DX16                158 162   Char Diagnosis 16
+NY  1999 CORE              40 DX17                163 167   Char Diagnosis 17
+NY  1999 CORE              41 DXATADMIT1          168 169   Num  Principal diagnosis present at admission
+NY  1999 CORE              42 DXATADMIT2          170 171   Num  Diagnosis 2 present at admission
+NY  1999 CORE              43 DXATADMIT3          172 173   Num  Diagnosis 3 present at admission
+NY  1999 CORE              44 DXATADMIT4          174 175   Num  Diagnosis 4 present at admission
+NY  1999 CORE              45 DXATADMIT5          176 177   Num  Diagnosis 5 present at admission
+NY  1999 CORE              46 DXATADMIT6          178 179   Num  Diagnosis 6 present at admission
+NY  1999 CORE              47 DXATADMIT7          180 181   Num  Diagnosis 7 present at admission
+NY  1999 CORE              48 DXATADMIT8          182 183   Num  Diagnosis 8 present at admission
+NY  1999 CORE              49 DXATADMIT9          184 185   Num  Diagnosis 9 present at admission
+NY  1999 CORE              50 DXATADMIT10         186 187   Num  Diagnosis 10 present at admission
+NY  1999 CORE              51 DXATADMIT11         188 189   Num  Diagnosis 11 present at admission
+NY  1999 CORE              52 DXATADMIT12         190 191   Num  Diagnosis 12 present at admission
+NY  1999 CORE              53 DXATADMIT13         192 193   Num  Diagnosis 13 present at admission
+NY  1999 CORE              54 DXATADMIT14         194 195   Num  Diagnosis 14 present at admission
+NY  1999 CORE              55 DXATADMIT15         196 197   Num  Diagnosis 15 present at admission
+NY  1999 CORE              56 DXCCS1              198 201   Num  CCS: principal diagnosis
+NY  1999 CORE              57 DXCCS2              202 205   Num  CCS: diagnosis 2
+NY  1999 CORE              58 DXCCS3              206 209   Num  CCS: diagnosis 3
+NY  1999 CORE              59 DXCCS4              210 213   Num  CCS: diagnosis 4
+NY  1999 CORE              60 DXCCS5              214 217   Num  CCS: diagnosis 5
+NY  1999 CORE              61 DXCCS6              218 221   Num  CCS: diagnosis 6
+NY  1999 CORE              62 DXCCS7              222 225   Num  CCS: diagnosis 7
+NY  1999 CORE              63 DXCCS8              226 229   Num  CCS: diagnosis 8
+NY  1999 CORE              64 DXCCS9              230 233   Num  CCS: diagnosis 9
+NY  1999 CORE              65 DXCCS10             234 237   Num  CCS: diagnosis 10
+NY  1999 CORE              66 DXCCS11             238 241   Num  CCS: diagnosis 11
+NY  1999 CORE              67 DXCCS12             242 245   Num  CCS: diagnosis 12
+NY  1999 CORE              68 DXCCS13             246 249   Num  CCS: diagnosis 13
+NY  1999 CORE              69 DXCCS14             250 253   Num  CCS: diagnosis 14
+NY  1999 CORE              70 DXCCS15             254 257   Num  CCS: diagnosis 15
+NY  1999 CORE              71 DXCCS16             258 261   Num  CCS: diagnosis 16
+NY  1999 CORE              72 DXCCS17             262 265   Num  CCS: diagnosis 17
+NY  1999 CORE              73 FEMALE              266 267   Num  Indicator of sex
+NY  1999 CORE              74 HISPANIC_X          268 268   Char Hispanic ethnicity (as received from source)
+NY  1999 CORE              75 HOSPST              269 270   Char Hospital state postal code
+NY  1999 CORE              76 LOS                 271 275   Num  Length of stay (cleaned)
+NY  1999 CORE              77 LOS_X               276 281   Num  Length of stay (uncleaned)
+NY  1999 CORE              78 MDC                 282 283   Num  MDC in effect on discharge date
+NY  1999 CORE              79 MDC10               284 285   Num  MDC, version 10
+NY  1999 CORE              80 MDC18               286 287   Num  MDC, version 18
+NY  1999 CORE              81 MDID_S              288 303   Char Attending physician number (synthetic)
+NY  1999 CORE              82 NDX                 304 305   Num  Number of diagnoses on this record
+NY  1999 CORE              83 NEOMAT              306 307   Num  Neonatal and/or maternal DX and/or PR
+NY  1999 CORE              84 NPR                 308 309   Num  Number of procedures on this record
+NY  1999 CORE              85 PAY1                310 311   Num  Primary expected payer (uniform)
+NY  1999 CORE              86 PAY2                312 313   Num  Secondary expected payer (uniform)
+NY  1999 CORE              87 PAY1_X              314 315   Char Primary expected payer (as received from source)
+NY  1999 CORE              88 PAY2_X              316 317   Char Secondary expected payer (as received from source)
+NY  1999 CORE              89 PAY3_X              318 319   Char Tertiary expected payer (as received from source)
+NY  1999 CORE              90 PR1                 320 323   Char Principal procedure
+NY  1999 CORE              91 PR2                 324 327   Char Procedure 2
+NY  1999 CORE              92 PR3                 328 331   Char Procedure 3
+NY  1999 CORE              93 PR4                 332 335   Char Procedure 4
+NY  1999 CORE              94 PR5                 336 339   Char Procedure 5
+NY  1999 CORE              95 PR6                 340 343   Char Procedure 6
+NY  1999 CORE              96 PR7                 344 347   Char Procedure 7
+NY  1999 CORE              97 PR8                 348 351   Char Procedure 8
+NY  1999 CORE              98 PR9                 352 355   Char Procedure 9
+NY  1999 CORE              99 PR10                356 359   Char Procedure 10
+NY  1999 CORE             100 PR11                360 363   Char Procedure 11
+NY  1999 CORE             101 PR12                364 367   Char Procedure 12
+NY  1999 CORE             102 PR13                368 371   Char Procedure 13
+NY  1999 CORE             103 PR14                372 375   Char Procedure 14
+NY  1999 CORE             104 PR15                376 379   Char Procedure 15
+NY  1999 CORE             105 PRCCS1              380 382   Num  CCS: principal procedure
+NY  1999 CORE             106 PRCCS2              383 385   Num  CCS: procedure 2
+NY  1999 CORE             107 PRCCS3              386 388   Num  CCS: procedure 3
+NY  1999 CORE             108 PRCCS4              389 391   Num  CCS: procedure 4
+NY  1999 CORE             109 PRCCS5              392 394   Num  CCS: procedure 5
+NY  1999 CORE             110 PRCCS6              395 397   Num  CCS: procedure 6
+NY  1999 CORE             111 PRCCS7              398 400   Num  CCS: procedure 7
+NY  1999 CORE             112 PRCCS8              401 403   Num  CCS: procedure 8
+NY  1999 CORE             113 PRCCS9              404 406   Num  CCS: procedure 9
+NY  1999 CORE             114 PRCCS10             407 409   Num  CCS: procedure 10
+NY  1999 CORE             115 PRCCS11             410 412   Num  CCS: procedure 11
+NY  1999 CORE             116 PRCCS12             413 415   Num  CCS: procedure 12
+NY  1999 CORE             117 PRCCS13             416 418   Num  CCS: procedure 13
+NY  1999 CORE             118 PRCCS14             419 421   Num  CCS: procedure 14
+NY  1999 CORE             119 PRCCS15             422 424   Num  CCS: procedure 15
+NY  1999 CORE             120 PRDAY1              425 427   Num  Number of days from admission to PR1
+NY  1999 CORE             121 PRDAY2              428 430   Num  Number of days from admission to PR2
+NY  1999 CORE             122 PRDAY3              431 433   Num  Number of days from admission to PR3
+NY  1999 CORE             123 PRDAY4              434 436   Num  Number of days from admission to PR4
+NY  1999 CORE             124 PRDAY5              437 439   Num  Number of days from admission to PR5
+NY  1999 CORE             125 PRDAY6              440 442   Num  Number of days from admission to PR6
+NY  1999 CORE             126 PRDAY7              443 445   Num  Number of days from admission to PR7
+NY  1999 CORE             127 PRDAY8              446 448   Num  Number of days from admission to PR8
+NY  1999 CORE             128 PRDAY9              449 451   Num  Number of days from admission to PR9
+NY  1999 CORE             129 PRDAY10             452 454   Num  Number of days from admission to PR10
+NY  1999 CORE             130 PRDAY11             455 457   Num  Number of days from admission to PR11
+NY  1999 CORE             131 PRDAY12             458 460   Num  Number of days from admission to PR12
+NY  1999 CORE             132 PRDAY13             461 463   Num  Number of days from admission to PR13
+NY  1999 CORE             133 PRDAY14             464 466   Num  Number of days from admission to PR14
+NY  1999 CORE             134 PRDAY15             467 469   Num  Number of days from admission to PR15
+NY  1999 CORE             135 PSTCO               470 474   Num  Patient state/county FIPS code
+NY  1999 CORE             136 RACE                475 476   Num  Race (uniform)
+NY  1999 CORE             137 RACE_X              477 478   Char Race (as received from source)
+NY  1999 CORE             138 SURGID_S            479 494   Char Primary surgeon number (synthetic)
+NY  1999 CORE             139 TOTCHG              495 504   Num  Total charges (cleaned)
+NY  1999 CORE             140 TOTCHG_X            505 519 2 Num  Total charges (as received from source)
+NY  1999 CORE             141 YEAR                520 523   Num  Calendar year
+NY  1999 CORE             142 ZIP                 524 528   Char Patient zip code
+NY  1999 CORE             143 AYEAR               529 532   Num  Admission year
+NY  1999 CORE             144 DMONTH              533 534   Num  Discharge month
+NY  1999 CORE             145 BMONTH              535 536   Num  Birth month
+NY  1999 CORE             146 BYEAR               537 540   Num  Birth year
+NY  1999 CORE             147 PRMONTH1            541 542   Num  Month of procedure 1
+NY  1999 CORE             148 PRMONTH2            543 544   Num  Month of procedure 2
+NY  1999 CORE             149 PRMONTH3            545 546   Num  Month of procedure 3
+NY  1999 CORE             150 PRMONTH4            547 548   Num  Month of procedure 4
+NY  1999 CORE             151 PRMONTH5            549 550   Num  Month of procedure 5
+NY  1999 CORE             152 PRMONTH6            551 552   Num  Month of procedure 6
+NY  1999 CORE             153 PRMONTH7            553 554   Num  Month of procedure 7
+NY  1999 CORE             154 PRMONTH8            555 556   Num  Month of procedure 8
+NY  1999 CORE             155 PRMONTH9            557 558   Num  Month of procedure 9
+NY  1999 CORE             156 PRMONTH10           559 560   Num  Month of procedure 10
+NY  1999 CORE             157 PRMONTH11           561 562   Num  Month of procedure 11
+NY  1999 CORE             158 PRMONTH12           563 564   Num  Month of procedure 12
+NY  1999 CORE             159 PRMONTH13           565 566   Num  Month of procedure 13
+NY  1999 CORE             160 PRMONTH14           567 568   Num  Month of procedure 14
+NY  1999 CORE             161 PRMONTH15           569 570   Num  Month of procedure 15
+NY  1999 CORE             162 PRYEAR1             571 574   Num  Year of procedure 1
+NY  1999 CORE             163 PRYEAR2             575 578   Num  Year of procedure 2
+NY  1999 CORE             164 PRYEAR3             579 582   Num  Year of procedure 3
+NY  1999 CORE             165 PRYEAR4             583 586   Num  Year of procedure 4
+NY  1999 CORE             166 PRYEAR5             587 590   Num  Year of procedure 5
+NY  1999 CORE             167 PRYEAR6             591 594   Num  Year of procedure 6
+NY  1999 CORE             168 PRYEAR7             595 598   Num  Year of procedure 7
+NY  1999 CORE             169 PRYEAR8             599 602   Num  Year of procedure 8
+NY  1999 CORE             170 PRYEAR9             603 606   Num  Year of procedure 9
+NY  1999 CORE             171 PRYEAR10            607 610   Num  Year of procedure 10
+NY  1999 CORE             172 PRYEAR11            611 614   Num  Year of procedure 11
+NY  1999 CORE             173 PRYEAR12            615 618   Num  Year of procedure 12
+NY  1999 CORE             174 PRYEAR13            619 622   Num  Year of procedure 13
+NY  1999 CORE             175 PRYEAR14            623 626   Num  Year of procedure 14
+NY  1999 CORE             176 PRYEAR15            627 630   Num  Year of procedure 15

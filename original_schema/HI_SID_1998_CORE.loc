@@ -1,0 +1,136 @@
+Data Set Name: HI_SIDC_1998_CORE               
+Number of Observations: 126896
+Total Record Length: 441
+Total Number of Variables: 115
+Creation Date: 11/24/2014   
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 56    Variable name
+58- 61    Starting column of variable in ASCII file
+63- 66    Ending column of variable in ASCII file
+    68    Non-zero number of digits after decimal point for numeric variable
+70- 73    Variable type (Num=numeric; Char=character)
+75-174    Variable label
+
+
+HI  1998 CORE               1 KEY                           1   15   Num  HCUP record identifier
+HI  1998 CORE               2 AGEDAY                       16   18   Num  Age in days (when age < 1 year)
+HI  1998 CORE               3 AGEMONTH                     19   21   Num  Age in months (when age < 11 years)
+HI  1998 CORE               4 AMONTH                       22   23   Num  Admission month
+HI  1998 CORE               5 ASOURCE                      24   25   Num  Admission source (uniform)
+HI  1998 CORE               6 ASOURCE_X                    26   26   Char Admission source (as received from source)
+HI  1998 CORE               7 ATYPE                        27   28   Num  Admission type
+HI  1998 CORE               8 AWEEKEND                     29   30   Num  Admission day is a weekend
+HI  1998 CORE               9 BWT                          31   34   Num  Birth weight in grams
+HI  1998 CORE              10 DIED                         35   36   Num  Died during hospitalization
+HI  1998 CORE              11 DISPUB92                     37   38   Num  Disposition of patient (UB-92 standard coding)
+HI  1998 CORE              12 DISPUNIFORM                  39   40   Num  Disposition of patient (uniform)
+HI  1998 CORE              13 DISP_X                       41   42   Char Disposition of patient (as received from source)
+HI  1998 CORE              14 DQTR                         43   44   Num  Discharge quarter
+HI  1998 CORE              15 DRG                          45   47   Num  DRG in effect on discharge date
+HI  1998 CORE              16 DRG10                        48   50   Num  DRG, version 10
+HI  1998 CORE              17 DRG18                        51   53   Num  DRG, version 18
+HI  1998 CORE              18 DRGVER                       54   55   Num  DRG grouper version used on discharge date
+HI  1998 CORE              19 DX1                          56   60   Char Principal diagnosis
+HI  1998 CORE              20 DX2                          61   65   Char Diagnosis 2
+HI  1998 CORE              21 DX3                          66   70   Char Diagnosis 3
+HI  1998 CORE              22 DX4                          71   75   Char Diagnosis 4
+HI  1998 CORE              23 DX5                          76   80   Char Diagnosis 5
+HI  1998 CORE              24 DX6                          81   85   Char Diagnosis 6
+HI  1998 CORE              25 DX7                          86   90   Char Diagnosis 7
+HI  1998 CORE              26 DX8                          91   95   Char Diagnosis 8
+HI  1998 CORE              27 DX9                          96  100   Char Diagnosis 9
+HI  1998 CORE              28 DX10                        101  105   Char Diagnosis 10
+HI  1998 CORE              29 DX11                        106  110   Char Diagnosis 11
+HI  1998 CORE              30 DXCCS1                      111  114   Num  CCS: principal diagnosis
+HI  1998 CORE              31 DXCCS2                      115  118   Num  CCS: diagnosis 2
+HI  1998 CORE              32 DXCCS3                      119  122   Num  CCS: diagnosis 3
+HI  1998 CORE              33 DXCCS4                      123  126   Num  CCS: diagnosis 4
+HI  1998 CORE              34 DXCCS5                      127  130   Num  CCS: diagnosis 5
+HI  1998 CORE              35 DXCCS6                      131  134   Num  CCS: diagnosis 6
+HI  1998 CORE              36 DXCCS7                      135  138   Num  CCS: diagnosis 7
+HI  1998 CORE              37 DXCCS8                      139  142   Num  CCS: diagnosis 8
+HI  1998 CORE              38 DXCCS9                      143  146   Num  CCS: diagnosis 9
+HI  1998 CORE              39 DXCCS10                     147  150   Num  CCS: diagnosis 10
+HI  1998 CORE              40 DXCCS11                     151  154   Num  CCS: diagnosis 11
+HI  1998 CORE              41 FEMALE                      155  156   Num  Indicator of sex
+HI  1998 CORE              42 HOSPST                      157  158   Char Hospital state postal code
+HI  1998 CORE              43 LOS                         159  163   Num  Length of stay (cleaned)
+HI  1998 CORE              44 LOS_X                       164  169   Num  Length of stay (uncleaned)
+HI  1998 CORE              45 MDC                         170  171   Num  MDC in effect on discharge date
+HI  1998 CORE              46 MDC10                       172  173   Num  MDC, version 10
+HI  1998 CORE              47 MDC18                       174  175   Num  MDC, version 18
+HI  1998 CORE              48 MRN_S                       176  193   Char Medical record number (synthetic)
+HI  1998 CORE              49 NDX                         194  195   Num  Number of diagnoses on this record
+HI  1998 CORE              50 NEOMAT                      196  197   Num  Neonatal and/or maternal DX and/or PR
+HI  1998 CORE              51 NPR                         198  199   Num  Number of procedures on this record
+HI  1998 CORE              52 PAY1                        200  201   Num  Primary expected payer (uniform)
+HI  1998 CORE              53 PAY1_X                      202  203   Char Primary expected payer (as received from source)
+HI  1998 CORE              54 PR1                         204  207   Char Principal procedure
+HI  1998 CORE              55 PR2                         208  211   Char Procedure 2
+HI  1998 CORE              56 PR3                         212  215   Char Procedure 3
+HI  1998 CORE              57 PR4                         216  219   Char Procedure 4
+HI  1998 CORE              58 PR5                         220  223   Char Procedure 5
+HI  1998 CORE              59 PR6                         224  227   Char Procedure 6
+HI  1998 CORE              60 PR7                         228  231   Char Procedure 7
+HI  1998 CORE              61 PR8                         232  235   Char Procedure 8
+HI  1998 CORE              62 PR9                         236  239   Char Procedure 9
+HI  1998 CORE              63 PR10                        240  243   Char Procedure 10
+HI  1998 CORE              64 PRCCS1                      244  246   Num  CCS: principal procedure
+HI  1998 CORE              65 PRCCS2                      247  249   Num  CCS: procedure 2
+HI  1998 CORE              66 PRCCS3                      250  252   Num  CCS: procedure 3
+HI  1998 CORE              67 PRCCS4                      253  255   Num  CCS: procedure 4
+HI  1998 CORE              68 PRCCS5                      256  258   Num  CCS: procedure 5
+HI  1998 CORE              69 PRCCS6                      259  261   Num  CCS: procedure 6
+HI  1998 CORE              70 PRCCS7                      262  264   Num  CCS: procedure 7
+HI  1998 CORE              71 PRCCS8                      265  267   Num  CCS: procedure 8
+HI  1998 CORE              72 PRCCS9                      268  270   Num  CCS: procedure 9
+HI  1998 CORE              73 PRCCS10                     271  273   Num  CCS: procedure 10
+HI  1998 CORE              74 PRDAY1                      274  278   Num  Number of days from admission to PR1
+HI  1998 CORE              75 PRDAY2                      279  283   Num  Number of days from admission to PR2
+HI  1998 CORE              76 PRDAY3                      284  288   Num  Number of days from admission to PR3
+HI  1998 CORE              77 PRDAY4                      289  293   Num  Number of days from admission to PR4
+HI  1998 CORE              78 PRDAY5                      294  298   Num  Number of days from admission to PR5
+HI  1998 CORE              79 PRDAY6                      299  303   Num  Number of days from admission to PR6
+HI  1998 CORE              80 PRDAY7                      304  308   Num  Number of days from admission to PR7
+HI  1998 CORE              81 PRDAY8                      309  313   Num  Number of days from admission to PR8
+HI  1998 CORE              82 PRDAY9                      314  318   Num  Number of days from admission to PR9
+HI  1998 CORE              83 PRDAY10                     319  323   Num  Number of days from admission to PR10
+HI  1998 CORE              84 RACE                        324  325   Num  Race (uniform)
+HI  1998 CORE              85 RACE_X                      326  327   Char Race (as received from source)
+HI  1998 CORE              86 TOTCHG                      328  337   Num  Total charges (cleaned)
+HI  1998 CORE              87 TOTCHG_X                    338  352 2 Num  Total charges (as received from source)
+HI  1998 CORE              88 YEAR                        353  356   Num  Calendar year
+HI  1998 CORE              89 ZIP_S                       357  361   Char Patient zip code (synthetic)
+HI  1998 CORE              90 HOSPID                      362  366   Num  HCUP hospital identifier (SSHHH)
+HI  1998 CORE              91 AGEGROUP                    367  369   Num  Age Group
+HI  1998 CORE              92 AYEAR                       370  373   Num  Admission year
+HI  1998 CORE              93 DMONTH                      374  375   Num  Discharge month
+HI  1998 CORE              94 BMONTH                      376  377   Num  Birth month
+HI  1998 CORE              95 BYEAR                       378  381   Num  Birth year
+HI  1998 CORE              96 PRMONTH1                    382  383   Num  Month of procedure 1
+HI  1998 CORE              97 PRMONTH2                    384  385   Num  Month of procedure 2
+HI  1998 CORE              98 PRMONTH3                    386  387   Num  Month of procedure 3
+HI  1998 CORE              99 PRMONTH4                    388  389   Num  Month of procedure 4
+HI  1998 CORE             100 PRMONTH5                    390  391   Num  Month of procedure 5
+HI  1998 CORE             101 PRMONTH6                    392  393   Num  Month of procedure 6
+HI  1998 CORE             102 PRMONTH7                    394  395   Num  Month of procedure 7
+HI  1998 CORE             103 PRMONTH8                    396  397   Num  Month of procedure 8
+HI  1998 CORE             104 PRMONTH9                    398  399   Num  Month of procedure 9
+HI  1998 CORE             105 PRMONTH10                   400  401   Num  Month of procedure 10
+HI  1998 CORE             106 PRYEAR1                     402  405   Num  Year of procedure 1
+HI  1998 CORE             107 PRYEAR2                     406  409   Num  Year of procedure 2
+HI  1998 CORE             108 PRYEAR3                     410  413   Num  Year of procedure 3
+HI  1998 CORE             109 PRYEAR4                     414  417   Num  Year of procedure 4
+HI  1998 CORE             110 PRYEAR5                     418  421   Num  Year of procedure 5
+HI  1998 CORE             111 PRYEAR6                     422  425   Num  Year of procedure 6
+HI  1998 CORE             112 PRYEAR7                     426  429   Num  Year of procedure 7
+HI  1998 CORE             113 PRYEAR8                     430  433   Num  Year of procedure 8
+HI  1998 CORE             114 PRYEAR9                     434  437   Num  Year of procedure 9
+HI  1998 CORE             115 PRYEAR10                    438  441   Num  Year of procedure 10

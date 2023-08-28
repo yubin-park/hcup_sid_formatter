@@ -1,0 +1,318 @@
+Data Set Name: RI_SIDC_2009_CORE               
+Number of Observations: 143415
+Total Record Length: 1138
+Total Number of Variables: 298
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 56    Variable name
+58- 61    Starting column of variable in ASCII file
+63- 66    Ending column of variable in ASCII file
+    68    Non-zero number of digits after decimal point for numeric variable
+70- 73    Variable type (Num=numeric; Char=character)
+75-174    Variable label
+
+
+RI  2009 CORE               1 AGE                           1    3   Num  Age in years at admission
+RI  2009 CORE               2 AMONTH                        4    5   Num  Admission month
+RI  2009 CORE               3 ASOURCE                       6    7   Num  Admission source (uniform)
+RI  2009 CORE               4 ASOURCEUB92                   8    8   Char Admission source (UB-92 standard coding)
+RI  2009 CORE               5 ASOURCE_X                     9    9   Char Admission source (as received from source)
+RI  2009 CORE               6 ATYPE                        10   11   Num  Admission type
+RI  2009 CORE               7 AWEEKEND                     12   13   Num  Admission day is a weekend
+RI  2009 CORE               8 BWT                          14   17   Num  Birth weight in grams
+RI  2009 CORE               9 CPT1                         18   22   Char CPT/HCPCS procedure code 1
+RI  2009 CORE              10 CPT2                         23   27   Char CPT/HCPCS procedure code 2
+RI  2009 CORE              11 CPT3                         28   32   Char CPT/HCPCS procedure code 3
+RI  2009 CORE              12 CPT4                         33   37   Char CPT/HCPCS procedure code 4
+RI  2009 CORE              13 CPT5                         38   42   Char CPT/HCPCS procedure code 5
+RI  2009 CORE              14 CPT6                         43   47   Char CPT/HCPCS procedure code 6
+RI  2009 CORE              15 CPT7                         48   52   Char CPT/HCPCS procedure code 7
+RI  2009 CORE              16 CPT8                         53   57   Char CPT/HCPCS procedure code 8
+RI  2009 CORE              17 CPT9                         58   62   Char CPT/HCPCS procedure code 9
+RI  2009 CORE              18 CPT10                        63   67   Char CPT/HCPCS procedure code 10
+RI  2009 CORE              19 CPT11                        68   72   Char CPT/HCPCS procedure code 11
+RI  2009 CORE              20 CPTCCS1                      73   75   Num  CCS: CPT 1
+RI  2009 CORE              21 CPTCCS2                      76   78   Num  CCS: CPT 2
+RI  2009 CORE              22 CPTCCS3                      79   81   Num  CCS: CPT 3
+RI  2009 CORE              23 CPTCCS4                      82   84   Num  CCS: CPT 4
+RI  2009 CORE              24 CPTCCS5                      85   87   Num  CCS: CPT 5
+RI  2009 CORE              25 CPTCCS6                      88   90   Num  CCS: CPT 6
+RI  2009 CORE              26 CPTCCS7                      91   93   Num  CCS: CPT 7
+RI  2009 CORE              27 CPTCCS8                      94   96   Num  CCS: CPT 8
+RI  2009 CORE              28 CPTCCS9                      97   99   Num  CCS: CPT 9
+RI  2009 CORE              29 CPTCCS10                    100  102   Num  CCS: CPT 10
+RI  2009 CORE              30 CPTCCS11                    103  105   Num  CCS: CPT 11
+RI  2009 CORE              31 CPTDAY1                     106  108   Num  Number of days from admission to CPT1
+RI  2009 CORE              32 CPTDAY2                     109  111   Num  Number of days from admission to CPT2
+RI  2009 CORE              33 CPTDAY3                     112  114   Num  Number of days from admission to CPT3
+RI  2009 CORE              34 CPTDAY4                     115  117   Num  Number of days from admission to CPT4
+RI  2009 CORE              35 CPTDAY5                     118  120   Num  Number of days from admission to CPT5
+RI  2009 CORE              36 CPTDAY6                     121  123   Num  Number of days from admission to CPT6
+RI  2009 CORE              37 CPTDAY7                     124  126   Num  Number of days from admission to CPT7
+RI  2009 CORE              38 CPTDAY8                     127  129   Num  Number of days from admission to CPT8
+RI  2009 CORE              39 CPTDAY9                     130  132   Num  Number of days from admission to CPT9
+RI  2009 CORE              40 CPTDAY10                    133  135   Num  Number of days from admission to CPT10
+RI  2009 CORE              41 CPTDAY11                    136  138   Num  Number of days from admission to CPT11
+RI  2009 CORE              42 DIED                        139  140   Num  Died during hospitalization
+RI  2009 CORE              43 DISPUB04                    141  142   Num  Disposition of patient (UB-04 standard coding)
+RI  2009 CORE              44 DISPUNIFORM                 143  144   Num  Disposition of patient (uniform)
+RI  2009 CORE              45 DISP_X                      145  146   Char Disposition of patient (as received from source)
+RI  2009 CORE              46 DQTR                        147  148   Num  Discharge quarter
+RI  2009 CORE              47 DRG                         149  151   Num  DRG in effect on discharge date
+RI  2009 CORE              48 DRG24                       152  154   Num  DRG, version 24
+RI  2009 CORE              49 DRGVER                      155  156   Num  DRG grouper version used on discharge date
+RI  2009 CORE              50 DRG_NoPOA                   157  159   Num  DRG in use on discharge date, calculated without POA
+RI  2009 CORE              51 DSHOSPID                    160  176   Char Data source hospital identifier
+RI  2009 CORE              52 DX1                         177  181   Char Diagnosis 1
+RI  2009 CORE              53 DX2                         182  186   Char Diagnosis 2
+RI  2009 CORE              54 DX3                         187  191   Char Diagnosis 3
+RI  2009 CORE              55 DX4                         192  196   Char Diagnosis 4
+RI  2009 CORE              56 DX5                         197  201   Char Diagnosis 5
+RI  2009 CORE              57 DX6                         202  206   Char Diagnosis 6
+RI  2009 CORE              58 DX7                         207  211   Char Diagnosis 7
+RI  2009 CORE              59 DX8                         212  216   Char Diagnosis 8
+RI  2009 CORE              60 DX9                         217  221   Char Diagnosis 9
+RI  2009 CORE              61 DX10                        222  226   Char Diagnosis 10
+RI  2009 CORE              62 DX11                        227  231   Char Diagnosis 11
+RI  2009 CORE              63 DX12                        232  236   Char Diagnosis 12
+RI  2009 CORE              64 DX13                        237  241   Char Diagnosis 13
+RI  2009 CORE              65 DX14                        242  246   Char Diagnosis 14
+RI  2009 CORE              66 DX15                        247  251   Char Diagnosis 15
+RI  2009 CORE              67 DX16                        252  256   Char Diagnosis 16
+RI  2009 CORE              68 DX17                        257  261   Char Diagnosis 17
+RI  2009 CORE              69 DX18                        262  266   Char Diagnosis 18
+RI  2009 CORE              70 DX19                        267  271   Char Diagnosis 19
+RI  2009 CORE              71 DX20                        272  276   Char Diagnosis 20
+RI  2009 CORE              72 DX21                        277  281   Char Diagnosis 21
+RI  2009 CORE              73 DX22                        282  286   Char Diagnosis 22
+RI  2009 CORE              74 DX23                        287  291   Char Diagnosis 23
+RI  2009 CORE              75 DX24                        292  296   Char Diagnosis 24
+RI  2009 CORE              76 DX25                        297  301   Char Diagnosis 25
+RI  2009 CORE              77 DXCCS1                      302  305   Num  CCS: diagnosis 1
+RI  2009 CORE              78 DXCCS2                      306  309   Num  CCS: diagnosis 2
+RI  2009 CORE              79 DXCCS3                      310  313   Num  CCS: diagnosis 3
+RI  2009 CORE              80 DXCCS4                      314  317   Num  CCS: diagnosis 4
+RI  2009 CORE              81 DXCCS5                      318  321   Num  CCS: diagnosis 5
+RI  2009 CORE              82 DXCCS6                      322  325   Num  CCS: diagnosis 6
+RI  2009 CORE              83 DXCCS7                      326  329   Num  CCS: diagnosis 7
+RI  2009 CORE              84 DXCCS8                      330  333   Num  CCS: diagnosis 8
+RI  2009 CORE              85 DXCCS9                      334  337   Num  CCS: diagnosis 9
+RI  2009 CORE              86 DXCCS10                     338  341   Num  CCS: diagnosis 10
+RI  2009 CORE              87 DXCCS11                     342  345   Num  CCS: diagnosis 11
+RI  2009 CORE              88 DXCCS12                     346  349   Num  CCS: diagnosis 12
+RI  2009 CORE              89 DXCCS13                     350  353   Num  CCS: diagnosis 13
+RI  2009 CORE              90 DXCCS14                     354  357   Num  CCS: diagnosis 14
+RI  2009 CORE              91 DXCCS15                     358  361   Num  CCS: diagnosis 15
+RI  2009 CORE              92 DXCCS16                     362  365   Num  CCS: diagnosis 16
+RI  2009 CORE              93 DXCCS17                     366  369   Num  CCS: diagnosis 17
+RI  2009 CORE              94 DXCCS18                     370  373   Num  CCS: diagnosis 18
+RI  2009 CORE              95 DXCCS19                     374  377   Num  CCS: diagnosis 19
+RI  2009 CORE              96 DXCCS20                     378  381   Num  CCS: diagnosis 20
+RI  2009 CORE              97 DXCCS21                     382  385   Num  CCS: diagnosis 21
+RI  2009 CORE              98 DXCCS22                     386  389   Num  CCS: diagnosis 22
+RI  2009 CORE              99 DXCCS23                     390  393   Num  CCS: diagnosis 23
+RI  2009 CORE             100 DXCCS24                     394  397   Num  CCS: diagnosis 24
+RI  2009 CORE             101 DXCCS25                     398  401   Num  CCS: diagnosis 25
+RI  2009 CORE             102 DaysCCU                     402  404   Num  Days in coronary care unit (as received from source)
+RI  2009 CORE             103 DaysICU                     405  407   Num  Days in medical/surgical intensive care unit (as received from source)
+RI  2009 CORE             104 DaysNICU                    408  410   Num  Days in neonetal care unit (as received from source)
+RI  2009 CORE             105 ECODE1                      411  415   Char E code 1
+RI  2009 CORE             106 ECODE2                      416  420   Char E code 2
+RI  2009 CORE             107 ECODE3                      421  425   Char E code 3
+RI  2009 CORE             108 ECODE4                      426  430   Char E code 4
+RI  2009 CORE             109 ECODE5                      431  435   Char E code 5
+RI  2009 CORE             110 ECODE6                      436  440   Char E code 6
+RI  2009 CORE             111 ECODE7                      441  445   Char E code 7
+RI  2009 CORE             112 ECODE8                      446  450   Char E code 8
+RI  2009 CORE             113 E_CCS1                      451  454   Num  CCS: E Code 1
+RI  2009 CORE             114 E_CCS2                      455  458   Num  CCS: E Code 2
+RI  2009 CORE             115 E_CCS3                      459  462   Num  CCS: E Code 3
+RI  2009 CORE             116 E_CCS4                      463  466   Num  CCS: E Code 4
+RI  2009 CORE             117 E_CCS5                      467  470   Num  CCS: E Code 5
+RI  2009 CORE             118 E_CCS6                      471  474   Num  CCS: E Code 6
+RI  2009 CORE             119 E_CCS7                      475  478   Num  CCS: E Code 7
+RI  2009 CORE             120 E_CCS8                      479  482   Num  CCS: E Code 8
+RI  2009 CORE             121 FEMALE                      483  484   Num  Indicator of sex
+RI  2009 CORE             122 HCUP_ED                     485  486   Num  HCUP Emergency Department service indicator
+RI  2009 CORE             123 HCUP_OS                     487  488   Num  HCUP Observation Stay service indicator
+RI  2009 CORE             124 HISPANIC_X                  489  496   Char Hispanic ethnicity (as received from source)
+RI  2009 CORE             125 HOSPBRTH                    497  499   Num  Indicator of birth in this hospital
+RI  2009 CORE             126 HOSPST                      500  501   Char Hospital state postal code
+RI  2009 CORE             127 KEY                         502  515   Num  HCUP record identifier
+RI  2009 CORE             128 LOS                         516  520   Num  Length of stay (cleaned)
+RI  2009 CORE             129 LOS_X                       521  526   Num  Length of stay (as received from source)
+RI  2009 CORE             130 MDC                         527  528   Num  MDC in effect on discharge date
+RI  2009 CORE             131 MDC24                       529  530   Num  MDC, version 24
+RI  2009 CORE             132 MDC_NoPOA                   531  532   Num  MDC in use on discharge date, calculated without POA
+RI  2009 CORE             133 MDNUM1_R                    533  541   Num  Physician 1 number (re-identified)
+RI  2009 CORE             134 MDNUM2_R                    542  550   Num  Physician 2 number (re-identified)
+RI  2009 CORE             135 MDNUM3_R                    551  559   Num  Physician 3 number (re-identified)
+RI  2009 CORE             136 MEDINCSTQ                   560  561   Num  Median household income state quartile for patient ZIP Code
+RI  2009 CORE             137 NCHRONIC                    562  564   Num  Number of chronic conditions
+RI  2009 CORE             138 NCPT                        565  567   Num  Number of CPT/HCPCS procedures on this record
+RI  2009 CORE             139 NDX                         568  569   Num  Number of diagnoses on this record
+RI  2009 CORE             140 NECODE                      570  571   Num  Number of E codes on this record
+RI  2009 CORE             141 NEOMAT                      572  573   Num  Neonatal and/or maternal DX and/or PR
+RI  2009 CORE             142 NPR                         574  575   Num  Number of procedures on this record
+RI  2009 CORE             143 OBSERVATION                 576  579   Num  Time for observation services (as received from source)
+RI  2009 CORE             144 ORPROC                      580  581   Num  Major operating room procedure indicator
+RI  2009 CORE             145 PAY1                        582  583   Num  Primary expected payer (uniform)
+RI  2009 CORE             146 PAY1_X                      584  590   Char Primary expected payer (as received from source)
+RI  2009 CORE             147 PL_CBSA                     591  593   Num  Patient location: Core Based Statistical Area (CBSA)
+RI  2009 CORE             148 PL_MSA1993                  594  596   Num  Patient location: Metropolitan Statistical Area (MSA), 1993
+RI  2009 CORE             149 PL_NCHS2006                 597  598   Num  Patient Location: NCHS Urban-Rural Code (V2006)
+RI  2009 CORE             150 PL_RUCA10_2005              599  600   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, ten levels
+RI  2009 CORE             151 PL_RUCA2005                 601  604 1 Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes
+RI  2009 CORE             152 PL_RUCA4_2005               605  606   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, four levels
+RI  2009 CORE             153 PL_RUCC2003                 607  608   Num  Patient location: Rural-Urban Continuum Codes(RUCC), 2003
+RI  2009 CORE             154 PL_UIC2003                  609  610   Num  Patient location: Urban Influence Codes, 2003
+RI  2009 CORE             155 PL_UR_CAT4                  611  612   Num  Patient Location: Urban-Rural 4 Categories
+RI  2009 CORE             156 PR1                         613  616   Char Procedure 1
+RI  2009 CORE             157 PR2                         617  620   Char Procedure 2
+RI  2009 CORE             158 PR3                         621  624   Char Procedure 3
+RI  2009 CORE             159 PR4                         625  628   Char Procedure 4
+RI  2009 CORE             160 PR5                         629  632   Char Procedure 5
+RI  2009 CORE             161 PR6                         633  636   Char Procedure 6
+RI  2009 CORE             162 PR7                         637  640   Char Procedure 7
+RI  2009 CORE             163 PR8                         641  644   Char Procedure 8
+RI  2009 CORE             164 PR9                         645  648   Char Procedure 9
+RI  2009 CORE             165 PR10                        649  652   Char Procedure 10
+RI  2009 CORE             166 PR11                        653  656   Char Procedure 11
+RI  2009 CORE             167 PR12                        657  660   Char Procedure 12
+RI  2009 CORE             168 PR13                        661  664   Char Procedure 13
+RI  2009 CORE             169 PR14                        665  668   Char Procedure 14
+RI  2009 CORE             170 PR15                        669  672   Char Procedure 15
+RI  2009 CORE             171 PR16                        673  676   Char Procedure 16
+RI  2009 CORE             172 PR17                        677  680   Char Procedure 17
+RI  2009 CORE             173 PR18                        681  684   Char Procedure 18
+RI  2009 CORE             174 PR19                        685  688   Char Procedure 19
+RI  2009 CORE             175 PR20                        689  692   Char Procedure 20
+RI  2009 CORE             176 PR21                        693  696   Char Procedure 21
+RI  2009 CORE             177 PR22                        697  700   Char Procedure 22
+RI  2009 CORE             178 PR23                        701  704   Char Procedure 23
+RI  2009 CORE             179 PR24                        705  708   Char Procedure 24
+RI  2009 CORE             180 PR25                        709  712   Char Procedure 25
+RI  2009 CORE             181 PRCCS1                      713  715   Num  CCS: procedure 1
+RI  2009 CORE             182 PRCCS2                      716  718   Num  CCS: procedure 2
+RI  2009 CORE             183 PRCCS3                      719  721   Num  CCS: procedure 3
+RI  2009 CORE             184 PRCCS4                      722  724   Num  CCS: procedure 4
+RI  2009 CORE             185 PRCCS5                      725  727   Num  CCS: procedure 5
+RI  2009 CORE             186 PRCCS6                      728  730   Num  CCS: procedure 6
+RI  2009 CORE             187 PRCCS7                      731  733   Num  CCS: procedure 7
+RI  2009 CORE             188 PRCCS8                      734  736   Num  CCS: procedure 8
+RI  2009 CORE             189 PRCCS9                      737  739   Num  CCS: procedure 9
+RI  2009 CORE             190 PRCCS10                     740  742   Num  CCS: procedure 10
+RI  2009 CORE             191 PRCCS11                     743  745   Num  CCS: procedure 11
+RI  2009 CORE             192 PRCCS12                     746  748   Num  CCS: procedure 12
+RI  2009 CORE             193 PRCCS13                     749  751   Num  CCS: procedure 13
+RI  2009 CORE             194 PRCCS14                     752  754   Num  CCS: procedure 14
+RI  2009 CORE             195 PRCCS15                     755  757   Num  CCS: procedure 15
+RI  2009 CORE             196 PRCCS16                     758  760   Num  CCS: procedure 16
+RI  2009 CORE             197 PRCCS17                     761  763   Num  CCS: procedure 17
+RI  2009 CORE             198 PRCCS18                     764  766   Num  CCS: procedure 18
+RI  2009 CORE             199 PRCCS19                     767  769   Num  CCS: procedure 19
+RI  2009 CORE             200 PRCCS20                     770  772   Num  CCS: procedure 20
+RI  2009 CORE             201 PRCCS21                     773  775   Num  CCS: procedure 21
+RI  2009 CORE             202 PRCCS22                     776  778   Num  CCS: procedure 22
+RI  2009 CORE             203 PRCCS23                     779  781   Num  CCS: procedure 23
+RI  2009 CORE             204 PRCCS24                     782  784   Num  CCS: procedure 24
+RI  2009 CORE             205 PRCCS25                     785  787   Num  CCS: procedure 25
+RI  2009 CORE             206 PRDAY1                      788  792   Num  Number of days from admission to PR1
+RI  2009 CORE             207 PRDAY2                      793  797   Num  Number of days from admission to PR2
+RI  2009 CORE             208 PRDAY3                      798  802   Num  Number of days from admission to PR3
+RI  2009 CORE             209 PRDAY4                      803  807   Num  Number of days from admission to PR4
+RI  2009 CORE             210 PRDAY5                      808  812   Num  Number of days from admission to PR5
+RI  2009 CORE             211 PRDAY6                      813  817   Num  Number of days from admission to PR6
+RI  2009 CORE             212 PRDAY7                      818  822   Num  Number of days from admission to PR7
+RI  2009 CORE             213 PRDAY8                      823  827   Num  Number of days from admission to PR8
+RI  2009 CORE             214 PRDAY9                      828  832   Num  Number of days from admission to PR9
+RI  2009 CORE             215 PRDAY10                     833  837   Num  Number of days from admission to PR10
+RI  2009 CORE             216 PRDAY11                     838  842   Num  Number of days from admission to PR11
+RI  2009 CORE             217 PRDAY12                     843  847   Num  Number of days from admission to PR12
+RI  2009 CORE             218 PRDAY13                     848  852   Num  Number of days from admission to PR13
+RI  2009 CORE             219 PRDAY14                     853  857   Num  Number of days from admission to PR14
+RI  2009 CORE             220 PRDAY15                     858  862   Num  Number of days from admission to PR15
+RI  2009 CORE             221 PRDAY16                     863  867   Num  Number of days from admission to PR16
+RI  2009 CORE             222 PRDAY17                     868  872   Num  Number of days from admission to PR17
+RI  2009 CORE             223 PRDAY18                     873  877   Num  Number of days from admission to PR18
+RI  2009 CORE             224 PRDAY19                     878  882   Num  Number of days from admission to PR19
+RI  2009 CORE             225 PRDAY20                     883  887   Num  Number of days from admission to PR20
+RI  2009 CORE             226 PRDAY21                     888  892   Num  Number of days from admission to PR21
+RI  2009 CORE             227 PRDAY22                     893  897   Num  Number of days from admission to PR22
+RI  2009 CORE             228 PRDAY23                     898  902   Num  Number of days from admission to PR23
+RI  2009 CORE             229 PRDAY24                     903  907   Num  Number of days from admission to PR24
+RI  2009 CORE             230 PRDAY25                     908  912   Num  Number of days from admission to PR25
+RI  2009 CORE             231 PROCTYPE                    913  915   Num  Procedure type indicator
+RI  2009 CORE             232 PSTATE                      916  917   Char Patient State postal code
+RI  2009 CORE             233 PSTCO                       918  922   Num  Patient state/county FIPS code
+RI  2009 CORE             234 PSTCO2                      923  927   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+RI  2009 CORE             235 PointOfOriginUB04           928  928   Char Point of origin for admission or visit, UB-04 standard coding
+RI  2009 CORE             236 PointOfOrigin_X             929  929   Char Point of origin for admission or visit, as received from source
+RI  2009 CORE             237 RACE                        930  931   Num  Race (uniform)
+RI  2009 CORE             238 RACE_X                      932  939   Char Race (as received from source)
+RI  2009 CORE             239 TOTCHG                      940  949   Num  Total charges (cleaned)
+RI  2009 CORE             240 TOTCHG_X                    950  964 2 Num  Total charges (as received from source)
+RI  2009 CORE             241 TRAN_IN                     965  966   Num  Transfer in indicator
+RI  2009 CORE             242 TRAN_OUT                    967  968   Num  Transfer out indicator
+RI  2009 CORE             243 YEAR                        969  972   Num  Calendar year
+RI  2009 CORE             244 ZIPINC_QRTL                 973  975   Num  Median household income national quartile for patient ZIP Code
+RI  2009 CORE             245 TOWN                        976  977   Char Patient town of residence (as received from source)
+RI  2009 CORE             246 ZIP                         978  982   Char Patient ZIP Code
+RI  2009 CORE             247 AYEAR                       983  986   Num  Admission year
+RI  2009 CORE             248 DMONTH                      987  988   Num  Discharge month
+RI  2009 CORE             249 PRMONTH1                    989  990   Num  Month of procedure 1
+RI  2009 CORE             250 PRMONTH2                    991  992   Num  Month of procedure 2
+RI  2009 CORE             251 PRMONTH3                    993  994   Num  Month of procedure 3
+RI  2009 CORE             252 PRMONTH4                    995  996   Num  Month of procedure 4
+RI  2009 CORE             253 PRMONTH5                    997  998   Num  Month of procedure 5
+RI  2009 CORE             254 PRMONTH6                    999 1000   Num  Month of procedure 6
+RI  2009 CORE             255 PRMONTH7                   1001 1002   Num  Month of procedure 7
+RI  2009 CORE             256 PRMONTH8                   1003 1004   Num  Month of procedure 8
+RI  2009 CORE             257 PRMONTH9                   1005 1006   Num  Month of procedure 9
+RI  2009 CORE             258 PRMONTH10                  1007 1008   Num  Month of procedure 10
+RI  2009 CORE             259 PRMONTH11                  1009 1010   Num  Month of procedure 11
+RI  2009 CORE             260 PRMONTH12                  1011 1012   Num  Month of procedure 12
+RI  2009 CORE             261 PRMONTH13                  1013 1014   Num  Month of procedure 13
+RI  2009 CORE             262 PRMONTH14                  1015 1016   Num  Month of procedure 14
+RI  2009 CORE             263 PRMONTH15                  1017 1018   Num  Month of procedure 15
+RI  2009 CORE             264 PRMONTH16                  1019 1020   Num  Month of procedure 16
+RI  2009 CORE             265 PRMONTH17                  1021 1022   Num  Month of procedure 17
+RI  2009 CORE             266 PRMONTH18                  1023 1024   Num  Month of procedure 18
+RI  2009 CORE             267 PRMONTH19                  1025 1026   Num  Month of procedure 19
+RI  2009 CORE             268 PRMONTH20                  1027 1028   Num  Month of procedure 20
+RI  2009 CORE             269 PRMONTH21                  1029 1030   Num  Month of procedure 21
+RI  2009 CORE             270 PRMONTH22                  1031 1032   Num  Month of procedure 22
+RI  2009 CORE             271 PRMONTH23                  1033 1034   Num  Month of procedure 23
+RI  2009 CORE             272 PRMONTH24                  1035 1036   Num  Month of procedure 24
+RI  2009 CORE             273 PRMONTH25                  1037 1038   Num  Month of procedure 25
+RI  2009 CORE             274 PRYEAR1                    1039 1042   Num  Year of procedure 1
+RI  2009 CORE             275 PRYEAR2                    1043 1046   Num  Year of procedure 2
+RI  2009 CORE             276 PRYEAR3                    1047 1050   Num  Year of procedure 3
+RI  2009 CORE             277 PRYEAR4                    1051 1054   Num  Year of procedure 4
+RI  2009 CORE             278 PRYEAR5                    1055 1058   Num  Year of procedure 5
+RI  2009 CORE             279 PRYEAR6                    1059 1062   Num  Year of procedure 6
+RI  2009 CORE             280 PRYEAR7                    1063 1066   Num  Year of procedure 7
+RI  2009 CORE             281 PRYEAR8                    1067 1070   Num  Year of procedure 8
+RI  2009 CORE             282 PRYEAR9                    1071 1074   Num  Year of procedure 9
+RI  2009 CORE             283 PRYEAR10                   1075 1078   Num  Year of procedure 10
+RI  2009 CORE             284 PRYEAR11                   1079 1082   Num  Year of procedure 11
+RI  2009 CORE             285 PRYEAR12                   1083 1086   Num  Year of procedure 12
+RI  2009 CORE             286 PRYEAR13                   1087 1090   Num  Year of procedure 13
+RI  2009 CORE             287 PRYEAR14                   1091 1094   Num  Year of procedure 14
+RI  2009 CORE             288 PRYEAR15                   1095 1098   Num  Year of procedure 15
+RI  2009 CORE             289 PRYEAR16                   1099 1102   Num  Year of procedure 16
+RI  2009 CORE             290 PRYEAR17                   1103 1106   Num  Year of procedure 17
+RI  2009 CORE             291 PRYEAR18                   1107 1110   Num  Year of procedure 18
+RI  2009 CORE             292 PRYEAR19                   1111 1114   Num  Year of procedure 19
+RI  2009 CORE             293 PRYEAR20                   1115 1118   Num  Year of procedure 20
+RI  2009 CORE             294 PRYEAR21                   1119 1122   Num  Year of procedure 21
+RI  2009 CORE             295 PRYEAR22                   1123 1126   Num  Year of procedure 22
+RI  2009 CORE             296 PRYEAR23                   1127 1130   Num  Year of procedure 23
+RI  2009 CORE             297 PRYEAR24                   1131 1134   Num  Year of procedure 24
+RI  2009 CORE             298 PRYEAR25                   1135 1138   Num  Year of procedure 25

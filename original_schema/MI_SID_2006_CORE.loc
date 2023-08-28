@@ -1,0 +1,238 @@
+Data Set Name: MI_SIDC_2006_CORE               
+Number of Observations: 1315157
+Total Record Length: 831
+Total Number of Variables: 218
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 56    Variable name
+58- 61    Starting column of variable in ASCII file
+63- 66    Ending column of variable in ASCII file
+    68    Non-zero number of digits after decimal point for numeric variable
+70- 73    Variable type (Num=numeric; Char=character)
+75-174    Variable label
+
+
+MI  2006 CORE               1 KEY                           1   14   Num  HCUP record identifier
+MI  2006 CORE               2 ADRG                         15   17   Num  All Patient Refined DRG
+MI  2006 CORE               3 ADRGRISKMORTALITY            18   19   Num  All Patient Refined DRG mortality risk
+MI  2006 CORE               4 ADRGSEV                      20   21   Num  All Patient Refined DRG severity level
+MI  2006 CORE               5 AGE                          22   24   Num  Age in years at admission
+MI  2006 CORE               6 AGEDAY                       25   27   Num  Age in days (when age < 1 year)
+MI  2006 CORE               7 AGEMONTH                     28   30   Num  Age in months (when age < 11 years)
+MI  2006 CORE               8 AMONTH                       31   32   Num  Admission month
+MI  2006 CORE               9 ASOURCE                      33   34   Num  Admission source (uniform)
+MI  2006 CORE              10 ASOURCE_X                    35   35   Char Admission source (as received from source)
+MI  2006 CORE              11 ASOURCEUB92                  36   36   Char Admission source (UB-92 standard coding)
+MI  2006 CORE              12 ATYPE                        37   38   Num  Admission type
+MI  2006 CORE              13 AWEEKEND                     39   40   Num  Admission day is a weekend
+MI  2006 CORE              14 DaysCCU                      41   43   Num  Days in coronary care unit (as received from source)
+MI  2006 CORE              15 DaysICU                      44   46   Num  Days in medical/surgical intensive care unit (as received from source)
+MI  2006 CORE              16 DIED                         47   48   Num  Died during hospitalization
+MI  2006 CORE              17 DISP_X                       49   50   Char Disposition of patient (as received from source)
+MI  2006 CORE              18 DISPUB92                     51   52   Num  Disposition of patient (UB-92 standard coding)
+MI  2006 CORE              19 DISPUNIFORM                  53   54   Num  Disposition of patient (uniform)
+MI  2006 CORE              20 DQTR                         55   56   Num  Discharge quarter
+MI  2006 CORE              21 DRG                          57   59   Num  DRG in effect on discharge date
+MI  2006 CORE              22 DRG18                        60   62   Num  DRG, version 18
+MI  2006 CORE              23 DRG24                        63   65   Num  DRG, version 24
+MI  2006 CORE              24 DRGVER                       66   67   Num  DRG grouper version used on discharge date
+MI  2006 CORE              25 DX1                          68   72   Char Principal diagnosis
+MI  2006 CORE              26 DX2                          73   77   Char Diagnosis 2
+MI  2006 CORE              27 DX3                          78   82   Char Diagnosis 3
+MI  2006 CORE              28 DX4                          83   87   Char Diagnosis 4
+MI  2006 CORE              29 DX5                          88   92   Char Diagnosis 5
+MI  2006 CORE              30 DX6                          93   97   Char Diagnosis 6
+MI  2006 CORE              31 DX7                          98  102   Char Diagnosis 7
+MI  2006 CORE              32 DX8                         103  107   Char Diagnosis 8
+MI  2006 CORE              33 DX9                         108  112   Char Diagnosis 9
+MI  2006 CORE              34 DX10                        113  117   Char Diagnosis 10
+MI  2006 CORE              35 DX11                        118  122   Char Diagnosis 11
+MI  2006 CORE              36 DX12                        123  127   Char Diagnosis 12
+MI  2006 CORE              37 DX13                        128  132   Char Diagnosis 13
+MI  2006 CORE              38 DX14                        133  137   Char Diagnosis 14
+MI  2006 CORE              39 DX15                        138  142   Char Diagnosis 15
+MI  2006 CORE              40 DX16                        143  147   Char Diagnosis 16
+MI  2006 CORE              41 DX17                        148  152   Char Diagnosis 17
+MI  2006 CORE              42 DX18                        153  157   Char Diagnosis 18
+MI  2006 CORE              43 DX19                        158  162   Char Diagnosis 19
+MI  2006 CORE              44 DX20                        163  167   Char Diagnosis 20
+MI  2006 CORE              45 DX21                        168  172   Char Diagnosis 21
+MI  2006 CORE              46 DX22                        173  177   Char Diagnosis 22
+MI  2006 CORE              47 DX23                        178  182   Char Diagnosis 23
+MI  2006 CORE              48 DX24                        183  187   Char Diagnosis 24
+MI  2006 CORE              49 DX25                        188  192   Char Diagnosis 25
+MI  2006 CORE              50 DX26                        193  197   Char Diagnosis 26
+MI  2006 CORE              51 DX27                        198  202   Char Diagnosis 27
+MI  2006 CORE              52 DX28                        203  207   Char Diagnosis 28
+MI  2006 CORE              53 DX29                        208  212   Char Diagnosis 29
+MI  2006 CORE              54 DX30                        213  217   Char Diagnosis 30
+MI  2006 CORE              55 DXCCS1                      218  221   Num  CCS: principal diagnosis
+MI  2006 CORE              56 DXCCS2                      222  225   Num  CCS: diagnosis 2
+MI  2006 CORE              57 DXCCS3                      226  229   Num  CCS: diagnosis 3
+MI  2006 CORE              58 DXCCS4                      230  233   Num  CCS: diagnosis 4
+MI  2006 CORE              59 DXCCS5                      234  237   Num  CCS: diagnosis 5
+MI  2006 CORE              60 DXCCS6                      238  241   Num  CCS: diagnosis 6
+MI  2006 CORE              61 DXCCS7                      242  245   Num  CCS: diagnosis 7
+MI  2006 CORE              62 DXCCS8                      246  249   Num  CCS: diagnosis 8
+MI  2006 CORE              63 DXCCS9                      250  253   Num  CCS: diagnosis 9
+MI  2006 CORE              64 DXCCS10                     254  257   Num  CCS: diagnosis 10
+MI  2006 CORE              65 DXCCS11                     258  261   Num  CCS: diagnosis 11
+MI  2006 CORE              66 DXCCS12                     262  265   Num  CCS: diagnosis 12
+MI  2006 CORE              67 DXCCS13                     266  269   Num  CCS: diagnosis 13
+MI  2006 CORE              68 DXCCS14                     270  273   Num  CCS: diagnosis 14
+MI  2006 CORE              69 DXCCS15                     274  277   Num  CCS: diagnosis 15
+MI  2006 CORE              70 DXCCS16                     278  281   Num  CCS: diagnosis 16
+MI  2006 CORE              71 DXCCS17                     282  285   Num  CCS: diagnosis 17
+MI  2006 CORE              72 DXCCS18                     286  289   Num  CCS: diagnosis 18
+MI  2006 CORE              73 DXCCS19                     290  293   Num  CCS: diagnosis 19
+MI  2006 CORE              74 DXCCS20                     294  297   Num  CCS: diagnosis 20
+MI  2006 CORE              75 DXCCS21                     298  301   Num  CCS: diagnosis 21
+MI  2006 CORE              76 DXCCS22                     302  305   Num  CCS: diagnosis 22
+MI  2006 CORE              77 DXCCS23                     306  309   Num  CCS: diagnosis 23
+MI  2006 CORE              78 DXCCS24                     310  313   Num  CCS: diagnosis 24
+MI  2006 CORE              79 DXCCS25                     314  317   Num  CCS: diagnosis 25
+MI  2006 CORE              80 DXCCS26                     318  321   Num  CCS: diagnosis 26
+MI  2006 CORE              81 DXCCS27                     322  325   Num  CCS: diagnosis 27
+MI  2006 CORE              82 DXCCS28                     326  329   Num  CCS: diagnosis 28
+MI  2006 CORE              83 DXCCS29                     330  333   Num  CCS: diagnosis 29
+MI  2006 CORE              84 DXCCS30                     334  337   Num  CCS: diagnosis 30
+MI  2006 CORE              85 ECODE1                      338  342   Char E code 1
+MI  2006 CORE              86 ECODE2                      343  347   Char E code 2
+MI  2006 CORE              87 ECODE3                      348  352   Char E code 3
+MI  2006 CORE              88 ECODE4                      353  357   Char E code 4
+MI  2006 CORE              89 ECODE5                      358  362   Char E code 5
+MI  2006 CORE              90 ECODE6                      363  367   Char E code 6
+MI  2006 CORE              91 ECODE7                      368  372   Char E code 7
+MI  2006 CORE              92 ECODE8                      373  377   Char E code 8
+MI  2006 CORE              93 ECODE9                      378  382   Char E code 9
+MI  2006 CORE              94 ECODE10                     383  387   Char E code 10
+MI  2006 CORE              95 ECODE11                     388  392   Char E code 11
+MI  2006 CORE              96 E_CCS1                      393  396   Num  CCS: E Code 1
+MI  2006 CORE              97 E_CCS2                      397  400   Num  CCS: E Code 2
+MI  2006 CORE              98 E_CCS3                      401  404   Num  CCS: E Code 3
+MI  2006 CORE              99 E_CCS4                      405  408   Num  CCS: E Code 4
+MI  2006 CORE             100 E_CCS5                      409  412   Num  CCS: E Code 5
+MI  2006 CORE             101 E_CCS6                      413  416   Num  CCS: E Code 6
+MI  2006 CORE             102 E_CCS7                      417  420   Num  CCS: E Code 7
+MI  2006 CORE             103 E_CCS8                      421  424   Num  CCS: E Code 8
+MI  2006 CORE             104 E_CCS9                      425  428   Num  CCS: E Code 9
+MI  2006 CORE             105 E_CCS10                     429  432   Num  CCS: E Code 10
+MI  2006 CORE             106 E_CCS11                     433  436   Num  CCS: E Code 11
+MI  2006 CORE             107 FEMALE                      437  438   Num  Indicator of sex
+MI  2006 CORE             108 HCUP_ED                     439  440   Num  HCUP Emergency Department service indicator
+MI  2006 CORE             109 HCUP_OS                     441  442   Num  HCUP Observation Stay service indicator
+MI  2006 CORE             110 HISPANIC_X                  443  443   Char Hispanic ethnicity (as received from source)
+MI  2006 CORE             111 HOSPBRTH                    444  446   Num  Indicator of birth in this hospital
+MI  2006 CORE             112 HOSPST                      447  448   Char Hospital state postal code
+MI  2006 CORE             113 LOS                         449  453   Num  Length of stay (cleaned)
+MI  2006 CORE             114 LOS_X                       454  459   Num  Length of stay (as received from source)
+MI  2006 CORE             115 MDC                         460  461   Num  MDC in effect on discharge date
+MI  2006 CORE             116 MDC18                       462  463   Num  MDC, version 18
+MI  2006 CORE             117 MDC24                       464  465   Num  MDC, version 24
+MI  2006 CORE             118 MDNUM1_R                    466  474   Num  Physician 1 number (re-identified)
+MI  2006 CORE             119 MDNUM2_R                    475  483   Num  Physician 2 number (re-identified)
+MI  2006 CORE             120 MEDINCSTQ                   484  485   Num  Median household income state quartile for patient ZIP Code
+MI  2006 CORE             121 MOMNUM_R                    486  494   Num  Mother's number (re-identified)
+MI  2006 CORE             122 MRN_R                       495  503   Num  Medical record number (re-identified)
+MI  2006 CORE             123 NDX                         504  505   Num  Number of diagnoses on this record
+MI  2006 CORE             124 NECODE                      506  507   Num  Number of E codes on this record
+MI  2006 CORE             125 NEOMAT                      508  509   Num  Neonatal and/or maternal DX and/or PR
+MI  2006 CORE             126 NPR                         510  511   Num  Number of procedures on this record
+MI  2006 CORE             127 PAY1                        512  513   Num  Primary expected payer (uniform)
+MI  2006 CORE             128 PAY2                        514  515   Num  Secondary expected payer (uniform)
+MI  2006 CORE             129 PAY1_X                      516  517   Char Primary expected payer (as received from source)
+MI  2006 CORE             130 PAY2_X                      518  519   Char Secondary expected payer (as received from source)
+MI  2006 CORE             131 PL_CBSA                     520  522   Num  Patient location: Core Based Statistical Area (CBSA)
+MI  2006 CORE             132 PL_MSA1993                  523  525   Num  Patient location: Metropolitan Statistical Area (MSA), 1993
+MI  2006 CORE             133 PL_NHCS2006                 526  527   Num  Patient Location: NCHS Urban-Rural Code (V2006)
+MI  2006 CORE             134 PL_RUCA10_2005              528  529   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, ten levels
+MI  2006 CORE             135 PL_RUCA2005                 530  533 1 Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes
+MI  2006 CORE             136 PL_RUCA4_2005               534  535   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, four levels
+MI  2006 CORE             137 PL_RUCC2003                 536  537   Num  Patient location: Rural-Urban Continuum Codes(RUCC), 2003
+MI  2006 CORE             138 PL_UIC2003                  538  539   Num  Patient location: Urban Influence Codes, 2003
+MI  2006 CORE             139 PL_UR_CAT4                  540  541   Num  Patient Location: Urban-Rural 4 Categories
+MI  2006 CORE             140 PL_UR_CAT5                  542  543   Num  Patient Location: Urban-Rural 5 Categories
+MI  2006 CORE             141 PR1                         544  547   Char Principal procedure
+MI  2006 CORE             142 PR2                         548  551   Char Procedure 2
+MI  2006 CORE             143 PR3                         552  555   Char Procedure 3
+MI  2006 CORE             144 PR4                         556  559   Char Procedure 4
+MI  2006 CORE             145 PR5                         560  563   Char Procedure 5
+MI  2006 CORE             146 PR6                         564  567   Char Procedure 6
+MI  2006 CORE             147 PR7                         568  571   Char Procedure 7
+MI  2006 CORE             148 PR8                         572  575   Char Procedure 8
+MI  2006 CORE             149 PR9                         576  579   Char Procedure 9
+MI  2006 CORE             150 PR10                        580  583   Char Procedure 10
+MI  2006 CORE             151 PR11                        584  587   Char Procedure 11
+MI  2006 CORE             152 PR12                        588  591   Char Procedure 12
+MI  2006 CORE             153 PR13                        592  595   Char Procedure 13
+MI  2006 CORE             154 PR14                        596  599   Char Procedure 14
+MI  2006 CORE             155 PR15                        600  603   Char Procedure 15
+MI  2006 CORE             156 PR16                        604  607   Char Procedure 16
+MI  2006 CORE             157 PR17                        608  611   Char Procedure 17
+MI  2006 CORE             158 PR18                        612  615   Char Procedure 18
+MI  2006 CORE             159 PR19                        616  619   Char Procedure 19
+MI  2006 CORE             160 PR20                        620  623   Char Procedure 20
+MI  2006 CORE             161 PR21                        624  627   Char Procedure 21
+MI  2006 CORE             162 PR22                        628  631   Char Procedure 22
+MI  2006 CORE             163 PR23                        632  635   Char Procedure 23
+MI  2006 CORE             164 PR24                        636  639   Char Procedure 24
+MI  2006 CORE             165 PR25                        640  643   Char Procedure 25
+MI  2006 CORE             166 PR26                        644  647   Char Procedure 26
+MI  2006 CORE             167 PR27                        648  651   Char Procedure 27
+MI  2006 CORE             168 PR28                        652  655   Char Procedure 28
+MI  2006 CORE             169 PR29                        656  659   Char Procedure 29
+MI  2006 CORE             170 PR30                        660  663   Char Procedure 30
+MI  2006 CORE             171 PRCCS1                      664  666   Num  CCS: principal procedure
+MI  2006 CORE             172 PRCCS2                      667  669   Num  CCS: procedure 2
+MI  2006 CORE             173 PRCCS3                      670  672   Num  CCS: procedure 3
+MI  2006 CORE             174 PRCCS4                      673  675   Num  CCS: procedure 4
+MI  2006 CORE             175 PRCCS5                      676  678   Num  CCS: procedure 5
+MI  2006 CORE             176 PRCCS6                      679  681   Num  CCS: procedure 6
+MI  2006 CORE             177 PRCCS7                      682  684   Num  CCS: procedure 7
+MI  2006 CORE             178 PRCCS8                      685  687   Num  CCS: procedure 8
+MI  2006 CORE             179 PRCCS9                      688  690   Num  CCS: procedure 9
+MI  2006 CORE             180 PRCCS10                     691  693   Num  CCS: procedure 10
+MI  2006 CORE             181 PRCCS11                     694  696   Num  CCS: procedure 11
+MI  2006 CORE             182 PRCCS12                     697  699   Num  CCS: procedure 12
+MI  2006 CORE             183 PRCCS13                     700  702   Num  CCS: procedure 13
+MI  2006 CORE             184 PRCCS14                     703  705   Num  CCS: procedure 14
+MI  2006 CORE             185 PRCCS15                     706  708   Num  CCS: procedure 15
+MI  2006 CORE             186 PRCCS16                     709  711   Num  CCS: procedure 16
+MI  2006 CORE             187 PRCCS17                     712  714   Num  CCS: procedure 17
+MI  2006 CORE             188 PRCCS18                     715  717   Num  CCS: procedure 18
+MI  2006 CORE             189 PRCCS19                     718  720   Num  CCS: procedure 19
+MI  2006 CORE             190 PRCCS20                     721  723   Num  CCS: procedure 20
+MI  2006 CORE             191 PRCCS21                     724  726   Num  CCS: procedure 21
+MI  2006 CORE             192 PRCCS22                     727  729   Num  CCS: procedure 22
+MI  2006 CORE             193 PRCCS23                     730  732   Num  CCS: procedure 23
+MI  2006 CORE             194 PRCCS24                     733  735   Num  CCS: procedure 24
+MI  2006 CORE             195 PRCCS25                     736  738   Num  CCS: procedure 25
+MI  2006 CORE             196 PRCCS26                     739  741   Num  CCS: procedure 26
+MI  2006 CORE             197 PRCCS27                     742  744   Num  CCS: procedure 27
+MI  2006 CORE             198 PRCCS28                     745  747   Num  CCS: procedure 28
+MI  2006 CORE             199 PRCCS29                     748  750   Num  CCS: procedure 29
+MI  2006 CORE             200 PRCCS30                     751  753   Num  CCS: procedure 30
+MI  2006 CORE             201 PRDAY1                      754  758   Num  Number of days from admission to PR1
+MI  2006 CORE             202 PROCTYPE                    759  761   Num  Procedure type indicator
+MI  2006 CORE             203 PSTATE                      762  763   Char Patient State postal code
+MI  2006 CORE             204 PSTCO2                      764  768   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+MI  2006 CORE             205 RACE                        769  770   Num  Race (uniform)
+MI  2006 CORE             206 RACE_X                      771  771   Char Race (as received from source)
+MI  2006 CORE             207 TOTCHG                      772  781   Num  Total charges (cleaned)
+MI  2006 CORE             208 TOTCHG_X                    782  796 2 Num  Total charges (as received from source)
+MI  2006 CORE             209 YEAR                        797  800   Num  Calendar year
+MI  2006 CORE             210 ZIPINC_QRTL                 801  803   Num  Median household income national quartile for patient ZIP Code
+MI  2006 CORE             211 HOSPID                      804  808   Num  HCUP hospital identification number
+MI  2006 CORE             212 ZIP                         809  813   Char Patient ZIP Code
+MI  2006 CORE             213 AYEAR                       814  817   Num  Admission year
+MI  2006 CORE             214 DMONTH                      818  819   Num  Discharge month
+MI  2006 CORE             215 BMONTH                      820  821   Num  Birth month
+MI  2006 CORE             216 BYEAR                       822  825   Num  Birth year
+MI  2006 CORE             217 PRMONTH1                    826  827   Num  Month of procedure 1
+MI  2006 CORE             218 PRYEAR1                     828  831   Num  Year of procedure 1

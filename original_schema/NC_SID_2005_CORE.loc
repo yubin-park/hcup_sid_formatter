@@ -1,0 +1,153 @@
+Data Set Name: NC_SID_2005_CORE                
+Number of Observations: 1095529
+Total Record Length: 510
+Total Number of Variables: 133
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 56    Variable name
+58- 61    Starting column of variable in ASCII file
+63- 66    Ending column of variable in ASCII file
+    68    Non-zero number of digits after decimal point for numeric variable
+70- 73    Variable type (Num=numeric; Char=character)
+75-174    Variable label
+
+
+NC  2005 CORE               1 KEY                           1   14   Num  HCUP record identifier
+NC  2005 CORE               2 AGE                          15   17   Num  Age in years at admission
+NC  2005 CORE               3 AGEDAY                       18   20   Num  Age in days (when age < 1 year)
+NC  2005 CORE               4 AGEMONTH                     21   23   Num  Age in months (when age < 11 years)
+NC  2005 CORE               5 AMONTH                       24   25   Num  Admission month
+NC  2005 CORE               6 ASOURCE                      26   27   Num  Admission source (uniform)
+NC  2005 CORE               7 ASOURCE_X                    28   28   Char Admission source (as received from source)
+NC  2005 CORE               8 ASOURCEUB92                  29   29   Char Admission source (UB-92 standard coding)
+NC  2005 CORE               9 ATYPE                        30   31   Num  Admission type
+NC  2005 CORE              10 AWEEKEND                     32   33   Num  Admission day is a weekend
+NC  2005 CORE              11 BWT                          34   37   Num  Birth weight in grams
+NC  2005 CORE              12 DIED                         38   39   Num  Died during hospitalization
+NC  2005 CORE              13 DISP_X                       40   41   Char Disposition of patient (as received from source)
+NC  2005 CORE              14 DISPUB92                     42   43   Num  Disposition of patient (UB-92 standard coding)
+NC  2005 CORE              15 DISPUNIFORM                  44   45   Num  Disposition of patient (uniform)
+NC  2005 CORE              16 DQTR                         46   47   Num  Discharge quarter
+NC  2005 CORE              17 DRG                          48   50   Num  DRG in effect on discharge date
+NC  2005 CORE              18 DRG18                        51   53   Num  DRG, version 18
+NC  2005 CORE              19 DRGVER                       54   55   Num  DRG grouper version used on discharge date
+NC  2005 CORE              20 DSHOSPID                     56   68   Char Data source hospital identifier
+NC  2005 CORE              21 DX1                          69   73   Char Principal diagnosis
+NC  2005 CORE              22 DX2                          74   78   Char Diagnosis 2
+NC  2005 CORE              23 DX3                          79   83   Char Diagnosis 3
+NC  2005 CORE              24 DX4                          84   88   Char Diagnosis 4
+NC  2005 CORE              25 DX5                          89   93   Char Diagnosis 5
+NC  2005 CORE              26 DX6                          94   98   Char Diagnosis 6
+NC  2005 CORE              27 DX7                          99  103   Char Diagnosis 7
+NC  2005 CORE              28 DX8                         104  108   Char Diagnosis 8
+NC  2005 CORE              29 DX9                         109  113   Char Diagnosis 9
+NC  2005 CORE              30 DX10                        114  118   Char Diagnosis 10
+NC  2005 CORE              31 DX11                        119  123   Char Diagnosis 11
+NC  2005 CORE              32 DX12                        124  128   Char Diagnosis 12
+NC  2005 CORE              33 DX13                        129  133   Char Diagnosis 13
+NC  2005 CORE              34 DX14                        134  138   Char Diagnosis 14
+NC  2005 CORE              35 DX15                        139  143   Char Diagnosis 15
+NC  2005 CORE              36 DX16                        144  148   Char Diagnosis 16
+NC  2005 CORE              37 DX17                        149  153   Char Diagnosis 17
+NC  2005 CORE              38 DXCCS1                      154  157   Num  CCS: principal diagnosis
+NC  2005 CORE              39 DXCCS2                      158  161   Num  CCS: diagnosis 2
+NC  2005 CORE              40 DXCCS3                      162  165   Num  CCS: diagnosis 3
+NC  2005 CORE              41 DXCCS4                      166  169   Num  CCS: diagnosis 4
+NC  2005 CORE              42 DXCCS5                      170  173   Num  CCS: diagnosis 5
+NC  2005 CORE              43 DXCCS6                      174  177   Num  CCS: diagnosis 6
+NC  2005 CORE              44 DXCCS7                      178  181   Num  CCS: diagnosis 7
+NC  2005 CORE              45 DXCCS8                      182  185   Num  CCS: diagnosis 8
+NC  2005 CORE              46 DXCCS9                      186  189   Num  CCS: diagnosis 9
+NC  2005 CORE              47 DXCCS10                     190  193   Num  CCS: diagnosis 10
+NC  2005 CORE              48 DXCCS11                     194  197   Num  CCS: diagnosis 11
+NC  2005 CORE              49 DXCCS12                     198  201   Num  CCS: diagnosis 12
+NC  2005 CORE              50 DXCCS13                     202  205   Num  CCS: diagnosis 13
+NC  2005 CORE              51 DXCCS14                     206  209   Num  CCS: diagnosis 14
+NC  2005 CORE              52 DXCCS15                     210  213   Num  CCS: diagnosis 15
+NC  2005 CORE              53 DXCCS16                     214  217   Num  CCS: diagnosis 16
+NC  2005 CORE              54 DXCCS17                     218  221   Num  CCS: diagnosis 17
+NC  2005 CORE              55 ECODE1                      222  226   Char E code 1
+NC  2005 CORE              56 ECODE2                      227  231   Char E code 2
+NC  2005 CORE              57 ECODE3                      232  236   Char E code 3
+NC  2005 CORE              58 ECODE4                      237  241   Char E code 4
+NC  2005 CORE              59 ECODE5                      242  246   Char E code 5
+NC  2005 CORE              60 ECODE6                      247  251   Char E code 6
+NC  2005 CORE              61 ECODE7                      252  256   Char E code 7
+NC  2005 CORE              62 ECODE8                      257  261   Char E code 8
+NC  2005 CORE              63 E_CCS1                      262  265   Num  CCS: E Code 1
+NC  2005 CORE              64 E_CCS2                      266  269   Num  CCS: E Code 2
+NC  2005 CORE              65 E_CCS3                      270  273   Num  CCS: E Code 3
+NC  2005 CORE              66 E_CCS4                      274  277   Num  CCS: E Code 4
+NC  2005 CORE              67 E_CCS5                      278  281   Num  CCS: E Code 5
+NC  2005 CORE              68 E_CCS6                      282  285   Num  CCS: E Code 6
+NC  2005 CORE              69 E_CCS7                      286  289   Num  CCS: E Code 7
+NC  2005 CORE              70 E_CCS8                      290  293   Num  CCS: E Code 8
+NC  2005 CORE              71 FEMALE                      294  295   Num  Indicator of sex
+NC  2005 CORE              72 HCUP_ED                     296  297   Num  HCUP Emergency Department service indicator
+NC  2005 CORE              73 HCUP_OS                     298  299   Num  HCUP Observation Stay service indicator
+NC  2005 CORE              74 HOSPST                      300  301   Char Hospital state postal code
+NC  2005 CORE              75 LOS                         302  306   Num  Length of stay (cleaned)
+NC  2005 CORE              76 LOS_X                       307  312   Num  Length of stay (as received from source)
+NC  2005 CORE              77 MEDINCSTQ                   313  314   Num  Median household income state quartile for patient ZIP Code
+NC  2005 CORE              78 MDC                         315  316   Num  MDC in effect on discharge date
+NC  2005 CORE              79 MDC18                       317  318   Num  MDC, version 18
+NC  2005 CORE              80 NDX                         319  320   Num  Number of diagnoses on this record
+NC  2005 CORE              81 NECODE                      321  322   Num  Number of E codes on this record
+NC  2005 CORE              82 NEOMAT                      323  324   Num  Neonatal and/or maternal DX and/or PR
+NC  2005 CORE              83 NPR                         325  326   Num  Number of procedures on this record
+NC  2005 CORE              84 PAY1                        327  328   Num  Primary expected payer (uniform)
+NC  2005 CORE              85 PAY2                        329  330   Num  Secondary expected payer (uniform)
+NC  2005 CORE              86 PAY1_X                      331  331   Char Primary expected payer (as received from source)
+NC  2005 CORE              87 PAY2_X                      332  332   Char Secondary expected payer (as received from source)
+NC  2005 CORE              88 PAY3_X                      333  333   Char Tertiary expected payer (as received from source)
+NC  2005 CORE              89 PL_CBSA                     334  336   Num  Patient location: Core Based Statistical Area (CBSA)
+NC  2005 CORE              90 PL_MSA1993                  337  339   Num  Patient location: Metropolitan Statistical Area (MSA), 1993
+NC  2005 CORE              91 PL_NHCS2006                 340  341   Num  Patient Location: NCHS Urban-Rural Code (V2006)
+NC  2005 CORE              92 PL_RUCA10_2005              342  343   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, ten levels
+NC  2005 CORE              93 PL_RUCA2005                 344  347 1 Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes
+NC  2005 CORE              94 PL_RUCA4_2005               348  349   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, four levels
+NC  2005 CORE              95 PL_RUCC2003                 350  351   Num  Patient location: Rural-Urban Continuum Codes(RUCC), 2003
+NC  2005 CORE              96 PL_UIC2003                  352  353   Num  Patient location: Urban Influence Codes, 2003
+NC  2005 CORE              97 PL_UR_CAT4                  354  355   Num  Patient Location: Urban-Rural 4 Categories
+NC  2005 CORE              98 PL_UR_CAT5                  356  357   Num  Patient Location: Urban-Rural 5 Categories
+NC  2005 CORE              99 PNUM_R                      358  366   Num  Person number (re-identified)
+NC  2005 CORE             100 PR1                         367  370   Char Principal procedure
+NC  2005 CORE             101 PR2                         371  374   Char Procedure 2
+NC  2005 CORE             102 PR3                         375  378   Char Procedure 3
+NC  2005 CORE             103 PR4                         379  382   Char Procedure 4
+NC  2005 CORE             104 PR5                         383  386   Char Procedure 5
+NC  2005 CORE             105 PR6                         387  390   Char Procedure 6
+NC  2005 CORE             106 PR7                         391  394   Char Procedure 7
+NC  2005 CORE             107 PRCCS1                      395  397   Num  CCS: principal procedure
+NC  2005 CORE             108 PRCCS2                      398  400   Num  CCS: procedure 2
+NC  2005 CORE             109 PRCCS3                      401  403   Num  CCS: procedure 3
+NC  2005 CORE             110 PRCCS4                      404  406   Num  CCS: procedure 4
+NC  2005 CORE             111 PRCCS5                      407  409   Num  CCS: procedure 5
+NC  2005 CORE             112 PRCCS6                      410  412   Num  CCS: procedure 6
+NC  2005 CORE             113 PRCCS7                      413  415   Num  CCS: procedure 7
+NC  2005 CORE             114 PRDAY1                      416  420   Num  Number of days from admission to PR1
+NC  2005 CORE             115 PRDAY2                      421  425   Num  Number of days from admission to PR2
+NC  2005 CORE             116 PRDAY3                      426  430   Num  Number of days from admission to PR3
+NC  2005 CORE             117 PRDAY4                      431  435   Num  Number of days from admission to PR4
+NC  2005 CORE             118 PRDAY5                      436  440   Num  Number of days from admission to PR5
+NC  2005 CORE             119 PRDAY6                      441  445   Num  Number of days from admission to PR6
+NC  2005 CORE             120 PRDAY7                      446  450   Num  Number of days from admission to PR7
+NC  2005 CORE             121 PSTATE                      451  452   Char Patient State postal code
+NC  2005 CORE             122 PSTCO2                      453  457   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+NC  2005 CORE             123 RACE                        458  459   Num  Race (uniform)
+NC  2005 CORE             124 RACE_X                      460  460   Char Race (as received from source)
+NC  2005 CORE             125 RDRG                        461  464   Char Refined DRG
+NC  2005 CORE             126 TOTCHG                      465  474   Num  Total charges (cleaned)
+NC  2005 CORE             127 TOTCHG_X                    475  489 2 Num  Total charges (as received from source)
+NC  2005 CORE             128 YEAR                        490  493   Num  Calendar year
+NC  2005 CORE             129 ZIP                         494  498   Char Patient ZIP Code
+NC  2005 CORE             130 AYEAR                       499  502   Num  Admission year
+NC  2005 CORE             131 DMONTH                      503  504   Num  Discharge month
+NC  2005 CORE             132 BMONTH                      505  506   Num  Birth month
+NC  2005 CORE             133 BYEAR                       507  510   Num  Birth year

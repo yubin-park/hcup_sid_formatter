@@ -1,0 +1,131 @@
+Data Set Name: ME_SID_1999_CORE                
+Number of Observations: 158294
+Total Record Length: 416
+Total Number of Variables: 111
+
+
+Columns   Description:
+=======   ============
+ 1- 3     Database name
+ 5- 8     Discharge year of data
+10-17     File name
+19-21     Variable number
+23-41     Variable name
+43-45     Starting column of variable in ASCII file
+47-49     Ending column of variable in ASCII file
+   51     Non-zero number of digits after decimal point for numeric variable
+53-56     Variable type (Num=numeric; Char=character)
+58-113    Variable label
+
+
+ME  1999 CORE       1 KEY                   1  14   Num  HCUP record identifier
+ME  1999 CORE       2 ADRG                 15  17   Num  All Patient Refined DRG
+ME  1999 CORE       3 AGE                  18  20   Num  Age in years at admission
+ME  1999 CORE       4 AGEDAY               21  23   Num  Age in days (when age < 1 year)
+ME  1999 CORE       5 AGEMONTH             24  26   Num  Age in months (when age < 11 years)
+ME  1999 CORE       6 AMDC                 27  28   Num  All Patient Refined MDC
+ME  1999 CORE       7 AMONTH               29  30   Num  Admission month
+ME  1999 CORE       8 AWEEKEND             31  32   Num  Admission day is a weekend
+ME  1999 CORE       9 BWT                  33  36   Num  Birth weight in grams
+ME  1999 CORE      10 DIED                 37  38   Num  Died during hospitalization
+ME  1999 CORE      11 DISPUB92             39  40   Num  Disposition of patient (UB-92 standard coding)
+ME  1999 CORE      12 DISPUNIFORM          41  42   Num  Disposition of patient (uniform)
+ME  1999 CORE      13 DISP_X               43  43   Char Disposition of patient (as received from source)
+ME  1999 CORE      14 DQTR                 44  45   Num  Discharge quarter
+ME  1999 CORE      15 DRG                  46  48   Num  DRG in effect on discharge date
+ME  1999 CORE      16 DRG10                49  51   Num  DRG, version 10
+ME  1999 CORE      17 DRG18                52  54   Num  DRG, version 18
+ME  1999 CORE      18 DRGVER               55  56   Num  DRG grouper version used on discharge date
+ME  1999 CORE      19 DSHOSPID             57  69   Char Data source hospital identifier
+ME  1999 CORE      20 DX1                  70  74   Char Principal diagnosis
+ME  1999 CORE      21 DX2                  75  79   Char Diagnosis 2
+ME  1999 CORE      22 DX3                  80  84   Char Diagnosis 3
+ME  1999 CORE      23 DX4                  85  89   Char Diagnosis 4
+ME  1999 CORE      24 DX5                  90  94   Char Diagnosis 5
+ME  1999 CORE      25 DX6                  95  99   Char Diagnosis 6
+ME  1999 CORE      26 DX7                 100 104   Char Diagnosis 7
+ME  1999 CORE      27 DX8                 105 109   Char Diagnosis 8
+ME  1999 CORE      28 DX9                 110 114   Char Diagnosis 9
+ME  1999 CORE      29 DX10                115 119   Char Diagnosis 10
+ME  1999 CORE      30 DXCCS1              120 123   Num  CCS: principal diagnosis
+ME  1999 CORE      31 DXCCS2              124 127   Num  CCS: diagnosis 2
+ME  1999 CORE      32 DXCCS3              128 131   Num  CCS: diagnosis 3
+ME  1999 CORE      33 DXCCS4              132 135   Num  CCS: diagnosis 4
+ME  1999 CORE      34 DXCCS5              136 139   Num  CCS: diagnosis 5
+ME  1999 CORE      35 DXCCS6              140 143   Num  CCS: diagnosis 6
+ME  1999 CORE      36 DXCCS7              144 147   Num  CCS: diagnosis 7
+ME  1999 CORE      37 DXCCS8              148 151   Num  CCS: diagnosis 8
+ME  1999 CORE      38 DXCCS9              152 155   Num  CCS: diagnosis 9
+ME  1999 CORE      39 DXCCS10             156 159   Num  CCS: diagnosis 10
+ME  1999 CORE      40 FEMALE              160 161   Num  Indicator of sex
+ME  1999 CORE      41 HOSPST              162 163   Char Hospital state postal code
+ME  1999 CORE      42 LOS                 164 168   Num  Length of stay (cleaned)
+ME  1999 CORE      43 LOS_X               169 174   Num  Length of stay (uncleaned)
+ME  1999 CORE      44 MDC                 175 176   Num  MDC in effect on discharge date
+ME  1999 CORE      45 MDC10               177 178   Num  MDC, version 10
+ME  1999 CORE      46 MDC18               179 180   Num  MDC, version 18
+ME  1999 CORE      47 MDSPEC              181 182   Char Physician specialty (as received from source)
+ME  1999 CORE      48 MRN_S               183 199   Char Medical record number (synthetic)
+ME  1999 CORE      49 NDX                 200 201   Num  Number of diagnoses on this record
+ME  1999 CORE      50 NEOMAT              202 203   Num  Neonatal and/or maternal DX and/or PR
+ME  1999 CORE      51 NPR                 204 205   Num  Number of procedures on this record
+ME  1999 CORE      52 PAY1                206 207   Num  Primary expected payer (uniform)
+ME  1999 CORE      53 PAY1_X              208 209   Char Primary expected payer (as received from source)
+ME  1999 CORE      54 PR1                 210 213   Char Principal procedure
+ME  1999 CORE      55 PR2                 214 217   Char Procedure 2
+ME  1999 CORE      56 PR3                 218 221   Char Procedure 3
+ME  1999 CORE      57 PR4                 222 225   Char Procedure 4
+ME  1999 CORE      58 PR5                 226 229   Char Procedure 5
+ME  1999 CORE      59 PR6                 230 233   Char Procedure 6
+ME  1999 CORE      60 PR7                 234 237   Char Procedure 7
+ME  1999 CORE      61 PR8                 238 241   Char Procedure 8
+ME  1999 CORE      62 PR9                 242 245   Char Procedure 9
+ME  1999 CORE      63 PR10                246 249   Char Procedure 10
+ME  1999 CORE      64 PRCCS1              250 252   Num  CCS: principal procedure
+ME  1999 CORE      65 PRCCS2              253 255   Num  CCS: procedure 2
+ME  1999 CORE      66 PRCCS3              256 258   Num  CCS: procedure 3
+ME  1999 CORE      67 PRCCS4              259 261   Num  CCS: procedure 4
+ME  1999 CORE      68 PRCCS5              262 264   Num  CCS: procedure 5
+ME  1999 CORE      69 PRCCS6              265 267   Num  CCS: procedure 6
+ME  1999 CORE      70 PRCCS7              268 270   Num  CCS: procedure 7
+ME  1999 CORE      71 PRCCS8              271 273   Num  CCS: procedure 8
+ME  1999 CORE      72 PRCCS9              274 276   Num  CCS: procedure 9
+ME  1999 CORE      73 PRCCS10             277 279   Num  CCS: procedure 10
+ME  1999 CORE      74 PRDAY1              280 282   Num  Number of days from admission to PR1
+ME  1999 CORE      75 PRDAY2              283 285   Num  Number of days from admission to PR2
+ME  1999 CORE      76 PRDAY3              286 288   Num  Number of days from admission to PR3
+ME  1999 CORE      77 PRDAY4              289 291   Num  Number of days from admission to PR4
+ME  1999 CORE      78 PRDAY5              292 294   Num  Number of days from admission to PR5
+ME  1999 CORE      79 PRDAY6              295 297   Num  Number of days from admission to PR6
+ME  1999 CORE      80 PRDAY7              298 300   Num  Number of days from admission to PR7
+ME  1999 CORE      81 PRDAY8              301 303   Num  Number of days from admission to PR8
+ME  1999 CORE      82 PRDAY9              304 306   Num  Number of days from admission to PR9
+ME  1999 CORE      83 PRDAY10             307 309   Num  Number of days from admission to PR10
+ME  1999 CORE      84 PSTCO               310 314   Num  Patient state/county FIPS code
+ME  1999 CORE      85 SURGSPEC            315 316   Char Primary surgeon specialty code
+ME  1999 CORE      86 TOTCHG              317 326   Num  Total charges (cleaned)
+ME  1999 CORE      87 TOTCHG_X            327 341 2 Num  Total charges (as received from source)
+ME  1999 CORE      88 YEAR                342 345   Num  Calendar year
+ME  1999 CORE      89 ZIP_S               346 350   Char Patient zip code (synthetic)
+ME  1999 CORE      90 AYEAR               351 354   Num  Admission year
+ME  1999 CORE      91 DMONTH              355 356   Num  Discharge month
+ME  1999 CORE      92 PRMONTH1            357 358   Num  Month of procedure 1
+ME  1999 CORE      93 PRMONTH2            359 360   Num  Month of procedure 2
+ME  1999 CORE      94 PRMONTH3            361 362   Num  Month of procedure 3
+ME  1999 CORE      95 PRMONTH4            363 364   Num  Month of procedure 4
+ME  1999 CORE      96 PRMONTH5            365 366   Num  Month of procedure 5
+ME  1999 CORE      97 PRMONTH6            367 368   Num  Month of procedure 6
+ME  1999 CORE      98 PRMONTH7            369 370   Num  Month of procedure 7
+ME  1999 CORE      99 PRMONTH8            371 372   Num  Month of procedure 8
+ME  1999 CORE     100 PRMONTH9            373 374   Num  Month of procedure 9
+ME  1999 CORE     101 PRMONTH10           375 376   Num  Month of procedure 10
+ME  1999 CORE     102 PRYEAR1             377 380   Num  Year of procedure 1
+ME  1999 CORE     103 PRYEAR2             381 384   Num  Year of procedure 2
+ME  1999 CORE     104 PRYEAR3             385 388   Num  Year of procedure 3
+ME  1999 CORE     105 PRYEAR4             389 392   Num  Year of procedure 4
+ME  1999 CORE     106 PRYEAR5             393 396   Num  Year of procedure 5
+ME  1999 CORE     107 PRYEAR6             397 400   Num  Year of procedure 6
+ME  1999 CORE     108 PRYEAR7             401 404   Num  Year of procedure 7
+ME  1999 CORE     109 PRYEAR8             405 408   Num  Year of procedure 8
+ME  1999 CORE     110 PRYEAR9             409 412   Num  Year of procedure 9
+ME  1999 CORE     111 PRYEAR10            413 416   Num  Year of procedure 10

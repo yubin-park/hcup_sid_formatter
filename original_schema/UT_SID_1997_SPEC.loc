@@ -1,0 +1,26 @@
+Columns   Description:
+=======   ============
+ 1- 2     State postal code
+ 5- 8     Discharge year of data
+10-14     File name
+19-21     Variable number
+23-30     Variable name
+32-34     Starting column of variable in ASCII file
+36-38     Ending column of variable in ASCII file
+   40     Non-zero number of digits after decimal point for numeric variable
+42-45     Variable type (NUM=numeric; CHAR=character)
+46-88     Variable label
+
+
+UT  1997 SPEC     1   SEQ_SID  1   13    Num I:HCUP SID record sequence number
+UT  1997 SPEC     2   ZIP_S    14  18    CharI:Patient zip code (synthetic)
+UT  1997 SPEC     3   PAY1_X   19  20    CharI:Primary exp. payer (from data source)
+UT  1997 SPEC     4   PAY2_X   21  22    CharI:Secondary exp. payer (from data source
+UT  1997 SPEC     5   PAY3_X   23  24    CharI:Tertiary exp. payer (from data source)
+UT  1997 SPEC     6   CHG1     25  36  2 Num I:Detailed charges 1 (from data source)
+UT  1997 SPEC     7   CHG2     37  48  2 Num I:Detailed charges 2 (from data source)
+UT  1997 SPEC     8   ADRG     49  51    Num I:All Patient Refined DRG
+UT  1997 SPEC     9   ADRGSEV  52  53    Num I:All Patient Refined DRG severity level
+UT  1997 SPEC     10  ADATE    54  63    CharI:Admission date
+UT  1997 SPEC     11  DDATE    64  73    CharI:Discharge date
+UT  1997 SPEC     12  DOB      74  83    CharI:Date of birth

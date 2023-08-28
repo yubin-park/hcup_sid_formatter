@@ -1,0 +1,642 @@
+Data Set Name: WI_SIDC_2021_CORE               
+Number of Observations: 550072
+Total Record Length: 2540
+Total Number of Variables: 621
+Creation Date: 08/10/2022   
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 61    Variable name
+63- 66    Starting column of variable in ASCII file
+68- 71    Ending column of variable in ASCII file
+73- 73    Non-zero number of digits after decimal point for numeric variable
+75- 78    Variable type (Num=numeric; Char=character)
+80-179    Variable label
+
+
+WI  2021 CORE                1 AGE                                1    3   Num  Age in years at admission
+WI  2021 CORE                2 AGEDAY                             4    6   Num  Age in days (when age < 1 year)
+WI  2021 CORE                3 AGEMONTH                           7    9   Num  Age in months (when age < 11 years)
+WI  2021 CORE                4 AMONTH                            10   11   Num  Admission month
+WI  2021 CORE                5 ATYPE                             12   13   Num  Admission type
+WI  2021 CORE                6 AWEEKEND                          14   15   Num  Admission day is a weekend
+WI  2021 CORE                7 BILLTYPE                          16   19   Char Type of bill, UB-04 coding
+WI  2021 CORE                8 CPT1                              20   24   Char CPT/HCPCS procedure code 1
+WI  2021 CORE                9 CPT2                              25   29   Char CPT/HCPCS procedure code 2
+WI  2021 CORE               10 CPT3                              30   34   Char CPT/HCPCS procedure code 3
+WI  2021 CORE               11 CPT4                              35   39   Char CPT/HCPCS procedure code 4
+WI  2021 CORE               12 CPT5                              40   44   Char CPT/HCPCS procedure code 5
+WI  2021 CORE               13 CPT6                              45   49   Char CPT/HCPCS procedure code 6
+WI  2021 CORE               14 CPT7                              50   54   Char CPT/HCPCS procedure code 7
+WI  2021 CORE               15 CPT8                              55   59   Char CPT/HCPCS procedure code 8
+WI  2021 CORE               16 CPT9                              60   64   Char CPT/HCPCS procedure code 9
+WI  2021 CORE               17 CPT10                             65   69   Char CPT/HCPCS procedure code 10
+WI  2021 CORE               18 CPT11                             70   74   Char CPT/HCPCS procedure code 11
+WI  2021 CORE               19 CPT12                             75   79   Char CPT/HCPCS procedure code 12
+WI  2021 CORE               20 CPT13                             80   84   Char CPT/HCPCS procedure code 13
+WI  2021 CORE               21 CPT14                             85   89   Char CPT/HCPCS procedure code 14
+WI  2021 CORE               22 CPT15                             90   94   Char CPT/HCPCS procedure code 15
+WI  2021 CORE               23 CPT16                             95   99   Char CPT/HCPCS procedure code 16
+WI  2021 CORE               24 CPT17                            100  104   Char CPT/HCPCS procedure code 17
+WI  2021 CORE               25 CPT18                            105  109   Char CPT/HCPCS procedure code 18
+WI  2021 CORE               26 CPT19                            110  114   Char CPT/HCPCS procedure code 19
+WI  2021 CORE               27 CPT20                            115  119   Char CPT/HCPCS procedure code 20
+WI  2021 CORE               28 CPT21                            120  124   Char CPT/HCPCS procedure code 21
+WI  2021 CORE               29 CPT22                            125  129   Char CPT/HCPCS procedure code 22
+WI  2021 CORE               30 CPT23                            130  134   Char CPT/HCPCS procedure code 23
+WI  2021 CORE               31 CPT24                            135  139   Char CPT/HCPCS procedure code 24
+WI  2021 CORE               32 CPT25                            140  144   Char CPT/HCPCS procedure code 25
+WI  2021 CORE               33 CPT26                            145  149   Char CPT/HCPCS procedure code 26
+WI  2021 CORE               34 CPT27                            150  154   Char CPT/HCPCS procedure code 27
+WI  2021 CORE               35 CPT28                            155  159   Char CPT/HCPCS procedure code 28
+WI  2021 CORE               36 CPT29                            160  164   Char CPT/HCPCS procedure code 29
+WI  2021 CORE               37 CPT30                            165  169   Char CPT/HCPCS procedure code 30
+WI  2021 CORE               38 CPT31                            170  174   Char CPT/HCPCS procedure code 31
+WI  2021 CORE               39 CPT32                            175  179   Char CPT/HCPCS procedure code 32
+WI  2021 CORE               40 CPT33                            180  184   Char CPT/HCPCS procedure code 33
+WI  2021 CORE               41 CPT34                            185  189   Char CPT/HCPCS procedure code 34
+WI  2021 CORE               42 CPT35                            190  194   Char CPT/HCPCS procedure code 35
+WI  2021 CORE               43 CPT36                            195  199   Char CPT/HCPCS procedure code 36
+WI  2021 CORE               44 CPT37                            200  204   Char CPT/HCPCS procedure code 37
+WI  2021 CORE               45 CPT38                            205  209   Char CPT/HCPCS procedure code 38
+WI  2021 CORE               46 CPT39                            210  214   Char CPT/HCPCS procedure code 39
+WI  2021 CORE               47 CPT40                            215  219   Char CPT/HCPCS procedure code 40
+WI  2021 CORE               48 CPT41                            220  224   Char CPT/HCPCS procedure code 41
+WI  2021 CORE               49 CPT42                            225  229   Char CPT/HCPCS procedure code 42
+WI  2021 CORE               50 CPT43                            230  234   Char CPT/HCPCS procedure code 43
+WI  2021 CORE               51 CPT44                            235  239   Char CPT/HCPCS procedure code 44
+WI  2021 CORE               52 CPT45                            240  244   Char CPT/HCPCS procedure code 45
+WI  2021 CORE               53 CPT46                            245  249   Char CPT/HCPCS procedure code 46
+WI  2021 CORE               54 CPT47                            250  254   Char CPT/HCPCS procedure code 47
+WI  2021 CORE               55 CPT48                            255  259   Char CPT/HCPCS procedure code 48
+WI  2021 CORE               56 CPT49                            260  264   Char CPT/HCPCS procedure code 49
+WI  2021 CORE               57 CPT50                            265  269   Char CPT/HCPCS procedure code 50
+WI  2021 CORE               58 CPT51                            270  274   Char CPT/HCPCS procedure code 51
+WI  2021 CORE               59 CPT52                            275  279   Char CPT/HCPCS procedure code 52
+WI  2021 CORE               60 CPT53                            280  284   Char CPT/HCPCS procedure code 53
+WI  2021 CORE               61 CPT54                            285  289   Char CPT/HCPCS procedure code 54
+WI  2021 CORE               62 CPT55                            290  294   Char CPT/HCPCS procedure code 55
+WI  2021 CORE               63 CPT56                            295  299   Char CPT/HCPCS procedure code 56
+WI  2021 CORE               64 CPT57                            300  304   Char CPT/HCPCS procedure code 57
+WI  2021 CORE               65 CPT58                            305  309   Char CPT/HCPCS procedure code 58
+WI  2021 CORE               66 CPT59                            310  314   Char CPT/HCPCS procedure code 59
+WI  2021 CORE               67 CPT60                            315  319   Char CPT/HCPCS procedure code 60
+WI  2021 CORE               68 CPT61                            320  324   Char CPT/HCPCS procedure code 61
+WI  2021 CORE               69 CPT62                            325  329   Char CPT/HCPCS procedure code 62
+WI  2021 CORE               70 CPT63                            330  334   Char CPT/HCPCS procedure code 63
+WI  2021 CORE               71 CPT64                            335  339   Char CPT/HCPCS procedure code 64
+WI  2021 CORE               72 CPT65                            340  344   Char CPT/HCPCS procedure code 65
+WI  2021 CORE               73 CPT66                            345  349   Char CPT/HCPCS procedure code 66
+WI  2021 CORE               74 CPT67                            350  354   Char CPT/HCPCS procedure code 67
+WI  2021 CORE               75 CPT68                            355  359   Char CPT/HCPCS procedure code 68
+WI  2021 CORE               76 CPT69                            360  364   Char CPT/HCPCS procedure code 69
+WI  2021 CORE               77 CPT70                            365  369   Char CPT/HCPCS procedure code 70
+WI  2021 CORE               78 CPT71                            370  374   Char CPT/HCPCS procedure code 71
+WI  2021 CORE               79 CPT72                            375  379   Char CPT/HCPCS procedure code 72
+WI  2021 CORE               80 CPT73                            380  384   Char CPT/HCPCS procedure code 73
+WI  2021 CORE               81 CPT74                            385  389   Char CPT/HCPCS procedure code 74
+WI  2021 CORE               82 CPT75                            390  394   Char CPT/HCPCS procedure code 75
+WI  2021 CORE               83 CPT76                            395  399   Char CPT/HCPCS procedure code 76
+WI  2021 CORE               84 CPT77                            400  404   Char CPT/HCPCS procedure code 77
+WI  2021 CORE               85 CPT78                            405  409   Char CPT/HCPCS procedure code 78
+WI  2021 CORE               86 CPT79                            410  414   Char CPT/HCPCS procedure code 79
+WI  2021 CORE               87 CPT80                            415  419   Char CPT/HCPCS procedure code 80
+WI  2021 CORE               88 CPT81                            420  424   Char CPT/HCPCS procedure code 81
+WI  2021 CORE               89 CPT82                            425  429   Char CPT/HCPCS procedure code 82
+WI  2021 CORE               90 CPT83                            430  434   Char CPT/HCPCS procedure code 83
+WI  2021 CORE               91 CPT84                            435  439   Char CPT/HCPCS procedure code 84
+WI  2021 CORE               92 CPT85                            440  444   Char CPT/HCPCS procedure code 85
+WI  2021 CORE               93 CPT86                            445  449   Char CPT/HCPCS procedure code 86
+WI  2021 CORE               94 CPT87                            450  454   Char CPT/HCPCS procedure code 87
+WI  2021 CORE               95 CPT88                            455  459   Char CPT/HCPCS procedure code 88
+WI  2021 CORE               96 CPT89                            460  464   Char CPT/HCPCS procedure code 89
+WI  2021 CORE               97 CPT90                            465  469   Char CPT/HCPCS procedure code 90
+WI  2021 CORE               98 CPT91                            470  474   Char CPT/HCPCS procedure code 91
+WI  2021 CORE               99 CPT92                            475  479   Char CPT/HCPCS procedure code 92
+WI  2021 CORE              100 CPT93                            480  484   Char CPT/HCPCS procedure code 93
+WI  2021 CORE              101 CPT94                            485  489   Char CPT/HCPCS procedure code 94
+WI  2021 CORE              102 CPT95                            490  494   Char CPT/HCPCS procedure code 95
+WI  2021 CORE              103 CPT96                            495  499   Char CPT/HCPCS procedure code 96
+WI  2021 CORE              104 CPT97                            500  504   Char CPT/HCPCS procedure code 97
+WI  2021 CORE              105 CPT98                            505  509   Char CPT/HCPCS procedure code 98
+WI  2021 CORE              106 CPT99                            510  514   Char CPT/HCPCS procedure code 99
+WI  2021 CORE              107 CPT100                           515  519   Char CPT/HCPCS procedure code 100
+WI  2021 CORE              108 CPT101                           520  524   Char CPT/HCPCS procedure code 101
+WI  2021 CORE              109 CPT102                           525  529   Char CPT/HCPCS procedure code 102
+WI  2021 CORE              110 CPT103                           530  534   Char CPT/HCPCS procedure code 103
+WI  2021 CORE              111 CPT104                           535  539   Char CPT/HCPCS procedure code 104
+WI  2021 CORE              112 CPT105                           540  544   Char CPT/HCPCS procedure code 105
+WI  2021 CORE              113 CPT106                           545  549   Char CPT/HCPCS procedure code 106
+WI  2021 CORE              114 CPT107                           550  554   Char CPT/HCPCS procedure code 107
+WI  2021 CORE              115 CPT108                           555  559   Char CPT/HCPCS procedure code 108
+WI  2021 CORE              116 CPT109                           560  564   Char CPT/HCPCS procedure code 109
+WI  2021 CORE              117 CPT110                           565  569   Char CPT/HCPCS procedure code 110
+WI  2021 CORE              118 CPT111                           570  574   Char CPT/HCPCS procedure code 111
+WI  2021 CORE              119 CPT112                           575  579   Char CPT/HCPCS procedure code 112
+WI  2021 CORE              120 CPT113                           580  584   Char CPT/HCPCS procedure code 113
+WI  2021 CORE              121 CPT114                           585  589   Char CPT/HCPCS procedure code 114
+WI  2021 CORE              122 CPT115                           590  594   Char CPT/HCPCS procedure code 115
+WI  2021 CORE              123 CPT116                           595  599   Char CPT/HCPCS procedure code 116
+WI  2021 CORE              124 CPT117                           600  604   Char CPT/HCPCS procedure code 117
+WI  2021 CORE              125 CPT118                           605  609   Char CPT/HCPCS procedure code 118
+WI  2021 CORE              126 CPT119                           610  614   Char CPT/HCPCS procedure code 119
+WI  2021 CORE              127 CPT120                           615  619   Char CPT/HCPCS procedure code 120
+WI  2021 CORE              128 CPT121                           620  624   Char CPT/HCPCS procedure code 121
+WI  2021 CORE              129 CPT122                           625  629   Char CPT/HCPCS procedure code 122
+WI  2021 CORE              130 CPT123                           630  634   Char CPT/HCPCS procedure code 123
+WI  2021 CORE              131 CPT124                           635  639   Char CPT/HCPCS procedure code 124
+WI  2021 CORE              132 CPT125                           640  644   Char CPT/HCPCS procedure code 125
+WI  2021 CORE              133 CPT126                           645  649   Char CPT/HCPCS procedure code 126
+WI  2021 CORE              134 CPT127                           650  654   Char CPT/HCPCS procedure code 127
+WI  2021 CORE              135 CPT128                           655  659   Char CPT/HCPCS procedure code 128
+WI  2021 CORE              136 CPT129                           660  664   Char CPT/HCPCS procedure code 129
+WI  2021 CORE              137 CPT130                           665  669   Char CPT/HCPCS procedure code 130
+WI  2021 CORE              138 CPT131                           670  674   Char CPT/HCPCS procedure code 131
+WI  2021 CORE              139 CPT132                           675  679   Char CPT/HCPCS procedure code 132
+WI  2021 CORE              140 CPT133                           680  684   Char CPT/HCPCS procedure code 133
+WI  2021 CORE              141 CPT134                           685  689   Char CPT/HCPCS procedure code 134
+WI  2021 CORE              142 CPT135                           690  694   Char CPT/HCPCS procedure code 135
+WI  2021 CORE              143 CPT136                           695  699   Char CPT/HCPCS procedure code 136
+WI  2021 CORE              144 CPT137                           700  704   Char CPT/HCPCS procedure code 137
+WI  2021 CORE              145 CPT138                           705  709   Char CPT/HCPCS procedure code 138
+WI  2021 CORE              146 CPT139                           710  714   Char CPT/HCPCS procedure code 139
+WI  2021 CORE              147 CPT140                           715  719   Char CPT/HCPCS procedure code 140
+WI  2021 CORE              148 CPT141                           720  724   Char CPT/HCPCS procedure code 141
+WI  2021 CORE              149 CPT142                           725  729   Char CPT/HCPCS procedure code 142
+WI  2021 CORE              150 CPT143                           730  734   Char CPT/HCPCS procedure code 143
+WI  2021 CORE              151 CPT144                           735  739   Char CPT/HCPCS procedure code 144
+WI  2021 CORE              152 CPT145                           740  744   Char CPT/HCPCS procedure code 145
+WI  2021 CORE              153 CPT146                           745  749   Char CPT/HCPCS procedure code 146
+WI  2021 CORE              154 CPT147                           750  754   Char CPT/HCPCS procedure code 147
+WI  2021 CORE              155 CPT148                           755  759   Char CPT/HCPCS procedure code 148
+WI  2021 CORE              156 CPT149                           760  764   Char CPT/HCPCS procedure code 149
+WI  2021 CORE              157 CPT150                           765  769   Char CPT/HCPCS procedure code 150
+WI  2021 CORE              158 CPT151                           770  774   Char CPT/HCPCS procedure code 151
+WI  2021 CORE              159 CPT152                           775  779   Char CPT/HCPCS procedure code 152
+WI  2021 CORE              160 CPT153                           780  784   Char CPT/HCPCS procedure code 153
+WI  2021 CORE              161 CPT154                           785  789   Char CPT/HCPCS procedure code 154
+WI  2021 CORE              162 CPT155                           790  794   Char CPT/HCPCS procedure code 155
+WI  2021 CORE              163 CPT156                           795  799   Char CPT/HCPCS procedure code 156
+WI  2021 CORE              164 CPT157                           800  804   Char CPT/HCPCS procedure code 157
+WI  2021 CORE              165 CPT158                           805  809   Char CPT/HCPCS procedure code 158
+WI  2021 CORE              166 CPT159                           810  814   Char CPT/HCPCS procedure code 159
+WI  2021 CORE              167 CPT160                           815  819   Char CPT/HCPCS procedure code 160
+WI  2021 CORE              168 CPT161                           820  824   Char CPT/HCPCS procedure code 161
+WI  2021 CORE              169 CPT162                           825  829   Char CPT/HCPCS procedure code 162
+WI  2021 CORE              170 CPT163                           830  834   Char CPT/HCPCS procedure code 163
+WI  2021 CORE              171 CPT164                           835  839   Char CPT/HCPCS procedure code 164
+WI  2021 CORE              172 CPT165                           840  844   Char CPT/HCPCS procedure code 165
+WI  2021 CORE              173 CPT166                           845  849   Char CPT/HCPCS procedure code 166
+WI  2021 CORE              174 CPT167                           850  854   Char CPT/HCPCS procedure code 167
+WI  2021 CORE              175 CPT168                           855  859   Char CPT/HCPCS procedure code 168
+WI  2021 CORE              176 CPT169                           860  864   Char CPT/HCPCS procedure code 169
+WI  2021 CORE              177 CPT170                           865  869   Char CPT/HCPCS procedure code 170
+WI  2021 CORE              178 CPT171                           870  874   Char CPT/HCPCS procedure code 171
+WI  2021 CORE              179 CPT172                           875  879   Char CPT/HCPCS procedure code 172
+WI  2021 CORE              180 CPT173                           880  884   Char CPT/HCPCS procedure code 173
+WI  2021 CORE              181 CPT174                           885  889   Char CPT/HCPCS procedure code 174
+WI  2021 CORE              182 CPT175                           890  894   Char CPT/HCPCS procedure code 175
+WI  2021 CORE              183 CPT176                           895  899   Char CPT/HCPCS procedure code 176
+WI  2021 CORE              184 CPT177                           900  904   Char CPT/HCPCS procedure code 177
+WI  2021 CORE              185 CPT178                           905  909   Char CPT/HCPCS procedure code 178
+WI  2021 CORE              186 CPT179                           910  914   Char CPT/HCPCS procedure code 179
+WI  2021 CORE              187 CPT180                           915  919   Char CPT/HCPCS procedure code 180
+WI  2021 CORE              188 CPT181                           920  924   Char CPT/HCPCS procedure code 181
+WI  2021 CORE              189 CPT182                           925  929   Char CPT/HCPCS procedure code 182
+WI  2021 CORE              190 CPT183                           930  934   Char CPT/HCPCS procedure code 183
+WI  2021 CORE              191 CPT184                           935  939   Char CPT/HCPCS procedure code 184
+WI  2021 CORE              192 CPT185                           940  944   Char CPT/HCPCS procedure code 185
+WI  2021 CORE              193 CPT186                           945  949   Char CPT/HCPCS procedure code 186
+WI  2021 CORE              194 CPT187                           950  954   Char CPT/HCPCS procedure code 187
+WI  2021 CORE              195 CPT188                           955  959   Char CPT/HCPCS procedure code 188
+WI  2021 CORE              196 CPT189                           960  964   Char CPT/HCPCS procedure code 189
+WI  2021 CORE              197 CPT190                           965  969   Char CPT/HCPCS procedure code 190
+WI  2021 CORE              198 CPT191                           970  974   Char CPT/HCPCS procedure code 191
+WI  2021 CORE              199 CPT192                           975  979   Char CPT/HCPCS procedure code 192
+WI  2021 CORE              200 CPT193                           980  984   Char CPT/HCPCS procedure code 193
+WI  2021 CORE              201 CPT194                           985  989   Char CPT/HCPCS procedure code 194
+WI  2021 CORE              202 CPT195                           990  994   Char CPT/HCPCS procedure code 195
+WI  2021 CORE              203 CPT196                           995  999   Char CPT/HCPCS procedure code 196
+WI  2021 CORE              204 CPT197                          1000 1004   Char CPT/HCPCS procedure code 197
+WI  2021 CORE              205 CPT198                          1005 1009   Char CPT/HCPCS procedure code 198
+WI  2021 CORE              206 CPT199                          1010 1014   Char CPT/HCPCS procedure code 199
+WI  2021 CORE              207 CPT200                          1015 1019   Char CPT/HCPCS procedure code 200
+WI  2021 CORE              208 CPTCCS1                         1020 1022   Num  CCS: CPT 1
+WI  2021 CORE              209 CPTCCS2                         1023 1025   Num  CCS: CPT 2
+WI  2021 CORE              210 CPTCCS3                         1026 1028   Num  CCS: CPT 3
+WI  2021 CORE              211 CPTCCS4                         1029 1031   Num  CCS: CPT 4
+WI  2021 CORE              212 CPTCCS5                         1032 1034   Num  CCS: CPT 5
+WI  2021 CORE              213 CPTCCS6                         1035 1037   Num  CCS: CPT 6
+WI  2021 CORE              214 CPTCCS7                         1038 1040   Num  CCS: CPT 7
+WI  2021 CORE              215 CPTCCS8                         1041 1043   Num  CCS: CPT 8
+WI  2021 CORE              216 CPTCCS9                         1044 1046   Num  CCS: CPT 9
+WI  2021 CORE              217 CPTCCS10                        1047 1049   Num  CCS: CPT 10
+WI  2021 CORE              218 CPTCCS11                        1050 1052   Num  CCS: CPT 11
+WI  2021 CORE              219 CPTCCS12                        1053 1055   Num  CCS: CPT 12
+WI  2021 CORE              220 CPTCCS13                        1056 1058   Num  CCS: CPT 13
+WI  2021 CORE              221 CPTCCS14                        1059 1061   Num  CCS: CPT 14
+WI  2021 CORE              222 CPTCCS15                        1062 1064   Num  CCS: CPT 15
+WI  2021 CORE              223 CPTCCS16                        1065 1067   Num  CCS: CPT 16
+WI  2021 CORE              224 CPTCCS17                        1068 1070   Num  CCS: CPT 17
+WI  2021 CORE              225 CPTCCS18                        1071 1073   Num  CCS: CPT 18
+WI  2021 CORE              226 CPTCCS19                        1074 1076   Num  CCS: CPT 19
+WI  2021 CORE              227 CPTCCS20                        1077 1079   Num  CCS: CPT 20
+WI  2021 CORE              228 CPTCCS21                        1080 1082   Num  CCS: CPT 21
+WI  2021 CORE              229 CPTCCS22                        1083 1085   Num  CCS: CPT 22
+WI  2021 CORE              230 CPTCCS23                        1086 1088   Num  CCS: CPT 23
+WI  2021 CORE              231 CPTCCS24                        1089 1091   Num  CCS: CPT 24
+WI  2021 CORE              232 CPTCCS25                        1092 1094   Num  CCS: CPT 25
+WI  2021 CORE              233 CPTCCS26                        1095 1097   Num  CCS: CPT 26
+WI  2021 CORE              234 CPTCCS27                        1098 1100   Num  CCS: CPT 27
+WI  2021 CORE              235 CPTCCS28                        1101 1103   Num  CCS: CPT 28
+WI  2021 CORE              236 CPTCCS29                        1104 1106   Num  CCS: CPT 29
+WI  2021 CORE              237 CPTCCS30                        1107 1109   Num  CCS: CPT 30
+WI  2021 CORE              238 CPTCCS31                        1110 1112   Num  CCS: CPT 31
+WI  2021 CORE              239 CPTCCS32                        1113 1115   Num  CCS: CPT 32
+WI  2021 CORE              240 CPTCCS33                        1116 1118   Num  CCS: CPT 33
+WI  2021 CORE              241 CPTCCS34                        1119 1121   Num  CCS: CPT 34
+WI  2021 CORE              242 CPTCCS35                        1122 1124   Num  CCS: CPT 35
+WI  2021 CORE              243 CPTCCS36                        1125 1127   Num  CCS: CPT 36
+WI  2021 CORE              244 CPTCCS37                        1128 1130   Num  CCS: CPT 37
+WI  2021 CORE              245 CPTCCS38                        1131 1133   Num  CCS: CPT 38
+WI  2021 CORE              246 CPTCCS39                        1134 1136   Num  CCS: CPT 39
+WI  2021 CORE              247 CPTCCS40                        1137 1139   Num  CCS: CPT 40
+WI  2021 CORE              248 CPTCCS41                        1140 1142   Num  CCS: CPT 41
+WI  2021 CORE              249 CPTCCS42                        1143 1145   Num  CCS: CPT 42
+WI  2021 CORE              250 CPTCCS43                        1146 1148   Num  CCS: CPT 43
+WI  2021 CORE              251 CPTCCS44                        1149 1151   Num  CCS: CPT 44
+WI  2021 CORE              252 CPTCCS45                        1152 1154   Num  CCS: CPT 45
+WI  2021 CORE              253 CPTCCS46                        1155 1157   Num  CCS: CPT 46
+WI  2021 CORE              254 CPTCCS47                        1158 1160   Num  CCS: CPT 47
+WI  2021 CORE              255 CPTCCS48                        1161 1163   Num  CCS: CPT 48
+WI  2021 CORE              256 CPTCCS49                        1164 1166   Num  CCS: CPT 49
+WI  2021 CORE              257 CPTCCS50                        1167 1169   Num  CCS: CPT 50
+WI  2021 CORE              258 CPTCCS51                        1170 1172   Num  CCS: CPT 51
+WI  2021 CORE              259 CPTCCS52                        1173 1175   Num  CCS: CPT 52
+WI  2021 CORE              260 CPTCCS53                        1176 1178   Num  CCS: CPT 53
+WI  2021 CORE              261 CPTCCS54                        1179 1181   Num  CCS: CPT 54
+WI  2021 CORE              262 CPTCCS55                        1182 1184   Num  CCS: CPT 55
+WI  2021 CORE              263 CPTCCS56                        1185 1187   Num  CCS: CPT 56
+WI  2021 CORE              264 CPTCCS57                        1188 1190   Num  CCS: CPT 57
+WI  2021 CORE              265 CPTCCS58                        1191 1193   Num  CCS: CPT 58
+WI  2021 CORE              266 CPTCCS59                        1194 1196   Num  CCS: CPT 59
+WI  2021 CORE              267 CPTCCS60                        1197 1199   Num  CCS: CPT 60
+WI  2021 CORE              268 CPTCCS61                        1200 1202   Num  CCS: CPT 61
+WI  2021 CORE              269 CPTCCS62                        1203 1205   Num  CCS: CPT 62
+WI  2021 CORE              270 CPTCCS63                        1206 1208   Num  CCS: CPT 63
+WI  2021 CORE              271 CPTCCS64                        1209 1211   Num  CCS: CPT 64
+WI  2021 CORE              272 CPTCCS65                        1212 1214   Num  CCS: CPT 65
+WI  2021 CORE              273 CPTCCS66                        1215 1217   Num  CCS: CPT 66
+WI  2021 CORE              274 CPTCCS67                        1218 1220   Num  CCS: CPT 67
+WI  2021 CORE              275 CPTCCS68                        1221 1223   Num  CCS: CPT 68
+WI  2021 CORE              276 CPTCCS69                        1224 1226   Num  CCS: CPT 69
+WI  2021 CORE              277 CPTCCS70                        1227 1229   Num  CCS: CPT 70
+WI  2021 CORE              278 CPTCCS71                        1230 1232   Num  CCS: CPT 71
+WI  2021 CORE              279 CPTCCS72                        1233 1235   Num  CCS: CPT 72
+WI  2021 CORE              280 CPTCCS73                        1236 1238   Num  CCS: CPT 73
+WI  2021 CORE              281 CPTCCS74                        1239 1241   Num  CCS: CPT 74
+WI  2021 CORE              282 CPTCCS75                        1242 1244   Num  CCS: CPT 75
+WI  2021 CORE              283 CPTCCS76                        1245 1247   Num  CCS: CPT 76
+WI  2021 CORE              284 CPTCCS77                        1248 1250   Num  CCS: CPT 77
+WI  2021 CORE              285 CPTCCS78                        1251 1253   Num  CCS: CPT 78
+WI  2021 CORE              286 CPTCCS79                        1254 1256   Num  CCS: CPT 79
+WI  2021 CORE              287 CPTCCS80                        1257 1259   Num  CCS: CPT 80
+WI  2021 CORE              288 CPTCCS81                        1260 1262   Num  CCS: CPT 81
+WI  2021 CORE              289 CPTCCS82                        1263 1265   Num  CCS: CPT 82
+WI  2021 CORE              290 CPTCCS83                        1266 1268   Num  CCS: CPT 83
+WI  2021 CORE              291 CPTCCS84                        1269 1271   Num  CCS: CPT 84
+WI  2021 CORE              292 CPTCCS85                        1272 1274   Num  CCS: CPT 85
+WI  2021 CORE              293 CPTCCS86                        1275 1277   Num  CCS: CPT 86
+WI  2021 CORE              294 CPTCCS87                        1278 1280   Num  CCS: CPT 87
+WI  2021 CORE              295 CPTCCS88                        1281 1283   Num  CCS: CPT 88
+WI  2021 CORE              296 CPTCCS89                        1284 1286   Num  CCS: CPT 89
+WI  2021 CORE              297 CPTCCS90                        1287 1289   Num  CCS: CPT 90
+WI  2021 CORE              298 CPTCCS91                        1290 1292   Num  CCS: CPT 91
+WI  2021 CORE              299 CPTCCS92                        1293 1295   Num  CCS: CPT 92
+WI  2021 CORE              300 CPTCCS93                        1296 1298   Num  CCS: CPT 93
+WI  2021 CORE              301 CPTCCS94                        1299 1301   Num  CCS: CPT 94
+WI  2021 CORE              302 CPTCCS95                        1302 1304   Num  CCS: CPT 95
+WI  2021 CORE              303 CPTCCS96                        1305 1307   Num  CCS: CPT 96
+WI  2021 CORE              304 CPTCCS97                        1308 1310   Num  CCS: CPT 97
+WI  2021 CORE              305 CPTCCS98                        1311 1313   Num  CCS: CPT 98
+WI  2021 CORE              306 CPTCCS99                        1314 1316   Num  CCS: CPT 99
+WI  2021 CORE              307 CPTCCS100                       1317 1319   Num  CCS: CPT 100
+WI  2021 CORE              308 CPTCCS101                       1320 1322   Num  CCS: CPT 101
+WI  2021 CORE              309 CPTCCS102                       1323 1325   Num  CCS: CPT 102
+WI  2021 CORE              310 CPTCCS103                       1326 1328   Num  CCS: CPT 103
+WI  2021 CORE              311 CPTCCS104                       1329 1331   Num  CCS: CPT 104
+WI  2021 CORE              312 CPTCCS105                       1332 1334   Num  CCS: CPT 105
+WI  2021 CORE              313 CPTCCS106                       1335 1337   Num  CCS: CPT 106
+WI  2021 CORE              314 CPTCCS107                       1338 1340   Num  CCS: CPT 107
+WI  2021 CORE              315 CPTCCS108                       1341 1343   Num  CCS: CPT 108
+WI  2021 CORE              316 CPTCCS109                       1344 1346   Num  CCS: CPT 109
+WI  2021 CORE              317 CPTCCS110                       1347 1349   Num  CCS: CPT 110
+WI  2021 CORE              318 CPTCCS111                       1350 1352   Num  CCS: CPT 111
+WI  2021 CORE              319 CPTCCS112                       1353 1355   Num  CCS: CPT 112
+WI  2021 CORE              320 CPTCCS113                       1356 1358   Num  CCS: CPT 113
+WI  2021 CORE              321 CPTCCS114                       1359 1361   Num  CCS: CPT 114
+WI  2021 CORE              322 CPTCCS115                       1362 1364   Num  CCS: CPT 115
+WI  2021 CORE              323 CPTCCS116                       1365 1367   Num  CCS: CPT 116
+WI  2021 CORE              324 CPTCCS117                       1368 1370   Num  CCS: CPT 117
+WI  2021 CORE              325 CPTCCS118                       1371 1373   Num  CCS: CPT 118
+WI  2021 CORE              326 CPTCCS119                       1374 1376   Num  CCS: CPT 119
+WI  2021 CORE              327 CPTCCS120                       1377 1379   Num  CCS: CPT 120
+WI  2021 CORE              328 CPTCCS121                       1380 1382   Num  CCS: CPT 121
+WI  2021 CORE              329 CPTCCS122                       1383 1385   Num  CCS: CPT 122
+WI  2021 CORE              330 CPTCCS123                       1386 1388   Num  CCS: CPT 123
+WI  2021 CORE              331 CPTCCS124                       1389 1391   Num  CCS: CPT 124
+WI  2021 CORE              332 CPTCCS125                       1392 1394   Num  CCS: CPT 125
+WI  2021 CORE              333 CPTCCS126                       1395 1397   Num  CCS: CPT 126
+WI  2021 CORE              334 CPTCCS127                       1398 1400   Num  CCS: CPT 127
+WI  2021 CORE              335 CPTCCS128                       1401 1403   Num  CCS: CPT 128
+WI  2021 CORE              336 CPTCCS129                       1404 1406   Num  CCS: CPT 129
+WI  2021 CORE              337 CPTCCS130                       1407 1409   Num  CCS: CPT 130
+WI  2021 CORE              338 CPTCCS131                       1410 1412   Num  CCS: CPT 131
+WI  2021 CORE              339 CPTCCS132                       1413 1415   Num  CCS: CPT 132
+WI  2021 CORE              340 CPTCCS133                       1416 1418   Num  CCS: CPT 133
+WI  2021 CORE              341 CPTCCS134                       1419 1421   Num  CCS: CPT 134
+WI  2021 CORE              342 CPTCCS135                       1422 1424   Num  CCS: CPT 135
+WI  2021 CORE              343 CPTCCS136                       1425 1427   Num  CCS: CPT 136
+WI  2021 CORE              344 CPTCCS137                       1428 1430   Num  CCS: CPT 137
+WI  2021 CORE              345 CPTCCS138                       1431 1433   Num  CCS: CPT 138
+WI  2021 CORE              346 CPTCCS139                       1434 1436   Num  CCS: CPT 139
+WI  2021 CORE              347 CPTCCS140                       1437 1439   Num  CCS: CPT 140
+WI  2021 CORE              348 CPTCCS141                       1440 1442   Num  CCS: CPT 141
+WI  2021 CORE              349 CPTCCS142                       1443 1445   Num  CCS: CPT 142
+WI  2021 CORE              350 CPTCCS143                       1446 1448   Num  CCS: CPT 143
+WI  2021 CORE              351 CPTCCS144                       1449 1451   Num  CCS: CPT 144
+WI  2021 CORE              352 CPTCCS145                       1452 1454   Num  CCS: CPT 145
+WI  2021 CORE              353 CPTCCS146                       1455 1457   Num  CCS: CPT 146
+WI  2021 CORE              354 CPTCCS147                       1458 1460   Num  CCS: CPT 147
+WI  2021 CORE              355 CPTCCS148                       1461 1463   Num  CCS: CPT 148
+WI  2021 CORE              356 CPTCCS149                       1464 1466   Num  CCS: CPT 149
+WI  2021 CORE              357 CPTCCS150                       1467 1469   Num  CCS: CPT 150
+WI  2021 CORE              358 CPTCCS151                       1470 1472   Num  CCS: CPT 151
+WI  2021 CORE              359 CPTCCS152                       1473 1475   Num  CCS: CPT 152
+WI  2021 CORE              360 CPTCCS153                       1476 1478   Num  CCS: CPT 153
+WI  2021 CORE              361 CPTCCS154                       1479 1481   Num  CCS: CPT 154
+WI  2021 CORE              362 CPTCCS155                       1482 1484   Num  CCS: CPT 155
+WI  2021 CORE              363 CPTCCS156                       1485 1487   Num  CCS: CPT 156
+WI  2021 CORE              364 CPTCCS157                       1488 1490   Num  CCS: CPT 157
+WI  2021 CORE              365 CPTCCS158                       1491 1493   Num  CCS: CPT 158
+WI  2021 CORE              366 CPTCCS159                       1494 1496   Num  CCS: CPT 159
+WI  2021 CORE              367 CPTCCS160                       1497 1499   Num  CCS: CPT 160
+WI  2021 CORE              368 CPTCCS161                       1500 1502   Num  CCS: CPT 161
+WI  2021 CORE              369 CPTCCS162                       1503 1505   Num  CCS: CPT 162
+WI  2021 CORE              370 CPTCCS163                       1506 1508   Num  CCS: CPT 163
+WI  2021 CORE              371 CPTCCS164                       1509 1511   Num  CCS: CPT 164
+WI  2021 CORE              372 CPTCCS165                       1512 1514   Num  CCS: CPT 165
+WI  2021 CORE              373 CPTCCS166                       1515 1517   Num  CCS: CPT 166
+WI  2021 CORE              374 CPTCCS167                       1518 1520   Num  CCS: CPT 167
+WI  2021 CORE              375 CPTCCS168                       1521 1523   Num  CCS: CPT 168
+WI  2021 CORE              376 CPTCCS169                       1524 1526   Num  CCS: CPT 169
+WI  2021 CORE              377 CPTCCS170                       1527 1529   Num  CCS: CPT 170
+WI  2021 CORE              378 CPTCCS171                       1530 1532   Num  CCS: CPT 171
+WI  2021 CORE              379 CPTCCS172                       1533 1535   Num  CCS: CPT 172
+WI  2021 CORE              380 CPTCCS173                       1536 1538   Num  CCS: CPT 173
+WI  2021 CORE              381 CPTCCS174                       1539 1541   Num  CCS: CPT 174
+WI  2021 CORE              382 CPTCCS175                       1542 1544   Num  CCS: CPT 175
+WI  2021 CORE              383 CPTCCS176                       1545 1547   Num  CCS: CPT 176
+WI  2021 CORE              384 CPTCCS177                       1548 1550   Num  CCS: CPT 177
+WI  2021 CORE              385 CPTCCS178                       1551 1553   Num  CCS: CPT 178
+WI  2021 CORE              386 CPTCCS179                       1554 1556   Num  CCS: CPT 179
+WI  2021 CORE              387 CPTCCS180                       1557 1559   Num  CCS: CPT 180
+WI  2021 CORE              388 CPTCCS181                       1560 1562   Num  CCS: CPT 181
+WI  2021 CORE              389 CPTCCS182                       1563 1565   Num  CCS: CPT 182
+WI  2021 CORE              390 CPTCCS183                       1566 1568   Num  CCS: CPT 183
+WI  2021 CORE              391 CPTCCS184                       1569 1571   Num  CCS: CPT 184
+WI  2021 CORE              392 CPTCCS185                       1572 1574   Num  CCS: CPT 185
+WI  2021 CORE              393 CPTCCS186                       1575 1577   Num  CCS: CPT 186
+WI  2021 CORE              394 CPTCCS187                       1578 1580   Num  CCS: CPT 187
+WI  2021 CORE              395 CPTCCS188                       1581 1583   Num  CCS: CPT 188
+WI  2021 CORE              396 CPTCCS189                       1584 1586   Num  CCS: CPT 189
+WI  2021 CORE              397 CPTCCS190                       1587 1589   Num  CCS: CPT 190
+WI  2021 CORE              398 CPTCCS191                       1590 1592   Num  CCS: CPT 191
+WI  2021 CORE              399 CPTCCS192                       1593 1595   Num  CCS: CPT 192
+WI  2021 CORE              400 CPTCCS193                       1596 1598   Num  CCS: CPT 193
+WI  2021 CORE              401 CPTCCS194                       1599 1601   Num  CCS: CPT 194
+WI  2021 CORE              402 CPTCCS195                       1602 1604   Num  CCS: CPT 195
+WI  2021 CORE              403 CPTCCS196                       1605 1607   Num  CCS: CPT 196
+WI  2021 CORE              404 CPTCCS197                       1608 1610   Num  CCS: CPT 197
+WI  2021 CORE              405 CPTCCS198                       1611 1613   Num  CCS: CPT 198
+WI  2021 CORE              406 CPTCCS199                       1614 1616   Num  CCS: CPT 199
+WI  2021 CORE              407 CPTCCS200                       1617 1619   Num  CCS: CPT 200
+WI  2021 CORE              408 DaysToEvent                     1620 1625   Num  Days from 'start date' to admission
+WI  2021 CORE              409 DIED                            1626 1627   Num  Died during hospitalization
+WI  2021 CORE              410 DISP_X                          1628 1629   Char Disposition of patient (as received from source)
+WI  2021 CORE              411 DISPUB04                        1630 1631   Num  Disposition of patient (UB-04 standard coding)
+WI  2021 CORE              412 DISPUNIFORM                     1632 1633   Num  Disposition of patient (uniform)
+WI  2021 CORE              413 DMONTH                          1634 1635   Num  Discharge month
+WI  2021 CORE              414 DQTR                            1636 1637   Num  Discharge quarter
+WI  2021 CORE              415 DRG                             1638 1640   Num  DRG in effect on discharge date
+WI  2021 CORE              416 DRG_NoPOA                       1641 1643   Num  DRG in use on discharge date, calculated without POA
+WI  2021 CORE              417 DRGVER                          1644 1645   Num  DRG grouper version used on discharge date
+WI  2021 CORE              418 DSHOSPID                        1646 1662   Char Data source hospital identifier
+WI  2021 CORE              419 DXPOA1                          1663 1663   Char Diagnosis 1, present on admission indicator
+WI  2021 CORE              420 DXPOA2                          1664 1664   Char Diagnosis 2, present on admission indicator
+WI  2021 CORE              421 DXPOA3                          1665 1665   Char Diagnosis 3, present on admission indicator
+WI  2021 CORE              422 DXPOA4                          1666 1666   Char Diagnosis 4, present on admission indicator
+WI  2021 CORE              423 DXPOA5                          1667 1667   Char Diagnosis 5, present on admission indicator
+WI  2021 CORE              424 DXPOA6                          1668 1668   Char Diagnosis 6, present on admission indicator
+WI  2021 CORE              425 DXPOA7                          1669 1669   Char Diagnosis 7, present on admission indicator
+WI  2021 CORE              426 DXPOA8                          1670 1670   Char Diagnosis 8, present on admission indicator
+WI  2021 CORE              427 DXPOA9                          1671 1671   Char Diagnosis 9, present on admission indicator
+WI  2021 CORE              428 DXPOA10                         1672 1672   Char Diagnosis 10, present on admission indicator
+WI  2021 CORE              429 DXPOA11                         1673 1673   Char Diagnosis 11, present on admission indicator
+WI  2021 CORE              430 DXPOA12                         1674 1674   Char Diagnosis 12, present on admission indicator
+WI  2021 CORE              431 DXPOA13                         1675 1675   Char Diagnosis 13, present on admission indicator
+WI  2021 CORE              432 DXPOA14                         1676 1676   Char Diagnosis 14, present on admission indicator
+WI  2021 CORE              433 DXPOA15                         1677 1677   Char Diagnosis 15, present on admission indicator
+WI  2021 CORE              434 DXPOA16                         1678 1678   Char Diagnosis 16, present on admission indicator
+WI  2021 CORE              435 DXPOA17                         1679 1679   Char Diagnosis 17, present on admission indicator
+WI  2021 CORE              436 DXPOA18                         1680 1680   Char Diagnosis 18, present on admission indicator
+WI  2021 CORE              437 DXPOA19                         1681 1681   Char Diagnosis 19, present on admission indicator
+WI  2021 CORE              438 DXPOA20                         1682 1682   Char Diagnosis 20, present on admission indicator
+WI  2021 CORE              439 DXPOA21                         1683 1683   Char Diagnosis 21, present on admission indicator
+WI  2021 CORE              440 DXPOA22                         1684 1684   Char Diagnosis 22, present on admission indicator
+WI  2021 CORE              441 DXPOA23                         1685 1685   Char Diagnosis 23, present on admission indicator
+WI  2021 CORE              442 DXPOA24                         1686 1686   Char Diagnosis 24, present on admission indicator
+WI  2021 CORE              443 DXPOA25                         1687 1687   Char Diagnosis 25, present on admission indicator
+WI  2021 CORE              444 DXPOA26                         1688 1688   Char Diagnosis 26, present on admission indicator
+WI  2021 CORE              445 DXPOA27                         1689 1689   Char Diagnosis 27, present on admission indicator
+WI  2021 CORE              446 DXPOA28                         1690 1690   Char Diagnosis 28, present on admission indicator
+WI  2021 CORE              447 DXPOA29                         1691 1691   Char Diagnosis 29, present on admission indicator
+WI  2021 CORE              448 DXPOA30                         1692 1692   Char Diagnosis 30, present on admission indicator
+WI  2021 CORE              449 DXPOA31                         1693 1693   Char Diagnosis 31, present on admission indicator
+WI  2021 CORE              450 DXPOA32                         1694 1694   Char Diagnosis 32, present on admission indicator
+WI  2021 CORE              451 DXPOA33                         1695 1695   Char Diagnosis 33, present on admission indicator
+WI  2021 CORE              452 DXPOA34                         1696 1696   Char Diagnosis 34, present on admission indicator
+WI  2021 CORE              453 DXPOA35                         1697 1697   Char Diagnosis 35, present on admission indicator
+WI  2021 CORE              454 DXPOA36                         1698 1698   Char Diagnosis 36, present on admission indicator
+WI  2021 CORE              455 DXPOA37                         1699 1699   Char Diagnosis 37, present on admission indicator
+WI  2021 CORE              456 DXPOA38                         1700 1700   Char Diagnosis 38, present on admission indicator
+WI  2021 CORE              457 DXPOA39                         1701 1701   Char Diagnosis 39, present on admission indicator
+WI  2021 CORE              458 DXPOA40                         1702 1702   Char Diagnosis 40, present on admission indicator
+WI  2021 CORE              459 DXPOA41                         1703 1703   Char Diagnosis 41, present on admission indicator
+WI  2021 CORE              460 DXPOA42                         1704 1704   Char Diagnosis 42, present on admission indicator
+WI  2021 CORE              461 DXPOA43                         1705 1705   Char Diagnosis 43, present on admission indicator
+WI  2021 CORE              462 DXPOA44                         1706 1706   Char Diagnosis 44, present on admission indicator
+WI  2021 CORE              463 DXPOA45                         1707 1707   Char Diagnosis 45, present on admission indicator
+WI  2021 CORE              464 DXPOA46                         1708 1708   Char Diagnosis 46, present on admission indicator
+WI  2021 CORE              465 DXPOA47                         1709 1709   Char Diagnosis 47, present on admission indicator
+WI  2021 CORE              466 DXPOA48                         1710 1710   Char Diagnosis 48, present on admission indicator
+WI  2021 CORE              467 DXPOA49                         1711 1711   Char Diagnosis 49, present on admission indicator
+WI  2021 CORE              468 DXPOA50                         1712 1712   Char Diagnosis 50, present on admission indicator
+WI  2021 CORE              469 DXPOA51                         1713 1713   Char Diagnosis 51, present on admission indicator
+WI  2021 CORE              470 DXPOA52                         1714 1714   Char Diagnosis 52, present on admission indicator
+WI  2021 CORE              471 DXPOA53                         1715 1715   Char Diagnosis 53, present on admission indicator
+WI  2021 CORE              472 DXPOA54                         1716 1716   Char Diagnosis 54, present on admission indicator
+WI  2021 CORE              473 DXPOA55                         1717 1717   Char Diagnosis 55, present on admission indicator
+WI  2021 CORE              474 DXPOA56                         1718 1718   Char Diagnosis 56, present on admission indicator
+WI  2021 CORE              475 FEMALE                          1719 1720   Num  Indicator of sex
+WI  2021 CORE              476 HCUP_ED                         1721 1722   Num  HCUP Emergency Department service indicator
+WI  2021 CORE              477 HCUP_OS                         1723 1724   Num  HCUP Observation Stay service indicator
+WI  2021 CORE              478 HISPANIC                        1725 1726   Num  Hispanic ethnicity (uniform)
+WI  2021 CORE              479 HISPANIC_X                      1727 1727   Char Hispanic ethnicity (as received from source)
+WI  2021 CORE              480 Homeless                        1728 1729   Num  Indicator that patient is homeless
+WI  2021 CORE              481 HOSP_NPI                        1730 1739   Char Hospital NPI
+WI  2021 CORE              482 HOSPST                          1740 1741   Char Hospital state postal code
+WI  2021 CORE              483 I10_BIRTH                       1742 1744   Num  ICD-10-CM Birth Indicator
+WI  2021 CORE              484 I10_DELIVERY                    1745 1747   Num  ICD-10-CM Delivery Indicator
+WI  2021 CORE              485 I10_DX_Admitting                1748 1754   Char ICD-10-CM Admitting Diagnosis Code
+WI  2021 CORE              486 I10_DX1                         1755 1761   Char ICD-10-CM Diagnosis 1
+WI  2021 CORE              487 I10_DX2                         1762 1768   Char ICD-10-CM Diagnosis 2
+WI  2021 CORE              488 I10_DX3                         1769 1775   Char ICD-10-CM Diagnosis 3
+WI  2021 CORE              489 I10_DX4                         1776 1782   Char ICD-10-CM Diagnosis 4
+WI  2021 CORE              490 I10_DX5                         1783 1789   Char ICD-10-CM Diagnosis 5
+WI  2021 CORE              491 I10_DX6                         1790 1796   Char ICD-10-CM Diagnosis 6
+WI  2021 CORE              492 I10_DX7                         1797 1803   Char ICD-10-CM Diagnosis 7
+WI  2021 CORE              493 I10_DX8                         1804 1810   Char ICD-10-CM Diagnosis 8
+WI  2021 CORE              494 I10_DX9                         1811 1817   Char ICD-10-CM Diagnosis 9
+WI  2021 CORE              495 I10_DX10                        1818 1824   Char ICD-10-CM Diagnosis 10
+WI  2021 CORE              496 I10_DX11                        1825 1831   Char ICD-10-CM Diagnosis 11
+WI  2021 CORE              497 I10_DX12                        1832 1838   Char ICD-10-CM Diagnosis 12
+WI  2021 CORE              498 I10_DX13                        1839 1845   Char ICD-10-CM Diagnosis 13
+WI  2021 CORE              499 I10_DX14                        1846 1852   Char ICD-10-CM Diagnosis 14
+WI  2021 CORE              500 I10_DX15                        1853 1859   Char ICD-10-CM Diagnosis 15
+WI  2021 CORE              501 I10_DX16                        1860 1866   Char ICD-10-CM Diagnosis 16
+WI  2021 CORE              502 I10_DX17                        1867 1873   Char ICD-10-CM Diagnosis 17
+WI  2021 CORE              503 I10_DX18                        1874 1880   Char ICD-10-CM Diagnosis 18
+WI  2021 CORE              504 I10_DX19                        1881 1887   Char ICD-10-CM Diagnosis 19
+WI  2021 CORE              505 I10_DX20                        1888 1894   Char ICD-10-CM Diagnosis 20
+WI  2021 CORE              506 I10_DX21                        1895 1901   Char ICD-10-CM Diagnosis 21
+WI  2021 CORE              507 I10_DX22                        1902 1908   Char ICD-10-CM Diagnosis 22
+WI  2021 CORE              508 I10_DX23                        1909 1915   Char ICD-10-CM Diagnosis 23
+WI  2021 CORE              509 I10_DX24                        1916 1922   Char ICD-10-CM Diagnosis 24
+WI  2021 CORE              510 I10_DX25                        1923 1929   Char ICD-10-CM Diagnosis 25
+WI  2021 CORE              511 I10_DX26                        1930 1936   Char ICD-10-CM Diagnosis 26
+WI  2021 CORE              512 I10_DX27                        1937 1943   Char ICD-10-CM Diagnosis 27
+WI  2021 CORE              513 I10_DX28                        1944 1950   Char ICD-10-CM Diagnosis 28
+WI  2021 CORE              514 I10_DX29                        1951 1957   Char ICD-10-CM Diagnosis 29
+WI  2021 CORE              515 I10_DX30                        1958 1964   Char ICD-10-CM Diagnosis 30
+WI  2021 CORE              516 I10_DX31                        1965 1971   Char ICD-10-CM Diagnosis 31
+WI  2021 CORE              517 I10_DX32                        1972 1978   Char ICD-10-CM Diagnosis 32
+WI  2021 CORE              518 I10_DX33                        1979 1985   Char ICD-10-CM Diagnosis 33
+WI  2021 CORE              519 I10_DX34                        1986 1992   Char ICD-10-CM Diagnosis 34
+WI  2021 CORE              520 I10_DX35                        1993 1999   Char ICD-10-CM Diagnosis 35
+WI  2021 CORE              521 I10_DX36                        2000 2006   Char ICD-10-CM Diagnosis 36
+WI  2021 CORE              522 I10_DX37                        2007 2013   Char ICD-10-CM Diagnosis 37
+WI  2021 CORE              523 I10_DX38                        2014 2020   Char ICD-10-CM Diagnosis 38
+WI  2021 CORE              524 I10_DX39                        2021 2027   Char ICD-10-CM Diagnosis 39
+WI  2021 CORE              525 I10_DX40                        2028 2034   Char ICD-10-CM Diagnosis 40
+WI  2021 CORE              526 I10_DX41                        2035 2041   Char ICD-10-CM Diagnosis 41
+WI  2021 CORE              527 I10_DX42                        2042 2048   Char ICD-10-CM Diagnosis 42
+WI  2021 CORE              528 I10_DX43                        2049 2055   Char ICD-10-CM Diagnosis 43
+WI  2021 CORE              529 I10_DX44                        2056 2062   Char ICD-10-CM Diagnosis 44
+WI  2021 CORE              530 I10_DX45                        2063 2069   Char ICD-10-CM Diagnosis 45
+WI  2021 CORE              531 I10_DX46                        2070 2076   Char ICD-10-CM Diagnosis 46
+WI  2021 CORE              532 I10_DX47                        2077 2083   Char ICD-10-CM Diagnosis 47
+WI  2021 CORE              533 I10_DX48                        2084 2090   Char ICD-10-CM Diagnosis 48
+WI  2021 CORE              534 I10_DX49                        2091 2097   Char ICD-10-CM Diagnosis 49
+WI  2021 CORE              535 I10_DX50                        2098 2104   Char ICD-10-CM Diagnosis 50
+WI  2021 CORE              536 I10_DX51                        2105 2111   Char ICD-10-CM Diagnosis 51
+WI  2021 CORE              537 I10_DX52                        2112 2118   Char ICD-10-CM Diagnosis 52
+WI  2021 CORE              538 I10_DX53                        2119 2125   Char ICD-10-CM Diagnosis 53
+WI  2021 CORE              539 I10_DX54                        2126 2132   Char ICD-10-CM Diagnosis 54
+WI  2021 CORE              540 I10_DX55                        2133 2139   Char ICD-10-CM Diagnosis 55
+WI  2021 CORE              541 I10_DX56                        2140 2146   Char ICD-10-CM Diagnosis 56
+WI  2021 CORE              542 I10_NDX                         2147 2149   Num  ICD-10-CM Number of diagnoses on this record
+WI  2021 CORE              543 I10_NPR                         2150 2152   Num  ICD-10-PCS Number of procedures on this record
+WI  2021 CORE              544 I10_PR1                         2153 2159   Char ICD-10-PCS Procedure 1
+WI  2021 CORE              545 I10_PR2                         2160 2166   Char ICD-10-PCS Procedure 2
+WI  2021 CORE              546 I10_PR3                         2167 2173   Char ICD-10-PCS Procedure 3
+WI  2021 CORE              547 I10_PR4                         2174 2180   Char ICD-10-PCS Procedure 4
+WI  2021 CORE              548 I10_PR5                         2181 2187   Char ICD-10-PCS Procedure 5
+WI  2021 CORE              549 I10_PR6                         2188 2194   Char ICD-10-PCS Procedure 6
+WI  2021 CORE              550 I10_PR7                         2195 2201   Char ICD-10-PCS Procedure 7
+WI  2021 CORE              551 I10_PR8                         2202 2208   Char ICD-10-PCS Procedure 8
+WI  2021 CORE              552 I10_PR9                         2209 2215   Char ICD-10-PCS Procedure 9
+WI  2021 CORE              553 I10_PR10                        2216 2222   Char ICD-10-PCS Procedure 10
+WI  2021 CORE              554 I10_PR11                        2223 2229   Char ICD-10-PCS Procedure 11
+WI  2021 CORE              555 I10_PR12                        2230 2236   Char ICD-10-PCS Procedure 12
+WI  2021 CORE              556 I10_PR13                        2237 2243   Char ICD-10-PCS Procedure 13
+WI  2021 CORE              557 I10_PR14                        2244 2250   Char ICD-10-PCS Procedure 14
+WI  2021 CORE              558 I10_PR15                        2251 2257   Char ICD-10-PCS Procedure 15
+WI  2021 CORE              559 I10_PR16                        2258 2264   Char ICD-10-PCS Procedure 16
+WI  2021 CORE              560 I10_PR17                        2265 2271   Char ICD-10-PCS Procedure 17
+WI  2021 CORE              561 I10_PR18                        2272 2278   Char ICD-10-PCS Procedure 18
+WI  2021 CORE              562 I10_PR19                        2279 2285   Char ICD-10-PCS Procedure 19
+WI  2021 CORE              563 I10_PR20                        2286 2292   Char ICD-10-PCS Procedure 20
+WI  2021 CORE              564 I10_PR21                        2293 2299   Char ICD-10-PCS Procedure 21
+WI  2021 CORE              565 I10_PR22                        2300 2306   Char ICD-10-PCS Procedure 22
+WI  2021 CORE              566 I10_PR23                        2307 2313   Char ICD-10-PCS Procedure 23
+WI  2021 CORE              567 I10_PR24                        2314 2320   Char ICD-10-PCS Procedure 24
+WI  2021 CORE              568 I10_PR25                        2321 2327   Char ICD-10-PCS Procedure 25
+WI  2021 CORE              569 I10_PROCTYPE                    2328 2330   Num  ICD-10-PCS Procedure type indicator
+WI  2021 CORE              570 I10_SERVICELINE                 2331 2332   Num  ICD-10-CM/PCS Hospital Service Line
+WI  2021 CORE              571 KEY                             2333 2347   Num  HCUP record identifier
+WI  2021 CORE              572 LOS                             2348 2352   Num  Length of stay (cleaned)
+WI  2021 CORE              573 LOS_X                           2353 2358   Num  Length of stay (as received from source)
+WI  2021 CORE              574 MDC                             2359 2360   Num  MDC in effect on discharge date
+WI  2021 CORE              575 MDC_NoPOA                       2361 2362   Num  MDC in use on discharge date, calculated without POA
+WI  2021 CORE              576 MDSPEC1                         2363 2365   Char Physician 1 specialty (as received from source)
+WI  2021 CORE              577 MDSPEC2                         2366 2368   Char Physician 2 specialty (as received from source)
+WI  2021 CORE              578 MEDINCSTQ                       2369 2370   Num  Median household income state quartile for patient ZIP Code
+WI  2021 CORE              579 MRN_R                           2371 2379   Num  Medical record number (re-identified)
+WI  2021 CORE              580 NCPT                            2380 2383   Num  Number of CPT/HCPCS procedures for this visit
+WI  2021 CORE              581 OS_TIME                         2384 23942  Num  Observation stay time summed from UNITS
+WI  2021 CORE              582 PAY1                            2395 2396   Num  Primary expected payer (uniform)
+WI  2021 CORE              583 PAY1_X                          2397 2401   Char Primary expected payer (as received from source)
+WI  2021 CORE              584 PAY2                            2402 2403   Num  Secondary expected payer (uniform)
+WI  2021 CORE              585 PAY2_X                          2404 2408   Char Secondary expected payer (as received from source)
+WI  2021 CORE              586 PCLASS_ORPROC                   2409 2410   Num  Indicates operating room (major diagnostic or therapeutic) procedure on the record
+WI  2021 CORE              587 PL_CBSA                         2411 2413   Num  Patient location: Core Based Statistical Area (CBSA)
+WI  2021 CORE              588 PL_NCHS                         2414 2415   Num  Patient Location: NCHS Urban-Rural Code
+WI  2021 CORE              589 PL_RUCC                         2416 2417   Num  Patient location: Rural-Urban Continuum Codes (RUCC)
+WI  2021 CORE              590 PL_UIC                          2418 2419   Num  Patient location: Urban Influence Codes
+WI  2021 CORE              591 PL_UR_CAT4                      2420 2421   Num  Patient Location: Urban-Rural 4 Categories
+WI  2021 CORE              592 POA_Disch_Edit1                 2422 2423   Num  Discharge has POA missing on all nonexempt diagnoses
+WI  2021 CORE              593 POA_Disch_Edit2                 2424 2425   Num  Discharge has POA missing on all nonexempt secondary diagnoses
+WI  2021 CORE              594 POA_Hosp_Edit1                  2426 2427   Num  Hospital reported POA as Y on all diagnoses on all discharges
+WI  2021 CORE              595 POA_Hosp_Edit2                  2428 2429   Num  Hospital reported POA as missing on all non-Medicare discharges
+WI  2021 CORE              596 POA_Hosp_Edit3                  2430 2431   Num  Hospital reported POA as missing on all nonexempt diagnoses for 15% or more of discharges
+WI  2021 CORE              597 POA_Hosp_Edit3_Value            2432 24392  Num  Percentage of discharges with all nonexempt diagnoses missing POA indicators
+WI  2021 CORE              598 PointOfOrigin_X                 2440 2440   Char Point of origin for admission or visit, as received from source
+WI  2021 CORE              599 PointOfOriginUB04               2441 2441   Char Point of origin for admission or visit, UB-04 standard coding
+WI  2021 CORE              600 PRDAY1                          2442 2446   Num  Number of days from admission to I10_PR1
+WI  2021 CORE              601 PSTATE                          2447 2448   Char Patient State postal code
+WI  2021 CORE              602 PSTATE_GEO                      2449 2450   Char Patient State postal code assigned from ZIP Code
+WI  2021 CORE              603 PSTCO                           2451 2455   Num  Patient state/county FIPS code
+WI  2021 CORE              604 PSTCO_GEO                       2456 2460   Num  Counties assigned based on ZIP Code geographic centroids
+WI  2021 CORE              605 RACE                            2461 2462   Num  Race (uniform)
+WI  2021 CORE              606 RACE_PCT_MISS_HOSP              2463 24692  Num  Hospital percentage of missing or invalid race values
+WI  2021 CORE              607 RACE_X                          2470 2471   Char Race (as received from source)
+WI  2021 CORE              608 TOTCHG                          2472 2481   Num  Total charges (cleaned)
+WI  2021 CORE              609 TOTCHG_X                        2482 24962  Num  Total charges (as received from source)
+WI  2021 CORE              610 TRAN_IN                         2497 2498   Num  Transfer in indicator
+WI  2021 CORE              611 TRAN_OUT                        2499 2500   Num  Transfer out indicator
+WI  2021 CORE              612 VisitLink                       2501 2509   Num  Visit linkage variable
+WI  2021 CORE              613 YEAR                            2510 2513   Num  Calendar year
+WI  2021 CORE              614 ZIP                             2514 2518   Char Patient ZIP Code
+WI  2021 CORE              615 ZIP3                            2519 2521   Char Patient ZIP Code, first 3 digits
+WI  2021 CORE              616 ZIPINC_QRTL                     2522 2524   Num  Median household income national quartile for patient ZIP Code
+WI  2021 CORE              617 AYEAR                           2525 2528   Num  Admission year
+WI  2021 CORE              618 BMONTH                          2529 2530   Num  Birth month
+WI  2021 CORE              619 BYEAR                           2531 2534   Num  Birth year
+WI  2021 CORE              620 PRMONTH1                        2535 2536   Num  Month of procedure 1
+WI  2021 CORE              621 PRYEAR1                         2537 2540   Num  Year of procedure 1

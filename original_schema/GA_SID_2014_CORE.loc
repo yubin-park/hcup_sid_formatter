@@ -1,0 +1,690 @@
+Data Set Name: GA_SIDC_2014_CORE               
+Number of Observations: 1044001
+Total Record Length: 2634
+Total Number of Variables: 669
+Creation Date: 11/30/2017   
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 61    Variable name
+63- 66    Starting column of variable in ASCII file
+68- 71    Ending column of variable in ASCII file
+73- 73    Non-zero number of digits after decimal point for numeric variable
+75- 78    Variable type (Num=numeric; Char=character)
+80-179    Variable label
+
+
+GA  2014 CORE               1 AGE                                1    3   Num  Age in years at admission
+GA  2014 CORE               2 AGEDAY                             4    6   Num  Age in days (when age < 1 year)
+GA  2014 CORE               3 AGEMONTH                           7    9   Num  Age in months (when age < 11 years)
+GA  2014 CORE               4 AMONTH                            10   11   Num  Admission month
+GA  2014 CORE               5 ATYPE                             12   13   Num  Admission type
+GA  2014 CORE               6 AWEEKEND                          14   15   Num  Admission day is a weekend
+GA  2014 CORE               7 BILLTYPE                          16   19   Char Type of bill, UB-04 coding
+GA  2014 CORE               8 BWT                               20   23   Num  Birth weight in grams
+GA  2014 CORE               9 CPT1                              24   28   Char CPT/HCPCS procedure code 1
+GA  2014 CORE              10 CPT2                              29   33   Char CPT/HCPCS procedure code 2
+GA  2014 CORE              11 CPT3                              34   38   Char CPT/HCPCS procedure code 3
+GA  2014 CORE              12 CPT4                              39   43   Char CPT/HCPCS procedure code 4
+GA  2014 CORE              13 CPT5                              44   48   Char CPT/HCPCS procedure code 5
+GA  2014 CORE              14 CPT6                              49   53   Char CPT/HCPCS procedure code 6
+GA  2014 CORE              15 CPT7                              54   58   Char CPT/HCPCS procedure code 7
+GA  2014 CORE              16 CPT8                              59   63   Char CPT/HCPCS procedure code 8
+GA  2014 CORE              17 CPT9                              64   68   Char CPT/HCPCS procedure code 9
+GA  2014 CORE              18 CPT10                             69   73   Char CPT/HCPCS procedure code 10
+GA  2014 CORE              19 CPT11                             74   78   Char CPT/HCPCS procedure code 11
+GA  2014 CORE              20 CPT12                             79   83   Char CPT/HCPCS procedure code 12
+GA  2014 CORE              21 CPT13                             84   88   Char CPT/HCPCS procedure code 13
+GA  2014 CORE              22 CPT14                             89   93   Char CPT/HCPCS procedure code 14
+GA  2014 CORE              23 CPT15                             94   98   Char CPT/HCPCS procedure code 15
+GA  2014 CORE              24 CPT16                             99  103   Char CPT/HCPCS procedure code 16
+GA  2014 CORE              25 CPT17                            104  108   Char CPT/HCPCS procedure code 17
+GA  2014 CORE              26 CPT18                            109  113   Char CPT/HCPCS procedure code 18
+GA  2014 CORE              27 CPT19                            114  118   Char CPT/HCPCS procedure code 19
+GA  2014 CORE              28 CPT20                            119  123   Char CPT/HCPCS procedure code 20
+GA  2014 CORE              29 CPT21                            124  128   Char CPT/HCPCS procedure code 21
+GA  2014 CORE              30 CPT22                            129  133   Char CPT/HCPCS procedure code 22
+GA  2014 CORE              31 CPT23                            134  138   Char CPT/HCPCS procedure code 23
+GA  2014 CORE              32 CPT24                            139  143   Char CPT/HCPCS procedure code 24
+GA  2014 CORE              33 CPT25                            144  148   Char CPT/HCPCS procedure code 25
+GA  2014 CORE              34 CPT26                            149  153   Char CPT/HCPCS procedure code 26
+GA  2014 CORE              35 CPT27                            154  158   Char CPT/HCPCS procedure code 27
+GA  2014 CORE              36 CPT28                            159  163   Char CPT/HCPCS procedure code 28
+GA  2014 CORE              37 CPT29                            164  168   Char CPT/HCPCS procedure code 29
+GA  2014 CORE              38 CPT30                            169  173   Char CPT/HCPCS procedure code 30
+GA  2014 CORE              39 CPT31                            174  178   Char CPT/HCPCS procedure code 31
+GA  2014 CORE              40 CPT32                            179  183   Char CPT/HCPCS procedure code 32
+GA  2014 CORE              41 CPT33                            184  188   Char CPT/HCPCS procedure code 33
+GA  2014 CORE              42 CPT34                            189  193   Char CPT/HCPCS procedure code 34
+GA  2014 CORE              43 CPT35                            194  198   Char CPT/HCPCS procedure code 35
+GA  2014 CORE              44 CPT36                            199  203   Char CPT/HCPCS procedure code 36
+GA  2014 CORE              45 CPT37                            204  208   Char CPT/HCPCS procedure code 37
+GA  2014 CORE              46 CPT38                            209  213   Char CPT/HCPCS procedure code 38
+GA  2014 CORE              47 CPT39                            214  218   Char CPT/HCPCS procedure code 39
+GA  2014 CORE              48 CPT40                            219  223   Char CPT/HCPCS procedure code 40
+GA  2014 CORE              49 CPT41                            224  228   Char CPT/HCPCS procedure code 41
+GA  2014 CORE              50 CPT42                            229  233   Char CPT/HCPCS procedure code 42
+GA  2014 CORE              51 CPT43                            234  238   Char CPT/HCPCS procedure code 43
+GA  2014 CORE              52 CPT44                            239  243   Char CPT/HCPCS procedure code 44
+GA  2014 CORE              53 CPT45                            244  248   Char CPT/HCPCS procedure code 45
+GA  2014 CORE              54 CPT46                            249  253   Char CPT/HCPCS procedure code 46
+GA  2014 CORE              55 CPT47                            254  258   Char CPT/HCPCS procedure code 47
+GA  2014 CORE              56 CPT48                            259  263   Char CPT/HCPCS procedure code 48
+GA  2014 CORE              57 CPT49                            264  268   Char CPT/HCPCS procedure code 49
+GA  2014 CORE              58 CPT50                            269  273   Char CPT/HCPCS procedure code 50
+GA  2014 CORE              59 CPTCCS1                          274  276   Num  CCS: CPT 1
+GA  2014 CORE              60 CPTCCS2                          277  279   Num  CCS: CPT 2
+GA  2014 CORE              61 CPTCCS3                          280  282   Num  CCS: CPT 3
+GA  2014 CORE              62 CPTCCS4                          283  285   Num  CCS: CPT 4
+GA  2014 CORE              63 CPTCCS5                          286  288   Num  CCS: CPT 5
+GA  2014 CORE              64 CPTCCS6                          289  291   Num  CCS: CPT 6
+GA  2014 CORE              65 CPTCCS7                          292  294   Num  CCS: CPT 7
+GA  2014 CORE              66 CPTCCS8                          295  297   Num  CCS: CPT 8
+GA  2014 CORE              67 CPTCCS9                          298  300   Num  CCS: CPT 9
+GA  2014 CORE              68 CPTCCS10                         301  303   Num  CCS: CPT 10
+GA  2014 CORE              69 CPTCCS11                         304  306   Num  CCS: CPT 11
+GA  2014 CORE              70 CPTCCS12                         307  309   Num  CCS: CPT 12
+GA  2014 CORE              71 CPTCCS13                         310  312   Num  CCS: CPT 13
+GA  2014 CORE              72 CPTCCS14                         313  315   Num  CCS: CPT 14
+GA  2014 CORE              73 CPTCCS15                         316  318   Num  CCS: CPT 15
+GA  2014 CORE              74 CPTCCS16                         319  321   Num  CCS: CPT 16
+GA  2014 CORE              75 CPTCCS17                         322  324   Num  CCS: CPT 17
+GA  2014 CORE              76 CPTCCS18                         325  327   Num  CCS: CPT 18
+GA  2014 CORE              77 CPTCCS19                         328  330   Num  CCS: CPT 19
+GA  2014 CORE              78 CPTCCS20                         331  333   Num  CCS: CPT 20
+GA  2014 CORE              79 CPTCCS21                         334  336   Num  CCS: CPT 21
+GA  2014 CORE              80 CPTCCS22                         337  339   Num  CCS: CPT 22
+GA  2014 CORE              81 CPTCCS23                         340  342   Num  CCS: CPT 23
+GA  2014 CORE              82 CPTCCS24                         343  345   Num  CCS: CPT 24
+GA  2014 CORE              83 CPTCCS25                         346  348   Num  CCS: CPT 25
+GA  2014 CORE              84 CPTCCS26                         349  351   Num  CCS: CPT 26
+GA  2014 CORE              85 CPTCCS27                         352  354   Num  CCS: CPT 27
+GA  2014 CORE              86 CPTCCS28                         355  357   Num  CCS: CPT 28
+GA  2014 CORE              87 CPTCCS29                         358  360   Num  CCS: CPT 29
+GA  2014 CORE              88 CPTCCS30                         361  363   Num  CCS: CPT 30
+GA  2014 CORE              89 CPTCCS31                         364  366   Num  CCS: CPT 31
+GA  2014 CORE              90 CPTCCS32                         367  369   Num  CCS: CPT 32
+GA  2014 CORE              91 CPTCCS33                         370  372   Num  CCS: CPT 33
+GA  2014 CORE              92 CPTCCS34                         373  375   Num  CCS: CPT 34
+GA  2014 CORE              93 CPTCCS35                         376  378   Num  CCS: CPT 35
+GA  2014 CORE              94 CPTCCS36                         379  381   Num  CCS: CPT 36
+GA  2014 CORE              95 CPTCCS37                         382  384   Num  CCS: CPT 37
+GA  2014 CORE              96 CPTCCS38                         385  387   Num  CCS: CPT 38
+GA  2014 CORE              97 CPTCCS39                         388  390   Num  CCS: CPT 39
+GA  2014 CORE              98 CPTCCS40                         391  393   Num  CCS: CPT 40
+GA  2014 CORE              99 CPTCCS41                         394  396   Num  CCS: CPT 41
+GA  2014 CORE             100 CPTCCS42                         397  399   Num  CCS: CPT 42
+GA  2014 CORE             101 CPTCCS43                         400  402   Num  CCS: CPT 43
+GA  2014 CORE             102 CPTCCS44                         403  405   Num  CCS: CPT 44
+GA  2014 CORE             103 CPTCCS45                         406  408   Num  CCS: CPT 45
+GA  2014 CORE             104 CPTCCS46                         409  411   Num  CCS: CPT 46
+GA  2014 CORE             105 CPTCCS47                         412  414   Num  CCS: CPT 47
+GA  2014 CORE             106 CPTCCS48                         415  417   Num  CCS: CPT 48
+GA  2014 CORE             107 CPTCCS49                         418  420   Num  CCS: CPT 49
+GA  2014 CORE             108 CPTCCS50                         421  423   Num  CCS: CPT 50
+GA  2014 CORE             109 CPTDAY1                          424  426   Num  Number of days from admission to CPT1
+GA  2014 CORE             110 CPTDAY2                          427  429   Num  Number of days from admission to CPT2
+GA  2014 CORE             111 CPTDAY3                          430  432   Num  Number of days from admission to CPT3
+GA  2014 CORE             112 CPTDAY4                          433  435   Num  Number of days from admission to CPT4
+GA  2014 CORE             113 CPTDAY5                          436  438   Num  Number of days from admission to CPT5
+GA  2014 CORE             114 CPTDAY6                          439  441   Num  Number of days from admission to CPT6
+GA  2014 CORE             115 CPTDAY7                          442  444   Num  Number of days from admission to CPT7
+GA  2014 CORE             116 CPTDAY8                          445  447   Num  Number of days from admission to CPT8
+GA  2014 CORE             117 CPTDAY9                          448  450   Num  Number of days from admission to CPT9
+GA  2014 CORE             118 CPTDAY10                         451  453   Num  Number of days from admission to CPT10
+GA  2014 CORE             119 CPTDAY11                         454  456   Num  Number of days from admission to CPT11
+GA  2014 CORE             120 CPTDAY12                         457  459   Num  Number of days from admission to CPT12
+GA  2014 CORE             121 CPTDAY13                         460  462   Num  Number of days from admission to CPT13
+GA  2014 CORE             122 CPTDAY14                         463  465   Num  Number of days from admission to CPT14
+GA  2014 CORE             123 CPTDAY15                         466  468   Num  Number of days from admission to CPT15
+GA  2014 CORE             124 CPTDAY16                         469  471   Num  Number of days from admission to CPT16
+GA  2014 CORE             125 CPTDAY17                         472  474   Num  Number of days from admission to CPT17
+GA  2014 CORE             126 CPTDAY18                         475  477   Num  Number of days from admission to CPT18
+GA  2014 CORE             127 CPTDAY19                         478  480   Num  Number of days from admission to CPT19
+GA  2014 CORE             128 CPTDAY20                         481  483   Num  Number of days from admission to CPT20
+GA  2014 CORE             129 CPTDAY21                         484  486   Num  Number of days from admission to CPT21
+GA  2014 CORE             130 CPTDAY22                         487  489   Num  Number of days from admission to CPT22
+GA  2014 CORE             131 CPTDAY23                         490  492   Num  Number of days from admission to CPT23
+GA  2014 CORE             132 CPTDAY24                         493  495   Num  Number of days from admission to CPT24
+GA  2014 CORE             133 CPTDAY25                         496  498   Num  Number of days from admission to CPT25
+GA  2014 CORE             134 CPTDAY26                         499  501   Num  Number of days from admission to CPT26
+GA  2014 CORE             135 CPTDAY27                         502  504   Num  Number of days from admission to CPT27
+GA  2014 CORE             136 CPTDAY28                         505  507   Num  Number of days from admission to CPT28
+GA  2014 CORE             137 CPTDAY29                         508  510   Num  Number of days from admission to CPT29
+GA  2014 CORE             138 CPTDAY30                         511  513   Num  Number of days from admission to CPT30
+GA  2014 CORE             139 CPTDAY31                         514  516   Num  Number of days from admission to CPT31
+GA  2014 CORE             140 CPTDAY32                         517  519   Num  Number of days from admission to CPT32
+GA  2014 CORE             141 CPTDAY33                         520  522   Num  Number of days from admission to CPT33
+GA  2014 CORE             142 CPTDAY34                         523  525   Num  Number of days from admission to CPT34
+GA  2014 CORE             143 CPTDAY35                         526  528   Num  Number of days from admission to CPT35
+GA  2014 CORE             144 CPTDAY36                         529  531   Num  Number of days from admission to CPT36
+GA  2014 CORE             145 CPTDAY37                         532  534   Num  Number of days from admission to CPT37
+GA  2014 CORE             146 CPTDAY38                         535  537   Num  Number of days from admission to CPT38
+GA  2014 CORE             147 CPTDAY39                         538  540   Num  Number of days from admission to CPT39
+GA  2014 CORE             148 CPTDAY40                         541  543   Num  Number of days from admission to CPT40
+GA  2014 CORE             149 CPTDAY41                         544  546   Num  Number of days from admission to CPT41
+GA  2014 CORE             150 CPTDAY42                         547  549   Num  Number of days from admission to CPT42
+GA  2014 CORE             151 CPTDAY43                         550  552   Num  Number of days from admission to CPT43
+GA  2014 CORE             152 CPTDAY44                         553  555   Num  Number of days from admission to CPT44
+GA  2014 CORE             153 CPTDAY45                         556  558   Num  Number of days from admission to CPT45
+GA  2014 CORE             154 CPTDAY46                         559  561   Num  Number of days from admission to CPT46
+GA  2014 CORE             155 CPTDAY47                         562  564   Num  Number of days from admission to CPT47
+GA  2014 CORE             156 CPTDAY48                         565  567   Num  Number of days from admission to CPT48
+GA  2014 CORE             157 CPTDAY49                         568  570   Num  Number of days from admission to CPT49
+GA  2014 CORE             158 CPTDAY50                         571  573   Num  Number of days from admission to CPT50
+GA  2014 CORE             159 DIED                             574  575   Num  Died during hospitalization
+GA  2014 CORE             160 DISPUB04                         576  577   Num  Disposition of patient (UB-04 standard coding)
+GA  2014 CORE             161 DISPUNIFORM                      578  579   Num  Disposition of patient (uniform)
+GA  2014 CORE             162 DISP_X                           580  581   Char Disposition of patient (as received from source)
+GA  2014 CORE             163 DMONTH                           582  583   Num  Discharge month
+GA  2014 CORE             164 DQTR                             584  585   Num  Discharge quarter
+GA  2014 CORE             165 DRG                              586  588   Num  DRG in effect on discharge date
+GA  2014 CORE             166 DRG24                            589  591   Num  DRG, version 24
+GA  2014 CORE             167 DRGVER                           592  593   Num  DRG grouper version used on discharge date
+GA  2014 CORE             168 DRG_NoPOA                        594  596   Num  DRG in use on discharge date, calculated without POA
+GA  2014 CORE             169 DX1                              597  603   Char Diagnosis 1
+GA  2014 CORE             170 DX2                              604  610   Char Diagnosis 2
+GA  2014 CORE             171 DX3                              611  617   Char Diagnosis 3
+GA  2014 CORE             172 DX4                              618  624   Char Diagnosis 4
+GA  2014 CORE             173 DX5                              625  631   Char Diagnosis 5
+GA  2014 CORE             174 DX6                              632  638   Char Diagnosis 6
+GA  2014 CORE             175 DX7                              639  645   Char Diagnosis 7
+GA  2014 CORE             176 DX8                              646  652   Char Diagnosis 8
+GA  2014 CORE             177 DX9                              653  659   Char Diagnosis 9
+GA  2014 CORE             178 DX10                             660  666   Char Diagnosis 10
+GA  2014 CORE             179 DX11                             667  673   Char Diagnosis 11
+GA  2014 CORE             180 DX12                             674  680   Char Diagnosis 12
+GA  2014 CORE             181 DX13                             681  687   Char Diagnosis 13
+GA  2014 CORE             182 DX14                             688  694   Char Diagnosis 14
+GA  2014 CORE             183 DX15                             695  701   Char Diagnosis 15
+GA  2014 CORE             184 DX16                             702  708   Char Diagnosis 16
+GA  2014 CORE             185 DX17                             709  715   Char Diagnosis 17
+GA  2014 CORE             186 DX18                             716  722   Char Diagnosis 18
+GA  2014 CORE             187 DX19                             723  729   Char Diagnosis 19
+GA  2014 CORE             188 DX20                             730  736   Char Diagnosis 20
+GA  2014 CORE             189 DX21                             737  743   Char Diagnosis 21
+GA  2014 CORE             190 DX22                             744  750   Char Diagnosis 22
+GA  2014 CORE             191 DX23                             751  757   Char Diagnosis 23
+GA  2014 CORE             192 DX24                             758  764   Char Diagnosis 24
+GA  2014 CORE             193 DX25                             765  771   Char Diagnosis 25
+GA  2014 CORE             194 DX26                             772  778   Char Diagnosis 26
+GA  2014 CORE             195 DX27                             779  785   Char Diagnosis 27
+GA  2014 CORE             196 DX28                             786  792   Char Diagnosis 28
+GA  2014 CORE             197 DX29                             793  799   Char Diagnosis 29
+GA  2014 CORE             198 DX30                             800  806   Char Diagnosis 30
+GA  2014 CORE             199 DX31                             807  813   Char Diagnosis 31
+GA  2014 CORE             200 DX32                             814  820   Char Diagnosis 32
+GA  2014 CORE             201 DX33                             821  827   Char Diagnosis 33
+GA  2014 CORE             202 DX34                             828  834   Char Diagnosis 34
+GA  2014 CORE             203 DX35                             835  841   Char Diagnosis 35
+GA  2014 CORE             204 DX36                             842  848   Char Diagnosis 36
+GA  2014 CORE             205 DX37                             849  855   Char Diagnosis 37
+GA  2014 CORE             206 DX38                             856  862   Char Diagnosis 38
+GA  2014 CORE             207 DX39                             863  869   Char Diagnosis 39
+GA  2014 CORE             208 DX40                             870  876   Char Diagnosis 40
+GA  2014 CORE             209 DX41                             877  883   Char Diagnosis 41
+GA  2014 CORE             210 DX42                             884  890   Char Diagnosis 42
+GA  2014 CORE             211 DX43                             891  897   Char Diagnosis 43
+GA  2014 CORE             212 DX44                             898  904   Char Diagnosis 44
+GA  2014 CORE             213 DX45                             905  911   Char Diagnosis 45
+GA  2014 CORE             214 DX46                             912  918   Char Diagnosis 46
+GA  2014 CORE             215 DX47                             919  925   Char Diagnosis 47
+GA  2014 CORE             216 DX48                             926  932   Char Diagnosis 48
+GA  2014 CORE             217 DX49                             933  939   Char Diagnosis 49
+GA  2014 CORE             218 DX50                             940  946   Char Diagnosis 50
+GA  2014 CORE             219 DXCCS1                           947  950   Num  CCS: diagnosis 1
+GA  2014 CORE             220 DXCCS2                           951  954   Num  CCS: diagnosis 2
+GA  2014 CORE             221 DXCCS3                           955  958   Num  CCS: diagnosis 3
+GA  2014 CORE             222 DXCCS4                           959  962   Num  CCS: diagnosis 4
+GA  2014 CORE             223 DXCCS5                           963  966   Num  CCS: diagnosis 5
+GA  2014 CORE             224 DXCCS6                           967  970   Num  CCS: diagnosis 6
+GA  2014 CORE             225 DXCCS7                           971  974   Num  CCS: diagnosis 7
+GA  2014 CORE             226 DXCCS8                           975  978   Num  CCS: diagnosis 8
+GA  2014 CORE             227 DXCCS9                           979  982   Num  CCS: diagnosis 9
+GA  2014 CORE             228 DXCCS10                          983  986   Num  CCS: diagnosis 10
+GA  2014 CORE             229 DXCCS11                          987  990   Num  CCS: diagnosis 11
+GA  2014 CORE             230 DXCCS12                          991  994   Num  CCS: diagnosis 12
+GA  2014 CORE             231 DXCCS13                          995  998   Num  CCS: diagnosis 13
+GA  2014 CORE             232 DXCCS14                          999 1002   Num  CCS: diagnosis 14
+GA  2014 CORE             233 DXCCS15                         1003 1006   Num  CCS: diagnosis 15
+GA  2014 CORE             234 DXCCS16                         1007 1010   Num  CCS: diagnosis 16
+GA  2014 CORE             235 DXCCS17                         1011 1014   Num  CCS: diagnosis 17
+GA  2014 CORE             236 DXCCS18                         1015 1018   Num  CCS: diagnosis 18
+GA  2014 CORE             237 DXCCS19                         1019 1022   Num  CCS: diagnosis 19
+GA  2014 CORE             238 DXCCS20                         1023 1026   Num  CCS: diagnosis 20
+GA  2014 CORE             239 DXCCS21                         1027 1030   Num  CCS: diagnosis 21
+GA  2014 CORE             240 DXCCS22                         1031 1034   Num  CCS: diagnosis 22
+GA  2014 CORE             241 DXCCS23                         1035 1038   Num  CCS: diagnosis 23
+GA  2014 CORE             242 DXCCS24                         1039 1042   Num  CCS: diagnosis 24
+GA  2014 CORE             243 DXCCS25                         1043 1046   Num  CCS: diagnosis 25
+GA  2014 CORE             244 DXCCS26                         1047 1050   Num  CCS: diagnosis 26
+GA  2014 CORE             245 DXCCS27                         1051 1054   Num  CCS: diagnosis 27
+GA  2014 CORE             246 DXCCS28                         1055 1058   Num  CCS: diagnosis 28
+GA  2014 CORE             247 DXCCS29                         1059 1062   Num  CCS: diagnosis 29
+GA  2014 CORE             248 DXCCS30                         1063 1066   Num  CCS: diagnosis 30
+GA  2014 CORE             249 DXCCS31                         1067 1070   Num  CCS: diagnosis 31
+GA  2014 CORE             250 DXCCS32                         1071 1074   Num  CCS: diagnosis 32
+GA  2014 CORE             251 DXCCS33                         1075 1078   Num  CCS: diagnosis 33
+GA  2014 CORE             252 DXCCS34                         1079 1082   Num  CCS: diagnosis 34
+GA  2014 CORE             253 DXCCS35                         1083 1086   Num  CCS: diagnosis 35
+GA  2014 CORE             254 DXCCS36                         1087 1090   Num  CCS: diagnosis 36
+GA  2014 CORE             255 DXCCS37                         1091 1094   Num  CCS: diagnosis 37
+GA  2014 CORE             256 DXCCS38                         1095 1098   Num  CCS: diagnosis 38
+GA  2014 CORE             257 DXCCS39                         1099 1102   Num  CCS: diagnosis 39
+GA  2014 CORE             258 DXCCS40                         1103 1106   Num  CCS: diagnosis 40
+GA  2014 CORE             259 DXCCS41                         1107 1110   Num  CCS: diagnosis 41
+GA  2014 CORE             260 DXCCS42                         1111 1114   Num  CCS: diagnosis 42
+GA  2014 CORE             261 DXCCS43                         1115 1118   Num  CCS: diagnosis 43
+GA  2014 CORE             262 DXCCS44                         1119 1122   Num  CCS: diagnosis 44
+GA  2014 CORE             263 DXCCS45                         1123 1126   Num  CCS: diagnosis 45
+GA  2014 CORE             264 DXCCS46                         1127 1130   Num  CCS: diagnosis 46
+GA  2014 CORE             265 DXCCS47                         1131 1134   Num  CCS: diagnosis 47
+GA  2014 CORE             266 DXCCS48                         1135 1138   Num  CCS: diagnosis 48
+GA  2014 CORE             267 DXCCS49                         1139 1142   Num  CCS: diagnosis 49
+GA  2014 CORE             268 DXCCS50                         1143 1146   Num  CCS: diagnosis 50
+GA  2014 CORE             269 DXPOA1                          1147 1147   Char Diagnosis 1, present on admission indicator
+GA  2014 CORE             270 DXPOA2                          1148 1148   Char Diagnosis 2, present on admission indicator
+GA  2014 CORE             271 DXPOA3                          1149 1149   Char Diagnosis 3, present on admission indicator
+GA  2014 CORE             272 DXPOA4                          1150 1150   Char Diagnosis 4, present on admission indicator
+GA  2014 CORE             273 DXPOA5                          1151 1151   Char Diagnosis 5, present on admission indicator
+GA  2014 CORE             274 DXPOA6                          1152 1152   Char Diagnosis 6, present on admission indicator
+GA  2014 CORE             275 DXPOA7                          1153 1153   Char Diagnosis 7, present on admission indicator
+GA  2014 CORE             276 DXPOA8                          1154 1154   Char Diagnosis 8, present on admission indicator
+GA  2014 CORE             277 DXPOA9                          1155 1155   Char Diagnosis 9, present on admission indicator
+GA  2014 CORE             278 DXPOA10                         1156 1156   Char Diagnosis 10, present on admission indicator
+GA  2014 CORE             279 DXPOA11                         1157 1157   Char Diagnosis 11, present on admission indicator
+GA  2014 CORE             280 DXPOA12                         1158 1158   Char Diagnosis 12, present on admission indicator
+GA  2014 CORE             281 DXPOA13                         1159 1159   Char Diagnosis 13, present on admission indicator
+GA  2014 CORE             282 DXPOA14                         1160 1160   Char Diagnosis 14, present on admission indicator
+GA  2014 CORE             283 DXPOA15                         1161 1161   Char Diagnosis 15, present on admission indicator
+GA  2014 CORE             284 DXPOA16                         1162 1162   Char Diagnosis 16, present on admission indicator
+GA  2014 CORE             285 DXPOA17                         1163 1163   Char Diagnosis 17, present on admission indicator
+GA  2014 CORE             286 DXPOA18                         1164 1164   Char Diagnosis 18, present on admission indicator
+GA  2014 CORE             287 DXPOA19                         1165 1165   Char Diagnosis 19, present on admission indicator
+GA  2014 CORE             288 DXPOA20                         1166 1166   Char Diagnosis 20, present on admission indicator
+GA  2014 CORE             289 DXPOA21                         1167 1167   Char Diagnosis 21, present on admission indicator
+GA  2014 CORE             290 DXPOA22                         1168 1168   Char Diagnosis 22, present on admission indicator
+GA  2014 CORE             291 DXPOA23                         1169 1169   Char Diagnosis 23, present on admission indicator
+GA  2014 CORE             292 DXPOA24                         1170 1170   Char Diagnosis 24, present on admission indicator
+GA  2014 CORE             293 DXPOA25                         1171 1171   Char Diagnosis 25, present on admission indicator
+GA  2014 CORE             294 DXPOA26                         1172 1172   Char Diagnosis 26, present on admission indicator
+GA  2014 CORE             295 DXPOA27                         1173 1173   Char Diagnosis 27, present on admission indicator
+GA  2014 CORE             296 DXPOA28                         1174 1174   Char Diagnosis 28, present on admission indicator
+GA  2014 CORE             297 DXPOA29                         1175 1175   Char Diagnosis 29, present on admission indicator
+GA  2014 CORE             298 DXPOA30                         1176 1176   Char Diagnosis 30, present on admission indicator
+GA  2014 CORE             299 DXPOA31                         1177 1177   Char Diagnosis 31, present on admission indicator
+GA  2014 CORE             300 DXPOA32                         1178 1178   Char Diagnosis 32, present on admission indicator
+GA  2014 CORE             301 DXPOA33                         1179 1179   Char Diagnosis 33, present on admission indicator
+GA  2014 CORE             302 DXPOA34                         1180 1180   Char Diagnosis 34, present on admission indicator
+GA  2014 CORE             303 DXPOA35                         1181 1181   Char Diagnosis 35, present on admission indicator
+GA  2014 CORE             304 DXPOA36                         1182 1182   Char Diagnosis 36, present on admission indicator
+GA  2014 CORE             305 DXPOA37                         1183 1183   Char Diagnosis 37, present on admission indicator
+GA  2014 CORE             306 DXPOA38                         1184 1184   Char Diagnosis 38, present on admission indicator
+GA  2014 CORE             307 DXPOA39                         1185 1185   Char Diagnosis 39, present on admission indicator
+GA  2014 CORE             308 DXPOA40                         1186 1186   Char Diagnosis 40, present on admission indicator
+GA  2014 CORE             309 DXPOA41                         1187 1187   Char Diagnosis 41, present on admission indicator
+GA  2014 CORE             310 DXPOA42                         1188 1188   Char Diagnosis 42, present on admission indicator
+GA  2014 CORE             311 DXPOA43                         1189 1189   Char Diagnosis 43, present on admission indicator
+GA  2014 CORE             312 DXPOA44                         1190 1190   Char Diagnosis 44, present on admission indicator
+GA  2014 CORE             313 DXPOA45                         1191 1191   Char Diagnosis 45, present on admission indicator
+GA  2014 CORE             314 DXPOA46                         1192 1192   Char Diagnosis 46, present on admission indicator
+GA  2014 CORE             315 DXPOA47                         1193 1193   Char Diagnosis 47, present on admission indicator
+GA  2014 CORE             316 DXPOA48                         1194 1194   Char Diagnosis 48, present on admission indicator
+GA  2014 CORE             317 DXPOA49                         1195 1195   Char Diagnosis 49, present on admission indicator
+GA  2014 CORE             318 DXPOA50                         1196 1196   Char Diagnosis 50, present on admission indicator
+GA  2014 CORE             319 DXVER                           1197 1199   Num  Diagnosis Version
+GA  2014 CORE             320 DaysToEvent                     1200 1205   Num  Days from 'start date' to admission
+GA  2014 CORE             321 ECODE1                          1206 1212   Char E code 1
+GA  2014 CORE             322 ECODE2                          1213 1219   Char E code 2
+GA  2014 CORE             323 ECODE3                          1220 1226   Char E code 3
+GA  2014 CORE             324 ECODE4                          1227 1233   Char E code 4
+GA  2014 CORE             325 ECODE5                          1234 1240   Char E code 5
+GA  2014 CORE             326 ECODE6                          1241 1247   Char E code 6
+GA  2014 CORE             327 ECODE7                          1248 1254   Char E code 7
+GA  2014 CORE             328 ECODE8                          1255 1261   Char E code 8
+GA  2014 CORE             329 ECODE9                          1262 1268   Char E code 9
+GA  2014 CORE             330 ECODE10                         1269 1275   Char E code 10
+GA  2014 CORE             331 E_CCS1                          1276 1279   Num  CCS: E Code 1
+GA  2014 CORE             332 E_CCS2                          1280 1283   Num  CCS: E Code 2
+GA  2014 CORE             333 E_CCS3                          1284 1287   Num  CCS: E Code 3
+GA  2014 CORE             334 E_CCS4                          1288 1291   Num  CCS: E Code 4
+GA  2014 CORE             335 E_CCS5                          1292 1295   Num  CCS: E Code 5
+GA  2014 CORE             336 E_CCS6                          1296 1299   Num  CCS: E Code 6
+GA  2014 CORE             337 E_CCS7                          1300 1303   Num  CCS: E Code 7
+GA  2014 CORE             338 E_CCS8                          1304 1307   Num  CCS: E Code 8
+GA  2014 CORE             339 E_CCS9                          1308 1311   Num  CCS: E Code 9
+GA  2014 CORE             340 E_CCS10                         1312 1315   Num  CCS: E Code 10
+GA  2014 CORE             341 E_POA1                          1316 1316   Char E Code 1, present on admission indicator
+GA  2014 CORE             342 E_POA2                          1317 1317   Char E Code 2, present on admission indicator
+GA  2014 CORE             343 E_POA3                          1318 1318   Char E Code 3, present on admission indicator
+GA  2014 CORE             344 E_POA4                          1319 1319   Char E Code 4, present on admission indicator
+GA  2014 CORE             345 E_POA5                          1320 1320   Char E Code 5, present on admission indicator
+GA  2014 CORE             346 E_POA6                          1321 1321   Char E Code 6, present on admission indicator
+GA  2014 CORE             347 E_POA7                          1322 1322   Char E Code 7, present on admission indicator
+GA  2014 CORE             348 E_POA8                          1323 1323   Char E Code 8, present on admission indicator
+GA  2014 CORE             349 E_POA9                          1324 1324   Char E Code 9, present on admission indicator
+GA  2014 CORE             350 E_POA10                         1325 1325   Char E Code 10, present on admission indicator
+GA  2014 CORE             351 FEMALE                          1326 1327   Num  Indicator of sex
+GA  2014 CORE             352 HCUP_ED                         1328 1329   Num  HCUP Emergency Department service indicator
+GA  2014 CORE             353 HCUP_OS                         1330 1331   Num  HCUP Observation Stay service indicator
+GA  2014 CORE             354 HISPANIC_X                      1332 1332   Char Hispanic ethnicity (as received from source)
+GA  2014 CORE             355 HOSPBRTH                        1333 1335   Num  Indicator of birth in this hospital
+GA  2014 CORE             356 HOSPST                          1336 1337   Char Hospital state postal code
+GA  2014 CORE             357 Homeless                        1338 1339   Num  Indicator that patient is homeless
+GA  2014 CORE             358 KEY                             1340 1354   Num  HCUP record identifier
+GA  2014 CORE             359 LOS                             1355 1359   Num  Length of stay (cleaned)
+GA  2014 CORE             360 LOS_X                           1360 1365   Num  Length of stay (as received from source)
+GA  2014 CORE             361 MARITALSTATUSUB04               1366 1366   Char Patient's marital status, UB-04 standard coding
+GA  2014 CORE             362 MARITALSTATUS_X                 1367 1367   Char Patient's marital status (as received from source)
+GA  2014 CORE             363 MDC                             1368 1369   Num  MDC in effect on discharge date
+GA  2014 CORE             364 MDC24                           1370 1371   Num  MDC, version 24
+GA  2014 CORE             365 MDC_NoPOA                       1372 1373   Num  MDC in use on discharge date, calculated without POA
+GA  2014 CORE             366 MDNUM1_R                        1374 1382   Num  Physician 1 number (re-identified)
+GA  2014 CORE             367 MDNUM2_R                        1383 1391   Num  Physician 2 number (re-identified)
+GA  2014 CORE             368 MDNUM3_R                        1392 1400   Num  Physician 3 number (re-identified)
+GA  2014 CORE             369 MDNUM4_R                        1401 1409   Num  Physician 4 number (re-identified)
+GA  2014 CORE             370 MEDINCSTQ                       1410 1411   Num  Median household income state quartile for patient ZIP Code
+GA  2014 CORE             371 NCHRONIC                        1412 1414   Num  Number of chronic conditions
+GA  2014 CORE             372 NCPT                            1415 1418   Num  Number of CPT/HCPCS procedures for this visit
+GA  2014 CORE             373 NDX                             1419 1421   Num  Number of diagnoses on this record
+GA  2014 CORE             374 NECODE                          1422 1423   Num  Number of E codes on this record
+GA  2014 CORE             375 NEOMAT                          1424 1425   Num  Neonatal and/or maternal DX and/or PR
+GA  2014 CORE             376 NPR                             1426 1428   Num  Number of procedures on this record
+GA  2014 CORE             377 ORPROC                          1429 1430   Num  Major operating room procedure indicator
+GA  2014 CORE             378 OS_TIME                         1431 1441 2 Num  Observation stay time summed from UNITS
+GA  2014 CORE             379 PAY1                            1442 1443   Num  Primary expected payer (uniform)
+GA  2014 CORE             380 PAY1_X                          1444 1447   Char Primary expected payer (as received from source)
+GA  2014 CORE             381 PAY2                            1448 1449   Num  Secondary expected payer (uniform)
+GA  2014 CORE             382 PAY2_X                          1450 1453   Char Secondary expected payer (as received from source)
+GA  2014 CORE             383 PAY3                            1454 1455   Num  Tertiary expected payer (uniform)
+GA  2014 CORE             384 PAY3_X                          1456 1459   Char Tertiary expected payer (as received from source)
+GA  2014 CORE             385 PL_CBSA                         1460 1462   Num  Patient location: Core Based Statistical Area (CBSA)
+GA  2014 CORE             386 PL_NCHS                         1463 1464   Num  Patient Location: NCHS Urban-Rural Code
+GA  2014 CORE             387 PL_RUCC                         1465 1466   Num  Patient location: Rural-Urban Continuum Codes(RUCC)
+GA  2014 CORE             388 PL_UIC                          1467 1468   Num  Patient location: Urban Influence Codes
+GA  2014 CORE             389 PL_UR_CAT4                      1469 1470   Num  Patient Location: Urban-Rural 4 Categories
+GA  2014 CORE             390 POA_Disch_Edit1                 1471 1472   Num  Discharge has POA missing on all nonexempt diagnoses
+GA  2014 CORE             391 POA_Disch_Edit2                 1473 1474   Num  Discharge has POA missing on all nonexempt secondary diagnoses
+GA  2014 CORE             392 POA_Hosp_Edit1                  1475 1476   Num  Hospital reported POA as Y on all diagnoses on all discharges
+GA  2014 CORE             393 POA_Hosp_Edit2                  1477 1478   Num  Hospital reported POA as missing on all non-Medicare discharges
+GA  2014 CORE             394 POA_Hosp_Edit3                  1479 1480   Num  Hospital reported POA as missing on all nonexempt diagnoses for 15% or more of discharges
+GA  2014 CORE             395 POA_Hosp_Edit3_Value            1481 1488 2 Num  Percentage of discharges with all nonexempt diagnoses missing POA indicators
+GA  2014 CORE             396 PR1                             1489 1495   Char Procedure 1
+GA  2014 CORE             397 PR2                             1496 1502   Char Procedure 2
+GA  2014 CORE             398 PR3                             1503 1509   Char Procedure 3
+GA  2014 CORE             399 PR4                             1510 1516   Char Procedure 4
+GA  2014 CORE             400 PR5                             1517 1523   Char Procedure 5
+GA  2014 CORE             401 PR6                             1524 1530   Char Procedure 6
+GA  2014 CORE             402 PR7                             1531 1537   Char Procedure 7
+GA  2014 CORE             403 PR8                             1538 1544   Char Procedure 8
+GA  2014 CORE             404 PR9                             1545 1551   Char Procedure 9
+GA  2014 CORE             405 PR10                            1552 1558   Char Procedure 10
+GA  2014 CORE             406 PR11                            1559 1565   Char Procedure 11
+GA  2014 CORE             407 PR12                            1566 1572   Char Procedure 12
+GA  2014 CORE             408 PR13                            1573 1579   Char Procedure 13
+GA  2014 CORE             409 PR14                            1580 1586   Char Procedure 14
+GA  2014 CORE             410 PR15                            1587 1593   Char Procedure 15
+GA  2014 CORE             411 PR16                            1594 1600   Char Procedure 16
+GA  2014 CORE             412 PR17                            1601 1607   Char Procedure 17
+GA  2014 CORE             413 PR18                            1608 1614   Char Procedure 18
+GA  2014 CORE             414 PR19                            1615 1621   Char Procedure 19
+GA  2014 CORE             415 PR20                            1622 1628   Char Procedure 20
+GA  2014 CORE             416 PR21                            1629 1635   Char Procedure 21
+GA  2014 CORE             417 PR22                            1636 1642   Char Procedure 22
+GA  2014 CORE             418 PR23                            1643 1649   Char Procedure 23
+GA  2014 CORE             419 PR24                            1650 1656   Char Procedure 24
+GA  2014 CORE             420 PR25                            1657 1663   Char Procedure 25
+GA  2014 CORE             421 PR26                            1664 1670   Char Procedure 26
+GA  2014 CORE             422 PR27                            1671 1677   Char Procedure 27
+GA  2014 CORE             423 PR28                            1678 1684   Char Procedure 28
+GA  2014 CORE             424 PR29                            1685 1691   Char Procedure 29
+GA  2014 CORE             425 PR30                            1692 1698   Char Procedure 30
+GA  2014 CORE             426 PR31                            1699 1705   Char Procedure 31
+GA  2014 CORE             427 PR32                            1706 1712   Char Procedure 32
+GA  2014 CORE             428 PR33                            1713 1719   Char Procedure 33
+GA  2014 CORE             429 PR34                            1720 1726   Char Procedure 34
+GA  2014 CORE             430 PR35                            1727 1733   Char Procedure 35
+GA  2014 CORE             431 PR36                            1734 1740   Char Procedure 36
+GA  2014 CORE             432 PR37                            1741 1747   Char Procedure 37
+GA  2014 CORE             433 PR38                            1748 1754   Char Procedure 38
+GA  2014 CORE             434 PR39                            1755 1761   Char Procedure 39
+GA  2014 CORE             435 PR40                            1762 1768   Char Procedure 40
+GA  2014 CORE             436 PR41                            1769 1775   Char Procedure 41
+GA  2014 CORE             437 PR42                            1776 1782   Char Procedure 42
+GA  2014 CORE             438 PR43                            1783 1789   Char Procedure 43
+GA  2014 CORE             439 PR44                            1790 1796   Char Procedure 44
+GA  2014 CORE             440 PR45                            1797 1803   Char Procedure 45
+GA  2014 CORE             441 PR46                            1804 1810   Char Procedure 46
+GA  2014 CORE             442 PR47                            1811 1817   Char Procedure 47
+GA  2014 CORE             443 PR48                            1818 1824   Char Procedure 48
+GA  2014 CORE             444 PR49                            1825 1831   Char Procedure 49
+GA  2014 CORE             445 PR50                            1832 1838   Char Procedure 50
+GA  2014 CORE             446 PRCCS1                          1839 1841   Num  CCS: procedure 1
+GA  2014 CORE             447 PRCCS2                          1842 1844   Num  CCS: procedure 2
+GA  2014 CORE             448 PRCCS3                          1845 1847   Num  CCS: procedure 3
+GA  2014 CORE             449 PRCCS4                          1848 1850   Num  CCS: procedure 4
+GA  2014 CORE             450 PRCCS5                          1851 1853   Num  CCS: procedure 5
+GA  2014 CORE             451 PRCCS6                          1854 1856   Num  CCS: procedure 6
+GA  2014 CORE             452 PRCCS7                          1857 1859   Num  CCS: procedure 7
+GA  2014 CORE             453 PRCCS8                          1860 1862   Num  CCS: procedure 8
+GA  2014 CORE             454 PRCCS9                          1863 1865   Num  CCS: procedure 9
+GA  2014 CORE             455 PRCCS10                         1866 1868   Num  CCS: procedure 10
+GA  2014 CORE             456 PRCCS11                         1869 1871   Num  CCS: procedure 11
+GA  2014 CORE             457 PRCCS12                         1872 1874   Num  CCS: procedure 12
+GA  2014 CORE             458 PRCCS13                         1875 1877   Num  CCS: procedure 13
+GA  2014 CORE             459 PRCCS14                         1878 1880   Num  CCS: procedure 14
+GA  2014 CORE             460 PRCCS15                         1881 1883   Num  CCS: procedure 15
+GA  2014 CORE             461 PRCCS16                         1884 1886   Num  CCS: procedure 16
+GA  2014 CORE             462 PRCCS17                         1887 1889   Num  CCS: procedure 17
+GA  2014 CORE             463 PRCCS18                         1890 1892   Num  CCS: procedure 18
+GA  2014 CORE             464 PRCCS19                         1893 1895   Num  CCS: procedure 19
+GA  2014 CORE             465 PRCCS20                         1896 1898   Num  CCS: procedure 20
+GA  2014 CORE             466 PRCCS21                         1899 1901   Num  CCS: procedure 21
+GA  2014 CORE             467 PRCCS22                         1902 1904   Num  CCS: procedure 22
+GA  2014 CORE             468 PRCCS23                         1905 1907   Num  CCS: procedure 23
+GA  2014 CORE             469 PRCCS24                         1908 1910   Num  CCS: procedure 24
+GA  2014 CORE             470 PRCCS25                         1911 1913   Num  CCS: procedure 25
+GA  2014 CORE             471 PRCCS26                         1914 1916   Num  CCS: procedure 26
+GA  2014 CORE             472 PRCCS27                         1917 1919   Num  CCS: procedure 27
+GA  2014 CORE             473 PRCCS28                         1920 1922   Num  CCS: procedure 28
+GA  2014 CORE             474 PRCCS29                         1923 1925   Num  CCS: procedure 29
+GA  2014 CORE             475 PRCCS30                         1926 1928   Num  CCS: procedure 30
+GA  2014 CORE             476 PRCCS31                         1929 1931   Num  CCS: procedure 31
+GA  2014 CORE             477 PRCCS32                         1932 1934   Num  CCS: procedure 32
+GA  2014 CORE             478 PRCCS33                         1935 1937   Num  CCS: procedure 33
+GA  2014 CORE             479 PRCCS34                         1938 1940   Num  CCS: procedure 34
+GA  2014 CORE             480 PRCCS35                         1941 1943   Num  CCS: procedure 35
+GA  2014 CORE             481 PRCCS36                         1944 1946   Num  CCS: procedure 36
+GA  2014 CORE             482 PRCCS37                         1947 1949   Num  CCS: procedure 37
+GA  2014 CORE             483 PRCCS38                         1950 1952   Num  CCS: procedure 38
+GA  2014 CORE             484 PRCCS39                         1953 1955   Num  CCS: procedure 39
+GA  2014 CORE             485 PRCCS40                         1956 1958   Num  CCS: procedure 40
+GA  2014 CORE             486 PRCCS41                         1959 1961   Num  CCS: procedure 41
+GA  2014 CORE             487 PRCCS42                         1962 1964   Num  CCS: procedure 42
+GA  2014 CORE             488 PRCCS43                         1965 1967   Num  CCS: procedure 43
+GA  2014 CORE             489 PRCCS44                         1968 1970   Num  CCS: procedure 44
+GA  2014 CORE             490 PRCCS45                         1971 1973   Num  CCS: procedure 45
+GA  2014 CORE             491 PRCCS46                         1974 1976   Num  CCS: procedure 46
+GA  2014 CORE             492 PRCCS47                         1977 1979   Num  CCS: procedure 47
+GA  2014 CORE             493 PRCCS48                         1980 1982   Num  CCS: procedure 48
+GA  2014 CORE             494 PRCCS49                         1983 1985   Num  CCS: procedure 49
+GA  2014 CORE             495 PRCCS50                         1986 1988   Num  CCS: procedure 50
+GA  2014 CORE             496 PRDAY1                          1989 1993   Num  Number of days from admission to PR1
+GA  2014 CORE             497 PRDAY2                          1994 1998   Num  Number of days from admission to PR2
+GA  2014 CORE             498 PRDAY3                          1999 2003   Num  Number of days from admission to PR3
+GA  2014 CORE             499 PRDAY4                          2004 2008   Num  Number of days from admission to PR4
+GA  2014 CORE             500 PRDAY5                          2009 2013   Num  Number of days from admission to PR5
+GA  2014 CORE             501 PRDAY6                          2014 2018   Num  Number of days from admission to PR6
+GA  2014 CORE             502 PRDAY7                          2019 2023   Num  Number of days from admission to PR7
+GA  2014 CORE             503 PRDAY8                          2024 2028   Num  Number of days from admission to PR8
+GA  2014 CORE             504 PRDAY9                          2029 2033   Num  Number of days from admission to PR9
+GA  2014 CORE             505 PRDAY10                         2034 2038   Num  Number of days from admission to PR10
+GA  2014 CORE             506 PRDAY11                         2039 2043   Num  Number of days from admission to PR11
+GA  2014 CORE             507 PRDAY12                         2044 2048   Num  Number of days from admission to PR12
+GA  2014 CORE             508 PRDAY13                         2049 2053   Num  Number of days from admission to PR13
+GA  2014 CORE             509 PRDAY14                         2054 2058   Num  Number of days from admission to PR14
+GA  2014 CORE             510 PRDAY15                         2059 2063   Num  Number of days from admission to PR15
+GA  2014 CORE             511 PRDAY16                         2064 2068   Num  Number of days from admission to PR16
+GA  2014 CORE             512 PRDAY17                         2069 2073   Num  Number of days from admission to PR17
+GA  2014 CORE             513 PRDAY18                         2074 2078   Num  Number of days from admission to PR18
+GA  2014 CORE             514 PRDAY19                         2079 2083   Num  Number of days from admission to PR19
+GA  2014 CORE             515 PRDAY20                         2084 2088   Num  Number of days from admission to PR20
+GA  2014 CORE             516 PRDAY21                         2089 2093   Num  Number of days from admission to PR21
+GA  2014 CORE             517 PRDAY22                         2094 2098   Num  Number of days from admission to PR22
+GA  2014 CORE             518 PRDAY23                         2099 2103   Num  Number of days from admission to PR23
+GA  2014 CORE             519 PRDAY24                         2104 2108   Num  Number of days from admission to PR24
+GA  2014 CORE             520 PRDAY25                         2109 2113   Num  Number of days from admission to PR25
+GA  2014 CORE             521 PRDAY26                         2114 2118   Num  Number of days from admission to PR26
+GA  2014 CORE             522 PRDAY27                         2119 2123   Num  Number of days from admission to PR27
+GA  2014 CORE             523 PRDAY28                         2124 2128   Num  Number of days from admission to PR28
+GA  2014 CORE             524 PRDAY29                         2129 2133   Num  Number of days from admission to PR29
+GA  2014 CORE             525 PRDAY30                         2134 2138   Num  Number of days from admission to PR30
+GA  2014 CORE             526 PRDAY31                         2139 2143   Num  Number of days from admission to PR31
+GA  2014 CORE             527 PRDAY32                         2144 2148   Num  Number of days from admission to PR32
+GA  2014 CORE             528 PRDAY33                         2149 2153   Num  Number of days from admission to PR33
+GA  2014 CORE             529 PRDAY34                         2154 2158   Num  Number of days from admission to PR34
+GA  2014 CORE             530 PRDAY35                         2159 2163   Num  Number of days from admission to PR35
+GA  2014 CORE             531 PRDAY36                         2164 2168   Num  Number of days from admission to PR36
+GA  2014 CORE             532 PRDAY37                         2169 2173   Num  Number of days from admission to PR37
+GA  2014 CORE             533 PRDAY38                         2174 2178   Num  Number of days from admission to PR38
+GA  2014 CORE             534 PRDAY39                         2179 2183   Num  Number of days from admission to PR39
+GA  2014 CORE             535 PRDAY40                         2184 2188   Num  Number of days from admission to PR40
+GA  2014 CORE             536 PRDAY41                         2189 2193   Num  Number of days from admission to PR41
+GA  2014 CORE             537 PRDAY42                         2194 2198   Num  Number of days from admission to PR42
+GA  2014 CORE             538 PRDAY43                         2199 2203   Num  Number of days from admission to PR43
+GA  2014 CORE             539 PRDAY44                         2204 2208   Num  Number of days from admission to PR44
+GA  2014 CORE             540 PRDAY45                         2209 2213   Num  Number of days from admission to PR45
+GA  2014 CORE             541 PRDAY46                         2214 2218   Num  Number of days from admission to PR46
+GA  2014 CORE             542 PRDAY47                         2219 2223   Num  Number of days from admission to PR47
+GA  2014 CORE             543 PRDAY48                         2224 2228   Num  Number of days from admission to PR48
+GA  2014 CORE             544 PRDAY49                         2229 2233   Num  Number of days from admission to PR49
+GA  2014 CORE             545 PRDAY50                         2234 2238   Num  Number of days from admission to PR50
+GA  2014 CORE             546 PROCTYPE                        2239 2241   Num  Procedure type indicator
+GA  2014 CORE             547 PRVER                           2242 2244   Num  Procedure Version
+GA  2014 CORE             548 PSTATE                          2245 2246   Char Patient State postal code
+GA  2014 CORE             549 PSTCO                           2247 2251   Num  Patient state/county FIPS code
+GA  2014 CORE             550 PSTCO2                          2252 2256   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+GA  2014 CORE             551 PointOfOriginUB04               2257 2257   Char Point of origin for admission or visit, UB-04 standard coding
+GA  2014 CORE             552 PointOfOrigin_X                 2258 2258   Char Point of origin for admission or visit, as received from source
+GA  2014 CORE             553 PrimLang                        2259 2261   Char Primary language of patient
+GA  2014 CORE             554 RACE                            2262 2263   Num  Race (uniform)
+GA  2014 CORE             555 RACE_X                          2264 2264   Char Race (as received from source)
+GA  2014 CORE             556 SERVICELINE                     2265 2266   Num  Hospital Service Line
+GA  2014 CORE             557 TOTCHG                          2267 2276   Num  Total charges (cleaned)
+GA  2014 CORE             558 TOTCHG_X                        2277 2291 2 Num  Total charges (as received from source)
+GA  2014 CORE             559 TRAN_IN                         2292 2293   Num  Transfer in indicator
+GA  2014 CORE             560 TRAN_OUT                        2294 2295   Num  Transfer out indicator
+GA  2014 CORE             561 VisitLink                       2296 2304   Num  Visit linkage variable
+GA  2014 CORE             562 YEAR                            2305 2308   Num  Calendar year
+GA  2014 CORE             563 ZIP                             2309 2313   Char Patient ZIP Code
+GA  2014 CORE             564 ZIP3                            2314 2316   Char Patient ZIP Code, first 3 digits
+GA  2014 CORE             565 ZIPINC_QRTL                     2317 2319   Num  Median household income national quartile for patient ZIP Code
+GA  2014 CORE             566 HOSPID                          2320 2324   Num  HCUP hospital identification number
+GA  2014 CORE             567 AYEAR                           2325 2328   Num  Admission year
+GA  2014 CORE             568 BMONTH                          2329 2330   Num  Birth month
+GA  2014 CORE             569 BYEAR                           2331 2334   Num  Birth year
+GA  2014 CORE             570 PRMONTH1                        2335 2336   Num  Month of procedure 1
+GA  2014 CORE             571 PRMONTH2                        2337 2338   Num  Month of procedure 2
+GA  2014 CORE             572 PRMONTH3                        2339 2340   Num  Month of procedure 3
+GA  2014 CORE             573 PRMONTH4                        2341 2342   Num  Month of procedure 4
+GA  2014 CORE             574 PRMONTH5                        2343 2344   Num  Month of procedure 5
+GA  2014 CORE             575 PRMONTH6                        2345 2346   Num  Month of procedure 6
+GA  2014 CORE             576 PRMONTH7                        2347 2348   Num  Month of procedure 7
+GA  2014 CORE             577 PRMONTH8                        2349 2350   Num  Month of procedure 8
+GA  2014 CORE             578 PRMONTH9                        2351 2352   Num  Month of procedure 9
+GA  2014 CORE             579 PRMONTH10                       2353 2354   Num  Month of procedure 10
+GA  2014 CORE             580 PRMONTH11                       2355 2356   Num  Month of procedure 11
+GA  2014 CORE             581 PRMONTH12                       2357 2358   Num  Month of procedure 12
+GA  2014 CORE             582 PRMONTH13                       2359 2360   Num  Month of procedure 13
+GA  2014 CORE             583 PRMONTH14                       2361 2362   Num  Month of procedure 14
+GA  2014 CORE             584 PRMONTH15                       2363 2364   Num  Month of procedure 15
+GA  2014 CORE             585 PRMONTH16                       2365 2366   Num  Month of procedure 16
+GA  2014 CORE             586 PRMONTH17                       2367 2368   Num  Month of procedure 17
+GA  2014 CORE             587 PRMONTH18                       2369 2370   Num  Month of procedure 18
+GA  2014 CORE             588 PRMONTH19                       2371 2372   Num  Month of procedure 19
+GA  2014 CORE             589 PRMONTH20                       2373 2374   Num  Month of procedure 20
+GA  2014 CORE             590 PRMONTH21                       2375 2376   Num  Month of procedure 21
+GA  2014 CORE             591 PRMONTH22                       2377 2378   Num  Month of procedure 22
+GA  2014 CORE             592 PRMONTH23                       2379 2380   Num  Month of procedure 23
+GA  2014 CORE             593 PRMONTH24                       2381 2382   Num  Month of procedure 24
+GA  2014 CORE             594 PRMONTH25                       2383 2384   Num  Month of procedure 25
+GA  2014 CORE             595 PRMONTH26                       2385 2386   Num  Month of procedure 26
+GA  2014 CORE             596 PRMONTH27                       2387 2388   Num  Month of procedure 27
+GA  2014 CORE             597 PRMONTH28                       2389 2390   Num  Month of procedure 28
+GA  2014 CORE             598 PRMONTH29                       2391 2392   Num  Month of procedure 29
+GA  2014 CORE             599 PRMONTH30                       2393 2394   Num  Month of procedure 30
+GA  2014 CORE             600 PRMONTH31                       2395 2396   Num  Month of procedure 31
+GA  2014 CORE             601 PRMONTH32                       2397 2398   Num  Month of procedure 32
+GA  2014 CORE             602 PRMONTH33                       2399 2400   Num  Month of procedure 33
+GA  2014 CORE             603 PRMONTH34                       2401 2402   Num  Month of procedure 34
+GA  2014 CORE             604 PRMONTH35                       2403 2404   Num  Month of procedure 35
+GA  2014 CORE             605 PRMONTH36                       2405 2406   Num  Month of procedure 36
+GA  2014 CORE             606 PRMONTH37                       2407 2408   Num  Month of procedure 37
+GA  2014 CORE             607 PRMONTH38                       2409 2410   Num  Month of procedure 38
+GA  2014 CORE             608 PRMONTH39                       2411 2412   Num  Month of procedure 39
+GA  2014 CORE             609 PRMONTH40                       2413 2414   Num  Month of procedure 40
+GA  2014 CORE             610 PRMONTH41                       2415 2416   Num  Month of procedure 41
+GA  2014 CORE             611 PRMONTH42                       2417 2418   Num  Month of procedure 42
+GA  2014 CORE             612 PRMONTH43                       2419 2420   Num  Month of procedure 43
+GA  2014 CORE             613 PRMONTH44                       2421 2422   Num  Month of procedure 44
+GA  2014 CORE             614 PRMONTH45                       2423 2424   Num  Month of procedure 45
+GA  2014 CORE             615 PRMONTH46                       2425 2426   Num  Month of procedure 46
+GA  2014 CORE             616 PRMONTH47                       2427 2428   Num  Month of procedure 47
+GA  2014 CORE             617 PRMONTH48                       2429 2430   Num  Month of procedure 48
+GA  2014 CORE             618 PRMONTH49                       2431 2432   Num  Month of procedure 49
+GA  2014 CORE             619 PRMONTH50                       2433 2434   Num  Month of procedure 50
+GA  2014 CORE             620 PRYEAR1                         2435 2438   Num  Year of procedure 1
+GA  2014 CORE             621 PRYEAR2                         2439 2442   Num  Year of procedure 2
+GA  2014 CORE             622 PRYEAR3                         2443 2446   Num  Year of procedure 3
+GA  2014 CORE             623 PRYEAR4                         2447 2450   Num  Year of procedure 4
+GA  2014 CORE             624 PRYEAR5                         2451 2454   Num  Year of procedure 5
+GA  2014 CORE             625 PRYEAR6                         2455 2458   Num  Year of procedure 6
+GA  2014 CORE             626 PRYEAR7                         2459 2462   Num  Year of procedure 7
+GA  2014 CORE             627 PRYEAR8                         2463 2466   Num  Year of procedure 8
+GA  2014 CORE             628 PRYEAR9                         2467 2470   Num  Year of procedure 9
+GA  2014 CORE             629 PRYEAR10                        2471 2474   Num  Year of procedure 10
+GA  2014 CORE             630 PRYEAR11                        2475 2478   Num  Year of procedure 11
+GA  2014 CORE             631 PRYEAR12                        2479 2482   Num  Year of procedure 12
+GA  2014 CORE             632 PRYEAR13                        2483 2486   Num  Year of procedure 13
+GA  2014 CORE             633 PRYEAR14                        2487 2490   Num  Year of procedure 14
+GA  2014 CORE             634 PRYEAR15                        2491 2494   Num  Year of procedure 15
+GA  2014 CORE             635 PRYEAR16                        2495 2498   Num  Year of procedure 16
+GA  2014 CORE             636 PRYEAR17                        2499 2502   Num  Year of procedure 17
+GA  2014 CORE             637 PRYEAR18                        2503 2506   Num  Year of procedure 18
+GA  2014 CORE             638 PRYEAR19                        2507 2510   Num  Year of procedure 19
+GA  2014 CORE             639 PRYEAR20                        2511 2514   Num  Year of procedure 20
+GA  2014 CORE             640 PRYEAR21                        2515 2518   Num  Year of procedure 21
+GA  2014 CORE             641 PRYEAR22                        2519 2522   Num  Year of procedure 22
+GA  2014 CORE             642 PRYEAR23                        2523 2526   Num  Year of procedure 23
+GA  2014 CORE             643 PRYEAR24                        2527 2530   Num  Year of procedure 24
+GA  2014 CORE             644 PRYEAR25                        2531 2534   Num  Year of procedure 25
+GA  2014 CORE             645 PRYEAR26                        2535 2538   Num  Year of procedure 26
+GA  2014 CORE             646 PRYEAR27                        2539 2542   Num  Year of procedure 27
+GA  2014 CORE             647 PRYEAR28                        2543 2546   Num  Year of procedure 28
+GA  2014 CORE             648 PRYEAR29                        2547 2550   Num  Year of procedure 29
+GA  2014 CORE             649 PRYEAR30                        2551 2554   Num  Year of procedure 30
+GA  2014 CORE             650 PRYEAR31                        2555 2558   Num  Year of procedure 31
+GA  2014 CORE             651 PRYEAR32                        2559 2562   Num  Year of procedure 32
+GA  2014 CORE             652 PRYEAR33                        2563 2566   Num  Year of procedure 33
+GA  2014 CORE             653 PRYEAR34                        2567 2570   Num  Year of procedure 34
+GA  2014 CORE             654 PRYEAR35                        2571 2574   Num  Year of procedure 35
+GA  2014 CORE             655 PRYEAR36                        2575 2578   Num  Year of procedure 36
+GA  2014 CORE             656 PRYEAR37                        2579 2582   Num  Year of procedure 37
+GA  2014 CORE             657 PRYEAR38                        2583 2586   Num  Year of procedure 38
+GA  2014 CORE             658 PRYEAR39                        2587 2590   Num  Year of procedure 39
+GA  2014 CORE             659 PRYEAR40                        2591 2594   Num  Year of procedure 40
+GA  2014 CORE             660 PRYEAR41                        2595 2598   Num  Year of procedure 41
+GA  2014 CORE             661 PRYEAR42                        2599 2602   Num  Year of procedure 42
+GA  2014 CORE             662 PRYEAR43                        2603 2606   Num  Year of procedure 43
+GA  2014 CORE             663 PRYEAR44                        2607 2610   Num  Year of procedure 44
+GA  2014 CORE             664 PRYEAR45                        2611 2614   Num  Year of procedure 45
+GA  2014 CORE             665 PRYEAR46                        2615 2618   Num  Year of procedure 46
+GA  2014 CORE             666 PRYEAR47                        2619 2622   Num  Year of procedure 47
+GA  2014 CORE             667 PRYEAR48                        2623 2626   Num  Year of procedure 48
+GA  2014 CORE             668 PRYEAR49                        2627 2630   Num  Year of procedure 49
+GA  2014 CORE             669 PRYEAR50                        2631 2634   Num  Year of procedure 50

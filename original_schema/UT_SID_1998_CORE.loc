@@ -1,0 +1,90 @@
+Columns   Description:
+=======   ============
+ 1- 2     State postal code
+ 5- 8     Discharge year of data
+10-14     File name
+19-21     Variable number
+23-40     Variable name
+43-45     Starting column of variable in ASCII file
+47-49     Ending column of variable in ASCII file
+   51     Non-zero number of digits after decimal point for numeric variable
+53-56     Variable type (NUM=numeric; CHAR=character)
+57-88     Variable label
+
+
+UT  1998 CORE     1   KEY                 1   14    Num HCUP record identifier
+UT  1998 CORE     2   ADRG                15  17    Num All Patient Refined DRG
+UT  1998 CORE     3   ADRGSEV             18  19    Num All Patient Refined DRG severity level
+UT  1998 CORE     4   AGE                 20  22    Num Age in years at admission
+UT  1998 CORE     5   AGEDAY              23  25    Num Age in days (when age < 1 year)
+UT  1998 CORE     6   AGEMONTH            26  28    Num Age in months (when age < 11 years)
+UT  1998 CORE     7   AMONTH              29  30    Num Admission month
+UT  1998 CORE     8   ASOURCE             31  32    Num Admission source (uniform)
+UT  1998 CORE     9   ASOURCE_X           33  33    CharAdmission source (as received from source)
+UT  1998 CORE     10  ATYPE               34  35    Num Admission type
+UT  1998 CORE     11  AWEEKEND            36  37    Num Admission day is a weekend
+UT  1998 CORE     12  DIED                38  39    Num Died during hospitalization
+UT  1998 CORE     13  DISPUB92            40  41    Num Disposition of patient (UB-92 standard coding)
+UT  1998 CORE     14  DISPUNIFORM         42  43    Num Disposition of patient (uniform)
+UT  1998 CORE     15  DISP_X              44  45    CharDisposition of patient (as received from source)
+UT  1998 CORE     16  DQTR                46  46    Num Discharge quarter
+UT  1998 CORE     17  DRG                 47  49    Num DRG in effect on discharge date
+UT  1998 CORE     18  DRG10               50  52    Num DRG, version 10
+UT  1998 CORE     19  DRG18               53  55    Num DRG, version 18
+UT  1998 CORE     20  DRGVER              56  57    Num DRG grouper version used on discharge date
+UT  1998 CORE     21  DSHOSPID            58  70    CharData source hospital identifier
+UT  1998 CORE     22  DX1                 71  75    CharPrincipal diagnosis
+UT  1998 CORE     23  DX2                 76  80    CharDiagnosis 2
+UT  1998 CORE     24  DX3                 81  85    CharDiagnosis 3
+UT  1998 CORE     25  DX4                 86  90    CharDiagnosis 4
+UT  1998 CORE     26  DX5                 91  95    CharDiagnosis 5
+UT  1998 CORE     27  DX6                 96  100   CharDiagnosis 6
+UT  1998 CORE     28  DX7                 101 105   CharDiagnosis 7
+UT  1998 CORE     29  DX8                 106 110   CharDiagnosis 8
+UT  1998 CORE     30  DX9                 111 115   CharDiagnosis 9
+UT  1998 CORE     31  DX10                116 120   CharDiagnosis 10
+UT  1998 CORE     32  DXCCS1              121 124   Num CCS: principal diagnosis
+UT  1998 CORE     33  DXCCS2              125 128   Num CCS: diagnosis 2
+UT  1998 CORE     34  DXCCS3              129 132   Num CCS: diagnosis 3
+UT  1998 CORE     35  DXCCS4              133 136   Num CCS: diagnosis 4
+UT  1998 CORE     36  DXCCS5              137 140   Num CCS: diagnosis 5
+UT  1998 CORE     37  DXCCS6              141 144   Num CCS: diagnosis 6
+UT  1998 CORE     38  DXCCS7              145 148   Num CCS: diagnosis 7
+UT  1998 CORE     39  DXCCS8              149 152   Num CCS: diagnosis 8
+UT  1998 CORE     40  DXCCS9              153 156   Num CCS: diagnosis 9
+UT  1998 CORE     41  DXCCS10             157 160   Num CCS: diagnosis 10
+UT  1998 CORE     42  FEMALE              161 162   Num Indicator of sex
+UT  1998 CORE     43  HOSPST              163 164   CharHospital state postal code
+UT  1998 CORE     44  LOS                 165 169   Num Length of stay (cleaned)
+UT  1998 CORE     45  LOS_X               170 175   Num Length of stay (uncleaned)
+UT  1998 CORE     46  MDC                 176 177   Num MDC in effect on discharge date
+UT  1998 CORE     47  MDC10               178 179   Num MDC, version 10
+UT  1998 CORE     48  MDC18               180 181   Num MDC, version 18
+UT  1998 CORE     49  NDX                 182 183   Num Number of diagnoses on this record
+UT  1998 CORE     50  NEOMAT              184 184   Num Neonatal and/or maternal DX and/or PR
+UT  1998 CORE     51  NPR                 185 186   Num Number of procedures on this record
+UT  1998 CORE     52  PAY1                187 188   Num Primary expected payer (uniform)
+UT  1998 CORE     53  PAY2                189 190   Num Secondary expected payer (uniform)
+UT  1998 CORE     54  PAY1_X              191 192   CharPrimary expected payer (as received from source)
+UT  1998 CORE     55  PAY2_X              193 194   CharSecondary expected payer (as received from source)
+UT  1998 CORE     56  PAY3_X              195 196   CharTertiary expected payer (as received from source)
+UT  1998 CORE     57  PR1                 197 200   CharPrincipal procedure
+UT  1998 CORE     58  PR2                 201 204   CharProcedure 2
+UT  1998 CORE     59  PR3                 205 208   CharProcedure 3
+UT  1998 CORE     60  PR4                 209 212   CharProcedure 4
+UT  1998 CORE     61  PR5                 213 216   CharProcedure 5
+UT  1998 CORE     62  PR6                 217 220   CharProcedure 6
+UT  1998 CORE     63  PRCCS1              221 223   Num CCS: principal procedure
+UT  1998 CORE     64  PRCCS2              224 226   Num CCS: procedure 2
+UT  1998 CORE     65  PRCCS3              227 229   Num CCS: procedure 3
+UT  1998 CORE     66  PRCCS4              230 232   Num CCS: procedure 4
+UT  1998 CORE     67  PRCCS5              233 235   Num CCS: procedure 5
+UT  1998 CORE     68  PRCCS6              236 238   Num CCS: procedure 6
+UT  1998 CORE     69  TOTCHG              239 248   Num Total charges (cleaned)
+UT  1998 CORE     70  TOTCHG_X            249 263 2 Num Total charges (as received from source)
+UT  1998 CORE     71  YEAR                264 267   Num Calendar year
+UT  1998 CORE     72  ZIP_S               268 272   CharPatient zip code (synthetic)
+UT  1998 CORE     73  AYEAR               273 276   Num Admission year
+UT  1998 CORE     74  DMONTH              277 278   Num Discharge month
+UT  1998 CORE     75  BMONTH              279 280   Num Birth month
+UT  1998 CORE     76  BYEAR               281 284   Num Birth year

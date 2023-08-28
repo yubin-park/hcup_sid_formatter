@@ -1,0 +1,686 @@
+Data Set Name: MA_SIDC_2014_CORE               
+Number of Observations: 790338
+Total Record Length: 2702
+Total Number of Variables: 665
+Creation Date: 03/28/2017   
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 61    Variable name
+63- 66    Starting column of variable in ASCII file
+68- 71    Ending column of variable in ASCII file
+73- 73    Non-zero number of digits after decimal point for numeric variable
+75- 78    Variable type (Num=numeric; Char=character)
+80-179    Variable label
+
+
+MA  2014 CORE               1 ADRG                               1    3   Num  All Patient Refined DRG
+MA  2014 CORE               2 ADRGRISKMORTALITY                  4    5   Num  All Patient Refined DRG mortality risk
+MA  2014 CORE               3 ADRGSEV                            6    7   Num  All Patient Refined DRG severity level
+MA  2014 CORE               4 AGE                                8   10   Num  Age in years at admission
+MA  2014 CORE               5 AGEMONTH                          11   13   Num  Age in months (when age < 11 years)
+MA  2014 CORE               6 AMDC                              14   15   Num  All Patient Refined MDC
+MA  2014 CORE               7 AMONTH                            16   17   Num  Admission month
+MA  2014 CORE               8 ASOURCE                           18   19   Num  Admission source (uniform)
+MA  2014 CORE               9 ASOURCEUB92                       20   20   Char Admission source (UB-92 standard coding)
+MA  2014 CORE              10 ASOURCE_X                         21   21   Char Admission source (as received from source)
+MA  2014 CORE              11 ATYPE                             22   23   Num  Admission type
+MA  2014 CORE              12 AWEEKEND                          24   25   Num  Admission day is a weekend
+MA  2014 CORE              13 BWT                               26   29   Num  Birth weight in grams
+MA  2014 CORE              14 DIED                              30   31   Num  Died during hospitalization
+MA  2014 CORE              15 DISPUB04                          32   33   Num  Disposition of patient (UB-04 standard coding)
+MA  2014 CORE              16 DISPUNIFORM                       34   35   Num  Disposition of patient (uniform)
+MA  2014 CORE              17 DISP_X                            36   37   Char Disposition of patient (as received from source)
+MA  2014 CORE              18 DMONTH                            38   39   Num  Discharge month
+MA  2014 CORE              19 DNR                               40   41   Num  Do not resuscitate indicator
+MA  2014 CORE              20 DQTR                              42   43   Num  Discharge quarter
+MA  2014 CORE              21 DRG                               44   46   Num  DRG in effect on discharge date
+MA  2014 CORE              22 DRG24                             47   49   Num  DRG, version 24
+MA  2014 CORE              23 DRGVER                            50   51   Num  DRG grouper version used on discharge date
+MA  2014 CORE              24 DRG_NoPOA                         52   54   Num  DRG in use on discharge date, calculated without POA
+MA  2014 CORE              25 DSHOSPID                          55   71   Char Data source hospital identifier
+MA  2014 CORE              26 DX1                               72   78   Char Diagnosis 1
+MA  2014 CORE              27 DX2                               79   85   Char Diagnosis 2
+MA  2014 CORE              28 DX3                               86   92   Char Diagnosis 3
+MA  2014 CORE              29 DX4                               93   99   Char Diagnosis 4
+MA  2014 CORE              30 DX5                              100  106   Char Diagnosis 5
+MA  2014 CORE              31 DX6                              107  113   Char Diagnosis 6
+MA  2014 CORE              32 DX7                              114  120   Char Diagnosis 7
+MA  2014 CORE              33 DX8                              121  127   Char Diagnosis 8
+MA  2014 CORE              34 DX9                              128  134   Char Diagnosis 9
+MA  2014 CORE              35 DX10                             135  141   Char Diagnosis 10
+MA  2014 CORE              36 DX11                             142  148   Char Diagnosis 11
+MA  2014 CORE              37 DX12                             149  155   Char Diagnosis 12
+MA  2014 CORE              38 DX13                             156  162   Char Diagnosis 13
+MA  2014 CORE              39 DX14                             163  169   Char Diagnosis 14
+MA  2014 CORE              40 DX15                             170  176   Char Diagnosis 15
+MA  2014 CORE              41 DX16                             177  183   Char Diagnosis 16
+MA  2014 CORE              42 DX17                             184  190   Char Diagnosis 17
+MA  2014 CORE              43 DX18                             191  197   Char Diagnosis 18
+MA  2014 CORE              44 DX19                             198  204   Char Diagnosis 19
+MA  2014 CORE              45 DX20                             205  211   Char Diagnosis 20
+MA  2014 CORE              46 DX21                             212  218   Char Diagnosis 21
+MA  2014 CORE              47 DX22                             219  225   Char Diagnosis 22
+MA  2014 CORE              48 DX23                             226  232   Char Diagnosis 23
+MA  2014 CORE              49 DX24                             233  239   Char Diagnosis 24
+MA  2014 CORE              50 DX25                             240  246   Char Diagnosis 25
+MA  2014 CORE              51 DX26                             247  253   Char Diagnosis 26
+MA  2014 CORE              52 DX27                             254  260   Char Diagnosis 27
+MA  2014 CORE              53 DX28                             261  267   Char Diagnosis 28
+MA  2014 CORE              54 DX29                             268  274   Char Diagnosis 29
+MA  2014 CORE              55 DX30                             275  281   Char Diagnosis 30
+MA  2014 CORE              56 DX31                             282  288   Char Diagnosis 31
+MA  2014 CORE              57 DX32                             289  295   Char Diagnosis 32
+MA  2014 CORE              58 DX33                             296  302   Char Diagnosis 33
+MA  2014 CORE              59 DX34                             303  309   Char Diagnosis 34
+MA  2014 CORE              60 DX35                             310  316   Char Diagnosis 35
+MA  2014 CORE              61 DX36                             317  323   Char Diagnosis 36
+MA  2014 CORE              62 DX37                             324  330   Char Diagnosis 37
+MA  2014 CORE              63 DX38                             331  337   Char Diagnosis 38
+MA  2014 CORE              64 DX39                             338  344   Char Diagnosis 39
+MA  2014 CORE              65 DX40                             345  351   Char Diagnosis 40
+MA  2014 CORE              66 DX41                             352  358   Char Diagnosis 41
+MA  2014 CORE              67 DX42                             359  365   Char Diagnosis 42
+MA  2014 CORE              68 DX43                             366  372   Char Diagnosis 43
+MA  2014 CORE              69 DX44                             373  379   Char Diagnosis 44
+MA  2014 CORE              70 DX45                             380  386   Char Diagnosis 45
+MA  2014 CORE              71 DX46                             387  393   Char Diagnosis 46
+MA  2014 CORE              72 DX47                             394  400   Char Diagnosis 47
+MA  2014 CORE              73 DX48                             401  407   Char Diagnosis 48
+MA  2014 CORE              74 DX49                             408  414   Char Diagnosis 49
+MA  2014 CORE              75 DX50                             415  421   Char Diagnosis 50
+MA  2014 CORE              76 DX51                             422  428   Char Diagnosis 51
+MA  2014 CORE              77 DX52                             429  435   Char Diagnosis 52
+MA  2014 CORE              78 DX53                             436  442   Char Diagnosis 53
+MA  2014 CORE              79 DX54                             443  449   Char Diagnosis 54
+MA  2014 CORE              80 DX55                             450  456   Char Diagnosis 55
+MA  2014 CORE              81 DX56                             457  463   Char Diagnosis 56
+MA  2014 CORE              82 DX57                             464  470   Char Diagnosis 57
+MA  2014 CORE              83 DX58                             471  477   Char Diagnosis 58
+MA  2014 CORE              84 DX59                             478  484   Char Diagnosis 59
+MA  2014 CORE              85 DX60                             485  491   Char Diagnosis 60
+MA  2014 CORE              86 DX61                             492  498   Char Diagnosis 61
+MA  2014 CORE              87 DX62                             499  505   Char Diagnosis 62
+MA  2014 CORE              88 DX63                             506  512   Char Diagnosis 63
+MA  2014 CORE              89 DX64                             513  519   Char Diagnosis 64
+MA  2014 CORE              90 DX65                             520  526   Char Diagnosis 65
+MA  2014 CORE              91 DX66                             527  533   Char Diagnosis 66
+MA  2014 CORE              92 DX67                             534  540   Char Diagnosis 67
+MA  2014 CORE              93 DX68                             541  547   Char Diagnosis 68
+MA  2014 CORE              94 DX69                             548  554   Char Diagnosis 69
+MA  2014 CORE              95 DX70                             555  561   Char Diagnosis 70
+MA  2014 CORE              96 DX71                             562  568   Char Diagnosis 71
+MA  2014 CORE              97 DXCCS1                           569  572   Num  CCS: diagnosis 1
+MA  2014 CORE              98 DXCCS2                           573  576   Num  CCS: diagnosis 2
+MA  2014 CORE              99 DXCCS3                           577  580   Num  CCS: diagnosis 3
+MA  2014 CORE             100 DXCCS4                           581  584   Num  CCS: diagnosis 4
+MA  2014 CORE             101 DXCCS5                           585  588   Num  CCS: diagnosis 5
+MA  2014 CORE             102 DXCCS6                           589  592   Num  CCS: diagnosis 6
+MA  2014 CORE             103 DXCCS7                           593  596   Num  CCS: diagnosis 7
+MA  2014 CORE             104 DXCCS8                           597  600   Num  CCS: diagnosis 8
+MA  2014 CORE             105 DXCCS9                           601  604   Num  CCS: diagnosis 9
+MA  2014 CORE             106 DXCCS10                          605  608   Num  CCS: diagnosis 10
+MA  2014 CORE             107 DXCCS11                          609  612   Num  CCS: diagnosis 11
+MA  2014 CORE             108 DXCCS12                          613  616   Num  CCS: diagnosis 12
+MA  2014 CORE             109 DXCCS13                          617  620   Num  CCS: diagnosis 13
+MA  2014 CORE             110 DXCCS14                          621  624   Num  CCS: diagnosis 14
+MA  2014 CORE             111 DXCCS15                          625  628   Num  CCS: diagnosis 15
+MA  2014 CORE             112 DXCCS16                          629  632   Num  CCS: diagnosis 16
+MA  2014 CORE             113 DXCCS17                          633  636   Num  CCS: diagnosis 17
+MA  2014 CORE             114 DXCCS18                          637  640   Num  CCS: diagnosis 18
+MA  2014 CORE             115 DXCCS19                          641  644   Num  CCS: diagnosis 19
+MA  2014 CORE             116 DXCCS20                          645  648   Num  CCS: diagnosis 20
+MA  2014 CORE             117 DXCCS21                          649  652   Num  CCS: diagnosis 21
+MA  2014 CORE             118 DXCCS22                          653  656   Num  CCS: diagnosis 22
+MA  2014 CORE             119 DXCCS23                          657  660   Num  CCS: diagnosis 23
+MA  2014 CORE             120 DXCCS24                          661  664   Num  CCS: diagnosis 24
+MA  2014 CORE             121 DXCCS25                          665  668   Num  CCS: diagnosis 25
+MA  2014 CORE             122 DXCCS26                          669  672   Num  CCS: diagnosis 26
+MA  2014 CORE             123 DXCCS27                          673  676   Num  CCS: diagnosis 27
+MA  2014 CORE             124 DXCCS28                          677  680   Num  CCS: diagnosis 28
+MA  2014 CORE             125 DXCCS29                          681  684   Num  CCS: diagnosis 29
+MA  2014 CORE             126 DXCCS30                          685  688   Num  CCS: diagnosis 30
+MA  2014 CORE             127 DXCCS31                          689  692   Num  CCS: diagnosis 31
+MA  2014 CORE             128 DXCCS32                          693  696   Num  CCS: diagnosis 32
+MA  2014 CORE             129 DXCCS33                          697  700   Num  CCS: diagnosis 33
+MA  2014 CORE             130 DXCCS34                          701  704   Num  CCS: diagnosis 34
+MA  2014 CORE             131 DXCCS35                          705  708   Num  CCS: diagnosis 35
+MA  2014 CORE             132 DXCCS36                          709  712   Num  CCS: diagnosis 36
+MA  2014 CORE             133 DXCCS37                          713  716   Num  CCS: diagnosis 37
+MA  2014 CORE             134 DXCCS38                          717  720   Num  CCS: diagnosis 38
+MA  2014 CORE             135 DXCCS39                          721  724   Num  CCS: diagnosis 39
+MA  2014 CORE             136 DXCCS40                          725  728   Num  CCS: diagnosis 40
+MA  2014 CORE             137 DXCCS41                          729  732   Num  CCS: diagnosis 41
+MA  2014 CORE             138 DXCCS42                          733  736   Num  CCS: diagnosis 42
+MA  2014 CORE             139 DXCCS43                          737  740   Num  CCS: diagnosis 43
+MA  2014 CORE             140 DXCCS44                          741  744   Num  CCS: diagnosis 44
+MA  2014 CORE             141 DXCCS45                          745  748   Num  CCS: diagnosis 45
+MA  2014 CORE             142 DXCCS46                          749  752   Num  CCS: diagnosis 46
+MA  2014 CORE             143 DXCCS47                          753  756   Num  CCS: diagnosis 47
+MA  2014 CORE             144 DXCCS48                          757  760   Num  CCS: diagnosis 48
+MA  2014 CORE             145 DXCCS49                          761  764   Num  CCS: diagnosis 49
+MA  2014 CORE             146 DXCCS50                          765  768   Num  CCS: diagnosis 50
+MA  2014 CORE             147 DXCCS51                          769  772   Num  CCS: diagnosis 51
+MA  2014 CORE             148 DXCCS52                          773  776   Num  CCS: diagnosis 52
+MA  2014 CORE             149 DXCCS53                          777  780   Num  CCS: diagnosis 53
+MA  2014 CORE             150 DXCCS54                          781  784   Num  CCS: diagnosis 54
+MA  2014 CORE             151 DXCCS55                          785  788   Num  CCS: diagnosis 55
+MA  2014 CORE             152 DXCCS56                          789  792   Num  CCS: diagnosis 56
+MA  2014 CORE             153 DXCCS57                          793  796   Num  CCS: diagnosis 57
+MA  2014 CORE             154 DXCCS58                          797  800   Num  CCS: diagnosis 58
+MA  2014 CORE             155 DXCCS59                          801  804   Num  CCS: diagnosis 59
+MA  2014 CORE             156 DXCCS60                          805  808   Num  CCS: diagnosis 60
+MA  2014 CORE             157 DXCCS61                          809  812   Num  CCS: diagnosis 61
+MA  2014 CORE             158 DXCCS62                          813  816   Num  CCS: diagnosis 62
+MA  2014 CORE             159 DXCCS63                          817  820   Num  CCS: diagnosis 63
+MA  2014 CORE             160 DXCCS64                          821  824   Num  CCS: diagnosis 64
+MA  2014 CORE             161 DXCCS65                          825  828   Num  CCS: diagnosis 65
+MA  2014 CORE             162 DXCCS66                          829  832   Num  CCS: diagnosis 66
+MA  2014 CORE             163 DXCCS67                          833  836   Num  CCS: diagnosis 67
+MA  2014 CORE             164 DXCCS68                          837  840   Num  CCS: diagnosis 68
+MA  2014 CORE             165 DXCCS69                          841  844   Num  CCS: diagnosis 69
+MA  2014 CORE             166 DXCCS70                          845  848   Num  CCS: diagnosis 70
+MA  2014 CORE             167 DXCCS71                          849  852   Num  CCS: diagnosis 71
+MA  2014 CORE             168 DXPOA1                           853  853   Char Diagnosis 1, present on admission indicator
+MA  2014 CORE             169 DXPOA2                           854  854   Char Diagnosis 2, present on admission indicator
+MA  2014 CORE             170 DXPOA3                           855  855   Char Diagnosis 3, present on admission indicator
+MA  2014 CORE             171 DXPOA4                           856  856   Char Diagnosis 4, present on admission indicator
+MA  2014 CORE             172 DXPOA5                           857  857   Char Diagnosis 5, present on admission indicator
+MA  2014 CORE             173 DXPOA6                           858  858   Char Diagnosis 6, present on admission indicator
+MA  2014 CORE             174 DXPOA7                           859  859   Char Diagnosis 7, present on admission indicator
+MA  2014 CORE             175 DXPOA8                           860  860   Char Diagnosis 8, present on admission indicator
+MA  2014 CORE             176 DXPOA9                           861  861   Char Diagnosis 9, present on admission indicator
+MA  2014 CORE             177 DXPOA10                          862  862   Char Diagnosis 10, present on admission indicator
+MA  2014 CORE             178 DXPOA11                          863  863   Char Diagnosis 11, present on admission indicator
+MA  2014 CORE             179 DXPOA12                          864  864   Char Diagnosis 12, present on admission indicator
+MA  2014 CORE             180 DXPOA13                          865  865   Char Diagnosis 13, present on admission indicator
+MA  2014 CORE             181 DXPOA14                          866  866   Char Diagnosis 14, present on admission indicator
+MA  2014 CORE             182 DXPOA15                          867  867   Char Diagnosis 15, present on admission indicator
+MA  2014 CORE             183 DXPOA16                          868  868   Char Diagnosis 16, present on admission indicator
+MA  2014 CORE             184 DXPOA17                          869  869   Char Diagnosis 17, present on admission indicator
+MA  2014 CORE             185 DXPOA18                          870  870   Char Diagnosis 18, present on admission indicator
+MA  2014 CORE             186 DXPOA19                          871  871   Char Diagnosis 19, present on admission indicator
+MA  2014 CORE             187 DXPOA20                          872  872   Char Diagnosis 20, present on admission indicator
+MA  2014 CORE             188 DXPOA21                          873  873   Char Diagnosis 21, present on admission indicator
+MA  2014 CORE             189 DXPOA22                          874  874   Char Diagnosis 22, present on admission indicator
+MA  2014 CORE             190 DXPOA23                          875  875   Char Diagnosis 23, present on admission indicator
+MA  2014 CORE             191 DXPOA24                          876  876   Char Diagnosis 24, present on admission indicator
+MA  2014 CORE             192 DXPOA25                          877  877   Char Diagnosis 25, present on admission indicator
+MA  2014 CORE             193 DXPOA26                          878  878   Char Diagnosis 26, present on admission indicator
+MA  2014 CORE             194 DXPOA27                          879  879   Char Diagnosis 27, present on admission indicator
+MA  2014 CORE             195 DXPOA28                          880  880   Char Diagnosis 28, present on admission indicator
+MA  2014 CORE             196 DXPOA29                          881  881   Char Diagnosis 29, present on admission indicator
+MA  2014 CORE             197 DXPOA30                          882  882   Char Diagnosis 30, present on admission indicator
+MA  2014 CORE             198 DXPOA31                          883  883   Char Diagnosis 31, present on admission indicator
+MA  2014 CORE             199 DXPOA32                          884  884   Char Diagnosis 32, present on admission indicator
+MA  2014 CORE             200 DXPOA33                          885  885   Char Diagnosis 33, present on admission indicator
+MA  2014 CORE             201 DXPOA34                          886  886   Char Diagnosis 34, present on admission indicator
+MA  2014 CORE             202 DXPOA35                          887  887   Char Diagnosis 35, present on admission indicator
+MA  2014 CORE             203 DXPOA36                          888  888   Char Diagnosis 36, present on admission indicator
+MA  2014 CORE             204 DXPOA37                          889  889   Char Diagnosis 37, present on admission indicator
+MA  2014 CORE             205 DXPOA38                          890  890   Char Diagnosis 38, present on admission indicator
+MA  2014 CORE             206 DXPOA39                          891  891   Char Diagnosis 39, present on admission indicator
+MA  2014 CORE             207 DXPOA40                          892  892   Char Diagnosis 40, present on admission indicator
+MA  2014 CORE             208 DXPOA41                          893  893   Char Diagnosis 41, present on admission indicator
+MA  2014 CORE             209 DXPOA42                          894  894   Char Diagnosis 42, present on admission indicator
+MA  2014 CORE             210 DXPOA43                          895  895   Char Diagnosis 43, present on admission indicator
+MA  2014 CORE             211 DXPOA44                          896  896   Char Diagnosis 44, present on admission indicator
+MA  2014 CORE             212 DXPOA45                          897  897   Char Diagnosis 45, present on admission indicator
+MA  2014 CORE             213 DXPOA46                          898  898   Char Diagnosis 46, present on admission indicator
+MA  2014 CORE             214 DXPOA47                          899  899   Char Diagnosis 47, present on admission indicator
+MA  2014 CORE             215 DXPOA48                          900  900   Char Diagnosis 48, present on admission indicator
+MA  2014 CORE             216 DXPOA49                          901  901   Char Diagnosis 49, present on admission indicator
+MA  2014 CORE             217 DXPOA50                          902  902   Char Diagnosis 50, present on admission indicator
+MA  2014 CORE             218 DXPOA51                          903  903   Char Diagnosis 51, present on admission indicator
+MA  2014 CORE             219 DXPOA52                          904  904   Char Diagnosis 52, present on admission indicator
+MA  2014 CORE             220 DXPOA53                          905  905   Char Diagnosis 53, present on admission indicator
+MA  2014 CORE             221 DXPOA54                          906  906   Char Diagnosis 54, present on admission indicator
+MA  2014 CORE             222 DXPOA55                          907  907   Char Diagnosis 55, present on admission indicator
+MA  2014 CORE             223 DXPOA56                          908  908   Char Diagnosis 56, present on admission indicator
+MA  2014 CORE             224 DXPOA57                          909  909   Char Diagnosis 57, present on admission indicator
+MA  2014 CORE             225 DXPOA58                          910  910   Char Diagnosis 58, present on admission indicator
+MA  2014 CORE             226 DXPOA59                          911  911   Char Diagnosis 59, present on admission indicator
+MA  2014 CORE             227 DXPOA60                          912  912   Char Diagnosis 60, present on admission indicator
+MA  2014 CORE             228 DXPOA61                          913  913   Char Diagnosis 61, present on admission indicator
+MA  2014 CORE             229 DXPOA62                          914  914   Char Diagnosis 62, present on admission indicator
+MA  2014 CORE             230 DXPOA63                          915  915   Char Diagnosis 63, present on admission indicator
+MA  2014 CORE             231 DXPOA64                          916  916   Char Diagnosis 64, present on admission indicator
+MA  2014 CORE             232 DXPOA65                          917  917   Char Diagnosis 65, present on admission indicator
+MA  2014 CORE             233 DXPOA66                          918  918   Char Diagnosis 66, present on admission indicator
+MA  2014 CORE             234 DXPOA67                          919  919   Char Diagnosis 67, present on admission indicator
+MA  2014 CORE             235 DXPOA68                          920  920   Char Diagnosis 68, present on admission indicator
+MA  2014 CORE             236 DXPOA69                          921  921   Char Diagnosis 69, present on admission indicator
+MA  2014 CORE             237 DXPOA70                          922  922   Char Diagnosis 70, present on admission indicator
+MA  2014 CORE             238 DXPOA71                          923  923   Char Diagnosis 71, present on admission indicator
+MA  2014 CORE             239 DXVER                            924  926   Num  Diagnosis Version
+MA  2014 CORE             240 DX_Admitting                     927  933   Char Admitting Diagnosis Code
+MA  2014 CORE             241 DaysBetweenVisits                934  937   Num  Number of days between visits
+MA  2014 CORE             242 DaysToEvent                      938  943   Num  Days from 'start date' to admission
+MA  2014 CORE             243 ECODE1                           944  950   Char E code 1
+MA  2014 CORE             244 ECODE2                           951  957   Char E code 2
+MA  2014 CORE             245 ECODE3                           958  964   Char E code 3
+MA  2014 CORE             246 ECODE4                           965  971   Char E code 4
+MA  2014 CORE             247 ECODE5                           972  978   Char E code 5
+MA  2014 CORE             248 ECODE6                           979  985   Char E code 6
+MA  2014 CORE             249 ECODE7                           986  992   Char E code 7
+MA  2014 CORE             250 ECODE8                           993  999   Char E code 8
+MA  2014 CORE             251 ECODE9                          1000 1006   Char E code 9
+MA  2014 CORE             252 ECODE10                         1007 1013   Char E code 10
+MA  2014 CORE             253 ECODE11                         1014 1020   Char E code 11
+MA  2014 CORE             254 ECODE12                         1021 1027   Char E code 12
+MA  2014 CORE             255 ECODE13                         1028 1034   Char E code 13
+MA  2014 CORE             256 ECODE14                         1035 1041   Char E code 14
+MA  2014 CORE             257 E_CCS1                          1042 1045   Num  CCS: E Code 1
+MA  2014 CORE             258 E_CCS2                          1046 1049   Num  CCS: E Code 2
+MA  2014 CORE             259 E_CCS3                          1050 1053   Num  CCS: E Code 3
+MA  2014 CORE             260 E_CCS4                          1054 1057   Num  CCS: E Code 4
+MA  2014 CORE             261 E_CCS5                          1058 1061   Num  CCS: E Code 5
+MA  2014 CORE             262 E_CCS6                          1062 1065   Num  CCS: E Code 6
+MA  2014 CORE             263 E_CCS7                          1066 1069   Num  CCS: E Code 7
+MA  2014 CORE             264 E_CCS8                          1070 1073   Num  CCS: E Code 8
+MA  2014 CORE             265 E_CCS9                          1074 1077   Num  CCS: E Code 9
+MA  2014 CORE             266 E_CCS10                         1078 1081   Num  CCS: E Code 10
+MA  2014 CORE             267 E_CCS11                         1082 1085   Num  CCS: E Code 11
+MA  2014 CORE             268 E_CCS12                         1086 1089   Num  CCS: E Code 12
+MA  2014 CORE             269 E_CCS13                         1090 1093   Num  CCS: E Code 13
+MA  2014 CORE             270 E_CCS14                         1094 1097   Num  CCS: E Code 14
+MA  2014 CORE             271 E_POA1                          1098 1098   Char E Code 1, present on admission indicator
+MA  2014 CORE             272 E_POA2                          1099 1099   Char E Code 2, present on admission indicator
+MA  2014 CORE             273 E_POA3                          1100 1100   Char E Code 3, present on admission indicator
+MA  2014 CORE             274 E_POA4                          1101 1101   Char E Code 4, present on admission indicator
+MA  2014 CORE             275 E_POA5                          1102 1102   Char E Code 5, present on admission indicator
+MA  2014 CORE             276 E_POA6                          1103 1103   Char E Code 6, present on admission indicator
+MA  2014 CORE             277 E_POA7                          1104 1104   Char E Code 7, present on admission indicator
+MA  2014 CORE             278 E_POA8                          1105 1105   Char E Code 8, present on admission indicator
+MA  2014 CORE             279 E_POA9                          1106 1106   Char E Code 9, present on admission indicator
+MA  2014 CORE             280 E_POA10                         1107 1107   Char E Code 10, present on admission indicator
+MA  2014 CORE             281 E_POA11                         1108 1108   Char E Code 11, present on admission indicator
+MA  2014 CORE             282 E_POA12                         1109 1109   Char E Code 12, present on admission indicator
+MA  2014 CORE             283 E_POA13                         1110 1110   Char E Code 13, present on admission indicator
+MA  2014 CORE             284 E_POA14                         1111 1111   Char E Code 14, present on admission indicator
+MA  2014 CORE             285 FEMALE                          1112 1113   Num  Indicator of sex
+MA  2014 CORE             286 HCUP_ED                         1114 1115   Num  HCUP Emergency Department service indicator
+MA  2014 CORE             287 HCUP_OS                         1116 1117   Num  HCUP Observation Stay service indicator
+MA  2014 CORE             288 HISPANIC_X                      1118 1132   Char Hispanic ethnicity (as received from source)
+MA  2014 CORE             289 HOSPBRTH                        1133 1135   Num  Indicator of birth in this hospital
+MA  2014 CORE             290 HOSPST                          1136 1137   Char Hospital state postal code
+MA  2014 CORE             291 Homeless                        1138 1139   Num  Indicator that patient is homeless
+MA  2014 CORE             292 KEY                             1140 1154   Num  HCUP record identifier
+MA  2014 CORE             293 LOS                             1155 1159   Num  Length of stay (cleaned)
+MA  2014 CORE             294 LOS_X                           1160 1165   Num  Length of stay (as received from source)
+MA  2014 CORE             295 MDC                             1166 1167   Num  MDC in effect on discharge date
+MA  2014 CORE             296 MDC24                           1168 1169   Num  MDC, version 24
+MA  2014 CORE             297 MDC_NoPOA                       1170 1171   Num  MDC in use on discharge date, calculated without POA
+MA  2014 CORE             298 MEDINCSTQ                       1172 1173   Num  Median household income state quartile for patient ZIP Code
+MA  2014 CORE             299 NCHRONIC                        1174 1176   Num  Number of chronic conditions
+MA  2014 CORE             300 NDX                             1177 1179   Num  Number of diagnoses on this record
+MA  2014 CORE             301 NECODE                          1180 1181   Num  Number of E codes on this record
+MA  2014 CORE             302 NEOMAT                          1182 1183   Num  Neonatal and/or maternal DX and/or PR
+MA  2014 CORE             303 NPR                             1184 1186   Num  Number of procedures on this record
+MA  2014 CORE             304 ORPROC                          1187 1188   Num  Major operating room procedure indicator
+MA  2014 CORE             305 OS_TIME                         1189 1199 2 Num  Observation stay time summed from UNITS
+MA  2014 CORE             306 PAY1                            1200 1201   Num  Primary expected payer (uniform)
+MA  2014 CORE             307 PAY1_X                          1202 1202   Char Primary expected payer (as received from source)
+MA  2014 CORE             308 PAY2                            1203 1204   Num  Secondary expected payer (uniform)
+MA  2014 CORE             309 PAY2_X                          1205 1205   Char Secondary expected payer (as received from source)
+MA  2014 CORE             310 PAYER1_X                        1206 1208   Char Primary expected payer plan identifier (as received from source)
+MA  2014 CORE             311 PAYER2_X                        1209 1211   Char Secondary expected payer plan identifier (as received from source)
+MA  2014 CORE             312 PL_CBSA                         1212 1214   Num  Patient location: Core Based Statistical Area (CBSA)
+MA  2014 CORE             313 PL_UR_CAT4                      1215 1216   Num  Patient Location: Urban-Rural 4 Categories
+MA  2014 CORE             314 POA_Disch_Edit1                 1217 1218   Num  Discharge has POA missing on all nonexempt diagnoses
+MA  2014 CORE             315 POA_Disch_Edit2                 1219 1220   Num  Discharge has POA missing on all nonexempt secondary diagnoses
+MA  2014 CORE             316 POA_Hosp_Edit1                  1221 1222   Num  Hospital reported POA as Y on all diagnoses on all discharges
+MA  2014 CORE             317 POA_Hosp_Edit2                  1223 1224   Num  Hospital reported POA as missing on all non-Medicare discharges
+MA  2014 CORE             318 POA_Hosp_Edit3                  1225 1226   Num  Hospital reported POA as missing on all nonexempt diagnoses for 15% or more of discharges
+MA  2014 CORE             319 POA_Hosp_Edit3_Value            1227 1234 2 Num  Percentage of discharges with all nonexempt diagnoses missing POA indicators
+MA  2014 CORE             320 PR1                             1235 1241   Char Procedure 1
+MA  2014 CORE             321 PR2                             1242 1248   Char Procedure 2
+MA  2014 CORE             322 PR3                             1249 1255   Char Procedure 3
+MA  2014 CORE             323 PR4                             1256 1262   Char Procedure 4
+MA  2014 CORE             324 PR5                             1263 1269   Char Procedure 5
+MA  2014 CORE             325 PR6                             1270 1276   Char Procedure 6
+MA  2014 CORE             326 PR7                             1277 1283   Char Procedure 7
+MA  2014 CORE             327 PR8                             1284 1290   Char Procedure 8
+MA  2014 CORE             328 PR9                             1291 1297   Char Procedure 9
+MA  2014 CORE             329 PR10                            1298 1304   Char Procedure 10
+MA  2014 CORE             330 PR11                            1305 1311   Char Procedure 11
+MA  2014 CORE             331 PR12                            1312 1318   Char Procedure 12
+MA  2014 CORE             332 PR13                            1319 1325   Char Procedure 13
+MA  2014 CORE             333 PR14                            1326 1332   Char Procedure 14
+MA  2014 CORE             334 PR15                            1333 1339   Char Procedure 15
+MA  2014 CORE             335 PR16                            1340 1346   Char Procedure 16
+MA  2014 CORE             336 PR17                            1347 1353   Char Procedure 17
+MA  2014 CORE             337 PR18                            1354 1360   Char Procedure 18
+MA  2014 CORE             338 PR19                            1361 1367   Char Procedure 19
+MA  2014 CORE             339 PR20                            1368 1374   Char Procedure 20
+MA  2014 CORE             340 PR21                            1375 1381   Char Procedure 21
+MA  2014 CORE             341 PR22                            1382 1388   Char Procedure 22
+MA  2014 CORE             342 PR23                            1389 1395   Char Procedure 23
+MA  2014 CORE             343 PR24                            1396 1402   Char Procedure 24
+MA  2014 CORE             344 PR25                            1403 1409   Char Procedure 25
+MA  2014 CORE             345 PR26                            1410 1416   Char Procedure 26
+MA  2014 CORE             346 PR27                            1417 1423   Char Procedure 27
+MA  2014 CORE             347 PR28                            1424 1430   Char Procedure 28
+MA  2014 CORE             348 PR29                            1431 1437   Char Procedure 29
+MA  2014 CORE             349 PR30                            1438 1444   Char Procedure 30
+MA  2014 CORE             350 PR31                            1445 1451   Char Procedure 31
+MA  2014 CORE             351 PR32                            1452 1458   Char Procedure 32
+MA  2014 CORE             352 PR33                            1459 1465   Char Procedure 33
+MA  2014 CORE             353 PR34                            1466 1472   Char Procedure 34
+MA  2014 CORE             354 PR35                            1473 1479   Char Procedure 35
+MA  2014 CORE             355 PR36                            1480 1486   Char Procedure 36
+MA  2014 CORE             356 PR37                            1487 1493   Char Procedure 37
+MA  2014 CORE             357 PR38                            1494 1500   Char Procedure 38
+MA  2014 CORE             358 PR39                            1501 1507   Char Procedure 39
+MA  2014 CORE             359 PR40                            1508 1514   Char Procedure 40
+MA  2014 CORE             360 PR41                            1515 1521   Char Procedure 41
+MA  2014 CORE             361 PR42                            1522 1528   Char Procedure 42
+MA  2014 CORE             362 PR43                            1529 1535   Char Procedure 43
+MA  2014 CORE             363 PR44                            1536 1542   Char Procedure 44
+MA  2014 CORE             364 PR45                            1543 1549   Char Procedure 45
+MA  2014 CORE             365 PR46                            1550 1556   Char Procedure 46
+MA  2014 CORE             366 PR47                            1557 1563   Char Procedure 47
+MA  2014 CORE             367 PR48                            1564 1570   Char Procedure 48
+MA  2014 CORE             368 PR49                            1571 1577   Char Procedure 49
+MA  2014 CORE             369 PR50                            1578 1584   Char Procedure 50
+MA  2014 CORE             370 PR51                            1585 1591   Char Procedure 51
+MA  2014 CORE             371 PR52                            1592 1598   Char Procedure 52
+MA  2014 CORE             372 PR53                            1599 1605   Char Procedure 53
+MA  2014 CORE             373 PR54                            1606 1612   Char Procedure 54
+MA  2014 CORE             374 PR55                            1613 1619   Char Procedure 55
+MA  2014 CORE             375 PR56                            1620 1626   Char Procedure 56
+MA  2014 CORE             376 PR57                            1627 1633   Char Procedure 57
+MA  2014 CORE             377 PR58                            1634 1640   Char Procedure 58
+MA  2014 CORE             378 PR59                            1641 1647   Char Procedure 59
+MA  2014 CORE             379 PR60                            1648 1654   Char Procedure 60
+MA  2014 CORE             380 PR61                            1655 1661   Char Procedure 61
+MA  2014 CORE             381 PR62                            1662 1668   Char Procedure 62
+MA  2014 CORE             382 PR63                            1669 1675   Char Procedure 63
+MA  2014 CORE             383 PR64                            1676 1682   Char Procedure 64
+MA  2014 CORE             384 PR65                            1683 1689   Char Procedure 65
+MA  2014 CORE             385 PR66                            1690 1696   Char Procedure 66
+MA  2014 CORE             386 PRCCS1                          1697 1699   Num  CCS: procedure 1
+MA  2014 CORE             387 PRCCS2                          1700 1702   Num  CCS: procedure 2
+MA  2014 CORE             388 PRCCS3                          1703 1705   Num  CCS: procedure 3
+MA  2014 CORE             389 PRCCS4                          1706 1708   Num  CCS: procedure 4
+MA  2014 CORE             390 PRCCS5                          1709 1711   Num  CCS: procedure 5
+MA  2014 CORE             391 PRCCS6                          1712 1714   Num  CCS: procedure 6
+MA  2014 CORE             392 PRCCS7                          1715 1717   Num  CCS: procedure 7
+MA  2014 CORE             393 PRCCS8                          1718 1720   Num  CCS: procedure 8
+MA  2014 CORE             394 PRCCS9                          1721 1723   Num  CCS: procedure 9
+MA  2014 CORE             395 PRCCS10                         1724 1726   Num  CCS: procedure 10
+MA  2014 CORE             396 PRCCS11                         1727 1729   Num  CCS: procedure 11
+MA  2014 CORE             397 PRCCS12                         1730 1732   Num  CCS: procedure 12
+MA  2014 CORE             398 PRCCS13                         1733 1735   Num  CCS: procedure 13
+MA  2014 CORE             399 PRCCS14                         1736 1738   Num  CCS: procedure 14
+MA  2014 CORE             400 PRCCS15                         1739 1741   Num  CCS: procedure 15
+MA  2014 CORE             401 PRCCS16                         1742 1744   Num  CCS: procedure 16
+MA  2014 CORE             402 PRCCS17                         1745 1747   Num  CCS: procedure 17
+MA  2014 CORE             403 PRCCS18                         1748 1750   Num  CCS: procedure 18
+MA  2014 CORE             404 PRCCS19                         1751 1753   Num  CCS: procedure 19
+MA  2014 CORE             405 PRCCS20                         1754 1756   Num  CCS: procedure 20
+MA  2014 CORE             406 PRCCS21                         1757 1759   Num  CCS: procedure 21
+MA  2014 CORE             407 PRCCS22                         1760 1762   Num  CCS: procedure 22
+MA  2014 CORE             408 PRCCS23                         1763 1765   Num  CCS: procedure 23
+MA  2014 CORE             409 PRCCS24                         1766 1768   Num  CCS: procedure 24
+MA  2014 CORE             410 PRCCS25                         1769 1771   Num  CCS: procedure 25
+MA  2014 CORE             411 PRCCS26                         1772 1774   Num  CCS: procedure 26
+MA  2014 CORE             412 PRCCS27                         1775 1777   Num  CCS: procedure 27
+MA  2014 CORE             413 PRCCS28                         1778 1780   Num  CCS: procedure 28
+MA  2014 CORE             414 PRCCS29                         1781 1783   Num  CCS: procedure 29
+MA  2014 CORE             415 PRCCS30                         1784 1786   Num  CCS: procedure 30
+MA  2014 CORE             416 PRCCS31                         1787 1789   Num  CCS: procedure 31
+MA  2014 CORE             417 PRCCS32                         1790 1792   Num  CCS: procedure 32
+MA  2014 CORE             418 PRCCS33                         1793 1795   Num  CCS: procedure 33
+MA  2014 CORE             419 PRCCS34                         1796 1798   Num  CCS: procedure 34
+MA  2014 CORE             420 PRCCS35                         1799 1801   Num  CCS: procedure 35
+MA  2014 CORE             421 PRCCS36                         1802 1804   Num  CCS: procedure 36
+MA  2014 CORE             422 PRCCS37                         1805 1807   Num  CCS: procedure 37
+MA  2014 CORE             423 PRCCS38                         1808 1810   Num  CCS: procedure 38
+MA  2014 CORE             424 PRCCS39                         1811 1813   Num  CCS: procedure 39
+MA  2014 CORE             425 PRCCS40                         1814 1816   Num  CCS: procedure 40
+MA  2014 CORE             426 PRCCS41                         1817 1819   Num  CCS: procedure 41
+MA  2014 CORE             427 PRCCS42                         1820 1822   Num  CCS: procedure 42
+MA  2014 CORE             428 PRCCS43                         1823 1825   Num  CCS: procedure 43
+MA  2014 CORE             429 PRCCS44                         1826 1828   Num  CCS: procedure 44
+MA  2014 CORE             430 PRCCS45                         1829 1831   Num  CCS: procedure 45
+MA  2014 CORE             431 PRCCS46                         1832 1834   Num  CCS: procedure 46
+MA  2014 CORE             432 PRCCS47                         1835 1837   Num  CCS: procedure 47
+MA  2014 CORE             433 PRCCS48                         1838 1840   Num  CCS: procedure 48
+MA  2014 CORE             434 PRCCS49                         1841 1843   Num  CCS: procedure 49
+MA  2014 CORE             435 PRCCS50                         1844 1846   Num  CCS: procedure 50
+MA  2014 CORE             436 PRCCS51                         1847 1849   Num  CCS: procedure 51
+MA  2014 CORE             437 PRCCS52                         1850 1852   Num  CCS: procedure 52
+MA  2014 CORE             438 PRCCS53                         1853 1855   Num  CCS: procedure 53
+MA  2014 CORE             439 PRCCS54                         1856 1858   Num  CCS: procedure 54
+MA  2014 CORE             440 PRCCS55                         1859 1861   Num  CCS: procedure 55
+MA  2014 CORE             441 PRCCS56                         1862 1864   Num  CCS: procedure 56
+MA  2014 CORE             442 PRCCS57                         1865 1867   Num  CCS: procedure 57
+MA  2014 CORE             443 PRCCS58                         1868 1870   Num  CCS: procedure 58
+MA  2014 CORE             444 PRCCS59                         1871 1873   Num  CCS: procedure 59
+MA  2014 CORE             445 PRCCS60                         1874 1876   Num  CCS: procedure 60
+MA  2014 CORE             446 PRCCS61                         1877 1879   Num  CCS: procedure 61
+MA  2014 CORE             447 PRCCS62                         1880 1882   Num  CCS: procedure 62
+MA  2014 CORE             448 PRCCS63                         1883 1885   Num  CCS: procedure 63
+MA  2014 CORE             449 PRCCS64                         1886 1888   Num  CCS: procedure 64
+MA  2014 CORE             450 PRCCS65                         1889 1891   Num  CCS: procedure 65
+MA  2014 CORE             451 PRCCS66                         1892 1894   Num  CCS: procedure 66
+MA  2014 CORE             452 PRDAY1                          1895 1899   Num  Number of days from admission to PR1
+MA  2014 CORE             453 PRDAY2                          1900 1904   Num  Number of days from admission to PR2
+MA  2014 CORE             454 PRDAY3                          1905 1909   Num  Number of days from admission to PR3
+MA  2014 CORE             455 PRDAY4                          1910 1914   Num  Number of days from admission to PR4
+MA  2014 CORE             456 PRDAY5                          1915 1919   Num  Number of days from admission to PR5
+MA  2014 CORE             457 PRDAY6                          1920 1924   Num  Number of days from admission to PR6
+MA  2014 CORE             458 PRDAY7                          1925 1929   Num  Number of days from admission to PR7
+MA  2014 CORE             459 PRDAY8                          1930 1934   Num  Number of days from admission to PR8
+MA  2014 CORE             460 PRDAY9                          1935 1939   Num  Number of days from admission to PR9
+MA  2014 CORE             461 PRDAY10                         1940 1944   Num  Number of days from admission to PR10
+MA  2014 CORE             462 PRDAY11                         1945 1949   Num  Number of days from admission to PR11
+MA  2014 CORE             463 PRDAY12                         1950 1954   Num  Number of days from admission to PR12
+MA  2014 CORE             464 PRDAY13                         1955 1959   Num  Number of days from admission to PR13
+MA  2014 CORE             465 PRDAY14                         1960 1964   Num  Number of days from admission to PR14
+MA  2014 CORE             466 PRDAY15                         1965 1969   Num  Number of days from admission to PR15
+MA  2014 CORE             467 PRDAY16                         1970 1974   Num  Number of days from admission to PR16
+MA  2014 CORE             468 PRDAY17                         1975 1979   Num  Number of days from admission to PR17
+MA  2014 CORE             469 PRDAY18                         1980 1984   Num  Number of days from admission to PR18
+MA  2014 CORE             470 PRDAY19                         1985 1989   Num  Number of days from admission to PR19
+MA  2014 CORE             471 PRDAY20                         1990 1994   Num  Number of days from admission to PR20
+MA  2014 CORE             472 PRDAY21                         1995 1999   Num  Number of days from admission to PR21
+MA  2014 CORE             473 PRDAY22                         2000 2004   Num  Number of days from admission to PR22
+MA  2014 CORE             474 PRDAY23                         2005 2009   Num  Number of days from admission to PR23
+MA  2014 CORE             475 PRDAY24                         2010 2014   Num  Number of days from admission to PR24
+MA  2014 CORE             476 PRDAY25                         2015 2019   Num  Number of days from admission to PR25
+MA  2014 CORE             477 PRDAY26                         2020 2024   Num  Number of days from admission to PR26
+MA  2014 CORE             478 PRDAY27                         2025 2029   Num  Number of days from admission to PR27
+MA  2014 CORE             479 PRDAY28                         2030 2034   Num  Number of days from admission to PR28
+MA  2014 CORE             480 PRDAY29                         2035 2039   Num  Number of days from admission to PR29
+MA  2014 CORE             481 PRDAY30                         2040 2044   Num  Number of days from admission to PR30
+MA  2014 CORE             482 PRDAY31                         2045 2049   Num  Number of days from admission to PR31
+MA  2014 CORE             483 PRDAY32                         2050 2054   Num  Number of days from admission to PR32
+MA  2014 CORE             484 PRDAY33                         2055 2059   Num  Number of days from admission to PR33
+MA  2014 CORE             485 PRDAY34                         2060 2064   Num  Number of days from admission to PR34
+MA  2014 CORE             486 PRDAY35                         2065 2069   Num  Number of days from admission to PR35
+MA  2014 CORE             487 PRDAY36                         2070 2074   Num  Number of days from admission to PR36
+MA  2014 CORE             488 PRDAY37                         2075 2079   Num  Number of days from admission to PR37
+MA  2014 CORE             489 PRDAY38                         2080 2084   Num  Number of days from admission to PR38
+MA  2014 CORE             490 PRDAY39                         2085 2089   Num  Number of days from admission to PR39
+MA  2014 CORE             491 PRDAY40                         2090 2094   Num  Number of days from admission to PR40
+MA  2014 CORE             492 PRDAY41                         2095 2099   Num  Number of days from admission to PR41
+MA  2014 CORE             493 PRDAY42                         2100 2104   Num  Number of days from admission to PR42
+MA  2014 CORE             494 PRDAY43                         2105 2109   Num  Number of days from admission to PR43
+MA  2014 CORE             495 PRDAY44                         2110 2114   Num  Number of days from admission to PR44
+MA  2014 CORE             496 PRDAY45                         2115 2119   Num  Number of days from admission to PR45
+MA  2014 CORE             497 PRDAY46                         2120 2124   Num  Number of days from admission to PR46
+MA  2014 CORE             498 PRDAY47                         2125 2129   Num  Number of days from admission to PR47
+MA  2014 CORE             499 PRDAY48                         2130 2134   Num  Number of days from admission to PR48
+MA  2014 CORE             500 PRDAY49                         2135 2139   Num  Number of days from admission to PR49
+MA  2014 CORE             501 PRDAY50                         2140 2144   Num  Number of days from admission to PR50
+MA  2014 CORE             502 PRDAY51                         2145 2149   Num  Number of days from admission to PR51
+MA  2014 CORE             503 PRDAY52                         2150 2154   Num  Number of days from admission to PR52
+MA  2014 CORE             504 PRDAY53                         2155 2159   Num  Number of days from admission to PR53
+MA  2014 CORE             505 PRDAY54                         2160 2164   Num  Number of days from admission to PR54
+MA  2014 CORE             506 PRDAY55                         2165 2169   Num  Number of days from admission to PR55
+MA  2014 CORE             507 PRDAY56                         2170 2174   Num  Number of days from admission to PR56
+MA  2014 CORE             508 PRDAY57                         2175 2179   Num  Number of days from admission to PR57
+MA  2014 CORE             509 PRDAY58                         2180 2184   Num  Number of days from admission to PR58
+MA  2014 CORE             510 PRDAY59                         2185 2189   Num  Number of days from admission to PR59
+MA  2014 CORE             511 PRDAY60                         2190 2194   Num  Number of days from admission to PR60
+MA  2014 CORE             512 PRDAY61                         2195 2199   Num  Number of days from admission to PR61
+MA  2014 CORE             513 PRDAY62                         2200 2204   Num  Number of days from admission to PR62
+MA  2014 CORE             514 PRDAY63                         2205 2209   Num  Number of days from admission to PR63
+MA  2014 CORE             515 PRDAY64                         2210 2214   Num  Number of days from admission to PR64
+MA  2014 CORE             516 PRDAY65                         2215 2219   Num  Number of days from admission to PR65
+MA  2014 CORE             517 PRDAY66                         2220 2224   Num  Number of days from admission to PR66
+MA  2014 CORE             518 PROCTYPE                        2225 2227   Num  Procedure type indicator
+MA  2014 CORE             519 PRVER                           2228 2230   Num  Procedure Version
+MA  2014 CORE             520 PSTATE                          2231 2232   Char Patient State postal code
+MA  2014 CORE             521 PSTCO2                          2233 2237   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+MA  2014 CORE             522 RACE                            2238 2239   Num  Race (uniform)
+MA  2014 CORE             523 RACE_X                          2240 2252   Char Race (as received from source)
+MA  2014 CORE             524 SERVICELINE                     2253 2254   Num  Hospital Service Line
+MA  2014 CORE             525 TOTCHG                          2255 2264   Num  Total charges (cleaned)
+MA  2014 CORE             526 TOTCHG_X                        2265 2279 2 Num  Total charges (as received from source)
+MA  2014 CORE             527 TRAN_IN                         2280 2281   Num  Transfer in indicator
+MA  2014 CORE             528 TRAN_OUT                        2282 2283   Num  Transfer out indicator
+MA  2014 CORE             529 VisitLink                       2284 2292   Num  Visit linkage variable
+MA  2014 CORE             530 YEAR                            2293 2296   Num  Calendar year
+MA  2014 CORE             531 ZIP3                            2297 2299   Char Patient ZIP Code, first 3 digits
+MA  2014 CORE             532 ZIPINC_QRTL                     2300 2302   Num  Median household income national quartile for patient ZIP Code
+MA  2014 CORE             533 AYEAR                           2303 2306   Num  Admission year
+MA  2014 CORE             534 PRMONTH1                        2307 2308   Num  Month of procedure 1
+MA  2014 CORE             535 PRMONTH2                        2309 2310   Num  Month of procedure 2
+MA  2014 CORE             536 PRMONTH3                        2311 2312   Num  Month of procedure 3
+MA  2014 CORE             537 PRMONTH4                        2313 2314   Num  Month of procedure 4
+MA  2014 CORE             538 PRMONTH5                        2315 2316   Num  Month of procedure 5
+MA  2014 CORE             539 PRMONTH6                        2317 2318   Num  Month of procedure 6
+MA  2014 CORE             540 PRMONTH7                        2319 2320   Num  Month of procedure 7
+MA  2014 CORE             541 PRMONTH8                        2321 2322   Num  Month of procedure 8
+MA  2014 CORE             542 PRMONTH9                        2323 2324   Num  Month of procedure 9
+MA  2014 CORE             543 PRMONTH10                       2325 2326   Num  Month of procedure 10
+MA  2014 CORE             544 PRMONTH11                       2327 2328   Num  Month of procedure 11
+MA  2014 CORE             545 PRMONTH12                       2329 2330   Num  Month of procedure 12
+MA  2014 CORE             546 PRMONTH13                       2331 2332   Num  Month of procedure 13
+MA  2014 CORE             547 PRMONTH14                       2333 2334   Num  Month of procedure 14
+MA  2014 CORE             548 PRMONTH15                       2335 2336   Num  Month of procedure 15
+MA  2014 CORE             549 PRMONTH16                       2337 2338   Num  Month of procedure 16
+MA  2014 CORE             550 PRMONTH17                       2339 2340   Num  Month of procedure 17
+MA  2014 CORE             551 PRMONTH18                       2341 2342   Num  Month of procedure 18
+MA  2014 CORE             552 PRMONTH19                       2343 2344   Num  Month of procedure 19
+MA  2014 CORE             553 PRMONTH20                       2345 2346   Num  Month of procedure 20
+MA  2014 CORE             554 PRMONTH21                       2347 2348   Num  Month of procedure 21
+MA  2014 CORE             555 PRMONTH22                       2349 2350   Num  Month of procedure 22
+MA  2014 CORE             556 PRMONTH23                       2351 2352   Num  Month of procedure 23
+MA  2014 CORE             557 PRMONTH24                       2353 2354   Num  Month of procedure 24
+MA  2014 CORE             558 PRMONTH25                       2355 2356   Num  Month of procedure 25
+MA  2014 CORE             559 PRMONTH26                       2357 2358   Num  Month of procedure 26
+MA  2014 CORE             560 PRMONTH27                       2359 2360   Num  Month of procedure 27
+MA  2014 CORE             561 PRMONTH28                       2361 2362   Num  Month of procedure 28
+MA  2014 CORE             562 PRMONTH29                       2363 2364   Num  Month of procedure 29
+MA  2014 CORE             563 PRMONTH30                       2365 2366   Num  Month of procedure 30
+MA  2014 CORE             564 PRMONTH31                       2367 2368   Num  Month of procedure 31
+MA  2014 CORE             565 PRMONTH32                       2369 2370   Num  Month of procedure 32
+MA  2014 CORE             566 PRMONTH33                       2371 2372   Num  Month of procedure 33
+MA  2014 CORE             567 PRMONTH34                       2373 2374   Num  Month of procedure 34
+MA  2014 CORE             568 PRMONTH35                       2375 2376   Num  Month of procedure 35
+MA  2014 CORE             569 PRMONTH36                       2377 2378   Num  Month of procedure 36
+MA  2014 CORE             570 PRMONTH37                       2379 2380   Num  Month of procedure 37
+MA  2014 CORE             571 PRMONTH38                       2381 2382   Num  Month of procedure 38
+MA  2014 CORE             572 PRMONTH39                       2383 2384   Num  Month of procedure 39
+MA  2014 CORE             573 PRMONTH40                       2385 2386   Num  Month of procedure 40
+MA  2014 CORE             574 PRMONTH41                       2387 2388   Num  Month of procedure 41
+MA  2014 CORE             575 PRMONTH42                       2389 2390   Num  Month of procedure 42
+MA  2014 CORE             576 PRMONTH43                       2391 2392   Num  Month of procedure 43
+MA  2014 CORE             577 PRMONTH44                       2393 2394   Num  Month of procedure 44
+MA  2014 CORE             578 PRMONTH45                       2395 2396   Num  Month of procedure 45
+MA  2014 CORE             579 PRMONTH46                       2397 2398   Num  Month of procedure 46
+MA  2014 CORE             580 PRMONTH47                       2399 2400   Num  Month of procedure 47
+MA  2014 CORE             581 PRMONTH48                       2401 2402   Num  Month of procedure 48
+MA  2014 CORE             582 PRMONTH49                       2403 2404   Num  Month of procedure 49
+MA  2014 CORE             583 PRMONTH50                       2405 2406   Num  Month of procedure 50
+MA  2014 CORE             584 PRMONTH51                       2407 2408   Num  Month of procedure 51
+MA  2014 CORE             585 PRMONTH52                       2409 2410   Num  Month of procedure 52
+MA  2014 CORE             586 PRMONTH53                       2411 2412   Num  Month of procedure 53
+MA  2014 CORE             587 PRMONTH54                       2413 2414   Num  Month of procedure 54
+MA  2014 CORE             588 PRMONTH55                       2415 2416   Num  Month of procedure 55
+MA  2014 CORE             589 PRMONTH56                       2417 2418   Num  Month of procedure 56
+MA  2014 CORE             590 PRMONTH57                       2419 2420   Num  Month of procedure 57
+MA  2014 CORE             591 PRMONTH58                       2421 2422   Num  Month of procedure 58
+MA  2014 CORE             592 PRMONTH59                       2423 2424   Num  Month of procedure 59
+MA  2014 CORE             593 PRMONTH60                       2425 2426   Num  Month of procedure 60
+MA  2014 CORE             594 PRMONTH61                       2427 2428   Num  Month of procedure 61
+MA  2014 CORE             595 PRMONTH62                       2429 2430   Num  Month of procedure 62
+MA  2014 CORE             596 PRMONTH63                       2431 2432   Num  Month of procedure 63
+MA  2014 CORE             597 PRMONTH64                       2433 2434   Num  Month of procedure 64
+MA  2014 CORE             598 PRMONTH65                       2435 2436   Num  Month of procedure 65
+MA  2014 CORE             599 PRMONTH66                       2437 2438   Num  Month of procedure 66
+MA  2014 CORE             600 PRYEAR1                         2439 2442   Num  Year of procedure 1
+MA  2014 CORE             601 PRYEAR2                         2443 2446   Num  Year of procedure 2
+MA  2014 CORE             602 PRYEAR3                         2447 2450   Num  Year of procedure 3
+MA  2014 CORE             603 PRYEAR4                         2451 2454   Num  Year of procedure 4
+MA  2014 CORE             604 PRYEAR5                         2455 2458   Num  Year of procedure 5
+MA  2014 CORE             605 PRYEAR6                         2459 2462   Num  Year of procedure 6
+MA  2014 CORE             606 PRYEAR7                         2463 2466   Num  Year of procedure 7
+MA  2014 CORE             607 PRYEAR8                         2467 2470   Num  Year of procedure 8
+MA  2014 CORE             608 PRYEAR9                         2471 2474   Num  Year of procedure 9
+MA  2014 CORE             609 PRYEAR10                        2475 2478   Num  Year of procedure 10
+MA  2014 CORE             610 PRYEAR11                        2479 2482   Num  Year of procedure 11
+MA  2014 CORE             611 PRYEAR12                        2483 2486   Num  Year of procedure 12
+MA  2014 CORE             612 PRYEAR13                        2487 2490   Num  Year of procedure 13
+MA  2014 CORE             613 PRYEAR14                        2491 2494   Num  Year of procedure 14
+MA  2014 CORE             614 PRYEAR15                        2495 2498   Num  Year of procedure 15
+MA  2014 CORE             615 PRYEAR16                        2499 2502   Num  Year of procedure 16
+MA  2014 CORE             616 PRYEAR17                        2503 2506   Num  Year of procedure 17
+MA  2014 CORE             617 PRYEAR18                        2507 2510   Num  Year of procedure 18
+MA  2014 CORE             618 PRYEAR19                        2511 2514   Num  Year of procedure 19
+MA  2014 CORE             619 PRYEAR20                        2515 2518   Num  Year of procedure 20
+MA  2014 CORE             620 PRYEAR21                        2519 2522   Num  Year of procedure 21
+MA  2014 CORE             621 PRYEAR22                        2523 2526   Num  Year of procedure 22
+MA  2014 CORE             622 PRYEAR23                        2527 2530   Num  Year of procedure 23
+MA  2014 CORE             623 PRYEAR24                        2531 2534   Num  Year of procedure 24
+MA  2014 CORE             624 PRYEAR25                        2535 2538   Num  Year of procedure 25
+MA  2014 CORE             625 PRYEAR26                        2539 2542   Num  Year of procedure 26
+MA  2014 CORE             626 PRYEAR27                        2543 2546   Num  Year of procedure 27
+MA  2014 CORE             627 PRYEAR28                        2547 2550   Num  Year of procedure 28
+MA  2014 CORE             628 PRYEAR29                        2551 2554   Num  Year of procedure 29
+MA  2014 CORE             629 PRYEAR30                        2555 2558   Num  Year of procedure 30
+MA  2014 CORE             630 PRYEAR31                        2559 2562   Num  Year of procedure 31
+MA  2014 CORE             631 PRYEAR32                        2563 2566   Num  Year of procedure 32
+MA  2014 CORE             632 PRYEAR33                        2567 2570   Num  Year of procedure 33
+MA  2014 CORE             633 PRYEAR34                        2571 2574   Num  Year of procedure 34
+MA  2014 CORE             634 PRYEAR35                        2575 2578   Num  Year of procedure 35
+MA  2014 CORE             635 PRYEAR36                        2579 2582   Num  Year of procedure 36
+MA  2014 CORE             636 PRYEAR37                        2583 2586   Num  Year of procedure 37
+MA  2014 CORE             637 PRYEAR38                        2587 2590   Num  Year of procedure 38
+MA  2014 CORE             638 PRYEAR39                        2591 2594   Num  Year of procedure 39
+MA  2014 CORE             639 PRYEAR40                        2595 2598   Num  Year of procedure 40
+MA  2014 CORE             640 PRYEAR41                        2599 2602   Num  Year of procedure 41
+MA  2014 CORE             641 PRYEAR42                        2603 2606   Num  Year of procedure 42
+MA  2014 CORE             642 PRYEAR43                        2607 2610   Num  Year of procedure 43
+MA  2014 CORE             643 PRYEAR44                        2611 2614   Num  Year of procedure 44
+MA  2014 CORE             644 PRYEAR45                        2615 2618   Num  Year of procedure 45
+MA  2014 CORE             645 PRYEAR46                        2619 2622   Num  Year of procedure 46
+MA  2014 CORE             646 PRYEAR47                        2623 2626   Num  Year of procedure 47
+MA  2014 CORE             647 PRYEAR48                        2627 2630   Num  Year of procedure 48
+MA  2014 CORE             648 PRYEAR49                        2631 2634   Num  Year of procedure 49
+MA  2014 CORE             649 PRYEAR50                        2635 2638   Num  Year of procedure 50
+MA  2014 CORE             650 PRYEAR51                        2639 2642   Num  Year of procedure 51
+MA  2014 CORE             651 PRYEAR52                        2643 2646   Num  Year of procedure 52
+MA  2014 CORE             652 PRYEAR53                        2647 2650   Num  Year of procedure 53
+MA  2014 CORE             653 PRYEAR54                        2651 2654   Num  Year of procedure 54
+MA  2014 CORE             654 PRYEAR55                        2655 2658   Num  Year of procedure 55
+MA  2014 CORE             655 PRYEAR56                        2659 2662   Num  Year of procedure 56
+MA  2014 CORE             656 PRYEAR57                        2663 2666   Num  Year of procedure 57
+MA  2014 CORE             657 PRYEAR58                        2667 2670   Num  Year of procedure 58
+MA  2014 CORE             658 PRYEAR59                        2671 2674   Num  Year of procedure 59
+MA  2014 CORE             659 PRYEAR60                        2675 2678   Num  Year of procedure 60
+MA  2014 CORE             660 PRYEAR61                        2679 2682   Num  Year of procedure 61
+MA  2014 CORE             661 PRYEAR62                        2683 2686   Num  Year of procedure 62
+MA  2014 CORE             662 PRYEAR63                        2687 2690   Num  Year of procedure 63
+MA  2014 CORE             663 PRYEAR64                        2691 2694   Num  Year of procedure 64
+MA  2014 CORE             664 PRYEAR65                        2695 2698   Num  Year of procedure 65
+MA  2014 CORE             665 PRYEAR66                        2699 2702   Num  Year of procedure 66

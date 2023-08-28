@@ -1,0 +1,252 @@
+Data Set Name: AZ_SIDC_2011_CORE               
+Number of Observations: 801982
+Total Record Length: 807
+Total Number of Variables: 232
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 56    Variable name
+58- 61    Starting column of variable in ASCII file
+63- 66    Ending column of variable in ASCII file
+    68    Non-zero number of digits after decimal point for numeric variable
+70- 73    Variable type (Num=numeric; Char=character)
+75-174    Variable label
+
+
+AZ  2011 CORE               1 AGE                           1    3   Num  Age in years at admission
+AZ  2011 CORE               2 AGEDAY                        4    6   Num  Age in days (when age < 1 year)
+AZ  2011 CORE               3 AGEMONTH                      7    9   Num  Age in months (when age < 11 years)
+AZ  2011 CORE               4 AHOUR                        10   13   Num  Admission Hour
+AZ  2011 CORE               5 AMONTH                       14   15   Num  Admission month
+AZ  2011 CORE               6 ATYPE                        16   17   Num  Admission type
+AZ  2011 CORE               7 AWEEKEND                     18   19   Num  Admission day is a weekend
+AZ  2011 CORE               8 BWT                          20   23   Num  Birth weight in grams
+AZ  2011 CORE               9 DHOUR                        24   27   Num  Discharge Hour
+AZ  2011 CORE              10 DIED                         28   29   Num  Died during hospitalization
+AZ  2011 CORE              11 DISPUB04                     30   31   Num  Disposition of patient (UB-04 standard coding)
+AZ  2011 CORE              12 DISPUNIFORM                  32   33   Num  Disposition of patient (uniform)
+AZ  2011 CORE              13 DISP_X                       34   35   Char Disposition of patient (as received from source)
+AZ  2011 CORE              14 DNR                          36   37   Num  Do not resuscitate indicator
+AZ  2011 CORE              15 DQTR                         38   39   Num  Discharge quarter
+AZ  2011 CORE              16 DRG                          40   42   Num  DRG in effect on discharge date
+AZ  2011 CORE              17 DRG24                        43   45   Num  DRG, version 24
+AZ  2011 CORE              18 DRGVER                       46   47   Num  DRG grouper version used on discharge date
+AZ  2011 CORE              19 DRG_NoPOA                    48   50   Num  DRG in use on discharge date, calculated without POA
+AZ  2011 CORE              20 DSHOSPID                     51   67   Char Data source hospital identifier
+AZ  2011 CORE              21 DX1                          68   72   Char Diagnosis 1
+AZ  2011 CORE              22 DX2                          73   77   Char Diagnosis 2
+AZ  2011 CORE              23 DX3                          78   82   Char Diagnosis 3
+AZ  2011 CORE              24 DX4                          83   87   Char Diagnosis 4
+AZ  2011 CORE              25 DX5                          88   92   Char Diagnosis 5
+AZ  2011 CORE              26 DX6                          93   97   Char Diagnosis 6
+AZ  2011 CORE              27 DX7                          98  102   Char Diagnosis 7
+AZ  2011 CORE              28 DX8                         103  107   Char Diagnosis 8
+AZ  2011 CORE              29 DX9                         108  112   Char Diagnosis 9
+AZ  2011 CORE              30 DX10                        113  117   Char Diagnosis 10
+AZ  2011 CORE              31 DX11                        118  122   Char Diagnosis 11
+AZ  2011 CORE              32 DX12                        123  127   Char Diagnosis 12
+AZ  2011 CORE              33 DX13                        128  132   Char Diagnosis 13
+AZ  2011 CORE              34 DX14                        133  137   Char Diagnosis 14
+AZ  2011 CORE              35 DX15                        138  142   Char Diagnosis 15
+AZ  2011 CORE              36 DX16                        143  147   Char Diagnosis 16
+AZ  2011 CORE              37 DX17                        148  152   Char Diagnosis 17
+AZ  2011 CORE              38 DX18                        153  157   Char Diagnosis 18
+AZ  2011 CORE              39 DX19                        158  162   Char Diagnosis 19
+AZ  2011 CORE              40 DX20                        163  167   Char Diagnosis 20
+AZ  2011 CORE              41 DX21                        168  172   Char Diagnosis 21
+AZ  2011 CORE              42 DX22                        173  177   Char Diagnosis 22
+AZ  2011 CORE              43 DX23                        178  182   Char Diagnosis 23
+AZ  2011 CORE              44 DX24                        183  187   Char Diagnosis 24
+AZ  2011 CORE              45 DX25                        188  192   Char Diagnosis 25
+AZ  2011 CORE              46 DXCCS1                      193  196   Num  CCS: diagnosis 1
+AZ  2011 CORE              47 DXCCS2                      197  200   Num  CCS: diagnosis 2
+AZ  2011 CORE              48 DXCCS3                      201  204   Num  CCS: diagnosis 3
+AZ  2011 CORE              49 DXCCS4                      205  208   Num  CCS: diagnosis 4
+AZ  2011 CORE              50 DXCCS5                      209  212   Num  CCS: diagnosis 5
+AZ  2011 CORE              51 DXCCS6                      213  216   Num  CCS: diagnosis 6
+AZ  2011 CORE              52 DXCCS7                      217  220   Num  CCS: diagnosis 7
+AZ  2011 CORE              53 DXCCS8                      221  224   Num  CCS: diagnosis 8
+AZ  2011 CORE              54 DXCCS9                      225  228   Num  CCS: diagnosis 9
+AZ  2011 CORE              55 DXCCS10                     229  232   Num  CCS: diagnosis 10
+AZ  2011 CORE              56 DXCCS11                     233  236   Num  CCS: diagnosis 11
+AZ  2011 CORE              57 DXCCS12                     237  240   Num  CCS: diagnosis 12
+AZ  2011 CORE              58 DXCCS13                     241  244   Num  CCS: diagnosis 13
+AZ  2011 CORE              59 DXCCS14                     245  248   Num  CCS: diagnosis 14
+AZ  2011 CORE              60 DXCCS15                     249  252   Num  CCS: diagnosis 15
+AZ  2011 CORE              61 DXCCS16                     253  256   Num  CCS: diagnosis 16
+AZ  2011 CORE              62 DXCCS17                     257  260   Num  CCS: diagnosis 17
+AZ  2011 CORE              63 DXCCS18                     261  264   Num  CCS: diagnosis 18
+AZ  2011 CORE              64 DXCCS19                     265  268   Num  CCS: diagnosis 19
+AZ  2011 CORE              65 DXCCS20                     269  272   Num  CCS: diagnosis 20
+AZ  2011 CORE              66 DXCCS21                     273  276   Num  CCS: diagnosis 21
+AZ  2011 CORE              67 DXCCS22                     277  280   Num  CCS: diagnosis 22
+AZ  2011 CORE              68 DXCCS23                     281  284   Num  CCS: diagnosis 23
+AZ  2011 CORE              69 DXCCS24                     285  288   Num  CCS: diagnosis 24
+AZ  2011 CORE              70 DXCCS25                     289  292   Num  CCS: diagnosis 25
+AZ  2011 CORE              71 DXPOA1                      293  293   Char Diagnosis 1, present on admission indicator
+AZ  2011 CORE              72 DXPOA2                      294  294   Char Diagnosis 2, present on admission indicator
+AZ  2011 CORE              73 DXPOA3                      295  295   Char Diagnosis 3, present on admission indicator
+AZ  2011 CORE              74 DXPOA4                      296  296   Char Diagnosis 4, present on admission indicator
+AZ  2011 CORE              75 DXPOA5                      297  297   Char Diagnosis 5, present on admission indicator
+AZ  2011 CORE              76 DXPOA6                      298  298   Char Diagnosis 6, present on admission indicator
+AZ  2011 CORE              77 DXPOA7                      299  299   Char Diagnosis 7, present on admission indicator
+AZ  2011 CORE              78 DXPOA8                      300  300   Char Diagnosis 8, present on admission indicator
+AZ  2011 CORE              79 DXPOA9                      301  301   Char Diagnosis 9, present on admission indicator
+AZ  2011 CORE              80 DXPOA10                     302  302   Char Diagnosis 10, present on admission indicator
+AZ  2011 CORE              81 DXPOA11                     303  303   Char Diagnosis 11, present on admission indicator
+AZ  2011 CORE              82 DXPOA12                     304  304   Char Diagnosis 12, present on admission indicator
+AZ  2011 CORE              83 DXPOA13                     305  305   Char Diagnosis 13, present on admission indicator
+AZ  2011 CORE              84 DXPOA14                     306  306   Char Diagnosis 14, present on admission indicator
+AZ  2011 CORE              85 DXPOA15                     307  307   Char Diagnosis 15, present on admission indicator
+AZ  2011 CORE              86 DXPOA16                     308  308   Char Diagnosis 16, present on admission indicator
+AZ  2011 CORE              87 DXPOA17                     309  309   Char Diagnosis 17, present on admission indicator
+AZ  2011 CORE              88 DXPOA18                     310  310   Char Diagnosis 18, present on admission indicator
+AZ  2011 CORE              89 DXPOA19                     311  311   Char Diagnosis 19, present on admission indicator
+AZ  2011 CORE              90 DXPOA20                     312  312   Char Diagnosis 20, present on admission indicator
+AZ  2011 CORE              91 DXPOA21                     313  313   Char Diagnosis 21, present on admission indicator
+AZ  2011 CORE              92 DXPOA22                     314  314   Char Diagnosis 22, present on admission indicator
+AZ  2011 CORE              93 DXPOA23                     315  315   Char Diagnosis 23, present on admission indicator
+AZ  2011 CORE              94 DXPOA24                     316  316   Char Diagnosis 24, present on admission indicator
+AZ  2011 CORE              95 DXPOA25                     317  317   Char Diagnosis 25, present on admission indicator
+AZ  2011 CORE              96 ECODE1                      318  322   Char E code 1
+AZ  2011 CORE              97 ECODE2                      323  327   Char E code 2
+AZ  2011 CORE              98 ECODE3                      328  332   Char E code 3
+AZ  2011 CORE              99 ECODE4                      333  337   Char E code 4
+AZ  2011 CORE             100 ECODE5                      338  342   Char E code 5
+AZ  2011 CORE             101 ECODE6                      343  347   Char E code 6
+AZ  2011 CORE             102 E_CCS1                      348  351   Num  CCS: E Code 1
+AZ  2011 CORE             103 E_CCS2                      352  355   Num  CCS: E Code 2
+AZ  2011 CORE             104 E_CCS3                      356  359   Num  CCS: E Code 3
+AZ  2011 CORE             105 E_CCS4                      360  363   Num  CCS: E Code 4
+AZ  2011 CORE             106 E_CCS5                      364  367   Num  CCS: E Code 5
+AZ  2011 CORE             107 E_CCS6                      368  371   Num  CCS: E Code 6
+AZ  2011 CORE             108 E_POA1                      372  372   Char E Code 1, present on admission indicator
+AZ  2011 CORE             109 E_POA2                      373  373   Char E Code 2, present on admission indicator
+AZ  2011 CORE             110 E_POA3                      374  374   Char E Code 3, present on admission indicator
+AZ  2011 CORE             111 E_POA4                      375  375   Char E Code 4, present on admission indicator
+AZ  2011 CORE             112 E_POA5                      376  376   Char E Code 5, present on admission indicator
+AZ  2011 CORE             113 E_POA6                      377  377   Char E Code 6, present on admission indicator
+AZ  2011 CORE             114 FEMALE                      378  379   Num  Indicator of sex
+AZ  2011 CORE             115 HCUP_ED                     380  381   Num  HCUP Emergency Department service indicator
+AZ  2011 CORE             116 HCUP_OS                     382  383   Num  HCUP Observation Stay service indicator
+AZ  2011 CORE             117 HCUP_SURGERY_BROAD          384  385   Num  Revised HCUP_AS (PCLASSn=3 or 4, or broad definition)
+AZ  2011 CORE             118 HCUP_SURGERY_NARROW         386  387   Num  Revised HCUP_AS (PCLASSn=4, or narrow definition)
+AZ  2011 CORE             119 HOSPBRTH                    388  390   Num  Indicator of birth in this hospital
+AZ  2011 CORE             120 HOSPST                      391  392   Char Hospital state postal code
+AZ  2011 CORE             121 HOSP_NPI                    393  402   Char Hospital NPI
+AZ  2011 CORE             122 Homeless                    403  404   Num  Indicator that patient is homeless
+AZ  2011 CORE             123 KEY                         405  422   Num  HCUP record identifier
+AZ  2011 CORE             124 LOS                         423  427   Num  Length of stay (cleaned)
+AZ  2011 CORE             125 LOS_X                       428  433   Num  Length of stay (as received from source)
+AZ  2011 CORE             126 MARITALSTATUSUB04           434  434   Char Patient's marital status, UB-04 standard coding
+AZ  2011 CORE             127 MDBOARD1                    435  435   Char Physician 1 licensing board (as received from source)
+AZ  2011 CORE             128 MDBOARD2                    436  436   Char Physician 2 licensing board (as received from source)
+AZ  2011 CORE             129 MDC                         437  438   Num  MDC in effect on discharge date
+AZ  2011 CORE             130 MDC24                       439  440   Num  MDC, version 24
+AZ  2011 CORE             131 MDC_NoPOA                   441  442   Num  MDC in use on discharge date, calculated without POA
+AZ  2011 CORE             132 MDNUM1_R                    443  451   Num  Physician 1 number (re-identified)
+AZ  2011 CORE             133 MDNUM2_R                    452  460   Num  Physician 2 number (re-identified)
+AZ  2011 CORE             134 MDNUM3_R                    461  469   Num  Physician 3 number (re-identified)
+AZ  2011 CORE             135 MEDINCSTQ                   470  471   Num  Median household income state quartile for patient ZIP Code
+AZ  2011 CORE             136 MRN_R                       472  480   Num  Medical record number (re-identified)
+AZ  2011 CORE             137 NCHRONIC                    481  483   Num  Number of chronic conditions
+AZ  2011 CORE             138 NDX                         484  485   Num  Number of diagnoses on this record
+AZ  2011 CORE             139 NECODE                      486  487   Num  Number of E codes on this record
+AZ  2011 CORE             140 NEOMAT                      488  489   Num  Neonatal and/or maternal DX and/or PR
+AZ  2011 CORE             141 NPR                         490  491   Num  Number of procedures on this record
+AZ  2011 CORE             142 ORPROC                      492  493   Num  Major operating room procedure indicator
+AZ  2011 CORE             143 P7EDSRC_X                   494  495   Char Condition Code P7, Direct Inpatient Admission from Emergency Room
+AZ  2011 CORE             144 PAY1                        496  497   Num  Primary expected payer (uniform)
+AZ  2011 CORE             145 PAY1_X                      498  499   Char Primary expected payer (as received from source)
+AZ  2011 CORE             146 PL_CBSA                     500  502   Num  Patient location: Core Based Statistical Area (CBSA)
+AZ  2011 CORE             147 PL_MSA1993                  503  505   Num  Patient location: Metropolitan Statistical Area (MSA), 1993
+AZ  2011 CORE             148 PL_NCHS2006                 506  507   Num  Patient Location: NCHS Urban-Rural Code (V2006)
+AZ  2011 CORE             149 PL_RUCA10_2005              508  509   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, ten levels
+AZ  2011 CORE             150 PL_RUCA2005                 510  513 1 Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes
+AZ  2011 CORE             151 PL_RUCA4_2005               514  515   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, four levels
+AZ  2011 CORE             152 PL_RUCC2003                 516  517   Num  Patient location: Rural-Urban Continuum Codes(RUCC), 2003
+AZ  2011 CORE             153 PL_UIC2003                  518  519   Num  Patient location: Urban Influence Codes, 2003
+AZ  2011 CORE             154 PL_UR_CAT4                  520  521   Num  Patient Location: Urban-Rural 4 Categories
+AZ  2011 CORE             155 PR1                         522  525   Char Procedure 1
+AZ  2011 CORE             156 PR2                         526  529   Char Procedure 2
+AZ  2011 CORE             157 PR3                         530  533   Char Procedure 3
+AZ  2011 CORE             158 PR4                         534  537   Char Procedure 4
+AZ  2011 CORE             159 PR5                         538  541   Char Procedure 5
+AZ  2011 CORE             160 PR6                         542  545   Char Procedure 6
+AZ  2011 CORE             161 PR7                         546  549   Char Procedure 7
+AZ  2011 CORE             162 PR8                         550  553   Char Procedure 8
+AZ  2011 CORE             163 PR9                         554  557   Char Procedure 9
+AZ  2011 CORE             164 PR10                        558  561   Char Procedure 10
+AZ  2011 CORE             165 PR11                        562  565   Char Procedure 11
+AZ  2011 CORE             166 PR12                        566  569   Char Procedure 12
+AZ  2011 CORE             167 PRCCS1                      570  572   Num  CCS: procedure 1
+AZ  2011 CORE             168 PRCCS2                      573  575   Num  CCS: procedure 2
+AZ  2011 CORE             169 PRCCS3                      576  578   Num  CCS: procedure 3
+AZ  2011 CORE             170 PRCCS4                      579  581   Num  CCS: procedure 4
+AZ  2011 CORE             171 PRCCS5                      582  584   Num  CCS: procedure 5
+AZ  2011 CORE             172 PRCCS6                      585  587   Num  CCS: procedure 6
+AZ  2011 CORE             173 PRCCS7                      588  590   Num  CCS: procedure 7
+AZ  2011 CORE             174 PRCCS8                      591  593   Num  CCS: procedure 8
+AZ  2011 CORE             175 PRCCS9                      594  596   Num  CCS: procedure 9
+AZ  2011 CORE             176 PRCCS10                     597  599   Num  CCS: procedure 10
+AZ  2011 CORE             177 PRCCS11                     600  602   Num  CCS: procedure 11
+AZ  2011 CORE             178 PRCCS12                     603  605   Num  CCS: procedure 12
+AZ  2011 CORE             179 PRDAY1                      606  610   Num  Number of days from admission to PR1
+AZ  2011 CORE             180 PRDAY2                      611  615   Num  Number of days from admission to PR2
+AZ  2011 CORE             181 PRDAY3                      616  620   Num  Number of days from admission to PR3
+AZ  2011 CORE             182 PRDAY4                      621  625   Num  Number of days from admission to PR4
+AZ  2011 CORE             183 PRDAY5                      626  630   Num  Number of days from admission to PR5
+AZ  2011 CORE             184 PRDAY6                      631  635   Num  Number of days from admission to PR6
+AZ  2011 CORE             185 PRDAY7                      636  640   Num  Number of days from admission to PR7
+AZ  2011 CORE             186 PRDAY8                      641  645   Num  Number of days from admission to PR8
+AZ  2011 CORE             187 PRDAY9                      646  650   Num  Number of days from admission to PR9
+AZ  2011 CORE             188 PRDAY10                     651  655   Num  Number of days from admission to PR10
+AZ  2011 CORE             189 PRDAY11                     656  660   Num  Number of days from admission to PR11
+AZ  2011 CORE             190 PRDAY12                     661  665   Num  Number of days from admission to PR12
+AZ  2011 CORE             191 PROCTYPE                    666  668   Num  Procedure type indicator
+AZ  2011 CORE             192 PSTATE                      669  670   Char Patient State postal code
+AZ  2011 CORE             193 PSTCO2                      671  675   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+AZ  2011 CORE             194 PointOfOriginUB04           676  676   Char Point of origin for admission or visit, UB-04 standard coding
+AZ  2011 CORE             195 PointOfOrigin_X             677  677   Char Point of origin for admission or visit, as received from source
+AZ  2011 CORE             196 RACE                        678  679   Num  Race (uniform)
+AZ  2011 CORE             197 RACE_X                      680  683   Char Race (as received from source)
+AZ  2011 CORE             198 SPLIT_IPED                  684  685   Num  Split IP/ED records-single visit, from CAH
+AZ  2011 CORE             199 TOTCHG                      686  695   Num  Total charges (cleaned)
+AZ  2011 CORE             200 TOTCHG_X                    696  710 2 Num  Total charges (as received from source)
+AZ  2011 CORE             201 TRAN_IN                     711  712   Num  Transfer in indicator
+AZ  2011 CORE             202 TRAN_OUT                    713  714   Num  Transfer out indicator
+AZ  2011 CORE             203 YEAR                        715  718   Num  Calendar year
+AZ  2011 CORE             204 ZIP3                        719  721   Char Patient ZIP Code, first 3 digits
+AZ  2011 CORE             205 ZIPINC_QRTL                 722  724   Num  Median household income national quartile for patient ZIP Code
+AZ  2011 CORE             206 ZIP                         725  729   Char Patient ZIP Code
+AZ  2011 CORE             207 AYEAR                       730  733   Num  Admission year
+AZ  2011 CORE             208 DMONTH                      734  735   Num  Discharge month
+AZ  2011 CORE             209 PRMONTH1                    736  737   Num  Month of procedure 1
+AZ  2011 CORE             210 PRMONTH2                    738  739   Num  Month of procedure 2
+AZ  2011 CORE             211 PRMONTH3                    740  741   Num  Month of procedure 3
+AZ  2011 CORE             212 PRMONTH4                    742  743   Num  Month of procedure 4
+AZ  2011 CORE             213 PRMONTH5                    744  745   Num  Month of procedure 5
+AZ  2011 CORE             214 PRMONTH6                    746  747   Num  Month of procedure 6
+AZ  2011 CORE             215 PRMONTH7                    748  749   Num  Month of procedure 7
+AZ  2011 CORE             216 PRMONTH8                    750  751   Num  Month of procedure 8
+AZ  2011 CORE             217 PRMONTH9                    752  753   Num  Month of procedure 9
+AZ  2011 CORE             218 PRMONTH10                   754  755   Num  Month of procedure 10
+AZ  2011 CORE             219 PRMONTH11                   756  757   Num  Month of procedure 11
+AZ  2011 CORE             220 PRMONTH12                   758  759   Num  Month of procedure 12
+AZ  2011 CORE             221 PRYEAR1                     760  763   Num  Year of procedure 1
+AZ  2011 CORE             222 PRYEAR2                     764  767   Num  Year of procedure 2
+AZ  2011 CORE             223 PRYEAR3                     768  771   Num  Year of procedure 3
+AZ  2011 CORE             224 PRYEAR4                     772  775   Num  Year of procedure 4
+AZ  2011 CORE             225 PRYEAR5                     776  779   Num  Year of procedure 5
+AZ  2011 CORE             226 PRYEAR6                     780  783   Num  Year of procedure 6
+AZ  2011 CORE             227 PRYEAR7                     784  787   Num  Year of procedure 7
+AZ  2011 CORE             228 PRYEAR8                     788  791   Num  Year of procedure 8
+AZ  2011 CORE             229 PRYEAR9                     792  795   Num  Year of procedure 9
+AZ  2011 CORE             230 PRYEAR10                    796  799   Num  Year of procedure 10
+AZ  2011 CORE             231 PRYEAR11                    800  803   Num  Year of procedure 11
+AZ  2011 CORE             232 PRYEAR12                    804  807   Num  Year of procedure 12

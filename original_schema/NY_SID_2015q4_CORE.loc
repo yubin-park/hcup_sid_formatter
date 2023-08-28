@@ -1,0 +1,287 @@
+Data Set Name: NY_SIDC_2015Q4_CORE             
+Number of Observations: 579937
+Total Record Length: 1044
+Total Number of Variables: 266
+Creation Date: 07/16/2018   
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 61    Variable name
+63- 66    Starting column of variable in ASCII file
+68- 71    Ending column of variable in ASCII file
+73- 73    Non-zero number of digits after decimal point for numeric variable
+75- 78    Variable type (Num=numeric; Char=character)
+80-179    Variable label
+
+
+NY  2015 CORE               1 AGE                                1    3   Num  Age in years at admission
+NY  2015 CORE               2 AGEDAY                             4    6   Num  Age in days (when age < 1 year)
+NY  2015 CORE               3 AGEMONTH                           7    9   Num  Age in months (when age < 11 years)
+NY  2015 CORE               4 AHOUR                             10   13   Num  Admission Hour
+NY  2015 CORE               5 AMONTH                            14   15   Num  Admission month
+NY  2015 CORE               6 ANESTH                            16   18   Num  Method of anesthesia
+NY  2015 CORE               7 ATYPE                             19   20   Num  Admission type
+NY  2015 CORE               8 AWEEKEND                          21   22   Num  Admission day is a weekend
+NY  2015 CORE               9 BILLTYPE                          23   26   Char Type of bill, UB-04 coding
+NY  2015 CORE              10 BLOOD                             27   32   Num  Pints of blood furnished to the patient
+NY  2015 CORE              11 BWT                               33   36   Num  Birth weight in grams
+NY  2015 CORE              12 DaysToEvent                       37   42   Num  Days from 'start date' to admission
+NY  2015 CORE              13 DHOUR                             43   46   Num  Discharge Hour
+NY  2015 CORE              14 DIED                              47   48   Num  Died during hospitalization
+NY  2015 CORE              15 DISP_X                            49   50   Char Disposition of patient (as received from source)
+NY  2015 CORE              16 DISPUB04                          51   52   Num  Disposition of patient (UB-04 standard coding)
+NY  2015 CORE              17 DISPUNIFORM                       53   54   Num  Disposition of patient (uniform)
+NY  2015 CORE              18 DMONTH                            55   56   Num  Discharge month
+NY  2015 CORE              19 DQTR                              57   58   Num  Discharge quarter
+NY  2015 CORE              20 DRG                               59   61   Num  DRG in effect on discharge date
+NY  2015 CORE              21 DRG_NoPOA                         62   64   Num  DRG in use on discharge date, calculated without POA
+NY  2015 CORE              22 DRG32                             65   67   Num  DRG, version 32
+NY  2015 CORE              23 DRGVER                            68   69   Num  DRG grouper version used on discharge date
+NY  2015 CORE              24 DSHOSPID                          70   86   Char Data source hospital identifier
+NY  2015 CORE              25 DXPOA1                            87   87   Char Diagnosis 1, present on admission indicator
+NY  2015 CORE              26 DXPOA2                            88   88   Char Diagnosis 2, present on admission indicator
+NY  2015 CORE              27 DXPOA3                            89   89   Char Diagnosis 3, present on admission indicator
+NY  2015 CORE              28 DXPOA4                            90   90   Char Diagnosis 4, present on admission indicator
+NY  2015 CORE              29 DXPOA5                            91   91   Char Diagnosis 5, present on admission indicator
+NY  2015 CORE              30 DXPOA6                            92   92   Char Diagnosis 6, present on admission indicator
+NY  2015 CORE              31 DXPOA7                            93   93   Char Diagnosis 7, present on admission indicator
+NY  2015 CORE              32 DXPOA8                            94   94   Char Diagnosis 8, present on admission indicator
+NY  2015 CORE              33 DXPOA9                            95   95   Char Diagnosis 9, present on admission indicator
+NY  2015 CORE              34 DXPOA10                           96   96   Char Diagnosis 10, present on admission indicator
+NY  2015 CORE              35 DXPOA11                           97   97   Char Diagnosis 11, present on admission indicator
+NY  2015 CORE              36 DXPOA12                           98   98   Char Diagnosis 12, present on admission indicator
+NY  2015 CORE              37 DXPOA13                           99   99   Char Diagnosis 13, present on admission indicator
+NY  2015 CORE              38 DXPOA14                          100  100   Char Diagnosis 14, present on admission indicator
+NY  2015 CORE              39 DXPOA15                          101  101   Char Diagnosis 15, present on admission indicator
+NY  2015 CORE              40 DXPOA16                          102  102   Char Diagnosis 16, present on admission indicator
+NY  2015 CORE              41 DXPOA17                          103  103   Char Diagnosis 17, present on admission indicator
+NY  2015 CORE              42 DXPOA18                          104  104   Char Diagnosis 18, present on admission indicator
+NY  2015 CORE              43 DXPOA19                          105  105   Char Diagnosis 19, present on admission indicator
+NY  2015 CORE              44 DXPOA20                          106  106   Char Diagnosis 20, present on admission indicator
+NY  2015 CORE              45 DXPOA21                          107  107   Char Diagnosis 21, present on admission indicator
+NY  2015 CORE              46 DXPOA22                          108  108   Char Diagnosis 22, present on admission indicator
+NY  2015 CORE              47 DXPOA23                          109  109   Char Diagnosis 23, present on admission indicator
+NY  2015 CORE              48 DXPOA24                          110  110   Char Diagnosis 24, present on admission indicator
+NY  2015 CORE              49 DXPOA25                          111  111   Char Diagnosis 25, present on admission indicator
+NY  2015 CORE              50 DXVER                            112  114   Num  Diagnosis Version
+NY  2015 CORE              51 E_POA1                           115  115   Char E Cause 1, present on admission indicator
+NY  2015 CORE              52 E_POA2                           116  116   Char E Cause 2, present on admission indicator
+NY  2015 CORE              53 E_POA3                           117  117   Char E Cause 3, present on admission indicator
+NY  2015 CORE              54 E_POA4                           118  118   Char E Cause 4, present on admission indicator
+NY  2015 CORE              55 E_POA5                           119  119   Char E Cause 5, present on admission indicator
+NY  2015 CORE              56 E_POA6                           120  120   Char E Cause 6, present on admission indicator
+NY  2015 CORE              57 E_POA7                           121  121   Char E Cause 7, present on admission indicator
+NY  2015 CORE              58 E_POA8                           122  122   Char E Cause 8, present on admission indicator
+NY  2015 CORE              59 E_POA9                           123  123   Char E Cause 9, present on admission indicator
+NY  2015 CORE              60 E_POA10                          124  124   Char E Cause 10, present on admission indicator
+NY  2015 CORE              61 FEMALE                           125  126   Num  Indicator of sex
+NY  2015 CORE              62 HCUP_ED                          127  128   Num  HCUP Emergency Department service indicator
+NY  2015 CORE              63 HCUP_OS                          129  130   Num  HCUP Observation Stay service indicator
+NY  2015 CORE              64 HISPANIC                         131  132   Num  Hispanic ethnicity (uniform)
+NY  2015 CORE              65 HISPANIC_X                       133  133   Char Hispanic ethnicity (as received from source)
+NY  2015 CORE              66 Homeless                         134  135   Num  Indicator that patient is homeless
+NY  2015 CORE              67 HOSPST                           136  137   Char Hospital state postal code
+NY  2015 CORE              68 I10_DX_Admitting                 138  144   Char ICD-10-CM Admitting Diagnosis Code
+NY  2015 CORE              69 I10_DX1                          145  151   Char ICD-10-CM Diagnosis 1
+NY  2015 CORE              70 I10_DX2                          152  158   Char ICD-10-CM Diagnosis 2
+NY  2015 CORE              71 I10_DX3                          159  165   Char ICD-10-CM Diagnosis 3
+NY  2015 CORE              72 I10_DX4                          166  172   Char ICD-10-CM Diagnosis 4
+NY  2015 CORE              73 I10_DX5                          173  179   Char ICD-10-CM Diagnosis 5
+NY  2015 CORE              74 I10_DX6                          180  186   Char ICD-10-CM Diagnosis 6
+NY  2015 CORE              75 I10_DX7                          187  193   Char ICD-10-CM Diagnosis 7
+NY  2015 CORE              76 I10_DX8                          194  200   Char ICD-10-CM Diagnosis 8
+NY  2015 CORE              77 I10_DX9                          201  207   Char ICD-10-CM Diagnosis 9
+NY  2015 CORE              78 I10_DX10                         208  214   Char ICD-10-CM Diagnosis 10
+NY  2015 CORE              79 I10_DX11                         215  221   Char ICD-10-CM Diagnosis 11
+NY  2015 CORE              80 I10_DX12                         222  228   Char ICD-10-CM Diagnosis 12
+NY  2015 CORE              81 I10_DX13                         229  235   Char ICD-10-CM Diagnosis 13
+NY  2015 CORE              82 I10_DX14                         236  242   Char ICD-10-CM Diagnosis 14
+NY  2015 CORE              83 I10_DX15                         243  249   Char ICD-10-CM Diagnosis 15
+NY  2015 CORE              84 I10_DX16                         250  256   Char ICD-10-CM Diagnosis 16
+NY  2015 CORE              85 I10_DX17                         257  263   Char ICD-10-CM Diagnosis 17
+NY  2015 CORE              86 I10_DX18                         264  270   Char ICD-10-CM Diagnosis 18
+NY  2015 CORE              87 I10_DX19                         271  277   Char ICD-10-CM Diagnosis 19
+NY  2015 CORE              88 I10_DX20                         278  284   Char ICD-10-CM Diagnosis 20
+NY  2015 CORE              89 I10_DX21                         285  291   Char ICD-10-CM Diagnosis 21
+NY  2015 CORE              90 I10_DX22                         292  298   Char ICD-10-CM Diagnosis 22
+NY  2015 CORE              91 I10_DX23                         299  305   Char ICD-10-CM Diagnosis 23
+NY  2015 CORE              92 I10_DX24                         306  312   Char ICD-10-CM Diagnosis 24
+NY  2015 CORE              93 I10_DX25                         313  319   Char ICD-10-CM Diagnosis 25
+NY  2015 CORE              94 I10_DXCCS1                       320  323   Num  ICD-10-CM CCS: diagnosis 1
+NY  2015 CORE              95 I10_DXCCS2                       324  327   Num  ICD-10-CM CCS: diagnosis 2
+NY  2015 CORE              96 I10_DXCCS3                       328  331   Num  ICD-10-CM CCS: diagnosis 3
+NY  2015 CORE              97 I10_DXCCS4                       332  335   Num  ICD-10-CM CCS: diagnosis 4
+NY  2015 CORE              98 I10_DXCCS5                       336  339   Num  ICD-10-CM CCS: diagnosis 5
+NY  2015 CORE              99 I10_DXCCS6                       340  343   Num  ICD-10-CM CCS: diagnosis 6
+NY  2015 CORE             100 I10_DXCCS7                       344  347   Num  ICD-10-CM CCS: diagnosis 7
+NY  2015 CORE             101 I10_DXCCS8                       348  351   Num  ICD-10-CM CCS: diagnosis 8
+NY  2015 CORE             102 I10_DXCCS9                       352  355   Num  ICD-10-CM CCS: diagnosis 9
+NY  2015 CORE             103 I10_DXCCS10                      356  359   Num  ICD-10-CM CCS: diagnosis 10
+NY  2015 CORE             104 I10_DXCCS11                      360  363   Num  ICD-10-CM CCS: diagnosis 11
+NY  2015 CORE             105 I10_DXCCS12                      364  367   Num  ICD-10-CM CCS: diagnosis 12
+NY  2015 CORE             106 I10_DXCCS13                      368  371   Num  ICD-10-CM CCS: diagnosis 13
+NY  2015 CORE             107 I10_DXCCS14                      372  375   Num  ICD-10-CM CCS: diagnosis 14
+NY  2015 CORE             108 I10_DXCCS15                      376  379   Num  ICD-10-CM CCS: diagnosis 15
+NY  2015 CORE             109 I10_DXCCS16                      380  383   Num  ICD-10-CM CCS: diagnosis 16
+NY  2015 CORE             110 I10_DXCCS17                      384  387   Num  ICD-10-CM CCS: diagnosis 17
+NY  2015 CORE             111 I10_DXCCS18                      388  391   Num  ICD-10-CM CCS: diagnosis 18
+NY  2015 CORE             112 I10_DXCCS19                      392  395   Num  ICD-10-CM CCS: diagnosis 19
+NY  2015 CORE             113 I10_DXCCS20                      396  399   Num  ICD-10-CM CCS: diagnosis 20
+NY  2015 CORE             114 I10_DXCCS21                      400  403   Num  ICD-10-CM CCS: diagnosis 21
+NY  2015 CORE             115 I10_DXCCS22                      404  407   Num  ICD-10-CM CCS: diagnosis 22
+NY  2015 CORE             116 I10_DXCCS23                      408  411   Num  ICD-10-CM CCS: diagnosis 23
+NY  2015 CORE             117 I10_DXCCS24                      412  415   Num  ICD-10-CM CCS: diagnosis 24
+NY  2015 CORE             118 I10_DXCCS25                      416  419   Num  ICD-10-CM CCS: diagnosis 25
+NY  2015 CORE             119 I10_ECAUSE1                      420  426   Char ICD-10-CM E Cause 1
+NY  2015 CORE             120 I10_ECAUSE2                      427  433   Char ICD-10-CM E Cause 2
+NY  2015 CORE             121 I10_ECAUSE3                      434  440   Char ICD-10-CM E Cause 3
+NY  2015 CORE             122 I10_ECAUSE4                      441  447   Char ICD-10-CM E Cause 4
+NY  2015 CORE             123 I10_ECAUSE5                      448  454   Char ICD-10-CM E Cause 5
+NY  2015 CORE             124 I10_ECAUSE6                      455  461   Char ICD-10-CM E Cause 6
+NY  2015 CORE             125 I10_ECAUSE7                      462  468   Char ICD-10-CM E Cause 7
+NY  2015 CORE             126 I10_ECAUSE8                      469  475   Char ICD-10-CM E Cause 8
+NY  2015 CORE             127 I10_ECAUSE9                      476  482   Char ICD-10-CM E Cause 9
+NY  2015 CORE             128 I10_ECAUSE10                     483  489   Char ICD-10-CM E Cause 10
+NY  2015 CORE             129 I10_ECauseCCS1                   490  493   Num  ICD-10-CM CCS: E Cause 1
+NY  2015 CORE             130 I10_ECauseCCS2                   494  497   Num  ICD-10-CM CCS: E Cause 2
+NY  2015 CORE             131 I10_ECauseCCS3                   498  501   Num  ICD-10-CM CCS: E Cause 3
+NY  2015 CORE             132 I10_ECauseCCS4                   502  505   Num  ICD-10-CM CCS: E Cause 4
+NY  2015 CORE             133 I10_ECauseCCS5                   506  509   Num  ICD-10-CM CCS: E Cause 5
+NY  2015 CORE             134 I10_ECauseCCS6                   510  513   Num  ICD-10-CM CCS: E Cause 6
+NY  2015 CORE             135 I10_ECauseCCS7                   514  517   Num  ICD-10-CM CCS: E Cause 7
+NY  2015 CORE             136 I10_ECauseCCS8                   518  521   Num  ICD-10-CM CCS: E Cause 8
+NY  2015 CORE             137 I10_ECauseCCS9                   522  525   Num  ICD-10-CM CCS: E Cause 9
+NY  2015 CORE             138 I10_ECauseCCS10                  526  529   Num  ICD-10-CM CCS: E Cause 10
+NY  2015 CORE             139 I10_HOSPBRTH                     530  532   Num  ICD-10-CM Indicator of birth in this hospital
+NY  2015 CORE             140 I10_NCHRONIC                     533  535   Num  ICD-10-CM Number of chronic conditions
+NY  2015 CORE             141 I10_NDX                          536  538   Num  ICD-10-CM Number of diagnoses on this record
+NY  2015 CORE             142 I10_NECAUSE                      539  540   Num  ICD-10-CM Number of E Causes on this record
+NY  2015 CORE             143 I10_NEOMAT                       541  542   Num  ICD-10-CM/PCS Neonatal and/or maternal I10_DX and/or I10_PR
+NY  2015 CORE             144 I10_NPR                          543  545   Num  ICD-10-PCS Number of procedures on this record
+NY  2015 CORE             145 I10_ORPROC                       546  547   Num  ICD-10-PCS Major operating room procedure indicator
+NY  2015 CORE             146 I10_PR1                          548  554   Char ICD-10-PCS Procedure 1
+NY  2015 CORE             147 I10_PR2                          555  561   Char ICD-10-PCS Procedure 2
+NY  2015 CORE             148 I10_PR3                          562  568   Char ICD-10-PCS Procedure 3
+NY  2015 CORE             149 I10_PR4                          569  575   Char ICD-10-PCS Procedure 4
+NY  2015 CORE             150 I10_PR5                          576  582   Char ICD-10-PCS Procedure 5
+NY  2015 CORE             151 I10_PR6                          583  589   Char ICD-10-PCS Procedure 6
+NY  2015 CORE             152 I10_PR7                          590  596   Char ICD-10-PCS Procedure 7
+NY  2015 CORE             153 I10_PR8                          597  603   Char ICD-10-PCS Procedure 8
+NY  2015 CORE             154 I10_PR9                          604  610   Char ICD-10-PCS Procedure 9
+NY  2015 CORE             155 I10_PR10                         611  617   Char ICD-10-PCS Procedure 10
+NY  2015 CORE             156 I10_PR11                         618  624   Char ICD-10-PCS Procedure 11
+NY  2015 CORE             157 I10_PR12                         625  631   Char ICD-10-PCS Procedure 12
+NY  2015 CORE             158 I10_PR13                         632  638   Char ICD-10-PCS Procedure 13
+NY  2015 CORE             159 I10_PR14                         639  645   Char ICD-10-PCS Procedure 14
+NY  2015 CORE             160 I10_PRCCS1                       646  648   Num  ICD-10-PCS CCS: procedure 1
+NY  2015 CORE             161 I10_PRCCS2                       649  651   Num  ICD-10-PCS CCS: procedure 2
+NY  2015 CORE             162 I10_PRCCS3                       652  654   Num  ICD-10-PCS CCS: procedure 3
+NY  2015 CORE             163 I10_PRCCS4                       655  657   Num  ICD-10-PCS CCS: procedure 4
+NY  2015 CORE             164 I10_PRCCS5                       658  660   Num  ICD-10-PCS CCS: procedure 5
+NY  2015 CORE             165 I10_PRCCS6                       661  663   Num  ICD-10-PCS CCS: procedure 6
+NY  2015 CORE             166 I10_PRCCS7                       664  666   Num  ICD-10-PCS CCS: procedure 7
+NY  2015 CORE             167 I10_PRCCS8                       667  669   Num  ICD-10-PCS CCS: procedure 8
+NY  2015 CORE             168 I10_PRCCS9                       670  672   Num  ICD-10-PCS CCS: procedure 9
+NY  2015 CORE             169 I10_PRCCS10                      673  675   Num  ICD-10-PCS CCS: procedure 10
+NY  2015 CORE             170 I10_PRCCS11                      676  678   Num  ICD-10-PCS CCS: procedure 11
+NY  2015 CORE             171 I10_PRCCS12                      679  681   Num  ICD-10-PCS CCS: procedure 12
+NY  2015 CORE             172 I10_PRCCS13                      682  684   Num  ICD-10-PCS CCS: procedure 13
+NY  2015 CORE             173 I10_PRCCS14                      685  687   Num  ICD-10-PCS CCS: procedure 14
+NY  2015 CORE             174 I10_PROCTYPE                     688  690   Num  ICD-10-PCS Procedure type indicator
+NY  2015 CORE             175 I10_SERVICELINE                  691  692   Num  ICD-10-CM/PCS Hospital Service Line
+NY  2015 CORE             176 KEY                              693  707   Num  HCUP record identifier
+NY  2015 CORE             177 LOS                              708  712   Num  Length of stay (cleaned)
+NY  2015 CORE             178 LOS_X                            713  718   Num  Length of stay (as received from source)
+NY  2015 CORE             179 MDC                              719  720   Num  MDC in effect on discharge date
+NY  2015 CORE             180 MDC_NoPOA                        721  722   Num  MDC in use on discharge date, calculated without POA
+NY  2015 CORE             181 MDC32                            723  724   Num  MDC, version 32
+NY  2015 CORE             182 MDNUM1_R                         725  733   Num  Physician 1 number (re-identified)
+NY  2015 CORE             183 MDNUM2_R                         734  742   Num  Physician 2 number (re-identified)
+NY  2015 CORE             184 MEDINCSTQ                        743  744   Num  Median household income state quartile for patient ZIP Code
+NY  2015 CORE             185 OS_TIME                          745  755 2 Num  Observation stay time summed from UNITS
+NY  2015 CORE             186 PAY1                             756  757   Num  Primary expected payer (uniform)
+NY  2015 CORE             187 PAY1_X                           758  759   Char Primary expected payer (as received from source)
+NY  2015 CORE             188 PAY2                             760  761   Num  Secondary expected payer (uniform)
+NY  2015 CORE             189 PAY2_X                           762  763   Char Secondary expected payer (as received from source)
+NY  2015 CORE             190 PAY3                             764  765   Num  Tertiary expected payer (uniform)
+NY  2015 CORE             191 PAY3_X                           766  767   Char Tertiary expected payer (as received from source)
+NY  2015 CORE             192 PAYER1_X                         768  772   Char Primary expected payer plan identifier (as received from source)
+NY  2015 CORE             193 PAYER2_X                         773  777   Char Secondary expected payer plan identifier (as received from source)
+NY  2015 CORE             194 PL_CBSA                          778  780   Num  Patient location: Core Based Statistical Area (CBSA)
+NY  2015 CORE             195 PL_NCHS                          781  782   Num  Patient Location: NCHS Urban-Rural Code
+NY  2015 CORE             196 PL_RUCC                          783  784   Num  Patient location: Rural-Urban Continuum Codes(RUCC)
+NY  2015 CORE             197 PL_UIC                           785  786   Num  Patient location: Urban Influence Codes
+NY  2015 CORE             198 PL_UR_CAT4                       787  788   Num  Patient Location: Urban-Rural 4 Categories
+NY  2015 CORE             199 POA_Disch_Edit1                  789  790   Num  Discharge has POA missing on all nonexempt diagnoses
+NY  2015 CORE             200 POA_Disch_Edit2                  791  792   Num  Discharge has POA missing on all nonexempt secondary diagnoses
+NY  2015 CORE             201 POA_Hosp_Edit1                   793  794   Num  Hospital reported POA as Y on all diagnoses on all discharges
+NY  2015 CORE             202 POA_Hosp_Edit2                   795  796   Num  Hospital reported POA as missing on all non-Medicare discharges
+NY  2015 CORE             203 POA_Hosp_Edit3                   797  798   Num  Hospital reported POA as missing on all nonexempt diagnoses for 15% or more of discharges
+NY  2015 CORE             204 POA_Hosp_Edit3_Value             799  806 2 Num  Percentage of discharges with all nonexempt diagnoses missing POA indicators
+NY  2015 CORE             205 PointOfOrigin_X                  807  807   Char Point of origin for admission or visit, as received from source
+NY  2015 CORE             206 PointOfOriginUB04                808  808   Char Point of origin for admission or visit, UB-04 standard coding
+NY  2015 CORE             207 PRDAY1                           809  813   Num  Number of days from admission to I10_PR1
+NY  2015 CORE             208 PRDAY2                           814  818   Num  Number of days from admission to I10_PR2
+NY  2015 CORE             209 PRDAY3                           819  823   Num  Number of days from admission to I10_PR3
+NY  2015 CORE             210 PRDAY4                           824  828   Num  Number of days from admission to I10_PR4
+NY  2015 CORE             211 PRDAY5                           829  833   Num  Number of days from admission to I10_PR5
+NY  2015 CORE             212 PRDAY6                           834  838   Num  Number of days from admission to I10_PR6
+NY  2015 CORE             213 PRDAY7                           839  843   Num  Number of days from admission to I10_PR7
+NY  2015 CORE             214 PRDAY8                           844  848   Num  Number of days from admission to I10_PR8
+NY  2015 CORE             215 PRDAY9                           849  853   Num  Number of days from admission to I10_PR9
+NY  2015 CORE             216 PRDAY10                          854  858   Num  Number of days from admission to I10_PR10
+NY  2015 CORE             217 PRDAY11                          859  863   Num  Number of days from admission to I10_PR11
+NY  2015 CORE             218 PRDAY12                          864  868   Num  Number of days from admission to I10_PR12
+NY  2015 CORE             219 PRDAY13                          869  873   Num  Number of days from admission to I10_PR13
+NY  2015 CORE             220 PRDAY14                          874  878   Num  Number of days from admission to I10_PR14
+NY  2015 CORE             221 PRVER                            879  881   Num  Procedure Version
+NY  2015 CORE             222 PSTATE                           882  883   Char Patient State postal code
+NY  2015 CORE             223 PSTCO                            884  888   Num  Patient state/county FIPS code
+NY  2015 CORE             224 PSTCO2                           889  893   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+NY  2015 CORE             225 RACE                             894  895   Num  Race (uniform)
+NY  2015 CORE             226 RACE_X                           896  897   Char Race (as received from source)
+NY  2015 CORE             227 TOTCHG                           898  907   Num  Total charges (cleaned)
+NY  2015 CORE             228 TOTCHG_X                         908  922 2 Num  Total charges (as received from source)
+NY  2015 CORE             229 TRAN_IN                          923  924   Num  Transfer in indicator
+NY  2015 CORE             230 TRAN_OUT                         925  926   Num  Transfer out indicator
+NY  2015 CORE             231 VisitLink                        927  935   Num  Visit linkage variable
+NY  2015 CORE             232 YEAR                             936  939   Num  Calendar year
+NY  2015 CORE             233 ZIP                              940  944   Char Patient ZIP Code
+NY  2015 CORE             234 ZIP3                             945  947   Char Patient ZIP Code, first 3 digits
+NY  2015 CORE             235 ZIPINC_QRTL                      948  950   Num  Median household income national quartile for patient ZIP Code
+NY  2015 CORE             236 AYEAR                            951  954   Num  Admission year
+NY  2015 CORE             237 BMONTH                           955  956   Num  Birth month
+NY  2015 CORE             238 BYEAR                            957  960   Num  Birth year
+NY  2015 CORE             239 PRMONTH1                         961  962   Num  Month of procedure 1
+NY  2015 CORE             240 PRMONTH2                         963  964   Num  Month of procedure 2
+NY  2015 CORE             241 PRMONTH3                         965  966   Num  Month of procedure 3
+NY  2015 CORE             242 PRMONTH4                         967  968   Num  Month of procedure 4
+NY  2015 CORE             243 PRMONTH5                         969  970   Num  Month of procedure 5
+NY  2015 CORE             244 PRMONTH6                         971  972   Num  Month of procedure 6
+NY  2015 CORE             245 PRMONTH7                         973  974   Num  Month of procedure 7
+NY  2015 CORE             246 PRMONTH8                         975  976   Num  Month of procedure 8
+NY  2015 CORE             247 PRMONTH9                         977  978   Num  Month of procedure 9
+NY  2015 CORE             248 PRMONTH10                        979  980   Num  Month of procedure 10
+NY  2015 CORE             249 PRMONTH11                        981  982   Num  Month of procedure 11
+NY  2015 CORE             250 PRMONTH12                        983  984   Num  Month of procedure 12
+NY  2015 CORE             251 PRMONTH13                        985  986   Num  Month of procedure 13
+NY  2015 CORE             252 PRMONTH14                        987  988   Num  Month of procedure 14
+NY  2015 CORE             253 PRYEAR1                          989  992   Num  Year of procedure 1
+NY  2015 CORE             254 PRYEAR2                          993  996   Num  Year of procedure 2
+NY  2015 CORE             255 PRYEAR3                          997 1000   Num  Year of procedure 3
+NY  2015 CORE             256 PRYEAR4                         1001 1004   Num  Year of procedure 4
+NY  2015 CORE             257 PRYEAR5                         1005 1008   Num  Year of procedure 5
+NY  2015 CORE             258 PRYEAR6                         1009 1012   Num  Year of procedure 6
+NY  2015 CORE             259 PRYEAR7                         1013 1016   Num  Year of procedure 7
+NY  2015 CORE             260 PRYEAR8                         1017 1020   Num  Year of procedure 8
+NY  2015 CORE             261 PRYEAR9                         1021 1024   Num  Year of procedure 9
+NY  2015 CORE             262 PRYEAR10                        1025 1028   Num  Year of procedure 10
+NY  2015 CORE             263 PRYEAR11                        1029 1032   Num  Year of procedure 11
+NY  2015 CORE             264 PRYEAR12                        1033 1036   Num  Year of procedure 12
+NY  2015 CORE             265 PRYEAR13                        1037 1040   Num  Year of procedure 13
+NY  2015 CORE             266 PRYEAR14                        1041 1044   Num  Year of procedure 14

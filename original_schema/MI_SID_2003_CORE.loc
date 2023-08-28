@@ -1,0 +1,220 @@
+Data Set Name: MI_SID_2003_CORE                
+Number of Observations: 1287314
+Total Record Length: 767
+Total Number of Variables: 200
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 49    Variable name
+51- 54    Starting column of variable in ASCII file
+56- 59    Ending column of variable in ASCII file
+    61    Non-zero number of digits after decimal point for numeric variable
+63- 66    Variable type (Num=numeric; Char=character)
+68-167    Variable label
+
+
+MI  2003 CORE               1 HOSPID                 1    5   Num  HCUP hospital identification number
+MI  2003 CORE               2 HOSPST                 6    7   Char Hospital state postal code
+MI  2003 CORE               3 KEY                    8   21   Num  HCUP record identifier
+MI  2003 CORE               4 ADRG                  22   24   Num  All Patient Refined DRG
+MI  2003 CORE               5 ADRGRISKMORTALITY     25   26   Num  All Patient Refined DRG mortality risk
+MI  2003 CORE               6 ADRGSEV               27   28   Num  All Patient Refined DRG severity level
+MI  2003 CORE               7 AGE                   29   31   Num  Age in years at admission
+MI  2003 CORE               8 AGEDAY                32   34   Num  Age in days (when age < 1 year)
+MI  2003 CORE               9 AGEMONTH              35   37   Num  Age in months (when age < 11 years)
+MI  2003 CORE              10 AMONTH                38   39   Num  Admission month
+MI  2003 CORE              11 ASOURCE               40   41   Num  Admission source (uniform)
+MI  2003 CORE              12 ASOURCE_X             42   42   Char Admission source (as received from source)
+MI  2003 CORE              13 ASOURCEUB92           43   43   Char Admission source (UB-92 standard coding)
+MI  2003 CORE              14 ATYPE                 44   45   Num  Admission type
+MI  2003 CORE              15 AWEEKEND              46   47   Num  Admission day is a weekend
+MI  2003 CORE              16 DaysCCU               48   50   Num  Days in coronary care unit (as received from source)
+MI  2003 CORE              17 DaysICU               51   53   Num  Days in medical/surgical intensive care unit (as received from source)
+MI  2003 CORE              18 DIED                  54   55   Num  Died during hospitalization
+MI  2003 CORE              19 DISP_X                56   57   Char Disposition of patient (as received from source)
+MI  2003 CORE              20 DISPUB92              58   59   Num  Disposition of patient (UB-92 standard coding)
+MI  2003 CORE              21 DISPUNIFORM           60   61   Num  Disposition of patient (uniform)
+MI  2003 CORE              22 DQTR                  62   63   Num  Discharge quarter
+MI  2003 CORE              23 DRG                   64   66   Num  DRG in effect on discharge date
+MI  2003 CORE              24 DRG18                 67   69   Num  DRG, version 18
+MI  2003 CORE              25 DRGVER                70   71   Num  DRG grouper version used on discharge date
+MI  2003 CORE              26 DX1                   72   76   Char Principal diagnosis
+MI  2003 CORE              27 DX2                   77   81   Char Diagnosis 2
+MI  2003 CORE              28 DX3                   82   86   Char Diagnosis 3
+MI  2003 CORE              29 DX4                   87   91   Char Diagnosis 4
+MI  2003 CORE              30 DX5                   92   96   Char Diagnosis 5
+MI  2003 CORE              31 DX6                   97  101   Char Diagnosis 6
+MI  2003 CORE              32 DX7                  102  106   Char Diagnosis 7
+MI  2003 CORE              33 DX8                  107  111   Char Diagnosis 8
+MI  2003 CORE              34 DX9                  112  116   Char Diagnosis 9
+MI  2003 CORE              35 DX10                 117  121   Char Diagnosis 10
+MI  2003 CORE              36 DX11                 122  126   Char Diagnosis 11
+MI  2003 CORE              37 DX12                 127  131   Char Diagnosis 12
+MI  2003 CORE              38 DX13                 132  136   Char Diagnosis 13
+MI  2003 CORE              39 DX14                 137  141   Char Diagnosis 14
+MI  2003 CORE              40 DX15                 142  146   Char Diagnosis 15
+MI  2003 CORE              41 DX16                 147  151   Char Diagnosis 16
+MI  2003 CORE              42 DX17                 152  156   Char Diagnosis 17
+MI  2003 CORE              43 DX18                 157  161   Char Diagnosis 18
+MI  2003 CORE              44 DX19                 162  166   Char Diagnosis 19
+MI  2003 CORE              45 DX20                 167  171   Char Diagnosis 20
+MI  2003 CORE              46 DX21                 172  176   Char Diagnosis 21
+MI  2003 CORE              47 DX22                 177  181   Char Diagnosis 22
+MI  2003 CORE              48 DX23                 182  186   Char Diagnosis 23
+MI  2003 CORE              49 DX24                 187  191   Char Diagnosis 24
+MI  2003 CORE              50 DX25                 192  196   Char Diagnosis 25
+MI  2003 CORE              51 DX26                 197  201   Char Diagnosis 26
+MI  2003 CORE              52 DX27                 202  206   Char Diagnosis 27
+MI  2003 CORE              53 DX28                 207  211   Char Diagnosis 28
+MI  2003 CORE              54 DX29                 212  216   Char Diagnosis 29
+MI  2003 CORE              55 DX30                 217  221   Char Diagnosis 30
+MI  2003 CORE              56 DXCCS1               222  225   Num  CCS: principal diagnosis
+MI  2003 CORE              57 DXCCS2               226  229   Num  CCS: diagnosis 2
+MI  2003 CORE              58 DXCCS3               230  233   Num  CCS: diagnosis 3
+MI  2003 CORE              59 DXCCS4               234  237   Num  CCS: diagnosis 4
+MI  2003 CORE              60 DXCCS5               238  241   Num  CCS: diagnosis 5
+MI  2003 CORE              61 DXCCS6               242  245   Num  CCS: diagnosis 6
+MI  2003 CORE              62 DXCCS7               246  249   Num  CCS: diagnosis 7
+MI  2003 CORE              63 DXCCS8               250  253   Num  CCS: diagnosis 8
+MI  2003 CORE              64 DXCCS9               254  257   Num  CCS: diagnosis 9
+MI  2003 CORE              65 DXCCS10              258  261   Num  CCS: diagnosis 10
+MI  2003 CORE              66 DXCCS11              262  265   Num  CCS: diagnosis 11
+MI  2003 CORE              67 DXCCS12              266  269   Num  CCS: diagnosis 12
+MI  2003 CORE              68 DXCCS13              270  273   Num  CCS: diagnosis 13
+MI  2003 CORE              69 DXCCS14              274  277   Num  CCS: diagnosis 14
+MI  2003 CORE              70 DXCCS15              278  281   Num  CCS: diagnosis 15
+MI  2003 CORE              71 DXCCS16              282  285   Num  CCS: diagnosis 16
+MI  2003 CORE              72 DXCCS17              286  289   Num  CCS: diagnosis 17
+MI  2003 CORE              73 DXCCS18              290  293   Num  CCS: diagnosis 18
+MI  2003 CORE              74 DXCCS19              294  297   Num  CCS: diagnosis 19
+MI  2003 CORE              75 DXCCS20              298  301   Num  CCS: diagnosis 20
+MI  2003 CORE              76 DXCCS21              302  305   Num  CCS: diagnosis 21
+MI  2003 CORE              77 DXCCS22              306  309   Num  CCS: diagnosis 22
+MI  2003 CORE              78 DXCCS23              310  313   Num  CCS: diagnosis 23
+MI  2003 CORE              79 DXCCS24              314  317   Num  CCS: diagnosis 24
+MI  2003 CORE              80 DXCCS25              318  321   Num  CCS: diagnosis 25
+MI  2003 CORE              81 DXCCS26              322  325   Num  CCS: diagnosis 26
+MI  2003 CORE              82 DXCCS27              326  329   Num  CCS: diagnosis 27
+MI  2003 CORE              83 DXCCS28              330  333   Num  CCS: diagnosis 28
+MI  2003 CORE              84 DXCCS29              334  337   Num  CCS: diagnosis 29
+MI  2003 CORE              85 DXCCS30              338  341   Num  CCS: diagnosis 30
+MI  2003 CORE              86 ECODE1               342  346   Char E code 1
+MI  2003 CORE              87 ECODE2               347  351   Char E code 2
+MI  2003 CORE              88 ECODE3               352  356   Char E code 3
+MI  2003 CORE              89 ECODE4               357  361   Char E code 4
+MI  2003 CORE              90 ECODE5               362  366   Char E code 5
+MI  2003 CORE              91 ECODE6               367  371   Char E code 6
+MI  2003 CORE              92 ECODE7               372  376   Char E code 7
+MI  2003 CORE              93 ECODE8               377  381   Char E code 8
+MI  2003 CORE              94 E_CCS1               382  385   Num  CCS: E Code 1
+MI  2003 CORE              95 E_CCS2               386  389   Num  CCS: E Code 2
+MI  2003 CORE              96 E_CCS3               390  393   Num  CCS: E Code 3
+MI  2003 CORE              97 E_CCS4               394  397   Num  CCS: E Code 4
+MI  2003 CORE              98 E_CCS5               398  401   Num  CCS: E Code 5
+MI  2003 CORE              99 E_CCS6               402  405   Num  CCS: E Code 6
+MI  2003 CORE             100 E_CCS7               406  409   Num  CCS: E Code 7
+MI  2003 CORE             101 E_CCS8               410  413   Num  CCS: E Code 8
+MI  2003 CORE             102 FEMALE               414  415   Num  Indicator of sex
+MI  2003 CORE             103 HISPANIC_X           416  416   Char Hispanic ethnicity (as received from source)
+MI  2003 CORE             104 LOS                  417  421   Num  Length of stay (cleaned)
+MI  2003 CORE             105 LOS_X                422  427   Num  Length of stay (as received from source)
+MI  2003 CORE             106 MDC                  428  429   Num  MDC in effect on discharge date
+MI  2003 CORE             107 MDC18                430  431   Num  MDC, version 18
+MI  2003 CORE             108 MDNUM1_R             432  440   Num  Physician 1 number (re-identified)
+MI  2003 CORE             109 MDNUM2_R             441  449   Num  Physician 2 number (re-identified)
+MI  2003 CORE             110 MRN_R                450  458   Num  Medical record number (re-identified)
+MI  2003 CORE             111 NDX                  459  460   Num  Number of diagnoses on this record
+MI  2003 CORE             112 NECODE               461  462   Num  Number of E codes on this record
+MI  2003 CORE             113 NEOMAT               463  464   Num  Neonatal and/or maternal DX and/or PR
+MI  2003 CORE             114 NPR                  465  466   Num  Number of procedures on this record
+MI  2003 CORE             115 PAY1                 467  468   Num  Primary expected payer (uniform)
+MI  2003 CORE             116 PAY2                 469  470   Num  Secondary expected payer (uniform)
+MI  2003 CORE             117 PAY1_X               471  472   Char Primary expected payer (as received from source)
+MI  2003 CORE             118 PAY2_X               473  474   Char Secondary expected payer (as received from source)
+MI  2003 CORE             119 PL_CBSA              475  477   Num  Patient location: Core Based Statistical Area (CBSA)
+MI  2003 CORE             120 PL_MSA1993           478  480   Num  Patient location: Metropolitan Statistical Area (MSA), 1993
+MI  2003 CORE             121 PL_RUCA              481  484 1 Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes
+MI  2003 CORE             122 PL_RUCA10            485  486   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, ten levels
+MI  2003 CORE             123 PL_RUCA4             487  488   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, four levels
+MI  2003 CORE             124 PL_RUCC2003          489  490   Num  Patient location: Rural-Urban Continuum Codes(RUCC), 2003
+MI  2003 CORE             125 PL_UIC2003           491  492   Num  Patient location: Urban Influence Codes, 2003
+MI  2003 CORE             126 PL_UR_CAT4           493  494   Num  Patient Location: Urban-Rural 4 Categories
+MI  2003 CORE             127 PL_UR_CAT5           495  496   Num  Patient Location: Urban-Rural 5 Categories
+MI  2003 CORE             128 PR1                  497  500   Char Principal procedure
+MI  2003 CORE             129 PR2                  501  504   Char Procedure 2
+MI  2003 CORE             130 PR3                  505  508   Char Procedure 3
+MI  2003 CORE             131 PR4                  509  512   Char Procedure 4
+MI  2003 CORE             132 PR5                  513  516   Char Procedure 5
+MI  2003 CORE             133 PR6                  517  520   Char Procedure 6
+MI  2003 CORE             134 PR7                  521  524   Char Procedure 7
+MI  2003 CORE             135 PR8                  525  528   Char Procedure 8
+MI  2003 CORE             136 PR9                  529  532   Char Procedure 9
+MI  2003 CORE             137 PR10                 533  536   Char Procedure 10
+MI  2003 CORE             138 PR11                 537  540   Char Procedure 11
+MI  2003 CORE             139 PR12                 541  544   Char Procedure 12
+MI  2003 CORE             140 PR13                 545  548   Char Procedure 13
+MI  2003 CORE             141 PR14                 549  552   Char Procedure 14
+MI  2003 CORE             142 PR15                 553  556   Char Procedure 15
+MI  2003 CORE             143 PR16                 557  560   Char Procedure 16
+MI  2003 CORE             144 PR17                 561  564   Char Procedure 17
+MI  2003 CORE             145 PR18                 565  568   Char Procedure 18
+MI  2003 CORE             146 PR19                 569  572   Char Procedure 19
+MI  2003 CORE             147 PR20                 573  576   Char Procedure 20
+MI  2003 CORE             148 PR21                 577  580   Char Procedure 21
+MI  2003 CORE             149 PR22                 581  584   Char Procedure 22
+MI  2003 CORE             150 PR23                 585  588   Char Procedure 23
+MI  2003 CORE             151 PR24                 589  592   Char Procedure 24
+MI  2003 CORE             152 PR25                 593  596   Char Procedure 25
+MI  2003 CORE             153 PR26                 597  600   Char Procedure 26
+MI  2003 CORE             154 PR27                 601  604   Char Procedure 27
+MI  2003 CORE             155 PR28                 605  608   Char Procedure 28
+MI  2003 CORE             156 PR29                 609  612   Char Procedure 29
+MI  2003 CORE             157 PR30                 613  616   Char Procedure 30
+MI  2003 CORE             158 PRCCS1               617  619   Num  CCS: principal procedure
+MI  2003 CORE             159 PRCCS2               620  622   Num  CCS: procedure 2
+MI  2003 CORE             160 PRCCS3               623  625   Num  CCS: procedure 3
+MI  2003 CORE             161 PRCCS4               626  628   Num  CCS: procedure 4
+MI  2003 CORE             162 PRCCS5               629  631   Num  CCS: procedure 5
+MI  2003 CORE             163 PRCCS6               632  634   Num  CCS: procedure 6
+MI  2003 CORE             164 PRCCS7               635  637   Num  CCS: procedure 7
+MI  2003 CORE             165 PRCCS8               638  640   Num  CCS: procedure 8
+MI  2003 CORE             166 PRCCS9               641  643   Num  CCS: procedure 9
+MI  2003 CORE             167 PRCCS10              644  646   Num  CCS: procedure 10
+MI  2003 CORE             168 PRCCS11              647  649   Num  CCS: procedure 11
+MI  2003 CORE             169 PRCCS12              650  652   Num  CCS: procedure 12
+MI  2003 CORE             170 PRCCS13              653  655   Num  CCS: procedure 13
+MI  2003 CORE             171 PRCCS14              656  658   Num  CCS: procedure 14
+MI  2003 CORE             172 PRCCS15              659  661   Num  CCS: procedure 15
+MI  2003 CORE             173 PRCCS16              662  664   Num  CCS: procedure 16
+MI  2003 CORE             174 PRCCS17              665  667   Num  CCS: procedure 17
+MI  2003 CORE             175 PRCCS18              668  670   Num  CCS: procedure 18
+MI  2003 CORE             176 PRCCS19              671  673   Num  CCS: procedure 19
+MI  2003 CORE             177 PRCCS20              674  676   Num  CCS: procedure 20
+MI  2003 CORE             178 PRCCS21              677  679   Num  CCS: procedure 21
+MI  2003 CORE             179 PRCCS22              680  682   Num  CCS: procedure 22
+MI  2003 CORE             180 PRCCS23              683  685   Num  CCS: procedure 23
+MI  2003 CORE             181 PRCCS24              686  688   Num  CCS: procedure 24
+MI  2003 CORE             182 PRCCS25              689  691   Num  CCS: procedure 25
+MI  2003 CORE             183 PRCCS26              692  694   Num  CCS: procedure 26
+MI  2003 CORE             184 PRCCS27              695  697   Num  CCS: procedure 27
+MI  2003 CORE             185 PRCCS28              698  700   Num  CCS: procedure 28
+MI  2003 CORE             186 PRCCS29              701  703   Num  CCS: procedure 29
+MI  2003 CORE             187 PRCCS30              704  706   Num  CCS: procedure 30
+MI  2003 CORE             188 PRDAY1               707  711   Num  Number of days from admission to PR1
+MI  2003 CORE             189 PSTATE               712  713   Char Patient State postal code
+MI  2003 CORE             190 PSTCO2               714  718   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+MI  2003 CORE             191 RACE                 719  720   Num  Race (uniform)
+MI  2003 CORE             192 RACE_X               721  721   Char Race (as received from source)
+MI  2003 CORE             193 TOTCHG               722  731   Num  Total charges (cleaned)
+MI  2003 CORE             194 TOTCHG_X             732  746 2 Num  Total charges (as received from source)
+MI  2003 CORE             195 YEAR                 747  750   Num  Calendar year
+MI  2003 CORE             196 ZIP                  751  755   Char Patient ZIP Code
+MI  2003 CORE             197 AYEAR                756  759   Num  Admission year
+MI  2003 CORE             198 DMONTH               760  761   Num  Discharge month
+MI  2003 CORE             199 BMONTH               762  763   Num  Birth month
+MI  2003 CORE             200 BYEAR                764  767   Num  Birth year

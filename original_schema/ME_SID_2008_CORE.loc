@@ -1,0 +1,155 @@
+Data Set Name: ME_SIDC_2008_CORE               
+Number of Observations: 164122
+Total Record Length: 432
+Total Number of Variables: 135
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 56    Variable name
+58- 61    Starting column of variable in ASCII file
+63- 66    Ending column of variable in ASCII file
+    68    Non-zero number of digits after decimal point for numeric variable
+70- 73    Variable type (Num=numeric; Char=character)
+75-174    Variable label
+
+
+ME  2008 CORE               1 ADRG                          1    3   Num  All Patient Refined DRG
+ME  2008 CORE               2 AHOUR                         4    7   Num  Admission Hour
+ME  2008 CORE               3 AMDC                          8    9   Num  All Patient Refined MDC
+ME  2008 CORE               4 AMONTH                       10   11   Num  Admission month
+ME  2008 CORE               5 ASOURCE                      12   13   Num  Admission source (uniform)
+ME  2008 CORE               6 ATYPE                        14   15   Num  Admission type
+ME  2008 CORE               7 AWEEKEND                     16   17   Num  Admission day is a weekend
+ME  2008 CORE               8 DHOUR                        18   21   Num  Discharge Hour
+ME  2008 CORE               9 DIED                         22   23   Num  Died during hospitalization
+ME  2008 CORE              10 DISPUB04                     24   25   Num  Disposition of patient (UB-04 standard coding)
+ME  2008 CORE              11 DISPUNIFORM                  26   27   Num  Disposition of patient (uniform)
+ME  2008 CORE              12 DQTR                         28   29   Num  Discharge quarter
+ME  2008 CORE              13 DRG                          30   32   Num  DRG in effect on discharge date
+ME  2008 CORE              14 DRG24                        33   35   Num  DRG, version 24
+ME  2008 CORE              15 DRGVER                       36   37   Num  DRG grouper version used on discharge date
+ME  2008 CORE              16 DRG_NoPOA                    38   40   Num  DRG in use on discharge date, calculated without POA
+ME  2008 CORE              17 DX1                          41   45   Char Diagnosis 1
+ME  2008 CORE              18 DX2                          46   50   Char Diagnosis 2
+ME  2008 CORE              19 DX3                          51   55   Char Diagnosis 3
+ME  2008 CORE              20 DX4                          56   60   Char Diagnosis 4
+ME  2008 CORE              21 DX5                          61   65   Char Diagnosis 5
+ME  2008 CORE              22 DX6                          66   70   Char Diagnosis 6
+ME  2008 CORE              23 DX7                          71   75   Char Diagnosis 7
+ME  2008 CORE              24 DX8                          76   80   Char Diagnosis 8
+ME  2008 CORE              25 DX9                          81   85   Char Diagnosis 9
+ME  2008 CORE              26 DX10                         86   90   Char Diagnosis 10
+ME  2008 CORE              27 DXCCS1                       91   94   Num  CCS: diagnosis 1
+ME  2008 CORE              28 DXCCS2                       95   98   Num  CCS: diagnosis 2
+ME  2008 CORE              29 DXCCS3                       99  102   Num  CCS: diagnosis 3
+ME  2008 CORE              30 DXCCS4                      103  106   Num  CCS: diagnosis 4
+ME  2008 CORE              31 DXCCS5                      107  110   Num  CCS: diagnosis 5
+ME  2008 CORE              32 DXCCS6                      111  114   Num  CCS: diagnosis 6
+ME  2008 CORE              33 DXCCS7                      115  118   Num  CCS: diagnosis 7
+ME  2008 CORE              34 DXCCS8                      119  122   Num  CCS: diagnosis 8
+ME  2008 CORE              35 DXCCS9                      123  126   Num  CCS: diagnosis 9
+ME  2008 CORE              36 DXCCS10                     127  130   Num  CCS: diagnosis 10
+ME  2008 CORE              37 DXPOA1                      131  131   Char Diagnosis 1, present on admission indicator
+ME  2008 CORE              38 DXPOA2                      132  132   Char Diagnosis 2, present on admission indicator
+ME  2008 CORE              39 DXPOA3                      133  133   Char Diagnosis 3, present on admission indicator
+ME  2008 CORE              40 DXPOA4                      134  134   Char Diagnosis 4, present on admission indicator
+ME  2008 CORE              41 DXPOA5                      135  135   Char Diagnosis 5, present on admission indicator
+ME  2008 CORE              42 DXPOA6                      136  136   Char Diagnosis 6, present on admission indicator
+ME  2008 CORE              43 DXPOA7                      137  137   Char Diagnosis 7, present on admission indicator
+ME  2008 CORE              44 DXPOA8                      138  138   Char Diagnosis 8, present on admission indicator
+ME  2008 CORE              45 DXPOA9                      139  139   Char Diagnosis 9, present on admission indicator
+ME  2008 CORE              46 DXPOA10                     140  140   Char Diagnosis 10, present on admission indicator
+ME  2008 CORE              47 ECODE1                      141  145   Char E code 1
+ME  2008 CORE              48 ECODE2                      146  150   Char E code 2
+ME  2008 CORE              49 ECODE3                      151  155   Char E code 3
+ME  2008 CORE              50 ECODE4                      156  160   Char E code 4
+ME  2008 CORE              51 ECODE5                      161  165   Char E code 5
+ME  2008 CORE              52 ECODE6                      166  170   Char E code 6
+ME  2008 CORE              53 E_CCS1                      171  174   Num  CCS: E Code 1
+ME  2008 CORE              54 E_CCS2                      175  178   Num  CCS: E Code 2
+ME  2008 CORE              55 E_CCS3                      179  182   Num  CCS: E Code 3
+ME  2008 CORE              56 E_CCS4                      183  186   Num  CCS: E Code 4
+ME  2008 CORE              57 E_CCS5                      187  190   Num  CCS: E Code 5
+ME  2008 CORE              58 E_CCS6                      191  194   Num  CCS: E Code 6
+ME  2008 CORE              59 E_POA1                      195  195   Char E Code 1, present on admission indicator
+ME  2008 CORE              60 E_POA2                      196  196   Char E Code 2, present on admission indicator
+ME  2008 CORE              61 E_POA3                      197  197   Char E Code 3, present on admission indicator
+ME  2008 CORE              62 E_POA4                      198  198   Char E Code 4, present on admission indicator
+ME  2008 CORE              63 E_POA5                      199  199   Char E Code 5, present on admission indicator
+ME  2008 CORE              64 E_POA6                      200  200   Char E Code 6, present on admission indicator
+ME  2008 CORE              65 FEMALE                      201  202   Num  Indicator of sex
+ME  2008 CORE              66 HCUP_ED                     203  204   Num  HCUP Emergency Department service indicator
+ME  2008 CORE              67 HCUP_OS                     205  206   Num  HCUP Observation Stay service indicator
+ME  2008 CORE              68 HISPANIC_X                  207  207   Char Hispanic ethnicity (as received from source)
+ME  2008 CORE              69 HOSPBRTH                    208  210   Num  Indicator of birth in this hospital
+ME  2008 CORE              70 HOSPST                      211  212   Char Hospital state postal code
+ME  2008 CORE              71 KEY                         213  226   Num  HCUP record identifier
+ME  2008 CORE              72 LOS                         227  231   Num  Length of stay (cleaned)
+ME  2008 CORE              73 MDC                         232  233   Num  MDC in effect on discharge date
+ME  2008 CORE              74 MDC24                       234  235   Num  MDC, version 24
+ME  2008 CORE              75 MDSPEC1                     236  237   Char Physician 1 specialty (as received from source)
+ME  2008 CORE              76 MDSPEC2                     238  239   Char Physician 2 specialty (as received from source)
+ME  2008 CORE              77 MEDINCSTQ                   240  241   Num  Median household income state quartile for patient ZIP Code
+ME  2008 CORE              78 MRN_R                       242  250   Num  Medical record number (re-identified)
+ME  2008 CORE              79 NDX                         251  252   Num  Number of diagnoses on this record
+ME  2008 CORE              80 NECODE                      253  254   Num  Number of E codes on this record
+ME  2008 CORE              81 NEOMAT                      255  256   Num  Neonatal and/or maternal DX and/or PR
+ME  2008 CORE              82 NPR                         257  258   Num  Number of procedures on this record
+ME  2008 CORE              83 PAY1                        259  260   Num  Primary expected payer (uniform)
+ME  2008 CORE              84 PAY2                        261  262   Num  Secondary expected payer (uniform)
+ME  2008 CORE              85 PL_CBSA                     263  265   Num  Patient location: Core Based Statistical Area (CBSA)
+ME  2008 CORE              86 PL_MSA1993                  266  268   Num  Patient location: Metropolitan Statistical Area (MSA), 1993
+ME  2008 CORE              87 PL_NCHS2006                 269  270   Num  Patient Location: NCHS Urban-Rural Code (V2006)
+ME  2008 CORE              88 PL_RUCA4_2005               271  272   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, four levels
+ME  2008 CORE              89 PL_UIC2003                  273  274   Num  Patient location: Urban Influence Codes, 2003
+ME  2008 CORE              90 PL_UR_CAT4                  275  276   Num  Patient Location: Urban-Rural 4 Categories
+ME  2008 CORE              91 PR1                         277  280   Char Procedure 1
+ME  2008 CORE              92 PR2                         281  284   Char Procedure 2
+ME  2008 CORE              93 PR3                         285  288   Char Procedure 3
+ME  2008 CORE              94 PR4                         289  292   Char Procedure 4
+ME  2008 CORE              95 PR5                         293  296   Char Procedure 5
+ME  2008 CORE              96 PR6                         297  300   Char Procedure 6
+ME  2008 CORE              97 PRCCS1                      301  303   Num  CCS: procedure 1
+ME  2008 CORE              98 PRCCS2                      304  306   Num  CCS: procedure 2
+ME  2008 CORE              99 PRCCS3                      307  309   Num  CCS: procedure 3
+ME  2008 CORE             100 PRCCS4                      310  312   Num  CCS: procedure 4
+ME  2008 CORE             101 PRCCS5                      313  315   Num  CCS: procedure 5
+ME  2008 CORE             102 PRCCS6                      316  318   Num  CCS: procedure 6
+ME  2008 CORE             103 PRDAY1                      319  323   Num  Number of days from admission to PR1
+ME  2008 CORE             104 PRDAY2                      324  328   Num  Number of days from admission to PR2
+ME  2008 CORE             105 PRDAY3                      329  333   Num  Number of days from admission to PR3
+ME  2008 CORE             106 PRDAY4                      334  338   Num  Number of days from admission to PR4
+ME  2008 CORE             107 PRDAY5                      339  343   Num  Number of days from admission to PR5
+ME  2008 CORE             108 PRDAY6                      344  348   Num  Number of days from admission to PR6
+ME  2008 CORE             109 PROCTYPE                    349  351   Num  Procedure type indicator
+ME  2008 CORE             110 PSTATE                      352  353   Char Patient State postal code
+ME  2008 CORE             111 PSTCO                       354  358   Num  Patient state/county FIPS code
+ME  2008 CORE             112 PSTCO2                      359  363   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+ME  2008 CORE             113 PointOfOriginUB04           364  364   Char Point of origin for admission or visit, UB-04 standard coding
+ME  2008 CORE             114 RACE                        365  366   Num  Race (uniform)
+ME  2008 CORE             115 RACE_X                      367  367   Char Race (as received from source)
+ME  2008 CORE             116 YEAR                        368  371   Num  Calendar year
+ME  2008 CORE             117 ZIP3                        372  374   Char Patient ZIP Code, first 3 digits
+ME  2008 CORE             118 ZIPINC_QRTL                 375  377   Num  Median household income national quartile for patient ZIP Code
+ME  2008 CORE             119 ZIP_S                       378  382   Char Patient ZIP Code (synthetic)
+ME  2008 CORE             120 AGEGROUP                    383  385   Num   
+ME  2008 CORE             121 HOSPID                      386  390   Num  HCUP hospital identification number
+ME  2008 CORE             122 AYEAR                       391  394   Num  Admission year
+ME  2008 CORE             123 DMONTH                      395  396   Num  Discharge month
+ME  2008 CORE             124 PRMONTH1                    397  398   Num  Month of procedure 1
+ME  2008 CORE             125 PRMONTH2                    399  400   Num  Month of procedure 2
+ME  2008 CORE             126 PRMONTH3                    401  402   Num  Month of procedure 3
+ME  2008 CORE             127 PRMONTH4                    403  404   Num  Month of procedure 4
+ME  2008 CORE             128 PRMONTH5                    405  406   Num  Month of procedure 5
+ME  2008 CORE             129 PRMONTH6                    407  408   Num  Month of procedure 6
+ME  2008 CORE             130 PRYEAR1                     409  412   Num  Year of procedure 1
+ME  2008 CORE             131 PRYEAR2                     413  416   Num  Year of procedure 2
+ME  2008 CORE             132 PRYEAR3                     417  420   Num  Year of procedure 3
+ME  2008 CORE             133 PRYEAR4                     421  424   Num  Year of procedure 4
+ME  2008 CORE             134 PRYEAR5                     425  428   Num  Year of procedure 5
+ME  2008 CORE             135 PRYEAR6                     429  432   Num  Year of procedure 6

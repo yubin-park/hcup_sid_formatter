@@ -1,0 +1,140 @@
+Data Set Name: NJ_SID_2005_CORE                
+Number of Observations: 1127898
+Total Record Length: 459
+Total Number of Variables: 120
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 56    Variable name
+58- 61    Starting column of variable in ASCII file
+63- 66    Ending column of variable in ASCII file
+    68    Non-zero number of digits after decimal point for numeric variable
+70- 73    Variable type (Num=numeric; Char=character)
+75-174    Variable label
+
+
+NJ  2005 CORE               1 KEY                           1   14   Num  HCUP record identifier
+NJ  2005 CORE               2 AGE                          15   17   Num  Age in years at admission
+NJ  2005 CORE               3 AGEDAY                       18   20   Num  Age in days (when age < 1 year)
+NJ  2005 CORE               4 AGEMONTH                     21   23   Num  Age in months (when age < 11 years)
+NJ  2005 CORE               5 AMONTH                       24   25   Num  Admission month
+NJ  2005 CORE               6 ASOURCE                      26   27   Num  Admission source (uniform)
+NJ  2005 CORE               7 ASOURCE_X                    28   28   Char Admission source (as received from source)
+NJ  2005 CORE               8 ASOURCEUB92                  29   29   Char Admission source (UB-92 standard coding)
+NJ  2005 CORE               9 ATYPE                        30   31   Num  Admission type
+NJ  2005 CORE              10 AWEEKEND                     32   33   Num  Admission day is a weekend
+NJ  2005 CORE              11 BILLTYPE                     34   36   Char UB-92 bill type
+NJ  2005 CORE              12 BWT                          37   40   Num  Birth weight in grams
+NJ  2005 CORE              13 DIED                         41   42   Num  Died during hospitalization
+NJ  2005 CORE              14 DISP_X                       43   44   Char Disposition of patient (as received from source)
+NJ  2005 CORE              15 DISPUB92                     45   46   Num  Disposition of patient (UB-92 standard coding)
+NJ  2005 CORE              16 DISPUNIFORM                  47   48   Num  Disposition of patient (uniform)
+NJ  2005 CORE              17 DNR                          49   50   Num  Do not resuscitate indicator
+NJ  2005 CORE              18 DQTR                         51   52   Num  Discharge quarter
+NJ  2005 CORE              19 DRG                          53   55   Num  DRG in effect on discharge date
+NJ  2005 CORE              20 DRG18                        56   58   Num  DRG, version 18
+NJ  2005 CORE              21 DRGVER                       59   60   Num  DRG grouper version used on discharge date
+NJ  2005 CORE              22 DSHOSPID                     61   73   Char Data source hospital identifier
+NJ  2005 CORE              23 DX1                          74   78   Char Principal diagnosis
+NJ  2005 CORE              24 DX2                          79   83   Char Diagnosis 2
+NJ  2005 CORE              25 DX3                          84   88   Char Diagnosis 3
+NJ  2005 CORE              26 DX4                          89   93   Char Diagnosis 4
+NJ  2005 CORE              27 DX5                          94   98   Char Diagnosis 5
+NJ  2005 CORE              28 DX6                          99  103   Char Diagnosis 6
+NJ  2005 CORE              29 DX7                         104  108   Char Diagnosis 7
+NJ  2005 CORE              30 DX8                         109  113   Char Diagnosis 8
+NJ  2005 CORE              31 DX9                         114  118   Char Diagnosis 9
+NJ  2005 CORE              32 DXCCS1                      119  122   Num  CCS: principal diagnosis
+NJ  2005 CORE              33 DXCCS2                      123  126   Num  CCS: diagnosis 2
+NJ  2005 CORE              34 DXCCS3                      127  130   Num  CCS: diagnosis 3
+NJ  2005 CORE              35 DXCCS4                      131  134   Num  CCS: diagnosis 4
+NJ  2005 CORE              36 DXCCS5                      135  138   Num  CCS: diagnosis 5
+NJ  2005 CORE              37 DXCCS6                      139  142   Num  CCS: diagnosis 6
+NJ  2005 CORE              38 DXCCS7                      143  146   Num  CCS: diagnosis 7
+NJ  2005 CORE              39 DXCCS8                      147  150   Num  CCS: diagnosis 8
+NJ  2005 CORE              40 DXCCS9                      151  154   Num  CCS: diagnosis 9
+NJ  2005 CORE              41 ECODE1                      155  159   Char E code 1
+NJ  2005 CORE              42 ECODE2                      160  164   Char E code 2
+NJ  2005 CORE              43 ECODE3                      165  169   Char E code 3
+NJ  2005 CORE              44 ECODE4                      170  174   Char E code 4
+NJ  2005 CORE              45 ECODE5                      175  179   Char E code 5
+NJ  2005 CORE              46 E_CCS1                      180  183   Num  CCS: E Code 1
+NJ  2005 CORE              47 E_CCS2                      184  187   Num  CCS: E Code 2
+NJ  2005 CORE              48 E_CCS3                      188  191   Num  CCS: E Code 3
+NJ  2005 CORE              49 E_CCS4                      192  195   Num  CCS: E Code 4
+NJ  2005 CORE              50 E_CCS5                      196  199   Num  CCS: E Code 5
+NJ  2005 CORE              51 FEMALE                      200  201   Num  Indicator of sex
+NJ  2005 CORE              52 HCUP_ED                     202  203   Num  HCUP Emergency Department service indicator
+NJ  2005 CORE              53 HCUP_OS                     204  205   Num  HCUP Observation Stay service indicator
+NJ  2005 CORE              54 HISPANIC_X                  206  206   Char Hispanic ethnicity (as received from source)
+NJ  2005 CORE              55 HOSPST                      207  208   Char Hospital state postal code
+NJ  2005 CORE              56 LOS                         209  213   Num  Length of stay (cleaned)
+NJ  2005 CORE              57 LOS_X                       214  219   Num  Length of stay (as received from source)
+NJ  2005 CORE              58 MARITALSTATUS               220  220   Char Patient's marital status
+NJ  2005 CORE              59 MDC                         221  222   Num  MDC in effect on discharge date
+NJ  2005 CORE              60 MDC18                       223  224   Num  MDC, version 18
+NJ  2005 CORE              61 MDNUM1_R                    225  233   Num  Physician 1 number (re-identified)
+NJ  2005 CORE              62 MDNUM2_R                    234  242   Num  Physician 2 number (re-identified)
+NJ  2005 CORE              63 MDSPEC1                     243  243   Char Physician 1 specialty (as received from source)
+NJ  2005 CORE              64 MEDINCSTQ                   244  245   Num  Median household income state quartile for patient ZIP Code
+NJ  2005 CORE              65 MOMNUM_R                    246  254   Num  Mother's number (re-identified)
+NJ  2005 CORE              66 MRN_R                       255  263   Num  Medical record number (re-identified)
+NJ  2005 CORE              67 NDX                         264  265   Num  Number of diagnoses on this record
+NJ  2005 CORE              68 NECODE                      266  267   Num  Number of E codes on this record
+NJ  2005 CORE              69 NEOMAT                      268  269   Num  Neonatal and/or maternal DX and/or PR
+NJ  2005 CORE              70 NPR                         270  271   Num  Number of procedures on this record
+NJ  2005 CORE              71 PAY1                        272  273   Num  Primary expected payer (uniform)
+NJ  2005 CORE              72 PAY2                        274  275   Num  Secondary expected payer (uniform)
+NJ  2005 CORE              73 PAY1_X                      276  278   Char Primary expected payer (as received from source)
+NJ  2005 CORE              74 PAY2_X                      279  281   Char Secondary expected payer (as received from source)
+NJ  2005 CORE              75 PAY3_X                      282  284   Char Tertiary expected payer (as received from source)
+NJ  2005 CORE              76 PL_CBSA                     285  287   Num  Patient location: Core Based Statistical Area (CBSA)
+NJ  2005 CORE              77 PL_MSA1993                  288  290   Num  Patient location: Metropolitan Statistical Area (MSA), 1993
+NJ  2005 CORE              78 PL_NHCS2006                 291  292   Num  Patient Location: NCHS Urban-Rural Code (V2006)
+NJ  2005 CORE              79 PL_RUCA10_2005              293  294   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, ten levels
+NJ  2005 CORE              80 PL_RUCA2005                 295  298 1 Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes
+NJ  2005 CORE              81 PL_RUCA4_2005               299  300   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, four levels
+NJ  2005 CORE              82 PL_RUCC2003                 301  302   Num  Patient location: Rural-Urban Continuum Codes(RUCC), 2003
+NJ  2005 CORE              83 PL_UIC2003                  303  304   Num  Patient location: Urban Influence Codes, 2003
+NJ  2005 CORE              84 PL_UR_CAT4                  305  306   Num  Patient Location: Urban-Rural 4 Categories
+NJ  2005 CORE              85 PL_UR_CAT5                  307  308   Num  Patient Location: Urban-Rural 5 Categories
+NJ  2005 CORE              86 PR1                         309  312   Char Principal procedure
+NJ  2005 CORE              87 PR2                         313  316   Char Procedure 2
+NJ  2005 CORE              88 PR3                         317  320   Char Procedure 3
+NJ  2005 CORE              89 PR4                         321  324   Char Procedure 4
+NJ  2005 CORE              90 PR5                         325  328   Char Procedure 5
+NJ  2005 CORE              91 PR6                         329  332   Char Procedure 6
+NJ  2005 CORE              92 PR7                         333  336   Char Procedure 7
+NJ  2005 CORE              93 PR8                         337  340   Char Procedure 8
+NJ  2005 CORE              94 PRCCS1                      341  343   Num  CCS: principal procedure
+NJ  2005 CORE              95 PRCCS2                      344  346   Num  CCS: procedure 2
+NJ  2005 CORE              96 PRCCS3                      347  349   Num  CCS: procedure 3
+NJ  2005 CORE              97 PRCCS4                      350  352   Num  CCS: procedure 4
+NJ  2005 CORE              98 PRCCS5                      353  355   Num  CCS: procedure 5
+NJ  2005 CORE              99 PRCCS6                      356  358   Num  CCS: procedure 6
+NJ  2005 CORE             100 PRCCS7                      359  361   Num  CCS: procedure 7
+NJ  2005 CORE             101 PRCCS8                      362  364   Num  CCS: procedure 8
+NJ  2005 CORE             102 PRDAY1                      365  369   Num  Number of days from admission to PR1
+NJ  2005 CORE             103 PRDAY2                      370  374   Num  Number of days from admission to PR2
+NJ  2005 CORE             104 PRDAY3                      375  379   Num  Number of days from admission to PR3
+NJ  2005 CORE             105 PRDAY4                      380  384   Num  Number of days from admission to PR4
+NJ  2005 CORE             106 PRDAY5                      385  389   Num  Number of days from admission to PR5
+NJ  2005 CORE             107 PRDAY6                      390  394   Num  Number of days from admission to PR6
+NJ  2005 CORE             108 PRDAY7                      395  399   Num  Number of days from admission to PR7
+NJ  2005 CORE             109 PRDAY8                      400  404   Num  Number of days from admission to PR8
+NJ  2005 CORE             110 PSTATE                      405  406   Char Patient State postal code
+NJ  2005 CORE             111 PSTCO                       407  411   Num  Patient state/county FIPS code
+NJ  2005 CORE             112 PSTCO2                      412  416   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+NJ  2005 CORE             113 RACE                        417  418   Num  Race (uniform)
+NJ  2005 CORE             114 RACE_X                      419  419   Char Race (as received from source)
+NJ  2005 CORE             115 READMIT                     420  421   Num  Readmission
+NJ  2005 CORE             116 TOTCHG                      422  431   Num  Total charges (cleaned)
+NJ  2005 CORE             117 TOTCHG_X                    432  446 2 Num  Total charges (as received from source)
+NJ  2005 CORE             118 YEAR                        447  450   Num  Calendar year
+NJ  2005 CORE             119 TOWN                        451  454   Char Patient town of residence (as received from source)
+NJ  2005 CORE             120 ZIP                         455  459   Char Patient ZIP Code

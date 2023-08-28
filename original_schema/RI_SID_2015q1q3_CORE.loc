@@ -1,0 +1,370 @@
+Data Set Name: RI_SIDC_2015Q1Q3_CORE           
+Number of Observations: 100080
+Total Record Length: 1392
+Total Number of Variables: 349
+Creation Date: 11/13/2017   
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 61    Variable name
+63- 66    Starting column of variable in ASCII file
+68- 71    Ending column of variable in ASCII file
+73- 73    Non-zero number of digits after decimal point for numeric variable
+75- 78    Variable type (Num=numeric; Char=character)
+80-179    Variable label
+
+
+RI  2015 CORE               1 AGE                                1    3   Num  Age in years at admission
+RI  2015 CORE               2 AHOUR                              4    7   Num  Admission Hour
+RI  2015 CORE               3 AMONTH                             8    9   Num  Admission month
+RI  2015 CORE               4 ATYPE                             10   11   Num  Admission type
+RI  2015 CORE               5 AWEEKEND                          12   13   Num  Admission day is a weekend
+RI  2015 CORE               6 BWT                               14   17   Num  Birth weight in grams
+RI  2015 CORE               7 CPT1                              18   22   Char CPT/HCPCS procedure code 1
+RI  2015 CORE               8 CPT2                              23   27   Char CPT/HCPCS procedure code 2
+RI  2015 CORE               9 CPT3                              28   32   Char CPT/HCPCS procedure code 3
+RI  2015 CORE              10 CPT4                              33   37   Char CPT/HCPCS procedure code 4
+RI  2015 CORE              11 CPT5                              38   42   Char CPT/HCPCS procedure code 5
+RI  2015 CORE              12 CPT6                              43   47   Char CPT/HCPCS procedure code 6
+RI  2015 CORE              13 CPT7                              48   52   Char CPT/HCPCS procedure code 7
+RI  2015 CORE              14 CPT8                              53   57   Char CPT/HCPCS procedure code 8
+RI  2015 CORE              15 CPT9                              58   62   Char CPT/HCPCS procedure code 9
+RI  2015 CORE              16 CPT10                             63   67   Char CPT/HCPCS procedure code 10
+RI  2015 CORE              17 CPT11                             68   72   Char CPT/HCPCS procedure code 11
+RI  2015 CORE              18 CPTCCS1                           73   75   Num  CCS: CPT 1
+RI  2015 CORE              19 CPTCCS2                           76   78   Num  CCS: CPT 2
+RI  2015 CORE              20 CPTCCS3                           79   81   Num  CCS: CPT 3
+RI  2015 CORE              21 CPTCCS4                           82   84   Num  CCS: CPT 4
+RI  2015 CORE              22 CPTCCS5                           85   87   Num  CCS: CPT 5
+RI  2015 CORE              23 CPTCCS6                           88   90   Num  CCS: CPT 6
+RI  2015 CORE              24 CPTCCS7                           91   93   Num  CCS: CPT 7
+RI  2015 CORE              25 CPTCCS8                           94   96   Num  CCS: CPT 8
+RI  2015 CORE              26 CPTCCS9                           97   99   Num  CCS: CPT 9
+RI  2015 CORE              27 CPTCCS10                         100  102   Num  CCS: CPT 10
+RI  2015 CORE              28 CPTCCS11                         103  105   Num  CCS: CPT 11
+RI  2015 CORE              29 CPTDAY1                          106  108   Num  Number of days from admission to CPT1
+RI  2015 CORE              30 CPTDAY2                          109  111   Num  Number of days from admission to CPT2
+RI  2015 CORE              31 CPTDAY3                          112  114   Num  Number of days from admission to CPT3
+RI  2015 CORE              32 CPTDAY4                          115  117   Num  Number of days from admission to CPT4
+RI  2015 CORE              33 CPTDAY5                          118  120   Num  Number of days from admission to CPT5
+RI  2015 CORE              34 CPTDAY6                          121  123   Num  Number of days from admission to CPT6
+RI  2015 CORE              35 CPTDAY7                          124  126   Num  Number of days from admission to CPT7
+RI  2015 CORE              36 CPTDAY8                          127  129   Num  Number of days from admission to CPT8
+RI  2015 CORE              37 CPTDAY9                          130  132   Num  Number of days from admission to CPT9
+RI  2015 CORE              38 CPTDAY10                         133  135   Num  Number of days from admission to CPT10
+RI  2015 CORE              39 CPTDAY11                         136  138   Num  Number of days from admission to CPT11
+RI  2015 CORE              40 DaysCCU                          139  141   Num  Days in coronary care unit (as received from source)
+RI  2015 CORE              41 DaysICU                          142  144   Num  Days in medical/surgical intensive care unit (as received from source)
+RI  2015 CORE              42 DaysNICU                         145  147   Num  Days in neonetal care unit (as received from source)
+RI  2015 CORE              43 DHOUR                            148  151   Num  Discharge Hour
+RI  2015 CORE              44 DIED                             152  153   Num  Died during hospitalization
+RI  2015 CORE              45 DISP_X                           154  155   Char Disposition of patient (as received from source)
+RI  2015 CORE              46 DISPUB04                         156  157   Num  Disposition of patient (UB-04 standard coding)
+RI  2015 CORE              47 DISPUNIFORM                      158  159   Num  Disposition of patient (uniform)
+RI  2015 CORE              48 DMONTH                           160  161   Num  Discharge month
+RI  2015 CORE              49 DQTR                             162  163   Num  Discharge quarter
+RI  2015 CORE              50 DRG                              164  166   Num  DRG in effect on discharge date
+RI  2015 CORE              51 DRG_NoPOA                        167  169   Num  DRG in use on discharge date, calculated without POA
+RI  2015 CORE              52 DRG32                            170  172   Num  DRG, version 32
+RI  2015 CORE              53 DRGVER                           173  174   Num  DRG grouper version used on discharge date
+RI  2015 CORE              54 DSHOSPID                         175  191   Char Data source hospital identifier
+RI  2015 CORE              55 DX_Admitting                     192  198   Char Admitting Diagnosis Code
+RI  2015 CORE              56 DX1                              199  205   Char Diagnosis 1
+RI  2015 CORE              57 DX2                              206  212   Char Diagnosis 2
+RI  2015 CORE              58 DX3                              213  219   Char Diagnosis 3
+RI  2015 CORE              59 DX4                              220  226   Char Diagnosis 4
+RI  2015 CORE              60 DX5                              227  233   Char Diagnosis 5
+RI  2015 CORE              61 DX6                              234  240   Char Diagnosis 6
+RI  2015 CORE              62 DX7                              241  247   Char Diagnosis 7
+RI  2015 CORE              63 DX8                              248  254   Char Diagnosis 8
+RI  2015 CORE              64 DX9                              255  261   Char Diagnosis 9
+RI  2015 CORE              65 DX10                             262  268   Char Diagnosis 10
+RI  2015 CORE              66 DX11                             269  275   Char Diagnosis 11
+RI  2015 CORE              67 DX12                             276  282   Char Diagnosis 12
+RI  2015 CORE              68 DX13                             283  289   Char Diagnosis 13
+RI  2015 CORE              69 DX14                             290  296   Char Diagnosis 14
+RI  2015 CORE              70 DX15                             297  303   Char Diagnosis 15
+RI  2015 CORE              71 DX16                             304  310   Char Diagnosis 16
+RI  2015 CORE              72 DX17                             311  317   Char Diagnosis 17
+RI  2015 CORE              73 DX18                             318  324   Char Diagnosis 18
+RI  2015 CORE              74 DX19                             325  331   Char Diagnosis 19
+RI  2015 CORE              75 DX20                             332  338   Char Diagnosis 20
+RI  2015 CORE              76 DX21                             339  345   Char Diagnosis 21
+RI  2015 CORE              77 DX22                             346  352   Char Diagnosis 22
+RI  2015 CORE              78 DX23                             353  359   Char Diagnosis 23
+RI  2015 CORE              79 DX24                             360  366   Char Diagnosis 24
+RI  2015 CORE              80 DX25                             367  373   Char Diagnosis 25
+RI  2015 CORE              81 DXCCS1                           374  377   Num  CCS: diagnosis 1
+RI  2015 CORE              82 DXCCS2                           378  381   Num  CCS: diagnosis 2
+RI  2015 CORE              83 DXCCS3                           382  385   Num  CCS: diagnosis 3
+RI  2015 CORE              84 DXCCS4                           386  389   Num  CCS: diagnosis 4
+RI  2015 CORE              85 DXCCS5                           390  393   Num  CCS: diagnosis 5
+RI  2015 CORE              86 DXCCS6                           394  397   Num  CCS: diagnosis 6
+RI  2015 CORE              87 DXCCS7                           398  401   Num  CCS: diagnosis 7
+RI  2015 CORE              88 DXCCS8                           402  405   Num  CCS: diagnosis 8
+RI  2015 CORE              89 DXCCS9                           406  409   Num  CCS: diagnosis 9
+RI  2015 CORE              90 DXCCS10                          410  413   Num  CCS: diagnosis 10
+RI  2015 CORE              91 DXCCS11                          414  417   Num  CCS: diagnosis 11
+RI  2015 CORE              92 DXCCS12                          418  421   Num  CCS: diagnosis 12
+RI  2015 CORE              93 DXCCS13                          422  425   Num  CCS: diagnosis 13
+RI  2015 CORE              94 DXCCS14                          426  429   Num  CCS: diagnosis 14
+RI  2015 CORE              95 DXCCS15                          430  433   Num  CCS: diagnosis 15
+RI  2015 CORE              96 DXCCS16                          434  437   Num  CCS: diagnosis 16
+RI  2015 CORE              97 DXCCS17                          438  441   Num  CCS: diagnosis 17
+RI  2015 CORE              98 DXCCS18                          442  445   Num  CCS: diagnosis 18
+RI  2015 CORE              99 DXCCS19                          446  449   Num  CCS: diagnosis 19
+RI  2015 CORE             100 DXCCS20                          450  453   Num  CCS: diagnosis 20
+RI  2015 CORE             101 DXCCS21                          454  457   Num  CCS: diagnosis 21
+RI  2015 CORE             102 DXCCS22                          458  461   Num  CCS: diagnosis 22
+RI  2015 CORE             103 DXCCS23                          462  465   Num  CCS: diagnosis 23
+RI  2015 CORE             104 DXCCS24                          466  469   Num  CCS: diagnosis 24
+RI  2015 CORE             105 DXCCS25                          470  473   Num  CCS: diagnosis 25
+RI  2015 CORE             106 DXPOA1                           474  474   Char Diagnosis 1, present on admission indicator
+RI  2015 CORE             107 DXPOA2                           475  475   Char Diagnosis 2, present on admission indicator
+RI  2015 CORE             108 DXPOA3                           476  476   Char Diagnosis 3, present on admission indicator
+RI  2015 CORE             109 DXPOA4                           477  477   Char Diagnosis 4, present on admission indicator
+RI  2015 CORE             110 DXPOA5                           478  478   Char Diagnosis 5, present on admission indicator
+RI  2015 CORE             111 DXPOA6                           479  479   Char Diagnosis 6, present on admission indicator
+RI  2015 CORE             112 DXPOA7                           480  480   Char Diagnosis 7, present on admission indicator
+RI  2015 CORE             113 DXPOA8                           481  481   Char Diagnosis 8, present on admission indicator
+RI  2015 CORE             114 DXPOA9                           482  482   Char Diagnosis 9, present on admission indicator
+RI  2015 CORE             115 DXPOA10                          483  483   Char Diagnosis 10, present on admission indicator
+RI  2015 CORE             116 DXPOA11                          484  484   Char Diagnosis 11, present on admission indicator
+RI  2015 CORE             117 DXPOA12                          485  485   Char Diagnosis 12, present on admission indicator
+RI  2015 CORE             118 DXPOA13                          486  486   Char Diagnosis 13, present on admission indicator
+RI  2015 CORE             119 DXPOA14                          487  487   Char Diagnosis 14, present on admission indicator
+RI  2015 CORE             120 DXPOA15                          488  488   Char Diagnosis 15, present on admission indicator
+RI  2015 CORE             121 DXPOA16                          489  489   Char Diagnosis 16, present on admission indicator
+RI  2015 CORE             122 DXPOA17                          490  490   Char Diagnosis 17, present on admission indicator
+RI  2015 CORE             123 DXPOA18                          491  491   Char Diagnosis 18, present on admission indicator
+RI  2015 CORE             124 DXPOA19                          492  492   Char Diagnosis 19, present on admission indicator
+RI  2015 CORE             125 DXPOA20                          493  493   Char Diagnosis 20, present on admission indicator
+RI  2015 CORE             126 DXPOA21                          494  494   Char Diagnosis 21, present on admission indicator
+RI  2015 CORE             127 DXPOA22                          495  495   Char Diagnosis 22, present on admission indicator
+RI  2015 CORE             128 DXPOA23                          496  496   Char Diagnosis 23, present on admission indicator
+RI  2015 CORE             129 DXPOA24                          497  497   Char Diagnosis 24, present on admission indicator
+RI  2015 CORE             130 DXPOA25                          498  498   Char Diagnosis 25, present on admission indicator
+RI  2015 CORE             131 DXVER                            499  501   Num  Diagnosis Version
+RI  2015 CORE             132 E_CCS1                           502  505   Num  CCS: E Code 1
+RI  2015 CORE             133 E_CCS2                           506  509   Num  CCS: E Code 2
+RI  2015 CORE             134 E_CCS3                           510  513   Num  CCS: E Code 3
+RI  2015 CORE             135 E_CCS4                           514  517   Num  CCS: E Code 4
+RI  2015 CORE             136 E_CCS5                           518  521   Num  CCS: E Code 5
+RI  2015 CORE             137 E_CCS6                           522  525   Num  CCS: E Code 6
+RI  2015 CORE             138 E_CCS7                           526  529   Num  CCS: E Code 7
+RI  2015 CORE             139 E_CCS8                           530  533   Num  CCS: E Code 8
+RI  2015 CORE             140 E_CCS9                           534  537   Num  CCS: E Code 9
+RI  2015 CORE             141 E_CCS10                          538  541   Num  CCS: E Code 10
+RI  2015 CORE             142 E_CCS11                          542  545   Num  CCS: E Code 11
+RI  2015 CORE             143 E_CCS12                          546  549   Num  CCS: E Code 12
+RI  2015 CORE             144 E_POA1                           550  550   Char E Code 1, present on admission indicator
+RI  2015 CORE             145 E_POA2                           551  551   Char E Code 2, present on admission indicator
+RI  2015 CORE             146 E_POA3                           552  552   Char E Code 3, present on admission indicator
+RI  2015 CORE             147 E_POA4                           553  553   Char E Code 4, present on admission indicator
+RI  2015 CORE             148 E_POA5                           554  554   Char E Code 5, present on admission indicator
+RI  2015 CORE             149 E_POA6                           555  555   Char E Code 6, present on admission indicator
+RI  2015 CORE             150 E_POA7                           556  556   Char E Code 7, present on admission indicator
+RI  2015 CORE             151 E_POA8                           557  557   Char E Code 8, present on admission indicator
+RI  2015 CORE             152 E_POA9                           558  558   Char E Code 9, present on admission indicator
+RI  2015 CORE             153 E_POA10                          559  559   Char E Code 10, present on admission indicator
+RI  2015 CORE             154 E_POA11                          560  560   Char E Code 11, present on admission indicator
+RI  2015 CORE             155 E_POA12                          561  561   Char E Code 12, present on admission indicator
+RI  2015 CORE             156 ECODE1                           562  568   Char E code 1
+RI  2015 CORE             157 ECODE2                           569  575   Char E code 2
+RI  2015 CORE             158 ECODE3                           576  582   Char E code 3
+RI  2015 CORE             159 ECODE4                           583  589   Char E code 4
+RI  2015 CORE             160 ECODE5                           590  596   Char E code 5
+RI  2015 CORE             161 ECODE6                           597  603   Char E code 6
+RI  2015 CORE             162 ECODE7                           604  610   Char E code 7
+RI  2015 CORE             163 ECODE8                           611  617   Char E code 8
+RI  2015 CORE             164 ECODE9                           618  624   Char E code 9
+RI  2015 CORE             165 ECODE10                          625  631   Char E code 10
+RI  2015 CORE             166 ECODE11                          632  638   Char E code 11
+RI  2015 CORE             167 ECODE12                          639  645   Char E code 12
+RI  2015 CORE             168 FEMALE                           646  647   Num  Indicator of sex
+RI  2015 CORE             169 HCUP_ED                          648  649   Num  HCUP Emergency Department service indicator
+RI  2015 CORE             170 HCUP_OS                          650  651   Num  HCUP Observation Stay service indicator
+RI  2015 CORE             171 HISPANIC                         652  653   Num  Hispanic ethnicity (uniform)
+RI  2015 CORE             172 HISPANIC_X                       654  657   Char Hispanic ethnicity (as received from source)
+RI  2015 CORE             173 HOSPBRTH                         658  660   Num  Indicator of birth in this hospital
+RI  2015 CORE             174 HOSPST                           661  662   Char Hospital state postal code
+RI  2015 CORE             175 KEY                              663  677   Num  HCUP record identifier
+RI  2015 CORE             176 LOS                              678  682   Num  Length of stay (cleaned)
+RI  2015 CORE             177 LOS_X                            683  688   Num  Length of stay (as received from source)
+RI  2015 CORE             178 MDC                              689  690   Num  MDC in effect on discharge date
+RI  2015 CORE             179 MDC_NoPOA                        691  692   Num  MDC in use on discharge date, calculated without POA
+RI  2015 CORE             180 MDC32                            693  694   Num  MDC, version 32
+RI  2015 CORE             181 MDNUM1_R                         695  703   Num  Physician 1 number (re-identified)
+RI  2015 CORE             182 MDNUM2_R                         704  712   Num  Physician 2 number (re-identified)
+RI  2015 CORE             183 MDNUM3_R                         713  721   Num  Physician 3 number (re-identified)
+RI  2015 CORE             184 MEDINCSTQ                        722  723   Num  Median household income state quartile for patient ZIP Code
+RI  2015 CORE             185 NCHRONIC                         724  726   Num  Number of chronic conditions
+RI  2015 CORE             186 NCPT                             727  730   Num  Number of CPT/HCPCS procedures for this visit
+RI  2015 CORE             187 NDX                              731  733   Num  Number of diagnoses on this record
+RI  2015 CORE             188 NECODE                           734  735   Num  Number of E codes on this record
+RI  2015 CORE             189 NEOMAT                           736  737   Num  Neonatal and/or maternal DX and/or PR
+RI  2015 CORE             190 NPR                              738  740   Num  Number of procedures on this record
+RI  2015 CORE             191 OBSERVATION                      741  744   Num  Time for observation services (as received from source)
+RI  2015 CORE             192 ORPROC                           745  746   Num  Major operating room procedure indicator
+RI  2015 CORE             193 PAY1                             747  748   Num  Primary expected payer (uniform)
+RI  2015 CORE             194 PAY1_X                           749  759   Char Primary expected payer (as received from source)
+RI  2015 CORE             195 PL_CBSA                          760  762   Num  Patient location: Core Based Statistical Area (CBSA)
+RI  2015 CORE             196 PL_NCHS                          763  764   Num  Patient Location: NCHS Urban-Rural Code
+RI  2015 CORE             197 PL_RUCC                          765  766   Num  Patient location: Rural-Urban Continuum Codes(RUCC)
+RI  2015 CORE             198 PL_UIC                           767  768   Num  Patient location: Urban Influence Codes
+RI  2015 CORE             199 PL_UR_CAT4                       769  770   Num  Patient Location: Urban-Rural 4 Categories
+RI  2015 CORE             200 POA_Disch_Edit1                  771  772   Num  Discharge has POA missing on all nonexempt diagnoses
+RI  2015 CORE             201 POA_Disch_Edit2                  773  774   Num  Discharge has POA missing on all nonexempt secondary diagnoses
+RI  2015 CORE             202 POA_Hosp_Edit1                   775  776   Num  Hospital reported POA as Y on all diagnoses on all discharges
+RI  2015 CORE             203 POA_Hosp_Edit2                   777  778   Num  Hospital reported POA as missing on all non-Medicare discharges
+RI  2015 CORE             204 POA_Hosp_Edit3                   779  780   Num  Hospital reported POA as missing on all nonexempt diagnoses for 15% or more of discharges
+RI  2015 CORE             205 POA_Hosp_Edit3_Value             781  788 2 Num  Percentage of discharges with all nonexempt diagnoses missing POA indicators
+RI  2015 CORE             206 PointOfOrigin_X                  789  789   Char Point of origin for admission or visit, as received from source
+RI  2015 CORE             207 PointOfOriginUB04                790  790   Char Point of origin for admission or visit, UB-04 standard coding
+RI  2015 CORE             208 PR1                              791  797   Char Procedure 1
+RI  2015 CORE             209 PR2                              798  804   Char Procedure 2
+RI  2015 CORE             210 PR3                              805  811   Char Procedure 3
+RI  2015 CORE             211 PR4                              812  818   Char Procedure 4
+RI  2015 CORE             212 PR5                              819  825   Char Procedure 5
+RI  2015 CORE             213 PR6                              826  832   Char Procedure 6
+RI  2015 CORE             214 PR7                              833  839   Char Procedure 7
+RI  2015 CORE             215 PR8                              840  846   Char Procedure 8
+RI  2015 CORE             216 PR9                              847  853   Char Procedure 9
+RI  2015 CORE             217 PR10                             854  860   Char Procedure 10
+RI  2015 CORE             218 PR11                             861  867   Char Procedure 11
+RI  2015 CORE             219 PR12                             868  874   Char Procedure 12
+RI  2015 CORE             220 PR13                             875  881   Char Procedure 13
+RI  2015 CORE             221 PR14                             882  888   Char Procedure 14
+RI  2015 CORE             222 PR15                             889  895   Char Procedure 15
+RI  2015 CORE             223 PR16                             896  902   Char Procedure 16
+RI  2015 CORE             224 PR17                             903  909   Char Procedure 17
+RI  2015 CORE             225 PR18                             910  916   Char Procedure 18
+RI  2015 CORE             226 PR19                             917  923   Char Procedure 19
+RI  2015 CORE             227 PR20                             924  930   Char Procedure 20
+RI  2015 CORE             228 PR21                             931  937   Char Procedure 21
+RI  2015 CORE             229 PR22                             938  944   Char Procedure 22
+RI  2015 CORE             230 PR23                             945  951   Char Procedure 23
+RI  2015 CORE             231 PR24                             952  958   Char Procedure 24
+RI  2015 CORE             232 PR25                             959  965   Char Procedure 25
+RI  2015 CORE             233 PRCCS1                           966  968   Num  CCS: procedure 1
+RI  2015 CORE             234 PRCCS2                           969  971   Num  CCS: procedure 2
+RI  2015 CORE             235 PRCCS3                           972  974   Num  CCS: procedure 3
+RI  2015 CORE             236 PRCCS4                           975  977   Num  CCS: procedure 4
+RI  2015 CORE             237 PRCCS5                           978  980   Num  CCS: procedure 5
+RI  2015 CORE             238 PRCCS6                           981  983   Num  CCS: procedure 6
+RI  2015 CORE             239 PRCCS7                           984  986   Num  CCS: procedure 7
+RI  2015 CORE             240 PRCCS8                           987  989   Num  CCS: procedure 8
+RI  2015 CORE             241 PRCCS9                           990  992   Num  CCS: procedure 9
+RI  2015 CORE             242 PRCCS10                          993  995   Num  CCS: procedure 10
+RI  2015 CORE             243 PRCCS11                          996  998   Num  CCS: procedure 11
+RI  2015 CORE             244 PRCCS12                          999 1001   Num  CCS: procedure 12
+RI  2015 CORE             245 PRCCS13                         1002 1004   Num  CCS: procedure 13
+RI  2015 CORE             246 PRCCS14                         1005 1007   Num  CCS: procedure 14
+RI  2015 CORE             247 PRCCS15                         1008 1010   Num  CCS: procedure 15
+RI  2015 CORE             248 PRCCS16                         1011 1013   Num  CCS: procedure 16
+RI  2015 CORE             249 PRCCS17                         1014 1016   Num  CCS: procedure 17
+RI  2015 CORE             250 PRCCS18                         1017 1019   Num  CCS: procedure 18
+RI  2015 CORE             251 PRCCS19                         1020 1022   Num  CCS: procedure 19
+RI  2015 CORE             252 PRCCS20                         1023 1025   Num  CCS: procedure 20
+RI  2015 CORE             253 PRCCS21                         1026 1028   Num  CCS: procedure 21
+RI  2015 CORE             254 PRCCS22                         1029 1031   Num  CCS: procedure 22
+RI  2015 CORE             255 PRCCS23                         1032 1034   Num  CCS: procedure 23
+RI  2015 CORE             256 PRCCS24                         1035 1037   Num  CCS: procedure 24
+RI  2015 CORE             257 PRCCS25                         1038 1040   Num  CCS: procedure 25
+RI  2015 CORE             258 PRDAY1                          1041 1045   Num  Number of days from admission to PR1
+RI  2015 CORE             259 PRDAY2                          1046 1050   Num  Number of days from admission to PR2
+RI  2015 CORE             260 PRDAY3                          1051 1055   Num  Number of days from admission to PR3
+RI  2015 CORE             261 PRDAY4                          1056 1060   Num  Number of days from admission to PR4
+RI  2015 CORE             262 PRDAY5                          1061 1065   Num  Number of days from admission to PR5
+RI  2015 CORE             263 PRDAY6                          1066 1070   Num  Number of days from admission to PR6
+RI  2015 CORE             264 PRDAY7                          1071 1075   Num  Number of days from admission to PR7
+RI  2015 CORE             265 PRDAY8                          1076 1080   Num  Number of days from admission to PR8
+RI  2015 CORE             266 PRDAY9                          1081 1085   Num  Number of days from admission to PR9
+RI  2015 CORE             267 PRDAY10                         1086 1090   Num  Number of days from admission to PR10
+RI  2015 CORE             268 PRDAY11                         1091 1095   Num  Number of days from admission to PR11
+RI  2015 CORE             269 PRDAY12                         1096 1100   Num  Number of days from admission to PR12
+RI  2015 CORE             270 PRDAY13                         1101 1105   Num  Number of days from admission to PR13
+RI  2015 CORE             271 PRDAY14                         1106 1110   Num  Number of days from admission to PR14
+RI  2015 CORE             272 PRDAY15                         1111 1115   Num  Number of days from admission to PR15
+RI  2015 CORE             273 PRDAY16                         1116 1120   Num  Number of days from admission to PR16
+RI  2015 CORE             274 PRDAY17                         1121 1125   Num  Number of days from admission to PR17
+RI  2015 CORE             275 PRDAY18                         1126 1130   Num  Number of days from admission to PR18
+RI  2015 CORE             276 PRDAY19                         1131 1135   Num  Number of days from admission to PR19
+RI  2015 CORE             277 PRDAY20                         1136 1140   Num  Number of days from admission to PR20
+RI  2015 CORE             278 PRDAY21                         1141 1145   Num  Number of days from admission to PR21
+RI  2015 CORE             279 PRDAY22                         1146 1150   Num  Number of days from admission to PR22
+RI  2015 CORE             280 PRDAY23                         1151 1155   Num  Number of days from admission to PR23
+RI  2015 CORE             281 PRDAY24                         1156 1160   Num  Number of days from admission to PR24
+RI  2015 CORE             282 PRDAY25                         1161 1165   Num  Number of days from admission to PR25
+RI  2015 CORE             283 PROCTYPE                        1166 1168   Num  Procedure type indicator
+RI  2015 CORE             284 PRVER                           1169 1171   Num  Procedure Version
+RI  2015 CORE             285 PSTATE                          1172 1173   Char Patient State postal code
+RI  2015 CORE             286 PSTCO                           1174 1178   Num  Patient state/county FIPS code
+RI  2015 CORE             287 PSTCO2                          1179 1183   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+RI  2015 CORE             288 RACE                            1184 1185   Num  Race (uniform)
+RI  2015 CORE             289 RACE_X                          1186 1193   Char Race (as received from source)
+RI  2015 CORE             290 SERVICELINE                     1194 1195   Num  Hospital Service Line
+RI  2015 CORE             291 TOTCHG                          1196 1205   Num  Total charges (cleaned)
+RI  2015 CORE             292 TOTCHG_X                        1206 1220 2 Num  Total charges (as received from source)
+RI  2015 CORE             293 TRAN_IN                         1221 1222   Num  Transfer in indicator
+RI  2015 CORE             294 TRAN_OUT                        1223 1224   Num  Transfer out indicator
+RI  2015 CORE             295 YEAR                            1225 1228   Num  Calendar year
+RI  2015 CORE             296 ZIP                             1229 1233   Char Patient ZIP Code
+RI  2015 CORE             297 ZIPINC_QRTL                     1234 1236   Num  Median household income national quartile for patient ZIP Code
+RI  2015 CORE             298 TOWN                            1237 1238   Char Patient town of residence (as received from source)
+RI  2015 CORE             299 AYEAR                           1239 1242   Num  Admission year
+RI  2015 CORE             300 PRMONTH1                        1243 1244   Num  Month of procedure 1
+RI  2015 CORE             301 PRMONTH2                        1245 1246   Num  Month of procedure 2
+RI  2015 CORE             302 PRMONTH3                        1247 1248   Num  Month of procedure 3
+RI  2015 CORE             303 PRMONTH4                        1249 1250   Num  Month of procedure 4
+RI  2015 CORE             304 PRMONTH5                        1251 1252   Num  Month of procedure 5
+RI  2015 CORE             305 PRMONTH6                        1253 1254   Num  Month of procedure 6
+RI  2015 CORE             306 PRMONTH7                        1255 1256   Num  Month of procedure 7
+RI  2015 CORE             307 PRMONTH8                        1257 1258   Num  Month of procedure 8
+RI  2015 CORE             308 PRMONTH9                        1259 1260   Num  Month of procedure 9
+RI  2015 CORE             309 PRMONTH10                       1261 1262   Num  Month of procedure 10
+RI  2015 CORE             310 PRMONTH11                       1263 1264   Num  Month of procedure 11
+RI  2015 CORE             311 PRMONTH12                       1265 1266   Num  Month of procedure 12
+RI  2015 CORE             312 PRMONTH13                       1267 1268   Num  Month of procedure 13
+RI  2015 CORE             313 PRMONTH14                       1269 1270   Num  Month of procedure 14
+RI  2015 CORE             314 PRMONTH15                       1271 1272   Num  Month of procedure 15
+RI  2015 CORE             315 PRMONTH16                       1273 1274   Num  Month of procedure 16
+RI  2015 CORE             316 PRMONTH17                       1275 1276   Num  Month of procedure 17
+RI  2015 CORE             317 PRMONTH18                       1277 1278   Num  Month of procedure 18
+RI  2015 CORE             318 PRMONTH19                       1279 1280   Num  Month of procedure 19
+RI  2015 CORE             319 PRMONTH20                       1281 1282   Num  Month of procedure 20
+RI  2015 CORE             320 PRMONTH21                       1283 1284   Num  Month of procedure 21
+RI  2015 CORE             321 PRMONTH22                       1285 1286   Num  Month of procedure 22
+RI  2015 CORE             322 PRMONTH23                       1287 1288   Num  Month of procedure 23
+RI  2015 CORE             323 PRMONTH24                       1289 1290   Num  Month of procedure 24
+RI  2015 CORE             324 PRMONTH25                       1291 1292   Num  Month of procedure 25
+RI  2015 CORE             325 PRYEAR1                         1293 1296   Num  Year of procedure 1
+RI  2015 CORE             326 PRYEAR2                         1297 1300   Num  Year of procedure 2
+RI  2015 CORE             327 PRYEAR3                         1301 1304   Num  Year of procedure 3
+RI  2015 CORE             328 PRYEAR4                         1305 1308   Num  Year of procedure 4
+RI  2015 CORE             329 PRYEAR5                         1309 1312   Num  Year of procedure 5
+RI  2015 CORE             330 PRYEAR6                         1313 1316   Num  Year of procedure 6
+RI  2015 CORE             331 PRYEAR7                         1317 1320   Num  Year of procedure 7
+RI  2015 CORE             332 PRYEAR8                         1321 1324   Num  Year of procedure 8
+RI  2015 CORE             333 PRYEAR9                         1325 1328   Num  Year of procedure 9
+RI  2015 CORE             334 PRYEAR10                        1329 1332   Num  Year of procedure 10
+RI  2015 CORE             335 PRYEAR11                        1333 1336   Num  Year of procedure 11
+RI  2015 CORE             336 PRYEAR12                        1337 1340   Num  Year of procedure 12
+RI  2015 CORE             337 PRYEAR13                        1341 1344   Num  Year of procedure 13
+RI  2015 CORE             338 PRYEAR14                        1345 1348   Num  Year of procedure 14
+RI  2015 CORE             339 PRYEAR15                        1349 1352   Num  Year of procedure 15
+RI  2015 CORE             340 PRYEAR16                        1353 1356   Num  Year of procedure 16
+RI  2015 CORE             341 PRYEAR17                        1357 1360   Num  Year of procedure 17
+RI  2015 CORE             342 PRYEAR18                        1361 1364   Num  Year of procedure 18
+RI  2015 CORE             343 PRYEAR19                        1365 1368   Num  Year of procedure 19
+RI  2015 CORE             344 PRYEAR20                        1369 1372   Num  Year of procedure 20
+RI  2015 CORE             345 PRYEAR21                        1373 1376   Num  Year of procedure 21
+RI  2015 CORE             346 PRYEAR22                        1377 1380   Num  Year of procedure 22
+RI  2015 CORE             347 PRYEAR23                        1381 1384   Num  Year of procedure 23
+RI  2015 CORE             348 PRYEAR24                        1385 1388   Num  Year of procedure 24
+RI  2015 CORE             349 PRYEAR25                        1389 1392   Num  Year of procedure 25

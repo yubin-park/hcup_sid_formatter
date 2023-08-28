@@ -1,0 +1,642 @@
+Data Set Name: SD_SIDC_2012_CORE               
+Number of Observations: 105429
+Total Record Length: 2167
+Total Number of Variables: 622
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 56    Variable name
+58- 61    Starting column of variable in ASCII file
+63- 66    Ending column of variable in ASCII file
+    68    Non-zero number of digits after decimal point for numeric variable
+70- 73    Variable type (Num=numeric; Char=character)
+75-174    Variable label
+
+
+SD  2012 CORE               1 AGE                           1    3   Num  Age in years at admission
+SD  2012 CORE               2 AGEDAY                        4    6   Num  Age in days (when age < 1 year)
+SD  2012 CORE               3 AGEMONTH                      7    9   Num  Age in months (when age < 11 years)
+SD  2012 CORE               4 AMONTH                       10   11   Num  Admission month
+SD  2012 CORE               5 ATYPE                        12   13   Num  Admission type
+SD  2012 CORE               6 AWEEKEND                     14   15   Num  Admission day is a weekend
+SD  2012 CORE               7 DIED                         16   17   Num  Died during hospitalization
+SD  2012 CORE               8 DISPUB04                     18   19   Num  Disposition of patient (UB-04 standard coding)
+SD  2012 CORE               9 DISPUNIFORM                  20   21   Num  Disposition of patient (uniform)
+SD  2012 CORE              10 DISP_X                       22   25   Char Disposition of patient (as received from source)
+SD  2012 CORE              11 DQTR                         26   27   Num  Discharge quarter
+SD  2012 CORE              12 DRG                          28   30   Num  DRG in effect on discharge date
+SD  2012 CORE              13 DRG24                        31   33   Num  DRG, version 24
+SD  2012 CORE              14 DRGVER                       34   35   Num  DRG grouper version used on discharge date
+SD  2012 CORE              15 DRG_NoPOA                    36   38   Num  DRG in use on discharge date, calculated without POA
+SD  2012 CORE              16 DX1                          39   43   Char Diagnosis 1
+SD  2012 CORE              17 DX2                          44   48   Char Diagnosis 2
+SD  2012 CORE              18 DX3                          49   53   Char Diagnosis 3
+SD  2012 CORE              19 DX4                          54   58   Char Diagnosis 4
+SD  2012 CORE              20 DX5                          59   63   Char Diagnosis 5
+SD  2012 CORE              21 DX6                          64   68   Char Diagnosis 6
+SD  2012 CORE              22 DX7                          69   73   Char Diagnosis 7
+SD  2012 CORE              23 DX8                          74   78   Char Diagnosis 8
+SD  2012 CORE              24 DX9                          79   83   Char Diagnosis 9
+SD  2012 CORE              25 DX10                         84   88   Char Diagnosis 10
+SD  2012 CORE              26 DX11                         89   93   Char Diagnosis 11
+SD  2012 CORE              27 DX12                         94   98   Char Diagnosis 12
+SD  2012 CORE              28 DX13                         99  103   Char Diagnosis 13
+SD  2012 CORE              29 DX14                        104  108   Char Diagnosis 14
+SD  2012 CORE              30 DX15                        109  113   Char Diagnosis 15
+SD  2012 CORE              31 DX16                        114  118   Char Diagnosis 16
+SD  2012 CORE              32 DX17                        119  123   Char Diagnosis 17
+SD  2012 CORE              33 DX18                        124  128   Char Diagnosis 18
+SD  2012 CORE              34 DX19                        129  133   Char Diagnosis 19
+SD  2012 CORE              35 DX20                        134  138   Char Diagnosis 20
+SD  2012 CORE              36 DX21                        139  143   Char Diagnosis 21
+SD  2012 CORE              37 DX22                        144  148   Char Diagnosis 22
+SD  2012 CORE              38 DX23                        149  153   Char Diagnosis 23
+SD  2012 CORE              39 DX24                        154  158   Char Diagnosis 24
+SD  2012 CORE              40 DX25                        159  163   Char Diagnosis 25
+SD  2012 CORE              41 DX26                        164  168   Char Diagnosis 26
+SD  2012 CORE              42 DX27                        169  173   Char Diagnosis 27
+SD  2012 CORE              43 DX28                        174  178   Char Diagnosis 28
+SD  2012 CORE              44 DX29                        179  183   Char Diagnosis 29
+SD  2012 CORE              45 DX30                        184  188   Char Diagnosis 30
+SD  2012 CORE              46 DX31                        189  193   Char Diagnosis 31
+SD  2012 CORE              47 DX32                        194  198   Char Diagnosis 32
+SD  2012 CORE              48 DX33                        199  203   Char Diagnosis 33
+SD  2012 CORE              49 DX34                        204  208   Char Diagnosis 34
+SD  2012 CORE              50 DX35                        209  213   Char Diagnosis 35
+SD  2012 CORE              51 DX36                        214  218   Char Diagnosis 36
+SD  2012 CORE              52 DX37                        219  223   Char Diagnosis 37
+SD  2012 CORE              53 DX38                        224  228   Char Diagnosis 38
+SD  2012 CORE              54 DX39                        229  233   Char Diagnosis 39
+SD  2012 CORE              55 DX40                        234  238   Char Diagnosis 40
+SD  2012 CORE              56 DX41                        239  243   Char Diagnosis 41
+SD  2012 CORE              57 DX42                        244  248   Char Diagnosis 42
+SD  2012 CORE              58 DX43                        249  253   Char Diagnosis 43
+SD  2012 CORE              59 DX44                        254  258   Char Diagnosis 44
+SD  2012 CORE              60 DX45                        259  263   Char Diagnosis 45
+SD  2012 CORE              61 DX46                        264  268   Char Diagnosis 46
+SD  2012 CORE              62 DX47                        269  273   Char Diagnosis 47
+SD  2012 CORE              63 DX48                        274  278   Char Diagnosis 48
+SD  2012 CORE              64 DX49                        279  283   Char Diagnosis 49
+SD  2012 CORE              65 DX50                        284  288   Char Diagnosis 50
+SD  2012 CORE              66 DX51                        289  293   Char Diagnosis 51
+SD  2012 CORE              67 DX52                        294  298   Char Diagnosis 52
+SD  2012 CORE              68 DX53                        299  303   Char Diagnosis 53
+SD  2012 CORE              69 DX54                        304  308   Char Diagnosis 54
+SD  2012 CORE              70 DX55                        309  313   Char Diagnosis 55
+SD  2012 CORE              71 DX56                        314  318   Char Diagnosis 56
+SD  2012 CORE              72 DX57                        319  323   Char Diagnosis 57
+SD  2012 CORE              73 DX58                        324  328   Char Diagnosis 58
+SD  2012 CORE              74 DX59                        329  333   Char Diagnosis 59
+SD  2012 CORE              75 DX60                        334  338   Char Diagnosis 60
+SD  2012 CORE              76 DX61                        339  343   Char Diagnosis 61
+SD  2012 CORE              77 DX62                        344  348   Char Diagnosis 62
+SD  2012 CORE              78 DX63                        349  353   Char Diagnosis 63
+SD  2012 CORE              79 DX64                        354  358   Char Diagnosis 64
+SD  2012 CORE              80 DX65                        359  363   Char Diagnosis 65
+SD  2012 CORE              81 DX66                        364  368   Char Diagnosis 66
+SD  2012 CORE              82 DX67                        369  373   Char Diagnosis 67
+SD  2012 CORE              83 DX68                        374  378   Char Diagnosis 68
+SD  2012 CORE              84 DX69                        379  383   Char Diagnosis 69
+SD  2012 CORE              85 DX70                        384  388   Char Diagnosis 70
+SD  2012 CORE              86 DX71                        389  393   Char Diagnosis 71
+SD  2012 CORE              87 DX72                        394  398   Char Diagnosis 72
+SD  2012 CORE              88 DX73                        399  403   Char Diagnosis 73
+SD  2012 CORE              89 DX74                        404  408   Char Diagnosis 74
+SD  2012 CORE              90 DX75                        409  413   Char Diagnosis 75
+SD  2012 CORE              91 DX76                        414  418   Char Diagnosis 76
+SD  2012 CORE              92 DX77                        419  423   Char Diagnosis 77
+SD  2012 CORE              93 DXCCS1                      424  427   Num  CCS: diagnosis 1
+SD  2012 CORE              94 DXCCS2                      428  431   Num  CCS: diagnosis 2
+SD  2012 CORE              95 DXCCS3                      432  435   Num  CCS: diagnosis 3
+SD  2012 CORE              96 DXCCS4                      436  439   Num  CCS: diagnosis 4
+SD  2012 CORE              97 DXCCS5                      440  443   Num  CCS: diagnosis 5
+SD  2012 CORE              98 DXCCS6                      444  447   Num  CCS: diagnosis 6
+SD  2012 CORE              99 DXCCS7                      448  451   Num  CCS: diagnosis 7
+SD  2012 CORE             100 DXCCS8                      452  455   Num  CCS: diagnosis 8
+SD  2012 CORE             101 DXCCS9                      456  459   Num  CCS: diagnosis 9
+SD  2012 CORE             102 DXCCS10                     460  463   Num  CCS: diagnosis 10
+SD  2012 CORE             103 DXCCS11                     464  467   Num  CCS: diagnosis 11
+SD  2012 CORE             104 DXCCS12                     468  471   Num  CCS: diagnosis 12
+SD  2012 CORE             105 DXCCS13                     472  475   Num  CCS: diagnosis 13
+SD  2012 CORE             106 DXCCS14                     476  479   Num  CCS: diagnosis 14
+SD  2012 CORE             107 DXCCS15                     480  483   Num  CCS: diagnosis 15
+SD  2012 CORE             108 DXCCS16                     484  487   Num  CCS: diagnosis 16
+SD  2012 CORE             109 DXCCS17                     488  491   Num  CCS: diagnosis 17
+SD  2012 CORE             110 DXCCS18                     492  495   Num  CCS: diagnosis 18
+SD  2012 CORE             111 DXCCS19                     496  499   Num  CCS: diagnosis 19
+SD  2012 CORE             112 DXCCS20                     500  503   Num  CCS: diagnosis 20
+SD  2012 CORE             113 DXCCS21                     504  507   Num  CCS: diagnosis 21
+SD  2012 CORE             114 DXCCS22                     508  511   Num  CCS: diagnosis 22
+SD  2012 CORE             115 DXCCS23                     512  515   Num  CCS: diagnosis 23
+SD  2012 CORE             116 DXCCS24                     516  519   Num  CCS: diagnosis 24
+SD  2012 CORE             117 DXCCS25                     520  523   Num  CCS: diagnosis 25
+SD  2012 CORE             118 DXCCS26                     524  527   Num  CCS: diagnosis 26
+SD  2012 CORE             119 DXCCS27                     528  531   Num  CCS: diagnosis 27
+SD  2012 CORE             120 DXCCS28                     532  535   Num  CCS: diagnosis 28
+SD  2012 CORE             121 DXCCS29                     536  539   Num  CCS: diagnosis 29
+SD  2012 CORE             122 DXCCS30                     540  543   Num  CCS: diagnosis 30
+SD  2012 CORE             123 DXCCS31                     544  547   Num  CCS: diagnosis 31
+SD  2012 CORE             124 DXCCS32                     548  551   Num  CCS: diagnosis 32
+SD  2012 CORE             125 DXCCS33                     552  555   Num  CCS: diagnosis 33
+SD  2012 CORE             126 DXCCS34                     556  559   Num  CCS: diagnosis 34
+SD  2012 CORE             127 DXCCS35                     560  563   Num  CCS: diagnosis 35
+SD  2012 CORE             128 DXCCS36                     564  567   Num  CCS: diagnosis 36
+SD  2012 CORE             129 DXCCS37                     568  571   Num  CCS: diagnosis 37
+SD  2012 CORE             130 DXCCS38                     572  575   Num  CCS: diagnosis 38
+SD  2012 CORE             131 DXCCS39                     576  579   Num  CCS: diagnosis 39
+SD  2012 CORE             132 DXCCS40                     580  583   Num  CCS: diagnosis 40
+SD  2012 CORE             133 DXCCS41                     584  587   Num  CCS: diagnosis 41
+SD  2012 CORE             134 DXCCS42                     588  591   Num  CCS: diagnosis 42
+SD  2012 CORE             135 DXCCS43                     592  595   Num  CCS: diagnosis 43
+SD  2012 CORE             136 DXCCS44                     596  599   Num  CCS: diagnosis 44
+SD  2012 CORE             137 DXCCS45                     600  603   Num  CCS: diagnosis 45
+SD  2012 CORE             138 DXCCS46                     604  607   Num  CCS: diagnosis 46
+SD  2012 CORE             139 DXCCS47                     608  611   Num  CCS: diagnosis 47
+SD  2012 CORE             140 DXCCS48                     612  615   Num  CCS: diagnosis 48
+SD  2012 CORE             141 DXCCS49                     616  619   Num  CCS: diagnosis 49
+SD  2012 CORE             142 DXCCS50                     620  623   Num  CCS: diagnosis 50
+SD  2012 CORE             143 DXCCS51                     624  627   Num  CCS: diagnosis 51
+SD  2012 CORE             144 DXCCS52                     628  631   Num  CCS: diagnosis 52
+SD  2012 CORE             145 DXCCS53                     632  635   Num  CCS: diagnosis 53
+SD  2012 CORE             146 DXCCS54                     636  639   Num  CCS: diagnosis 54
+SD  2012 CORE             147 DXCCS55                     640  643   Num  CCS: diagnosis 55
+SD  2012 CORE             148 DXCCS56                     644  647   Num  CCS: diagnosis 56
+SD  2012 CORE             149 DXCCS57                     648  651   Num  CCS: diagnosis 57
+SD  2012 CORE             150 DXCCS58                     652  655   Num  CCS: diagnosis 58
+SD  2012 CORE             151 DXCCS59                     656  659   Num  CCS: diagnosis 59
+SD  2012 CORE             152 DXCCS60                     660  663   Num  CCS: diagnosis 60
+SD  2012 CORE             153 DXCCS61                     664  667   Num  CCS: diagnosis 61
+SD  2012 CORE             154 DXCCS62                     668  671   Num  CCS: diagnosis 62
+SD  2012 CORE             155 DXCCS63                     672  675   Num  CCS: diagnosis 63
+SD  2012 CORE             156 DXCCS64                     676  679   Num  CCS: diagnosis 64
+SD  2012 CORE             157 DXCCS65                     680  683   Num  CCS: diagnosis 65
+SD  2012 CORE             158 DXCCS66                     684  687   Num  CCS: diagnosis 66
+SD  2012 CORE             159 DXCCS67                     688  691   Num  CCS: diagnosis 67
+SD  2012 CORE             160 DXCCS68                     692  695   Num  CCS: diagnosis 68
+SD  2012 CORE             161 DXCCS69                     696  699   Num  CCS: diagnosis 69
+SD  2012 CORE             162 DXCCS70                     700  703   Num  CCS: diagnosis 70
+SD  2012 CORE             163 DXCCS71                     704  707   Num  CCS: diagnosis 71
+SD  2012 CORE             164 DXCCS72                     708  711   Num  CCS: diagnosis 72
+SD  2012 CORE             165 DXCCS73                     712  715   Num  CCS: diagnosis 73
+SD  2012 CORE             166 DXCCS74                     716  719   Num  CCS: diagnosis 74
+SD  2012 CORE             167 DXCCS75                     720  723   Num  CCS: diagnosis 75
+SD  2012 CORE             168 DXCCS76                     724  727   Num  CCS: diagnosis 76
+SD  2012 CORE             169 DXCCS77                     728  731   Num  CCS: diagnosis 77
+SD  2012 CORE             170 DXPOA1                      732  732   Char Diagnosis 1, present on admission indicator
+SD  2012 CORE             171 DXPOA2                      733  733   Char Diagnosis 2, present on admission indicator
+SD  2012 CORE             172 DXPOA3                      734  734   Char Diagnosis 3, present on admission indicator
+SD  2012 CORE             173 DXPOA4                      735  735   Char Diagnosis 4, present on admission indicator
+SD  2012 CORE             174 DXPOA5                      736  736   Char Diagnosis 5, present on admission indicator
+SD  2012 CORE             175 DXPOA6                      737  737   Char Diagnosis 6, present on admission indicator
+SD  2012 CORE             176 DXPOA7                      738  738   Char Diagnosis 7, present on admission indicator
+SD  2012 CORE             177 DXPOA8                      739  739   Char Diagnosis 8, present on admission indicator
+SD  2012 CORE             178 DXPOA9                      740  740   Char Diagnosis 9, present on admission indicator
+SD  2012 CORE             179 DXPOA10                     741  741   Char Diagnosis 10, present on admission indicator
+SD  2012 CORE             180 DXPOA11                     742  742   Char Diagnosis 11, present on admission indicator
+SD  2012 CORE             181 DXPOA12                     743  743   Char Diagnosis 12, present on admission indicator
+SD  2012 CORE             182 DXPOA13                     744  744   Char Diagnosis 13, present on admission indicator
+SD  2012 CORE             183 DXPOA14                     745  745   Char Diagnosis 14, present on admission indicator
+SD  2012 CORE             184 DXPOA15                     746  746   Char Diagnosis 15, present on admission indicator
+SD  2012 CORE             185 DXPOA16                     747  747   Char Diagnosis 16, present on admission indicator
+SD  2012 CORE             186 DXPOA17                     748  748   Char Diagnosis 17, present on admission indicator
+SD  2012 CORE             187 DXPOA18                     749  749   Char Diagnosis 18, present on admission indicator
+SD  2012 CORE             188 DXPOA19                     750  750   Char Diagnosis 19, present on admission indicator
+SD  2012 CORE             189 DXPOA20                     751  751   Char Diagnosis 20, present on admission indicator
+SD  2012 CORE             190 DXPOA21                     752  752   Char Diagnosis 21, present on admission indicator
+SD  2012 CORE             191 DXPOA22                     753  753   Char Diagnosis 22, present on admission indicator
+SD  2012 CORE             192 DXPOA23                     754  754   Char Diagnosis 23, present on admission indicator
+SD  2012 CORE             193 DXPOA24                     755  755   Char Diagnosis 24, present on admission indicator
+SD  2012 CORE             194 DXPOA25                     756  756   Char Diagnosis 25, present on admission indicator
+SD  2012 CORE             195 DXPOA26                     757  757   Char Diagnosis 26, present on admission indicator
+SD  2012 CORE             196 DXPOA27                     758  758   Char Diagnosis 27, present on admission indicator
+SD  2012 CORE             197 DXPOA28                     759  759   Char Diagnosis 28, present on admission indicator
+SD  2012 CORE             198 DXPOA29                     760  760   Char Diagnosis 29, present on admission indicator
+SD  2012 CORE             199 DXPOA30                     761  761   Char Diagnosis 30, present on admission indicator
+SD  2012 CORE             200 DXPOA31                     762  762   Char Diagnosis 31, present on admission indicator
+SD  2012 CORE             201 DXPOA32                     763  763   Char Diagnosis 32, present on admission indicator
+SD  2012 CORE             202 DXPOA33                     764  764   Char Diagnosis 33, present on admission indicator
+SD  2012 CORE             203 DXPOA34                     765  765   Char Diagnosis 34, present on admission indicator
+SD  2012 CORE             204 DXPOA35                     766  766   Char Diagnosis 35, present on admission indicator
+SD  2012 CORE             205 DXPOA36                     767  767   Char Diagnosis 36, present on admission indicator
+SD  2012 CORE             206 DXPOA37                     768  768   Char Diagnosis 37, present on admission indicator
+SD  2012 CORE             207 DXPOA38                     769  769   Char Diagnosis 38, present on admission indicator
+SD  2012 CORE             208 DXPOA39                     770  770   Char Diagnosis 39, present on admission indicator
+SD  2012 CORE             209 DXPOA40                     771  771   Char Diagnosis 40, present on admission indicator
+SD  2012 CORE             210 DXPOA41                     772  772   Char Diagnosis 41, present on admission indicator
+SD  2012 CORE             211 DXPOA42                     773  773   Char Diagnosis 42, present on admission indicator
+SD  2012 CORE             212 DXPOA43                     774  774   Char Diagnosis 43, present on admission indicator
+SD  2012 CORE             213 DXPOA44                     775  775   Char Diagnosis 44, present on admission indicator
+SD  2012 CORE             214 DXPOA45                     776  776   Char Diagnosis 45, present on admission indicator
+SD  2012 CORE             215 DXPOA46                     777  777   Char Diagnosis 46, present on admission indicator
+SD  2012 CORE             216 DXPOA47                     778  778   Char Diagnosis 47, present on admission indicator
+SD  2012 CORE             217 DXPOA48                     779  779   Char Diagnosis 48, present on admission indicator
+SD  2012 CORE             218 DXPOA49                     780  780   Char Diagnosis 49, present on admission indicator
+SD  2012 CORE             219 DXPOA50                     781  781   Char Diagnosis 50, present on admission indicator
+SD  2012 CORE             220 DXPOA51                     782  782   Char Diagnosis 51, present on admission indicator
+SD  2012 CORE             221 DXPOA52                     783  783   Char Diagnosis 52, present on admission indicator
+SD  2012 CORE             222 DXPOA53                     784  784   Char Diagnosis 53, present on admission indicator
+SD  2012 CORE             223 DXPOA54                     785  785   Char Diagnosis 54, present on admission indicator
+SD  2012 CORE             224 DXPOA55                     786  786   Char Diagnosis 55, present on admission indicator
+SD  2012 CORE             225 DXPOA56                     787  787   Char Diagnosis 56, present on admission indicator
+SD  2012 CORE             226 DXPOA57                     788  788   Char Diagnosis 57, present on admission indicator
+SD  2012 CORE             227 DXPOA58                     789  789   Char Diagnosis 58, present on admission indicator
+SD  2012 CORE             228 DXPOA59                     790  790   Char Diagnosis 59, present on admission indicator
+SD  2012 CORE             229 DXPOA60                     791  791   Char Diagnosis 60, present on admission indicator
+SD  2012 CORE             230 DXPOA61                     792  792   Char Diagnosis 61, present on admission indicator
+SD  2012 CORE             231 DXPOA62                     793  793   Char Diagnosis 62, present on admission indicator
+SD  2012 CORE             232 DXPOA63                     794  794   Char Diagnosis 63, present on admission indicator
+SD  2012 CORE             233 DXPOA64                     795  795   Char Diagnosis 64, present on admission indicator
+SD  2012 CORE             234 DXPOA65                     796  796   Char Diagnosis 65, present on admission indicator
+SD  2012 CORE             235 DXPOA66                     797  797   Char Diagnosis 66, present on admission indicator
+SD  2012 CORE             236 DXPOA67                     798  798   Char Diagnosis 67, present on admission indicator
+SD  2012 CORE             237 DXPOA68                     799  799   Char Diagnosis 68, present on admission indicator
+SD  2012 CORE             238 DXPOA69                     800  800   Char Diagnosis 69, present on admission indicator
+SD  2012 CORE             239 DXPOA70                     801  801   Char Diagnosis 70, present on admission indicator
+SD  2012 CORE             240 DXPOA71                     802  802   Char Diagnosis 71, present on admission indicator
+SD  2012 CORE             241 DXPOA72                     803  803   Char Diagnosis 72, present on admission indicator
+SD  2012 CORE             242 DXPOA73                     804  804   Char Diagnosis 73, present on admission indicator
+SD  2012 CORE             243 DXPOA74                     805  805   Char Diagnosis 74, present on admission indicator
+SD  2012 CORE             244 DXPOA75                     806  806   Char Diagnosis 75, present on admission indicator
+SD  2012 CORE             245 DXPOA76                     807  807   Char Diagnosis 76, present on admission indicator
+SD  2012 CORE             246 DXPOA77                     808  808   Char Diagnosis 77, present on admission indicator
+SD  2012 CORE             247 DX_Admitting                809  813   Char Admitting Diagnosis Code
+SD  2012 CORE             248 ECODE1                      814  818   Char E code 1
+SD  2012 CORE             249 ECODE2                      819  823   Char E code 2
+SD  2012 CORE             250 ECODE3                      824  828   Char E code 3
+SD  2012 CORE             251 ECODE4                      829  833   Char E code 4
+SD  2012 CORE             252 ECODE5                      834  838   Char E code 5
+SD  2012 CORE             253 ECODE6                      839  843   Char E code 6
+SD  2012 CORE             254 ECODE7                      844  848   Char E code 7
+SD  2012 CORE             255 E_CCS1                      849  852   Num  CCS: E Code 1
+SD  2012 CORE             256 E_CCS2                      853  856   Num  CCS: E Code 2
+SD  2012 CORE             257 E_CCS3                      857  860   Num  CCS: E Code 3
+SD  2012 CORE             258 E_CCS4                      861  864   Num  CCS: E Code 4
+SD  2012 CORE             259 E_CCS5                      865  868   Num  CCS: E Code 5
+SD  2012 CORE             260 E_CCS6                      869  872   Num  CCS: E Code 6
+SD  2012 CORE             261 E_CCS7                      873  876   Num  CCS: E Code 7
+SD  2012 CORE             262 E_POA1                      877  877   Char E Code 1, present on admission indicator
+SD  2012 CORE             263 E_POA2                      878  878   Char E Code 2, present on admission indicator
+SD  2012 CORE             264 E_POA3                      879  879   Char E Code 3, present on admission indicator
+SD  2012 CORE             265 E_POA4                      880  880   Char E Code 4, present on admission indicator
+SD  2012 CORE             266 E_POA5                      881  881   Char E Code 5, present on admission indicator
+SD  2012 CORE             267 E_POA6                      882  882   Char E Code 6, present on admission indicator
+SD  2012 CORE             268 E_POA7                      883  883   Char E Code 7, present on admission indicator
+SD  2012 CORE             269 FEMALE                      884  885   Num  Indicator of sex
+SD  2012 CORE             270 HCUP_ED                     886  887   Num  HCUP Emergency Department service indicator
+SD  2012 CORE             271 HCUP_OS                     888  889   Num  HCUP Observation Stay service indicator
+SD  2012 CORE             272 HOSPBRTH                    890  892   Num  Indicator of birth in this hospital
+SD  2012 CORE             273 HOSPST                      893  894   Char Hospital state postal code
+SD  2012 CORE             274 HospitalUnit                895  896   Num  Indicator that patient was discharged from a special unit within an acute care hospital (reported by source)
+SD  2012 CORE             275 KEY                         897  911   Num  HCUP record identifier
+SD  2012 CORE             276 LOS                         912  916   Num  Length of stay (cleaned)
+SD  2012 CORE             277 LOS_X                       917  922   Num  Length of stay (as received from source)
+SD  2012 CORE             278 MDC                         923  924   Num  MDC in effect on discharge date
+SD  2012 CORE             279 MDC24                       925  926   Num  MDC, version 24
+SD  2012 CORE             280 MDC_NoPOA                   927  928   Num  MDC in use on discharge date, calculated without POA
+SD  2012 CORE             281 MDNUM1_R                    929  937   Num  Physician 1 number (re-identified)
+SD  2012 CORE             282 MDNUM2_R                    938  946   Num  Physician 2 number (re-identified)
+SD  2012 CORE             283 MDNUM3_R                    947  955   Num  Physician 3 number (re-identified)
+SD  2012 CORE             284 MEDINCSTQ                   956  957   Num  Median household income state quartile for patient ZIP Code
+SD  2012 CORE             285 MRN_R                       958  966   Num  Medical record number (re-identified)
+SD  2012 CORE             286 NCHRONIC                    967  969   Num  Number of chronic conditions
+SD  2012 CORE             287 NDX                         970  971   Num  Number of diagnoses on this record
+SD  2012 CORE             288 NECODE                      972  973   Num  Number of E codes on this record
+SD  2012 CORE             289 NEOMAT                      974  975   Num  Neonatal and/or maternal DX and/or PR
+SD  2012 CORE             290 NPR                         976  977   Num  Number of procedures on this record
+SD  2012 CORE             291 ORPROC                      978  979   Num  Major operating room procedure indicator
+SD  2012 CORE             292 PAY1                        980  981   Num  Primary expected payer (uniform)
+SD  2012 CORE             293 PL_CBSA                     982  984   Num  Patient location: Core Based Statistical Area (CBSA)
+SD  2012 CORE             294 PL_MSA1993                  985  987   Num  Patient location: Metropolitan Statistical Area (MSA), 1993
+SD  2012 CORE             295 PL_NCHS2006                 988  989   Num  Patient Location: NCHS Urban-Rural Code (V2006)
+SD  2012 CORE             296 PL_RUCA10_2005              990  991   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, ten levels
+SD  2012 CORE             297 PL_RUCA2005                 992  995 1 Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes
+SD  2012 CORE             298 PL_RUCA4_2005               996  997   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, four levels
+SD  2012 CORE             299 PL_RUCC2003                 998  999   Num  Patient location: Rural-Urban Continuum Codes(RUCC), 2003
+SD  2012 CORE             300 PL_UIC2003                 1000 1001   Num  Patient location: Urban Influence Codes, 2003
+SD  2012 CORE             301 PL_UR_CAT4                 1002 1003   Num  Patient Location: Urban-Rural 4 Categories
+SD  2012 CORE             302 PR1                        1004 1007   Char Procedure 1
+SD  2012 CORE             303 PR2                        1008 1011   Char Procedure 2
+SD  2012 CORE             304 PR3                        1012 1015   Char Procedure 3
+SD  2012 CORE             305 PR4                        1016 1019   Char Procedure 4
+SD  2012 CORE             306 PR5                        1020 1023   Char Procedure 5
+SD  2012 CORE             307 PR6                        1024 1027   Char Procedure 6
+SD  2012 CORE             308 PR7                        1028 1031   Char Procedure 7
+SD  2012 CORE             309 PR8                        1032 1035   Char Procedure 8
+SD  2012 CORE             310 PR9                        1036 1039   Char Procedure 9
+SD  2012 CORE             311 PR10                       1040 1043   Char Procedure 10
+SD  2012 CORE             312 PR11                       1044 1047   Char Procedure 11
+SD  2012 CORE             313 PR12                       1048 1051   Char Procedure 12
+SD  2012 CORE             314 PR13                       1052 1055   Char Procedure 13
+SD  2012 CORE             315 PR14                       1056 1059   Char Procedure 14
+SD  2012 CORE             316 PR15                       1060 1063   Char Procedure 15
+SD  2012 CORE             317 PR16                       1064 1067   Char Procedure 16
+SD  2012 CORE             318 PR17                       1068 1071   Char Procedure 17
+SD  2012 CORE             319 PR18                       1072 1075   Char Procedure 18
+SD  2012 CORE             320 PR19                       1076 1079   Char Procedure 19
+SD  2012 CORE             321 PR20                       1080 1083   Char Procedure 20
+SD  2012 CORE             322 PR21                       1084 1087   Char Procedure 21
+SD  2012 CORE             323 PR22                       1088 1091   Char Procedure 22
+SD  2012 CORE             324 PR23                       1092 1095   Char Procedure 23
+SD  2012 CORE             325 PR24                       1096 1099   Char Procedure 24
+SD  2012 CORE             326 PR25                       1100 1103   Char Procedure 25
+SD  2012 CORE             327 PR26                       1104 1107   Char Procedure 26
+SD  2012 CORE             328 PR27                       1108 1111   Char Procedure 27
+SD  2012 CORE             329 PR28                       1112 1115   Char Procedure 28
+SD  2012 CORE             330 PR29                       1116 1119   Char Procedure 29
+SD  2012 CORE             331 PR30                       1120 1123   Char Procedure 30
+SD  2012 CORE             332 PR31                       1124 1127   Char Procedure 31
+SD  2012 CORE             333 PR32                       1128 1131   Char Procedure 32
+SD  2012 CORE             334 PR33                       1132 1135   Char Procedure 33
+SD  2012 CORE             335 PR34                       1136 1139   Char Procedure 34
+SD  2012 CORE             336 PR35                       1140 1143   Char Procedure 35
+SD  2012 CORE             337 PR36                       1144 1147   Char Procedure 36
+SD  2012 CORE             338 PR37                       1148 1151   Char Procedure 37
+SD  2012 CORE             339 PR38                       1152 1155   Char Procedure 38
+SD  2012 CORE             340 PR39                       1156 1159   Char Procedure 39
+SD  2012 CORE             341 PR40                       1160 1163   Char Procedure 40
+SD  2012 CORE             342 PR41                       1164 1167   Char Procedure 41
+SD  2012 CORE             343 PR42                       1168 1171   Char Procedure 42
+SD  2012 CORE             344 PR43                       1172 1175   Char Procedure 43
+SD  2012 CORE             345 PR44                       1176 1179   Char Procedure 44
+SD  2012 CORE             346 PR45                       1180 1183   Char Procedure 45
+SD  2012 CORE             347 PR46                       1184 1187   Char Procedure 46
+SD  2012 CORE             348 PR47                       1188 1191   Char Procedure 47
+SD  2012 CORE             349 PR48                       1192 1195   Char Procedure 48
+SD  2012 CORE             350 PR49                       1196 1199   Char Procedure 49
+SD  2012 CORE             351 PR50                       1200 1203   Char Procedure 50
+SD  2012 CORE             352 PR51                       1204 1207   Char Procedure 51
+SD  2012 CORE             353 PR52                       1208 1211   Char Procedure 52
+SD  2012 CORE             354 PR53                       1212 1215   Char Procedure 53
+SD  2012 CORE             355 PR54                       1216 1219   Char Procedure 54
+SD  2012 CORE             356 PR55                       1220 1223   Char Procedure 55
+SD  2012 CORE             357 PR56                       1224 1227   Char Procedure 56
+SD  2012 CORE             358 PR57                       1228 1231   Char Procedure 57
+SD  2012 CORE             359 PR58                       1232 1235   Char Procedure 58
+SD  2012 CORE             360 PR59                       1236 1239   Char Procedure 59
+SD  2012 CORE             361 PR60                       1240 1243   Char Procedure 60
+SD  2012 CORE             362 PRCCS1                     1244 1246   Num  CCS: procedure 1
+SD  2012 CORE             363 PRCCS2                     1247 1249   Num  CCS: procedure 2
+SD  2012 CORE             364 PRCCS3                     1250 1252   Num  CCS: procedure 3
+SD  2012 CORE             365 PRCCS4                     1253 1255   Num  CCS: procedure 4
+SD  2012 CORE             366 PRCCS5                     1256 1258   Num  CCS: procedure 5
+SD  2012 CORE             367 PRCCS6                     1259 1261   Num  CCS: procedure 6
+SD  2012 CORE             368 PRCCS7                     1262 1264   Num  CCS: procedure 7
+SD  2012 CORE             369 PRCCS8                     1265 1267   Num  CCS: procedure 8
+SD  2012 CORE             370 PRCCS9                     1268 1270   Num  CCS: procedure 9
+SD  2012 CORE             371 PRCCS10                    1271 1273   Num  CCS: procedure 10
+SD  2012 CORE             372 PRCCS11                    1274 1276   Num  CCS: procedure 11
+SD  2012 CORE             373 PRCCS12                    1277 1279   Num  CCS: procedure 12
+SD  2012 CORE             374 PRCCS13                    1280 1282   Num  CCS: procedure 13
+SD  2012 CORE             375 PRCCS14                    1283 1285   Num  CCS: procedure 14
+SD  2012 CORE             376 PRCCS15                    1286 1288   Num  CCS: procedure 15
+SD  2012 CORE             377 PRCCS16                    1289 1291   Num  CCS: procedure 16
+SD  2012 CORE             378 PRCCS17                    1292 1294   Num  CCS: procedure 17
+SD  2012 CORE             379 PRCCS18                    1295 1297   Num  CCS: procedure 18
+SD  2012 CORE             380 PRCCS19                    1298 1300   Num  CCS: procedure 19
+SD  2012 CORE             381 PRCCS20                    1301 1303   Num  CCS: procedure 20
+SD  2012 CORE             382 PRCCS21                    1304 1306   Num  CCS: procedure 21
+SD  2012 CORE             383 PRCCS22                    1307 1309   Num  CCS: procedure 22
+SD  2012 CORE             384 PRCCS23                    1310 1312   Num  CCS: procedure 23
+SD  2012 CORE             385 PRCCS24                    1313 1315   Num  CCS: procedure 24
+SD  2012 CORE             386 PRCCS25                    1316 1318   Num  CCS: procedure 25
+SD  2012 CORE             387 PRCCS26                    1319 1321   Num  CCS: procedure 26
+SD  2012 CORE             388 PRCCS27                    1322 1324   Num  CCS: procedure 27
+SD  2012 CORE             389 PRCCS28                    1325 1327   Num  CCS: procedure 28
+SD  2012 CORE             390 PRCCS29                    1328 1330   Num  CCS: procedure 29
+SD  2012 CORE             391 PRCCS30                    1331 1333   Num  CCS: procedure 30
+SD  2012 CORE             392 PRCCS31                    1334 1336   Num  CCS: procedure 31
+SD  2012 CORE             393 PRCCS32                    1337 1339   Num  CCS: procedure 32
+SD  2012 CORE             394 PRCCS33                    1340 1342   Num  CCS: procedure 33
+SD  2012 CORE             395 PRCCS34                    1343 1345   Num  CCS: procedure 34
+SD  2012 CORE             396 PRCCS35                    1346 1348   Num  CCS: procedure 35
+SD  2012 CORE             397 PRCCS36                    1349 1351   Num  CCS: procedure 36
+SD  2012 CORE             398 PRCCS37                    1352 1354   Num  CCS: procedure 37
+SD  2012 CORE             399 PRCCS38                    1355 1357   Num  CCS: procedure 38
+SD  2012 CORE             400 PRCCS39                    1358 1360   Num  CCS: procedure 39
+SD  2012 CORE             401 PRCCS40                    1361 1363   Num  CCS: procedure 40
+SD  2012 CORE             402 PRCCS41                    1364 1366   Num  CCS: procedure 41
+SD  2012 CORE             403 PRCCS42                    1367 1369   Num  CCS: procedure 42
+SD  2012 CORE             404 PRCCS43                    1370 1372   Num  CCS: procedure 43
+SD  2012 CORE             405 PRCCS44                    1373 1375   Num  CCS: procedure 44
+SD  2012 CORE             406 PRCCS45                    1376 1378   Num  CCS: procedure 45
+SD  2012 CORE             407 PRCCS46                    1379 1381   Num  CCS: procedure 46
+SD  2012 CORE             408 PRCCS47                    1382 1384   Num  CCS: procedure 47
+SD  2012 CORE             409 PRCCS48                    1385 1387   Num  CCS: procedure 48
+SD  2012 CORE             410 PRCCS49                    1388 1390   Num  CCS: procedure 49
+SD  2012 CORE             411 PRCCS50                    1391 1393   Num  CCS: procedure 50
+SD  2012 CORE             412 PRCCS51                    1394 1396   Num  CCS: procedure 51
+SD  2012 CORE             413 PRCCS52                    1397 1399   Num  CCS: procedure 52
+SD  2012 CORE             414 PRCCS53                    1400 1402   Num  CCS: procedure 53
+SD  2012 CORE             415 PRCCS54                    1403 1405   Num  CCS: procedure 54
+SD  2012 CORE             416 PRCCS55                    1406 1408   Num  CCS: procedure 55
+SD  2012 CORE             417 PRCCS56                    1409 1411   Num  CCS: procedure 56
+SD  2012 CORE             418 PRCCS57                    1412 1414   Num  CCS: procedure 57
+SD  2012 CORE             419 PRCCS58                    1415 1417   Num  CCS: procedure 58
+SD  2012 CORE             420 PRCCS59                    1418 1420   Num  CCS: procedure 59
+SD  2012 CORE             421 PRCCS60                    1421 1423   Num  CCS: procedure 60
+SD  2012 CORE             422 PRDAY1                     1424 1428   Num  Number of days from admission to PR1
+SD  2012 CORE             423 PRDAY2                     1429 1433   Num  Number of days from admission to PR2
+SD  2012 CORE             424 PRDAY3                     1434 1438   Num  Number of days from admission to PR3
+SD  2012 CORE             425 PRDAY4                     1439 1443   Num  Number of days from admission to PR4
+SD  2012 CORE             426 PRDAY5                     1444 1448   Num  Number of days from admission to PR5
+SD  2012 CORE             427 PRDAY6                     1449 1453   Num  Number of days from admission to PR6
+SD  2012 CORE             428 PRDAY7                     1454 1458   Num  Number of days from admission to PR7
+SD  2012 CORE             429 PRDAY8                     1459 1463   Num  Number of days from admission to PR8
+SD  2012 CORE             430 PRDAY9                     1464 1468   Num  Number of days from admission to PR9
+SD  2012 CORE             431 PRDAY10                    1469 1473   Num  Number of days from admission to PR10
+SD  2012 CORE             432 PRDAY11                    1474 1478   Num  Number of days from admission to PR11
+SD  2012 CORE             433 PRDAY12                    1479 1483   Num  Number of days from admission to PR12
+SD  2012 CORE             434 PRDAY13                    1484 1488   Num  Number of days from admission to PR13
+SD  2012 CORE             435 PRDAY14                    1489 1493   Num  Number of days from admission to PR14
+SD  2012 CORE             436 PRDAY15                    1494 1498   Num  Number of days from admission to PR15
+SD  2012 CORE             437 PRDAY16                    1499 1503   Num  Number of days from admission to PR16
+SD  2012 CORE             438 PRDAY17                    1504 1508   Num  Number of days from admission to PR17
+SD  2012 CORE             439 PRDAY18                    1509 1513   Num  Number of days from admission to PR18
+SD  2012 CORE             440 PRDAY19                    1514 1518   Num  Number of days from admission to PR19
+SD  2012 CORE             441 PRDAY20                    1519 1523   Num  Number of days from admission to PR20
+SD  2012 CORE             442 PRDAY21                    1524 1528   Num  Number of days from admission to PR21
+SD  2012 CORE             443 PRDAY22                    1529 1533   Num  Number of days from admission to PR22
+SD  2012 CORE             444 PRDAY23                    1534 1538   Num  Number of days from admission to PR23
+SD  2012 CORE             445 PRDAY24                    1539 1543   Num  Number of days from admission to PR24
+SD  2012 CORE             446 PRDAY25                    1544 1548   Num  Number of days from admission to PR25
+SD  2012 CORE             447 PRDAY26                    1549 1553   Num  Number of days from admission to PR26
+SD  2012 CORE             448 PRDAY27                    1554 1558   Num  Number of days from admission to PR27
+SD  2012 CORE             449 PRDAY28                    1559 1563   Num  Number of days from admission to PR28
+SD  2012 CORE             450 PRDAY29                    1564 1568   Num  Number of days from admission to PR29
+SD  2012 CORE             451 PRDAY30                    1569 1573   Num  Number of days from admission to PR30
+SD  2012 CORE             452 PRDAY31                    1574 1578   Num  Number of days from admission to PR31
+SD  2012 CORE             453 PRDAY32                    1579 1583   Num  Number of days from admission to PR32
+SD  2012 CORE             454 PRDAY33                    1584 1588   Num  Number of days from admission to PR33
+SD  2012 CORE             455 PRDAY34                    1589 1593   Num  Number of days from admission to PR34
+SD  2012 CORE             456 PRDAY35                    1594 1598   Num  Number of days from admission to PR35
+SD  2012 CORE             457 PRDAY36                    1599 1603   Num  Number of days from admission to PR36
+SD  2012 CORE             458 PRDAY37                    1604 1608   Num  Number of days from admission to PR37
+SD  2012 CORE             459 PRDAY38                    1609 1613   Num  Number of days from admission to PR38
+SD  2012 CORE             460 PRDAY39                    1614 1618   Num  Number of days from admission to PR39
+SD  2012 CORE             461 PRDAY40                    1619 1623   Num  Number of days from admission to PR40
+SD  2012 CORE             462 PRDAY41                    1624 1628   Num  Number of days from admission to PR41
+SD  2012 CORE             463 PRDAY42                    1629 1633   Num  Number of days from admission to PR42
+SD  2012 CORE             464 PRDAY43                    1634 1638   Num  Number of days from admission to PR43
+SD  2012 CORE             465 PRDAY44                    1639 1643   Num  Number of days from admission to PR44
+SD  2012 CORE             466 PRDAY45                    1644 1648   Num  Number of days from admission to PR45
+SD  2012 CORE             467 PRDAY46                    1649 1653   Num  Number of days from admission to PR46
+SD  2012 CORE             468 PRDAY47                    1654 1658   Num  Number of days from admission to PR47
+SD  2012 CORE             469 PRDAY48                    1659 1663   Num  Number of days from admission to PR48
+SD  2012 CORE             470 PRDAY49                    1664 1668   Num  Number of days from admission to PR49
+SD  2012 CORE             471 PRDAY50                    1669 1673   Num  Number of days from admission to PR50
+SD  2012 CORE             472 PRDAY51                    1674 1678   Num  Number of days from admission to PR51
+SD  2012 CORE             473 PRDAY52                    1679 1683   Num  Number of days from admission to PR52
+SD  2012 CORE             474 PRDAY53                    1684 1688   Num  Number of days from admission to PR53
+SD  2012 CORE             475 PRDAY54                    1689 1693   Num  Number of days from admission to PR54
+SD  2012 CORE             476 PRDAY55                    1694 1698   Num  Number of days from admission to PR55
+SD  2012 CORE             477 PRDAY56                    1699 1703   Num  Number of days from admission to PR56
+SD  2012 CORE             478 PRDAY57                    1704 1708   Num  Number of days from admission to PR57
+SD  2012 CORE             479 PRDAY58                    1709 1713   Num  Number of days from admission to PR58
+SD  2012 CORE             480 PRDAY59                    1714 1718   Num  Number of days from admission to PR59
+SD  2012 CORE             481 PRDAY60                    1719 1723   Num  Number of days from admission to PR60
+SD  2012 CORE             482 PROCTYPE                   1724 1726   Num  Procedure type indicator
+SD  2012 CORE             483 PSTATE                     1727 1728   Char Patient State postal code
+SD  2012 CORE             484 PSTCO                      1729 1733   Num  Patient state/county FIPS code
+SD  2012 CORE             485 PSTCO2                     1734 1738   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+SD  2012 CORE             486 PointOfOriginUB04          1739 1739   Char Point of origin for admission or visit, UB-04 standard coding
+SD  2012 CORE             487 PointOfOrigin_X            1740 1740   Char Point of origin for admission or visit, as received from source
+SD  2012 CORE             488 RACE                       1741 1742   Num  Race (uniform)
+SD  2012 CORE             489 RACE_X                     1743 1746   Char Race (as received from source)
+SD  2012 CORE             490 TOTCHG                     1747 1756   Num  Total charges (cleaned)
+SD  2012 CORE             491 TOTCHG_X                   1757 1771 2 Num  Total charges (as received from source)
+SD  2012 CORE             492 TRAN_IN                    1772 1773   Num  Transfer in indicator
+SD  2012 CORE             493 TRAN_OUT                   1774 1775   Num  Transfer out indicator
+SD  2012 CORE             494 YEAR                       1776 1779   Num  Calendar year
+SD  2012 CORE             495 ZIP3                       1780 1782   Char Patient ZIP Code, first 3 digits
+SD  2012 CORE             496 ZIPINC_QRTL                1783 1785   Num  Median household income national quartile for patient ZIP Code
+SD  2012 CORE             497 HOSPID                     1786 1790   Num  HCUP hospital identification number
+SD  2012 CORE             498 ZIP                        1791 1795   Char Patient ZIP Code
+SD  2012 CORE             499 AYEAR                      1796 1799   Num  Admission year
+SD  2012 CORE             500 DMONTH                     1800 1801   Num  Discharge month
+SD  2012 CORE             501 BMONTH                     1802 1803   Num  Birth month
+SD  2012 CORE             502 BYEAR                      1804 1807   Num  Birth year
+SD  2012 CORE             503 PRMONTH1                   1808 1809   Num  Month of procedure 1
+SD  2012 CORE             504 PRMONTH2                   1810 1811   Num  Month of procedure 2
+SD  2012 CORE             505 PRMONTH3                   1812 1813   Num  Month of procedure 3
+SD  2012 CORE             506 PRMONTH4                   1814 1815   Num  Month of procedure 4
+SD  2012 CORE             507 PRMONTH5                   1816 1817   Num  Month of procedure 5
+SD  2012 CORE             508 PRMONTH6                   1818 1819   Num  Month of procedure 6
+SD  2012 CORE             509 PRMONTH7                   1820 1821   Num  Month of procedure 7
+SD  2012 CORE             510 PRMONTH8                   1822 1823   Num  Month of procedure 8
+SD  2012 CORE             511 PRMONTH9                   1824 1825   Num  Month of procedure 9
+SD  2012 CORE             512 PRMONTH10                  1826 1827   Num  Month of procedure 10
+SD  2012 CORE             513 PRMONTH11                  1828 1829   Num  Month of procedure 11
+SD  2012 CORE             514 PRMONTH12                  1830 1831   Num  Month of procedure 12
+SD  2012 CORE             515 PRMONTH13                  1832 1833   Num  Month of procedure 13
+SD  2012 CORE             516 PRMONTH14                  1834 1835   Num  Month of procedure 14
+SD  2012 CORE             517 PRMONTH15                  1836 1837   Num  Month of procedure 15
+SD  2012 CORE             518 PRMONTH16                  1838 1839   Num  Month of procedure 16
+SD  2012 CORE             519 PRMONTH17                  1840 1841   Num  Month of procedure 17
+SD  2012 CORE             520 PRMONTH18                  1842 1843   Num  Month of procedure 18
+SD  2012 CORE             521 PRMONTH19                  1844 1845   Num  Month of procedure 19
+SD  2012 CORE             522 PRMONTH20                  1846 1847   Num  Month of procedure 20
+SD  2012 CORE             523 PRMONTH21                  1848 1849   Num  Month of procedure 21
+SD  2012 CORE             524 PRMONTH22                  1850 1851   Num  Month of procedure 22
+SD  2012 CORE             525 PRMONTH23                  1852 1853   Num  Month of procedure 23
+SD  2012 CORE             526 PRMONTH24                  1854 1855   Num  Month of procedure 24
+SD  2012 CORE             527 PRMONTH25                  1856 1857   Num  Month of procedure 25
+SD  2012 CORE             528 PRMONTH26                  1858 1859   Num  Month of procedure 26
+SD  2012 CORE             529 PRMONTH27                  1860 1861   Num  Month of procedure 27
+SD  2012 CORE             530 PRMONTH28                  1862 1863   Num  Month of procedure 28
+SD  2012 CORE             531 PRMONTH29                  1864 1865   Num  Month of procedure 29
+SD  2012 CORE             532 PRMONTH30                  1866 1867   Num  Month of procedure 30
+SD  2012 CORE             533 PRMONTH31                  1868 1869   Num  Month of procedure 31
+SD  2012 CORE             534 PRMONTH32                  1870 1871   Num  Month of procedure 32
+SD  2012 CORE             535 PRMONTH33                  1872 1873   Num  Month of procedure 33
+SD  2012 CORE             536 PRMONTH34                  1874 1875   Num  Month of procedure 34
+SD  2012 CORE             537 PRMONTH35                  1876 1877   Num  Month of procedure 35
+SD  2012 CORE             538 PRMONTH36                  1878 1879   Num  Month of procedure 36
+SD  2012 CORE             539 PRMONTH37                  1880 1881   Num  Month of procedure 37
+SD  2012 CORE             540 PRMONTH38                  1882 1883   Num  Month of procedure 38
+SD  2012 CORE             541 PRMONTH39                  1884 1885   Num  Month of procedure 39
+SD  2012 CORE             542 PRMONTH40                  1886 1887   Num  Month of procedure 40
+SD  2012 CORE             543 PRMONTH41                  1888 1889   Num  Month of procedure 41
+SD  2012 CORE             544 PRMONTH42                  1890 1891   Num  Month of procedure 42
+SD  2012 CORE             545 PRMONTH43                  1892 1893   Num  Month of procedure 43
+SD  2012 CORE             546 PRMONTH44                  1894 1895   Num  Month of procedure 44
+SD  2012 CORE             547 PRMONTH45                  1896 1897   Num  Month of procedure 45
+SD  2012 CORE             548 PRMONTH46                  1898 1899   Num  Month of procedure 46
+SD  2012 CORE             549 PRMONTH47                  1900 1901   Num  Month of procedure 47
+SD  2012 CORE             550 PRMONTH48                  1902 1903   Num  Month of procedure 48
+SD  2012 CORE             551 PRMONTH49                  1904 1905   Num  Month of procedure 49
+SD  2012 CORE             552 PRMONTH50                  1906 1907   Num  Month of procedure 50
+SD  2012 CORE             553 PRMONTH51                  1908 1909   Num  Month of procedure 51
+SD  2012 CORE             554 PRMONTH52                  1910 1911   Num  Month of procedure 52
+SD  2012 CORE             555 PRMONTH53                  1912 1913   Num  Month of procedure 53
+SD  2012 CORE             556 PRMONTH54                  1914 1915   Num  Month of procedure 54
+SD  2012 CORE             557 PRMONTH55                  1916 1917   Num  Month of procedure 55
+SD  2012 CORE             558 PRMONTH56                  1918 1919   Num  Month of procedure 56
+SD  2012 CORE             559 PRMONTH57                  1920 1921   Num  Month of procedure 57
+SD  2012 CORE             560 PRMONTH58                  1922 1923   Num  Month of procedure 58
+SD  2012 CORE             561 PRMONTH59                  1924 1925   Num  Month of procedure 59
+SD  2012 CORE             562 PRMONTH60                  1926 1927   Num  Month of procedure 60
+SD  2012 CORE             563 PRYEAR1                    1928 1931   Num  Year of procedure 1
+SD  2012 CORE             564 PRYEAR2                    1932 1935   Num  Year of procedure 2
+SD  2012 CORE             565 PRYEAR3                    1936 1939   Num  Year of procedure 3
+SD  2012 CORE             566 PRYEAR4                    1940 1943   Num  Year of procedure 4
+SD  2012 CORE             567 PRYEAR5                    1944 1947   Num  Year of procedure 5
+SD  2012 CORE             568 PRYEAR6                    1948 1951   Num  Year of procedure 6
+SD  2012 CORE             569 PRYEAR7                    1952 1955   Num  Year of procedure 7
+SD  2012 CORE             570 PRYEAR8                    1956 1959   Num  Year of procedure 8
+SD  2012 CORE             571 PRYEAR9                    1960 1963   Num  Year of procedure 9
+SD  2012 CORE             572 PRYEAR10                   1964 1967   Num  Year of procedure 10
+SD  2012 CORE             573 PRYEAR11                   1968 1971   Num  Year of procedure 11
+SD  2012 CORE             574 PRYEAR12                   1972 1975   Num  Year of procedure 12
+SD  2012 CORE             575 PRYEAR13                   1976 1979   Num  Year of procedure 13
+SD  2012 CORE             576 PRYEAR14                   1980 1983   Num  Year of procedure 14
+SD  2012 CORE             577 PRYEAR15                   1984 1987   Num  Year of procedure 15
+SD  2012 CORE             578 PRYEAR16                   1988 1991   Num  Year of procedure 16
+SD  2012 CORE             579 PRYEAR17                   1992 1995   Num  Year of procedure 17
+SD  2012 CORE             580 PRYEAR18                   1996 1999   Num  Year of procedure 18
+SD  2012 CORE             581 PRYEAR19                   2000 2003   Num  Year of procedure 19
+SD  2012 CORE             582 PRYEAR20                   2004 2007   Num  Year of procedure 20
+SD  2012 CORE             583 PRYEAR21                   2008 2011   Num  Year of procedure 21
+SD  2012 CORE             584 PRYEAR22                   2012 2015   Num  Year of procedure 22
+SD  2012 CORE             585 PRYEAR23                   2016 2019   Num  Year of procedure 23
+SD  2012 CORE             586 PRYEAR24                   2020 2023   Num  Year of procedure 24
+SD  2012 CORE             587 PRYEAR25                   2024 2027   Num  Year of procedure 25
+SD  2012 CORE             588 PRYEAR26                   2028 2031   Num  Year of procedure 26
+SD  2012 CORE             589 PRYEAR27                   2032 2035   Num  Year of procedure 27
+SD  2012 CORE             590 PRYEAR28                   2036 2039   Num  Year of procedure 28
+SD  2012 CORE             591 PRYEAR29                   2040 2043   Num  Year of procedure 29
+SD  2012 CORE             592 PRYEAR30                   2044 2047   Num  Year of procedure 30
+SD  2012 CORE             593 PRYEAR31                   2048 2051   Num  Year of procedure 31
+SD  2012 CORE             594 PRYEAR32                   2052 2055   Num  Year of procedure 32
+SD  2012 CORE             595 PRYEAR33                   2056 2059   Num  Year of procedure 33
+SD  2012 CORE             596 PRYEAR34                   2060 2063   Num  Year of procedure 34
+SD  2012 CORE             597 PRYEAR35                   2064 2067   Num  Year of procedure 35
+SD  2012 CORE             598 PRYEAR36                   2068 2071   Num  Year of procedure 36
+SD  2012 CORE             599 PRYEAR37                   2072 2075   Num  Year of procedure 37
+SD  2012 CORE             600 PRYEAR38                   2076 2079   Num  Year of procedure 38
+SD  2012 CORE             601 PRYEAR39                   2080 2083   Num  Year of procedure 39
+SD  2012 CORE             602 PRYEAR40                   2084 2087   Num  Year of procedure 40
+SD  2012 CORE             603 PRYEAR41                   2088 2091   Num  Year of procedure 41
+SD  2012 CORE             604 PRYEAR42                   2092 2095   Num  Year of procedure 42
+SD  2012 CORE             605 PRYEAR43                   2096 2099   Num  Year of procedure 43
+SD  2012 CORE             606 PRYEAR44                   2100 2103   Num  Year of procedure 44
+SD  2012 CORE             607 PRYEAR45                   2104 2107   Num  Year of procedure 45
+SD  2012 CORE             608 PRYEAR46                   2108 2111   Num  Year of procedure 46
+SD  2012 CORE             609 PRYEAR47                   2112 2115   Num  Year of procedure 47
+SD  2012 CORE             610 PRYEAR48                   2116 2119   Num  Year of procedure 48
+SD  2012 CORE             611 PRYEAR49                   2120 2123   Num  Year of procedure 49
+SD  2012 CORE             612 PRYEAR50                   2124 2127   Num  Year of procedure 50
+SD  2012 CORE             613 PRYEAR51                   2128 2131   Num  Year of procedure 51
+SD  2012 CORE             614 PRYEAR52                   2132 2135   Num  Year of procedure 52
+SD  2012 CORE             615 PRYEAR53                   2136 2139   Num  Year of procedure 53
+SD  2012 CORE             616 PRYEAR54                   2140 2143   Num  Year of procedure 54
+SD  2012 CORE             617 PRYEAR55                   2144 2147   Num  Year of procedure 55
+SD  2012 CORE             618 PRYEAR56                   2148 2151   Num  Year of procedure 56
+SD  2012 CORE             619 PRYEAR57                   2152 2155   Num  Year of procedure 57
+SD  2012 CORE             620 PRYEAR58                   2156 2159   Num  Year of procedure 58
+SD  2012 CORE             621 PRYEAR59                   2160 2163   Num  Year of procedure 59
+SD  2012 CORE             622 PRYEAR60                   2164 2167   Num  Year of procedure 60

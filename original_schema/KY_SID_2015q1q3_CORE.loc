@@ -1,0 +1,329 @@
+Data Set Name: KY_SIDC_2015Q1Q3_CORE           
+Number of Observations: 450027
+Total Record Length: 1220
+Total Number of Variables: 308
+Creation Date: 05/24/2017   
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 61    Variable name
+63- 66    Starting column of variable in ASCII file
+68- 71    Ending column of variable in ASCII file
+73- 73    Non-zero number of digits after decimal point for numeric variable
+75- 78    Variable type (Num=numeric; Char=character)
+80-179    Variable label
+
+
+KY  2015 CORE               1 AGE                                1    3   Num  Age in years at admission
+KY  2015 CORE               2 AGEDAY                             4    6   Num  Age in days (when age < 1 year)
+KY  2015 CORE               3 AGEMONTH                           7    9   Num  Age in months (when age < 11 years)
+KY  2015 CORE               4 AMONTH                            10   11   Num  Admission month
+KY  2015 CORE               5 ATYPE                             12   13   Num  Admission type
+KY  2015 CORE               6 AWEEKEND                          14   15   Num  Admission day is a weekend
+KY  2015 CORE               7 BILLTYPE                          16   19   Char Type of bill, UB-04 coding
+KY  2015 CORE               8 BWT                               20   23   Num  Birth weight in grams
+KY  2015 CORE               9 DIED                              24   25   Num  Died during hospitalization
+KY  2015 CORE              10 DISP_X                            26   27   Char Disposition of patient (as received from source)
+KY  2015 CORE              11 DISPUB04                          28   29   Num  Disposition of patient (UB-04 standard coding)
+KY  2015 CORE              12 DISPUNIFORM                       30   31   Num  Disposition of patient (uniform)
+KY  2015 CORE              13 DMONTH                            32   33   Num  Discharge month
+KY  2015 CORE              14 DNR                               34   35   Num  Do not resuscitate indicator
+KY  2015 CORE              15 DQTR                              36   37   Num  Discharge quarter
+KY  2015 CORE              16 DRG                               38   40   Num  DRG in effect on discharge date
+KY  2015 CORE              17 DRG_NoPOA                         41   43   Num  DRG in use on discharge date, calculated without POA
+KY  2015 CORE              18 DRG32                             44   46   Num  DRG, version 32
+KY  2015 CORE              19 DRGVER                            47   48   Num  DRG grouper version used on discharge date
+KY  2015 CORE              20 DSHOSPID                          49   65   Char Data source hospital identifier
+KY  2015 CORE              21 DX_Admitting                      66   72   Char Admitting Diagnosis Code
+KY  2015 CORE              22 DX1                               73   79   Char Diagnosis 1
+KY  2015 CORE              23 DX2                               80   86   Char Diagnosis 2
+KY  2015 CORE              24 DX3                               87   93   Char Diagnosis 3
+KY  2015 CORE              25 DX4                               94  100   Char Diagnosis 4
+KY  2015 CORE              26 DX5                              101  107   Char Diagnosis 5
+KY  2015 CORE              27 DX6                              108  114   Char Diagnosis 6
+KY  2015 CORE              28 DX7                              115  121   Char Diagnosis 7
+KY  2015 CORE              29 DX8                              122  128   Char Diagnosis 8
+KY  2015 CORE              30 DX9                              129  135   Char Diagnosis 9
+KY  2015 CORE              31 DX10                             136  142   Char Diagnosis 10
+KY  2015 CORE              32 DX11                             143  149   Char Diagnosis 11
+KY  2015 CORE              33 DX12                             150  156   Char Diagnosis 12
+KY  2015 CORE              34 DX13                             157  163   Char Diagnosis 13
+KY  2015 CORE              35 DX14                             164  170   Char Diagnosis 14
+KY  2015 CORE              36 DX15                             171  177   Char Diagnosis 15
+KY  2015 CORE              37 DX16                             178  184   Char Diagnosis 16
+KY  2015 CORE              38 DX17                             185  191   Char Diagnosis 17
+KY  2015 CORE              39 DX18                             192  198   Char Diagnosis 18
+KY  2015 CORE              40 DX19                             199  205   Char Diagnosis 19
+KY  2015 CORE              41 DX20                             206  212   Char Diagnosis 20
+KY  2015 CORE              42 DX21                             213  219   Char Diagnosis 21
+KY  2015 CORE              43 DX22                             220  226   Char Diagnosis 22
+KY  2015 CORE              44 DX23                             227  233   Char Diagnosis 23
+KY  2015 CORE              45 DX24                             234  240   Char Diagnosis 24
+KY  2015 CORE              46 DX25                             241  247   Char Diagnosis 25
+KY  2015 CORE              47 DXCCS1                           248  251   Num  CCS: diagnosis 1
+KY  2015 CORE              48 DXCCS2                           252  255   Num  CCS: diagnosis 2
+KY  2015 CORE              49 DXCCS3                           256  259   Num  CCS: diagnosis 3
+KY  2015 CORE              50 DXCCS4                           260  263   Num  CCS: diagnosis 4
+KY  2015 CORE              51 DXCCS5                           264  267   Num  CCS: diagnosis 5
+KY  2015 CORE              52 DXCCS6                           268  271   Num  CCS: diagnosis 6
+KY  2015 CORE              53 DXCCS7                           272  275   Num  CCS: diagnosis 7
+KY  2015 CORE              54 DXCCS8                           276  279   Num  CCS: diagnosis 8
+KY  2015 CORE              55 DXCCS9                           280  283   Num  CCS: diagnosis 9
+KY  2015 CORE              56 DXCCS10                          284  287   Num  CCS: diagnosis 10
+KY  2015 CORE              57 DXCCS11                          288  291   Num  CCS: diagnosis 11
+KY  2015 CORE              58 DXCCS12                          292  295   Num  CCS: diagnosis 12
+KY  2015 CORE              59 DXCCS13                          296  299   Num  CCS: diagnosis 13
+KY  2015 CORE              60 DXCCS14                          300  303   Num  CCS: diagnosis 14
+KY  2015 CORE              61 DXCCS15                          304  307   Num  CCS: diagnosis 15
+KY  2015 CORE              62 DXCCS16                          308  311   Num  CCS: diagnosis 16
+KY  2015 CORE              63 DXCCS17                          312  315   Num  CCS: diagnosis 17
+KY  2015 CORE              64 DXCCS18                          316  319   Num  CCS: diagnosis 18
+KY  2015 CORE              65 DXCCS19                          320  323   Num  CCS: diagnosis 19
+KY  2015 CORE              66 DXCCS20                          324  327   Num  CCS: diagnosis 20
+KY  2015 CORE              67 DXCCS21                          328  331   Num  CCS: diagnosis 21
+KY  2015 CORE              68 DXCCS22                          332  335   Num  CCS: diagnosis 22
+KY  2015 CORE              69 DXCCS23                          336  339   Num  CCS: diagnosis 23
+KY  2015 CORE              70 DXCCS24                          340  343   Num  CCS: diagnosis 24
+KY  2015 CORE              71 DXCCS25                          344  347   Num  CCS: diagnosis 25
+KY  2015 CORE              72 DXPOA1                           348  348   Char Diagnosis 1, present on admission indicator
+KY  2015 CORE              73 DXPOA2                           349  349   Char Diagnosis 2, present on admission indicator
+KY  2015 CORE              74 DXPOA3                           350  350   Char Diagnosis 3, present on admission indicator
+KY  2015 CORE              75 DXPOA4                           351  351   Char Diagnosis 4, present on admission indicator
+KY  2015 CORE              76 DXPOA5                           352  352   Char Diagnosis 5, present on admission indicator
+KY  2015 CORE              77 DXPOA6                           353  353   Char Diagnosis 6, present on admission indicator
+KY  2015 CORE              78 DXPOA7                           354  354   Char Diagnosis 7, present on admission indicator
+KY  2015 CORE              79 DXPOA8                           355  355   Char Diagnosis 8, present on admission indicator
+KY  2015 CORE              80 DXPOA9                           356  356   Char Diagnosis 9, present on admission indicator
+KY  2015 CORE              81 DXPOA10                          357  357   Char Diagnosis 10, present on admission indicator
+KY  2015 CORE              82 DXPOA11                          358  358   Char Diagnosis 11, present on admission indicator
+KY  2015 CORE              83 DXPOA12                          359  359   Char Diagnosis 12, present on admission indicator
+KY  2015 CORE              84 DXPOA13                          360  360   Char Diagnosis 13, present on admission indicator
+KY  2015 CORE              85 DXPOA14                          361  361   Char Diagnosis 14, present on admission indicator
+KY  2015 CORE              86 DXPOA15                          362  362   Char Diagnosis 15, present on admission indicator
+KY  2015 CORE              87 DXPOA16                          363  363   Char Diagnosis 16, present on admission indicator
+KY  2015 CORE              88 DXPOA17                          364  364   Char Diagnosis 17, present on admission indicator
+KY  2015 CORE              89 DXPOA18                          365  365   Char Diagnosis 18, present on admission indicator
+KY  2015 CORE              90 DXPOA19                          366  366   Char Diagnosis 19, present on admission indicator
+KY  2015 CORE              91 DXPOA20                          367  367   Char Diagnosis 20, present on admission indicator
+KY  2015 CORE              92 DXPOA21                          368  368   Char Diagnosis 21, present on admission indicator
+KY  2015 CORE              93 DXPOA22                          369  369   Char Diagnosis 22, present on admission indicator
+KY  2015 CORE              94 DXPOA23                          370  370   Char Diagnosis 23, present on admission indicator
+KY  2015 CORE              95 DXPOA24                          371  371   Char Diagnosis 24, present on admission indicator
+KY  2015 CORE              96 DXPOA25                          372  372   Char Diagnosis 25, present on admission indicator
+KY  2015 CORE              97 DXVER                            373  375   Num  Diagnosis Version
+KY  2015 CORE              98 E_CCS1                           376  379   Num  CCS: E Code 1
+KY  2015 CORE              99 E_CCS2                           380  383   Num  CCS: E Code 2
+KY  2015 CORE             100 E_CCS3                           384  387   Num  CCS: E Code 3
+KY  2015 CORE             101 E_CCS4                           388  391   Num  CCS: E Code 4
+KY  2015 CORE             102 E_CCS5                           392  395   Num  CCS: E Code 5
+KY  2015 CORE             103 E_CCS6                           396  399   Num  CCS: E Code 6
+KY  2015 CORE             104 E_CCS7                           400  403   Num  CCS: E Code 7
+KY  2015 CORE             105 E_CCS8                           404  407   Num  CCS: E Code 8
+KY  2015 CORE             106 E_CCS9                           408  411   Num  CCS: E Code 9
+KY  2015 CORE             107 E_POA1                           412  412   Char E Code 1, present on admission indicator
+KY  2015 CORE             108 E_POA2                           413  413   Char E Code 2, present on admission indicator
+KY  2015 CORE             109 E_POA3                           414  414   Char E Code 3, present on admission indicator
+KY  2015 CORE             110 E_POA4                           415  415   Char E Code 4, present on admission indicator
+KY  2015 CORE             111 E_POA5                           416  416   Char E Code 5, present on admission indicator
+KY  2015 CORE             112 E_POA6                           417  417   Char E Code 6, present on admission indicator
+KY  2015 CORE             113 E_POA7                           418  418   Char E Code 7, present on admission indicator
+KY  2015 CORE             114 E_POA8                           419  419   Char E Code 8, present on admission indicator
+KY  2015 CORE             115 E_POA9                           420  420   Char E Code 9, present on admission indicator
+KY  2015 CORE             116 ECODE1                           421  427   Char E code 1
+KY  2015 CORE             117 ECODE2                           428  434   Char E code 2
+KY  2015 CORE             118 ECODE3                           435  441   Char E code 3
+KY  2015 CORE             119 ECODE4                           442  448   Char E code 4
+KY  2015 CORE             120 ECODE5                           449  455   Char E code 5
+KY  2015 CORE             121 ECODE6                           456  462   Char E code 6
+KY  2015 CORE             122 ECODE7                           463  469   Char E code 7
+KY  2015 CORE             123 ECODE8                           470  476   Char E code 8
+KY  2015 CORE             124 ECODE9                           477  483   Char E code 9
+KY  2015 CORE             125 FEMALE                           484  485   Num  Indicator of sex
+KY  2015 CORE             126 HCUP_ED                          486  487   Num  HCUP Emergency Department service indicator
+KY  2015 CORE             127 HCUP_OS                          488  489   Num  HCUP Observation Stay service indicator
+KY  2015 CORE             128 HISPANIC                         490  491   Num  Hispanic ethnicity (uniform)
+KY  2015 CORE             129 HISPANIC_X                       492  493   Char Hispanic ethnicity (as received from source)
+KY  2015 CORE             130 HOSP_NPI                         494  503   Char Hospital NPI
+KY  2015 CORE             131 HOSPBRTH                         504  506   Num  Indicator of birth in this hospital
+KY  2015 CORE             132 HOSPST                           507  508   Char Hospital state postal code
+KY  2015 CORE             133 KEY                              509  523   Num  HCUP record identifier
+KY  2015 CORE             134 LOS                              524  528   Num  Length of stay (cleaned)
+KY  2015 CORE             135 LOS_X                            529  534   Num  Length of stay (as received from source)
+KY  2015 CORE             136 MDC                              535  536   Num  MDC in effect on discharge date
+KY  2015 CORE             137 MDC_NoPOA                        537  538   Num  MDC in use on discharge date, calculated without POA
+KY  2015 CORE             138 MDC32                            539  540   Num  MDC, version 32
+KY  2015 CORE             139 MEDINCSTQ                        541  542   Num  Median household income state quartile for patient ZIP Code
+KY  2015 CORE             140 NCHRONIC                         543  545   Num  Number of chronic conditions
+KY  2015 CORE             141 NDX                              546  548   Num  Number of diagnoses on this record
+KY  2015 CORE             142 NECODE                           549  550   Num  Number of E codes on this record
+KY  2015 CORE             143 NEOMAT                           551  552   Num  Neonatal and/or maternal DX and/or PR
+KY  2015 CORE             144 NPR                              553  555   Num  Number of procedures on this record
+KY  2015 CORE             145 ORPROC                           556  557   Num  Major operating room procedure indicator
+KY  2015 CORE             146 OS_TIME                          558  568 2 Num  Observation stay time summed from UNITS
+KY  2015 CORE             147 PAY1                             569  570   Num  Primary expected payer (uniform)
+KY  2015 CORE             148 PAY1_X                           571  575   Char Primary expected payer (as received from source)
+KY  2015 CORE             149 PAY2                             576  577   Num  Secondary expected payer (uniform)
+KY  2015 CORE             150 PAY2_X                           578  582   Char Secondary expected payer (as received from source)
+KY  2015 CORE             151 PAY3                             583  584   Num  Tertiary expected payer (uniform)
+KY  2015 CORE             152 PAY3_X                           585  589   Char Tertiary expected payer (as received from source)
+KY  2015 CORE             153 PL_CBSA                          590  592   Num  Patient location: Core Based Statistical Area (CBSA)
+KY  2015 CORE             154 PL_NCHS                          593  594   Num  Patient Location: NCHS Urban-Rural Code
+KY  2015 CORE             155 PL_RUCC                          595  596   Num  Patient location: Rural-Urban Continuum Codes(RUCC)
+KY  2015 CORE             156 PL_UIC                           597  598   Num  Patient location: Urban Influence Codes
+KY  2015 CORE             157 PL_UR_CAT4                       599  600   Num  Patient Location: Urban-Rural 4 Categories
+KY  2015 CORE             158 POA_Disch_Edit1                  601  602   Num  Discharge has POA missing on all nonexempt diagnoses
+KY  2015 CORE             159 POA_Disch_Edit2                  603  604   Num  Discharge has POA missing on all nonexempt secondary diagnoses
+KY  2015 CORE             160 POA_Hosp_Edit1                   605  606   Num  Hospital reported POA as Y on all diagnoses on all discharges
+KY  2015 CORE             161 POA_Hosp_Edit2                   607  608   Num  Hospital reported POA as missing on all non-Medicare discharges
+KY  2015 CORE             162 POA_Hosp_Edit3                   609  610   Num  Hospital reported POA as missing on all nonexempt diagnoses for 15% or more of discharges
+KY  2015 CORE             163 POA_Hosp_Edit3_Value             611  618 2 Num  Percentage of discharges with all nonexempt diagnoses missing POA indicators
+KY  2015 CORE             164 PointOfOrigin_X                  619  619   Char Point of origin for admission or visit, as received from source
+KY  2015 CORE             165 PointOfOriginUB04                620  620   Char Point of origin for admission or visit, UB-04 standard coding
+KY  2015 CORE             166 PR1                              621  627   Char Procedure 1
+KY  2015 CORE             167 PR2                              628  634   Char Procedure 2
+KY  2015 CORE             168 PR3                              635  641   Char Procedure 3
+KY  2015 CORE             169 PR4                              642  648   Char Procedure 4
+KY  2015 CORE             170 PR5                              649  655   Char Procedure 5
+KY  2015 CORE             171 PR6                              656  662   Char Procedure 6
+KY  2015 CORE             172 PR7                              663  669   Char Procedure 7
+KY  2015 CORE             173 PR8                              670  676   Char Procedure 8
+KY  2015 CORE             174 PR9                              677  683   Char Procedure 9
+KY  2015 CORE             175 PR10                             684  690   Char Procedure 10
+KY  2015 CORE             176 PR11                             691  697   Char Procedure 11
+KY  2015 CORE             177 PR12                             698  704   Char Procedure 12
+KY  2015 CORE             178 PR13                             705  711   Char Procedure 13
+KY  2015 CORE             179 PR14                             712  718   Char Procedure 14
+KY  2015 CORE             180 PR15                             719  725   Char Procedure 15
+KY  2015 CORE             181 PR16                             726  732   Char Procedure 16
+KY  2015 CORE             182 PR17                             733  739   Char Procedure 17
+KY  2015 CORE             183 PR18                             740  746   Char Procedure 18
+KY  2015 CORE             184 PR19                             747  753   Char Procedure 19
+KY  2015 CORE             185 PR20                             754  760   Char Procedure 20
+KY  2015 CORE             186 PR21                             761  767   Char Procedure 21
+KY  2015 CORE             187 PR22                             768  774   Char Procedure 22
+KY  2015 CORE             188 PR23                             775  781   Char Procedure 23
+KY  2015 CORE             189 PR24                             782  788   Char Procedure 24
+KY  2015 CORE             190 PR25                             789  795   Char Procedure 25
+KY  2015 CORE             191 PRCCS1                           796  798   Num  CCS: procedure 1
+KY  2015 CORE             192 PRCCS2                           799  801   Num  CCS: procedure 2
+KY  2015 CORE             193 PRCCS3                           802  804   Num  CCS: procedure 3
+KY  2015 CORE             194 PRCCS4                           805  807   Num  CCS: procedure 4
+KY  2015 CORE             195 PRCCS5                           808  810   Num  CCS: procedure 5
+KY  2015 CORE             196 PRCCS6                           811  813   Num  CCS: procedure 6
+KY  2015 CORE             197 PRCCS7                           814  816   Num  CCS: procedure 7
+KY  2015 CORE             198 PRCCS8                           817  819   Num  CCS: procedure 8
+KY  2015 CORE             199 PRCCS9                           820  822   Num  CCS: procedure 9
+KY  2015 CORE             200 PRCCS10                          823  825   Num  CCS: procedure 10
+KY  2015 CORE             201 PRCCS11                          826  828   Num  CCS: procedure 11
+KY  2015 CORE             202 PRCCS12                          829  831   Num  CCS: procedure 12
+KY  2015 CORE             203 PRCCS13                          832  834   Num  CCS: procedure 13
+KY  2015 CORE             204 PRCCS14                          835  837   Num  CCS: procedure 14
+KY  2015 CORE             205 PRCCS15                          838  840   Num  CCS: procedure 15
+KY  2015 CORE             206 PRCCS16                          841  843   Num  CCS: procedure 16
+KY  2015 CORE             207 PRCCS17                          844  846   Num  CCS: procedure 17
+KY  2015 CORE             208 PRCCS18                          847  849   Num  CCS: procedure 18
+KY  2015 CORE             209 PRCCS19                          850  852   Num  CCS: procedure 19
+KY  2015 CORE             210 PRCCS20                          853  855   Num  CCS: procedure 20
+KY  2015 CORE             211 PRCCS21                          856  858   Num  CCS: procedure 21
+KY  2015 CORE             212 PRCCS22                          859  861   Num  CCS: procedure 22
+KY  2015 CORE             213 PRCCS23                          862  864   Num  CCS: procedure 23
+KY  2015 CORE             214 PRCCS24                          865  867   Num  CCS: procedure 24
+KY  2015 CORE             215 PRCCS25                          868  870   Num  CCS: procedure 25
+KY  2015 CORE             216 PRDAY1                           871  875   Num  Number of days from admission to PR1
+KY  2015 CORE             217 PRDAY2                           876  880   Num  Number of days from admission to PR2
+KY  2015 CORE             218 PRDAY3                           881  885   Num  Number of days from admission to PR3
+KY  2015 CORE             219 PRDAY4                           886  890   Num  Number of days from admission to PR4
+KY  2015 CORE             220 PRDAY5                           891  895   Num  Number of days from admission to PR5
+KY  2015 CORE             221 PRDAY6                           896  900   Num  Number of days from admission to PR6
+KY  2015 CORE             222 PRDAY7                           901  905   Num  Number of days from admission to PR7
+KY  2015 CORE             223 PRDAY8                           906  910   Num  Number of days from admission to PR8
+KY  2015 CORE             224 PRDAY9                           911  915   Num  Number of days from admission to PR9
+KY  2015 CORE             225 PRDAY10                          916  920   Num  Number of days from admission to PR10
+KY  2015 CORE             226 PRDAY11                          921  925   Num  Number of days from admission to PR11
+KY  2015 CORE             227 PRDAY12                          926  930   Num  Number of days from admission to PR12
+KY  2015 CORE             228 PRDAY13                          931  935   Num  Number of days from admission to PR13
+KY  2015 CORE             229 PRDAY14                          936  940   Num  Number of days from admission to PR14
+KY  2015 CORE             230 PRDAY15                          941  945   Num  Number of days from admission to PR15
+KY  2015 CORE             231 PRDAY16                          946  950   Num  Number of days from admission to PR16
+KY  2015 CORE             232 PRDAY17                          951  955   Num  Number of days from admission to PR17
+KY  2015 CORE             233 PRDAY18                          956  960   Num  Number of days from admission to PR18
+KY  2015 CORE             234 PRDAY19                          961  965   Num  Number of days from admission to PR19
+KY  2015 CORE             235 PRDAY20                          966  970   Num  Number of days from admission to PR20
+KY  2015 CORE             236 PRDAY21                          971  975   Num  Number of days from admission to PR21
+KY  2015 CORE             237 PRDAY22                          976  980   Num  Number of days from admission to PR22
+KY  2015 CORE             238 PRDAY23                          981  985   Num  Number of days from admission to PR23
+KY  2015 CORE             239 PRDAY24                          986  990   Num  Number of days from admission to PR24
+KY  2015 CORE             240 PRDAY25                          991  995   Num  Number of days from admission to PR25
+KY  2015 CORE             241 PROCTYPE                         996  998   Num  Procedure type indicator
+KY  2015 CORE             242 PRVER                            999 1001   Num  Procedure Version
+KY  2015 CORE             243 PSTATE                          1002 1003   Char Patient State postal code
+KY  2015 CORE             244 PSTCO                           1004 1008   Num  Patient state/county FIPS code
+KY  2015 CORE             245 PSTCO2                          1009 1013   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+KY  2015 CORE             246 RACE                            1014 1015   Num  Race (uniform)
+KY  2015 CORE             247 RACE_X                          1016 1017   Char Race (as received from source)
+KY  2015 CORE             248 SERVICELINE                     1018 1019   Num  Hospital Service Line
+KY  2015 CORE             249 TOTCHG                          1020 1029   Num  Total charges (cleaned)
+KY  2015 CORE             250 TOTCHG_X                        1030 1044 2 Num  Total charges (as received from source)
+KY  2015 CORE             251 TRAN_IN                         1045 1046   Num  Transfer in indicator
+KY  2015 CORE             252 TRAN_OUT                        1047 1048   Num  Transfer out indicator
+KY  2015 CORE             253 YEAR                            1049 1052   Num  Calendar year
+KY  2015 CORE             254 ZIP                             1053 1057   Char Patient ZIP Code
+KY  2015 CORE             255 ZIPINC_QRTL                     1058 1060   Num  Median household income national quartile for patient ZIP Code
+KY  2015 CORE             256 AYEAR                           1061 1064   Num  Admission year
+KY  2015 CORE             257 BMONTH                          1065 1066   Num  Birth month
+KY  2015 CORE             258 BYEAR                           1067 1070   Num  Birth year
+KY  2015 CORE             259 PRMONTH1                        1071 1072   Num  Month of procedure 1
+KY  2015 CORE             260 PRMONTH2                        1073 1074   Num  Month of procedure 2
+KY  2015 CORE             261 PRMONTH3                        1075 1076   Num  Month of procedure 3
+KY  2015 CORE             262 PRMONTH4                        1077 1078   Num  Month of procedure 4
+KY  2015 CORE             263 PRMONTH5                        1079 1080   Num  Month of procedure 5
+KY  2015 CORE             264 PRMONTH6                        1081 1082   Num  Month of procedure 6
+KY  2015 CORE             265 PRMONTH7                        1083 1084   Num  Month of procedure 7
+KY  2015 CORE             266 PRMONTH8                        1085 1086   Num  Month of procedure 8
+KY  2015 CORE             267 PRMONTH9                        1087 1088   Num  Month of procedure 9
+KY  2015 CORE             268 PRMONTH10                       1089 1090   Num  Month of procedure 10
+KY  2015 CORE             269 PRMONTH11                       1091 1092   Num  Month of procedure 11
+KY  2015 CORE             270 PRMONTH12                       1093 1094   Num  Month of procedure 12
+KY  2015 CORE             271 PRMONTH13                       1095 1096   Num  Month of procedure 13
+KY  2015 CORE             272 PRMONTH14                       1097 1098   Num  Month of procedure 14
+KY  2015 CORE             273 PRMONTH15                       1099 1100   Num  Month of procedure 15
+KY  2015 CORE             274 PRMONTH16                       1101 1102   Num  Month of procedure 16
+KY  2015 CORE             275 PRMONTH17                       1103 1104   Num  Month of procedure 17
+KY  2015 CORE             276 PRMONTH18                       1105 1106   Num  Month of procedure 18
+KY  2015 CORE             277 PRMONTH19                       1107 1108   Num  Month of procedure 19
+KY  2015 CORE             278 PRMONTH20                       1109 1110   Num  Month of procedure 20
+KY  2015 CORE             279 PRMONTH21                       1111 1112   Num  Month of procedure 21
+KY  2015 CORE             280 PRMONTH22                       1113 1114   Num  Month of procedure 22
+KY  2015 CORE             281 PRMONTH23                       1115 1116   Num  Month of procedure 23
+KY  2015 CORE             282 PRMONTH24                       1117 1118   Num  Month of procedure 24
+KY  2015 CORE             283 PRMONTH25                       1119 1120   Num  Month of procedure 25
+KY  2015 CORE             284 PRYEAR1                         1121 1124   Num  Year of procedure 1
+KY  2015 CORE             285 PRYEAR2                         1125 1128   Num  Year of procedure 2
+KY  2015 CORE             286 PRYEAR3                         1129 1132   Num  Year of procedure 3
+KY  2015 CORE             287 PRYEAR4                         1133 1136   Num  Year of procedure 4
+KY  2015 CORE             288 PRYEAR5                         1137 1140   Num  Year of procedure 5
+KY  2015 CORE             289 PRYEAR6                         1141 1144   Num  Year of procedure 6
+KY  2015 CORE             290 PRYEAR7                         1145 1148   Num  Year of procedure 7
+KY  2015 CORE             291 PRYEAR8                         1149 1152   Num  Year of procedure 8
+KY  2015 CORE             292 PRYEAR9                         1153 1156   Num  Year of procedure 9
+KY  2015 CORE             293 PRYEAR10                        1157 1160   Num  Year of procedure 10
+KY  2015 CORE             294 PRYEAR11                        1161 1164   Num  Year of procedure 11
+KY  2015 CORE             295 PRYEAR12                        1165 1168   Num  Year of procedure 12
+KY  2015 CORE             296 PRYEAR13                        1169 1172   Num  Year of procedure 13
+KY  2015 CORE             297 PRYEAR14                        1173 1176   Num  Year of procedure 14
+KY  2015 CORE             298 PRYEAR15                        1177 1180   Num  Year of procedure 15
+KY  2015 CORE             299 PRYEAR16                        1181 1184   Num  Year of procedure 16
+KY  2015 CORE             300 PRYEAR17                        1185 1188   Num  Year of procedure 17
+KY  2015 CORE             301 PRYEAR18                        1189 1192   Num  Year of procedure 18
+KY  2015 CORE             302 PRYEAR19                        1193 1196   Num  Year of procedure 19
+KY  2015 CORE             303 PRYEAR20                        1197 1200   Num  Year of procedure 20
+KY  2015 CORE             304 PRYEAR21                        1201 1204   Num  Year of procedure 21
+KY  2015 CORE             305 PRYEAR22                        1205 1208   Num  Year of procedure 22
+KY  2015 CORE             306 PRYEAR23                        1209 1212   Num  Year of procedure 23
+KY  2015 CORE             307 PRYEAR24                        1213 1216   Num  Year of procedure 24
+KY  2015 CORE             308 PRYEAR25                        1217 1220   Num  Year of procedure 25

@@ -1,0 +1,272 @@
+Data Set Name: CA_SIDC_2008_CORE               
+Number of Observations: 4017998
+Total Record Length: 866
+Total Number of Variables: 252
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 56    Variable name
+58- 61    Starting column of variable in ASCII file
+63- 66    Ending column of variable in ASCII file
+    68    Non-zero number of digits after decimal point for numeric variable
+70- 73    Variable type (Num=numeric; Char=character)
+75-174    Variable label
+
+
+CA  2008 CORE               1 AGE                           1    3   Num  Age in years at admission
+CA  2008 CORE               2 AGEDAY                        4    6   Num  Age in days (when age < 1 year)
+CA  2008 CORE               3 AGEMONTH                      7    9   Num  Age in months (when age < 11 years)
+CA  2008 CORE               4 AMONTH                       10   11   Num  Admission month
+CA  2008 CORE               5 ASCHED                       12   13   Num  Admission scheduled vs. unscheduled
+CA  2008 CORE               6 ASOURCE                      14   15   Num  Admission source (uniform)
+CA  2008 CORE               7 ASOURCE_X                    16   18   Char Admission source (as received from source)
+CA  2008 CORE               8 AWEEKEND                     19   20   Num  Admission day is a weekend
+CA  2008 CORE               9 DIED                         21   22   Num  Died during hospitalization
+CA  2008 CORE              10 DISPUNIFORM                  23   24   Num  Disposition of patient (uniform)
+CA  2008 CORE              11 DISP_X                       25   26   Char Disposition of patient (as received from source)
+CA  2008 CORE              12 DNR                          27   28   Num  Do not resuscitate indicator
+CA  2008 CORE              13 DQTR                         29   30   Num  Discharge quarter
+CA  2008 CORE              14 DRG                          31   33   Num  DRG in effect on discharge date
+CA  2008 CORE              15 DRG24                        34   36   Num  DRG, version 24
+CA  2008 CORE              16 DRGVER                       37   38   Num  DRG grouper version used on discharge date
+CA  2008 CORE              17 DRG_NoPOA                    39   41   Num  DRG in use on discharge date, calculated without POA
+CA  2008 CORE              18 DSHOSPID                     42   54   Char Data source hospital identifier
+CA  2008 CORE              19 DX1                          55   59   Char Diagnosis 1
+CA  2008 CORE              20 DX2                          60   64   Char Diagnosis 2
+CA  2008 CORE              21 DX3                          65   69   Char Diagnosis 3
+CA  2008 CORE              22 DX4                          70   74   Char Diagnosis 4
+CA  2008 CORE              23 DX5                          75   79   Char Diagnosis 5
+CA  2008 CORE              24 DX6                          80   84   Char Diagnosis 6
+CA  2008 CORE              25 DX7                          85   89   Char Diagnosis 7
+CA  2008 CORE              26 DX8                          90   94   Char Diagnosis 8
+CA  2008 CORE              27 DX9                          95   99   Char Diagnosis 9
+CA  2008 CORE              28 DX10                        100  104   Char Diagnosis 10
+CA  2008 CORE              29 DX11                        105  109   Char Diagnosis 11
+CA  2008 CORE              30 DX12                        110  114   Char Diagnosis 12
+CA  2008 CORE              31 DX13                        115  119   Char Diagnosis 13
+CA  2008 CORE              32 DX14                        120  124   Char Diagnosis 14
+CA  2008 CORE              33 DX15                        125  129   Char Diagnosis 15
+CA  2008 CORE              34 DX16                        130  134   Char Diagnosis 16
+CA  2008 CORE              35 DX17                        135  139   Char Diagnosis 17
+CA  2008 CORE              36 DX18                        140  144   Char Diagnosis 18
+CA  2008 CORE              37 DX19                        145  149   Char Diagnosis 19
+CA  2008 CORE              38 DX20                        150  154   Char Diagnosis 20
+CA  2008 CORE              39 DX21                        155  159   Char Diagnosis 21
+CA  2008 CORE              40 DX22                        160  164   Char Diagnosis 22
+CA  2008 CORE              41 DX23                        165  169   Char Diagnosis 23
+CA  2008 CORE              42 DX24                        170  174   Char Diagnosis 24
+CA  2008 CORE              43 DX25                        175  179   Char Diagnosis 25
+CA  2008 CORE              44 DXCCS1                      180  183   Num  CCS: diagnosis 1
+CA  2008 CORE              45 DXCCS2                      184  187   Num  CCS: diagnosis 2
+CA  2008 CORE              46 DXCCS3                      188  191   Num  CCS: diagnosis 3
+CA  2008 CORE              47 DXCCS4                      192  195   Num  CCS: diagnosis 4
+CA  2008 CORE              48 DXCCS5                      196  199   Num  CCS: diagnosis 5
+CA  2008 CORE              49 DXCCS6                      200  203   Num  CCS: diagnosis 6
+CA  2008 CORE              50 DXCCS7                      204  207   Num  CCS: diagnosis 7
+CA  2008 CORE              51 DXCCS8                      208  211   Num  CCS: diagnosis 8
+CA  2008 CORE              52 DXCCS9                      212  215   Num  CCS: diagnosis 9
+CA  2008 CORE              53 DXCCS10                     216  219   Num  CCS: diagnosis 10
+CA  2008 CORE              54 DXCCS11                     220  223   Num  CCS: diagnosis 11
+CA  2008 CORE              55 DXCCS12                     224  227   Num  CCS: diagnosis 12
+CA  2008 CORE              56 DXCCS13                     228  231   Num  CCS: diagnosis 13
+CA  2008 CORE              57 DXCCS14                     232  235   Num  CCS: diagnosis 14
+CA  2008 CORE              58 DXCCS15                     236  239   Num  CCS: diagnosis 15
+CA  2008 CORE              59 DXCCS16                     240  243   Num  CCS: diagnosis 16
+CA  2008 CORE              60 DXCCS17                     244  247   Num  CCS: diagnosis 17
+CA  2008 CORE              61 DXCCS18                     248  251   Num  CCS: diagnosis 18
+CA  2008 CORE              62 DXCCS19                     252  255   Num  CCS: diagnosis 19
+CA  2008 CORE              63 DXCCS20                     256  259   Num  CCS: diagnosis 20
+CA  2008 CORE              64 DXCCS21                     260  263   Num  CCS: diagnosis 21
+CA  2008 CORE              65 DXCCS22                     264  267   Num  CCS: diagnosis 22
+CA  2008 CORE              66 DXCCS23                     268  271   Num  CCS: diagnosis 23
+CA  2008 CORE              67 DXCCS24                     272  275   Num  CCS: diagnosis 24
+CA  2008 CORE              68 DXCCS25                     276  279   Num  CCS: diagnosis 25
+CA  2008 CORE              69 DXPOA1                      280  280   Char Diagnosis 1, present on admission indicator
+CA  2008 CORE              70 DXPOA2                      281  281   Char Diagnosis 2, present on admission indicator
+CA  2008 CORE              71 DXPOA3                      282  282   Char Diagnosis 3, present on admission indicator
+CA  2008 CORE              72 DXPOA4                      283  283   Char Diagnosis 4, present on admission indicator
+CA  2008 CORE              73 DXPOA5                      284  284   Char Diagnosis 5, present on admission indicator
+CA  2008 CORE              74 DXPOA6                      285  285   Char Diagnosis 6, present on admission indicator
+CA  2008 CORE              75 DXPOA7                      286  286   Char Diagnosis 7, present on admission indicator
+CA  2008 CORE              76 DXPOA8                      287  287   Char Diagnosis 8, present on admission indicator
+CA  2008 CORE              77 DXPOA9                      288  288   Char Diagnosis 9, present on admission indicator
+CA  2008 CORE              78 DXPOA10                     289  289   Char Diagnosis 10, present on admission indicator
+CA  2008 CORE              79 DXPOA11                     290  290   Char Diagnosis 11, present on admission indicator
+CA  2008 CORE              80 DXPOA12                     291  291   Char Diagnosis 12, present on admission indicator
+CA  2008 CORE              81 DXPOA13                     292  292   Char Diagnosis 13, present on admission indicator
+CA  2008 CORE              82 DXPOA14                     293  293   Char Diagnosis 14, present on admission indicator
+CA  2008 CORE              83 DXPOA15                     294  294   Char Diagnosis 15, present on admission indicator
+CA  2008 CORE              84 DXPOA16                     295  295   Char Diagnosis 16, present on admission indicator
+CA  2008 CORE              85 DXPOA17                     296  296   Char Diagnosis 17, present on admission indicator
+CA  2008 CORE              86 DXPOA18                     297  297   Char Diagnosis 18, present on admission indicator
+CA  2008 CORE              87 DXPOA19                     298  298   Char Diagnosis 19, present on admission indicator
+CA  2008 CORE              88 DXPOA20                     299  299   Char Diagnosis 20, present on admission indicator
+CA  2008 CORE              89 DXPOA21                     300  300   Char Diagnosis 21, present on admission indicator
+CA  2008 CORE              90 DXPOA22                     301  301   Char Diagnosis 22, present on admission indicator
+CA  2008 CORE              91 DXPOA23                     302  302   Char Diagnosis 23, present on admission indicator
+CA  2008 CORE              92 DXPOA24                     303  303   Char Diagnosis 24, present on admission indicator
+CA  2008 CORE              93 DXPOA25                     304  304   Char Diagnosis 25, present on admission indicator
+CA  2008 CORE              94 ECODE1                      305  309   Char E code 1
+CA  2008 CORE              95 ECODE2                      310  314   Char E code 2
+CA  2008 CORE              96 ECODE3                      315  319   Char E code 3
+CA  2008 CORE              97 ECODE4                      320  324   Char E code 4
+CA  2008 CORE              98 ECODE5                      325  329   Char E code 5
+CA  2008 CORE              99 E_CCS1                      330  333   Num  CCS: E Code 1
+CA  2008 CORE             100 E_CCS2                      334  337   Num  CCS: E Code 2
+CA  2008 CORE             101 E_CCS3                      338  341   Num  CCS: E Code 3
+CA  2008 CORE             102 E_CCS4                      342  345   Num  CCS: E Code 4
+CA  2008 CORE             103 E_CCS5                      346  349   Num  CCS: E Code 5
+CA  2008 CORE             104 E_POA1                      350  350   Char E Code 1, present on admission indicator
+CA  2008 CORE             105 E_POA2                      351  351   Char E Code 2, present on admission indicator
+CA  2008 CORE             106 E_POA3                      352  352   Char E Code 3, present on admission indicator
+CA  2008 CORE             107 E_POA4                      353  353   Char E Code 4, present on admission indicator
+CA  2008 CORE             108 E_POA5                      354  354   Char E Code 5, present on admission indicator
+CA  2008 CORE             109 FEMALE                      355  356   Num  Indicator of sex
+CA  2008 CORE             110 HCUP_ED                     357  358   Num  HCUP Emergency Department service indicator
+CA  2008 CORE             111 HCUP_OS                     359  360   Num  HCUP Observation Stay service indicator
+CA  2008 CORE             112 HISPANIC_X                  361  361   Char Hispanic ethnicity (as received from source)
+CA  2008 CORE             113 HOSPBRTH                    362  364   Num  Indicator of birth in this hospital
+CA  2008 CORE             114 HOSPST                      365  366   Char Hospital state postal code
+CA  2008 CORE             115 Homeless                    367  368   Num  Indicator that patient is homeless
+CA  2008 CORE             116 HospitalUnit                369  370   Num  Indicator that patient was discharged from a special unit within an acute care hospital (reported by source)
+CA  2008 CORE             117 KEY                         371  384   Num  HCUP record identifier
+CA  2008 CORE             118 LOS                         385  389   Num  Length of stay (cleaned)
+CA  2008 CORE             119 LOS_X                       390  395   Num  Length of stay (as received from source)
+CA  2008 CORE             120 MDC                         396  397   Num  MDC in effect on discharge date
+CA  2008 CORE             121 MDC24                       398  399   Num  MDC, version 24
+CA  2008 CORE             122 MEDINCSTQ                   400  401   Num  Median household income state quartile for patient ZIP Code
+CA  2008 CORE             123 NDX                         402  403   Num  Number of diagnoses on this record
+CA  2008 CORE             124 NECODE                      404  405   Num  Number of E codes on this record
+CA  2008 CORE             125 NEOMAT                      406  407   Num  Neonatal and/or maternal DX and/or PR
+CA  2008 CORE             126 NPR                         408  409   Num  Number of procedures on this record
+CA  2008 CORE             127 PAY1                        410  411   Num  Primary expected payer (uniform)
+CA  2008 CORE             128 PAY1_X                      412  414   Char Primary expected payer (as received from source)
+CA  2008 CORE             129 PAYER1_X                    415  418   Char Primary expected payer plan identifier (as received from source)
+CA  2008 CORE             130 PL_CBSA                     419  421   Num  Patient location: Core Based Statistical Area (CBSA)
+CA  2008 CORE             131 PL_MSA1993                  422  424   Num  Patient location: Metropolitan Statistical Area (MSA), 1993
+CA  2008 CORE             132 PL_NCHS2006                 425  426   Num  Patient Location: NCHS Urban-Rural Code (V2006)
+CA  2008 CORE             133 PL_RUCA4_2005               427  428   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, four levels
+CA  2008 CORE             134 PL_RUCC2003                 429  430   Num  Patient location: Rural-Urban Continuum Codes(RUCC), 2003
+CA  2008 CORE             135 PL_UIC2003                  431  432   Num  Patient location: Urban Influence Codes, 2003
+CA  2008 CORE             136 PL_UR_CAT4                  433  434   Num  Patient Location: Urban-Rural 4 Categories
+CA  2008 CORE             137 PNUM_R                      435  443   Num  Person number (re-identified)
+CA  2008 CORE             138 PR1                         444  447   Char Procedure 1
+CA  2008 CORE             139 PR2                         448  451   Char Procedure 2
+CA  2008 CORE             140 PR3                         452  455   Char Procedure 3
+CA  2008 CORE             141 PR4                         456  459   Char Procedure 4
+CA  2008 CORE             142 PR5                         460  463   Char Procedure 5
+CA  2008 CORE             143 PR6                         464  467   Char Procedure 6
+CA  2008 CORE             144 PR7                         468  471   Char Procedure 7
+CA  2008 CORE             145 PR8                         472  475   Char Procedure 8
+CA  2008 CORE             146 PR9                         476  479   Char Procedure 9
+CA  2008 CORE             147 PR10                        480  483   Char Procedure 10
+CA  2008 CORE             148 PR11                        484  487   Char Procedure 11
+CA  2008 CORE             149 PR12                        488  491   Char Procedure 12
+CA  2008 CORE             150 PR13                        492  495   Char Procedure 13
+CA  2008 CORE             151 PR14                        496  499   Char Procedure 14
+CA  2008 CORE             152 PR15                        500  503   Char Procedure 15
+CA  2008 CORE             153 PR16                        504  507   Char Procedure 16
+CA  2008 CORE             154 PR17                        508  511   Char Procedure 17
+CA  2008 CORE             155 PR18                        512  515   Char Procedure 18
+CA  2008 CORE             156 PR19                        516  519   Char Procedure 19
+CA  2008 CORE             157 PR20                        520  523   Char Procedure 20
+CA  2008 CORE             158 PR21                        524  527   Char Procedure 21
+CA  2008 CORE             159 PRCCS1                      528  530   Num  CCS: procedure 1
+CA  2008 CORE             160 PRCCS2                      531  533   Num  CCS: procedure 2
+CA  2008 CORE             161 PRCCS3                      534  536   Num  CCS: procedure 3
+CA  2008 CORE             162 PRCCS4                      537  539   Num  CCS: procedure 4
+CA  2008 CORE             163 PRCCS5                      540  542   Num  CCS: procedure 5
+CA  2008 CORE             164 PRCCS6                      543  545   Num  CCS: procedure 6
+CA  2008 CORE             165 PRCCS7                      546  548   Num  CCS: procedure 7
+CA  2008 CORE             166 PRCCS8                      549  551   Num  CCS: procedure 8
+CA  2008 CORE             167 PRCCS9                      552  554   Num  CCS: procedure 9
+CA  2008 CORE             168 PRCCS10                     555  557   Num  CCS: procedure 10
+CA  2008 CORE             169 PRCCS11                     558  560   Num  CCS: procedure 11
+CA  2008 CORE             170 PRCCS12                     561  563   Num  CCS: procedure 12
+CA  2008 CORE             171 PRCCS13                     564  566   Num  CCS: procedure 13
+CA  2008 CORE             172 PRCCS14                     567  569   Num  CCS: procedure 14
+CA  2008 CORE             173 PRCCS15                     570  572   Num  CCS: procedure 15
+CA  2008 CORE             174 PRCCS16                     573  575   Num  CCS: procedure 16
+CA  2008 CORE             175 PRCCS17                     576  578   Num  CCS: procedure 17
+CA  2008 CORE             176 PRCCS18                     579  581   Num  CCS: procedure 18
+CA  2008 CORE             177 PRCCS19                     582  584   Num  CCS: procedure 19
+CA  2008 CORE             178 PRCCS20                     585  587   Num  CCS: procedure 20
+CA  2008 CORE             179 PRCCS21                     588  590   Num  CCS: procedure 21
+CA  2008 CORE             180 PRDAY1                      591  595   Num  Number of days from admission to PR1
+CA  2008 CORE             181 PRDAY2                      596  600   Num  Number of days from admission to PR2
+CA  2008 CORE             182 PRDAY3                      601  605   Num  Number of days from admission to PR3
+CA  2008 CORE             183 PRDAY4                      606  610   Num  Number of days from admission to PR4
+CA  2008 CORE             184 PRDAY5                      611  615   Num  Number of days from admission to PR5
+CA  2008 CORE             185 PRDAY6                      616  620   Num  Number of days from admission to PR6
+CA  2008 CORE             186 PRDAY7                      621  625   Num  Number of days from admission to PR7
+CA  2008 CORE             187 PRDAY8                      626  630   Num  Number of days from admission to PR8
+CA  2008 CORE             188 PRDAY9                      631  635   Num  Number of days from admission to PR9
+CA  2008 CORE             189 PRDAY10                     636  640   Num  Number of days from admission to PR10
+CA  2008 CORE             190 PRDAY11                     641  645   Num  Number of days from admission to PR11
+CA  2008 CORE             191 PRDAY12                     646  650   Num  Number of days from admission to PR12
+CA  2008 CORE             192 PRDAY13                     651  655   Num  Number of days from admission to PR13
+CA  2008 CORE             193 PRDAY14                     656  660   Num  Number of days from admission to PR14
+CA  2008 CORE             194 PRDAY15                     661  665   Num  Number of days from admission to PR15
+CA  2008 CORE             195 PRDAY16                     666  670   Num  Number of days from admission to PR16
+CA  2008 CORE             196 PRDAY17                     671  675   Num  Number of days from admission to PR17
+CA  2008 CORE             197 PRDAY18                     676  680   Num  Number of days from admission to PR18
+CA  2008 CORE             198 PRDAY19                     681  685   Num  Number of days from admission to PR19
+CA  2008 CORE             199 PRDAY20                     686  690   Num  Number of days from admission to PR20
+CA  2008 CORE             200 PRDAY21                     691  695   Num  Number of days from admission to PR21
+CA  2008 CORE             201 PROCTYPE                    696  698   Num  Procedure type indicator
+CA  2008 CORE             202 PSTATE                      699  700   Char Patient State postal code
+CA  2008 CORE             203 RACE                        701  702   Num  Race (uniform)
+CA  2008 CORE             204 RACE_X                      703  703   Char Race (as received from source)
+CA  2008 CORE             205 TOTCHG                      704  713   Num  Total charges (cleaned)
+CA  2008 CORE             206 TOTCHG_X                    714  728 2 Num  Total charges (as received from source)
+CA  2008 CORE             207 YEAR                        729  732   Num  Calendar year
+CA  2008 CORE             208 AYEAR                       733  736   Num  Admission year
+CA  2008 CORE             209 DMONTH                      737  738   Num  Discharge month
+CA  2008 CORE             210 BMONTH                      739  740   Num  Birth month
+CA  2008 CORE             211 PRMONTH1                    741  742   Num  Month of procedure 1
+CA  2008 CORE             212 PRMONTH2                    743  744   Num  Month of procedure 2
+CA  2008 CORE             213 PRMONTH3                    745  746   Num  Month of procedure 3
+CA  2008 CORE             214 PRMONTH4                    747  748   Num  Month of procedure 4
+CA  2008 CORE             215 PRMONTH5                    749  750   Num  Month of procedure 5
+CA  2008 CORE             216 PRMONTH6                    751  752   Num  Month of procedure 6
+CA  2008 CORE             217 PRMONTH7                    753  754   Num  Month of procedure 7
+CA  2008 CORE             218 PRMONTH8                    755  756   Num  Month of procedure 8
+CA  2008 CORE             219 PRMONTH9                    757  758   Num  Month of procedure 9
+CA  2008 CORE             220 PRMONTH10                   759  760   Num  Month of procedure 10
+CA  2008 CORE             221 PRMONTH11                   761  762   Num  Month of procedure 11
+CA  2008 CORE             222 PRMONTH12                   763  764   Num  Month of procedure 12
+CA  2008 CORE             223 PRMONTH13                   765  766   Num  Month of procedure 13
+CA  2008 CORE             224 PRMONTH14                   767  768   Num  Month of procedure 14
+CA  2008 CORE             225 PRMONTH15                   769  770   Num  Month of procedure 15
+CA  2008 CORE             226 PRMONTH16                   771  772   Num  Month of procedure 16
+CA  2008 CORE             227 PRMONTH17                   773  774   Num  Month of procedure 17
+CA  2008 CORE             228 PRMONTH18                   775  776   Num  Month of procedure 18
+CA  2008 CORE             229 PRMONTH19                   777  778   Num  Month of procedure 19
+CA  2008 CORE             230 PRMONTH20                   779  780   Num  Month of procedure 20
+CA  2008 CORE             231 PRMONTH21                   781  782   Num  Month of procedure 21
+CA  2008 CORE             232 PRYEAR1                     783  786   Num  Year of procedure 1
+CA  2008 CORE             233 PRYEAR2                     787  790   Num  Year of procedure 2
+CA  2008 CORE             234 PRYEAR3                     791  794   Num  Year of procedure 3
+CA  2008 CORE             235 PRYEAR4                     795  798   Num  Year of procedure 4
+CA  2008 CORE             236 PRYEAR5                     799  802   Num  Year of procedure 5
+CA  2008 CORE             237 PRYEAR6                     803  806   Num  Year of procedure 6
+CA  2008 CORE             238 PRYEAR7                     807  810   Num  Year of procedure 7
+CA  2008 CORE             239 PRYEAR8                     811  814   Num  Year of procedure 8
+CA  2008 CORE             240 PRYEAR9                     815  818   Num  Year of procedure 9
+CA  2008 CORE             241 PRYEAR10                    819  822   Num  Year of procedure 10
+CA  2008 CORE             242 PRYEAR11                    823  826   Num  Year of procedure 11
+CA  2008 CORE             243 PRYEAR12                    827  830   Num  Year of procedure 12
+CA  2008 CORE             244 PRYEAR13                    831  834   Num  Year of procedure 13
+CA  2008 CORE             245 PRYEAR14                    835  838   Num  Year of procedure 14
+CA  2008 CORE             246 PRYEAR15                    839  842   Num  Year of procedure 15
+CA  2008 CORE             247 PRYEAR16                    843  846   Num  Year of procedure 16
+CA  2008 CORE             248 PRYEAR17                    847  850   Num  Year of procedure 17
+CA  2008 CORE             249 PRYEAR18                    851  854   Num  Year of procedure 18
+CA  2008 CORE             250 PRYEAR19                    855  858   Num  Year of procedure 19
+CA  2008 CORE             251 PRYEAR20                    859  862   Num  Year of procedure 20
+CA  2008 CORE             252 PRYEAR21                    863  866   Num  Year of procedure 21

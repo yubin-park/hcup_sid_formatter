@@ -1,0 +1,107 @@
+Columns   Description:
+=======   ============
+ 1- 2     State postal code
+ 5- 8     Discharge year of data
+10-14     File name
+19-21     Variable number
+23-40     Variable name
+43-45     Starting column of variable in ASCII file
+47-49     Ending column of variable in ASCII file
+   51     Non-zero number of digits after decimal point for numeric variable
+53-56     Variable type (NUM=numeric; CHAR=character)
+57-88     Variable label
+
+
+NJ  1998 CORE     1   KEY                 1   14    Num HCUP record identifier
+NJ  1998 CORE     2   AGE                 15  17    Num Age in years at admission
+NJ  1998 CORE     3   AGEDAY              18  20    Num Age in days (when age < 1 year)
+NJ  1998 CORE     4   AGEMONTH            21  23    Num Age in months (when age < 11 years)
+NJ  1998 CORE     5   AMONTH              24  25    Num Admission month
+NJ  1998 CORE     6   ASOURCE             26  27    Num Admission source (uniform)
+NJ  1998 CORE     7   ASOURCE_X           28  28    CharAdmission source (as received from source)
+NJ  1998 CORE     8   ATYPE               29  30    Num Admission type
+NJ  1998 CORE     9   AWEEKEND            31  32    Num Admission day is a weekend
+NJ  1998 CORE     10  BWT                 33  36    Num Birth weight in grams
+NJ  1998 CORE     11  DIED                37  38    Num Died during hospitalization
+NJ  1998 CORE     12  DISPUB92            39  40    Num Disposition of patient (UB-92 standard coding)
+NJ  1998 CORE     13  DISPUNIFORM         41  42    Num Disposition of patient (uniform)
+NJ  1998 CORE     14  DISP_X              43  44    CharDisposition of patient (as received from source)
+NJ  1998 CORE     15  DNR                 45  46    Num Do not resuscitate indicator
+NJ  1998 CORE     16  DQTR                47  47    Num Discharge quarter
+NJ  1998 CORE     17  DRG                 48  50    Num DRG in effect on discharge date
+NJ  1998 CORE     18  DRG10               51  53    Num DRG, version 10
+NJ  1998 CORE     19  DRG18               54  56    Num DRG, version 18
+NJ  1998 CORE     20  DRGVER              57  58    Num DRG grouper version used on discharge date
+NJ  1998 CORE     21  DSHOSPID            59  71    CharData source hospital identifier
+NJ  1998 CORE     22  DX1                 72  76    CharPrincipal diagnosis
+NJ  1998 CORE     23  DX2                 77  81    CharDiagnosis 2
+NJ  1998 CORE     24  DX3                 82  86    CharDiagnosis 3
+NJ  1998 CORE     25  DX4                 87  91    CharDiagnosis 4
+NJ  1998 CORE     26  DX5                 92  96    CharDiagnosis 5
+NJ  1998 CORE     27  DX6                 97  101   CharDiagnosis 6
+NJ  1998 CORE     28  DX7                 102 106   CharDiagnosis 7
+NJ  1998 CORE     29  DX8                 107 111   CharDiagnosis 8
+NJ  1998 CORE     30  DX9                 112 116   CharDiagnosis 9
+NJ  1998 CORE     31  DX10                117 121   CharDiagnosis 10
+NJ  1998 CORE     32  DXCCS1              122 125   Num CCS: principal diagnosis
+NJ  1998 CORE     33  DXCCS2              126 129   Num CCS: diagnosis 2
+NJ  1998 CORE     34  DXCCS3              130 133   Num CCS: diagnosis 3
+NJ  1998 CORE     35  DXCCS4              134 137   Num CCS: diagnosis 4
+NJ  1998 CORE     36  DXCCS5              138 141   Num CCS: diagnosis 5
+NJ  1998 CORE     37  DXCCS6              142 145   Num CCS: diagnosis 6
+NJ  1998 CORE     38  DXCCS7              146 149   Num CCS: diagnosis 7
+NJ  1998 CORE     39  DXCCS8              150 153   Num CCS: diagnosis 8
+NJ  1998 CORE     40  DXCCS9              154 157   Num CCS: diagnosis 9
+NJ  1998 CORE     41  DXCCS10             158 161   Num CCS: diagnosis 10
+NJ  1998 CORE     42  FEMALE              162 163   Num Indicator of sex
+NJ  1998 CORE     43  HISPANIC_X          164 164   CharHispanic ethnicity (as received from source)
+NJ  1998 CORE     44  HOSPST              165 166   CharHospital state postal code
+NJ  1998 CORE     45  LOS                 167 171   Num Length of stay (cleaned)
+NJ  1998 CORE     46  LOS_X               172 177   Num Length of stay (uncleaned)
+NJ  1998 CORE     47  MDC                 178 179   Num MDC in effect on discharge date
+NJ  1998 CORE     48  MDC10               180 181   Num MDC, version 10
+NJ  1998 CORE     49  MDC18               182 183   Num MDC, version 18
+NJ  1998 CORE     50  MDID_S              184 199   CharAttending physician number (synthetic)
+NJ  1998 CORE     51  MDSPEC              200 200   CharPhysician specialty (as received from source)
+NJ  1998 CORE     52  MRN_S               201 217   CharMedical record number (synthetic)
+NJ  1998 CORE     53  NDX                 218 219   Num Number of diagnoses on this record
+NJ  1998 CORE     54  NEOMAT              220 220   Num Neonatal and/or maternal DX and/or PR
+NJ  1998 CORE     55  NPR                 221 222   Num Number of procedures on this record
+NJ  1998 CORE     56  PAY1                223 224   Num Primary expected payer (uniform)
+NJ  1998 CORE     57  PAY2                225 226   Num Secondary expected payer (uniform)
+NJ  1998 CORE     58  PAY1_X              227 229   CharPrimary expected payer (as received from source)
+NJ  1998 CORE     59  PAY2_X              230 232   CharSecondary expected payer (as received from source)
+NJ  1998 CORE     60  PAY3_X              233 235   CharTertiary expected payer (as received from source)
+NJ  1998 CORE     61  PR1                 236 239   CharPrincipal procedure
+NJ  1998 CORE     62  PR2                 240 243   CharProcedure 2
+NJ  1998 CORE     63  PR3                 244 247   CharProcedure 3
+NJ  1998 CORE     64  PR4                 248 251   CharProcedure 4
+NJ  1998 CORE     65  PR5                 252 255   CharProcedure 5
+NJ  1998 CORE     66  PR6                 256 259   CharProcedure 6
+NJ  1998 CORE     67  PR7                 260 263   CharProcedure 7
+NJ  1998 CORE     68  PR8                 264 267   CharProcedure 8
+NJ  1998 CORE     69  PRCCS1              268 270   Num CCS: principal procedure
+NJ  1998 CORE     70  PRCCS2              271 273   Num CCS: procedure 2
+NJ  1998 CORE     71  PRCCS3              274 276   Num CCS: procedure 3
+NJ  1998 CORE     72  PRCCS4              277 279   Num CCS: procedure 4
+NJ  1998 CORE     73  PRCCS5              280 282   Num CCS: procedure 5
+NJ  1998 CORE     74  PRCCS6              283 285   Num CCS: procedure 6
+NJ  1998 CORE     75  PRCCS7              286 288   Num CCS: procedure 7
+NJ  1998 CORE     76  PRCCS8              289 291   Num CCS: procedure 8
+NJ  1998 CORE     77  PRDAY1              292 294   Num Number of days from admission to PR1
+NJ  1998 CORE     78  PRDAY2              295 297   Num Number of days from admission to PR2
+NJ  1998 CORE     79  PRDAY3              298 300   Num Number of days from admission to PR3
+NJ  1998 CORE     80  PRDAY4              301 303   Num Number of days from admission to PR4
+NJ  1998 CORE     81  PRDAY5              304 306   Num Number of days from admission to PR5
+NJ  1998 CORE     82  PRDAY6              307 309   Num Number of days from admission to PR6
+NJ  1998 CORE     83  PRDAY7              310 312   Num Number of days from admission to PR7
+NJ  1998 CORE     84  PRDAY8              313 315   Num Number of days from admission to PR8
+NJ  1998 CORE     85  PSTCO               316 320   Num Patient state/county FIPS code
+NJ  1998 CORE     86  RACE                321 322   Num Race (uniform)
+NJ  1998 CORE     87  RACE_X              323 323   CharRace (as received from source)
+NJ  1998 CORE     88  READMIT             324 325   Num Readmission
+NJ  1998 CORE     89  SURGID_S            326 341   CharPrimary surgeon number (synthetic)
+NJ  1998 CORE     90  TOTCHG              342 351   Num Total charges (cleaned)
+NJ  1998 CORE     91  TOTCHG_X            352 366 2 Num Total charges (as received from source)
+NJ  1998 CORE     92  YEAR                367 370   Num Calendar year
+NJ  1998 CORE     93  ZIP                 371 375   CharPatient zip code

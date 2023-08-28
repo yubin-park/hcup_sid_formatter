@@ -1,0 +1,317 @@
+Data Set Name: OR_SIDC_2016_CORE               
+Number of Observations: 374965
+Total Record Length: 1256
+Total Number of Variables: 296
+Creation Date: 01/07/2019   
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 61    Variable name
+63- 66    Starting column of variable in ASCII file
+68- 71    Ending column of variable in ASCII file
+73- 73    Non-zero number of digits after decimal point for numeric variable
+75- 78    Variable type (Num=numeric; Char=character)
+80-179    Variable label
+
+
+OR  2016 CORE               1 AGE                                1    3   Num  Age in years at admission
+OR  2016 CORE               2 AGEDAY                             4    6   Num  Age in days (when age < 1 year)
+OR  2016 CORE               3 AGEMONTH                           7    9   Num  Age in months (when age < 11 years)
+OR  2016 CORE               4 AHOUR                             10   13   Num  Admission Hour
+OR  2016 CORE               5 AMONTH                            14   15   Num  Admission month
+OR  2016 CORE               6 ATYPE                             16   17   Num  Admission type
+OR  2016 CORE               7 AWEEKEND                          18   19   Num  Admission day is a weekend
+OR  2016 CORE               8 BWT                               20   23   Num  Birth weight in grams
+OR  2016 CORE               9 DHOUR                             24   27   Num  Discharge Hour
+OR  2016 CORE              10 DIED                              28   29   Num  Died during hospitalization
+OR  2016 CORE              11 DISP_X                            30   31   Char Disposition of patient (as received from source)
+OR  2016 CORE              12 DISPUB04                          32   33   Num  Disposition of patient (UB-04 standard coding)
+OR  2016 CORE              13 DISPUNIFORM                       34   35   Num  Disposition of patient (uniform)
+OR  2016 CORE              14 DMONTH                            36   37   Num  Discharge month
+OR  2016 CORE              15 DNR                               38   39   Num  Do not resuscitate indicator
+OR  2016 CORE              16 DQTR                              40   41   Num  Discharge quarter
+OR  2016 CORE              17 DRG                               42   44   Num  DRG in effect on discharge date
+OR  2016 CORE              18 DRG_NoPOA                         45   47   Num  DRG in use on discharge date, calculated without POA
+OR  2016 CORE              19 DRGVER                            48   49   Num  DRG grouper version used on discharge date
+OR  2016 CORE              20 DSHOSPID                          50   66   Char Data source hospital identifier
+OR  2016 CORE              21 DXPOA1                            67   67   Char Diagnosis 1, present on admission indicator
+OR  2016 CORE              22 DXPOA2                            68   68   Char Diagnosis 2, present on admission indicator
+OR  2016 CORE              23 DXPOA3                            69   69   Char Diagnosis 3, present on admission indicator
+OR  2016 CORE              24 DXPOA4                            70   70   Char Diagnosis 4, present on admission indicator
+OR  2016 CORE              25 DXPOA5                            71   71   Char Diagnosis 5, present on admission indicator
+OR  2016 CORE              26 DXPOA6                            72   72   Char Diagnosis 6, present on admission indicator
+OR  2016 CORE              27 DXPOA7                            73   73   Char Diagnosis 7, present on admission indicator
+OR  2016 CORE              28 DXPOA8                            74   74   Char Diagnosis 8, present on admission indicator
+OR  2016 CORE              29 DXPOA9                            75   75   Char Diagnosis 9, present on admission indicator
+OR  2016 CORE              30 DXPOA10                           76   76   Char Diagnosis 10, present on admission indicator
+OR  2016 CORE              31 DXPOA11                           77   77   Char Diagnosis 11, present on admission indicator
+OR  2016 CORE              32 DXPOA12                           78   78   Char Diagnosis 12, present on admission indicator
+OR  2016 CORE              33 DXPOA13                           79   79   Char Diagnosis 13, present on admission indicator
+OR  2016 CORE              34 DXPOA14                           80   80   Char Diagnosis 14, present on admission indicator
+OR  2016 CORE              35 DXPOA15                           81   81   Char Diagnosis 15, present on admission indicator
+OR  2016 CORE              36 DXPOA16                           82   82   Char Diagnosis 16, present on admission indicator
+OR  2016 CORE              37 DXPOA17                           83   83   Char Diagnosis 17, present on admission indicator
+OR  2016 CORE              38 DXPOA18                           84   84   Char Diagnosis 18, present on admission indicator
+OR  2016 CORE              39 DXPOA19                           85   85   Char Diagnosis 19, present on admission indicator
+OR  2016 CORE              40 DXPOA20                           86   86   Char Diagnosis 20, present on admission indicator
+OR  2016 CORE              41 DXPOA21                           87   87   Char Diagnosis 21, present on admission indicator
+OR  2016 CORE              42 DXPOA22                           88   88   Char Diagnosis 22, present on admission indicator
+OR  2016 CORE              43 DXPOA23                           89   89   Char Diagnosis 23, present on admission indicator
+OR  2016 CORE              44 DXPOA24                           90   90   Char Diagnosis 24, present on admission indicator
+OR  2016 CORE              45 DXPOA25                           91   91   Char Diagnosis 25, present on admission indicator
+OR  2016 CORE              46 DXPOA26                           92   92   Char Diagnosis 26, present on admission indicator
+OR  2016 CORE              47 DXPOA27                           93   93   Char Diagnosis 27, present on admission indicator
+OR  2016 CORE              48 DXPOA28                           94   94   Char Diagnosis 28, present on admission indicator
+OR  2016 CORE              49 DXVER                             95   97   Num  Diagnosis Version
+OR  2016 CORE              50 E_POA1                            98   98   Char External cause 1, present on admission indicator
+OR  2016 CORE              51 E_POA2                            99   99   Char External cause 2, present on admission indicator
+OR  2016 CORE              52 E_POA3                           100  100   Char External cause 3, present on admission indicator
+OR  2016 CORE              53 E_POA4                           101  101   Char External cause 4, present on admission indicator
+OR  2016 CORE              54 E_POA5                           102  102   Char External cause 5, present on admission indicator
+OR  2016 CORE              55 E_POA6                           103  103   Char External cause 6, present on admission indicator
+OR  2016 CORE              56 FEMALE                           104  105   Num  Indicator of sex
+OR  2016 CORE              57 HCUP_ED                          106  107   Num  HCUP Emergency Department service indicator
+OR  2016 CORE              58 HCUP_OS                          108  109   Num  HCUP Observation Stay service indicator
+OR  2016 CORE              59 HISPANIC                         110  111   Num  Hispanic ethnicity (uniform)
+OR  2016 CORE              60 HISPANIC_X                       112  113   Char Hispanic ethnicity (as received from source)
+OR  2016 CORE              61 HospitalUnit                     114  115   Num  Patient was discharged from a special unit within an acute care hospital (reported by source)
+OR  2016 CORE              62 HOSPST                           116  117   Char Hospital state postal code
+OR  2016 CORE              63 I10_DX_Admitting                 118  124   Char ICD-10-CM Admitting Diagnosis Code
+OR  2016 CORE              64 I10_DX1                          125  131   Char ICD-10-CM Diagnosis 1
+OR  2016 CORE              65 I10_DX2                          132  138   Char ICD-10-CM Diagnosis 2
+OR  2016 CORE              66 I10_DX3                          139  145   Char ICD-10-CM Diagnosis 3
+OR  2016 CORE              67 I10_DX4                          146  152   Char ICD-10-CM Diagnosis 4
+OR  2016 CORE              68 I10_DX5                          153  159   Char ICD-10-CM Diagnosis 5
+OR  2016 CORE              69 I10_DX6                          160  166   Char ICD-10-CM Diagnosis 6
+OR  2016 CORE              70 I10_DX7                          167  173   Char ICD-10-CM Diagnosis 7
+OR  2016 CORE              71 I10_DX8                          174  180   Char ICD-10-CM Diagnosis 8
+OR  2016 CORE              72 I10_DX9                          181  187   Char ICD-10-CM Diagnosis 9
+OR  2016 CORE              73 I10_DX10                         188  194   Char ICD-10-CM Diagnosis 10
+OR  2016 CORE              74 I10_DX11                         195  201   Char ICD-10-CM Diagnosis 11
+OR  2016 CORE              75 I10_DX12                         202  208   Char ICD-10-CM Diagnosis 12
+OR  2016 CORE              76 I10_DX13                         209  215   Char ICD-10-CM Diagnosis 13
+OR  2016 CORE              77 I10_DX14                         216  222   Char ICD-10-CM Diagnosis 14
+OR  2016 CORE              78 I10_DX15                         223  229   Char ICD-10-CM Diagnosis 15
+OR  2016 CORE              79 I10_DX16                         230  236   Char ICD-10-CM Diagnosis 16
+OR  2016 CORE              80 I10_DX17                         237  243   Char ICD-10-CM Diagnosis 17
+OR  2016 CORE              81 I10_DX18                         244  250   Char ICD-10-CM Diagnosis 18
+OR  2016 CORE              82 I10_DX19                         251  257   Char ICD-10-CM Diagnosis 19
+OR  2016 CORE              83 I10_DX20                         258  264   Char ICD-10-CM Diagnosis 20
+OR  2016 CORE              84 I10_DX21                         265  271   Char ICD-10-CM Diagnosis 21
+OR  2016 CORE              85 I10_DX22                         272  278   Char ICD-10-CM Diagnosis 22
+OR  2016 CORE              86 I10_DX23                         279  285   Char ICD-10-CM Diagnosis 23
+OR  2016 CORE              87 I10_DX24                         286  292   Char ICD-10-CM Diagnosis 24
+OR  2016 CORE              88 I10_DX25                         293  299   Char ICD-10-CM Diagnosis 25
+OR  2016 CORE              89 I10_DX26                         300  306   Char ICD-10-CM Diagnosis 26
+OR  2016 CORE              90 I10_DX27                         307  313   Char ICD-10-CM Diagnosis 27
+OR  2016 CORE              91 I10_DX28                         314  320   Char ICD-10-CM Diagnosis 28
+OR  2016 CORE              92 I10_ECAUSE1                      321  327   Char ICD-10-CM External cause 1
+OR  2016 CORE              93 I10_ECAUSE2                      328  334   Char ICD-10-CM External cause 2
+OR  2016 CORE              94 I10_ECAUSE3                      335  341   Char ICD-10-CM External cause 3
+OR  2016 CORE              95 I10_ECAUSE4                      342  348   Char ICD-10-CM External cause 4
+OR  2016 CORE              96 I10_ECAUSE5                      349  355   Char ICD-10-CM External cause 5
+OR  2016 CORE              97 I10_ECAUSE6                      356  362   Char ICD-10-CM External cause 6
+OR  2016 CORE              98 I10_NDX                          363  365   Num  ICD-10-CM Number of diagnoses on this record
+OR  2016 CORE              99 I10_NECAUSE                      366  367   Num  ICD-10-CM Number of External cause codes on this record
+OR  2016 CORE             100 I10_NPR                          368  370   Num  ICD-10-PCS Number of procedures on this record
+OR  2016 CORE             101 I10_PR1                          371  377   Char ICD-10-PCS Procedure 1
+OR  2016 CORE             102 I10_PR2                          378  384   Char ICD-10-PCS Procedure 2
+OR  2016 CORE             103 I10_PR3                          385  391   Char ICD-10-PCS Procedure 3
+OR  2016 CORE             104 I10_PR4                          392  398   Char ICD-10-PCS Procedure 4
+OR  2016 CORE             105 I10_PR5                          399  405   Char ICD-10-PCS Procedure 5
+OR  2016 CORE             106 I10_PR6                          406  412   Char ICD-10-PCS Procedure 6
+OR  2016 CORE             107 I10_PR7                          413  419   Char ICD-10-PCS Procedure 7
+OR  2016 CORE             108 I10_PR8                          420  426   Char ICD-10-PCS Procedure 8
+OR  2016 CORE             109 I10_PR9                          427  433   Char ICD-10-PCS Procedure 9
+OR  2016 CORE             110 I10_PR10                         434  440   Char ICD-10-PCS Procedure 10
+OR  2016 CORE             111 I10_PR11                         441  447   Char ICD-10-PCS Procedure 11
+OR  2016 CORE             112 I10_PR12                         448  454   Char ICD-10-PCS Procedure 12
+OR  2016 CORE             113 I10_PR13                         455  461   Char ICD-10-PCS Procedure 13
+OR  2016 CORE             114 I10_PR14                         462  468   Char ICD-10-PCS Procedure 14
+OR  2016 CORE             115 I10_PR15                         469  475   Char ICD-10-PCS Procedure 15
+OR  2016 CORE             116 I10_PR16                         476  482   Char ICD-10-PCS Procedure 16
+OR  2016 CORE             117 I10_PR17                         483  489   Char ICD-10-PCS Procedure 17
+OR  2016 CORE             118 I10_PR18                         490  496   Char ICD-10-PCS Procedure 18
+OR  2016 CORE             119 I10_PR19                         497  503   Char ICD-10-PCS Procedure 19
+OR  2016 CORE             120 I10_PR20                         504  510   Char ICD-10-PCS Procedure 20
+OR  2016 CORE             121 I10_PR21                         511  517   Char ICD-10-PCS Procedure 21
+OR  2016 CORE             122 I10_PR22                         518  524   Char ICD-10-PCS Procedure 22
+OR  2016 CORE             123 I10_PR23                         525  531   Char ICD-10-PCS Procedure 23
+OR  2016 CORE             124 I10_PR24                         532  538   Char ICD-10-PCS Procedure 24
+OR  2016 CORE             125 I10_PR25                         539  545   Char ICD-10-PCS Procedure 25
+OR  2016 CORE             126 I10_PR26                         546  552   Char ICD-10-PCS Procedure 26
+OR  2016 CORE             127 I10_PR27                         553  559   Char ICD-10-PCS Procedure 27
+OR  2016 CORE             128 I10_PR28                         560  566   Char ICD-10-PCS Procedure 28
+OR  2016 CORE             129 I10_PR29                         567  573   Char ICD-10-PCS Procedure 29
+OR  2016 CORE             130 I10_PR30                         574  580   Char ICD-10-PCS Procedure 30
+OR  2016 CORE             131 I10_PR31                         581  587   Char ICD-10-PCS Procedure 31
+OR  2016 CORE             132 I10_PR32                         588  594   Char ICD-10-PCS Procedure 32
+OR  2016 CORE             133 I10_PR33                         595  601   Char ICD-10-PCS Procedure 33
+OR  2016 CORE             134 I10_PR34                         602  608   Char ICD-10-PCS Procedure 34
+OR  2016 CORE             135 I10_PR35                         609  615   Char ICD-10-PCS Procedure 35
+OR  2016 CORE             136 I10_PR36                         616  622   Char ICD-10-PCS Procedure 36
+OR  2016 CORE             137 I10_PR37                         623  629   Char ICD-10-PCS Procedure 37
+OR  2016 CORE             138 I10_PROCTYPE                     630  632   Num  ICD-10-PCS Procedure type indicator
+OR  2016 CORE             139 KEY                              633  647   Num  HCUP record identifier
+OR  2016 CORE             140 LOS                              648  652   Num  Length of stay (cleaned)
+OR  2016 CORE             141 LOS_X                            653  658   Num  Length of stay (as received from source)
+OR  2016 CORE             142 MDC                              659  660   Num  MDC in effect on discharge date
+OR  2016 CORE             143 MDC_NoPOA                        661  662   Num  MDC in use on discharge date, calculated without POA
+OR  2016 CORE             144 MDNUM1_R                         663  671   Num  Physician 1 number (re-identified)
+OR  2016 CORE             145 MDNUM2_R                         672  680   Num  Physician 2 number (re-identified)
+OR  2016 CORE             146 MDNUM3_R                         681  689   Num  Physician 3 number (re-identified)
+OR  2016 CORE             147 MDNUM4_R                         690  698   Num  Physician 4 number (re-identified)
+OR  2016 CORE             148 MEDINCSTQ                        699  700   Num  Median household income state quartile for patient ZIP Code
+OR  2016 CORE             149 OS_TIME                          701  711 2 Num  Observation stay time summed from UNITS
+OR  2016 CORE             150 PAY1                             712  713   Num  Primary expected payer (uniform)
+OR  2016 CORE             151 PAY1_X                           714  722   Char Primary expected payer (as received from source)
+OR  2016 CORE             152 PAY2                             723  724   Num  Secondary expected payer (uniform)
+OR  2016 CORE             153 PAY2_X                           725  733   Char Secondary expected payer (as received from source)
+OR  2016 CORE             154 PAY3                             734  735   Num  Tertiary expected payer (uniform)
+OR  2016 CORE             155 PAY3_X                           736  744   Char Tertiary expected payer (as received from source)
+OR  2016 CORE             156 PL_CBSA                          745  747   Num  Patient location: Core Based Statistical Area (CBSA)
+OR  2016 CORE             157 PL_NCHS                          748  749   Num  Patient Location: NCHS Urban-Rural Code
+OR  2016 CORE             158 PL_RUCC                          750  751   Num  Patient location: Rural-Urban Continuum Codes(RUCC)
+OR  2016 CORE             159 PL_UIC                           752  753   Num  Patient location: Urban Influence Codes
+OR  2016 CORE             160 PL_UR_CAT4                       754  755   Num  Patient Location: Urban-Rural 4 Categories
+OR  2016 CORE             161 POA_Disch_Edit1                  756  757   Num  Discharge has POA missing on all nonexempt diagnoses
+OR  2016 CORE             162 POA_Disch_Edit2                  758  759   Num  Discharge has POA missing on all nonexempt secondary diagnoses
+OR  2016 CORE             163 POA_Hosp_Edit1                   760  761   Num  Hospital reported POA as Y on all diagnoses on all discharges
+OR  2016 CORE             164 POA_Hosp_Edit2                   762  763   Num  Hospital reported POA as missing on all non-Medicare discharges
+OR  2016 CORE             165 POA_Hosp_Edit3                   764  765   Num  Hospital reported POA as missing on all nonexempt diagnoses for 15% or more of discharges
+OR  2016 CORE             166 POA_Hosp_Edit3_Value             766  773 2 Num  Percentage of discharges with all nonexempt diagnoses missing POA indicators
+OR  2016 CORE             167 PointOfOrigin_X                  774  775   Char Point of origin for admission or visit, as received from source
+OR  2016 CORE             168 PointOfOriginUB04                776  776   Char Point of origin for admission or visit, UB-04 standard coding
+OR  2016 CORE             169 PRDAY1                           777  781   Num  Number of days from admission to I10_PR1
+OR  2016 CORE             170 PRDAY2                           782  786   Num  Number of days from admission to I10_PR2
+OR  2016 CORE             171 PRDAY3                           787  791   Num  Number of days from admission to I10_PR3
+OR  2016 CORE             172 PRDAY4                           792  796   Num  Number of days from admission to I10_PR4
+OR  2016 CORE             173 PRDAY5                           797  801   Num  Number of days from admission to I10_PR5
+OR  2016 CORE             174 PRDAY6                           802  806   Num  Number of days from admission to I10_PR6
+OR  2016 CORE             175 PRDAY7                           807  811   Num  Number of days from admission to I10_PR7
+OR  2016 CORE             176 PRDAY8                           812  816   Num  Number of days from admission to I10_PR8
+OR  2016 CORE             177 PRDAY9                           817  821   Num  Number of days from admission to I10_PR9
+OR  2016 CORE             178 PRDAY10                          822  826   Num  Number of days from admission to I10_PR10
+OR  2016 CORE             179 PRDAY11                          827  831   Num  Number of days from admission to I10_PR11
+OR  2016 CORE             180 PRDAY12                          832  836   Num  Number of days from admission to I10_PR12
+OR  2016 CORE             181 PRDAY13                          837  841   Num  Number of days from admission to I10_PR13
+OR  2016 CORE             182 PRDAY14                          842  846   Num  Number of days from admission to I10_PR14
+OR  2016 CORE             183 PRDAY15                          847  851   Num  Number of days from admission to I10_PR15
+OR  2016 CORE             184 PRDAY16                          852  856   Num  Number of days from admission to I10_PR16
+OR  2016 CORE             185 PRDAY17                          857  861   Num  Number of days from admission to I10_PR17
+OR  2016 CORE             186 PRDAY18                          862  866   Num  Number of days from admission to I10_PR18
+OR  2016 CORE             187 PRDAY19                          867  871   Num  Number of days from admission to I10_PR19
+OR  2016 CORE             188 PRDAY20                          872  876   Num  Number of days from admission to I10_PR20
+OR  2016 CORE             189 PRDAY21                          877  881   Num  Number of days from admission to I10_PR21
+OR  2016 CORE             190 PRDAY22                          882  886   Num  Number of days from admission to I10_PR22
+OR  2016 CORE             191 PRDAY23                          887  891   Num  Number of days from admission to I10_PR23
+OR  2016 CORE             192 PRDAY24                          892  896   Num  Number of days from admission to I10_PR24
+OR  2016 CORE             193 PRDAY25                          897  901   Num  Number of days from admission to I10_PR25
+OR  2016 CORE             194 PRDAY26                          902  906   Num  Number of days from admission to I10_PR26
+OR  2016 CORE             195 PRDAY27                          907  911   Num  Number of days from admission to I10_PR27
+OR  2016 CORE             196 PRDAY28                          912  916   Num  Number of days from admission to I10_PR28
+OR  2016 CORE             197 PRDAY29                          917  921   Num  Number of days from admission to I10_PR29
+OR  2016 CORE             198 PRDAY30                          922  926   Num  Number of days from admission to I10_PR30
+OR  2016 CORE             199 PRDAY31                          927  931   Num  Number of days from admission to I10_PR31
+OR  2016 CORE             200 PRDAY32                          932  936   Num  Number of days from admission to I10_PR32
+OR  2016 CORE             201 PRDAY33                          937  941   Num  Number of days from admission to I10_PR33
+OR  2016 CORE             202 PRDAY34                          942  946   Num  Number of days from admission to I10_PR34
+OR  2016 CORE             203 PRDAY35                          947  951   Num  Number of days from admission to I10_PR35
+OR  2016 CORE             204 PRDAY36                          952  956   Num  Number of days from admission to I10_PR36
+OR  2016 CORE             205 PRDAY37                          957  961   Num  Number of days from admission to I10_PR37
+OR  2016 CORE             206 PRVER                            962  964   Num  Procedure Version
+OR  2016 CORE             207 PSTATE                           965  966   Char Patient State postal code
+OR  2016 CORE             208 PSTCO                            967  971   Num  Patient state/county FIPS code
+OR  2016 CORE             209 PSTCO2                           972  976   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+OR  2016 CORE             210 RACE                             977  978   Num  Race (uniform)
+OR  2016 CORE             211 RACE_X                           979  980   Char Race (as received from source)
+OR  2016 CORE             212 TOTCHG                           981  990   Num  Total charges (cleaned)
+OR  2016 CORE             213 TOTCHG_X                         991 1005 2 Num  Total charges (as received from source)
+OR  2016 CORE             214 TRAN_IN                         1006 1007   Num  Transfer in indicator
+OR  2016 CORE             215 TRAN_OUT                        1008 1009   Num  Transfer out indicator
+OR  2016 CORE             216 YEAR                            1010 1013   Num  Calendar year
+OR  2016 CORE             217 ZIP                             1014 1018   Char Patient ZIP Code
+OR  2016 CORE             218 ZIP3                            1019 1021   Char Patient ZIP Code, first 3 digits
+OR  2016 CORE             219 ZIPINC_QRTL                     1022 1024   Num  Median household income national quartile for patient ZIP Code
+OR  2016 CORE             220 AYEAR                           1025 1028   Num  Admission year
+OR  2016 CORE             221 BMONTH                          1029 1030   Num  Birth month
+OR  2016 CORE             222 BYEAR                           1031 1034   Num  Birth year
+OR  2016 CORE             223 PRMONTH1                        1035 1036   Num  Month of procedure 1
+OR  2016 CORE             224 PRMONTH2                        1037 1038   Num  Month of procedure 2
+OR  2016 CORE             225 PRMONTH3                        1039 1040   Num  Month of procedure 3
+OR  2016 CORE             226 PRMONTH4                        1041 1042   Num  Month of procedure 4
+OR  2016 CORE             227 PRMONTH5                        1043 1044   Num  Month of procedure 5
+OR  2016 CORE             228 PRMONTH6                        1045 1046   Num  Month of procedure 6
+OR  2016 CORE             229 PRMONTH7                        1047 1048   Num  Month of procedure 7
+OR  2016 CORE             230 PRMONTH8                        1049 1050   Num  Month of procedure 8
+OR  2016 CORE             231 PRMONTH9                        1051 1052   Num  Month of procedure 9
+OR  2016 CORE             232 PRMONTH10                       1053 1054   Num  Month of procedure 10
+OR  2016 CORE             233 PRMONTH11                       1055 1056   Num  Month of procedure 11
+OR  2016 CORE             234 PRMONTH12                       1057 1058   Num  Month of procedure 12
+OR  2016 CORE             235 PRMONTH13                       1059 1060   Num  Month of procedure 13
+OR  2016 CORE             236 PRMONTH14                       1061 1062   Num  Month of procedure 14
+OR  2016 CORE             237 PRMONTH15                       1063 1064   Num  Month of procedure 15
+OR  2016 CORE             238 PRMONTH16                       1065 1066   Num  Month of procedure 16
+OR  2016 CORE             239 PRMONTH17                       1067 1068   Num  Month of procedure 17
+OR  2016 CORE             240 PRMONTH18                       1069 1070   Num  Month of procedure 18
+OR  2016 CORE             241 PRMONTH19                       1071 1072   Num  Month of procedure 19
+OR  2016 CORE             242 PRMONTH20                       1073 1074   Num  Month of procedure 20
+OR  2016 CORE             243 PRMONTH21                       1075 1076   Num  Month of procedure 21
+OR  2016 CORE             244 PRMONTH22                       1077 1078   Num  Month of procedure 22
+OR  2016 CORE             245 PRMONTH23                       1079 1080   Num  Month of procedure 23
+OR  2016 CORE             246 PRMONTH24                       1081 1082   Num  Month of procedure 24
+OR  2016 CORE             247 PRMONTH25                       1083 1084   Num  Month of procedure 25
+OR  2016 CORE             248 PRMONTH26                       1085 1086   Num  Month of procedure 26
+OR  2016 CORE             249 PRMONTH27                       1087 1088   Num  Month of procedure 27
+OR  2016 CORE             250 PRMONTH28                       1089 1090   Num  Month of procedure 28
+OR  2016 CORE             251 PRMONTH29                       1091 1092   Num  Month of procedure 29
+OR  2016 CORE             252 PRMONTH30                       1093 1094   Num  Month of procedure 30
+OR  2016 CORE             253 PRMONTH31                       1095 1096   Num  Month of procedure 31
+OR  2016 CORE             254 PRMONTH32                       1097 1098   Num  Month of procedure 32
+OR  2016 CORE             255 PRMONTH33                       1099 1100   Num  Month of procedure 33
+OR  2016 CORE             256 PRMONTH34                       1101 1102   Num  Month of procedure 34
+OR  2016 CORE             257 PRMONTH35                       1103 1104   Num  Month of procedure 35
+OR  2016 CORE             258 PRMONTH36                       1105 1106   Num  Month of procedure 36
+OR  2016 CORE             259 PRMONTH37                       1107 1108   Num  Month of procedure 37
+OR  2016 CORE             260 PRYEAR1                         1109 1112   Num  Year of procedure 1
+OR  2016 CORE             261 PRYEAR2                         1113 1116   Num  Year of procedure 2
+OR  2016 CORE             262 PRYEAR3                         1117 1120   Num  Year of procedure 3
+OR  2016 CORE             263 PRYEAR4                         1121 1124   Num  Year of procedure 4
+OR  2016 CORE             264 PRYEAR5                         1125 1128   Num  Year of procedure 5
+OR  2016 CORE             265 PRYEAR6                         1129 1132   Num  Year of procedure 6
+OR  2016 CORE             266 PRYEAR7                         1133 1136   Num  Year of procedure 7
+OR  2016 CORE             267 PRYEAR8                         1137 1140   Num  Year of procedure 8
+OR  2016 CORE             268 PRYEAR9                         1141 1144   Num  Year of procedure 9
+OR  2016 CORE             269 PRYEAR10                        1145 1148   Num  Year of procedure 10
+OR  2016 CORE             270 PRYEAR11                        1149 1152   Num  Year of procedure 11
+OR  2016 CORE             271 PRYEAR12                        1153 1156   Num  Year of procedure 12
+OR  2016 CORE             272 PRYEAR13                        1157 1160   Num  Year of procedure 13
+OR  2016 CORE             273 PRYEAR14                        1161 1164   Num  Year of procedure 14
+OR  2016 CORE             274 PRYEAR15                        1165 1168   Num  Year of procedure 15
+OR  2016 CORE             275 PRYEAR16                        1169 1172   Num  Year of procedure 16
+OR  2016 CORE             276 PRYEAR17                        1173 1176   Num  Year of procedure 17
+OR  2016 CORE             277 PRYEAR18                        1177 1180   Num  Year of procedure 18
+OR  2016 CORE             278 PRYEAR19                        1181 1184   Num  Year of procedure 19
+OR  2016 CORE             279 PRYEAR20                        1185 1188   Num  Year of procedure 20
+OR  2016 CORE             280 PRYEAR21                        1189 1192   Num  Year of procedure 21
+OR  2016 CORE             281 PRYEAR22                        1193 1196   Num  Year of procedure 22
+OR  2016 CORE             282 PRYEAR23                        1197 1200   Num  Year of procedure 23
+OR  2016 CORE             283 PRYEAR24                        1201 1204   Num  Year of procedure 24
+OR  2016 CORE             284 PRYEAR25                        1205 1208   Num  Year of procedure 25
+OR  2016 CORE             285 PRYEAR26                        1209 1212   Num  Year of procedure 26
+OR  2016 CORE             286 PRYEAR27                        1213 1216   Num  Year of procedure 27
+OR  2016 CORE             287 PRYEAR28                        1217 1220   Num  Year of procedure 28
+OR  2016 CORE             288 PRYEAR29                        1221 1224   Num  Year of procedure 29
+OR  2016 CORE             289 PRYEAR30                        1225 1228   Num  Year of procedure 30
+OR  2016 CORE             290 PRYEAR31                        1229 1232   Num  Year of procedure 31
+OR  2016 CORE             291 PRYEAR32                        1233 1236   Num  Year of procedure 32
+OR  2016 CORE             292 PRYEAR33                        1237 1240   Num  Year of procedure 33
+OR  2016 CORE             293 PRYEAR34                        1241 1244   Num  Year of procedure 34
+OR  2016 CORE             294 PRYEAR35                        1245 1248   Num  Year of procedure 35
+OR  2016 CORE             295 PRYEAR36                        1249 1252   Num  Year of procedure 36
+OR  2016 CORE             296 PRYEAR37                        1253 1256   Num  Year of procedure 37

@@ -1,0 +1,137 @@
+Data Set Name: KY_SID_2003_CORE                
+Number of Observations: 629678
+Total Record Length: 455
+Total Number of Variables: 117
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 49    Variable name
+51- 54    Starting column of variable in ASCII file
+56- 59    Ending column of variable in ASCII file
+    61    Non-zero number of digits after decimal point for numeric variable
+63- 66    Variable type (Num=numeric; Char=character)
+68-167    Variable label
+
+
+KY  2003 CORE               1 KEY                    1   14   Num  HCUP record identifier
+KY  2003 CORE               2 ADRG                  15   17   Num  All Patient Refined DRG
+KY  2003 CORE               3 AGE                   18   20   Num  Age in years at admission
+KY  2003 CORE               4 AGEDAY                21   23   Num  Age in days (when age < 1 year)
+KY  2003 CORE               5 AGEMONTH              24   26   Num  Age in months (when age < 11 years)
+KY  2003 CORE               6 AMONTH                27   28   Num  Admission month
+KY  2003 CORE               7 ASOURCE               29   30   Num  Admission source (uniform)
+KY  2003 CORE               8 ASOURCE_X             31   32   Char Admission source (as received from source)
+KY  2003 CORE               9 ASOURCEUB92           33   33   Char Admission source (UB-92 standard coding)
+KY  2003 CORE              10 ATYPE                 34   35   Num  Admission type
+KY  2003 CORE              11 AWEEKEND              36   37   Num  Admission day is a weekend
+KY  2003 CORE              12 BWT                   38   41   Num  Birth weight in grams
+KY  2003 CORE              13 DIED                  42   43   Num  Died during hospitalization
+KY  2003 CORE              14 DISP_X                44   45   Char Disposition of patient (as received from source)
+KY  2003 CORE              15 DISPUB92              46   47   Num  Disposition of patient (UB-92 standard coding)
+KY  2003 CORE              16 DISPUNIFORM           48   49   Num  Disposition of patient (uniform)
+KY  2003 CORE              17 DQTR                  50   51   Num  Discharge quarter
+KY  2003 CORE              18 DRG                   52   54   Num  DRG in effect on discharge date
+KY  2003 CORE              19 DRG18                 55   57   Num  DRG, version 18
+KY  2003 CORE              20 DRGVER                58   59   Num  DRG grouper version used on discharge date
+KY  2003 CORE              21 DSHOSPID              60   72   Char Data source hospital identifier
+KY  2003 CORE              22 DX1                   73   77   Char Principal diagnosis
+KY  2003 CORE              23 DX2                   78   82   Char Diagnosis 2
+KY  2003 CORE              24 DX3                   83   87   Char Diagnosis 3
+KY  2003 CORE              25 DX4                   88   92   Char Diagnosis 4
+KY  2003 CORE              26 DX5                   93   97   Char Diagnosis 5
+KY  2003 CORE              27 DX6                   98  102   Char Diagnosis 6
+KY  2003 CORE              28 DX7                  103  107   Char Diagnosis 7
+KY  2003 CORE              29 DX8                  108  112   Char Diagnosis 8
+KY  2003 CORE              30 DX9                  113  117   Char Diagnosis 9
+KY  2003 CORE              31 DXCCS1               118  121   Num  CCS: principal diagnosis
+KY  2003 CORE              32 DXCCS2               122  125   Num  CCS: diagnosis 2
+KY  2003 CORE              33 DXCCS3               126  129   Num  CCS: diagnosis 3
+KY  2003 CORE              34 DXCCS4               130  133   Num  CCS: diagnosis 4
+KY  2003 CORE              35 DXCCS5               134  137   Num  CCS: diagnosis 5
+KY  2003 CORE              36 DXCCS6               138  141   Num  CCS: diagnosis 6
+KY  2003 CORE              37 DXCCS7               142  145   Num  CCS: diagnosis 7
+KY  2003 CORE              38 DXCCS8               146  149   Num  CCS: diagnosis 8
+KY  2003 CORE              39 DXCCS9               150  153   Num  CCS: diagnosis 9
+KY  2003 CORE              40 ECODE1               154  158   Char E code 1
+KY  2003 CORE              41 ECODE2               159  163   Char E code 2
+KY  2003 CORE              42 ECODE3               164  168   Char E code 3
+KY  2003 CORE              43 ECODE4               169  173   Char E code 4
+KY  2003 CORE              44 E_CCS1               174  177   Num  CCS: E Code 1
+KY  2003 CORE              45 E_CCS2               178  181   Num  CCS: E Code 2
+KY  2003 CORE              46 E_CCS3               182  185   Num  CCS: E Code 3
+KY  2003 CORE              47 E_CCS4               186  189   Num  CCS: E Code 4
+KY  2003 CORE              48 FEMALE               190  191   Num  Indicator of sex
+KY  2003 CORE              49 HOSPST               192  193   Char Hospital state postal code
+KY  2003 CORE              50 LOS                  194  198   Num  Length of stay (cleaned)
+KY  2003 CORE              51 LOS_X                199  204   Num  Length of stay (as received from source)
+KY  2003 CORE              52 MDC                  205  206   Num  MDC in effect on discharge date
+KY  2003 CORE              53 MDC18                207  208   Num  MDC, version 18
+KY  2003 CORE              54 MDNUM1_R             209  217   Num  Physician 1 number (re-identified)
+KY  2003 CORE              55 MDNUM2_R             218  226   Num  Physician 2 number (re-identified)
+KY  2003 CORE              56 MDNUM3_R             227  235   Num  Physician 3 number (re-identified)
+KY  2003 CORE              57 MDNUM4_R             236  244   Num  Physician 4 number (re-identified)
+KY  2003 CORE              58 MRN_R                245  253   Num  Medical record number (re-identified)
+KY  2003 CORE              59 NDX                  254  255   Num  Number of diagnoses on this record
+KY  2003 CORE              60 NECODE               256  257   Num  Number of E codes on this record
+KY  2003 CORE              61 NEOMAT               258  259   Num  Neonatal and/or maternal DX and/or PR
+KY  2003 CORE              62 NPR                  260  261   Num  Number of procedures on this record
+KY  2003 CORE              63 PAY1                 262  263   Num  Primary expected payer (uniform)
+KY  2003 CORE              64 PAY2                 264  265   Num  Secondary expected payer (uniform)
+KY  2003 CORE              65 PAY1_X               266  266   Char Primary expected payer (as received from source)
+KY  2003 CORE              66 PAY2_X               267  267   Char Secondary expected payer (as received from source)
+KY  2003 CORE              67 PAY3_X               268  268   Char Tertiary expected payer (as received from source)
+KY  2003 CORE              68 PL_CBSA              269  271   Num  Patient location: Core Based Statistical Area (CBSA)
+KY  2003 CORE              69 PL_MSA1993           272  274   Num  Patient location: Metropolitan Statistical Area (MSA), 1993
+KY  2003 CORE              70 PL_RUCA              275  278 1 Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes
+KY  2003 CORE              71 PL_RUCA10            279  280   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, ten levels
+KY  2003 CORE              72 PL_RUCA4             281  282   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, four levels
+KY  2003 CORE              73 PL_RUCC2003          283  284   Num  Patient location: Rural-Urban Continuum Codes(RUCC), 2003
+KY  2003 CORE              74 PL_UIC2003           285  286   Num  Patient location: Urban Influence Codes, 2003
+KY  2003 CORE              75 PL_UR_CAT4           287  288   Num  Patient Location: Urban-Rural 4 Categories
+KY  2003 CORE              76 PL_UR_CAT5           289  290   Num  Patient Location: Urban-Rural 5 Categories
+KY  2003 CORE              77 PR1                  291  294   Char Principal procedure
+KY  2003 CORE              78 PR2                  295  298   Char Procedure 2
+KY  2003 CORE              79 PR3                  299  302   Char Procedure 3
+KY  2003 CORE              80 PR4                  303  306   Char Procedure 4
+KY  2003 CORE              81 PR5                  307  310   Char Procedure 5
+KY  2003 CORE              82 PR6                  311  314   Char Procedure 6
+KY  2003 CORE              83 PRCCS1               315  317   Num  CCS: principal procedure
+KY  2003 CORE              84 PRCCS2               318  320   Num  CCS: procedure 2
+KY  2003 CORE              85 PRCCS3               321  323   Num  CCS: procedure 3
+KY  2003 CORE              86 PRCCS4               324  326   Num  CCS: procedure 4
+KY  2003 CORE              87 PRCCS5               327  329   Num  CCS: procedure 5
+KY  2003 CORE              88 PRCCS6               330  332   Num  CCS: procedure 6
+KY  2003 CORE              89 PRDAY1               333  337   Num  Number of days from admission to PR1
+KY  2003 CORE              90 PRDAY2               338  342   Num  Number of days from admission to PR2
+KY  2003 CORE              91 PRDAY3               343  347   Num  Number of days from admission to PR3
+KY  2003 CORE              92 PRDAY4               348  352   Num  Number of days from admission to PR4
+KY  2003 CORE              93 PRDAY5               353  357   Num  Number of days from admission to PR5
+KY  2003 CORE              94 PRDAY6               358  362   Num  Number of days from admission to PR6
+KY  2003 CORE              95 PSTATE               363  364   Char Patient State postal code
+KY  2003 CORE              96 PSTCO2               365  369   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+KY  2003 CORE              97 RDRG                 370  373   Char Refined DRG
+KY  2003 CORE              98 TOTCHG               374  383   Num  Total charges (cleaned)
+KY  2003 CORE              99 TOTCHG_X             384  398 2 Num  Total charges (as received from source)
+KY  2003 CORE             100 YEAR                 399  402   Num  Calendar year
+KY  2003 CORE             101 ZIP                  403  407   Char Patient ZIP Code
+KY  2003 CORE             102 AYEAR                408  411   Num  Admission year
+KY  2003 CORE             103 DMONTH               412  413   Num  Discharge month
+KY  2003 CORE             104 BMONTH               414  415   Num  Birth month
+KY  2003 CORE             105 BYEAR                416  419   Num  Birth year
+KY  2003 CORE             106 PRMONTH1             420  421   Num  Month of procedure 1
+KY  2003 CORE             107 PRMONTH2             422  423   Num  Month of procedure 2
+KY  2003 CORE             108 PRMONTH3             424  425   Num  Month of procedure 3
+KY  2003 CORE             109 PRMONTH4             426  427   Num  Month of procedure 4
+KY  2003 CORE             110 PRMONTH5             428  429   Num  Month of procedure 5
+KY  2003 CORE             111 PRMONTH6             430  431   Num  Month of procedure 6
+KY  2003 CORE             112 PRYEAR1              432  435   Num  Year of procedure 1
+KY  2003 CORE             113 PRYEAR2              436  439   Num  Year of procedure 2
+KY  2003 CORE             114 PRYEAR3              440  443   Num  Year of procedure 3
+KY  2003 CORE             115 PRYEAR4              444  447   Num  Year of procedure 4
+KY  2003 CORE             116 PRYEAR5              448  451   Num  Year of procedure 5
+KY  2003 CORE             117 PRYEAR6              452  455   Num  Year of procedure 6

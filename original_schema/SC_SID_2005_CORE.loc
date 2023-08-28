@@ -1,0 +1,128 @@
+Data Set Name: SC_SIDC_2005_CORE               
+Number of Observations: 560114
+Total Record Length: 475
+Total Number of Variables: 107
+Creation Date: 09/16/2016   
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 61    Variable name
+63- 66    Starting column of variable in ASCII file
+68- 71    Ending column of variable in ASCII file
+    73    Non-zero number of digits after decimal point for numeric variable
+75- 78    Variable type (Num=numeric; Char=character)
+80-179    Variable label
+
+
+SC  2005 CORE               1 KEY                                1   15   Num  HCUP record identifier
+SC  2005 CORE               2 AMONTH                            16   17   Num  Admission month
+SC  2005 CORE               3 ASOURCE                           18   19   Num  Admission source (uniform)
+SC  2005 CORE               4 ASOURCE_X                         20   20   Char Admission source (as received from source)
+SC  2005 CORE               5 ATYPE                             21   22   Num  Admission type
+SC  2005 CORE               6 AWEEKEND                          23   24   Num  Admission day is a weekend
+SC  2005 CORE               7 DaysICU                           25   27   Num  Days in medical/surgical intensive care unit (as received from source)
+SC  2005 CORE               8 DIED                              28   29   Num  Died during hospitalization
+SC  2005 CORE               9 DISP_X                            30   31   Char Disposition of patient (as received from source)
+SC  2005 CORE              10 DISPUB92                          32   33   Num  Disposition of patient (UB-92 standard coding)
+SC  2005 CORE              11 DISPUNIFORM                       34   35   Num  Disposition of patient (uniform)
+SC  2005 CORE              12 DQTR                              36   37   Num  Discharge quarter
+SC  2005 CORE              13 DRG                               38   40   Num  DRG in effect on discharge date
+SC  2005 CORE              14 DRG18                             41   43   Num  DRG, version 18
+SC  2005 CORE              15 DRGVER                            44   45   Num  DRG grouper version used on discharge date
+SC  2005 CORE              16 DX1                               46   52   Char Principal diagnosis
+SC  2005 CORE              17 DX2                               53   59   Char Diagnosis 2
+SC  2005 CORE              18 DX3                               60   66   Char Diagnosis 3
+SC  2005 CORE              19 DX4                               67   73   Char Diagnosis 4
+SC  2005 CORE              20 DX5                               74   80   Char Diagnosis 5
+SC  2005 CORE              21 DX6                               81   87   Char Diagnosis 6
+SC  2005 CORE              22 DX7                               88   94   Char Diagnosis 7
+SC  2005 CORE              23 DX8                               95  101   Char Diagnosis 8
+SC  2005 CORE              24 DX9                              102  108   Char Diagnosis 9
+SC  2005 CORE              25 DX10                             109  115   Char Diagnosis 10
+SC  2005 CORE              26 DXCCS1                           116  119   Num  CCS: principal diagnosis
+SC  2005 CORE              27 DXCCS2                           120  123   Num  CCS: diagnosis 2
+SC  2005 CORE              28 DXCCS3                           124  127   Num  CCS: diagnosis 3
+SC  2005 CORE              29 DXCCS4                           128  131   Num  CCS: diagnosis 4
+SC  2005 CORE              30 DXCCS5                           132  135   Num  CCS: diagnosis 5
+SC  2005 CORE              31 DXCCS6                           136  139   Num  CCS: diagnosis 6
+SC  2005 CORE              32 DXCCS7                           140  143   Num  CCS: diagnosis 7
+SC  2005 CORE              33 DXCCS8                           144  147   Num  CCS: diagnosis 8
+SC  2005 CORE              34 DXCCS9                           148  151   Num  CCS: diagnosis 9
+SC  2005 CORE              35 DXCCS10                          152  155   Num  CCS: diagnosis 10
+SC  2005 CORE              36 ECODE1                           156  162   Char E code 1
+SC  2005 CORE              37 ECODE2                           163  169   Char E code 2
+SC  2005 CORE              38 ECODE3                           170  176   Char E code 3
+SC  2005 CORE              39 ECODE4                           177  183   Char E code 4
+SC  2005 CORE              40 ECODE5                           184  190   Char E code 5
+SC  2005 CORE              41 ECODE6                           191  197   Char E code 6
+SC  2005 CORE              42 ECODE7                           198  204   Char E code 7
+SC  2005 CORE              43 E_CCS1                           205  208   Num  CCS: E Code 1
+SC  2005 CORE              44 E_CCS2                           209  212   Num  CCS: E Code 2
+SC  2005 CORE              45 E_CCS3                           213  216   Num  CCS: E Code 3
+SC  2005 CORE              46 E_CCS4                           217  220   Num  CCS: E Code 4
+SC  2005 CORE              47 E_CCS5                           221  224   Num  CCS: E Code 5
+SC  2005 CORE              48 E_CCS6                           225  228   Num  CCS: E Code 6
+SC  2005 CORE              49 E_CCS7                           229  232   Num  CCS: E Code 7
+SC  2005 CORE              50 FEMALE                           233  234   Num  Indicator of sex
+SC  2005 CORE              51 HCUP_ED                          235  236   Num  HCUP Emergency Department service indicator
+SC  2005 CORE              52 HCUP_OS                          237  238   Num  HCUP Observation Stay service indicator
+SC  2005 CORE              53 HOSPST                           239  240   Char Hospital state postal code
+SC  2005 CORE              54 LOS                              241  245   Num  Length of stay (cleaned)
+SC  2005 CORE              55 LOS_X                            246  251   Num  Length of stay (as received from source)
+SC  2005 CORE              56 MEDINCSTQ                        252  253   Num  Median household income state quartile for patient ZIP Code
+SC  2005 CORE              57 MDC                              254  255   Num  MDC in effect on discharge date
+SC  2005 CORE              58 MDC18                            256  257   Num  MDC, version 18
+SC  2005 CORE              59 MDSPEC1                          258  260   Char Physician 1 specialty (as received from source)
+SC  2005 CORE              60 MDSPEC2                          261  263   Char Physician 2 specialty (as received from source)
+SC  2005 CORE              61 NDX                              264  266   Num  Number of diagnoses on this record
+SC  2005 CORE              62 NECODE                           267  268   Num  Number of E codes on this record
+SC  2005 CORE              63 NEOMAT                           269  270   Num  Neonatal and/or maternal DX and/or PR
+SC  2005 CORE              64 NPR                              271  273   Num  Number of procedures on this record
+SC  2005 CORE              65 PAY1                             274  275   Num  Primary expected payer (uniform)
+SC  2005 CORE              66 PAY1_X                           276  277   Char Primary expected payer (as received from source)
+SC  2005 CORE              67 PL_NHCS2006                      278  279   Num  Patient Location: NCHS Urban-Rural Code (V2006)
+SC  2005 CORE              68 PL_RUCA10_2005                   280  281   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, ten levels
+SC  2005 CORE              69 PL_RUCA4_2005                    282  283   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, four levels
+SC  2005 CORE              70 PR1                              284  290   Char Principal procedure
+SC  2005 CORE              71 PR2                              291  297   Char Procedure 2
+SC  2005 CORE              72 PR3                              298  304   Char Procedure 3
+SC  2005 CORE              73 PR4                              305  311   Char Procedure 4
+SC  2005 CORE              74 PR5                              312  318   Char Procedure 5
+SC  2005 CORE              75 PR6                              319  325   Char Procedure 6
+SC  2005 CORE              76 PR7                              326  332   Char Procedure 7
+SC  2005 CORE              77 PR8                              333  339   Char Procedure 8
+SC  2005 CORE              78 PR9                              340  346   Char Procedure 9
+SC  2005 CORE              79 PR10                             347  353   Char Procedure 10
+SC  2005 CORE              80 PRCCS1                           354  356   Num  CCS: principal procedure
+SC  2005 CORE              81 PRCCS2                           357  359   Num  CCS: procedure 2
+SC  2005 CORE              82 PRCCS3                           360  362   Num  CCS: procedure 3
+SC  2005 CORE              83 PRCCS4                           363  365   Num  CCS: procedure 4
+SC  2005 CORE              84 PRCCS5                           366  368   Num  CCS: procedure 5
+SC  2005 CORE              85 PRCCS6                           369  371   Num  CCS: procedure 6
+SC  2005 CORE              86 PRCCS7                           372  374   Num  CCS: procedure 7
+SC  2005 CORE              87 PRCCS8                           375  377   Num  CCS: procedure 8
+SC  2005 CORE              88 PRCCS9                           378  380   Num  CCS: procedure 9
+SC  2005 CORE              89 PRCCS10                          381  383   Num  CCS: procedure 10
+SC  2005 CORE              90 PRDAY1                           384  388   Num  Number of days from admission to PR1
+SC  2005 CORE              91 PRDAY2                           389  393   Num  Number of days from admission to PR2
+SC  2005 CORE              92 PRDAY3                           394  398   Num  Number of days from admission to PR3
+SC  2005 CORE              93 PRDAY4                           399  403   Num  Number of days from admission to PR4
+SC  2005 CORE              94 PRDAY5                           404  408   Num  Number of days from admission to PR5
+SC  2005 CORE              95 PRDAY6                           409  413   Num  Number of days from admission to PR6
+SC  2005 CORE              96 PRDAY7                           414  418   Num  Number of days from admission to PR7
+SC  2005 CORE              97 PRDAY8                           419  423   Num  Number of days from admission to PR8
+SC  2005 CORE              98 PRDAY9                           424  428   Num  Number of days from admission to PR9
+SC  2005 CORE              99 PRDAY10                          429  433   Num  Number of days from admission to PR10
+SC  2005 CORE             100 PSTATE                           434  435   Char Patient State postal code
+SC  2005 CORE             101 PSTCO                            436  440   Num  Patient state/county FIPS code
+SC  2005 CORE             102 RACE                             441  442   Num  Race (uniform)
+SC  2005 CORE             103 RACE_X                           443  443   Char Race (as received from source)
+SC  2005 CORE             104 TOTCHG                           444  453   Num  Total charges (cleaned)
+SC  2005 CORE             105 TOTCHG_X                         454  468 2 Num  Total charges (as received from source)
+SC  2005 CORE             106 YEAR                             469  472   Num  Calendar year
+SC  2005 CORE             107 AGEGROUP                         473  475   Num  Age Group

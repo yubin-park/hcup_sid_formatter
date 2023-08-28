@@ -1,0 +1,230 @@
+Data Set Name: HI_SID_2003_CORE                
+Number of Observations: 134301
+Total Record Length: 791
+Total Number of Variables: 210
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 56    Variable name
+58- 61    Starting column of variable in ASCII file
+63- 66    Ending column of variable in ASCII file
+    68    Non-zero number of digits after decimal point for numeric variable
+70- 73    Variable type (Num=numeric; Char=character)
+75-174    Variable label
+
+
+HI  2003 CORE               1 HOSPID                        1    5   Num  HCUP hospital identification number
+HI  2003 CORE               2 HOSPST                        6    7   Char Hospital state postal code
+HI  2003 CORE               3 KEY                           8   21   Num  HCUP record identifier
+HI  2003 CORE               4 AGEDAY                       22   24   Num  Age in days (when age < 1 year)
+HI  2003 CORE               5 AGEMONTH                     25   27   Num  Age in months (when age < 11 years)
+HI  2003 CORE               6 AMONTH                       28   29   Num  Admission month
+HI  2003 CORE               7 ASOURCE                      30   31   Num  Admission source (uniform)
+HI  2003 CORE               8 ASOURCE_X                    32   32   Char Admission source (as received from source)
+HI  2003 CORE               9 ASOURCEUB92                  33   33   Char Admission source (UB-92 standard coding)
+HI  2003 CORE              10 ATYPE                        34   35   Num  Admission type
+HI  2003 CORE              11 AWEEKEND                     36   37   Num  Admission day is a weekend
+HI  2003 CORE              12 BWT                          38   41   Num  Birth weight in grams
+HI  2003 CORE              13 DIED                         42   43   Num  Died during hospitalization
+HI  2003 CORE              14 DISP_X                       44   45   Char Disposition of patient (as received from source)
+HI  2003 CORE              15 DISPUB92                     46   47   Num  Disposition of patient (UB-92 standard coding)
+HI  2003 CORE              16 DISPUNIFORM                  48   49   Num  Disposition of patient (uniform)
+HI  2003 CORE              17 DQTR                         50   51   Num  Discharge quarter
+HI  2003 CORE              18 DRG                          52   54   Num  DRG in effect on discharge date
+HI  2003 CORE              19 DRG18                        55   57   Num  DRG, version 18
+HI  2003 CORE              20 DRGVER                       58   59   Num  DRG grouper version used on discharge date
+HI  2003 CORE              21 DX1                          60   64   Char Principal diagnosis
+HI  2003 CORE              22 DX2                          65   69   Char Diagnosis 2
+HI  2003 CORE              23 DX3                          70   74   Char Diagnosis 3
+HI  2003 CORE              24 DX4                          75   79   Char Diagnosis 4
+HI  2003 CORE              25 DX5                          80   84   Char Diagnosis 5
+HI  2003 CORE              26 DX6                          85   89   Char Diagnosis 6
+HI  2003 CORE              27 DX7                          90   94   Char Diagnosis 7
+HI  2003 CORE              28 DX8                          95   99   Char Diagnosis 8
+HI  2003 CORE              29 DX9                         100  104   Char Diagnosis 9
+HI  2003 CORE              30 DX10                        105  109   Char Diagnosis 10
+HI  2003 CORE              31 DX11                        110  114   Char Diagnosis 11
+HI  2003 CORE              32 DX12                        115  119   Char Diagnosis 12
+HI  2003 CORE              33 DX13                        120  124   Char Diagnosis 13
+HI  2003 CORE              34 DX14                        125  129   Char Diagnosis 14
+HI  2003 CORE              35 DX15                        130  134   Char Diagnosis 15
+HI  2003 CORE              36 DX16                        135  139   Char Diagnosis 16
+HI  2003 CORE              37 DX17                        140  144   Char Diagnosis 17
+HI  2003 CORE              38 DX18                        145  149   Char Diagnosis 18
+HI  2003 CORE              39 DX19                        150  154   Char Diagnosis 19
+HI  2003 CORE              40 DX20                        155  159   Char Diagnosis 20
+HI  2003 CORE              41 DXCCS1                      160  163   Num  CCS: principal diagnosis
+HI  2003 CORE              42 DXCCS2                      164  167   Num  CCS: diagnosis 2
+HI  2003 CORE              43 DXCCS3                      168  171   Num  CCS: diagnosis 3
+HI  2003 CORE              44 DXCCS4                      172  175   Num  CCS: diagnosis 4
+HI  2003 CORE              45 DXCCS5                      176  179   Num  CCS: diagnosis 5
+HI  2003 CORE              46 DXCCS6                      180  183   Num  CCS: diagnosis 6
+HI  2003 CORE              47 DXCCS7                      184  187   Num  CCS: diagnosis 7
+HI  2003 CORE              48 DXCCS8                      188  191   Num  CCS: diagnosis 8
+HI  2003 CORE              49 DXCCS9                      192  195   Num  CCS: diagnosis 9
+HI  2003 CORE              50 DXCCS10                     196  199   Num  CCS: diagnosis 10
+HI  2003 CORE              51 DXCCS11                     200  203   Num  CCS: diagnosis 11
+HI  2003 CORE              52 DXCCS12                     204  207   Num  CCS: diagnosis 12
+HI  2003 CORE              53 DXCCS13                     208  211   Num  CCS: diagnosis 13
+HI  2003 CORE              54 DXCCS14                     212  215   Num  CCS: diagnosis 14
+HI  2003 CORE              55 DXCCS15                     216  219   Num  CCS: diagnosis 15
+HI  2003 CORE              56 DXCCS16                     220  223   Num  CCS: diagnosis 16
+HI  2003 CORE              57 DXCCS17                     224  227   Num  CCS: diagnosis 17
+HI  2003 CORE              58 DXCCS18                     228  231   Num  CCS: diagnosis 18
+HI  2003 CORE              59 DXCCS19                     232  235   Num  CCS: diagnosis 19
+HI  2003 CORE              60 DXCCS20                     236  239   Num  CCS: diagnosis 20
+HI  2003 CORE              61 ECODE1                      240  244   Char E code 1
+HI  2003 CORE              62 ECODE2                      245  249   Char E code 2
+HI  2003 CORE              63 ECODE3                      250  254   Char E code 3
+HI  2003 CORE              64 ECODE4                      255  259   Char E code 4
+HI  2003 CORE              65 ECODE5                      260  264   Char E code 5
+HI  2003 CORE              66 ECODE6                      265  269   Char E code 6
+HI  2003 CORE              67 ECODE7                      270  274   Char E code 7
+HI  2003 CORE              68 ECODE8                      275  279   Char E code 8
+HI  2003 CORE              69 E_CCS1                      280  283   Num  CCS: E Code 1
+HI  2003 CORE              70 E_CCS2                      284  287   Num  CCS: E Code 2
+HI  2003 CORE              71 E_CCS3                      288  291   Num  CCS: E Code 3
+HI  2003 CORE              72 E_CCS4                      292  295   Num  CCS: E Code 4
+HI  2003 CORE              73 E_CCS5                      296  299   Num  CCS: E Code 5
+HI  2003 CORE              74 E_CCS6                      300  303   Num  CCS: E Code 6
+HI  2003 CORE              75 E_CCS7                      304  307   Num  CCS: E Code 7
+HI  2003 CORE              76 E_CCS8                      308  311   Num  CCS: E Code 8
+HI  2003 CORE              77 FEMALE                      312  313   Num  Indicator of sex
+HI  2003 CORE              78 LOS                         314  318   Num  Length of stay (cleaned)
+HI  2003 CORE              79 LOS_X                       319  324   Num  Length of stay (as received from source)
+HI  2003 CORE              80 MDC                         325  326   Num  MDC in effect on discharge date
+HI  2003 CORE              81 MDC18                       327  328   Num  MDC, version 18
+HI  2003 CORE              82 MRN_R                       329  337   Num  Medical record number (re-identified)
+HI  2003 CORE              83 NDX                         338  339   Num  Number of diagnoses on this record
+HI  2003 CORE              84 NECODE                      340  341   Num  Number of E codes on this record
+HI  2003 CORE              85 NEOMAT                      342  343   Num  Neonatal and/or maternal DX and/or PR
+HI  2003 CORE              86 NPR                         344  345   Num  Number of procedures on this record
+HI  2003 CORE              87 PAY1                        346  347   Num  Primary expected payer (uniform)
+HI  2003 CORE              88 PAY1_X                      348  349   Char Primary expected payer (as received from source)
+HI  2003 CORE              89 PL_CBSA                     350  352   Num  Patient location: Core Based Statistical Area (CBSA)
+HI  2003 CORE              90 PL_MSA1993                  353  355   Num  Patient location: Metropolitan Statistical Area (MSA), 1993
+HI  2003 CORE              91 PL_RUCA                     356  359 1 Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes
+HI  2003 CORE              92 PL_RUCA10                   360  361   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, ten levels
+HI  2003 CORE              93 PL_RUCA4                    362  363   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, four levels
+HI  2003 CORE              94 PL_RUCC2003                 364  365   Num  Patient location: Rural-Urban Continuum Codes(RUCC), 2003
+HI  2003 CORE              95 PL_UIC2003                  366  367   Num  Patient location: Urban Influence Codes, 2003
+HI  2003 CORE              96 PL_UR_CAT4                  368  369   Num  Patient Location: Urban-Rural 4 Categories
+HI  2003 CORE              97 PL_UR_CAT5                  370  371   Num  Patient Location: Urban-Rural 5 Categories
+HI  2003 CORE              98 PR1                         372  375   Char Principal procedure
+HI  2003 CORE              99 PR2                         376  379   Char Procedure 2
+HI  2003 CORE             100 PR3                         380  383   Char Procedure 3
+HI  2003 CORE             101 PR4                         384  387   Char Procedure 4
+HI  2003 CORE             102 PR5                         388  391   Char Procedure 5
+HI  2003 CORE             103 PR6                         392  395   Char Procedure 6
+HI  2003 CORE             104 PR7                         396  399   Char Procedure 7
+HI  2003 CORE             105 PR8                         400  403   Char Procedure 8
+HI  2003 CORE             106 PR9                         404  407   Char Procedure 9
+HI  2003 CORE             107 PR10                        408  411   Char Procedure 10
+HI  2003 CORE             108 PR11                        412  415   Char Procedure 11
+HI  2003 CORE             109 PR12                        416  419   Char Procedure 12
+HI  2003 CORE             110 PR13                        420  423   Char Procedure 13
+HI  2003 CORE             111 PR14                        424  427   Char Procedure 14
+HI  2003 CORE             112 PR15                        428  431   Char Procedure 15
+HI  2003 CORE             113 PR16                        432  435   Char Procedure 16
+HI  2003 CORE             114 PR17                        436  439   Char Procedure 17
+HI  2003 CORE             115 PR18                        440  443   Char Procedure 18
+HI  2003 CORE             116 PR19                        444  447   Char Procedure 19
+HI  2003 CORE             117 PR20                        448  451   Char Procedure 20
+HI  2003 CORE             118 PRCCS1                      452  454   Num  CCS: principal procedure
+HI  2003 CORE             119 PRCCS2                      455  457   Num  CCS: procedure 2
+HI  2003 CORE             120 PRCCS3                      458  460   Num  CCS: procedure 3
+HI  2003 CORE             121 PRCCS4                      461  463   Num  CCS: procedure 4
+HI  2003 CORE             122 PRCCS5                      464  466   Num  CCS: procedure 5
+HI  2003 CORE             123 PRCCS6                      467  469   Num  CCS: procedure 6
+HI  2003 CORE             124 PRCCS7                      470  472   Num  CCS: procedure 7
+HI  2003 CORE             125 PRCCS8                      473  475   Num  CCS: procedure 8
+HI  2003 CORE             126 PRCCS9                      476  478   Num  CCS: procedure 9
+HI  2003 CORE             127 PRCCS10                     479  481   Num  CCS: procedure 10
+HI  2003 CORE             128 PRCCS11                     482  484   Num  CCS: procedure 11
+HI  2003 CORE             129 PRCCS12                     485  487   Num  CCS: procedure 12
+HI  2003 CORE             130 PRCCS13                     488  490   Num  CCS: procedure 13
+HI  2003 CORE             131 PRCCS14                     491  493   Num  CCS: procedure 14
+HI  2003 CORE             132 PRCCS15                     494  496   Num  CCS: procedure 15
+HI  2003 CORE             133 PRCCS16                     497  499   Num  CCS: procedure 16
+HI  2003 CORE             134 PRCCS17                     500  502   Num  CCS: procedure 17
+HI  2003 CORE             135 PRCCS18                     503  505   Num  CCS: procedure 18
+HI  2003 CORE             136 PRCCS19                     506  508   Num  CCS: procedure 19
+HI  2003 CORE             137 PRCCS20                     509  511   Num  CCS: procedure 20
+HI  2003 CORE             138 PRDAY1                      512  516   Num  Number of days from admission to PR1
+HI  2003 CORE             139 PRDAY2                      517  521   Num  Number of days from admission to PR2
+HI  2003 CORE             140 PRDAY3                      522  526   Num  Number of days from admission to PR3
+HI  2003 CORE             141 PRDAY4                      527  531   Num  Number of days from admission to PR4
+HI  2003 CORE             142 PRDAY5                      532  536   Num  Number of days from admission to PR5
+HI  2003 CORE             143 PRDAY6                      537  541   Num  Number of days from admission to PR6
+HI  2003 CORE             144 PRDAY7                      542  546   Num  Number of days from admission to PR7
+HI  2003 CORE             145 PRDAY8                      547  551   Num  Number of days from admission to PR8
+HI  2003 CORE             146 PRDAY9                      552  556   Num  Number of days from admission to PR9
+HI  2003 CORE             147 PRDAY10                     557  561   Num  Number of days from admission to PR10
+HI  2003 CORE             148 PRDAY11                     562  566   Num  Number of days from admission to PR11
+HI  2003 CORE             149 PRDAY12                     567  571   Num  Number of days from admission to PR12
+HI  2003 CORE             150 PRDAY13                     572  576   Num  Number of days from admission to PR13
+HI  2003 CORE             151 PRDAY14                     577  581   Num  Number of days from admission to PR14
+HI  2003 CORE             152 PRDAY15                     582  586   Num  Number of days from admission to PR15
+HI  2003 CORE             153 PRDAY16                     587  591   Num  Number of days from admission to PR16
+HI  2003 CORE             154 PRDAY17                     592  596   Num  Number of days from admission to PR17
+HI  2003 CORE             155 PRDAY18                     597  601   Num  Number of days from admission to PR18
+HI  2003 CORE             156 PRDAY19                     602  606   Num  Number of days from admission to PR19
+HI  2003 CORE             157 PRDAY20                     607  611   Num  Number of days from admission to PR20
+HI  2003 CORE             158 PSTATE                      612  613   Char Patient State postal code
+HI  2003 CORE             159 PSTCO2                      614  618   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+HI  2003 CORE             160 RACE                        619  620   Num  Race (uniform)
+HI  2003 CORE             161 RACE_X                      621  622   Char Race (as received from source)
+HI  2003 CORE             162 TOTCHG                      623  632   Num  Total charges (cleaned)
+HI  2003 CORE             163 TOTCHG_X                    633  647 2 Num  Total charges (as received from source)
+HI  2003 CORE             164 YEAR                        648  651   Num  Calendar year
+HI  2003 CORE             165 ZIP                         652  656   Char Patient ZIP Code
+HI  2003 CORE             166 AGEGROUP                    657  659   Num  Age Group
+HI  2003 CORE             167 AYEAR                       660  663   Num  Admission year
+HI  2003 CORE             168 DMONTH                      664  665   Num  Discharge month
+HI  2003 CORE             169 BMONTH                      666  667   Num  Birth month
+HI  2003 CORE             170 BYEAR                       668  671   Num  Birth year
+HI  2003 CORE             171 PRMONTH1                    672  673   Num  Month of procedure 1
+HI  2003 CORE             172 PRMONTH2                    674  675   Num  Month of procedure 2
+HI  2003 CORE             173 PRMONTH3                    676  677   Num  Month of procedure 3
+HI  2003 CORE             174 PRMONTH4                    678  679   Num  Month of procedure 4
+HI  2003 CORE             175 PRMONTH5                    680  681   Num  Month of procedure 5
+HI  2003 CORE             176 PRMONTH6                    682  683   Num  Month of procedure 6
+HI  2003 CORE             177 PRMONTH7                    684  685   Num  Month of procedure 7
+HI  2003 CORE             178 PRMONTH8                    686  687   Num  Month of procedure 8
+HI  2003 CORE             179 PRMONTH9                    688  689   Num  Month of procedure 9
+HI  2003 CORE             180 PRMONTH10                   690  691   Num  Month of procedure 10
+HI  2003 CORE             181 PRMONTH11                   692  693   Num  Month of procedure 11
+HI  2003 CORE             182 PRMONTH12                   694  695   Num  Month of procedure 12
+HI  2003 CORE             183 PRMONTH13                   696  697   Num  Month of procedure 13
+HI  2003 CORE             184 PRMONTH14                   698  699   Num  Month of procedure 14
+HI  2003 CORE             185 PRMONTH15                   700  701   Num  Month of procedure 15
+HI  2003 CORE             186 PRMONTH16                   702  703   Num  Month of procedure 16
+HI  2003 CORE             187 PRMONTH17                   704  705   Num  Month of procedure 17
+HI  2003 CORE             188 PRMONTH18                   706  707   Num  Month of procedure 18
+HI  2003 CORE             189 PRMONTH19                   708  709   Num  Month of procedure 19
+HI  2003 CORE             190 PRMONTH20                   710  711   Num  Month of procedure 20
+HI  2003 CORE             191 PRYEAR1                     712  715   Num  Year of procedure 1
+HI  2003 CORE             192 PRYEAR2                     716  719   Num  Year of procedure 2
+HI  2003 CORE             193 PRYEAR3                     720  723   Num  Year of procedure 3
+HI  2003 CORE             194 PRYEAR4                     724  727   Num  Year of procedure 4
+HI  2003 CORE             195 PRYEAR5                     728  731   Num  Year of procedure 5
+HI  2003 CORE             196 PRYEAR6                     732  735   Num  Year of procedure 6
+HI  2003 CORE             197 PRYEAR7                     736  739   Num  Year of procedure 7
+HI  2003 CORE             198 PRYEAR8                     740  743   Num  Year of procedure 8
+HI  2003 CORE             199 PRYEAR9                     744  747   Num  Year of procedure 9
+HI  2003 CORE             200 PRYEAR10                    748  751   Num  Year of procedure 10
+HI  2003 CORE             201 PRYEAR11                    752  755   Num  Year of procedure 11
+HI  2003 CORE             202 PRYEAR12                    756  759   Num  Year of procedure 12
+HI  2003 CORE             203 PRYEAR13                    760  763   Num  Year of procedure 13
+HI  2003 CORE             204 PRYEAR14                    764  767   Num  Year of procedure 14
+HI  2003 CORE             205 PRYEAR15                    768  771   Num  Year of procedure 15
+HI  2003 CORE             206 PRYEAR16                    772  775   Num  Year of procedure 16
+HI  2003 CORE             207 PRYEAR17                    776  779   Num  Year of procedure 17
+HI  2003 CORE             208 PRYEAR18                    780  783   Num  Year of procedure 18
+HI  2003 CORE             209 PRYEAR19                    784  787   Num  Year of procedure 19
+HI  2003 CORE             210 PRYEAR20                    788  791   Num  Year of procedure 20

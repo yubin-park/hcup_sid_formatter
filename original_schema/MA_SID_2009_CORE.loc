@@ -1,0 +1,235 @@
+Data Set Name: MA_SIDC_2009_CORE               
+Number of Observations: 851856
+Total Record Length: 733
+Total Number of Variables: 215
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 56    Variable name
+58- 61    Starting column of variable in ASCII file
+63- 66    Ending column of variable in ASCII file
+    68    Non-zero number of digits after decimal point for numeric variable
+70- 73    Variable type (Num=numeric; Char=character)
+75-174    Variable label
+
+
+MA  2009 CORE               1 ADRG                          1    3   Num  All Patient Refined DRG
+MA  2009 CORE               2 ADRGRISKMORTALITY             4    5   Num  All Patient Refined DRG mortality risk
+MA  2009 CORE               3 ADRGSEV                       6    7   Num  All Patient Refined DRG severity level
+MA  2009 CORE               4 AGE                           8   10   Num  Age in years at admission
+MA  2009 CORE               5 AGEMONTH                     11   13   Num  Age in months (when age < 11 years)
+MA  2009 CORE               6 AMDC                         14   15   Num  All Patient Refined MDC
+MA  2009 CORE               7 AMONTH                       16   17   Num  Admission month
+MA  2009 CORE               8 ASOURCE                      18   19   Num  Admission source (uniform)
+MA  2009 CORE               9 ASOURCEUB92                  20   20   Char Admission source (UB-92 standard coding)
+MA  2009 CORE              10 ASOURCE_X                    21   21   Char Admission source (as received from source)
+MA  2009 CORE              11 ATYPE                        22   23   Num  Admission type
+MA  2009 CORE              12 AWEEKEND                     24   25   Num  Admission day is a weekend
+MA  2009 CORE              13 BWT                          26   29   Num  Birth weight in grams
+MA  2009 CORE              14 DIED                         30   31   Num  Died during hospitalization
+MA  2009 CORE              15 DISPUB04                     32   33   Num  Disposition of patient (UB-04 standard coding)
+MA  2009 CORE              16 DISPUNIFORM                  34   35   Num  Disposition of patient (uniform)
+MA  2009 CORE              17 DISP_X                       36   37   Char Disposition of patient (as received from source)
+MA  2009 CORE              18 DNR                          38   39   Num  Do not resuscitate indicator
+MA  2009 CORE              19 DQTR                         40   41   Num  Discharge quarter
+MA  2009 CORE              20 DRG                          42   44   Num  DRG in effect on discharge date
+MA  2009 CORE              21 DRG24                        45   47   Num  DRG, version 24
+MA  2009 CORE              22 DRGVER                       48   49   Num  DRG grouper version used on discharge date
+MA  2009 CORE              23 DRG_NoPOA                    50   52   Num  DRG in use on discharge date, calculated without POA
+MA  2009 CORE              24 DSHOSPID                     53   69   Char Data source hospital identifier
+MA  2009 CORE              25 DX1                          70   74   Char Diagnosis 1
+MA  2009 CORE              26 DX2                          75   79   Char Diagnosis 2
+MA  2009 CORE              27 DX3                          80   84   Char Diagnosis 3
+MA  2009 CORE              28 DX4                          85   89   Char Diagnosis 4
+MA  2009 CORE              29 DX5                          90   94   Char Diagnosis 5
+MA  2009 CORE              30 DX6                          95   99   Char Diagnosis 6
+MA  2009 CORE              31 DX7                         100  104   Char Diagnosis 7
+MA  2009 CORE              32 DX8                         105  109   Char Diagnosis 8
+MA  2009 CORE              33 DX9                         110  114   Char Diagnosis 9
+MA  2009 CORE              34 DX10                        115  119   Char Diagnosis 10
+MA  2009 CORE              35 DX11                        120  124   Char Diagnosis 11
+MA  2009 CORE              36 DX12                        125  129   Char Diagnosis 12
+MA  2009 CORE              37 DX13                        130  134   Char Diagnosis 13
+MA  2009 CORE              38 DX14                        135  139   Char Diagnosis 14
+MA  2009 CORE              39 DX15                        140  144   Char Diagnosis 15
+MA  2009 CORE              40 DXCCS1                      145  148   Num  CCS: diagnosis 1
+MA  2009 CORE              41 DXCCS2                      149  152   Num  CCS: diagnosis 2
+MA  2009 CORE              42 DXCCS3                      153  156   Num  CCS: diagnosis 3
+MA  2009 CORE              43 DXCCS4                      157  160   Num  CCS: diagnosis 4
+MA  2009 CORE              44 DXCCS5                      161  164   Num  CCS: diagnosis 5
+MA  2009 CORE              45 DXCCS6                      165  168   Num  CCS: diagnosis 6
+MA  2009 CORE              46 DXCCS7                      169  172   Num  CCS: diagnosis 7
+MA  2009 CORE              47 DXCCS8                      173  176   Num  CCS: diagnosis 8
+MA  2009 CORE              48 DXCCS9                      177  180   Num  CCS: diagnosis 9
+MA  2009 CORE              49 DXCCS10                     181  184   Num  CCS: diagnosis 10
+MA  2009 CORE              50 DXCCS11                     185  188   Num  CCS: diagnosis 11
+MA  2009 CORE              51 DXCCS12                     189  192   Num  CCS: diagnosis 12
+MA  2009 CORE              52 DXCCS13                     193  196   Num  CCS: diagnosis 13
+MA  2009 CORE              53 DXCCS14                     197  200   Num  CCS: diagnosis 14
+MA  2009 CORE              54 DXCCS15                     201  204   Num  CCS: diagnosis 15
+MA  2009 CORE              55 DXPOA1                      205  205   Char Diagnosis 1, present on admission indicator
+MA  2009 CORE              56 DXPOA2                      206  206   Char Diagnosis 2, present on admission indicator
+MA  2009 CORE              57 DXPOA3                      207  207   Char Diagnosis 3, present on admission indicator
+MA  2009 CORE              58 DXPOA4                      208  208   Char Diagnosis 4, present on admission indicator
+MA  2009 CORE              59 DXPOA5                      209  209   Char Diagnosis 5, present on admission indicator
+MA  2009 CORE              60 DXPOA6                      210  210   Char Diagnosis 6, present on admission indicator
+MA  2009 CORE              61 DXPOA7                      211  211   Char Diagnosis 7, present on admission indicator
+MA  2009 CORE              62 DXPOA8                      212  212   Char Diagnosis 8, present on admission indicator
+MA  2009 CORE              63 DXPOA9                      213  213   Char Diagnosis 9, present on admission indicator
+MA  2009 CORE              64 DXPOA10                     214  214   Char Diagnosis 10, present on admission indicator
+MA  2009 CORE              65 DXPOA11                     215  215   Char Diagnosis 11, present on admission indicator
+MA  2009 CORE              66 DXPOA12                     216  216   Char Diagnosis 12, present on admission indicator
+MA  2009 CORE              67 DXPOA13                     217  217   Char Diagnosis 13, present on admission indicator
+MA  2009 CORE              68 DXPOA14                     218  218   Char Diagnosis 14, present on admission indicator
+MA  2009 CORE              69 DXPOA15                     219  219   Char Diagnosis 15, present on admission indicator
+MA  2009 CORE              70 DaysBetweenVisits           220  223   Num  Number of days between visits
+MA  2009 CORE              71 ECODE1                      224  228   Char E code 1
+MA  2009 CORE              72 ECODE2                      229  233   Char E code 2
+MA  2009 CORE              73 ECODE3                      234  238   Char E code 3
+MA  2009 CORE              74 ECODE4                      239  243   Char E code 4
+MA  2009 CORE              75 ECODE5                      244  248   Char E code 5
+MA  2009 CORE              76 ECODE6                      249  253   Char E code 6
+MA  2009 CORE              77 ECODE7                      254  258   Char E code 7
+MA  2009 CORE              78 ECODE8                      259  263   Char E code 8
+MA  2009 CORE              79 E_CCS1                      264  267   Num  CCS: E Code 1
+MA  2009 CORE              80 E_CCS2                      268  271   Num  CCS: E Code 2
+MA  2009 CORE              81 E_CCS3                      272  275   Num  CCS: E Code 3
+MA  2009 CORE              82 E_CCS4                      276  279   Num  CCS: E Code 4
+MA  2009 CORE              83 E_CCS5                      280  283   Num  CCS: E Code 5
+MA  2009 CORE              84 E_CCS6                      284  287   Num  CCS: E Code 6
+MA  2009 CORE              85 E_CCS7                      288  291   Num  CCS: E Code 7
+MA  2009 CORE              86 E_CCS8                      292  295   Num  CCS: E Code 8
+MA  2009 CORE              87 E_POA1                      296  296   Char E Code 1, present on admission indicator
+MA  2009 CORE              88 E_POA2                      297  297   Char E Code 2, present on admission indicator
+MA  2009 CORE              89 E_POA3                      298  298   Char E Code 3, present on admission indicator
+MA  2009 CORE              90 E_POA4                      299  299   Char E Code 4, present on admission indicator
+MA  2009 CORE              91 E_POA5                      300  300   Char E Code 5, present on admission indicator
+MA  2009 CORE              92 E_POA6                      301  301   Char E Code 6, present on admission indicator
+MA  2009 CORE              93 E_POA7                      302  302   Char E Code 7, present on admission indicator
+MA  2009 CORE              94 E_POA8                      303  303   Char E Code 8, present on admission indicator
+MA  2009 CORE              95 FEMALE                      304  305   Num  Indicator of sex
+MA  2009 CORE              96 HCUP_ED                     306  307   Num  HCUP Emergency Department service indicator
+MA  2009 CORE              97 HCUP_OS                     308  309   Num  HCUP Observation Stay service indicator
+MA  2009 CORE              98 HISPANIC_X                  310  324   Char Hispanic ethnicity (as received from source)
+MA  2009 CORE              99 HOSPBRTH                    325  327   Num  Indicator of birth in this hospital
+MA  2009 CORE             100 HOSPST                      328  329   Char Hospital state postal code
+MA  2009 CORE             101 Homeless                    330  331   Num  Indicator that patient is homeless
+MA  2009 CORE             102 KEY                         332  345   Num  HCUP record identifier
+MA  2009 CORE             103 LOS                         346  350   Num  Length of stay (cleaned)
+MA  2009 CORE             104 LOS_X                       351  356   Num  Length of stay (as received from source)
+MA  2009 CORE             105 MDC                         357  358   Num  MDC in effect on discharge date
+MA  2009 CORE             106 MDC24                       359  360   Num  MDC, version 24
+MA  2009 CORE             107 MDC_NoPOA                   361  362   Num  MDC in use on discharge date, calculated without POA
+MA  2009 CORE             108 MEDINCSTQ                   363  364   Num  Median household income state quartile for patient ZIP Code
+MA  2009 CORE             109 NCHRONIC                    365  367   Num  Number of chronic conditions
+MA  2009 CORE             110 NDX                         368  369   Num  Number of diagnoses on this record
+MA  2009 CORE             111 NECODE                      370  371   Num  Number of E codes on this record
+MA  2009 CORE             112 NEOMAT                      372  373   Num  Neonatal and/or maternal DX and/or PR
+MA  2009 CORE             113 NPR                         374  375   Num  Number of procedures on this record
+MA  2009 CORE             114 ORPROC                      376  377   Num  Major operating room procedure indicator
+MA  2009 CORE             115 PAY1                        378  379   Num  Primary expected payer (uniform)
+MA  2009 CORE             116 PAY1_X                      380  380   Char Primary expected payer (as received from source)
+MA  2009 CORE             117 PAY2                        381  382   Num  Secondary expected payer (uniform)
+MA  2009 CORE             118 PAY2_X                      383  383   Char Secondary expected payer (as received from source)
+MA  2009 CORE             119 PAYER1_X                    384  386   Char Primary expected payer plan identifier (as received from source)
+MA  2009 CORE             120 PAYER2_X                    387  389   Char Secondary expected payer plan identifier (as received from source)
+MA  2009 CORE             121 PL_CBSA                     390  392   Num  Patient location: Core Based Statistical Area (CBSA)
+MA  2009 CORE             122 PL_MSA1993                  393  395   Num  Patient location: Metropolitan Statistical Area (MSA), 1993
+MA  2009 CORE             123 PL_RUCA4_2005               396  397   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, four levels
+MA  2009 CORE             124 PL_UR_CAT4                  398  399   Num  Patient Location: Urban-Rural 4 Categories
+MA  2009 CORE             125 PR1                         400  403   Char Procedure 1
+MA  2009 CORE             126 PR2                         404  407   Char Procedure 2
+MA  2009 CORE             127 PR3                         408  411   Char Procedure 3
+MA  2009 CORE             128 PR4                         412  415   Char Procedure 4
+MA  2009 CORE             129 PR5                         416  419   Char Procedure 5
+MA  2009 CORE             130 PR6                         420  423   Char Procedure 6
+MA  2009 CORE             131 PR7                         424  427   Char Procedure 7
+MA  2009 CORE             132 PR8                         428  431   Char Procedure 8
+MA  2009 CORE             133 PR9                         432  435   Char Procedure 9
+MA  2009 CORE             134 PR10                        436  439   Char Procedure 10
+MA  2009 CORE             135 PR11                        440  443   Char Procedure 11
+MA  2009 CORE             136 PR12                        444  447   Char Procedure 12
+MA  2009 CORE             137 PR13                        448  451   Char Procedure 13
+MA  2009 CORE             138 PR14                        452  455   Char Procedure 14
+MA  2009 CORE             139 PR15                        456  459   Char Procedure 15
+MA  2009 CORE             140 PRCCS1                      460  462   Num  CCS: procedure 1
+MA  2009 CORE             141 PRCCS2                      463  465   Num  CCS: procedure 2
+MA  2009 CORE             142 PRCCS3                      466  468   Num  CCS: procedure 3
+MA  2009 CORE             143 PRCCS4                      469  471   Num  CCS: procedure 4
+MA  2009 CORE             144 PRCCS5                      472  474   Num  CCS: procedure 5
+MA  2009 CORE             145 PRCCS6                      475  477   Num  CCS: procedure 6
+MA  2009 CORE             146 PRCCS7                      478  480   Num  CCS: procedure 7
+MA  2009 CORE             147 PRCCS8                      481  483   Num  CCS: procedure 8
+MA  2009 CORE             148 PRCCS9                      484  486   Num  CCS: procedure 9
+MA  2009 CORE             149 PRCCS10                     487  489   Num  CCS: procedure 10
+MA  2009 CORE             150 PRCCS11                     490  492   Num  CCS: procedure 11
+MA  2009 CORE             151 PRCCS12                     493  495   Num  CCS: procedure 12
+MA  2009 CORE             152 PRCCS13                     496  498   Num  CCS: procedure 13
+MA  2009 CORE             153 PRCCS14                     499  501   Num  CCS: procedure 14
+MA  2009 CORE             154 PRCCS15                     502  504   Num  CCS: procedure 15
+MA  2009 CORE             155 PRDAY1                      505  509   Num  Number of days from admission to PR1
+MA  2009 CORE             156 PRDAY2                      510  514   Num  Number of days from admission to PR2
+MA  2009 CORE             157 PRDAY3                      515  519   Num  Number of days from admission to PR3
+MA  2009 CORE             158 PRDAY4                      520  524   Num  Number of days from admission to PR4
+MA  2009 CORE             159 PRDAY5                      525  529   Num  Number of days from admission to PR5
+MA  2009 CORE             160 PRDAY6                      530  534   Num  Number of days from admission to PR6
+MA  2009 CORE             161 PRDAY7                      535  539   Num  Number of days from admission to PR7
+MA  2009 CORE             162 PRDAY8                      540  544   Num  Number of days from admission to PR8
+MA  2009 CORE             163 PRDAY9                      545  549   Num  Number of days from admission to PR9
+MA  2009 CORE             164 PRDAY10                     550  554   Num  Number of days from admission to PR10
+MA  2009 CORE             165 PRDAY11                     555  559   Num  Number of days from admission to PR11
+MA  2009 CORE             166 PRDAY12                     560  564   Num  Number of days from admission to PR12
+MA  2009 CORE             167 PRDAY13                     565  569   Num  Number of days from admission to PR13
+MA  2009 CORE             168 PRDAY14                     570  574   Num  Number of days from admission to PR14
+MA  2009 CORE             169 PRDAY15                     575  579   Num  Number of days from admission to PR15
+MA  2009 CORE             170 PROCTYPE                    580  582   Num  Procedure type indicator
+MA  2009 CORE             171 PSTATE                      583  584   Char Patient State postal code
+MA  2009 CORE             172 PSTCO2                      585  589   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+MA  2009 CORE             173 PointOfOriginUB04           590  590   Char Point of origin for admission or visit, UB-04 standard coding
+MA  2009 CORE             174 PointOfOrigin_X             591  591   Char Point of origin for admission or visit, as received from source
+MA  2009 CORE             175 RACE                        592  593   Num  Race (uniform)
+MA  2009 CORE             176 RACE_X                      594  598   Char Race (as received from source)
+MA  2009 CORE             177 TOTCHG                      599  608   Num  Total charges (cleaned)
+MA  2009 CORE             178 TOTCHG_X                    609  623 2 Num  Total charges (as received from source)
+MA  2009 CORE             179 TRAN_IN                     624  625   Num  Transfer in indicator
+MA  2009 CORE             180 TRAN_OUT                    626  627   Num  Transfer out indicator
+MA  2009 CORE             181 YEAR                        628  631   Num  Calendar year
+MA  2009 CORE             182 ZIP3                        632  634   Char Patient ZIP Code, first 3 digits
+MA  2009 CORE             183 ZIPINC_QRTL                 635  637   Num  Median household income national quartile for patient ZIP Code
+MA  2009 CORE             184 AYEAR                       638  641   Num  Admission year
+MA  2009 CORE             185 DMONTH                      642  643   Num  Discharge month
+MA  2009 CORE             186 PRMONTH1                    644  645   Num  Month of procedure 1
+MA  2009 CORE             187 PRMONTH2                    646  647   Num  Month of procedure 2
+MA  2009 CORE             188 PRMONTH3                    648  649   Num  Month of procedure 3
+MA  2009 CORE             189 PRMONTH4                    650  651   Num  Month of procedure 4
+MA  2009 CORE             190 PRMONTH5                    652  653   Num  Month of procedure 5
+MA  2009 CORE             191 PRMONTH6                    654  655   Num  Month of procedure 6
+MA  2009 CORE             192 PRMONTH7                    656  657   Num  Month of procedure 7
+MA  2009 CORE             193 PRMONTH8                    658  659   Num  Month of procedure 8
+MA  2009 CORE             194 PRMONTH9                    660  661   Num  Month of procedure 9
+MA  2009 CORE             195 PRMONTH10                   662  663   Num  Month of procedure 10
+MA  2009 CORE             196 PRMONTH11                   664  665   Num  Month of procedure 11
+MA  2009 CORE             197 PRMONTH12                   666  667   Num  Month of procedure 12
+MA  2009 CORE             198 PRMONTH13                   668  669   Num  Month of procedure 13
+MA  2009 CORE             199 PRMONTH14                   670  671   Num  Month of procedure 14
+MA  2009 CORE             200 PRMONTH15                   672  673   Num  Month of procedure 15
+MA  2009 CORE             201 PRYEAR1                     674  677   Num  Year of procedure 1
+MA  2009 CORE             202 PRYEAR2                     678  681   Num  Year of procedure 2
+MA  2009 CORE             203 PRYEAR3                     682  685   Num  Year of procedure 3
+MA  2009 CORE             204 PRYEAR4                     686  689   Num  Year of procedure 4
+MA  2009 CORE             205 PRYEAR5                     690  693   Num  Year of procedure 5
+MA  2009 CORE             206 PRYEAR6                     694  697   Num  Year of procedure 6
+MA  2009 CORE             207 PRYEAR7                     698  701   Num  Year of procedure 7
+MA  2009 CORE             208 PRYEAR8                     702  705   Num  Year of procedure 8
+MA  2009 CORE             209 PRYEAR9                     706  709   Num  Year of procedure 9
+MA  2009 CORE             210 PRYEAR10                    710  713   Num  Year of procedure 10
+MA  2009 CORE             211 PRYEAR11                    714  717   Num  Year of procedure 11
+MA  2009 CORE             212 PRYEAR12                    718  721   Num  Year of procedure 12
+MA  2009 CORE             213 PRYEAR13                    722  725   Num  Year of procedure 13
+MA  2009 CORE             214 PRYEAR14                    726  729   Num  Year of procedure 14
+MA  2009 CORE             215 PRYEAR15                    730  733   Num  Year of procedure 15

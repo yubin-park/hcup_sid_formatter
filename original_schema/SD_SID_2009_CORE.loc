@@ -1,0 +1,669 @@
+Data Set Name: SD_SIDC_2009_CORE               
+Number of Observations: 105246
+Total Record Length: 2261
+Total Number of Variables: 649
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 56    Variable name
+58- 61    Starting column of variable in ASCII file
+63- 66    Ending column of variable in ASCII file
+    68    Non-zero number of digits after decimal point for numeric variable
+70- 73    Variable type (Num=numeric; Char=character)
+75-174    Variable label
+
+
+SD  2009 CORE               1 AGE                           1    3   Num  Age in years at admission
+SD  2009 CORE               2 AGEDAY                        4    6   Num  Age in days (when age < 1 year)
+SD  2009 CORE               3 AGEMONTH                      7    9   Num  Age in months (when age < 11 years)
+SD  2009 CORE               4 AMONTH                       10   11   Num  Admission month
+SD  2009 CORE               5 ATYPE                        12   13   Num  Admission type
+SD  2009 CORE               6 AWEEKEND                     14   15   Num  Admission day is a weekend
+SD  2009 CORE               7 DIED                         16   17   Num  Died during hospitalization
+SD  2009 CORE               8 DISPUB04                     18   19   Num  Disposition of patient (UB-04 standard coding)
+SD  2009 CORE               9 DISPUNIFORM                  20   21   Num  Disposition of patient (uniform)
+SD  2009 CORE              10 DISP_X                       22   25   Char Disposition of patient (as received from source)
+SD  2009 CORE              11 DQTR                         26   27   Num  Discharge quarter
+SD  2009 CORE              12 DRG                          28   30   Num  DRG in effect on discharge date
+SD  2009 CORE              13 DRG24                        31   33   Num  DRG, version 24
+SD  2009 CORE              14 DRGVER                       34   35   Num  DRG grouper version used on discharge date
+SD  2009 CORE              15 DRG_NoPOA                    36   38   Num  DRG in use on discharge date, calculated without POA
+SD  2009 CORE              16 DX1                          39   43   Char Diagnosis 1
+SD  2009 CORE              17 DX2                          44   48   Char Diagnosis 2
+SD  2009 CORE              18 DX3                          49   53   Char Diagnosis 3
+SD  2009 CORE              19 DX4                          54   58   Char Diagnosis 4
+SD  2009 CORE              20 DX5                          59   63   Char Diagnosis 5
+SD  2009 CORE              21 DX6                          64   68   Char Diagnosis 6
+SD  2009 CORE              22 DX7                          69   73   Char Diagnosis 7
+SD  2009 CORE              23 DX8                          74   78   Char Diagnosis 8
+SD  2009 CORE              24 DX9                          79   83   Char Diagnosis 9
+SD  2009 CORE              25 DX10                         84   88   Char Diagnosis 10
+SD  2009 CORE              26 DX11                         89   93   Char Diagnosis 11
+SD  2009 CORE              27 DX12                         94   98   Char Diagnosis 12
+SD  2009 CORE              28 DX13                         99  103   Char Diagnosis 13
+SD  2009 CORE              29 DX14                        104  108   Char Diagnosis 14
+SD  2009 CORE              30 DX15                        109  113   Char Diagnosis 15
+SD  2009 CORE              31 DX16                        114  118   Char Diagnosis 16
+SD  2009 CORE              32 DX17                        119  123   Char Diagnosis 17
+SD  2009 CORE              33 DX18                        124  128   Char Diagnosis 18
+SD  2009 CORE              34 DX19                        129  133   Char Diagnosis 19
+SD  2009 CORE              35 DX20                        134  138   Char Diagnosis 20
+SD  2009 CORE              36 DX21                        139  143   Char Diagnosis 21
+SD  2009 CORE              37 DX22                        144  148   Char Diagnosis 22
+SD  2009 CORE              38 DX23                        149  153   Char Diagnosis 23
+SD  2009 CORE              39 DX24                        154  158   Char Diagnosis 24
+SD  2009 CORE              40 DX25                        159  163   Char Diagnosis 25
+SD  2009 CORE              41 DX26                        164  168   Char Diagnosis 26
+SD  2009 CORE              42 DX27                        169  173   Char Diagnosis 27
+SD  2009 CORE              43 DX28                        174  178   Char Diagnosis 28
+SD  2009 CORE              44 DX29                        179  183   Char Diagnosis 29
+SD  2009 CORE              45 DX30                        184  188   Char Diagnosis 30
+SD  2009 CORE              46 DX31                        189  193   Char Diagnosis 31
+SD  2009 CORE              47 DX32                        194  198   Char Diagnosis 32
+SD  2009 CORE              48 DX33                        199  203   Char Diagnosis 33
+SD  2009 CORE              49 DX34                        204  208   Char Diagnosis 34
+SD  2009 CORE              50 DX35                        209  213   Char Diagnosis 35
+SD  2009 CORE              51 DX36                        214  218   Char Diagnosis 36
+SD  2009 CORE              52 DX37                        219  223   Char Diagnosis 37
+SD  2009 CORE              53 DX38                        224  228   Char Diagnosis 38
+SD  2009 CORE              54 DX39                        229  233   Char Diagnosis 39
+SD  2009 CORE              55 DX40                        234  238   Char Diagnosis 40
+SD  2009 CORE              56 DX41                        239  243   Char Diagnosis 41
+SD  2009 CORE              57 DX42                        244  248   Char Diagnosis 42
+SD  2009 CORE              58 DX43                        249  253   Char Diagnosis 43
+SD  2009 CORE              59 DX44                        254  258   Char Diagnosis 44
+SD  2009 CORE              60 DX45                        259  263   Char Diagnosis 45
+SD  2009 CORE              61 DX46                        264  268   Char Diagnosis 46
+SD  2009 CORE              62 DX47                        269  273   Char Diagnosis 47
+SD  2009 CORE              63 DX48                        274  278   Char Diagnosis 48
+SD  2009 CORE              64 DX49                        279  283   Char Diagnosis 49
+SD  2009 CORE              65 DX50                        284  288   Char Diagnosis 50
+SD  2009 CORE              66 DX51                        289  293   Char Diagnosis 51
+SD  2009 CORE              67 DX52                        294  298   Char Diagnosis 52
+SD  2009 CORE              68 DX53                        299  303   Char Diagnosis 53
+SD  2009 CORE              69 DX54                        304  308   Char Diagnosis 54
+SD  2009 CORE              70 DX55                        309  313   Char Diagnosis 55
+SD  2009 CORE              71 DX56                        314  318   Char Diagnosis 56
+SD  2009 CORE              72 DX57                        319  323   Char Diagnosis 57
+SD  2009 CORE              73 DX58                        324  328   Char Diagnosis 58
+SD  2009 CORE              74 DX59                        329  333   Char Diagnosis 59
+SD  2009 CORE              75 DX60                        334  338   Char Diagnosis 60
+SD  2009 CORE              76 DX61                        339  343   Char Diagnosis 61
+SD  2009 CORE              77 DX62                        344  348   Char Diagnosis 62
+SD  2009 CORE              78 DX63                        349  353   Char Diagnosis 63
+SD  2009 CORE              79 DX64                        354  358   Char Diagnosis 64
+SD  2009 CORE              80 DX65                        359  363   Char Diagnosis 65
+SD  2009 CORE              81 DX66                        364  368   Char Diagnosis 66
+SD  2009 CORE              82 DX67                        369  373   Char Diagnosis 67
+SD  2009 CORE              83 DX68                        374  378   Char Diagnosis 68
+SD  2009 CORE              84 DX69                        379  383   Char Diagnosis 69
+SD  2009 CORE              85 DX70                        384  388   Char Diagnosis 70
+SD  2009 CORE              86 DX71                        389  393   Char Diagnosis 71
+SD  2009 CORE              87 DX72                        394  398   Char Diagnosis 72
+SD  2009 CORE              88 DX73                        399  403   Char Diagnosis 73
+SD  2009 CORE              89 DX74                        404  408   Char Diagnosis 74
+SD  2009 CORE              90 DX75                        409  413   Char Diagnosis 75
+SD  2009 CORE              91 DX76                        414  418   Char Diagnosis 76
+SD  2009 CORE              92 DX77                        419  423   Char Diagnosis 77
+SD  2009 CORE              93 DXCCS1                      424  427   Num  CCS: diagnosis 1
+SD  2009 CORE              94 DXCCS2                      428  431   Num  CCS: diagnosis 2
+SD  2009 CORE              95 DXCCS3                      432  435   Num  CCS: diagnosis 3
+SD  2009 CORE              96 DXCCS4                      436  439   Num  CCS: diagnosis 4
+SD  2009 CORE              97 DXCCS5                      440  443   Num  CCS: diagnosis 5
+SD  2009 CORE              98 DXCCS6                      444  447   Num  CCS: diagnosis 6
+SD  2009 CORE              99 DXCCS7                      448  451   Num  CCS: diagnosis 7
+SD  2009 CORE             100 DXCCS8                      452  455   Num  CCS: diagnosis 8
+SD  2009 CORE             101 DXCCS9                      456  459   Num  CCS: diagnosis 9
+SD  2009 CORE             102 DXCCS10                     460  463   Num  CCS: diagnosis 10
+SD  2009 CORE             103 DXCCS11                     464  467   Num  CCS: diagnosis 11
+SD  2009 CORE             104 DXCCS12                     468  471   Num  CCS: diagnosis 12
+SD  2009 CORE             105 DXCCS13                     472  475   Num  CCS: diagnosis 13
+SD  2009 CORE             106 DXCCS14                     476  479   Num  CCS: diagnosis 14
+SD  2009 CORE             107 DXCCS15                     480  483   Num  CCS: diagnosis 15
+SD  2009 CORE             108 DXCCS16                     484  487   Num  CCS: diagnosis 16
+SD  2009 CORE             109 DXCCS17                     488  491   Num  CCS: diagnosis 17
+SD  2009 CORE             110 DXCCS18                     492  495   Num  CCS: diagnosis 18
+SD  2009 CORE             111 DXCCS19                     496  499   Num  CCS: diagnosis 19
+SD  2009 CORE             112 DXCCS20                     500  503   Num  CCS: diagnosis 20
+SD  2009 CORE             113 DXCCS21                     504  507   Num  CCS: diagnosis 21
+SD  2009 CORE             114 DXCCS22                     508  511   Num  CCS: diagnosis 22
+SD  2009 CORE             115 DXCCS23                     512  515   Num  CCS: diagnosis 23
+SD  2009 CORE             116 DXCCS24                     516  519   Num  CCS: diagnosis 24
+SD  2009 CORE             117 DXCCS25                     520  523   Num  CCS: diagnosis 25
+SD  2009 CORE             118 DXCCS26                     524  527   Num  CCS: diagnosis 26
+SD  2009 CORE             119 DXCCS27                     528  531   Num  CCS: diagnosis 27
+SD  2009 CORE             120 DXCCS28                     532  535   Num  CCS: diagnosis 28
+SD  2009 CORE             121 DXCCS29                     536  539   Num  CCS: diagnosis 29
+SD  2009 CORE             122 DXCCS30                     540  543   Num  CCS: diagnosis 30
+SD  2009 CORE             123 DXCCS31                     544  547   Num  CCS: diagnosis 31
+SD  2009 CORE             124 DXCCS32                     548  551   Num  CCS: diagnosis 32
+SD  2009 CORE             125 DXCCS33                     552  555   Num  CCS: diagnosis 33
+SD  2009 CORE             126 DXCCS34                     556  559   Num  CCS: diagnosis 34
+SD  2009 CORE             127 DXCCS35                     560  563   Num  CCS: diagnosis 35
+SD  2009 CORE             128 DXCCS36                     564  567   Num  CCS: diagnosis 36
+SD  2009 CORE             129 DXCCS37                     568  571   Num  CCS: diagnosis 37
+SD  2009 CORE             130 DXCCS38                     572  575   Num  CCS: diagnosis 38
+SD  2009 CORE             131 DXCCS39                     576  579   Num  CCS: diagnosis 39
+SD  2009 CORE             132 DXCCS40                     580  583   Num  CCS: diagnosis 40
+SD  2009 CORE             133 DXCCS41                     584  587   Num  CCS: diagnosis 41
+SD  2009 CORE             134 DXCCS42                     588  591   Num  CCS: diagnosis 42
+SD  2009 CORE             135 DXCCS43                     592  595   Num  CCS: diagnosis 43
+SD  2009 CORE             136 DXCCS44                     596  599   Num  CCS: diagnosis 44
+SD  2009 CORE             137 DXCCS45                     600  603   Num  CCS: diagnosis 45
+SD  2009 CORE             138 DXCCS46                     604  607   Num  CCS: diagnosis 46
+SD  2009 CORE             139 DXCCS47                     608  611   Num  CCS: diagnosis 47
+SD  2009 CORE             140 DXCCS48                     612  615   Num  CCS: diagnosis 48
+SD  2009 CORE             141 DXCCS49                     616  619   Num  CCS: diagnosis 49
+SD  2009 CORE             142 DXCCS50                     620  623   Num  CCS: diagnosis 50
+SD  2009 CORE             143 DXCCS51                     624  627   Num  CCS: diagnosis 51
+SD  2009 CORE             144 DXCCS52                     628  631   Num  CCS: diagnosis 52
+SD  2009 CORE             145 DXCCS53                     632  635   Num  CCS: diagnosis 53
+SD  2009 CORE             146 DXCCS54                     636  639   Num  CCS: diagnosis 54
+SD  2009 CORE             147 DXCCS55                     640  643   Num  CCS: diagnosis 55
+SD  2009 CORE             148 DXCCS56                     644  647   Num  CCS: diagnosis 56
+SD  2009 CORE             149 DXCCS57                     648  651   Num  CCS: diagnosis 57
+SD  2009 CORE             150 DXCCS58                     652  655   Num  CCS: diagnosis 58
+SD  2009 CORE             151 DXCCS59                     656  659   Num  CCS: diagnosis 59
+SD  2009 CORE             152 DXCCS60                     660  663   Num  CCS: diagnosis 60
+SD  2009 CORE             153 DXCCS61                     664  667   Num  CCS: diagnosis 61
+SD  2009 CORE             154 DXCCS62                     668  671   Num  CCS: diagnosis 62
+SD  2009 CORE             155 DXCCS63                     672  675   Num  CCS: diagnosis 63
+SD  2009 CORE             156 DXCCS64                     676  679   Num  CCS: diagnosis 64
+SD  2009 CORE             157 DXCCS65                     680  683   Num  CCS: diagnosis 65
+SD  2009 CORE             158 DXCCS66                     684  687   Num  CCS: diagnosis 66
+SD  2009 CORE             159 DXCCS67                     688  691   Num  CCS: diagnosis 67
+SD  2009 CORE             160 DXCCS68                     692  695   Num  CCS: diagnosis 68
+SD  2009 CORE             161 DXCCS69                     696  699   Num  CCS: diagnosis 69
+SD  2009 CORE             162 DXCCS70                     700  703   Num  CCS: diagnosis 70
+SD  2009 CORE             163 DXCCS71                     704  707   Num  CCS: diagnosis 71
+SD  2009 CORE             164 DXCCS72                     708  711   Num  CCS: diagnosis 72
+SD  2009 CORE             165 DXCCS73                     712  715   Num  CCS: diagnosis 73
+SD  2009 CORE             166 DXCCS74                     716  719   Num  CCS: diagnosis 74
+SD  2009 CORE             167 DXCCS75                     720  723   Num  CCS: diagnosis 75
+SD  2009 CORE             168 DXCCS76                     724  727   Num  CCS: diagnosis 76
+SD  2009 CORE             169 DXCCS77                     728  731   Num  CCS: diagnosis 77
+SD  2009 CORE             170 DXPOA1                      732  732   Char Diagnosis 1, present on admission indicator
+SD  2009 CORE             171 DXPOA2                      733  733   Char Diagnosis 2, present on admission indicator
+SD  2009 CORE             172 DXPOA3                      734  734   Char Diagnosis 3, present on admission indicator
+SD  2009 CORE             173 DXPOA4                      735  735   Char Diagnosis 4, present on admission indicator
+SD  2009 CORE             174 DXPOA5                      736  736   Char Diagnosis 5, present on admission indicator
+SD  2009 CORE             175 DXPOA6                      737  737   Char Diagnosis 6, present on admission indicator
+SD  2009 CORE             176 DXPOA7                      738  738   Char Diagnosis 7, present on admission indicator
+SD  2009 CORE             177 DXPOA8                      739  739   Char Diagnosis 8, present on admission indicator
+SD  2009 CORE             178 DXPOA9                      740  740   Char Diagnosis 9, present on admission indicator
+SD  2009 CORE             179 DXPOA10                     741  741   Char Diagnosis 10, present on admission indicator
+SD  2009 CORE             180 DXPOA11                     742  742   Char Diagnosis 11, present on admission indicator
+SD  2009 CORE             181 DXPOA12                     743  743   Char Diagnosis 12, present on admission indicator
+SD  2009 CORE             182 DXPOA13                     744  744   Char Diagnosis 13, present on admission indicator
+SD  2009 CORE             183 DXPOA14                     745  745   Char Diagnosis 14, present on admission indicator
+SD  2009 CORE             184 DXPOA15                     746  746   Char Diagnosis 15, present on admission indicator
+SD  2009 CORE             185 DXPOA16                     747  747   Char Diagnosis 16, present on admission indicator
+SD  2009 CORE             186 DXPOA17                     748  748   Char Diagnosis 17, present on admission indicator
+SD  2009 CORE             187 DXPOA18                     749  749   Char Diagnosis 18, present on admission indicator
+SD  2009 CORE             188 DXPOA19                     750  750   Char Diagnosis 19, present on admission indicator
+SD  2009 CORE             189 DXPOA20                     751  751   Char Diagnosis 20, present on admission indicator
+SD  2009 CORE             190 DXPOA21                     752  752   Char Diagnosis 21, present on admission indicator
+SD  2009 CORE             191 DXPOA22                     753  753   Char Diagnosis 22, present on admission indicator
+SD  2009 CORE             192 DXPOA23                     754  754   Char Diagnosis 23, present on admission indicator
+SD  2009 CORE             193 DXPOA24                     755  755   Char Diagnosis 24, present on admission indicator
+SD  2009 CORE             194 DXPOA25                     756  756   Char Diagnosis 25, present on admission indicator
+SD  2009 CORE             195 DXPOA26                     757  757   Char Diagnosis 26, present on admission indicator
+SD  2009 CORE             196 DXPOA27                     758  758   Char Diagnosis 27, present on admission indicator
+SD  2009 CORE             197 DXPOA28                     759  759   Char Diagnosis 28, present on admission indicator
+SD  2009 CORE             198 DXPOA29                     760  760   Char Diagnosis 29, present on admission indicator
+SD  2009 CORE             199 DXPOA30                     761  761   Char Diagnosis 30, present on admission indicator
+SD  2009 CORE             200 DXPOA31                     762  762   Char Diagnosis 31, present on admission indicator
+SD  2009 CORE             201 DXPOA32                     763  763   Char Diagnosis 32, present on admission indicator
+SD  2009 CORE             202 DXPOA33                     764  764   Char Diagnosis 33, present on admission indicator
+SD  2009 CORE             203 DXPOA34                     765  765   Char Diagnosis 34, present on admission indicator
+SD  2009 CORE             204 DXPOA35                     766  766   Char Diagnosis 35, present on admission indicator
+SD  2009 CORE             205 DXPOA36                     767  767   Char Diagnosis 36, present on admission indicator
+SD  2009 CORE             206 DXPOA37                     768  768   Char Diagnosis 37, present on admission indicator
+SD  2009 CORE             207 DXPOA38                     769  769   Char Diagnosis 38, present on admission indicator
+SD  2009 CORE             208 DXPOA39                     770  770   Char Diagnosis 39, present on admission indicator
+SD  2009 CORE             209 DXPOA40                     771  771   Char Diagnosis 40, present on admission indicator
+SD  2009 CORE             210 DXPOA41                     772  772   Char Diagnosis 41, present on admission indicator
+SD  2009 CORE             211 DXPOA42                     773  773   Char Diagnosis 42, present on admission indicator
+SD  2009 CORE             212 DXPOA43                     774  774   Char Diagnosis 43, present on admission indicator
+SD  2009 CORE             213 DXPOA44                     775  775   Char Diagnosis 44, present on admission indicator
+SD  2009 CORE             214 DXPOA45                     776  776   Char Diagnosis 45, present on admission indicator
+SD  2009 CORE             215 DXPOA46                     777  777   Char Diagnosis 46, present on admission indicator
+SD  2009 CORE             216 DXPOA47                     778  778   Char Diagnosis 47, present on admission indicator
+SD  2009 CORE             217 DXPOA48                     779  779   Char Diagnosis 48, present on admission indicator
+SD  2009 CORE             218 DXPOA49                     780  780   Char Diagnosis 49, present on admission indicator
+SD  2009 CORE             219 DXPOA50                     781  781   Char Diagnosis 50, present on admission indicator
+SD  2009 CORE             220 DXPOA51                     782  782   Char Diagnosis 51, present on admission indicator
+SD  2009 CORE             221 DXPOA52                     783  783   Char Diagnosis 52, present on admission indicator
+SD  2009 CORE             222 DXPOA53                     784  784   Char Diagnosis 53, present on admission indicator
+SD  2009 CORE             223 DXPOA54                     785  785   Char Diagnosis 54, present on admission indicator
+SD  2009 CORE             224 DXPOA55                     786  786   Char Diagnosis 55, present on admission indicator
+SD  2009 CORE             225 DXPOA56                     787  787   Char Diagnosis 56, present on admission indicator
+SD  2009 CORE             226 DXPOA57                     788  788   Char Diagnosis 57, present on admission indicator
+SD  2009 CORE             227 DXPOA58                     789  789   Char Diagnosis 58, present on admission indicator
+SD  2009 CORE             228 DXPOA59                     790  790   Char Diagnosis 59, present on admission indicator
+SD  2009 CORE             229 DXPOA60                     791  791   Char Diagnosis 60, present on admission indicator
+SD  2009 CORE             230 DXPOA61                     792  792   Char Diagnosis 61, present on admission indicator
+SD  2009 CORE             231 DXPOA62                     793  793   Char Diagnosis 62, present on admission indicator
+SD  2009 CORE             232 DXPOA63                     794  794   Char Diagnosis 63, present on admission indicator
+SD  2009 CORE             233 DXPOA64                     795  795   Char Diagnosis 64, present on admission indicator
+SD  2009 CORE             234 DXPOA65                     796  796   Char Diagnosis 65, present on admission indicator
+SD  2009 CORE             235 DXPOA66                     797  797   Char Diagnosis 66, present on admission indicator
+SD  2009 CORE             236 DXPOA67                     798  798   Char Diagnosis 67, present on admission indicator
+SD  2009 CORE             237 DXPOA68                     799  799   Char Diagnosis 68, present on admission indicator
+SD  2009 CORE             238 DXPOA69                     800  800   Char Diagnosis 69, present on admission indicator
+SD  2009 CORE             239 DXPOA70                     801  801   Char Diagnosis 70, present on admission indicator
+SD  2009 CORE             240 DXPOA71                     802  802   Char Diagnosis 71, present on admission indicator
+SD  2009 CORE             241 DXPOA72                     803  803   Char Diagnosis 72, present on admission indicator
+SD  2009 CORE             242 DXPOA73                     804  804   Char Diagnosis 73, present on admission indicator
+SD  2009 CORE             243 DXPOA74                     805  805   Char Diagnosis 74, present on admission indicator
+SD  2009 CORE             244 DXPOA75                     806  806   Char Diagnosis 75, present on admission indicator
+SD  2009 CORE             245 DXPOA76                     807  807   Char Diagnosis 76, present on admission indicator
+SD  2009 CORE             246 DXPOA77                     808  808   Char Diagnosis 77, present on admission indicator
+SD  2009 CORE             247 ECODE1                      809  813   Char E code 1
+SD  2009 CORE             248 ECODE2                      814  818   Char E code 2
+SD  2009 CORE             249 ECODE3                      819  823   Char E code 3
+SD  2009 CORE             250 ECODE4                      824  828   Char E code 4
+SD  2009 CORE             251 ECODE5                      829  833   Char E code 5
+SD  2009 CORE             252 ECODE6                      834  838   Char E code 6
+SD  2009 CORE             253 ECODE7                      839  843   Char E code 7
+SD  2009 CORE             254 ECODE8                      844  848   Char E code 8
+SD  2009 CORE             255 E_CCS1                      849  852   Num  CCS: E Code 1
+SD  2009 CORE             256 E_CCS2                      853  856   Num  CCS: E Code 2
+SD  2009 CORE             257 E_CCS3                      857  860   Num  CCS: E Code 3
+SD  2009 CORE             258 E_CCS4                      861  864   Num  CCS: E Code 4
+SD  2009 CORE             259 E_CCS5                      865  868   Num  CCS: E Code 5
+SD  2009 CORE             260 E_CCS6                      869  872   Num  CCS: E Code 6
+SD  2009 CORE             261 E_CCS7                      873  876   Num  CCS: E Code 7
+SD  2009 CORE             262 E_CCS8                      877  880   Num  CCS: E Code 8
+SD  2009 CORE             263 E_POA1                      881  881   Char E Code 1, present on admission indicator
+SD  2009 CORE             264 E_POA2                      882  882   Char E Code 2, present on admission indicator
+SD  2009 CORE             265 E_POA3                      883  883   Char E Code 3, present on admission indicator
+SD  2009 CORE             266 E_POA4                      884  884   Char E Code 4, present on admission indicator
+SD  2009 CORE             267 E_POA5                      885  885   Char E Code 5, present on admission indicator
+SD  2009 CORE             268 E_POA6                      886  886   Char E Code 6, present on admission indicator
+SD  2009 CORE             269 E_POA7                      887  887   Char E Code 7, present on admission indicator
+SD  2009 CORE             270 E_POA8                      888  888   Char E Code 8, present on admission indicator
+SD  2009 CORE             271 FEMALE                      889  890   Num  Indicator of sex
+SD  2009 CORE             272 HCUP_ED                     891  892   Num  HCUP Emergency Department service indicator
+SD  2009 CORE             273 HCUP_OS                     893  894   Num  HCUP Observation Stay service indicator
+SD  2009 CORE             274 HOSPBRTH                    895  897   Num  Indicator of birth in this hospital
+SD  2009 CORE             275 HOSPST                      898  899   Char Hospital state postal code
+SD  2009 CORE             276 HospitalUnit                900  901   Num  Indicator that patient was discharged from a special unit within an acute care hospital (reported by source)
+SD  2009 CORE             277 KEY                         902  915   Num  HCUP record identifier
+SD  2009 CORE             278 LOS                         916  920   Num  Length of stay (cleaned)
+SD  2009 CORE             279 LOS_X                       921  926   Num  Length of stay (as received from source)
+SD  2009 CORE             280 MDC                         927  928   Num  MDC in effect on discharge date
+SD  2009 CORE             281 MDC24                       929  930   Num  MDC, version 24
+SD  2009 CORE             282 MDC_NoPOA                   931  932   Num  MDC in use on discharge date, calculated without POA
+SD  2009 CORE             283 MDNUM1_R                    933  941   Num  Physician 1 number (re-identified)
+SD  2009 CORE             284 MDNUM2_R                    942  950   Num  Physician 2 number (re-identified)
+SD  2009 CORE             285 MDNUM3_R                    951  959   Num  Physician 3 number (re-identified)
+SD  2009 CORE             286 MEDINCSTQ                   960  961   Num  Median household income state quartile for patient ZIP Code
+SD  2009 CORE             287 MRN_R                       962  970   Num  Medical record number (re-identified)
+SD  2009 CORE             288 NCHRONIC                    971  973   Num  Number of chronic conditions
+SD  2009 CORE             289 NDX                         974  975   Num  Number of diagnoses on this record
+SD  2009 CORE             290 NECODE                      976  977   Num  Number of E codes on this record
+SD  2009 CORE             291 NEOMAT                      978  979   Num  Neonatal and/or maternal DX and/or PR
+SD  2009 CORE             292 NPR                         980  981   Num  Number of procedures on this record
+SD  2009 CORE             293 ORPROC                      982  983   Num  Major operating room procedure indicator
+SD  2009 CORE             294 PAY1                        984  985   Num  Primary expected payer (uniform)
+SD  2009 CORE             295 PL_CBSA                     986  988   Num  Patient location: Core Based Statistical Area (CBSA)
+SD  2009 CORE             296 PL_MSA1993                  989  991   Num  Patient location: Metropolitan Statistical Area (MSA), 1993
+SD  2009 CORE             297 PL_NCHS2006                 992  993   Num  Patient Location: NCHS Urban-Rural Code (V2006)
+SD  2009 CORE             298 PL_RUCA10_2005              994  995   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, ten levels
+SD  2009 CORE             299 PL_RUCA2005                 996  999 1 Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes
+SD  2009 CORE             300 PL_RUCA4_2005              1000 1001   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, four levels
+SD  2009 CORE             301 PL_RUCC2003                1002 1003   Num  Patient location: Rural-Urban Continuum Codes(RUCC), 2003
+SD  2009 CORE             302 PL_UIC2003                 1004 1005   Num  Patient location: Urban Influence Codes, 2003
+SD  2009 CORE             303 PL_UR_CAT4                 1006 1007   Num  Patient Location: Urban-Rural 4 Categories
+SD  2009 CORE             304 PR1                        1008 1011   Char Procedure 1
+SD  2009 CORE             305 PR2                        1012 1015   Char Procedure 2
+SD  2009 CORE             306 PR3                        1016 1019   Char Procedure 3
+SD  2009 CORE             307 PR4                        1020 1023   Char Procedure 4
+SD  2009 CORE             308 PR5                        1024 1027   Char Procedure 5
+SD  2009 CORE             309 PR6                        1028 1031   Char Procedure 6
+SD  2009 CORE             310 PR7                        1032 1035   Char Procedure 7
+SD  2009 CORE             311 PR8                        1036 1039   Char Procedure 8
+SD  2009 CORE             312 PR9                        1040 1043   Char Procedure 9
+SD  2009 CORE             313 PR10                       1044 1047   Char Procedure 10
+SD  2009 CORE             314 PR11                       1048 1051   Char Procedure 11
+SD  2009 CORE             315 PR12                       1052 1055   Char Procedure 12
+SD  2009 CORE             316 PR13                       1056 1059   Char Procedure 13
+SD  2009 CORE             317 PR14                       1060 1063   Char Procedure 14
+SD  2009 CORE             318 PR15                       1064 1067   Char Procedure 15
+SD  2009 CORE             319 PR16                       1068 1071   Char Procedure 16
+SD  2009 CORE             320 PR17                       1072 1075   Char Procedure 17
+SD  2009 CORE             321 PR18                       1076 1079   Char Procedure 18
+SD  2009 CORE             322 PR19                       1080 1083   Char Procedure 19
+SD  2009 CORE             323 PR20                       1084 1087   Char Procedure 20
+SD  2009 CORE             324 PR21                       1088 1091   Char Procedure 21
+SD  2009 CORE             325 PR22                       1092 1095   Char Procedure 22
+SD  2009 CORE             326 PR23                       1096 1099   Char Procedure 23
+SD  2009 CORE             327 PR24                       1100 1103   Char Procedure 24
+SD  2009 CORE             328 PR25                       1104 1107   Char Procedure 25
+SD  2009 CORE             329 PR26                       1108 1111   Char Procedure 26
+SD  2009 CORE             330 PR27                       1112 1115   Char Procedure 27
+SD  2009 CORE             331 PR28                       1116 1119   Char Procedure 28
+SD  2009 CORE             332 PR29                       1120 1123   Char Procedure 29
+SD  2009 CORE             333 PR30                       1124 1127   Char Procedure 30
+SD  2009 CORE             334 PR31                       1128 1131   Char Procedure 31
+SD  2009 CORE             335 PR32                       1132 1135   Char Procedure 32
+SD  2009 CORE             336 PR33                       1136 1139   Char Procedure 33
+SD  2009 CORE             337 PR34                       1140 1143   Char Procedure 34
+SD  2009 CORE             338 PR35                       1144 1147   Char Procedure 35
+SD  2009 CORE             339 PR36                       1148 1151   Char Procedure 36
+SD  2009 CORE             340 PR37                       1152 1155   Char Procedure 37
+SD  2009 CORE             341 PR38                       1156 1159   Char Procedure 38
+SD  2009 CORE             342 PR39                       1160 1163   Char Procedure 39
+SD  2009 CORE             343 PR40                       1164 1167   Char Procedure 40
+SD  2009 CORE             344 PR41                       1168 1171   Char Procedure 41
+SD  2009 CORE             345 PR42                       1172 1175   Char Procedure 42
+SD  2009 CORE             346 PR43                       1176 1179   Char Procedure 43
+SD  2009 CORE             347 PR44                       1180 1183   Char Procedure 44
+SD  2009 CORE             348 PR45                       1184 1187   Char Procedure 45
+SD  2009 CORE             349 PR46                       1188 1191   Char Procedure 46
+SD  2009 CORE             350 PR47                       1192 1195   Char Procedure 47
+SD  2009 CORE             351 PR48                       1196 1199   Char Procedure 48
+SD  2009 CORE             352 PR49                       1200 1203   Char Procedure 49
+SD  2009 CORE             353 PR50                       1204 1207   Char Procedure 50
+SD  2009 CORE             354 PR51                       1208 1211   Char Procedure 51
+SD  2009 CORE             355 PR52                       1212 1215   Char Procedure 52
+SD  2009 CORE             356 PR53                       1216 1219   Char Procedure 53
+SD  2009 CORE             357 PR54                       1220 1223   Char Procedure 54
+SD  2009 CORE             358 PR55                       1224 1227   Char Procedure 55
+SD  2009 CORE             359 PR56                       1228 1231   Char Procedure 56
+SD  2009 CORE             360 PR57                       1232 1235   Char Procedure 57
+SD  2009 CORE             361 PR58                       1236 1239   Char Procedure 58
+SD  2009 CORE             362 PR59                       1240 1243   Char Procedure 59
+SD  2009 CORE             363 PR60                       1244 1247   Char Procedure 60
+SD  2009 CORE             364 PR61                       1248 1251   Char Procedure 61
+SD  2009 CORE             365 PR62                       1252 1255   Char Procedure 62
+SD  2009 CORE             366 PR63                       1256 1259   Char Procedure 63
+SD  2009 CORE             367 PR64                       1260 1263   Char Procedure 64
+SD  2009 CORE             368 PR65                       1264 1267   Char Procedure 65
+SD  2009 CORE             369 PRCCS1                     1268 1270   Num  CCS: procedure 1
+SD  2009 CORE             370 PRCCS2                     1271 1273   Num  CCS: procedure 2
+SD  2009 CORE             371 PRCCS3                     1274 1276   Num  CCS: procedure 3
+SD  2009 CORE             372 PRCCS4                     1277 1279   Num  CCS: procedure 4
+SD  2009 CORE             373 PRCCS5                     1280 1282   Num  CCS: procedure 5
+SD  2009 CORE             374 PRCCS6                     1283 1285   Num  CCS: procedure 6
+SD  2009 CORE             375 PRCCS7                     1286 1288   Num  CCS: procedure 7
+SD  2009 CORE             376 PRCCS8                     1289 1291   Num  CCS: procedure 8
+SD  2009 CORE             377 PRCCS9                     1292 1294   Num  CCS: procedure 9
+SD  2009 CORE             378 PRCCS10                    1295 1297   Num  CCS: procedure 10
+SD  2009 CORE             379 PRCCS11                    1298 1300   Num  CCS: procedure 11
+SD  2009 CORE             380 PRCCS12                    1301 1303   Num  CCS: procedure 12
+SD  2009 CORE             381 PRCCS13                    1304 1306   Num  CCS: procedure 13
+SD  2009 CORE             382 PRCCS14                    1307 1309   Num  CCS: procedure 14
+SD  2009 CORE             383 PRCCS15                    1310 1312   Num  CCS: procedure 15
+SD  2009 CORE             384 PRCCS16                    1313 1315   Num  CCS: procedure 16
+SD  2009 CORE             385 PRCCS17                    1316 1318   Num  CCS: procedure 17
+SD  2009 CORE             386 PRCCS18                    1319 1321   Num  CCS: procedure 18
+SD  2009 CORE             387 PRCCS19                    1322 1324   Num  CCS: procedure 19
+SD  2009 CORE             388 PRCCS20                    1325 1327   Num  CCS: procedure 20
+SD  2009 CORE             389 PRCCS21                    1328 1330   Num  CCS: procedure 21
+SD  2009 CORE             390 PRCCS22                    1331 1333   Num  CCS: procedure 22
+SD  2009 CORE             391 PRCCS23                    1334 1336   Num  CCS: procedure 23
+SD  2009 CORE             392 PRCCS24                    1337 1339   Num  CCS: procedure 24
+SD  2009 CORE             393 PRCCS25                    1340 1342   Num  CCS: procedure 25
+SD  2009 CORE             394 PRCCS26                    1343 1345   Num  CCS: procedure 26
+SD  2009 CORE             395 PRCCS27                    1346 1348   Num  CCS: procedure 27
+SD  2009 CORE             396 PRCCS28                    1349 1351   Num  CCS: procedure 28
+SD  2009 CORE             397 PRCCS29                    1352 1354   Num  CCS: procedure 29
+SD  2009 CORE             398 PRCCS30                    1355 1357   Num  CCS: procedure 30
+SD  2009 CORE             399 PRCCS31                    1358 1360   Num  CCS: procedure 31
+SD  2009 CORE             400 PRCCS32                    1361 1363   Num  CCS: procedure 32
+SD  2009 CORE             401 PRCCS33                    1364 1366   Num  CCS: procedure 33
+SD  2009 CORE             402 PRCCS34                    1367 1369   Num  CCS: procedure 34
+SD  2009 CORE             403 PRCCS35                    1370 1372   Num  CCS: procedure 35
+SD  2009 CORE             404 PRCCS36                    1373 1375   Num  CCS: procedure 36
+SD  2009 CORE             405 PRCCS37                    1376 1378   Num  CCS: procedure 37
+SD  2009 CORE             406 PRCCS38                    1379 1381   Num  CCS: procedure 38
+SD  2009 CORE             407 PRCCS39                    1382 1384   Num  CCS: procedure 39
+SD  2009 CORE             408 PRCCS40                    1385 1387   Num  CCS: procedure 40
+SD  2009 CORE             409 PRCCS41                    1388 1390   Num  CCS: procedure 41
+SD  2009 CORE             410 PRCCS42                    1391 1393   Num  CCS: procedure 42
+SD  2009 CORE             411 PRCCS43                    1394 1396   Num  CCS: procedure 43
+SD  2009 CORE             412 PRCCS44                    1397 1399   Num  CCS: procedure 44
+SD  2009 CORE             413 PRCCS45                    1400 1402   Num  CCS: procedure 45
+SD  2009 CORE             414 PRCCS46                    1403 1405   Num  CCS: procedure 46
+SD  2009 CORE             415 PRCCS47                    1406 1408   Num  CCS: procedure 47
+SD  2009 CORE             416 PRCCS48                    1409 1411   Num  CCS: procedure 48
+SD  2009 CORE             417 PRCCS49                    1412 1414   Num  CCS: procedure 49
+SD  2009 CORE             418 PRCCS50                    1415 1417   Num  CCS: procedure 50
+SD  2009 CORE             419 PRCCS51                    1418 1420   Num  CCS: procedure 51
+SD  2009 CORE             420 PRCCS52                    1421 1423   Num  CCS: procedure 52
+SD  2009 CORE             421 PRCCS53                    1424 1426   Num  CCS: procedure 53
+SD  2009 CORE             422 PRCCS54                    1427 1429   Num  CCS: procedure 54
+SD  2009 CORE             423 PRCCS55                    1430 1432   Num  CCS: procedure 55
+SD  2009 CORE             424 PRCCS56                    1433 1435   Num  CCS: procedure 56
+SD  2009 CORE             425 PRCCS57                    1436 1438   Num  CCS: procedure 57
+SD  2009 CORE             426 PRCCS58                    1439 1441   Num  CCS: procedure 58
+SD  2009 CORE             427 PRCCS59                    1442 1444   Num  CCS: procedure 59
+SD  2009 CORE             428 PRCCS60                    1445 1447   Num  CCS: procedure 60
+SD  2009 CORE             429 PRCCS61                    1448 1450   Num  CCS: procedure 61
+SD  2009 CORE             430 PRCCS62                    1451 1453   Num  CCS: procedure 62
+SD  2009 CORE             431 PRCCS63                    1454 1456   Num  CCS: procedure 63
+SD  2009 CORE             432 PRCCS64                    1457 1459   Num  CCS: procedure 64
+SD  2009 CORE             433 PRCCS65                    1460 1462   Num  CCS: procedure 65
+SD  2009 CORE             434 PRDAY1                     1463 1467   Num  Number of days from admission to PR1
+SD  2009 CORE             435 PRDAY2                     1468 1472   Num  Number of days from admission to PR2
+SD  2009 CORE             436 PRDAY3                     1473 1477   Num  Number of days from admission to PR3
+SD  2009 CORE             437 PRDAY4                     1478 1482   Num  Number of days from admission to PR4
+SD  2009 CORE             438 PRDAY5                     1483 1487   Num  Number of days from admission to PR5
+SD  2009 CORE             439 PRDAY6                     1488 1492   Num  Number of days from admission to PR6
+SD  2009 CORE             440 PRDAY7                     1493 1497   Num  Number of days from admission to PR7
+SD  2009 CORE             441 PRDAY8                     1498 1502   Num  Number of days from admission to PR8
+SD  2009 CORE             442 PRDAY9                     1503 1507   Num  Number of days from admission to PR9
+SD  2009 CORE             443 PRDAY10                    1508 1512   Num  Number of days from admission to PR10
+SD  2009 CORE             444 PRDAY11                    1513 1517   Num  Number of days from admission to PR11
+SD  2009 CORE             445 PRDAY12                    1518 1522   Num  Number of days from admission to PR12
+SD  2009 CORE             446 PRDAY13                    1523 1527   Num  Number of days from admission to PR13
+SD  2009 CORE             447 PRDAY14                    1528 1532   Num  Number of days from admission to PR14
+SD  2009 CORE             448 PRDAY15                    1533 1537   Num  Number of days from admission to PR15
+SD  2009 CORE             449 PRDAY16                    1538 1542   Num  Number of days from admission to PR16
+SD  2009 CORE             450 PRDAY17                    1543 1547   Num  Number of days from admission to PR17
+SD  2009 CORE             451 PRDAY18                    1548 1552   Num  Number of days from admission to PR18
+SD  2009 CORE             452 PRDAY19                    1553 1557   Num  Number of days from admission to PR19
+SD  2009 CORE             453 PRDAY20                    1558 1562   Num  Number of days from admission to PR20
+SD  2009 CORE             454 PRDAY21                    1563 1567   Num  Number of days from admission to PR21
+SD  2009 CORE             455 PRDAY22                    1568 1572   Num  Number of days from admission to PR22
+SD  2009 CORE             456 PRDAY23                    1573 1577   Num  Number of days from admission to PR23
+SD  2009 CORE             457 PRDAY24                    1578 1582   Num  Number of days from admission to PR24
+SD  2009 CORE             458 PRDAY25                    1583 1587   Num  Number of days from admission to PR25
+SD  2009 CORE             459 PRDAY26                    1588 1592   Num  Number of days from admission to PR26
+SD  2009 CORE             460 PRDAY27                    1593 1597   Num  Number of days from admission to PR27
+SD  2009 CORE             461 PRDAY28                    1598 1602   Num  Number of days from admission to PR28
+SD  2009 CORE             462 PRDAY29                    1603 1607   Num  Number of days from admission to PR29
+SD  2009 CORE             463 PRDAY30                    1608 1612   Num  Number of days from admission to PR30
+SD  2009 CORE             464 PRDAY31                    1613 1617   Num  Number of days from admission to PR31
+SD  2009 CORE             465 PRDAY32                    1618 1622   Num  Number of days from admission to PR32
+SD  2009 CORE             466 PRDAY33                    1623 1627   Num  Number of days from admission to PR33
+SD  2009 CORE             467 PRDAY34                    1628 1632   Num  Number of days from admission to PR34
+SD  2009 CORE             468 PRDAY35                    1633 1637   Num  Number of days from admission to PR35
+SD  2009 CORE             469 PRDAY36                    1638 1642   Num  Number of days from admission to PR36
+SD  2009 CORE             470 PRDAY37                    1643 1647   Num  Number of days from admission to PR37
+SD  2009 CORE             471 PRDAY38                    1648 1652   Num  Number of days from admission to PR38
+SD  2009 CORE             472 PRDAY39                    1653 1657   Num  Number of days from admission to PR39
+SD  2009 CORE             473 PRDAY40                    1658 1662   Num  Number of days from admission to PR40
+SD  2009 CORE             474 PRDAY41                    1663 1667   Num  Number of days from admission to PR41
+SD  2009 CORE             475 PRDAY42                    1668 1672   Num  Number of days from admission to PR42
+SD  2009 CORE             476 PRDAY43                    1673 1677   Num  Number of days from admission to PR43
+SD  2009 CORE             477 PRDAY44                    1678 1682   Num  Number of days from admission to PR44
+SD  2009 CORE             478 PRDAY45                    1683 1687   Num  Number of days from admission to PR45
+SD  2009 CORE             479 PRDAY46                    1688 1692   Num  Number of days from admission to PR46
+SD  2009 CORE             480 PRDAY47                    1693 1697   Num  Number of days from admission to PR47
+SD  2009 CORE             481 PRDAY48                    1698 1702   Num  Number of days from admission to PR48
+SD  2009 CORE             482 PRDAY49                    1703 1707   Num  Number of days from admission to PR49
+SD  2009 CORE             483 PRDAY50                    1708 1712   Num  Number of days from admission to PR50
+SD  2009 CORE             484 PRDAY51                    1713 1717   Num  Number of days from admission to PR51
+SD  2009 CORE             485 PRDAY52                    1718 1722   Num  Number of days from admission to PR52
+SD  2009 CORE             486 PRDAY53                    1723 1727   Num  Number of days from admission to PR53
+SD  2009 CORE             487 PRDAY54                    1728 1732   Num  Number of days from admission to PR54
+SD  2009 CORE             488 PRDAY55                    1733 1737   Num  Number of days from admission to PR55
+SD  2009 CORE             489 PRDAY56                    1738 1742   Num  Number of days from admission to PR56
+SD  2009 CORE             490 PRDAY57                    1743 1747   Num  Number of days from admission to PR57
+SD  2009 CORE             491 PRDAY58                    1748 1752   Num  Number of days from admission to PR58
+SD  2009 CORE             492 PRDAY59                    1753 1757   Num  Number of days from admission to PR59
+SD  2009 CORE             493 PRDAY60                    1758 1762   Num  Number of days from admission to PR60
+SD  2009 CORE             494 PRDAY61                    1763 1767   Num  Number of days from admission to PR61
+SD  2009 CORE             495 PRDAY62                    1768 1772   Num  Number of days from admission to PR62
+SD  2009 CORE             496 PRDAY63                    1773 1777   Num  Number of days from admission to PR63
+SD  2009 CORE             497 PRDAY64                    1778 1782   Num  Number of days from admission to PR64
+SD  2009 CORE             498 PRDAY65                    1783 1787   Num  Number of days from admission to PR65
+SD  2009 CORE             499 PROCTYPE                   1788 1790   Num  Procedure type indicator
+SD  2009 CORE             500 PSTATE                     1791 1792   Char Patient State postal code
+SD  2009 CORE             501 PSTCO                      1793 1797   Num  Patient state/county FIPS code
+SD  2009 CORE             502 PSTCO2                     1798 1802   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+SD  2009 CORE             503 PointOfOriginUB04          1803 1803   Char Point of origin for admission or visit, UB-04 standard coding
+SD  2009 CORE             504 PointOfOrigin_X            1804 1804   Char Point of origin for admission or visit, as received from source
+SD  2009 CORE             505 RACE                       1805 1806   Num  Race (uniform)
+SD  2009 CORE             506 RACE_X                     1807 1810   Char Race (as received from source)
+SD  2009 CORE             507 TOTCHG                     1811 1820   Num  Total charges (cleaned)
+SD  2009 CORE             508 TOTCHG_X                   1821 1835 2 Num  Total charges (as received from source)
+SD  2009 CORE             509 TRAN_IN                    1836 1837   Num  Transfer in indicator
+SD  2009 CORE             510 TRAN_OUT                   1838 1839   Num  Transfer out indicator
+SD  2009 CORE             511 YEAR                       1840 1843   Num  Calendar year
+SD  2009 CORE             512 ZIP3                       1844 1846   Char Patient ZIP Code, first 3 digits
+SD  2009 CORE             513 ZIPINC_QRTL                1847 1849   Num  Median household income national quartile for patient ZIP Code
+SD  2009 CORE             514 HOSPID                     1850 1854   Num  HCUP hospital identification number
+SD  2009 CORE             515 ZIP                        1855 1859   Char Patient ZIP Code
+SD  2009 CORE             516 AYEAR                      1860 1863   Num  Admission year
+SD  2009 CORE             517 DMONTH                     1864 1865   Num  Discharge month
+SD  2009 CORE             518 BMONTH                     1866 1867   Num  Birth month
+SD  2009 CORE             519 BYEAR                      1868 1871   Num  Birth year
+SD  2009 CORE             520 PRMONTH1                   1872 1873   Num  Month of procedure 1
+SD  2009 CORE             521 PRMONTH2                   1874 1875   Num  Month of procedure 2
+SD  2009 CORE             522 PRMONTH3                   1876 1877   Num  Month of procedure 3
+SD  2009 CORE             523 PRMONTH4                   1878 1879   Num  Month of procedure 4
+SD  2009 CORE             524 PRMONTH5                   1880 1881   Num  Month of procedure 5
+SD  2009 CORE             525 PRMONTH6                   1882 1883   Num  Month of procedure 6
+SD  2009 CORE             526 PRMONTH7                   1884 1885   Num  Month of procedure 7
+SD  2009 CORE             527 PRMONTH8                   1886 1887   Num  Month of procedure 8
+SD  2009 CORE             528 PRMONTH9                   1888 1889   Num  Month of procedure 9
+SD  2009 CORE             529 PRMONTH10                  1890 1891   Num  Month of procedure 10
+SD  2009 CORE             530 PRMONTH11                  1892 1893   Num  Month of procedure 11
+SD  2009 CORE             531 PRMONTH12                  1894 1895   Num  Month of procedure 12
+SD  2009 CORE             532 PRMONTH13                  1896 1897   Num  Month of procedure 13
+SD  2009 CORE             533 PRMONTH14                  1898 1899   Num  Month of procedure 14
+SD  2009 CORE             534 PRMONTH15                  1900 1901   Num  Month of procedure 15
+SD  2009 CORE             535 PRMONTH16                  1902 1903   Num  Month of procedure 16
+SD  2009 CORE             536 PRMONTH17                  1904 1905   Num  Month of procedure 17
+SD  2009 CORE             537 PRMONTH18                  1906 1907   Num  Month of procedure 18
+SD  2009 CORE             538 PRMONTH19                  1908 1909   Num  Month of procedure 19
+SD  2009 CORE             539 PRMONTH20                  1910 1911   Num  Month of procedure 20
+SD  2009 CORE             540 PRMONTH21                  1912 1913   Num  Month of procedure 21
+SD  2009 CORE             541 PRMONTH22                  1914 1915   Num  Month of procedure 22
+SD  2009 CORE             542 PRMONTH23                  1916 1917   Num  Month of procedure 23
+SD  2009 CORE             543 PRMONTH24                  1918 1919   Num  Month of procedure 24
+SD  2009 CORE             544 PRMONTH25                  1920 1921   Num  Month of procedure 25
+SD  2009 CORE             545 PRMONTH26                  1922 1923   Num  Month of procedure 26
+SD  2009 CORE             546 PRMONTH27                  1924 1925   Num  Month of procedure 27
+SD  2009 CORE             547 PRMONTH28                  1926 1927   Num  Month of procedure 28
+SD  2009 CORE             548 PRMONTH29                  1928 1929   Num  Month of procedure 29
+SD  2009 CORE             549 PRMONTH30                  1930 1931   Num  Month of procedure 30
+SD  2009 CORE             550 PRMONTH31                  1932 1933   Num  Month of procedure 31
+SD  2009 CORE             551 PRMONTH32                  1934 1935   Num  Month of procedure 32
+SD  2009 CORE             552 PRMONTH33                  1936 1937   Num  Month of procedure 33
+SD  2009 CORE             553 PRMONTH34                  1938 1939   Num  Month of procedure 34
+SD  2009 CORE             554 PRMONTH35                  1940 1941   Num  Month of procedure 35
+SD  2009 CORE             555 PRMONTH36                  1942 1943   Num  Month of procedure 36
+SD  2009 CORE             556 PRMONTH37                  1944 1945   Num  Month of procedure 37
+SD  2009 CORE             557 PRMONTH38                  1946 1947   Num  Month of procedure 38
+SD  2009 CORE             558 PRMONTH39                  1948 1949   Num  Month of procedure 39
+SD  2009 CORE             559 PRMONTH40                  1950 1951   Num  Month of procedure 40
+SD  2009 CORE             560 PRMONTH41                  1952 1953   Num  Month of procedure 41
+SD  2009 CORE             561 PRMONTH42                  1954 1955   Num  Month of procedure 42
+SD  2009 CORE             562 PRMONTH43                  1956 1957   Num  Month of procedure 43
+SD  2009 CORE             563 PRMONTH44                  1958 1959   Num  Month of procedure 44
+SD  2009 CORE             564 PRMONTH45                  1960 1961   Num  Month of procedure 45
+SD  2009 CORE             565 PRMONTH46                  1962 1963   Num  Month of procedure 46
+SD  2009 CORE             566 PRMONTH47                  1964 1965   Num  Month of procedure 47
+SD  2009 CORE             567 PRMONTH48                  1966 1967   Num  Month of procedure 48
+SD  2009 CORE             568 PRMONTH49                  1968 1969   Num  Month of procedure 49
+SD  2009 CORE             569 PRMONTH50                  1970 1971   Num  Month of procedure 50
+SD  2009 CORE             570 PRMONTH51                  1972 1973   Num  Month of procedure 51
+SD  2009 CORE             571 PRMONTH52                  1974 1975   Num  Month of procedure 52
+SD  2009 CORE             572 PRMONTH53                  1976 1977   Num  Month of procedure 53
+SD  2009 CORE             573 PRMONTH54                  1978 1979   Num  Month of procedure 54
+SD  2009 CORE             574 PRMONTH55                  1980 1981   Num  Month of procedure 55
+SD  2009 CORE             575 PRMONTH56                  1982 1983   Num  Month of procedure 56
+SD  2009 CORE             576 PRMONTH57                  1984 1985   Num  Month of procedure 57
+SD  2009 CORE             577 PRMONTH58                  1986 1987   Num  Month of procedure 58
+SD  2009 CORE             578 PRMONTH59                  1988 1989   Num  Month of procedure 59
+SD  2009 CORE             579 PRMONTH60                  1990 1991   Num  Month of procedure 60
+SD  2009 CORE             580 PRMONTH61                  1992 1993   Num  Month of procedure 61
+SD  2009 CORE             581 PRMONTH62                  1994 1995   Num  Month of procedure 62
+SD  2009 CORE             582 PRMONTH63                  1996 1997   Num  Month of procedure 63
+SD  2009 CORE             583 PRMONTH64                  1998 1999   Num  Month of procedure 64
+SD  2009 CORE             584 PRMONTH65                  2000 2001   Num  Month of procedure 65
+SD  2009 CORE             585 PRYEAR1                    2002 2005   Num  Year of procedure 1
+SD  2009 CORE             586 PRYEAR2                    2006 2009   Num  Year of procedure 2
+SD  2009 CORE             587 PRYEAR3                    2010 2013   Num  Year of procedure 3
+SD  2009 CORE             588 PRYEAR4                    2014 2017   Num  Year of procedure 4
+SD  2009 CORE             589 PRYEAR5                    2018 2021   Num  Year of procedure 5
+SD  2009 CORE             590 PRYEAR6                    2022 2025   Num  Year of procedure 6
+SD  2009 CORE             591 PRYEAR7                    2026 2029   Num  Year of procedure 7
+SD  2009 CORE             592 PRYEAR8                    2030 2033   Num  Year of procedure 8
+SD  2009 CORE             593 PRYEAR9                    2034 2037   Num  Year of procedure 9
+SD  2009 CORE             594 PRYEAR10                   2038 2041   Num  Year of procedure 10
+SD  2009 CORE             595 PRYEAR11                   2042 2045   Num  Year of procedure 11
+SD  2009 CORE             596 PRYEAR12                   2046 2049   Num  Year of procedure 12
+SD  2009 CORE             597 PRYEAR13                   2050 2053   Num  Year of procedure 13
+SD  2009 CORE             598 PRYEAR14                   2054 2057   Num  Year of procedure 14
+SD  2009 CORE             599 PRYEAR15                   2058 2061   Num  Year of procedure 15
+SD  2009 CORE             600 PRYEAR16                   2062 2065   Num  Year of procedure 16
+SD  2009 CORE             601 PRYEAR17                   2066 2069   Num  Year of procedure 17
+SD  2009 CORE             602 PRYEAR18                   2070 2073   Num  Year of procedure 18
+SD  2009 CORE             603 PRYEAR19                   2074 2077   Num  Year of procedure 19
+SD  2009 CORE             604 PRYEAR20                   2078 2081   Num  Year of procedure 20
+SD  2009 CORE             605 PRYEAR21                   2082 2085   Num  Year of procedure 21
+SD  2009 CORE             606 PRYEAR22                   2086 2089   Num  Year of procedure 22
+SD  2009 CORE             607 PRYEAR23                   2090 2093   Num  Year of procedure 23
+SD  2009 CORE             608 PRYEAR24                   2094 2097   Num  Year of procedure 24
+SD  2009 CORE             609 PRYEAR25                   2098 2101   Num  Year of procedure 25
+SD  2009 CORE             610 PRYEAR26                   2102 2105   Num  Year of procedure 26
+SD  2009 CORE             611 PRYEAR27                   2106 2109   Num  Year of procedure 27
+SD  2009 CORE             612 PRYEAR28                   2110 2113   Num  Year of procedure 28
+SD  2009 CORE             613 PRYEAR29                   2114 2117   Num  Year of procedure 29
+SD  2009 CORE             614 PRYEAR30                   2118 2121   Num  Year of procedure 30
+SD  2009 CORE             615 PRYEAR31                   2122 2125   Num  Year of procedure 31
+SD  2009 CORE             616 PRYEAR32                   2126 2129   Num  Year of procedure 32
+SD  2009 CORE             617 PRYEAR33                   2130 2133   Num  Year of procedure 33
+SD  2009 CORE             618 PRYEAR34                   2134 2137   Num  Year of procedure 34
+SD  2009 CORE             619 PRYEAR35                   2138 2141   Num  Year of procedure 35
+SD  2009 CORE             620 PRYEAR36                   2142 2145   Num  Year of procedure 36
+SD  2009 CORE             621 PRYEAR37                   2146 2149   Num  Year of procedure 37
+SD  2009 CORE             622 PRYEAR38                   2150 2153   Num  Year of procedure 38
+SD  2009 CORE             623 PRYEAR39                   2154 2157   Num  Year of procedure 39
+SD  2009 CORE             624 PRYEAR40                   2158 2161   Num  Year of procedure 40
+SD  2009 CORE             625 PRYEAR41                   2162 2165   Num  Year of procedure 41
+SD  2009 CORE             626 PRYEAR42                   2166 2169   Num  Year of procedure 42
+SD  2009 CORE             627 PRYEAR43                   2170 2173   Num  Year of procedure 43
+SD  2009 CORE             628 PRYEAR44                   2174 2177   Num  Year of procedure 44
+SD  2009 CORE             629 PRYEAR45                   2178 2181   Num  Year of procedure 45
+SD  2009 CORE             630 PRYEAR46                   2182 2185   Num  Year of procedure 46
+SD  2009 CORE             631 PRYEAR47                   2186 2189   Num  Year of procedure 47
+SD  2009 CORE             632 PRYEAR48                   2190 2193   Num  Year of procedure 48
+SD  2009 CORE             633 PRYEAR49                   2194 2197   Num  Year of procedure 49
+SD  2009 CORE             634 PRYEAR50                   2198 2201   Num  Year of procedure 50
+SD  2009 CORE             635 PRYEAR51                   2202 2205   Num  Year of procedure 51
+SD  2009 CORE             636 PRYEAR52                   2206 2209   Num  Year of procedure 52
+SD  2009 CORE             637 PRYEAR53                   2210 2213   Num  Year of procedure 53
+SD  2009 CORE             638 PRYEAR54                   2214 2217   Num  Year of procedure 54
+SD  2009 CORE             639 PRYEAR55                   2218 2221   Num  Year of procedure 55
+SD  2009 CORE             640 PRYEAR56                   2222 2225   Num  Year of procedure 56
+SD  2009 CORE             641 PRYEAR57                   2226 2229   Num  Year of procedure 57
+SD  2009 CORE             642 PRYEAR58                   2230 2233   Num  Year of procedure 58
+SD  2009 CORE             643 PRYEAR59                   2234 2237   Num  Year of procedure 59
+SD  2009 CORE             644 PRYEAR60                   2238 2241   Num  Year of procedure 60
+SD  2009 CORE             645 PRYEAR61                   2242 2245   Num  Year of procedure 61
+SD  2009 CORE             646 PRYEAR62                   2246 2249   Num  Year of procedure 62
+SD  2009 CORE             647 PRYEAR63                   2250 2253   Num  Year of procedure 63
+SD  2009 CORE             648 PRYEAR64                   2254 2257   Num  Year of procedure 64
+SD  2009 CORE             649 PRYEAR65                   2258 2261   Num  Year of procedure 65

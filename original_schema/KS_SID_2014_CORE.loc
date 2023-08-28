@@ -1,0 +1,350 @@
+Data Set Name: KS_SIDC_2014_CORE               
+Number of Observations: 306798
+Total Record Length: 1268
+Total Number of Variables: 329
+Creation Date: 02/21/2018   
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 61    Variable name
+63- 66    Starting column of variable in ASCII file
+68- 71    Ending column of variable in ASCII file
+73- 73    Non-zero number of digits after decimal point for numeric variable
+75- 78    Variable type (Num=numeric; Char=character)
+80-179    Variable label
+
+
+KS  2014 CORE               1 AGE                                1    3   Num  Age in years at admission
+KS  2014 CORE               2 AGEDAY                             4    6   Num  Age in days (when age < 1 year)
+KS  2014 CORE               3 AGEMONTH                           7    9   Num  Age in months (when age < 11 years)
+KS  2014 CORE               4 AHOUR                             10   13   Num  Admission Hour
+KS  2014 CORE               5 AMONTH                            14   15   Num  Admission month
+KS  2014 CORE               6 ATYPE                             16   17   Num  Admission type
+KS  2014 CORE               7 AWEEKEND                          18   19   Num  Admission day is a weekend
+KS  2014 CORE               8 BILLTYPE                          20   23   Char Type of bill, UB-04 coding
+KS  2014 CORE               9 DHOUR                             24   27   Num  Discharge Hour
+KS  2014 CORE              10 DIED                              28   29   Num  Died during hospitalization
+KS  2014 CORE              11 DISPUB04                          30   31   Num  Disposition of patient (UB-04 standard coding)
+KS  2014 CORE              12 DISPUNIFORM                       32   33   Num  Disposition of patient (uniform)
+KS  2014 CORE              13 DISP_X                            34   35   Char Disposition of patient (as received from source)
+KS  2014 CORE              14 DMONTH                            36   37   Num  Discharge month
+KS  2014 CORE              15 DQTR                              38   39   Num  Discharge quarter
+KS  2014 CORE              16 DRG                               40   42   Num  DRG in effect on discharge date
+KS  2014 CORE              17 DRG24                             43   45   Num  DRG, version 24
+KS  2014 CORE              18 DRGVER                            46   47   Num  DRG grouper version used on discharge date
+KS  2014 CORE              19 DRG_NoPOA                         48   50   Num  DRG in use on discharge date, calculated without POA
+KS  2014 CORE              20 DX1                               51   57   Char Diagnosis 1
+KS  2014 CORE              21 DX2                               58   64   Char Diagnosis 2
+KS  2014 CORE              22 DX3                               65   71   Char Diagnosis 3
+KS  2014 CORE              23 DX4                               72   78   Char Diagnosis 4
+KS  2014 CORE              24 DX5                               79   85   Char Diagnosis 5
+KS  2014 CORE              25 DX6                               86   92   Char Diagnosis 6
+KS  2014 CORE              26 DX7                               93   99   Char Diagnosis 7
+KS  2014 CORE              27 DX8                              100  106   Char Diagnosis 8
+KS  2014 CORE              28 DX9                              107  113   Char Diagnosis 9
+KS  2014 CORE              29 DX10                             114  120   Char Diagnosis 10
+KS  2014 CORE              30 DX11                             121  127   Char Diagnosis 11
+KS  2014 CORE              31 DX12                             128  134   Char Diagnosis 12
+KS  2014 CORE              32 DX13                             135  141   Char Diagnosis 13
+KS  2014 CORE              33 DX14                             142  148   Char Diagnosis 14
+KS  2014 CORE              34 DX15                             149  155   Char Diagnosis 15
+KS  2014 CORE              35 DX16                             156  162   Char Diagnosis 16
+KS  2014 CORE              36 DX17                             163  169   Char Diagnosis 17
+KS  2014 CORE              37 DX18                             170  176   Char Diagnosis 18
+KS  2014 CORE              38 DX19                             177  183   Char Diagnosis 19
+KS  2014 CORE              39 DX20                             184  190   Char Diagnosis 20
+KS  2014 CORE              40 DX21                             191  197   Char Diagnosis 21
+KS  2014 CORE              41 DX22                             198  204   Char Diagnosis 22
+KS  2014 CORE              42 DX23                             205  211   Char Diagnosis 23
+KS  2014 CORE              43 DX24                             212  218   Char Diagnosis 24
+KS  2014 CORE              44 DX25                             219  225   Char Diagnosis 25
+KS  2014 CORE              45 DX26                             226  232   Char Diagnosis 26
+KS  2014 CORE              46 DX27                             233  239   Char Diagnosis 27
+KS  2014 CORE              47 DX28                             240  246   Char Diagnosis 28
+KS  2014 CORE              48 DX29                             247  253   Char Diagnosis 29
+KS  2014 CORE              49 DX30                             254  260   Char Diagnosis 30
+KS  2014 CORE              50 DXCCS1                           261  264   Num  CCS: diagnosis 1
+KS  2014 CORE              51 DXCCS2                           265  268   Num  CCS: diagnosis 2
+KS  2014 CORE              52 DXCCS3                           269  272   Num  CCS: diagnosis 3
+KS  2014 CORE              53 DXCCS4                           273  276   Num  CCS: diagnosis 4
+KS  2014 CORE              54 DXCCS5                           277  280   Num  CCS: diagnosis 5
+KS  2014 CORE              55 DXCCS6                           281  284   Num  CCS: diagnosis 6
+KS  2014 CORE              56 DXCCS7                           285  288   Num  CCS: diagnosis 7
+KS  2014 CORE              57 DXCCS8                           289  292   Num  CCS: diagnosis 8
+KS  2014 CORE              58 DXCCS9                           293  296   Num  CCS: diagnosis 9
+KS  2014 CORE              59 DXCCS10                          297  300   Num  CCS: diagnosis 10
+KS  2014 CORE              60 DXCCS11                          301  304   Num  CCS: diagnosis 11
+KS  2014 CORE              61 DXCCS12                          305  308   Num  CCS: diagnosis 12
+KS  2014 CORE              62 DXCCS13                          309  312   Num  CCS: diagnosis 13
+KS  2014 CORE              63 DXCCS14                          313  316   Num  CCS: diagnosis 14
+KS  2014 CORE              64 DXCCS15                          317  320   Num  CCS: diagnosis 15
+KS  2014 CORE              65 DXCCS16                          321  324   Num  CCS: diagnosis 16
+KS  2014 CORE              66 DXCCS17                          325  328   Num  CCS: diagnosis 17
+KS  2014 CORE              67 DXCCS18                          329  332   Num  CCS: diagnosis 18
+KS  2014 CORE              68 DXCCS19                          333  336   Num  CCS: diagnosis 19
+KS  2014 CORE              69 DXCCS20                          337  340   Num  CCS: diagnosis 20
+KS  2014 CORE              70 DXCCS21                          341  344   Num  CCS: diagnosis 21
+KS  2014 CORE              71 DXCCS22                          345  348   Num  CCS: diagnosis 22
+KS  2014 CORE              72 DXCCS23                          349  352   Num  CCS: diagnosis 23
+KS  2014 CORE              73 DXCCS24                          353  356   Num  CCS: diagnosis 24
+KS  2014 CORE              74 DXCCS25                          357  360   Num  CCS: diagnosis 25
+KS  2014 CORE              75 DXCCS26                          361  364   Num  CCS: diagnosis 26
+KS  2014 CORE              76 DXCCS27                          365  368   Num  CCS: diagnosis 27
+KS  2014 CORE              77 DXCCS28                          369  372   Num  CCS: diagnosis 28
+KS  2014 CORE              78 DXCCS29                          373  376   Num  CCS: diagnosis 29
+KS  2014 CORE              79 DXCCS30                          377  380   Num  CCS: diagnosis 30
+KS  2014 CORE              80 DXPOA1                           381  381   Char Diagnosis 1, present on admission indicator
+KS  2014 CORE              81 DXPOA2                           382  382   Char Diagnosis 2, present on admission indicator
+KS  2014 CORE              82 DXPOA3                           383  383   Char Diagnosis 3, present on admission indicator
+KS  2014 CORE              83 DXPOA4                           384  384   Char Diagnosis 4, present on admission indicator
+KS  2014 CORE              84 DXPOA5                           385  385   Char Diagnosis 5, present on admission indicator
+KS  2014 CORE              85 DXPOA6                           386  386   Char Diagnosis 6, present on admission indicator
+KS  2014 CORE              86 DXPOA7                           387  387   Char Diagnosis 7, present on admission indicator
+KS  2014 CORE              87 DXPOA8                           388  388   Char Diagnosis 8, present on admission indicator
+KS  2014 CORE              88 DXPOA9                           389  389   Char Diagnosis 9, present on admission indicator
+KS  2014 CORE              89 DXPOA10                          390  390   Char Diagnosis 10, present on admission indicator
+KS  2014 CORE              90 DXPOA11                          391  391   Char Diagnosis 11, present on admission indicator
+KS  2014 CORE              91 DXPOA12                          392  392   Char Diagnosis 12, present on admission indicator
+KS  2014 CORE              92 DXPOA13                          393  393   Char Diagnosis 13, present on admission indicator
+KS  2014 CORE              93 DXPOA14                          394  394   Char Diagnosis 14, present on admission indicator
+KS  2014 CORE              94 DXPOA15                          395  395   Char Diagnosis 15, present on admission indicator
+KS  2014 CORE              95 DXPOA16                          396  396   Char Diagnosis 16, present on admission indicator
+KS  2014 CORE              96 DXPOA17                          397  397   Char Diagnosis 17, present on admission indicator
+KS  2014 CORE              97 DXPOA18                          398  398   Char Diagnosis 18, present on admission indicator
+KS  2014 CORE              98 DXPOA19                          399  399   Char Diagnosis 19, present on admission indicator
+KS  2014 CORE              99 DXPOA20                          400  400   Char Diagnosis 20, present on admission indicator
+KS  2014 CORE             100 DXPOA21                          401  401   Char Diagnosis 21, present on admission indicator
+KS  2014 CORE             101 DXPOA22                          402  402   Char Diagnosis 22, present on admission indicator
+KS  2014 CORE             102 DXPOA23                          403  403   Char Diagnosis 23, present on admission indicator
+KS  2014 CORE             103 DXPOA24                          404  404   Char Diagnosis 24, present on admission indicator
+KS  2014 CORE             104 DXPOA25                          405  405   Char Diagnosis 25, present on admission indicator
+KS  2014 CORE             105 DXPOA26                          406  406   Char Diagnosis 26, present on admission indicator
+KS  2014 CORE             106 DXPOA27                          407  407   Char Diagnosis 27, present on admission indicator
+KS  2014 CORE             107 DXPOA28                          408  408   Char Diagnosis 28, present on admission indicator
+KS  2014 CORE             108 DXPOA29                          409  409   Char Diagnosis 29, present on admission indicator
+KS  2014 CORE             109 DXPOA30                          410  410   Char Diagnosis 30, present on admission indicator
+KS  2014 CORE             110 DXVER                            411  413   Num  Diagnosis Version
+KS  2014 CORE             111 ECODE1                           414  420   Char E code 1
+KS  2014 CORE             112 ECODE2                           421  427   Char E code 2
+KS  2014 CORE             113 ECODE3                           428  434   Char E code 3
+KS  2014 CORE             114 ECODE4                           435  441   Char E code 4
+KS  2014 CORE             115 ECODE5                           442  448   Char E code 5
+KS  2014 CORE             116 ECODE6                           449  455   Char E code 6
+KS  2014 CORE             117 ECODE7                           456  462   Char E code 7
+KS  2014 CORE             118 ECODE8                           463  469   Char E code 8
+KS  2014 CORE             119 ECODE9                           470  476   Char E code 9
+KS  2014 CORE             120 ECODE10                          477  483   Char E code 10
+KS  2014 CORE             121 ECODE11                          484  490   Char E code 11
+KS  2014 CORE             122 ECODE12                          491  497   Char E code 12
+KS  2014 CORE             123 E_CCS1                           498  501   Num  CCS: E Code 1
+KS  2014 CORE             124 E_CCS2                           502  505   Num  CCS: E Code 2
+KS  2014 CORE             125 E_CCS3                           506  509   Num  CCS: E Code 3
+KS  2014 CORE             126 E_CCS4                           510  513   Num  CCS: E Code 4
+KS  2014 CORE             127 E_CCS5                           514  517   Num  CCS: E Code 5
+KS  2014 CORE             128 E_CCS6                           518  521   Num  CCS: E Code 6
+KS  2014 CORE             129 E_CCS7                           522  525   Num  CCS: E Code 7
+KS  2014 CORE             130 E_CCS8                           526  529   Num  CCS: E Code 8
+KS  2014 CORE             131 E_CCS9                           530  533   Num  CCS: E Code 9
+KS  2014 CORE             132 E_CCS10                          534  537   Num  CCS: E Code 10
+KS  2014 CORE             133 E_CCS11                          538  541   Num  CCS: E Code 11
+KS  2014 CORE             134 E_CCS12                          542  545   Num  CCS: E Code 12
+KS  2014 CORE             135 E_POA1                           546  546   Char E Code 1, present on admission indicator
+KS  2014 CORE             136 E_POA2                           547  547   Char E Code 2, present on admission indicator
+KS  2014 CORE             137 E_POA3                           548  548   Char E Code 3, present on admission indicator
+KS  2014 CORE             138 E_POA4                           549  549   Char E Code 4, present on admission indicator
+KS  2014 CORE             139 E_POA5                           550  550   Char E Code 5, present on admission indicator
+KS  2014 CORE             140 E_POA6                           551  551   Char E Code 6, present on admission indicator
+KS  2014 CORE             141 E_POA7                           552  552   Char E Code 7, present on admission indicator
+KS  2014 CORE             142 E_POA8                           553  553   Char E Code 8, present on admission indicator
+KS  2014 CORE             143 E_POA9                           554  554   Char E Code 9, present on admission indicator
+KS  2014 CORE             144 E_POA10                          555  555   Char E Code 10, present on admission indicator
+KS  2014 CORE             145 E_POA11                          556  556   Char E Code 11, present on admission indicator
+KS  2014 CORE             146 E_POA12                          557  557   Char E Code 12, present on admission indicator
+KS  2014 CORE             147 FEMALE                           558  559   Num  Indicator of sex
+KS  2014 CORE             148 HCUP_ED                          560  561   Num  HCUP Emergency Department service indicator
+KS  2014 CORE             149 HCUP_OS                          562  563   Num  HCUP Observation Stay service indicator
+KS  2014 CORE             150 HISPANIC_X                       564  564   Char Hispanic ethnicity (as received from source)
+KS  2014 CORE             151 HOSPBRTH                         565  567   Num  Indicator of birth in this hospital
+KS  2014 CORE             152 HOSPST                           568  569   Char Hospital state postal code
+KS  2014 CORE             153 HospitalUnit                     570  571   Num  Indicator that patient was discharged from a special unit within an acute care hospital (reported by source)
+KS  2014 CORE             154 KEY                              572  586   Num  HCUP record identifier
+KS  2014 CORE             155 LOS                              587  591   Num  Length of stay (cleaned)
+KS  2014 CORE             156 LOS_X                            592  597   Num  Length of stay (as received from source)
+KS  2014 CORE             157 MDC                              598  599   Num  MDC in effect on discharge date
+KS  2014 CORE             158 MDC24                            600  601   Num  MDC, version 24
+KS  2014 CORE             159 MDC_NoPOA                        602  603   Num  MDC in use on discharge date, calculated without POA
+KS  2014 CORE             160 MEDINCSTQ                        604  605   Num  Median household income state quartile for patient ZIP Code
+KS  2014 CORE             161 NCHRONIC                         606  608   Num  Number of chronic conditions
+KS  2014 CORE             162 NDX                              609  611   Num  Number of diagnoses on this record
+KS  2014 CORE             163 NECODE                           612  613   Num  Number of E codes on this record
+KS  2014 CORE             164 NEOMAT                           614  615   Num  Neonatal and/or maternal DX and/or PR
+KS  2014 CORE             165 NPR                              616  618   Num  Number of procedures on this record
+KS  2014 CORE             166 ORPROC                           619  620   Num  Major operating room procedure indicator
+KS  2014 CORE             167 PAY1                             621  622   Num  Primary expected payer (uniform)
+KS  2014 CORE             168 PAY1_X                           623  625   Char Primary expected payer (as received from source)
+KS  2014 CORE             169 PAY2                             626  627   Num  Secondary expected payer (uniform)
+KS  2014 CORE             170 PAY2_X                           628  630   Char Secondary expected payer (as received from source)
+KS  2014 CORE             171 PAY3                             631  632   Num  Tertiary expected payer (uniform)
+KS  2014 CORE             172 PAY3_X                           633  635   Char Tertiary expected payer (as received from source)
+KS  2014 CORE             173 PL_CBSA                          636  638   Num  Patient location: Core Based Statistical Area (CBSA)
+KS  2014 CORE             174 PL_NCHS                          639  640   Num  Patient Location: NCHS Urban-Rural Code
+KS  2014 CORE             175 PL_RUCC                          641  642   Num  Patient location: Rural-Urban Continuum Codes(RUCC)
+KS  2014 CORE             176 PL_UIC                           643  644   Num  Patient location: Urban Influence Codes
+KS  2014 CORE             177 PL_UR_CAT4                       645  646   Num  Patient Location: Urban-Rural 4 Categories
+KS  2014 CORE             178 POA_Disch_Edit1                  647  648   Num  Indication that a discharge has POA missing on all nonexempt diagnoses
+KS  2014 CORE             179 POA_Disch_Edit2                  649  650   Num  Indication that a discharge has POA missing on all nonexempt secondary diagnoses
+KS  2014 CORE             180 POA_Hosp_Edit1                   651  652   Num  Indication that a hospital has POA reported as Y on all diagnoses on all discharges
+KS  2014 CORE             181 POA_Hosp_Edit2                   653  654   Num  Indication that a hospital has POA reported as missing on all non-Medicare discharges
+KS  2014 CORE             182 POA_Hosp_Edit3                   655  656   Num  Indication that a hospital reported POA as missing on all nonexempt diagnoses for 15 percent or more of discharges
+KS  2014 CORE             183 POA_Hosp_Edit3_Value             657  664 2 Num  Percentage of discharges with all nonexempt diagnoses missing POA indicators
+KS  2014 CORE             184 PR1                              665  671   Char Procedure 1
+KS  2014 CORE             185 PR2                              672  678   Char Procedure 2
+KS  2014 CORE             186 PR3                              679  685   Char Procedure 3
+KS  2014 CORE             187 PR4                              686  692   Char Procedure 4
+KS  2014 CORE             188 PR5                              693  699   Char Procedure 5
+KS  2014 CORE             189 PR6                              700  706   Char Procedure 6
+KS  2014 CORE             190 PR7                              707  713   Char Procedure 7
+KS  2014 CORE             191 PR8                              714  720   Char Procedure 8
+KS  2014 CORE             192 PR9                              721  727   Char Procedure 9
+KS  2014 CORE             193 PR10                             728  734   Char Procedure 10
+KS  2014 CORE             194 PR11                             735  741   Char Procedure 11
+KS  2014 CORE             195 PR12                             742  748   Char Procedure 12
+KS  2014 CORE             196 PR13                             749  755   Char Procedure 13
+KS  2014 CORE             197 PR14                             756  762   Char Procedure 14
+KS  2014 CORE             198 PR15                             763  769   Char Procedure 15
+KS  2014 CORE             199 PR16                             770  776   Char Procedure 16
+KS  2014 CORE             200 PR17                             777  783   Char Procedure 17
+KS  2014 CORE             201 PR18                             784  790   Char Procedure 18
+KS  2014 CORE             202 PR19                             791  797   Char Procedure 19
+KS  2014 CORE             203 PR20                             798  804   Char Procedure 20
+KS  2014 CORE             204 PR21                             805  811   Char Procedure 21
+KS  2014 CORE             205 PR22                             812  818   Char Procedure 22
+KS  2014 CORE             206 PR23                             819  825   Char Procedure 23
+KS  2014 CORE             207 PR24                             826  832   Char Procedure 24
+KS  2014 CORE             208 PR25                             833  839   Char Procedure 25
+KS  2014 CORE             209 PRCCS1                           840  842   Num  CCS: procedure 1
+KS  2014 CORE             210 PRCCS2                           843  845   Num  CCS: procedure 2
+KS  2014 CORE             211 PRCCS3                           846  848   Num  CCS: procedure 3
+KS  2014 CORE             212 PRCCS4                           849  851   Num  CCS: procedure 4
+KS  2014 CORE             213 PRCCS5                           852  854   Num  CCS: procedure 5
+KS  2014 CORE             214 PRCCS6                           855  857   Num  CCS: procedure 6
+KS  2014 CORE             215 PRCCS7                           858  860   Num  CCS: procedure 7
+KS  2014 CORE             216 PRCCS8                           861  863   Num  CCS: procedure 8
+KS  2014 CORE             217 PRCCS9                           864  866   Num  CCS: procedure 9
+KS  2014 CORE             218 PRCCS10                          867  869   Num  CCS: procedure 10
+KS  2014 CORE             219 PRCCS11                          870  872   Num  CCS: procedure 11
+KS  2014 CORE             220 PRCCS12                          873  875   Num  CCS: procedure 12
+KS  2014 CORE             221 PRCCS13                          876  878   Num  CCS: procedure 13
+KS  2014 CORE             222 PRCCS14                          879  881   Num  CCS: procedure 14
+KS  2014 CORE             223 PRCCS15                          882  884   Num  CCS: procedure 15
+KS  2014 CORE             224 PRCCS16                          885  887   Num  CCS: procedure 16
+KS  2014 CORE             225 PRCCS17                          888  890   Num  CCS: procedure 17
+KS  2014 CORE             226 PRCCS18                          891  893   Num  CCS: procedure 18
+KS  2014 CORE             227 PRCCS19                          894  896   Num  CCS: procedure 19
+KS  2014 CORE             228 PRCCS20                          897  899   Num  CCS: procedure 20
+KS  2014 CORE             229 PRCCS21                          900  902   Num  CCS: procedure 21
+KS  2014 CORE             230 PRCCS22                          903  905   Num  CCS: procedure 22
+KS  2014 CORE             231 PRCCS23                          906  908   Num  CCS: procedure 23
+KS  2014 CORE             232 PRCCS24                          909  911   Num  CCS: procedure 24
+KS  2014 CORE             233 PRCCS25                          912  914   Num  CCS: procedure 25
+KS  2014 CORE             234 PRDAY1                           915  919   Num  Number of days from admission to PR1
+KS  2014 CORE             235 PRDAY2                           920  924   Num  Number of days from admission to PR2
+KS  2014 CORE             236 PRDAY3                           925  929   Num  Number of days from admission to PR3
+KS  2014 CORE             237 PRDAY4                           930  934   Num  Number of days from admission to PR4
+KS  2014 CORE             238 PRDAY5                           935  939   Num  Number of days from admission to PR5
+KS  2014 CORE             239 PRDAY6                           940  944   Num  Number of days from admission to PR6
+KS  2014 CORE             240 PRDAY7                           945  949   Num  Number of days from admission to PR7
+KS  2014 CORE             241 PRDAY8                           950  954   Num  Number of days from admission to PR8
+KS  2014 CORE             242 PRDAY9                           955  959   Num  Number of days from admission to PR9
+KS  2014 CORE             243 PRDAY10                          960  964   Num  Number of days from admission to PR10
+KS  2014 CORE             244 PRDAY11                          965  969   Num  Number of days from admission to PR11
+KS  2014 CORE             245 PRDAY12                          970  974   Num  Number of days from admission to PR12
+KS  2014 CORE             246 PRDAY13                          975  979   Num  Number of days from admission to PR13
+KS  2014 CORE             247 PRDAY14                          980  984   Num  Number of days from admission to PR14
+KS  2014 CORE             248 PRDAY15                          985  989   Num  Number of days from admission to PR15
+KS  2014 CORE             249 PRDAY16                          990  994   Num  Number of days from admission to PR16
+KS  2014 CORE             250 PRDAY17                          995  999   Num  Number of days from admission to PR17
+KS  2014 CORE             251 PRDAY18                         1000 1004   Num  Number of days from admission to PR18
+KS  2014 CORE             252 PRDAY19                         1005 1009   Num  Number of days from admission to PR19
+KS  2014 CORE             253 PRDAY20                         1010 1014   Num  Number of days from admission to PR20
+KS  2014 CORE             254 PRDAY21                         1015 1019   Num  Number of days from admission to PR21
+KS  2014 CORE             255 PRDAY22                         1020 1024   Num  Number of days from admission to PR22
+KS  2014 CORE             256 PRDAY23                         1025 1029   Num  Number of days from admission to PR23
+KS  2014 CORE             257 PRDAY24                         1030 1034   Num  Number of days from admission to PR24
+KS  2014 CORE             258 PRDAY25                         1035 1039   Num  Number of days from admission to PR25
+KS  2014 CORE             259 PROCTYPE                        1040 1042   Num  Procedure type indicator
+KS  2014 CORE             260 PRVER                           1043 1045   Num  Procedure Version
+KS  2014 CORE             261 PSTATE                          1046 1047   Char Patient State postal code
+KS  2014 CORE             262 PSTCO                           1048 1052   Num  Patient state/county FIPS code
+KS  2014 CORE             263 PSTCO2                          1053 1057   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+KS  2014 CORE             264 PointOfOriginUB04               1058 1058   Char Point of origin for admission or visit, UB-04 standard coding
+KS  2014 CORE             265 PointOfOrigin_X                 1059 1059   Char Point of origin for admission or visit, as received from source
+KS  2014 CORE             266 RACE                            1060 1061   Num  Race (uniform)
+KS  2014 CORE             267 RACE_X                          1062 1062   Char Race (as received from source)
+KS  2014 CORE             268 SERVICELINE                     1063 1064   Num  Hospital Service Line
+KS  2014 CORE             269 TOTCHG                          1065 1074   Num  Total charges (cleaned)
+KS  2014 CORE             270 TOTCHG_X                        1075 1089 2 Num  Total charges (as received from source)
+KS  2014 CORE             271 TRAN_IN                         1090 1091   Num  Transfer in indicator
+KS  2014 CORE             272 TRAN_OUT                        1092 1093   Num  Transfer out indicator
+KS  2014 CORE             273 YEAR                            1094 1097   Num  Calendar year
+KS  2014 CORE             274 ZIP3                            1098 1100   Char Patient ZIP Code, first 3 digits
+KS  2014 CORE             275 ZIPINC_QRTL                     1101 1103   Num  Median household income national quartile for patient ZIP Code
+KS  2014 CORE             276 HOSPID                          1104 1108   Num  HCUP hospital identification number
+KS  2014 CORE             277 AYEAR                           1109 1112   Num  Admission year
+KS  2014 CORE             278 BMONTH                          1113 1114   Num  Birth month
+KS  2014 CORE             279 BYEAR                           1115 1118   Num  Birth year
+KS  2014 CORE             280 PRMONTH1                        1119 1120   Num  Month of procedure 1
+KS  2014 CORE             281 PRMONTH2                        1121 1122   Num  Month of procedure 2
+KS  2014 CORE             282 PRMONTH3                        1123 1124   Num  Month of procedure 3
+KS  2014 CORE             283 PRMONTH4                        1125 1126   Num  Month of procedure 4
+KS  2014 CORE             284 PRMONTH5                        1127 1128   Num  Month of procedure 5
+KS  2014 CORE             285 PRMONTH6                        1129 1130   Num  Month of procedure 6
+KS  2014 CORE             286 PRMONTH7                        1131 1132   Num  Month of procedure 7
+KS  2014 CORE             287 PRMONTH8                        1133 1134   Num  Month of procedure 8
+KS  2014 CORE             288 PRMONTH9                        1135 1136   Num  Month of procedure 9
+KS  2014 CORE             289 PRMONTH10                       1137 1138   Num  Month of procedure 10
+KS  2014 CORE             290 PRMONTH11                       1139 1140   Num  Month of procedure 11
+KS  2014 CORE             291 PRMONTH12                       1141 1142   Num  Month of procedure 12
+KS  2014 CORE             292 PRMONTH13                       1143 1144   Num  Month of procedure 13
+KS  2014 CORE             293 PRMONTH14                       1145 1146   Num  Month of procedure 14
+KS  2014 CORE             294 PRMONTH15                       1147 1148   Num  Month of procedure 15
+KS  2014 CORE             295 PRMONTH16                       1149 1150   Num  Month of procedure 16
+KS  2014 CORE             296 PRMONTH17                       1151 1152   Num  Month of procedure 17
+KS  2014 CORE             297 PRMONTH18                       1153 1154   Num  Month of procedure 18
+KS  2014 CORE             298 PRMONTH19                       1155 1156   Num  Month of procedure 19
+KS  2014 CORE             299 PRMONTH20                       1157 1158   Num  Month of procedure 20
+KS  2014 CORE             300 PRMONTH21                       1159 1160   Num  Month of procedure 21
+KS  2014 CORE             301 PRMONTH22                       1161 1162   Num  Month of procedure 22
+KS  2014 CORE             302 PRMONTH23                       1163 1164   Num  Month of procedure 23
+KS  2014 CORE             303 PRMONTH24                       1165 1166   Num  Month of procedure 24
+KS  2014 CORE             304 PRMONTH25                       1167 1168   Num  Month of procedure 25
+KS  2014 CORE             305 PRYEAR1                         1169 1172   Num  Year of procedure 1
+KS  2014 CORE             306 PRYEAR2                         1173 1176   Num  Year of procedure 2
+KS  2014 CORE             307 PRYEAR3                         1177 1180   Num  Year of procedure 3
+KS  2014 CORE             308 PRYEAR4                         1181 1184   Num  Year of procedure 4
+KS  2014 CORE             309 PRYEAR5                         1185 1188   Num  Year of procedure 5
+KS  2014 CORE             310 PRYEAR6                         1189 1192   Num  Year of procedure 6
+KS  2014 CORE             311 PRYEAR7                         1193 1196   Num  Year of procedure 7
+KS  2014 CORE             312 PRYEAR8                         1197 1200   Num  Year of procedure 8
+KS  2014 CORE             313 PRYEAR9                         1201 1204   Num  Year of procedure 9
+KS  2014 CORE             314 PRYEAR10                        1205 1208   Num  Year of procedure 10
+KS  2014 CORE             315 PRYEAR11                        1209 1212   Num  Year of procedure 11
+KS  2014 CORE             316 PRYEAR12                        1213 1216   Num  Year of procedure 12
+KS  2014 CORE             317 PRYEAR13                        1217 1220   Num  Year of procedure 13
+KS  2014 CORE             318 PRYEAR14                        1221 1224   Num  Year of procedure 14
+KS  2014 CORE             319 PRYEAR15                        1225 1228   Num  Year of procedure 15
+KS  2014 CORE             320 PRYEAR16                        1229 1232   Num  Year of procedure 16
+KS  2014 CORE             321 PRYEAR17                        1233 1236   Num  Year of procedure 17
+KS  2014 CORE             322 PRYEAR18                        1237 1240   Num  Year of procedure 18
+KS  2014 CORE             323 PRYEAR19                        1241 1244   Num  Year of procedure 19
+KS  2014 CORE             324 PRYEAR20                        1245 1248   Num  Year of procedure 20
+KS  2014 CORE             325 PRYEAR21                        1249 1252   Num  Year of procedure 21
+KS  2014 CORE             326 PRYEAR22                        1253 1256   Num  Year of procedure 22
+KS  2014 CORE             327 PRYEAR23                        1257 1260   Num  Year of procedure 23
+KS  2014 CORE             328 PRYEAR24                        1261 1264   Num  Year of procedure 24
+KS  2014 CORE             329 PRYEAR25                        1265 1268   Num  Year of procedure 25

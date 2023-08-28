@@ -1,0 +1,121 @@
+Data Set Name: WI_SID_2003_CORE                
+Number of Observations: 663261
+Total Record Length: 381
+Total Number of Variables: 101
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 56    Variable name
+58- 61    Starting column of variable in ASCII file
+63- 66    Ending column of variable in ASCII file
+    68    Non-zero number of digits after decimal point for numeric variable
+70- 73    Variable type (Num=numeric; Char=character)
+75-174    Variable label
+
+
+WI  2003 CORE               1 KEY                           1   14   Num  HCUP record identifier
+WI  2003 CORE               2 AGE                          15   17   Num  Age in years at admission
+WI  2003 CORE               3 AGEDAY                       18   20   Num  Age in days (when age < 1 year)
+WI  2003 CORE               4 AGEMONTH                     21   23   Num  Age in months (when age < 11 years)
+WI  2003 CORE               5 AMONTH                       24   25   Num  Admission month
+WI  2003 CORE               6 ASOURCE                      26   27   Num  Admission source (uniform)
+WI  2003 CORE               7 ASOURCE_X                    28   28   Char Admission source (as received from source)
+WI  2003 CORE               8 ASOURCEUB92                  29   29   Char Admission source (UB-92 standard coding)
+WI  2003 CORE               9 ATYPE                        30   31   Num  Admission type
+WI  2003 CORE              10 AWEEKEND                     32   33   Num  Admission day is a weekend
+WI  2003 CORE              11 DIED                         34   35   Num  Died during hospitalization
+WI  2003 CORE              12 DISP_X                       36   37   Char Disposition of patient (as received from source)
+WI  2003 CORE              13 DISPUB92                     38   39   Num  Disposition of patient (UB-92 standard coding)
+WI  2003 CORE              14 DISPUNIFORM                  40   41   Num  Disposition of patient (uniform)
+WI  2003 CORE              15 DQTR                         42   43   Num  Discharge quarter
+WI  2003 CORE              16 DRG                          44   46   Num  DRG in effect on discharge date
+WI  2003 CORE              17 DRG18                        47   49   Num  DRG, version 18
+WI  2003 CORE              18 DRGVER                       50   51   Num  DRG grouper version used on discharge date
+WI  2003 CORE              19 DSHOSPID                     52   64   Char Data source hospital identifier
+WI  2003 CORE              20 DX1                          65   69   Char Principal diagnosis
+WI  2003 CORE              21 DX2                          70   74   Char Diagnosis 2
+WI  2003 CORE              22 DX3                          75   79   Char Diagnosis 3
+WI  2003 CORE              23 DX4                          80   84   Char Diagnosis 4
+WI  2003 CORE              24 DX5                          85   89   Char Diagnosis 5
+WI  2003 CORE              25 DX6                          90   94   Char Diagnosis 6
+WI  2003 CORE              26 DX7                          95   99   Char Diagnosis 7
+WI  2003 CORE              27 DX8                         100  104   Char Diagnosis 8
+WI  2003 CORE              28 DX9                         105  109   Char Diagnosis 9
+WI  2003 CORE              29 DXCCS1                      110  113   Num  CCS: principal diagnosis
+WI  2003 CORE              30 DXCCS2                      114  117   Num  CCS: diagnosis 2
+WI  2003 CORE              31 DXCCS3                      118  121   Num  CCS: diagnosis 3
+WI  2003 CORE              32 DXCCS4                      122  125   Num  CCS: diagnosis 4
+WI  2003 CORE              33 DXCCS5                      126  129   Num  CCS: diagnosis 5
+WI  2003 CORE              34 DXCCS6                      130  133   Num  CCS: diagnosis 6
+WI  2003 CORE              35 DXCCS7                      134  137   Num  CCS: diagnosis 7
+WI  2003 CORE              36 DXCCS8                      138  141   Num  CCS: diagnosis 8
+WI  2003 CORE              37 DXCCS9                      142  145   Num  CCS: diagnosis 9
+WI  2003 CORE              38 ECODE1                      146  150   Char E code 1
+WI  2003 CORE              39 ECODE2                      151  155   Char E code 2
+WI  2003 CORE              40 ECODE3                      156  160   Char E code 3
+WI  2003 CORE              41 ECODE4                      161  165   Char E code 4
+WI  2003 CORE              42 ECODE5                      166  170   Char E code 5
+WI  2003 CORE              43 ECODE6                      171  175   Char E code 6
+WI  2003 CORE              44 E_CCS1                      176  179   Num  CCS: E Code 1
+WI  2003 CORE              45 E_CCS2                      180  183   Num  CCS: E Code 2
+WI  2003 CORE              46 E_CCS3                      184  187   Num  CCS: E Code 3
+WI  2003 CORE              47 E_CCS4                      188  191   Num  CCS: E Code 4
+WI  2003 CORE              48 E_CCS5                      192  195   Num  CCS: E Code 5
+WI  2003 CORE              49 E_CCS6                      196  199   Num  CCS: E Code 6
+WI  2003 CORE              50 FEMALE                      200  201   Num  Indicator of sex
+WI  2003 CORE              51 HISPANIC_X                  202  202   Char Hispanic ethnicity (as received from source)
+WI  2003 CORE              52 HOSPST                      203  204   Char Hospital state postal code
+WI  2003 CORE              53 LOS                         205  209   Num  Length of stay (cleaned)
+WI  2003 CORE              54 LOS_X                       210  215   Num  Length of stay (as received from source)
+WI  2003 CORE              55 MDC                         216  217   Num  MDC in effect on discharge date
+WI  2003 CORE              56 MDC18                       218  219   Num  MDC, version 18
+WI  2003 CORE              57 MDSPEC1                     220  222   Char Physician 1 specialty (as received from source)
+WI  2003 CORE              58 MDSPEC2                     223  225   Char Physician 2 specialty (as received from source)
+WI  2003 CORE              59 MRN_R                       226  234   Num  Medical record number (re-identified)
+WI  2003 CORE              60 NDX                         235  236   Num  Number of diagnoses on this record
+WI  2003 CORE              61 NECODE                      237  238   Num  Number of E codes on this record
+WI  2003 CORE              62 NEOMAT                      239  240   Num  Neonatal and/or maternal DX and/or PR
+WI  2003 CORE              63 NPR                         241  242   Num  Number of procedures on this record
+WI  2003 CORE              64 PAY1                        243  244   Num  Primary expected payer (uniform)
+WI  2003 CORE              65 PAY2                        245  246   Num  Secondary expected payer (uniform)
+WI  2003 CORE              66 PAY1_X                      247  251   Char Primary expected payer (as received from source)
+WI  2003 CORE              67 PAY2_X                      252  256   Char Secondary expected payer (as received from source)
+WI  2003 CORE              68 PL_CBSA                     257  259   Num  Patient location: Core Based Statistical Area (CBSA)
+WI  2003 CORE              69 PL_MSA1993                  260  262   Num  Patient location: Metropolitan Statistical Area (MSA), 1993
+WI  2003 CORE              70 PL_RUCA                     263  266 1 Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes
+WI  2003 CORE              71 PL_RUCA10                   267  268   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, ten levels
+WI  2003 CORE              72 PL_RUCA4                    269  270   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, four levels
+WI  2003 CORE              73 PL_RUCC2003                 271  272   Num  Patient location: Rural-Urban Continuum Codes(RUCC), 2003
+WI  2003 CORE              74 PL_UIC2003                  273  274   Num  Patient location: Urban Influence Codes, 2003
+WI  2003 CORE              75 PL_UR_CAT4                  275  276   Num  Patient Location: Urban-Rural 4 Categories
+WI  2003 CORE              76 PL_UR_CAT5                  277  278   Num  Patient Location: Urban-Rural 5 Categories
+WI  2003 CORE              77 PR1                         279  282   Char Principal procedure
+WI  2003 CORE              78 PR2                         283  286   Char Procedure 2
+WI  2003 CORE              79 PR3                         287  290   Char Procedure 3
+WI  2003 CORE              80 PR4                         291  294   Char Procedure 4
+WI  2003 CORE              81 PR5                         295  298   Char Procedure 5
+WI  2003 CORE              82 PR6                         299  302   Char Procedure 6
+WI  2003 CORE              83 PRCCS1                      303  305   Num  CCS: principal procedure
+WI  2003 CORE              84 PRCCS2                      306  308   Num  CCS: procedure 2
+WI  2003 CORE              85 PRCCS3                      309  311   Num  CCS: procedure 3
+WI  2003 CORE              86 PRCCS4                      312  314   Num  CCS: procedure 4
+WI  2003 CORE              87 PRCCS5                      315  317   Num  CCS: procedure 5
+WI  2003 CORE              88 PRCCS6                      318  320   Num  CCS: procedure 6
+WI  2003 CORE              89 PRDAY1                      321  325   Num  Number of days from admission to PR1
+WI  2003 CORE              90 PSTATE                      326  327   Char Patient State postal code
+WI  2003 CORE              91 PSTCO2                      328  332   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+WI  2003 CORE              92 RACE                        333  334   Num  Race (uniform)
+WI  2003 CORE              93 RACE_X                      335  335   Char Race (as received from source)
+WI  2003 CORE              94 TOTCHG                      336  345   Num  Total charges (cleaned)
+WI  2003 CORE              95 TOTCHG_X                    346  360 2 Num  Total charges (as received from source)
+WI  2003 CORE              96 YEAR                        361  364   Num  Calendar year
+WI  2003 CORE              97 ZIP                         365  369   Char Patient ZIP Code
+WI  2003 CORE              98 AYEAR                       370  373   Num  Admission year
+WI  2003 CORE              99 DMONTH                      374  375   Num  Discharge month
+WI  2003 CORE             100 BMONTH                      376  377   Num  Birth month
+WI  2003 CORE             101 BYEAR                       378  381   Num  Birth year

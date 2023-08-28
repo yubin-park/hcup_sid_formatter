@@ -1,0 +1,238 @@
+Data Set Name: MA_SIDC_2012_CORE               
+Number of Observations: 819305
+Total Record Length: 761
+Total Number of Variables: 218
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 56    Variable name
+58- 61    Starting column of variable in ASCII file
+63- 66    Ending column of variable in ASCII file
+    68    Non-zero number of digits after decimal point for numeric variable
+70- 73    Variable type (Num=numeric; Char=character)
+75-174    Variable label
+
+
+MA  2012 CORE               1 ADRG                          1    3   Num  All Patient Refined DRG
+MA  2012 CORE               2 ADRGRISKMORTALITY             4    5   Num  All Patient Refined DRG mortality risk
+MA  2012 CORE               3 ADRGSEV                       6    7   Num  All Patient Refined DRG severity level
+MA  2012 CORE               4 AGE                           8   10   Num  Age in years at admission
+MA  2012 CORE               5 AGEMONTH                     11   13   Num  Age in months (when age < 11 years)
+MA  2012 CORE               6 AMDC                         14   15   Num  All Patient Refined MDC
+MA  2012 CORE               7 AMONTH                       16   17   Num  Admission month
+MA  2012 CORE               8 ASOURCE                      18   19   Num  Admission source (uniform)
+MA  2012 CORE               9 ASOURCEUB92                  20   20   Char Admission source (UB-92 standard coding)
+MA  2012 CORE              10 ASOURCE_X                    21   21   Char Admission source (as received from source)
+MA  2012 CORE              11 ATYPE                        22   23   Num  Admission type
+MA  2012 CORE              12 AWEEKEND                     24   25   Num  Admission day is a weekend
+MA  2012 CORE              13 BWT                          26   29   Num  Birth weight in grams
+MA  2012 CORE              14 DIED                         30   31   Num  Died during hospitalization
+MA  2012 CORE              15 DISPUB04                     32   33   Num  Disposition of patient (UB-04 standard coding)
+MA  2012 CORE              16 DISPUNIFORM                  34   35   Num  Disposition of patient (uniform)
+MA  2012 CORE              17 DISP_X                       36   37   Char Disposition of patient (as received from source)
+MA  2012 CORE              18 DNR                          38   39   Num  Do not resuscitate indicator
+MA  2012 CORE              19 DQTR                         40   41   Num  Discharge quarter
+MA  2012 CORE              20 DRG                          42   44   Num  DRG in effect on discharge date
+MA  2012 CORE              21 DRG24                        45   47   Num  DRG, version 24
+MA  2012 CORE              22 DRGVER                       48   49   Num  DRG grouper version used on discharge date
+MA  2012 CORE              23 DRG_NoPOA                    50   52   Num  DRG in use on discharge date, calculated without POA
+MA  2012 CORE              24 DSHOSPID                     53   69   Char Data source hospital identifier
+MA  2012 CORE              25 DX1                          70   74   Char Diagnosis 1
+MA  2012 CORE              26 DX2                          75   79   Char Diagnosis 2
+MA  2012 CORE              27 DX3                          80   84   Char Diagnosis 3
+MA  2012 CORE              28 DX4                          85   89   Char Diagnosis 4
+MA  2012 CORE              29 DX5                          90   94   Char Diagnosis 5
+MA  2012 CORE              30 DX6                          95   99   Char Diagnosis 6
+MA  2012 CORE              31 DX7                         100  104   Char Diagnosis 7
+MA  2012 CORE              32 DX8                         105  109   Char Diagnosis 8
+MA  2012 CORE              33 DX9                         110  114   Char Diagnosis 9
+MA  2012 CORE              34 DX10                        115  119   Char Diagnosis 10
+MA  2012 CORE              35 DX11                        120  124   Char Diagnosis 11
+MA  2012 CORE              36 DX12                        125  129   Char Diagnosis 12
+MA  2012 CORE              37 DX13                        130  134   Char Diagnosis 13
+MA  2012 CORE              38 DX14                        135  139   Char Diagnosis 14
+MA  2012 CORE              39 DX15                        140  144   Char Diagnosis 15
+MA  2012 CORE              40 DXCCS1                      145  148   Num  CCS: diagnosis 1
+MA  2012 CORE              41 DXCCS2                      149  152   Num  CCS: diagnosis 2
+MA  2012 CORE              42 DXCCS3                      153  156   Num  CCS: diagnosis 3
+MA  2012 CORE              43 DXCCS4                      157  160   Num  CCS: diagnosis 4
+MA  2012 CORE              44 DXCCS5                      161  164   Num  CCS: diagnosis 5
+MA  2012 CORE              45 DXCCS6                      165  168   Num  CCS: diagnosis 6
+MA  2012 CORE              46 DXCCS7                      169  172   Num  CCS: diagnosis 7
+MA  2012 CORE              47 DXCCS8                      173  176   Num  CCS: diagnosis 8
+MA  2012 CORE              48 DXCCS9                      177  180   Num  CCS: diagnosis 9
+MA  2012 CORE              49 DXCCS10                     181  184   Num  CCS: diagnosis 10
+MA  2012 CORE              50 DXCCS11                     185  188   Num  CCS: diagnosis 11
+MA  2012 CORE              51 DXCCS12                     189  192   Num  CCS: diagnosis 12
+MA  2012 CORE              52 DXCCS13                     193  196   Num  CCS: diagnosis 13
+MA  2012 CORE              53 DXCCS14                     197  200   Num  CCS: diagnosis 14
+MA  2012 CORE              54 DXCCS15                     201  204   Num  CCS: diagnosis 15
+MA  2012 CORE              55 DXPOA1                      205  205   Char Diagnosis 1, present on admission indicator
+MA  2012 CORE              56 DXPOA2                      206  206   Char Diagnosis 2, present on admission indicator
+MA  2012 CORE              57 DXPOA3                      207  207   Char Diagnosis 3, present on admission indicator
+MA  2012 CORE              58 DXPOA4                      208  208   Char Diagnosis 4, present on admission indicator
+MA  2012 CORE              59 DXPOA5                      209  209   Char Diagnosis 5, present on admission indicator
+MA  2012 CORE              60 DXPOA6                      210  210   Char Diagnosis 6, present on admission indicator
+MA  2012 CORE              61 DXPOA7                      211  211   Char Diagnosis 7, present on admission indicator
+MA  2012 CORE              62 DXPOA8                      212  212   Char Diagnosis 8, present on admission indicator
+MA  2012 CORE              63 DXPOA9                      213  213   Char Diagnosis 9, present on admission indicator
+MA  2012 CORE              64 DXPOA10                     214  214   Char Diagnosis 10, present on admission indicator
+MA  2012 CORE              65 DXPOA11                     215  215   Char Diagnosis 11, present on admission indicator
+MA  2012 CORE              66 DXPOA12                     216  216   Char Diagnosis 12, present on admission indicator
+MA  2012 CORE              67 DXPOA13                     217  217   Char Diagnosis 13, present on admission indicator
+MA  2012 CORE              68 DXPOA14                     218  218   Char Diagnosis 14, present on admission indicator
+MA  2012 CORE              69 DXPOA15                     219  219   Char Diagnosis 15, present on admission indicator
+MA  2012 CORE              70 DaysBetweenVisits           220  223   Num  Number of days between visits
+MA  2012 CORE              71 DaysToEvent                 224  229   Num  Days from 'start date' to admission
+MA  2012 CORE              72 ECODE1                      230  234   Char E code 1
+MA  2012 CORE              73 ECODE2                      235  239   Char E code 2
+MA  2012 CORE              74 ECODE3                      240  244   Char E code 3
+MA  2012 CORE              75 ECODE4                      245  249   Char E code 4
+MA  2012 CORE              76 ECODE5                      250  254   Char E code 5
+MA  2012 CORE              77 ECODE6                      255  259   Char E code 6
+MA  2012 CORE              78 ECODE7                      260  264   Char E code 7
+MA  2012 CORE              79 ECODE8                      265  269   Char E code 8
+MA  2012 CORE              80 E_CCS1                      270  273   Num  CCS: E Code 1
+MA  2012 CORE              81 E_CCS2                      274  277   Num  CCS: E Code 2
+MA  2012 CORE              82 E_CCS3                      278  281   Num  CCS: E Code 3
+MA  2012 CORE              83 E_CCS4                      282  285   Num  CCS: E Code 4
+MA  2012 CORE              84 E_CCS5                      286  289   Num  CCS: E Code 5
+MA  2012 CORE              85 E_CCS6                      290  293   Num  CCS: E Code 6
+MA  2012 CORE              86 E_CCS7                      294  297   Num  CCS: E Code 7
+MA  2012 CORE              87 E_CCS8                      298  301   Num  CCS: E Code 8
+MA  2012 CORE              88 E_POA1                      302  302   Char E Code 1, present on admission indicator
+MA  2012 CORE              89 E_POA2                      303  303   Char E Code 2, present on admission indicator
+MA  2012 CORE              90 E_POA3                      304  304   Char E Code 3, present on admission indicator
+MA  2012 CORE              91 E_POA4                      305  305   Char E Code 4, present on admission indicator
+MA  2012 CORE              92 E_POA5                      306  306   Char E Code 5, present on admission indicator
+MA  2012 CORE              93 E_POA6                      307  307   Char E Code 6, present on admission indicator
+MA  2012 CORE              94 E_POA7                      308  308   Char E Code 7, present on admission indicator
+MA  2012 CORE              95 E_POA8                      309  309   Char E Code 8, present on admission indicator
+MA  2012 CORE              96 FEMALE                      310  311   Num  Indicator of sex
+MA  2012 CORE              97 HCUP_ED                     312  313   Num  HCUP Emergency Department service indicator
+MA  2012 CORE              98 HCUP_OS                     314  315   Num  HCUP Observation Stay service indicator
+MA  2012 CORE              99 HISPANIC_X                  316  330   Char Hispanic ethnicity (as received from source)
+MA  2012 CORE             100 HOSPBRTH                    331  333   Num  Indicator of birth in this hospital
+MA  2012 CORE             101 HOSPST                      334  335   Char Hospital state postal code
+MA  2012 CORE             102 Homeless                    336  337   Num  Indicator that patient is homeless
+MA  2012 CORE             103 KEY                         338  352   Num  HCUP record identifier
+MA  2012 CORE             104 LOS                         353  357   Num  Length of stay (cleaned)
+MA  2012 CORE             105 LOS_X                       358  363   Num  Length of stay (as received from source)
+MA  2012 CORE             106 MDC                         364  365   Num  MDC in effect on discharge date
+MA  2012 CORE             107 MDC24                       366  367   Num  MDC, version 24
+MA  2012 CORE             108 MDC_NoPOA                   368  369   Num  MDC in use on discharge date, calculated without POA
+MA  2012 CORE             109 MEDINCSTQ                   370  371   Num  Median household income state quartile for patient ZIP Code
+MA  2012 CORE             110 NCHRONIC                    372  374   Num  Number of chronic conditions
+MA  2012 CORE             111 NDX                         375  376   Num  Number of diagnoses on this record
+MA  2012 CORE             112 NECODE                      377  378   Num  Number of E codes on this record
+MA  2012 CORE             113 NEOMAT                      379  380   Num  Neonatal and/or maternal DX and/or PR
+MA  2012 CORE             114 NPR                         381  382   Num  Number of procedures on this record
+MA  2012 CORE             115 ORPROC                      383  384   Num  Major operating room procedure indicator
+MA  2012 CORE             116 OS_TIME                     385  392   Num  Observation stay time summed from UNITS
+MA  2012 CORE             117 PAY1                        393  394   Num  Primary expected payer (uniform)
+MA  2012 CORE             118 PAY1_X                      395  395   Char Primary expected payer (as received from source)
+MA  2012 CORE             119 PAY2                        396  397   Num  Secondary expected payer (uniform)
+MA  2012 CORE             120 PAY2_X                      398  398   Char Secondary expected payer (as received from source)
+MA  2012 CORE             121 PAYER1_X                    399  401   Char Primary expected payer plan identifier (as received from source)
+MA  2012 CORE             122 PAYER2_X                    402  404   Char Secondary expected payer plan identifier (as received from source)
+MA  2012 CORE             123 PL_CBSA                     405  407   Num  Patient location: Core Based Statistical Area (CBSA)
+MA  2012 CORE             124 PL_MSA1993                  408  410   Num  Patient location: Metropolitan Statistical Area (MSA), 1993
+MA  2012 CORE             125 PL_RUCA10_2005              411  412   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, ten levels
+MA  2012 CORE             126 PL_RUCA2005                 413  416 1 Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes
+MA  2012 CORE             127 PL_RUCA4_2005               417  418   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, four levels
+MA  2012 CORE             128 PL_UR_CAT4                  419  420   Num  Patient Location: Urban-Rural 4 Categories
+MA  2012 CORE             129 PR1                         421  424   Char Procedure 1
+MA  2012 CORE             130 PR2                         425  428   Char Procedure 2
+MA  2012 CORE             131 PR3                         429  432   Char Procedure 3
+MA  2012 CORE             132 PR4                         433  436   Char Procedure 4
+MA  2012 CORE             133 PR5                         437  440   Char Procedure 5
+MA  2012 CORE             134 PR6                         441  444   Char Procedure 6
+MA  2012 CORE             135 PR7                         445  448   Char Procedure 7
+MA  2012 CORE             136 PR8                         449  452   Char Procedure 8
+MA  2012 CORE             137 PR9                         453  456   Char Procedure 9
+MA  2012 CORE             138 PR10                        457  460   Char Procedure 10
+MA  2012 CORE             139 PR11                        461  464   Char Procedure 11
+MA  2012 CORE             140 PR12                        465  468   Char Procedure 12
+MA  2012 CORE             141 PR13                        469  472   Char Procedure 13
+MA  2012 CORE             142 PR14                        473  476   Char Procedure 14
+MA  2012 CORE             143 PR15                        477  480   Char Procedure 15
+MA  2012 CORE             144 PRCCS1                      481  483   Num  CCS: procedure 1
+MA  2012 CORE             145 PRCCS2                      484  486   Num  CCS: procedure 2
+MA  2012 CORE             146 PRCCS3                      487  489   Num  CCS: procedure 3
+MA  2012 CORE             147 PRCCS4                      490  492   Num  CCS: procedure 4
+MA  2012 CORE             148 PRCCS5                      493  495   Num  CCS: procedure 5
+MA  2012 CORE             149 PRCCS6                      496  498   Num  CCS: procedure 6
+MA  2012 CORE             150 PRCCS7                      499  501   Num  CCS: procedure 7
+MA  2012 CORE             151 PRCCS8                      502  504   Num  CCS: procedure 8
+MA  2012 CORE             152 PRCCS9                      505  507   Num  CCS: procedure 9
+MA  2012 CORE             153 PRCCS10                     508  510   Num  CCS: procedure 10
+MA  2012 CORE             154 PRCCS11                     511  513   Num  CCS: procedure 11
+MA  2012 CORE             155 PRCCS12                     514  516   Num  CCS: procedure 12
+MA  2012 CORE             156 PRCCS13                     517  519   Num  CCS: procedure 13
+MA  2012 CORE             157 PRCCS14                     520  522   Num  CCS: procedure 14
+MA  2012 CORE             158 PRCCS15                     523  525   Num  CCS: procedure 15
+MA  2012 CORE             159 PRDAY1                      526  530   Num  Number of days from admission to PR1
+MA  2012 CORE             160 PRDAY2                      531  535   Num  Number of days from admission to PR2
+MA  2012 CORE             161 PRDAY3                      536  540   Num  Number of days from admission to PR3
+MA  2012 CORE             162 PRDAY4                      541  545   Num  Number of days from admission to PR4
+MA  2012 CORE             163 PRDAY5                      546  550   Num  Number of days from admission to PR5
+MA  2012 CORE             164 PRDAY6                      551  555   Num  Number of days from admission to PR6
+MA  2012 CORE             165 PRDAY7                      556  560   Num  Number of days from admission to PR7
+MA  2012 CORE             166 PRDAY8                      561  565   Num  Number of days from admission to PR8
+MA  2012 CORE             167 PRDAY9                      566  570   Num  Number of days from admission to PR9
+MA  2012 CORE             168 PRDAY10                     571  575   Num  Number of days from admission to PR10
+MA  2012 CORE             169 PRDAY11                     576  580   Num  Number of days from admission to PR11
+MA  2012 CORE             170 PRDAY12                     581  585   Num  Number of days from admission to PR12
+MA  2012 CORE             171 PRDAY13                     586  590   Num  Number of days from admission to PR13
+MA  2012 CORE             172 PRDAY14                     591  595   Num  Number of days from admission to PR14
+MA  2012 CORE             173 PRDAY15                     596  600   Num  Number of days from admission to PR15
+MA  2012 CORE             174 PROCTYPE                    601  603   Num  Procedure type indicator
+MA  2012 CORE             175 PSTATE                      604  605   Char Patient State postal code
+MA  2012 CORE             176 PSTCO2                      606  610   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+MA  2012 CORE             177 RACE                        611  612   Num  Race (uniform)
+MA  2012 CORE             178 RACE_X                      613  617   Char Race (as received from source)
+MA  2012 CORE             179 TOTCHG                      618  627   Num  Total charges (cleaned)
+MA  2012 CORE             180 TOTCHG_X                    628  642 2 Num  Total charges (as received from source)
+MA  2012 CORE             181 TRAN_IN                     643  644   Num  Transfer in indicator
+MA  2012 CORE             182 TRAN_OUT                    645  646   Num  Transfer out indicator
+MA  2012 CORE             183 VisitLink                   647  655   Num  Visit linkage variable
+MA  2012 CORE             184 YEAR                        656  659   Num  Calendar year
+MA  2012 CORE             185 ZIP3                        660  662   Char Patient ZIP Code, first 3 digits
+MA  2012 CORE             186 ZIPINC_QRTL                 663  665   Num  Median household income national quartile for patient ZIP Code
+MA  2012 CORE             187 AYEAR                       666  669   Num  Admission year
+MA  2012 CORE             188 DMONTH                      670  671   Num  Discharge month
+MA  2012 CORE             189 PRMONTH1                    672  673   Num  Month of procedure 1
+MA  2012 CORE             190 PRMONTH2                    674  675   Num  Month of procedure 2
+MA  2012 CORE             191 PRMONTH3                    676  677   Num  Month of procedure 3
+MA  2012 CORE             192 PRMONTH4                    678  679   Num  Month of procedure 4
+MA  2012 CORE             193 PRMONTH5                    680  681   Num  Month of procedure 5
+MA  2012 CORE             194 PRMONTH6                    682  683   Num  Month of procedure 6
+MA  2012 CORE             195 PRMONTH7                    684  685   Num  Month of procedure 7
+MA  2012 CORE             196 PRMONTH8                    686  687   Num  Month of procedure 8
+MA  2012 CORE             197 PRMONTH9                    688  689   Num  Month of procedure 9
+MA  2012 CORE             198 PRMONTH10                   690  691   Num  Month of procedure 10
+MA  2012 CORE             199 PRMONTH11                   692  693   Num  Month of procedure 11
+MA  2012 CORE             200 PRMONTH12                   694  695   Num  Month of procedure 12
+MA  2012 CORE             201 PRMONTH13                   696  697   Num  Month of procedure 13
+MA  2012 CORE             202 PRMONTH14                   698  699   Num  Month of procedure 14
+MA  2012 CORE             203 PRMONTH15                   700  701   Num  Month of procedure 15
+MA  2012 CORE             204 PRYEAR1                     702  705   Num  Year of procedure 1
+MA  2012 CORE             205 PRYEAR2                     706  709   Num  Year of procedure 2
+MA  2012 CORE             206 PRYEAR3                     710  713   Num  Year of procedure 3
+MA  2012 CORE             207 PRYEAR4                     714  717   Num  Year of procedure 4
+MA  2012 CORE             208 PRYEAR5                     718  721   Num  Year of procedure 5
+MA  2012 CORE             209 PRYEAR6                     722  725   Num  Year of procedure 6
+MA  2012 CORE             210 PRYEAR7                     726  729   Num  Year of procedure 7
+MA  2012 CORE             211 PRYEAR8                     730  733   Num  Year of procedure 8
+MA  2012 CORE             212 PRYEAR9                     734  737   Num  Year of procedure 9
+MA  2012 CORE             213 PRYEAR10                    738  741   Num  Year of procedure 10
+MA  2012 CORE             214 PRYEAR11                    742  745   Num  Year of procedure 11
+MA  2012 CORE             215 PRYEAR12                    746  749   Num  Year of procedure 12
+MA  2012 CORE             216 PRYEAR13                    750  753   Num  Year of procedure 13
+MA  2012 CORE             217 PRYEAR14                    754  757   Num  Year of procedure 14
+MA  2012 CORE             218 PRYEAR15                    758  761   Num  Year of procedure 15

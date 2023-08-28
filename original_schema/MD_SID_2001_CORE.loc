@@ -1,0 +1,140 @@
+Data Set Name: MD_SID_2001_CORE                
+Number of Observations: 669850
+Total Record Length: 483
+Total Number of Variables: 120
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 49    Variable name
+51- 54    Starting column of variable in ASCII file
+56- 59    Ending column of variable in ASCII file
+    61    Non-zero number of digits after decimal point for numeric variable
+63- 66    Variable type (Num=numeric; Char=character)
+68-167    Variable label
+
+
+MD  2001 CORE               1 KEY                    1   14   Num  HCUP record identifier
+MD  2001 CORE               2 AGE                   15   17   Num  Age in years at admission
+MD  2001 CORE               3 AGEDAY                18   20   Num  Age in days (when age < 1 year)
+MD  2001 CORE               4 AGEMONTH              21   23   Num  Age in months (when age < 11 years)
+MD  2001 CORE               5 ASOURCE               24   25   Num  Admission source (uniform)
+MD  2001 CORE               6 ASOURCE_X             26   27   Char Admission source (as received from source)
+MD  2001 CORE               7 ATYPE                 28   29   Num  Admission type
+MD  2001 CORE               8 AWEEKEND              30   31   Num  Admission day is a weekend
+MD  2001 CORE               9 BWT                   32   35   Num  Birth weight in grams
+MD  2001 CORE              10 DaysBurnUnit          36   38   Num  Days in burn care unit (as received from the source)
+MD  2001 CORE              11 DaysCCU               39   41   Num  Days in coronary care unit (as received from the source)
+MD  2001 CORE              12 DaysICU               42   44   Num  Days in medical/surgical intensive care unit (as received from the source)
+MD  2001 CORE              13 DaysNICU              45   47   Num  Days in neonetal care unit (as received from the source)
+MD  2001 CORE              14 DaysPICU              48   50   Num  Days in pediatric care unit (as received from the source)
+MD  2001 CORE              15 DaysShockUnit         51   53   Num  Days in shock trauma unit (as received from the source)
+MD  2001 CORE              16 DIED                  54   55   Num  Died during hospitalization
+MD  2001 CORE              17 DISP_X                56   57   Char Disposition of patient (as received from source)
+MD  2001 CORE              18 DISPUNIFORM           58   59   Num  Disposition of patient (uniform)
+MD  2001 CORE              19 DQTR                  60   61   Num  Discharge quarter
+MD  2001 CORE              20 DRG                   62   64   Num  DRG in effect on discharge date
+MD  2001 CORE              21 DRG18                 65   67   Num  DRG, version 18
+MD  2001 CORE              22 DRGVER                68   69   Num  DRG grouper version used on discharge date
+MD  2001 CORE              23 DSHOSPID              70   82   Char Data source hospital identifier
+MD  2001 CORE              24 DX1                   83   87   Char Principal diagnosis
+MD  2001 CORE              25 DX2                   88   92   Char Diagnosis 2
+MD  2001 CORE              26 DX3                   93   97   Char Diagnosis 3
+MD  2001 CORE              27 DX4                   98  102   Char Diagnosis 4
+MD  2001 CORE              28 DX5                  103  107   Char Diagnosis 5
+MD  2001 CORE              29 DX6                  108  112   Char Diagnosis 6
+MD  2001 CORE              30 DX7                  113  117   Char Diagnosis 7
+MD  2001 CORE              31 DX8                  118  122   Char Diagnosis 8
+MD  2001 CORE              32 DX9                  123  127   Char Diagnosis 9
+MD  2001 CORE              33 DX10                 128  132   Char Diagnosis 10
+MD  2001 CORE              34 DX11                 133  137   Char Diagnosis 11
+MD  2001 CORE              35 DX12                 138  142   Char Diagnosis 12
+MD  2001 CORE              36 DX13                 143  147   Char Diagnosis 13
+MD  2001 CORE              37 DX14                 148  152   Char Diagnosis 14
+MD  2001 CORE              38 DX15                 153  157   Char Diagnosis 15
+MD  2001 CORE              39 DX16                 158  162   Char Diagnosis 16
+MD  2001 CORE              40 DXCCS1               163  166   Num  CCS: principal diagnosis
+MD  2001 CORE              41 DXCCS2               167  170   Num  CCS: diagnosis 2
+MD  2001 CORE              42 DXCCS3               171  174   Num  CCS: diagnosis 3
+MD  2001 CORE              43 DXCCS4               175  178   Num  CCS: diagnosis 4
+MD  2001 CORE              44 DXCCS5               179  182   Num  CCS: diagnosis 5
+MD  2001 CORE              45 DXCCS6               183  186   Num  CCS: diagnosis 6
+MD  2001 CORE              46 DXCCS7               187  190   Num  CCS: diagnosis 7
+MD  2001 CORE              47 DXCCS8               191  194   Num  CCS: diagnosis 8
+MD  2001 CORE              48 DXCCS9               195  198   Num  CCS: diagnosis 9
+MD  2001 CORE              49 DXCCS10              199  202   Num  CCS: diagnosis 10
+MD  2001 CORE              50 DXCCS11              203  206   Num  CCS: diagnosis 11
+MD  2001 CORE              51 DXCCS12              207  210   Num  CCS: diagnosis 12
+MD  2001 CORE              52 DXCCS13              211  214   Num  CCS: diagnosis 13
+MD  2001 CORE              53 DXCCS14              215  218   Num  CCS: diagnosis 14
+MD  2001 CORE              54 DXCCS15              219  222   Num  CCS: diagnosis 15
+MD  2001 CORE              55 DXCCS16              223  226   Num  CCS: diagnosis 16
+MD  2001 CORE              56 FEMALE               227  228   Num  Indicator of sex
+MD  2001 CORE              57 HISPANIC_X           229  229   Char Hispanic ethnicity (as received from source)
+MD  2001 CORE              58 HOSPST               230  231   Char Hospital state postal code
+MD  2001 CORE              59 LOS                  232  236   Num  Length of stay (cleaned)
+MD  2001 CORE              60 LOS_X                237  242   Num  Length of stay (as received from source)
+MD  2001 CORE              61 MDC                  243  244   Num  MDC in effect on discharge date
+MD  2001 CORE              62 MDC18                245  246   Num  MDC, version 18
+MD  2001 CORE              63 MDNUM1_S             247  262   Char Physician 1 number (synthetic)
+MD  2001 CORE              64 MDNUM2_S             263  278   Char Physician 2 number (synthetic)
+MD  2001 CORE              65 MRN_S                279  295   Char Medical record number (synthetic)
+MD  2001 CORE              66 NDX                  296  297   Num  Number of diagnoses on this record
+MD  2001 CORE              67 NEOMAT               298  299   Num  Neonatal and/or maternal DX and/or PR
+MD  2001 CORE              68 NPR                  300  301   Num  Number of procedures on this record
+MD  2001 CORE              69 PAY1                 302  303   Num  Primary expected payer (uniform)
+MD  2001 CORE              70 PAY2                 304  305   Num  Secondary expected payer (uniform)
+MD  2001 CORE              71 PAY1_X               306  307   Char Primary expected payer (as received from source)
+MD  2001 CORE              72 PAY2_X               308  309   Char Secondary expected payer (as received from source)
+MD  2001 CORE              73 PAYER1_X             310  311   Char Primary expected payer plan identifier (as received from source)
+MD  2001 CORE              74 PAYER2_X             312  313   Char Secondary expected payer plan identifier (as received from source)
+MD  2001 CORE              75 PR1                  314  317   Char Principal procedure
+MD  2001 CORE              76 PR2                  318  321   Char Procedure 2
+MD  2001 CORE              77 PR3                  322  325   Char Procedure 3
+MD  2001 CORE              78 PR4                  326  329   Char Procedure 4
+MD  2001 CORE              79 PR5                  330  333   Char Procedure 5
+MD  2001 CORE              80 PR6                  334  337   Char Procedure 6
+MD  2001 CORE              81 PR7                  338  341   Char Procedure 7
+MD  2001 CORE              82 PR8                  342  345   Char Procedure 8
+MD  2001 CORE              83 PR9                  346  349   Char Procedure 9
+MD  2001 CORE              84 PR10                 350  353   Char Procedure 10
+MD  2001 CORE              85 PR11                 354  357   Char Procedure 11
+MD  2001 CORE              86 PR12                 358  361   Char Procedure 12
+MD  2001 CORE              87 PR13                 362  365   Char Procedure 13
+MD  2001 CORE              88 PR14                 366  369   Char Procedure 14
+MD  2001 CORE              89 PR15                 370  373   Char Procedure 15
+MD  2001 CORE              90 PRCCS1               374  376   Num  CCS: principal procedure
+MD  2001 CORE              91 PRCCS2               377  379   Num  CCS: procedure 2
+MD  2001 CORE              92 PRCCS3               380  382   Num  CCS: procedure 3
+MD  2001 CORE              93 PRCCS4               383  385   Num  CCS: procedure 4
+MD  2001 CORE              94 PRCCS5               386  388   Num  CCS: procedure 5
+MD  2001 CORE              95 PRCCS6               389  391   Num  CCS: procedure 6
+MD  2001 CORE              96 PRCCS7               392  394   Num  CCS: procedure 7
+MD  2001 CORE              97 PRCCS8               395  397   Num  CCS: procedure 8
+MD  2001 CORE              98 PRCCS9               398  400   Num  CCS: procedure 9
+MD  2001 CORE              99 PRCCS10              401  403   Num  CCS: procedure 10
+MD  2001 CORE             100 PRCCS11              404  406   Num  CCS: procedure 11
+MD  2001 CORE             101 PRCCS12              407  409   Num  CCS: procedure 12
+MD  2001 CORE             102 PRCCS13              410  412   Num  CCS: procedure 13
+MD  2001 CORE             103 PRCCS14              413  415   Num  CCS: procedure 14
+MD  2001 CORE             104 PRCCS15              416  418   Num  CCS: procedure 15
+MD  2001 CORE             105 PRDAY1               419  421   Num  Number of days from admission to PR1
+MD  2001 CORE             106 PRDAY2               422  424   Num  Number of days from admission to PR2
+MD  2001 CORE             107 PRDAY3               425  427   Num  Number of days from admission to PR3
+MD  2001 CORE             108 PRDAY4               428  430   Num  Number of days from admission to PR4
+MD  2001 CORE             109 PRDAY5               431  433   Num  Number of days from admission to PR5
+MD  2001 CORE             110 PRDAY6               434  436   Num  Number of days from admission to PR6
+MD  2001 CORE             111 PRDAY7               437  439   Num  Number of days from admission to PR7
+MD  2001 CORE             112 PRDAY8               440  442   Num  Number of days from admission to PR8
+MD  2001 CORE             113 PRDAY9               443  445   Num  Number of days from admission to PR9
+MD  2001 CORE             114 PRDAY10              446  448   Num  Number of days from admission to PR10
+MD  2001 CORE             115 PRDAY11              449  451   Num  Number of days from admission to PR11
+MD  2001 CORE             116 RACE                 452  453   Num  Race (uniform)
+MD  2001 CORE             117 RACE_X               454  454   Char Race (as received from source)
+MD  2001 CORE             118 TOTCHG               455  464   Num  Total charges (cleaned)
+MD  2001 CORE             119 TOTCHG_X             465  479 2 Num  Total charges (as received from source)
+MD  2001 CORE             120 YEAR                 480  483   Num  Calendar year

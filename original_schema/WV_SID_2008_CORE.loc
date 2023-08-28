@@ -1,0 +1,141 @@
+Data Set Name: WV_SIDC_2008_CORE               
+Number of Observations: 294956
+Total Record Length: 462
+Total Number of Variables: 121
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 56    Variable name
+58- 61    Starting column of variable in ASCII file
+63- 66    Ending column of variable in ASCII file
+    68    Non-zero number of digits after decimal point for numeric variable
+70- 73    Variable type (Num=numeric; Char=character)
+75-174    Variable label
+
+
+WV  2008 CORE               1 AGE                           1    3   Num  Age in years at admission
+WV  2008 CORE               2 AGEDAY                        4    6   Num  Age in days (when age < 1 year)
+WV  2008 CORE               3 AGEMONTH                      7    9   Num  Age in months (when age < 11 years)
+WV  2008 CORE               4 AMONTH                       10   11   Num  Admission month
+WV  2008 CORE               5 ASOURCE                      12   13   Num  Admission source (uniform)
+WV  2008 CORE               6 ASOURCEUB92                  14   14   Char Admission source (UB-92 standard coding)
+WV  2008 CORE               7 ASOURCE_X                    15   15   Char Admission source (as received from source)
+WV  2008 CORE               8 ATYPE                        16   17   Num  Admission type
+WV  2008 CORE               9 AWEEKEND                     18   19   Num  Admission day is a weekend
+WV  2008 CORE              10 DIED                         20   21   Num  Died during hospitalization
+WV  2008 CORE              11 DISPUB04                     22   23   Num  Disposition of patient (UB-04 standard coding)
+WV  2008 CORE              12 DISPUNIFORM                  24   25   Num  Disposition of patient (uniform)
+WV  2008 CORE              13 DISP_X                       26   27   Char Disposition of patient (as received from source)
+WV  2008 CORE              14 DQTR                         28   29   Num  Discharge quarter
+WV  2008 CORE              15 DRG                          30   32   Num  DRG in effect on discharge date
+WV  2008 CORE              16 DRG24                        33   35   Num  DRG, version 24
+WV  2008 CORE              17 DRGVER                       36   37   Num  DRG grouper version used on discharge date
+WV  2008 CORE              18 DRG_NoPOA                    38   40   Num  DRG in use on discharge date, calculated without POA
+WV  2008 CORE              19 DSHOSPID                     41   53   Char Data source hospital identifier
+WV  2008 CORE              20 DX1                          54   58   Char Diagnosis 1
+WV  2008 CORE              21 DX2                          59   63   Char Diagnosis 2
+WV  2008 CORE              22 DX3                          64   68   Char Diagnosis 3
+WV  2008 CORE              23 DX4                          69   73   Char Diagnosis 4
+WV  2008 CORE              24 DX5                          74   78   Char Diagnosis 5
+WV  2008 CORE              25 DX6                          79   83   Char Diagnosis 6
+WV  2008 CORE              26 DX7                          84   88   Char Diagnosis 7
+WV  2008 CORE              27 DX8                          89   93   Char Diagnosis 8
+WV  2008 CORE              28 DX9                          94   98   Char Diagnosis 9
+WV  2008 CORE              29 DX10                         99  103   Char Diagnosis 10
+WV  2008 CORE              30 DX11                        104  108   Char Diagnosis 11
+WV  2008 CORE              31 DX12                        109  113   Char Diagnosis 12
+WV  2008 CORE              32 DX13                        114  118   Char Diagnosis 13
+WV  2008 CORE              33 DX14                        119  123   Char Diagnosis 14
+WV  2008 CORE              34 DX15                        124  128   Char Diagnosis 15
+WV  2008 CORE              35 DX16                        129  133   Char Diagnosis 16
+WV  2008 CORE              36 DX17                        134  138   Char Diagnosis 17
+WV  2008 CORE              37 DX18                        139  143   Char Diagnosis 18
+WV  2008 CORE              38 DXCCS1                      144  147   Num  CCS: diagnosis 1
+WV  2008 CORE              39 DXCCS2                      148  151   Num  CCS: diagnosis 2
+WV  2008 CORE              40 DXCCS3                      152  155   Num  CCS: diagnosis 3
+WV  2008 CORE              41 DXCCS4                      156  159   Num  CCS: diagnosis 4
+WV  2008 CORE              42 DXCCS5                      160  163   Num  CCS: diagnosis 5
+WV  2008 CORE              43 DXCCS6                      164  167   Num  CCS: diagnosis 6
+WV  2008 CORE              44 DXCCS7                      168  171   Num  CCS: diagnosis 7
+WV  2008 CORE              45 DXCCS8                      172  175   Num  CCS: diagnosis 8
+WV  2008 CORE              46 DXCCS9                      176  179   Num  CCS: diagnosis 9
+WV  2008 CORE              47 DXCCS10                     180  183   Num  CCS: diagnosis 10
+WV  2008 CORE              48 DXCCS11                     184  187   Num  CCS: diagnosis 11
+WV  2008 CORE              49 DXCCS12                     188  191   Num  CCS: diagnosis 12
+WV  2008 CORE              50 DXCCS13                     192  195   Num  CCS: diagnosis 13
+WV  2008 CORE              51 DXCCS14                     196  199   Num  CCS: diagnosis 14
+WV  2008 CORE              52 DXCCS15                     200  203   Num  CCS: diagnosis 15
+WV  2008 CORE              53 DXCCS16                     204  207   Num  CCS: diagnosis 16
+WV  2008 CORE              54 DXCCS17                     208  211   Num  CCS: diagnosis 17
+WV  2008 CORE              55 DXCCS18                     212  215   Num  CCS: diagnosis 18
+WV  2008 CORE              56 ECODE1                      216  220   Char E code 1
+WV  2008 CORE              57 ECODE2                      221  225   Char E code 2
+WV  2008 CORE              58 ECODE3                      226  230   Char E code 3
+WV  2008 CORE              59 ECODE4                      231  235   Char E code 4
+WV  2008 CORE              60 ECODE5                      236  240   Char E code 5
+WV  2008 CORE              61 ECODE6                      241  245   Char E code 6
+WV  2008 CORE              62 E_CCS1                      246  249   Num  CCS: E Code 1
+WV  2008 CORE              63 E_CCS2                      250  253   Num  CCS: E Code 2
+WV  2008 CORE              64 E_CCS3                      254  257   Num  CCS: E Code 3
+WV  2008 CORE              65 E_CCS4                      258  261   Num  CCS: E Code 4
+WV  2008 CORE              66 E_CCS5                      262  265   Num  CCS: E Code 5
+WV  2008 CORE              67 E_CCS6                      266  269   Num  CCS: E Code 6
+WV  2008 CORE              68 FEMALE                      270  271   Num  Indicator of sex
+WV  2008 CORE              69 HCUP_ED                     272  273   Num  HCUP Emergency Department service indicator
+WV  2008 CORE              70 HCUP_OS                     274  275   Num  HCUP Observation Stay service indicator
+WV  2008 CORE              71 HOSPBRTH                    276  278   Num  Indicator of birth in this hospital
+WV  2008 CORE              72 HOSPST                      279  280   Char Hospital state postal code
+WV  2008 CORE              73 KEY                         281  294   Num  HCUP record identifier
+WV  2008 CORE              74 LOS                         295  299   Num  Length of stay (cleaned)
+WV  2008 CORE              75 LOS_X                       300  305   Num  Length of stay (as received from source)
+WV  2008 CORE              76 MDC                         306  307   Num  MDC in effect on discharge date
+WV  2008 CORE              77 MDC24                       308  309   Num  MDC, version 24
+WV  2008 CORE              78 MEDINCSTQ                   310  311   Num  Median household income state quartile for patient ZIP Code
+WV  2008 CORE              79 NDX                         312  313   Num  Number of diagnoses on this record
+WV  2008 CORE              80 NECODE                      314  315   Num  Number of E codes on this record
+WV  2008 CORE              81 NEOMAT                      316  317   Num  Neonatal and/or maternal DX and/or PR
+WV  2008 CORE              82 NPR                         318  319   Num  Number of procedures on this record
+WV  2008 CORE              83 PAY1                        320  321   Num  Primary expected payer (uniform)
+WV  2008 CORE              84 PAY1_X                      322  326   Char Primary expected payer (as received from source)
+WV  2008 CORE              85 PAY2                        327  328   Num  Secondary expected payer (uniform)
+WV  2008 CORE              86 PAY2_X                      329  333   Char Secondary expected payer (as received from source)
+WV  2008 CORE              87 PAY3_X                      334  338   Char Tertiary expected payer (as received from source)
+WV  2008 CORE              88 PAYER1_X                    339  342   Char Primary expected payer plan identifier (as received from source)
+WV  2008 CORE              89 PAYER2_X                    343  346   Char Secondary expected payer plan identifier (as received from source)
+WV  2008 CORE              90 PL_CBSA                     347  349   Num  Patient location: Core Based Statistical Area (CBSA)
+WV  2008 CORE              91 PL_MSA1993                  350  352   Num  Patient location: Metropolitan Statistical Area (MSA), 1993
+WV  2008 CORE              92 PL_NCHS2006                 353  354   Num  Patient Location: NCHS Urban-Rural Code (V2006)
+WV  2008 CORE              93 PL_RUCA10_2005              355  356   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, ten levels
+WV  2008 CORE              94 PL_RUCA2005                 357  360 1 Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes
+WV  2008 CORE              95 PL_RUCA4_2005               361  362   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, four levels
+WV  2008 CORE              96 PL_UR_CAT4                  363  364   Num  Patient Location: Urban-Rural 4 Categories
+WV  2008 CORE              97 PR1                         365  368   Char Procedure 1
+WV  2008 CORE              98 PR2                         369  372   Char Procedure 2
+WV  2008 CORE              99 PR3                         373  376   Char Procedure 3
+WV  2008 CORE             100 PR4                         377  380   Char Procedure 4
+WV  2008 CORE             101 PR5                         381  384   Char Procedure 5
+WV  2008 CORE             102 PR6                         385  388   Char Procedure 6
+WV  2008 CORE             103 PRCCS1                      389  391   Num  CCS: procedure 1
+WV  2008 CORE             104 PRCCS2                      392  394   Num  CCS: procedure 2
+WV  2008 CORE             105 PRCCS3                      395  397   Num  CCS: procedure 3
+WV  2008 CORE             106 PRCCS4                      398  400   Num  CCS: procedure 4
+WV  2008 CORE             107 PRCCS5                      401  403   Num  CCS: procedure 5
+WV  2008 CORE             108 PRCCS6                      404  406   Num  CCS: procedure 6
+WV  2008 CORE             109 PROCTYPE                    407  409   Num  Procedure type indicator
+WV  2008 CORE             110 PSTATE                      410  411   Char Patient State postal code
+WV  2008 CORE             111 PointOfOriginUB04           412  412   Char Point of origin for admission or visit, UB-04 standard coding
+WV  2008 CORE             112 PointOfOrigin_X             413  413   Char Point of origin for admission or visit, as received from source
+WV  2008 CORE             113 TOTCHG                      414  423   Num  Total charges (cleaned)
+WV  2008 CORE             114 TOTCHG_X                    424  438 2 Num  Total charges (as received from source)
+WV  2008 CORE             115 YEAR                        439  442   Num  Calendar year
+WV  2008 CORE             116 ZIPINC_QRTL                 443  445   Num  Median household income national quartile for patient ZIP Code
+WV  2008 CORE             117 ZIP_S                       446  450   Char Patient ZIP Code (synthetic)
+WV  2008 CORE             118 AYEAR                       451  454   Num  Admission year
+WV  2008 CORE             119 DMONTH                      455  456   Num  Discharge month
+WV  2008 CORE             120 BMONTH                      457  458   Num  Birth month
+WV  2008 CORE             121 BYEAR                       459  462   Num  Birth year

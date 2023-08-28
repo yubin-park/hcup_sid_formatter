@@ -1,0 +1,185 @@
+Data Set Name: UT_SIDC_2014_CORE               
+Number of Observations: 281302
+Total Record Length: 700
+Total Number of Variables: 164
+Creation Date: 11/17/2016   
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 61    Variable name
+63- 66    Starting column of variable in ASCII file
+68- 71    Ending column of variable in ASCII file
+    73    Non-zero number of digits after decimal point for numeric variable
+75- 78    Variable type (Num=numeric; Char=character)
+80-179    Variable label
+
+
+UT  2014 CORE               1 ADRG                               1    3   Num  All Patient Refined DRG
+UT  2014 CORE               2 ADRGRISKMORTALITY                  4    5   Num  All Patient Refined DRG mortality risk
+UT  2014 CORE               3 ADRGSEV                            6    7   Num  All Patient Refined DRG severity level
+UT  2014 CORE               4 AGE                                8   10   Num  Age in years at admission
+UT  2014 CORE               5 AGEDAY                            11   13   Num  Age in days (when age < 1 year)
+UT  2014 CORE               6 AGEMONTH                          14   16   Num  Age in months (when age < 11 years)
+UT  2014 CORE               7 AMONTH                            17   18   Num  Admission month
+UT  2014 CORE               8 ATYPE                             19   20   Num  Admission type
+UT  2014 CORE               9 AWEEKEND                          21   22   Num  Admission day is a weekend
+UT  2014 CORE              10 DIED                              23   24   Num  Died during hospitalization
+UT  2014 CORE              11 DISPUB04                          25   26   Num  Disposition of patient (UB-04 standard coding)
+UT  2014 CORE              12 DISPUNIFORM                       27   28   Num  Disposition of patient (uniform)
+UT  2014 CORE              13 DISP_X                            29   30   Char Disposition of patient (as received from source)
+UT  2014 CORE              14 DMONTH                            31   32   Num  Discharge month
+UT  2014 CORE              15 DQTR                              33   34   Num  Discharge quarter
+UT  2014 CORE              16 DRG                               35   37   Num  DRG in effect on discharge date
+UT  2014 CORE              17 DRG24                             38   40   Num  DRG, version 24
+UT  2014 CORE              18 DRGVER                            41   42   Num  DRG grouper version used on discharge date
+UT  2014 CORE              19 DRG_NoPOA                         43   45   Num  DRG in use on discharge date, calculated without POA
+UT  2014 CORE              20 DSHOSPID                          46   62   Char Data source hospital identifier
+UT  2014 CORE              21 DX1                               63   69   Char Diagnosis 1
+UT  2014 CORE              22 DX2                               70   76   Char Diagnosis 2
+UT  2014 CORE              23 DX3                               77   83   Char Diagnosis 3
+UT  2014 CORE              24 DX4                               84   90   Char Diagnosis 4
+UT  2014 CORE              25 DX5                               91   97   Char Diagnosis 5
+UT  2014 CORE              26 DX6                               98  104   Char Diagnosis 6
+UT  2014 CORE              27 DX7                              105  111   Char Diagnosis 7
+UT  2014 CORE              28 DX8                              112  118   Char Diagnosis 8
+UT  2014 CORE              29 DX9                              119  125   Char Diagnosis 9
+UT  2014 CORE              30 DX10                             126  132   Char Diagnosis 10
+UT  2014 CORE              31 DX11                             133  139   Char Diagnosis 11
+UT  2014 CORE              32 DX12                             140  146   Char Diagnosis 12
+UT  2014 CORE              33 DX13                             147  153   Char Diagnosis 13
+UT  2014 CORE              34 DX14                             154  160   Char Diagnosis 14
+UT  2014 CORE              35 DX15                             161  167   Char Diagnosis 15
+UT  2014 CORE              36 DX16                             168  174   Char Diagnosis 16
+UT  2014 CORE              37 DX17                             175  181   Char Diagnosis 17
+UT  2014 CORE              38 DX18                             182  188   Char Diagnosis 18
+UT  2014 CORE              39 DXCCS1                           189  192   Num  CCS: diagnosis 1
+UT  2014 CORE              40 DXCCS2                           193  196   Num  CCS: diagnosis 2
+UT  2014 CORE              41 DXCCS3                           197  200   Num  CCS: diagnosis 3
+UT  2014 CORE              42 DXCCS4                           201  204   Num  CCS: diagnosis 4
+UT  2014 CORE              43 DXCCS5                           205  208   Num  CCS: diagnosis 5
+UT  2014 CORE              44 DXCCS6                           209  212   Num  CCS: diagnosis 6
+UT  2014 CORE              45 DXCCS7                           213  216   Num  CCS: diagnosis 7
+UT  2014 CORE              46 DXCCS8                           217  220   Num  CCS: diagnosis 8
+UT  2014 CORE              47 DXCCS9                           221  224   Num  CCS: diagnosis 9
+UT  2014 CORE              48 DXCCS10                          225  228   Num  CCS: diagnosis 10
+UT  2014 CORE              49 DXCCS11                          229  232   Num  CCS: diagnosis 11
+UT  2014 CORE              50 DXCCS12                          233  236   Num  CCS: diagnosis 12
+UT  2014 CORE              51 DXCCS13                          237  240   Num  CCS: diagnosis 13
+UT  2014 CORE              52 DXCCS14                          241  244   Num  CCS: diagnosis 14
+UT  2014 CORE              53 DXCCS15                          245  248   Num  CCS: diagnosis 15
+UT  2014 CORE              54 DXCCS16                          249  252   Num  CCS: diagnosis 16
+UT  2014 CORE              55 DXCCS17                          253  256   Num  CCS: diagnosis 17
+UT  2014 CORE              56 DXCCS18                          257  260   Num  CCS: diagnosis 18
+UT  2014 CORE              57 DXVER                            261  263   Num  Diagnosis Version
+UT  2014 CORE              58 DX_Admitting                     264  270   Char Admitting Diagnosis Code
+UT  2014 CORE              59 DaysToEvent                      271  276   Num  Days from 'start date' to admission
+UT  2014 CORE              60 ECODE1                           277  283   Char E code 1
+UT  2014 CORE              61 ECODE2                           284  290   Char E code 2
+UT  2014 CORE              62 ECODE3                           291  297   Char E code 3
+UT  2014 CORE              63 ECODE4                           298  304   Char E code 4
+UT  2014 CORE              64 ECODE5                           305  311   Char E code 5
+UT  2014 CORE              65 ECODE6                           312  318   Char E code 6
+UT  2014 CORE              66 ECODE7                           319  325   Char E code 7
+UT  2014 CORE              67 ECODE8                           326  332   Char E code 8
+UT  2014 CORE              68 E_CCS1                           333  336   Num  CCS: E Code 1
+UT  2014 CORE              69 E_CCS2                           337  340   Num  CCS: E Code 2
+UT  2014 CORE              70 E_CCS3                           341  344   Num  CCS: E Code 3
+UT  2014 CORE              71 E_CCS4                           345  348   Num  CCS: E Code 4
+UT  2014 CORE              72 E_CCS5                           349  352   Num  CCS: E Code 5
+UT  2014 CORE              73 E_CCS6                           353  356   Num  CCS: E Code 6
+UT  2014 CORE              74 E_CCS7                           357  360   Num  CCS: E Code 7
+UT  2014 CORE              75 E_CCS8                           361  364   Num  CCS: E Code 8
+UT  2014 CORE              76 FEMALE                           365  366   Num  Indicator of sex
+UT  2014 CORE              77 HCUP_ED                          367  368   Num  HCUP Emergency Department service indicator
+UT  2014 CORE              78 HCUP_OS                          369  370   Num  HCUP Observation Stay service indicator
+UT  2014 CORE              79 HISPANIC_X                       371  371   Char Hispanic ethnicity (as received from source)
+UT  2014 CORE              80 HOSPBRTH                         372  374   Num  Indicator of birth in this hospital
+UT  2014 CORE              81 HOSPST                           375  376   Char Hospital state postal code
+UT  2014 CORE              82 Homeless                         377  378   Num  Indicator that patient is homeless
+UT  2014 CORE              83 KEY                              379  393   Num  HCUP record identifier
+UT  2014 CORE              84 LOS                              394  398   Num  Length of stay (cleaned)
+UT  2014 CORE              85 LOS_X                            399  404   Num  Length of stay (as received from source)
+UT  2014 CORE              86 MARITALSTATUSUB04                405  405   Char Patient's marital status, UB-04 standard coding
+UT  2014 CORE              87 MARITALSTATUS_X                  406  406   Char Patient's marital status (as received from source)
+UT  2014 CORE              88 MDC                              407  408   Num  MDC in effect on discharge date
+UT  2014 CORE              89 MDC24                            409  410   Num  MDC, version 24
+UT  2014 CORE              90 MDC_NoPOA                        411  412   Num  MDC in use on discharge date, calculated without POA
+UT  2014 CORE              91 MDNUM1_R                         413  421   Num  Physician 1 number (re-identified)
+UT  2014 CORE              92 MDSPEC1                          422  428   Char Physician 1 specialty (as received from source)
+UT  2014 CORE              93 MDSPEC2                          429  435   Char Physician 2 specialty (as received from source)
+UT  2014 CORE              94 MEDINCSTQ                        436  437   Num  Median household income state quartile for patient ZIP Code
+UT  2014 CORE              95 NCHRONIC                         438  440   Num  Number of chronic conditions
+UT  2014 CORE              96 NDX                              441  443   Num  Number of diagnoses on this record
+UT  2014 CORE              97 NECODE                           444  445   Num  Number of E codes on this record
+UT  2014 CORE              98 NEOMAT                           446  447   Num  Neonatal and/or maternal DX and/or PR
+UT  2014 CORE              99 NPR                              448  450   Num  Number of procedures on this record
+UT  2014 CORE             100 ORPROC                           451  452   Num  Major operating room procedure indicator
+UT  2014 CORE             101 OS_TIME                          453  463 2 Num  Observation stay time summed from UNITS
+UT  2014 CORE             102 PAY1                             464  465   Num  Primary expected payer (uniform)
+UT  2014 CORE             103 PAY1_X                           466  467   Char Primary expected payer (as received from source)
+UT  2014 CORE             104 PAY2                             468  469   Num  Secondary expected payer (uniform)
+UT  2014 CORE             105 PAY2_X                           470  471   Char Secondary expected payer (as received from source)
+UT  2014 CORE             106 PAY3                             472  473   Num  Tertiary expected payer (uniform)
+UT  2014 CORE             107 PAY3_X                           474  475   Char Tertiary expected payer (as received from source)
+UT  2014 CORE             108 PL_CBSA                          476  478   Num  Patient location: Core Based Statistical Area (CBSA)
+UT  2014 CORE             109 PL_NCHS                          479  480   Num  Patient Location: NCHS Urban-Rural Code
+UT  2014 CORE             110 PL_RUCC                          481  482   Num  Patient location: Rural-Urban Continuum Codes(RUCC)
+UT  2014 CORE             111 PL_UIC                           483  484   Num  Patient location: Urban Influence Codes
+UT  2014 CORE             112 PL_UR_CAT4                       485  486   Num  Patient Location: Urban-Rural 4 Categories
+UT  2014 CORE             113 PR1                              487  493   Char Procedure 1
+UT  2014 CORE             114 PR2                              494  500   Char Procedure 2
+UT  2014 CORE             115 PR3                              501  507   Char Procedure 3
+UT  2014 CORE             116 PR4                              508  514   Char Procedure 4
+UT  2014 CORE             117 PR5                              515  521   Char Procedure 5
+UT  2014 CORE             118 PR6                              522  528   Char Procedure 6
+UT  2014 CORE             119 PRCCS1                           529  531   Num  CCS: procedure 1
+UT  2014 CORE             120 PRCCS2                           532  534   Num  CCS: procedure 2
+UT  2014 CORE             121 PRCCS3                           535  537   Num  CCS: procedure 3
+UT  2014 CORE             122 PRCCS4                           538  540   Num  CCS: procedure 4
+UT  2014 CORE             123 PRCCS5                           541  543   Num  CCS: procedure 5
+UT  2014 CORE             124 PRCCS6                           544  546   Num  CCS: procedure 6
+UT  2014 CORE             125 PRDAY1                           547  551   Num  Number of days from admission to PR1
+UT  2014 CORE             126 PRDAY2                           552  556   Num  Number of days from admission to PR2
+UT  2014 CORE             127 PRDAY3                           557  561   Num  Number of days from admission to PR3
+UT  2014 CORE             128 PRDAY4                           562  566   Num  Number of days from admission to PR4
+UT  2014 CORE             129 PRDAY5                           567  571   Num  Number of days from admission to PR5
+UT  2014 CORE             130 PRDAY6                           572  576   Num  Number of days from admission to PR6
+UT  2014 CORE             131 PROCTYPE                         577  579   Num  Procedure type indicator
+UT  2014 CORE             132 PRVER                            580  582   Num  Procedure Version
+UT  2014 CORE             133 PSTATE                           583  584   Char Patient State postal code
+UT  2014 CORE             134 PSTCO                            585  589   Num  Patient state/county FIPS code
+UT  2014 CORE             135 PSTCO2                           590  594   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+UT  2014 CORE             136 PointOfOriginUB04                595  595   Char Point of origin for admission or visit, UB-04 standard coding
+UT  2014 CORE             137 PointOfOrigin_X                  596  596   Char Point of origin for admission or visit, as received from source
+UT  2014 CORE             138 RACE                             597  598   Num  Race (uniform)
+UT  2014 CORE             139 RACE_X                           599  599   Char Race (as received from source)
+UT  2014 CORE             140 SERVICELINE                      600  601   Num  Hospital Service Line
+UT  2014 CORE             141 TOTCHG                           602  611   Num  Total charges (cleaned)
+UT  2014 CORE             142 TOTCHG_X                         612  626 2 Num  Total charges (as received from source)
+UT  2014 CORE             143 TRAN_IN                          627  628   Num  Transfer in indicator
+UT  2014 CORE             144 TRAN_OUT                         629  630   Num  Transfer out indicator
+UT  2014 CORE             145 VisitLink                        631  639   Num  Visit linkage variable
+UT  2014 CORE             146 YEAR                             640  643   Num  Calendar year
+UT  2014 CORE             147 ZIP                              644  648   Char Patient ZIP Code
+UT  2014 CORE             148 ZIP3                             649  651   Char Patient ZIP Code, first 3 digits
+UT  2014 CORE             149 ZIPINC_QRTL                      652  654   Num  Median household income national quartile for patient ZIP Code
+UT  2014 CORE             150 AYEAR                            655  658   Num  Admission year
+UT  2014 CORE             151 BMONTH                           659  660   Num  Birth month
+UT  2014 CORE             152 BYEAR                            661  664   Num  Birth year
+UT  2014 CORE             153 PRMONTH1                         665  666   Num  Month of procedure 1
+UT  2014 CORE             154 PRMONTH2                         667  668   Num  Month of procedure 2
+UT  2014 CORE             155 PRMONTH3                         669  670   Num  Month of procedure 3
+UT  2014 CORE             156 PRMONTH4                         671  672   Num  Month of procedure 4
+UT  2014 CORE             157 PRMONTH5                         673  674   Num  Month of procedure 5
+UT  2014 CORE             158 PRMONTH6                         675  676   Num  Month of procedure 6
+UT  2014 CORE             159 PRYEAR1                          677  680   Num  Year of procedure 1
+UT  2014 CORE             160 PRYEAR2                          681  684   Num  Year of procedure 2
+UT  2014 CORE             161 PRYEAR3                          685  688   Num  Year of procedure 3
+UT  2014 CORE             162 PRYEAR4                          689  692   Num  Year of procedure 4
+UT  2014 CORE             163 PRYEAR5                          693  696   Num  Year of procedure 5
+UT  2014 CORE             164 PRYEAR6                          697  700   Num  Year of procedure 6

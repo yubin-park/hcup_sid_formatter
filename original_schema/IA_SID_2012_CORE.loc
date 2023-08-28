@@ -1,0 +1,547 @@
+Data Set Name: IA_SIDC_2012_CORE               
+Number of Observations: 328303
+Total Record Length: 1845
+Total Number of Variables: 527
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 56    Variable name
+58- 61    Starting column of variable in ASCII file
+63- 66    Ending column of variable in ASCII file
+    68    Non-zero number of digits after decimal point for numeric variable
+70- 73    Variable type (Num=numeric; Char=character)
+75-174    Variable label
+
+
+IA  2012 CORE               1 AGE                           1    3   Num  Age in years at admission
+IA  2012 CORE               2 AGEDAY                        4    6   Num  Age in days (when age < 1 year)
+IA  2012 CORE               3 AGEMONTH                      7    9   Num  Age in months (when age < 11 years)
+IA  2012 CORE               4 AMONTH                       10   11   Num  Admission month
+IA  2012 CORE               5 ATYPE                        12   13   Num  Admission type
+IA  2012 CORE               6 AWEEKEND                     14   15   Num  Admission day is a weekend
+IA  2012 CORE               7 DIED                         16   17   Num  Died during hospitalization
+IA  2012 CORE               8 DISPUB04                     18   19   Num  Disposition of patient (UB-04 standard coding)
+IA  2012 CORE               9 DISPUNIFORM                  20   21   Num  Disposition of patient (uniform)
+IA  2012 CORE              10 DISP_X                       22   25   Char Disposition of patient (as received from source)
+IA  2012 CORE              11 DQTR                         26   27   Num  Discharge quarter
+IA  2012 CORE              12 DRG                          28   30   Num  DRG in effect on discharge date
+IA  2012 CORE              13 DRG24                        31   33   Num  DRG, version 24
+IA  2012 CORE              14 DRGVER                       34   35   Num  DRG grouper version used on discharge date
+IA  2012 CORE              15 DRG_NoPOA                    36   38   Num  DRG in use on discharge date, calculated without POA
+IA  2012 CORE              16 DX1                          39   43   Char Diagnosis 1
+IA  2012 CORE              17 DX2                          44   48   Char Diagnosis 2
+IA  2012 CORE              18 DX3                          49   53   Char Diagnosis 3
+IA  2012 CORE              19 DX4                          54   58   Char Diagnosis 4
+IA  2012 CORE              20 DX5                          59   63   Char Diagnosis 5
+IA  2012 CORE              21 DX6                          64   68   Char Diagnosis 6
+IA  2012 CORE              22 DX7                          69   73   Char Diagnosis 7
+IA  2012 CORE              23 DX8                          74   78   Char Diagnosis 8
+IA  2012 CORE              24 DX9                          79   83   Char Diagnosis 9
+IA  2012 CORE              25 DX10                         84   88   Char Diagnosis 10
+IA  2012 CORE              26 DX11                         89   93   Char Diagnosis 11
+IA  2012 CORE              27 DX12                         94   98   Char Diagnosis 12
+IA  2012 CORE              28 DX13                         99  103   Char Diagnosis 13
+IA  2012 CORE              29 DX14                        104  108   Char Diagnosis 14
+IA  2012 CORE              30 DX15                        109  113   Char Diagnosis 15
+IA  2012 CORE              31 DX16                        114  118   Char Diagnosis 16
+IA  2012 CORE              32 DX17                        119  123   Char Diagnosis 17
+IA  2012 CORE              33 DX18                        124  128   Char Diagnosis 18
+IA  2012 CORE              34 DX19                        129  133   Char Diagnosis 19
+IA  2012 CORE              35 DX20                        134  138   Char Diagnosis 20
+IA  2012 CORE              36 DX21                        139  143   Char Diagnosis 21
+IA  2012 CORE              37 DX22                        144  148   Char Diagnosis 22
+IA  2012 CORE              38 DX23                        149  153   Char Diagnosis 23
+IA  2012 CORE              39 DX24                        154  158   Char Diagnosis 24
+IA  2012 CORE              40 DX25                        159  163   Char Diagnosis 25
+IA  2012 CORE              41 DX26                        164  168   Char Diagnosis 26
+IA  2012 CORE              42 DX27                        169  173   Char Diagnosis 27
+IA  2012 CORE              43 DX28                        174  178   Char Diagnosis 28
+IA  2012 CORE              44 DX29                        179  183   Char Diagnosis 29
+IA  2012 CORE              45 DX30                        184  188   Char Diagnosis 30
+IA  2012 CORE              46 DX31                        189  193   Char Diagnosis 31
+IA  2012 CORE              47 DX32                        194  198   Char Diagnosis 32
+IA  2012 CORE              48 DX33                        199  203   Char Diagnosis 33
+IA  2012 CORE              49 DX34                        204  208   Char Diagnosis 34
+IA  2012 CORE              50 DX35                        209  213   Char Diagnosis 35
+IA  2012 CORE              51 DX36                        214  218   Char Diagnosis 36
+IA  2012 CORE              52 DX37                        219  223   Char Diagnosis 37
+IA  2012 CORE              53 DX38                        224  228   Char Diagnosis 38
+IA  2012 CORE              54 DX39                        229  233   Char Diagnosis 39
+IA  2012 CORE              55 DX40                        234  238   Char Diagnosis 40
+IA  2012 CORE              56 DX41                        239  243   Char Diagnosis 41
+IA  2012 CORE              57 DX42                        244  248   Char Diagnosis 42
+IA  2012 CORE              58 DX43                        249  253   Char Diagnosis 43
+IA  2012 CORE              59 DX44                        254  258   Char Diagnosis 44
+IA  2012 CORE              60 DX45                        259  263   Char Diagnosis 45
+IA  2012 CORE              61 DX46                        264  268   Char Diagnosis 46
+IA  2012 CORE              62 DX47                        269  273   Char Diagnosis 47
+IA  2012 CORE              63 DX48                        274  278   Char Diagnosis 48
+IA  2012 CORE              64 DX49                        279  283   Char Diagnosis 49
+IA  2012 CORE              65 DX50                        284  288   Char Diagnosis 50
+IA  2012 CORE              66 DX51                        289  293   Char Diagnosis 51
+IA  2012 CORE              67 DX52                        294  298   Char Diagnosis 52
+IA  2012 CORE              68 DX53                        299  303   Char Diagnosis 53
+IA  2012 CORE              69 DX54                        304  308   Char Diagnosis 54
+IA  2012 CORE              70 DX55                        309  313   Char Diagnosis 55
+IA  2012 CORE              71 DX56                        314  318   Char Diagnosis 56
+IA  2012 CORE              72 DX57                        319  323   Char Diagnosis 57
+IA  2012 CORE              73 DXCCS1                      324  327   Num  CCS: diagnosis 1
+IA  2012 CORE              74 DXCCS2                      328  331   Num  CCS: diagnosis 2
+IA  2012 CORE              75 DXCCS3                      332  335   Num  CCS: diagnosis 3
+IA  2012 CORE              76 DXCCS4                      336  339   Num  CCS: diagnosis 4
+IA  2012 CORE              77 DXCCS5                      340  343   Num  CCS: diagnosis 5
+IA  2012 CORE              78 DXCCS6                      344  347   Num  CCS: diagnosis 6
+IA  2012 CORE              79 DXCCS7                      348  351   Num  CCS: diagnosis 7
+IA  2012 CORE              80 DXCCS8                      352  355   Num  CCS: diagnosis 8
+IA  2012 CORE              81 DXCCS9                      356  359   Num  CCS: diagnosis 9
+IA  2012 CORE              82 DXCCS10                     360  363   Num  CCS: diagnosis 10
+IA  2012 CORE              83 DXCCS11                     364  367   Num  CCS: diagnosis 11
+IA  2012 CORE              84 DXCCS12                     368  371   Num  CCS: diagnosis 12
+IA  2012 CORE              85 DXCCS13                     372  375   Num  CCS: diagnosis 13
+IA  2012 CORE              86 DXCCS14                     376  379   Num  CCS: diagnosis 14
+IA  2012 CORE              87 DXCCS15                     380  383   Num  CCS: diagnosis 15
+IA  2012 CORE              88 DXCCS16                     384  387   Num  CCS: diagnosis 16
+IA  2012 CORE              89 DXCCS17                     388  391   Num  CCS: diagnosis 17
+IA  2012 CORE              90 DXCCS18                     392  395   Num  CCS: diagnosis 18
+IA  2012 CORE              91 DXCCS19                     396  399   Num  CCS: diagnosis 19
+IA  2012 CORE              92 DXCCS20                     400  403   Num  CCS: diagnosis 20
+IA  2012 CORE              93 DXCCS21                     404  407   Num  CCS: diagnosis 21
+IA  2012 CORE              94 DXCCS22                     408  411   Num  CCS: diagnosis 22
+IA  2012 CORE              95 DXCCS23                     412  415   Num  CCS: diagnosis 23
+IA  2012 CORE              96 DXCCS24                     416  419   Num  CCS: diagnosis 24
+IA  2012 CORE              97 DXCCS25                     420  423   Num  CCS: diagnosis 25
+IA  2012 CORE              98 DXCCS26                     424  427   Num  CCS: diagnosis 26
+IA  2012 CORE              99 DXCCS27                     428  431   Num  CCS: diagnosis 27
+IA  2012 CORE             100 DXCCS28                     432  435   Num  CCS: diagnosis 28
+IA  2012 CORE             101 DXCCS29                     436  439   Num  CCS: diagnosis 29
+IA  2012 CORE             102 DXCCS30                     440  443   Num  CCS: diagnosis 30
+IA  2012 CORE             103 DXCCS31                     444  447   Num  CCS: diagnosis 31
+IA  2012 CORE             104 DXCCS32                     448  451   Num  CCS: diagnosis 32
+IA  2012 CORE             105 DXCCS33                     452  455   Num  CCS: diagnosis 33
+IA  2012 CORE             106 DXCCS34                     456  459   Num  CCS: diagnosis 34
+IA  2012 CORE             107 DXCCS35                     460  463   Num  CCS: diagnosis 35
+IA  2012 CORE             108 DXCCS36                     464  467   Num  CCS: diagnosis 36
+IA  2012 CORE             109 DXCCS37                     468  471   Num  CCS: diagnosis 37
+IA  2012 CORE             110 DXCCS38                     472  475   Num  CCS: diagnosis 38
+IA  2012 CORE             111 DXCCS39                     476  479   Num  CCS: diagnosis 39
+IA  2012 CORE             112 DXCCS40                     480  483   Num  CCS: diagnosis 40
+IA  2012 CORE             113 DXCCS41                     484  487   Num  CCS: diagnosis 41
+IA  2012 CORE             114 DXCCS42                     488  491   Num  CCS: diagnosis 42
+IA  2012 CORE             115 DXCCS43                     492  495   Num  CCS: diagnosis 43
+IA  2012 CORE             116 DXCCS44                     496  499   Num  CCS: diagnosis 44
+IA  2012 CORE             117 DXCCS45                     500  503   Num  CCS: diagnosis 45
+IA  2012 CORE             118 DXCCS46                     504  507   Num  CCS: diagnosis 46
+IA  2012 CORE             119 DXCCS47                     508  511   Num  CCS: diagnosis 47
+IA  2012 CORE             120 DXCCS48                     512  515   Num  CCS: diagnosis 48
+IA  2012 CORE             121 DXCCS49                     516  519   Num  CCS: diagnosis 49
+IA  2012 CORE             122 DXCCS50                     520  523   Num  CCS: diagnosis 50
+IA  2012 CORE             123 DXCCS51                     524  527   Num  CCS: diagnosis 51
+IA  2012 CORE             124 DXCCS52                     528  531   Num  CCS: diagnosis 52
+IA  2012 CORE             125 DXCCS53                     532  535   Num  CCS: diagnosis 53
+IA  2012 CORE             126 DXCCS54                     536  539   Num  CCS: diagnosis 54
+IA  2012 CORE             127 DXCCS55                     540  543   Num  CCS: diagnosis 55
+IA  2012 CORE             128 DXCCS56                     544  547   Num  CCS: diagnosis 56
+IA  2012 CORE             129 DXCCS57                     548  551   Num  CCS: diagnosis 57
+IA  2012 CORE             130 DXPOA1                      552  552   Char Diagnosis 1, present on admission indicator
+IA  2012 CORE             131 DXPOA2                      553  553   Char Diagnosis 2, present on admission indicator
+IA  2012 CORE             132 DXPOA3                      554  554   Char Diagnosis 3, present on admission indicator
+IA  2012 CORE             133 DXPOA4                      555  555   Char Diagnosis 4, present on admission indicator
+IA  2012 CORE             134 DXPOA5                      556  556   Char Diagnosis 5, present on admission indicator
+IA  2012 CORE             135 DXPOA6                      557  557   Char Diagnosis 6, present on admission indicator
+IA  2012 CORE             136 DXPOA7                      558  558   Char Diagnosis 7, present on admission indicator
+IA  2012 CORE             137 DXPOA8                      559  559   Char Diagnosis 8, present on admission indicator
+IA  2012 CORE             138 DXPOA9                      560  560   Char Diagnosis 9, present on admission indicator
+IA  2012 CORE             139 DXPOA10                     561  561   Char Diagnosis 10, present on admission indicator
+IA  2012 CORE             140 DXPOA11                     562  562   Char Diagnosis 11, present on admission indicator
+IA  2012 CORE             141 DXPOA12                     563  563   Char Diagnosis 12, present on admission indicator
+IA  2012 CORE             142 DXPOA13                     564  564   Char Diagnosis 13, present on admission indicator
+IA  2012 CORE             143 DXPOA14                     565  565   Char Diagnosis 14, present on admission indicator
+IA  2012 CORE             144 DXPOA15                     566  566   Char Diagnosis 15, present on admission indicator
+IA  2012 CORE             145 DXPOA16                     567  567   Char Diagnosis 16, present on admission indicator
+IA  2012 CORE             146 DXPOA17                     568  568   Char Diagnosis 17, present on admission indicator
+IA  2012 CORE             147 DXPOA18                     569  569   Char Diagnosis 18, present on admission indicator
+IA  2012 CORE             148 DXPOA19                     570  570   Char Diagnosis 19, present on admission indicator
+IA  2012 CORE             149 DXPOA20                     571  571   Char Diagnosis 20, present on admission indicator
+IA  2012 CORE             150 DXPOA21                     572  572   Char Diagnosis 21, present on admission indicator
+IA  2012 CORE             151 DXPOA22                     573  573   Char Diagnosis 22, present on admission indicator
+IA  2012 CORE             152 DXPOA23                     574  574   Char Diagnosis 23, present on admission indicator
+IA  2012 CORE             153 DXPOA24                     575  575   Char Diagnosis 24, present on admission indicator
+IA  2012 CORE             154 DXPOA25                     576  576   Char Diagnosis 25, present on admission indicator
+IA  2012 CORE             155 DXPOA26                     577  577   Char Diagnosis 26, present on admission indicator
+IA  2012 CORE             156 DXPOA27                     578  578   Char Diagnosis 27, present on admission indicator
+IA  2012 CORE             157 DXPOA28                     579  579   Char Diagnosis 28, present on admission indicator
+IA  2012 CORE             158 DXPOA29                     580  580   Char Diagnosis 29, present on admission indicator
+IA  2012 CORE             159 DXPOA30                     581  581   Char Diagnosis 30, present on admission indicator
+IA  2012 CORE             160 DXPOA31                     582  582   Char Diagnosis 31, present on admission indicator
+IA  2012 CORE             161 DXPOA32                     583  583   Char Diagnosis 32, present on admission indicator
+IA  2012 CORE             162 DXPOA33                     584  584   Char Diagnosis 33, present on admission indicator
+IA  2012 CORE             163 DXPOA34                     585  585   Char Diagnosis 34, present on admission indicator
+IA  2012 CORE             164 DXPOA35                     586  586   Char Diagnosis 35, present on admission indicator
+IA  2012 CORE             165 DXPOA36                     587  587   Char Diagnosis 36, present on admission indicator
+IA  2012 CORE             166 DXPOA37                     588  588   Char Diagnosis 37, present on admission indicator
+IA  2012 CORE             167 DXPOA38                     589  589   Char Diagnosis 38, present on admission indicator
+IA  2012 CORE             168 DXPOA39                     590  590   Char Diagnosis 39, present on admission indicator
+IA  2012 CORE             169 DXPOA40                     591  591   Char Diagnosis 40, present on admission indicator
+IA  2012 CORE             170 DXPOA41                     592  592   Char Diagnosis 41, present on admission indicator
+IA  2012 CORE             171 DXPOA42                     593  593   Char Diagnosis 42, present on admission indicator
+IA  2012 CORE             172 DXPOA43                     594  594   Char Diagnosis 43, present on admission indicator
+IA  2012 CORE             173 DXPOA44                     595  595   Char Diagnosis 44, present on admission indicator
+IA  2012 CORE             174 DXPOA45                     596  596   Char Diagnosis 45, present on admission indicator
+IA  2012 CORE             175 DXPOA46                     597  597   Char Diagnosis 46, present on admission indicator
+IA  2012 CORE             176 DXPOA47                     598  598   Char Diagnosis 47, present on admission indicator
+IA  2012 CORE             177 DXPOA48                     599  599   Char Diagnosis 48, present on admission indicator
+IA  2012 CORE             178 DXPOA49                     600  600   Char Diagnosis 49, present on admission indicator
+IA  2012 CORE             179 DXPOA50                     601  601   Char Diagnosis 50, present on admission indicator
+IA  2012 CORE             180 DXPOA51                     602  602   Char Diagnosis 51, present on admission indicator
+IA  2012 CORE             181 DXPOA52                     603  603   Char Diagnosis 52, present on admission indicator
+IA  2012 CORE             182 DXPOA53                     604  604   Char Diagnosis 53, present on admission indicator
+IA  2012 CORE             183 DXPOA54                     605  605   Char Diagnosis 54, present on admission indicator
+IA  2012 CORE             184 DXPOA55                     606  606   Char Diagnosis 55, present on admission indicator
+IA  2012 CORE             185 DXPOA56                     607  607   Char Diagnosis 56, present on admission indicator
+IA  2012 CORE             186 DXPOA57                     608  608   Char Diagnosis 57, present on admission indicator
+IA  2012 CORE             187 DX_Admitting                609  613   Char Admitting Diagnosis Code
+IA  2012 CORE             188 DaysToEvent                 614  619   Num  Days from 'start date' to admission
+IA  2012 CORE             189 ECODE1                      620  624   Char E code 1
+IA  2012 CORE             190 ECODE2                      625  629   Char E code 2
+IA  2012 CORE             191 ECODE3                      630  634   Char E code 3
+IA  2012 CORE             192 ECODE4                      635  639   Char E code 4
+IA  2012 CORE             193 ECODE5                      640  644   Char E code 5
+IA  2012 CORE             194 ECODE6                      645  649   Char E code 6
+IA  2012 CORE             195 ECODE7                      650  654   Char E code 7
+IA  2012 CORE             196 ECODE8                      655  659   Char E code 8
+IA  2012 CORE             197 ECODE9                      660  664   Char E code 9
+IA  2012 CORE             198 E_CCS1                      665  668   Num  CCS: E Code 1
+IA  2012 CORE             199 E_CCS2                      669  672   Num  CCS: E Code 2
+IA  2012 CORE             200 E_CCS3                      673  676   Num  CCS: E Code 3
+IA  2012 CORE             201 E_CCS4                      677  680   Num  CCS: E Code 4
+IA  2012 CORE             202 E_CCS5                      681  684   Num  CCS: E Code 5
+IA  2012 CORE             203 E_CCS6                      685  688   Num  CCS: E Code 6
+IA  2012 CORE             204 E_CCS7                      689  692   Num  CCS: E Code 7
+IA  2012 CORE             205 E_CCS8                      693  696   Num  CCS: E Code 8
+IA  2012 CORE             206 E_CCS9                      697  700   Num  CCS: E Code 9
+IA  2012 CORE             207 E_POA1                      701  701   Char E Code 1, present on admission indicator
+IA  2012 CORE             208 E_POA2                      702  702   Char E Code 2, present on admission indicator
+IA  2012 CORE             209 E_POA3                      703  703   Char E Code 3, present on admission indicator
+IA  2012 CORE             210 E_POA4                      704  704   Char E Code 4, present on admission indicator
+IA  2012 CORE             211 E_POA5                      705  705   Char E Code 5, present on admission indicator
+IA  2012 CORE             212 E_POA6                      706  706   Char E Code 6, present on admission indicator
+IA  2012 CORE             213 E_POA7                      707  707   Char E Code 7, present on admission indicator
+IA  2012 CORE             214 E_POA8                      708  708   Char E Code 8, present on admission indicator
+IA  2012 CORE             215 E_POA9                      709  709   Char E Code 9, present on admission indicator
+IA  2012 CORE             216 FEMALE                      710  711   Num  Indicator of sex
+IA  2012 CORE             217 HCUP_ED                     712  713   Num  HCUP Emergency Department service indicator
+IA  2012 CORE             218 HCUP_OS                     714  715   Num  HCUP Observation Stay service indicator
+IA  2012 CORE             219 HISPANIC_X                  716  716   Char Hispanic ethnicity (as received from source)
+IA  2012 CORE             220 HOSPBRTH                    717  719   Num  Indicator of birth in this hospital
+IA  2012 CORE             221 HOSPST                      720  721   Char Hospital state postal code
+IA  2012 CORE             222 HospitalUnit                722  723   Num  Indicator that patient was discharged from a special unit within an acute care hospital (reported by source)
+IA  2012 CORE             223 KEY                         724  738   Num  HCUP record identifier
+IA  2012 CORE             224 LOS                         739  743   Num  Length of stay (cleaned)
+IA  2012 CORE             225 LOS_X                       744  749   Num  Length of stay (as received from source)
+IA  2012 CORE             226 MDC                         750  751   Num  MDC in effect on discharge date
+IA  2012 CORE             227 MDC24                       752  753   Num  MDC, version 24
+IA  2012 CORE             228 MDC_NoPOA                   754  755   Num  MDC in use on discharge date, calculated without POA
+IA  2012 CORE             229 MDNUM1_R                    756  764   Num  Physician 1 number (re-identified)
+IA  2012 CORE             230 MDNUM2_R                    765  773   Num  Physician 2 number (re-identified)
+IA  2012 CORE             231 MDNUM3_R                    774  782   Num  Physician 3 number (re-identified)
+IA  2012 CORE             232 MEDINCSTQ                   783  784   Num  Median household income state quartile for patient ZIP Code
+IA  2012 CORE             233 MRN_R                       785  793   Num  Medical record number (re-identified)
+IA  2012 CORE             234 NCHRONIC                    794  796   Num  Number of chronic conditions
+IA  2012 CORE             235 NDX                         797  798   Num  Number of diagnoses on this record
+IA  2012 CORE             236 NECODE                      799  800   Num  Number of E codes on this record
+IA  2012 CORE             237 NEOMAT                      801  802   Num  Neonatal and/or maternal DX and/or PR
+IA  2012 CORE             238 NPR                         803  804   Num  Number of procedures on this record
+IA  2012 CORE             239 ORPROC                      805  806   Num  Major operating room procedure indicator
+IA  2012 CORE             240 P7EDSRC_X                   807  808   Char Condition Code P7, Direct Inpatient Admission from Emergency Room
+IA  2012 CORE             241 PAY1                        809  810   Num  Primary expected payer (uniform)
+IA  2012 CORE             242 PAY1_X                      811  814   Char Primary expected payer (as received from source)
+IA  2012 CORE             243 PAY2                        815  816   Num  Secondary expected payer (uniform)
+IA  2012 CORE             244 PAY2_X                      817  820   Char Secondary expected payer (as received from source)
+IA  2012 CORE             245 PAY3                        821  822   Num  Tertiary expected payer (uniform)
+IA  2012 CORE             246 PAY3_X                      823  826   Char Tertiary expected payer (as received from source)
+IA  2012 CORE             247 PL_CBSA                     827  829   Num  Patient location: Core Based Statistical Area (CBSA)
+IA  2012 CORE             248 PL_MSA1993                  830  832   Num  Patient location: Metropolitan Statistical Area (MSA), 1993
+IA  2012 CORE             249 PL_NCHS2006                 833  834   Num  Patient Location: NCHS Urban-Rural Code (V2006)
+IA  2012 CORE             250 PL_RUCA10_2005              835  836   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, ten levels
+IA  2012 CORE             251 PL_RUCA2005                 837  840 1 Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes
+IA  2012 CORE             252 PL_RUCA4_2005               841  842   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, four levels
+IA  2012 CORE             253 PL_RUCC2003                 843  844   Num  Patient location: Rural-Urban Continuum Codes(RUCC), 2003
+IA  2012 CORE             254 PL_UIC2003                  845  846   Num  Patient location: Urban Influence Codes, 2003
+IA  2012 CORE             255 PL_UR_CAT4                  847  848   Num  Patient Location: Urban-Rural 4 Categories
+IA  2012 CORE             256 PNUM_R                      849  857   Num  Person number (re-identified)
+IA  2012 CORE             257 PR1                         858  861   Char Procedure 1
+IA  2012 CORE             258 PR2                         862  865   Char Procedure 2
+IA  2012 CORE             259 PR3                         866  869   Char Procedure 3
+IA  2012 CORE             260 PR4                         870  873   Char Procedure 4
+IA  2012 CORE             261 PR5                         874  877   Char Procedure 5
+IA  2012 CORE             262 PR6                         878  881   Char Procedure 6
+IA  2012 CORE             263 PR7                         882  885   Char Procedure 7
+IA  2012 CORE             264 PR8                         886  889   Char Procedure 8
+IA  2012 CORE             265 PR9                         890  893   Char Procedure 9
+IA  2012 CORE             266 PR10                        894  897   Char Procedure 10
+IA  2012 CORE             267 PR11                        898  901   Char Procedure 11
+IA  2012 CORE             268 PR12                        902  905   Char Procedure 12
+IA  2012 CORE             269 PR13                        906  909   Char Procedure 13
+IA  2012 CORE             270 PR14                        910  913   Char Procedure 14
+IA  2012 CORE             271 PR15                        914  917   Char Procedure 15
+IA  2012 CORE             272 PR16                        918  921   Char Procedure 16
+IA  2012 CORE             273 PR17                        922  925   Char Procedure 17
+IA  2012 CORE             274 PR18                        926  929   Char Procedure 18
+IA  2012 CORE             275 PR19                        930  933   Char Procedure 19
+IA  2012 CORE             276 PR20                        934  937   Char Procedure 20
+IA  2012 CORE             277 PR21                        938  941   Char Procedure 21
+IA  2012 CORE             278 PR22                        942  945   Char Procedure 22
+IA  2012 CORE             279 PR23                        946  949   Char Procedure 23
+IA  2012 CORE             280 PR24                        950  953   Char Procedure 24
+IA  2012 CORE             281 PR25                        954  957   Char Procedure 25
+IA  2012 CORE             282 PR26                        958  961   Char Procedure 26
+IA  2012 CORE             283 PR27                        962  965   Char Procedure 27
+IA  2012 CORE             284 PR28                        966  969   Char Procedure 28
+IA  2012 CORE             285 PR29                        970  973   Char Procedure 29
+IA  2012 CORE             286 PR30                        974  977   Char Procedure 30
+IA  2012 CORE             287 PR31                        978  981   Char Procedure 31
+IA  2012 CORE             288 PR32                        982  985   Char Procedure 32
+IA  2012 CORE             289 PR33                        986  989   Char Procedure 33
+IA  2012 CORE             290 PR34                        990  993   Char Procedure 34
+IA  2012 CORE             291 PR35                        994  997   Char Procedure 35
+IA  2012 CORE             292 PR36                        998 1001   Char Procedure 36
+IA  2012 CORE             293 PR37                       1002 1005   Char Procedure 37
+IA  2012 CORE             294 PR38                       1006 1009   Char Procedure 38
+IA  2012 CORE             295 PR39                       1010 1013   Char Procedure 39
+IA  2012 CORE             296 PR40                       1014 1017   Char Procedure 40
+IA  2012 CORE             297 PR41                       1018 1021   Char Procedure 41
+IA  2012 CORE             298 PR42                       1022 1025   Char Procedure 42
+IA  2012 CORE             299 PR43                       1026 1029   Char Procedure 43
+IA  2012 CORE             300 PR44                       1030 1033   Char Procedure 44
+IA  2012 CORE             301 PR45                       1034 1037   Char Procedure 45
+IA  2012 CORE             302 PR46                       1038 1041   Char Procedure 46
+IA  2012 CORE             303 PR47                       1042 1045   Char Procedure 47
+IA  2012 CORE             304 PR48                       1046 1049   Char Procedure 48
+IA  2012 CORE             305 PR49                       1050 1053   Char Procedure 49
+IA  2012 CORE             306 PR50                       1054 1057   Char Procedure 50
+IA  2012 CORE             307 PRCCS1                     1058 1060   Num  CCS: procedure 1
+IA  2012 CORE             308 PRCCS2                     1061 1063   Num  CCS: procedure 2
+IA  2012 CORE             309 PRCCS3                     1064 1066   Num  CCS: procedure 3
+IA  2012 CORE             310 PRCCS4                     1067 1069   Num  CCS: procedure 4
+IA  2012 CORE             311 PRCCS5                     1070 1072   Num  CCS: procedure 5
+IA  2012 CORE             312 PRCCS6                     1073 1075   Num  CCS: procedure 6
+IA  2012 CORE             313 PRCCS7                     1076 1078   Num  CCS: procedure 7
+IA  2012 CORE             314 PRCCS8                     1079 1081   Num  CCS: procedure 8
+IA  2012 CORE             315 PRCCS9                     1082 1084   Num  CCS: procedure 9
+IA  2012 CORE             316 PRCCS10                    1085 1087   Num  CCS: procedure 10
+IA  2012 CORE             317 PRCCS11                    1088 1090   Num  CCS: procedure 11
+IA  2012 CORE             318 PRCCS12                    1091 1093   Num  CCS: procedure 12
+IA  2012 CORE             319 PRCCS13                    1094 1096   Num  CCS: procedure 13
+IA  2012 CORE             320 PRCCS14                    1097 1099   Num  CCS: procedure 14
+IA  2012 CORE             321 PRCCS15                    1100 1102   Num  CCS: procedure 15
+IA  2012 CORE             322 PRCCS16                    1103 1105   Num  CCS: procedure 16
+IA  2012 CORE             323 PRCCS17                    1106 1108   Num  CCS: procedure 17
+IA  2012 CORE             324 PRCCS18                    1109 1111   Num  CCS: procedure 18
+IA  2012 CORE             325 PRCCS19                    1112 1114   Num  CCS: procedure 19
+IA  2012 CORE             326 PRCCS20                    1115 1117   Num  CCS: procedure 20
+IA  2012 CORE             327 PRCCS21                    1118 1120   Num  CCS: procedure 21
+IA  2012 CORE             328 PRCCS22                    1121 1123   Num  CCS: procedure 22
+IA  2012 CORE             329 PRCCS23                    1124 1126   Num  CCS: procedure 23
+IA  2012 CORE             330 PRCCS24                    1127 1129   Num  CCS: procedure 24
+IA  2012 CORE             331 PRCCS25                    1130 1132   Num  CCS: procedure 25
+IA  2012 CORE             332 PRCCS26                    1133 1135   Num  CCS: procedure 26
+IA  2012 CORE             333 PRCCS27                    1136 1138   Num  CCS: procedure 27
+IA  2012 CORE             334 PRCCS28                    1139 1141   Num  CCS: procedure 28
+IA  2012 CORE             335 PRCCS29                    1142 1144   Num  CCS: procedure 29
+IA  2012 CORE             336 PRCCS30                    1145 1147   Num  CCS: procedure 30
+IA  2012 CORE             337 PRCCS31                    1148 1150   Num  CCS: procedure 31
+IA  2012 CORE             338 PRCCS32                    1151 1153   Num  CCS: procedure 32
+IA  2012 CORE             339 PRCCS33                    1154 1156   Num  CCS: procedure 33
+IA  2012 CORE             340 PRCCS34                    1157 1159   Num  CCS: procedure 34
+IA  2012 CORE             341 PRCCS35                    1160 1162   Num  CCS: procedure 35
+IA  2012 CORE             342 PRCCS36                    1163 1165   Num  CCS: procedure 36
+IA  2012 CORE             343 PRCCS37                    1166 1168   Num  CCS: procedure 37
+IA  2012 CORE             344 PRCCS38                    1169 1171   Num  CCS: procedure 38
+IA  2012 CORE             345 PRCCS39                    1172 1174   Num  CCS: procedure 39
+IA  2012 CORE             346 PRCCS40                    1175 1177   Num  CCS: procedure 40
+IA  2012 CORE             347 PRCCS41                    1178 1180   Num  CCS: procedure 41
+IA  2012 CORE             348 PRCCS42                    1181 1183   Num  CCS: procedure 42
+IA  2012 CORE             349 PRCCS43                    1184 1186   Num  CCS: procedure 43
+IA  2012 CORE             350 PRCCS44                    1187 1189   Num  CCS: procedure 44
+IA  2012 CORE             351 PRCCS45                    1190 1192   Num  CCS: procedure 45
+IA  2012 CORE             352 PRCCS46                    1193 1195   Num  CCS: procedure 46
+IA  2012 CORE             353 PRCCS47                    1196 1198   Num  CCS: procedure 47
+IA  2012 CORE             354 PRCCS48                    1199 1201   Num  CCS: procedure 48
+IA  2012 CORE             355 PRCCS49                    1202 1204   Num  CCS: procedure 49
+IA  2012 CORE             356 PRCCS50                    1205 1207   Num  CCS: procedure 50
+IA  2012 CORE             357 PRDAY1                     1208 1212   Num  Number of days from admission to PR1
+IA  2012 CORE             358 PRDAY2                     1213 1217   Num  Number of days from admission to PR2
+IA  2012 CORE             359 PRDAY3                     1218 1222   Num  Number of days from admission to PR3
+IA  2012 CORE             360 PRDAY4                     1223 1227   Num  Number of days from admission to PR4
+IA  2012 CORE             361 PRDAY5                     1228 1232   Num  Number of days from admission to PR5
+IA  2012 CORE             362 PRDAY6                     1233 1237   Num  Number of days from admission to PR6
+IA  2012 CORE             363 PRDAY7                     1238 1242   Num  Number of days from admission to PR7
+IA  2012 CORE             364 PRDAY8                     1243 1247   Num  Number of days from admission to PR8
+IA  2012 CORE             365 PRDAY9                     1248 1252   Num  Number of days from admission to PR9
+IA  2012 CORE             366 PRDAY10                    1253 1257   Num  Number of days from admission to PR10
+IA  2012 CORE             367 PRDAY11                    1258 1262   Num  Number of days from admission to PR11
+IA  2012 CORE             368 PRDAY12                    1263 1267   Num  Number of days from admission to PR12
+IA  2012 CORE             369 PRDAY13                    1268 1272   Num  Number of days from admission to PR13
+IA  2012 CORE             370 PRDAY14                    1273 1277   Num  Number of days from admission to PR14
+IA  2012 CORE             371 PRDAY15                    1278 1282   Num  Number of days from admission to PR15
+IA  2012 CORE             372 PRDAY16                    1283 1287   Num  Number of days from admission to PR16
+IA  2012 CORE             373 PRDAY17                    1288 1292   Num  Number of days from admission to PR17
+IA  2012 CORE             374 PRDAY18                    1293 1297   Num  Number of days from admission to PR18
+IA  2012 CORE             375 PRDAY19                    1298 1302   Num  Number of days from admission to PR19
+IA  2012 CORE             376 PRDAY20                    1303 1307   Num  Number of days from admission to PR20
+IA  2012 CORE             377 PRDAY21                    1308 1312   Num  Number of days from admission to PR21
+IA  2012 CORE             378 PRDAY22                    1313 1317   Num  Number of days from admission to PR22
+IA  2012 CORE             379 PRDAY23                    1318 1322   Num  Number of days from admission to PR23
+IA  2012 CORE             380 PRDAY24                    1323 1327   Num  Number of days from admission to PR24
+IA  2012 CORE             381 PRDAY25                    1328 1332   Num  Number of days from admission to PR25
+IA  2012 CORE             382 PRDAY26                    1333 1337   Num  Number of days from admission to PR26
+IA  2012 CORE             383 PRDAY27                    1338 1342   Num  Number of days from admission to PR27
+IA  2012 CORE             384 PRDAY28                    1343 1347   Num  Number of days from admission to PR28
+IA  2012 CORE             385 PRDAY29                    1348 1352   Num  Number of days from admission to PR29
+IA  2012 CORE             386 PRDAY30                    1353 1357   Num  Number of days from admission to PR30
+IA  2012 CORE             387 PRDAY31                    1358 1362   Num  Number of days from admission to PR31
+IA  2012 CORE             388 PRDAY32                    1363 1367   Num  Number of days from admission to PR32
+IA  2012 CORE             389 PRDAY33                    1368 1372   Num  Number of days from admission to PR33
+IA  2012 CORE             390 PRDAY34                    1373 1377   Num  Number of days from admission to PR34
+IA  2012 CORE             391 PRDAY35                    1378 1382   Num  Number of days from admission to PR35
+IA  2012 CORE             392 PRDAY36                    1383 1387   Num  Number of days from admission to PR36
+IA  2012 CORE             393 PRDAY37                    1388 1392   Num  Number of days from admission to PR37
+IA  2012 CORE             394 PRDAY38                    1393 1397   Num  Number of days from admission to PR38
+IA  2012 CORE             395 PRDAY39                    1398 1402   Num  Number of days from admission to PR39
+IA  2012 CORE             396 PRDAY40                    1403 1407   Num  Number of days from admission to PR40
+IA  2012 CORE             397 PRDAY41                    1408 1412   Num  Number of days from admission to PR41
+IA  2012 CORE             398 PRDAY42                    1413 1417   Num  Number of days from admission to PR42
+IA  2012 CORE             399 PRDAY43                    1418 1422   Num  Number of days from admission to PR43
+IA  2012 CORE             400 PRDAY44                    1423 1427   Num  Number of days from admission to PR44
+IA  2012 CORE             401 PRDAY45                    1428 1432   Num  Number of days from admission to PR45
+IA  2012 CORE             402 PRDAY46                    1433 1437   Num  Number of days from admission to PR46
+IA  2012 CORE             403 PRDAY47                    1438 1442   Num  Number of days from admission to PR47
+IA  2012 CORE             404 PRDAY48                    1443 1447   Num  Number of days from admission to PR48
+IA  2012 CORE             405 PRDAY49                    1448 1452   Num  Number of days from admission to PR49
+IA  2012 CORE             406 PRDAY50                    1453 1457   Num  Number of days from admission to PR50
+IA  2012 CORE             407 PROCTYPE                   1458 1460   Num  Procedure type indicator
+IA  2012 CORE             408 PSTATE                     1461 1462   Char Patient State postal code
+IA  2012 CORE             409 PSTCO                      1463 1467   Num  Patient state/county FIPS code
+IA  2012 CORE             410 PSTCO2                     1468 1472   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+IA  2012 CORE             411 PointOfOriginUB04          1473 1473   Char Point of origin for admission or visit, UB-04 standard coding
+IA  2012 CORE             412 PointOfOrigin_X            1474 1474   Char Point of origin for admission or visit, as received from source
+IA  2012 CORE             413 RACE                       1475 1476   Num  Race (uniform)
+IA  2012 CORE             414 RACE_X                     1477 1480   Char Race (as received from source)
+IA  2012 CORE             415 TOTCHG                     1481 1490   Num  Total charges (cleaned)
+IA  2012 CORE             416 TOTCHG_X                   1491 1505 2 Num  Total charges (as received from source)
+IA  2012 CORE             417 TRAN_IN                    1506 1507   Num  Transfer in indicator
+IA  2012 CORE             418 TRAN_OUT                   1508 1509   Num  Transfer out indicator
+IA  2012 CORE             419 VisitLink                  1510 1518   Num  Visit linkage variable
+IA  2012 CORE             420 YEAR                       1519 1522   Num  Calendar year
+IA  2012 CORE             421 ZIP3                       1523 1525   Char Patient ZIP Code, first 3 digits
+IA  2012 CORE             422 ZIPINC_QRTL                1526 1528   Num  Median household income national quartile for patient ZIP Code
+IA  2012 CORE             423 ZIP                        1529 1533   Char Patient ZIP Code
+IA  2012 CORE             424 AYEAR                      1534 1537   Num  Admission year
+IA  2012 CORE             425 DMONTH                     1538 1539   Num  Discharge month
+IA  2012 CORE             426 BMONTH                     1540 1541   Num  Birth month
+IA  2012 CORE             427 BYEAR                      1542 1545   Num  Birth year
+IA  2012 CORE             428 PRMONTH1                   1546 1547   Num  Month of procedure 1
+IA  2012 CORE             429 PRMONTH2                   1548 1549   Num  Month of procedure 2
+IA  2012 CORE             430 PRMONTH3                   1550 1551   Num  Month of procedure 3
+IA  2012 CORE             431 PRMONTH4                   1552 1553   Num  Month of procedure 4
+IA  2012 CORE             432 PRMONTH5                   1554 1555   Num  Month of procedure 5
+IA  2012 CORE             433 PRMONTH6                   1556 1557   Num  Month of procedure 6
+IA  2012 CORE             434 PRMONTH7                   1558 1559   Num  Month of procedure 7
+IA  2012 CORE             435 PRMONTH8                   1560 1561   Num  Month of procedure 8
+IA  2012 CORE             436 PRMONTH9                   1562 1563   Num  Month of procedure 9
+IA  2012 CORE             437 PRMONTH10                  1564 1565   Num  Month of procedure 10
+IA  2012 CORE             438 PRMONTH11                  1566 1567   Num  Month of procedure 11
+IA  2012 CORE             439 PRMONTH12                  1568 1569   Num  Month of procedure 12
+IA  2012 CORE             440 PRMONTH13                  1570 1571   Num  Month of procedure 13
+IA  2012 CORE             441 PRMONTH14                  1572 1573   Num  Month of procedure 14
+IA  2012 CORE             442 PRMONTH15                  1574 1575   Num  Month of procedure 15
+IA  2012 CORE             443 PRMONTH16                  1576 1577   Num  Month of procedure 16
+IA  2012 CORE             444 PRMONTH17                  1578 1579   Num  Month of procedure 17
+IA  2012 CORE             445 PRMONTH18                  1580 1581   Num  Month of procedure 18
+IA  2012 CORE             446 PRMONTH19                  1582 1583   Num  Month of procedure 19
+IA  2012 CORE             447 PRMONTH20                  1584 1585   Num  Month of procedure 20
+IA  2012 CORE             448 PRMONTH21                  1586 1587   Num  Month of procedure 21
+IA  2012 CORE             449 PRMONTH22                  1588 1589   Num  Month of procedure 22
+IA  2012 CORE             450 PRMONTH23                  1590 1591   Num  Month of procedure 23
+IA  2012 CORE             451 PRMONTH24                  1592 1593   Num  Month of procedure 24
+IA  2012 CORE             452 PRMONTH25                  1594 1595   Num  Month of procedure 25
+IA  2012 CORE             453 PRMONTH26                  1596 1597   Num  Month of procedure 26
+IA  2012 CORE             454 PRMONTH27                  1598 1599   Num  Month of procedure 27
+IA  2012 CORE             455 PRMONTH28                  1600 1601   Num  Month of procedure 28
+IA  2012 CORE             456 PRMONTH29                  1602 1603   Num  Month of procedure 29
+IA  2012 CORE             457 PRMONTH30                  1604 1605   Num  Month of procedure 30
+IA  2012 CORE             458 PRMONTH31                  1606 1607   Num  Month of procedure 31
+IA  2012 CORE             459 PRMONTH32                  1608 1609   Num  Month of procedure 32
+IA  2012 CORE             460 PRMONTH33                  1610 1611   Num  Month of procedure 33
+IA  2012 CORE             461 PRMONTH34                  1612 1613   Num  Month of procedure 34
+IA  2012 CORE             462 PRMONTH35                  1614 1615   Num  Month of procedure 35
+IA  2012 CORE             463 PRMONTH36                  1616 1617   Num  Month of procedure 36
+IA  2012 CORE             464 PRMONTH37                  1618 1619   Num  Month of procedure 37
+IA  2012 CORE             465 PRMONTH38                  1620 1621   Num  Month of procedure 38
+IA  2012 CORE             466 PRMONTH39                  1622 1623   Num  Month of procedure 39
+IA  2012 CORE             467 PRMONTH40                  1624 1625   Num  Month of procedure 40
+IA  2012 CORE             468 PRMONTH41                  1626 1627   Num  Month of procedure 41
+IA  2012 CORE             469 PRMONTH42                  1628 1629   Num  Month of procedure 42
+IA  2012 CORE             470 PRMONTH43                  1630 1631   Num  Month of procedure 43
+IA  2012 CORE             471 PRMONTH44                  1632 1633   Num  Month of procedure 44
+IA  2012 CORE             472 PRMONTH45                  1634 1635   Num  Month of procedure 45
+IA  2012 CORE             473 PRMONTH46                  1636 1637   Num  Month of procedure 46
+IA  2012 CORE             474 PRMONTH47                  1638 1639   Num  Month of procedure 47
+IA  2012 CORE             475 PRMONTH48                  1640 1641   Num  Month of procedure 48
+IA  2012 CORE             476 PRMONTH49                  1642 1643   Num  Month of procedure 49
+IA  2012 CORE             477 PRMONTH50                  1644 1645   Num  Month of procedure 50
+IA  2012 CORE             478 PRYEAR1                    1646 1649   Num  Year of procedure 1
+IA  2012 CORE             479 PRYEAR2                    1650 1653   Num  Year of procedure 2
+IA  2012 CORE             480 PRYEAR3                    1654 1657   Num  Year of procedure 3
+IA  2012 CORE             481 PRYEAR4                    1658 1661   Num  Year of procedure 4
+IA  2012 CORE             482 PRYEAR5                    1662 1665   Num  Year of procedure 5
+IA  2012 CORE             483 PRYEAR6                    1666 1669   Num  Year of procedure 6
+IA  2012 CORE             484 PRYEAR7                    1670 1673   Num  Year of procedure 7
+IA  2012 CORE             485 PRYEAR8                    1674 1677   Num  Year of procedure 8
+IA  2012 CORE             486 PRYEAR9                    1678 1681   Num  Year of procedure 9
+IA  2012 CORE             487 PRYEAR10                   1682 1685   Num  Year of procedure 10
+IA  2012 CORE             488 PRYEAR11                   1686 1689   Num  Year of procedure 11
+IA  2012 CORE             489 PRYEAR12                   1690 1693   Num  Year of procedure 12
+IA  2012 CORE             490 PRYEAR13                   1694 1697   Num  Year of procedure 13
+IA  2012 CORE             491 PRYEAR14                   1698 1701   Num  Year of procedure 14
+IA  2012 CORE             492 PRYEAR15                   1702 1705   Num  Year of procedure 15
+IA  2012 CORE             493 PRYEAR16                   1706 1709   Num  Year of procedure 16
+IA  2012 CORE             494 PRYEAR17                   1710 1713   Num  Year of procedure 17
+IA  2012 CORE             495 PRYEAR18                   1714 1717   Num  Year of procedure 18
+IA  2012 CORE             496 PRYEAR19                   1718 1721   Num  Year of procedure 19
+IA  2012 CORE             497 PRYEAR20                   1722 1725   Num  Year of procedure 20
+IA  2012 CORE             498 PRYEAR21                   1726 1729   Num  Year of procedure 21
+IA  2012 CORE             499 PRYEAR22                   1730 1733   Num  Year of procedure 22
+IA  2012 CORE             500 PRYEAR23                   1734 1737   Num  Year of procedure 23
+IA  2012 CORE             501 PRYEAR24                   1738 1741   Num  Year of procedure 24
+IA  2012 CORE             502 PRYEAR25                   1742 1745   Num  Year of procedure 25
+IA  2012 CORE             503 PRYEAR26                   1746 1749   Num  Year of procedure 26
+IA  2012 CORE             504 PRYEAR27                   1750 1753   Num  Year of procedure 27
+IA  2012 CORE             505 PRYEAR28                   1754 1757   Num  Year of procedure 28
+IA  2012 CORE             506 PRYEAR29                   1758 1761   Num  Year of procedure 29
+IA  2012 CORE             507 PRYEAR30                   1762 1765   Num  Year of procedure 30
+IA  2012 CORE             508 PRYEAR31                   1766 1769   Num  Year of procedure 31
+IA  2012 CORE             509 PRYEAR32                   1770 1773   Num  Year of procedure 32
+IA  2012 CORE             510 PRYEAR33                   1774 1777   Num  Year of procedure 33
+IA  2012 CORE             511 PRYEAR34                   1778 1781   Num  Year of procedure 34
+IA  2012 CORE             512 PRYEAR35                   1782 1785   Num  Year of procedure 35
+IA  2012 CORE             513 PRYEAR36                   1786 1789   Num  Year of procedure 36
+IA  2012 CORE             514 PRYEAR37                   1790 1793   Num  Year of procedure 37
+IA  2012 CORE             515 PRYEAR38                   1794 1797   Num  Year of procedure 38
+IA  2012 CORE             516 PRYEAR39                   1798 1801   Num  Year of procedure 39
+IA  2012 CORE             517 PRYEAR40                   1802 1805   Num  Year of procedure 40
+IA  2012 CORE             518 PRYEAR41                   1806 1809   Num  Year of procedure 41
+IA  2012 CORE             519 PRYEAR42                   1810 1813   Num  Year of procedure 42
+IA  2012 CORE             520 PRYEAR43                   1814 1817   Num  Year of procedure 43
+IA  2012 CORE             521 PRYEAR44                   1818 1821   Num  Year of procedure 44
+IA  2012 CORE             522 PRYEAR45                   1822 1825   Num  Year of procedure 45
+IA  2012 CORE             523 PRYEAR46                   1826 1829   Num  Year of procedure 46
+IA  2012 CORE             524 PRYEAR47                   1830 1833   Num  Year of procedure 47
+IA  2012 CORE             525 PRYEAR48                   1834 1837   Num  Year of procedure 48
+IA  2012 CORE             526 PRYEAR49                   1838 1841   Num  Year of procedure 49
+IA  2012 CORE             527 PRYEAR50                   1842 1845   Num  Year of procedure 50

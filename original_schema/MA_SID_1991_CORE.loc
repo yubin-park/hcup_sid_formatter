@@ -1,0 +1,126 @@
+Data Set Name: MA_SID_1991_CORE                
+Number of Observations: 899999
+Total Record Length: 399
+Total Number of Variables: 106
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 49    Variable name
+51- 54    Starting column of variable in ASCII file
+56- 59    Ending column of variable in ASCII file
+    61    Non-zero number of digits after decimal point for numeric variable
+63- 66    Variable type (Num=numeric; Char=character)
+68-167    Variable label
+
+
+MA  1991 CORE               1 AGE                    1    3   Num  I:Age in years at admission
+MA  1991 CORE               2 SEX                    4    6   Num  I:Sex
+MA  1991 CORE               3 RACE                   7    8   Num  I:Race
+MA  1991 CORE               4 DQTR                   9   10   Num  I:Discharge quarter
+MA  1991 CORE               5 LOS                   11   15   Num  I:Length of stay (cleaned)
+MA  1991 CORE               6 DISP                  16   17   Num  I:Disposition of patient
+MA  1991 CORE               7 DIED                  18   19   Num  I:Died during hospitalization
+MA  1991 CORE               8 ATYPE                 20   21   Num  I:Admission type
+MA  1991 CORE               9 ASOURCE               22   23   Num  I:Admission source
+MA  1991 CORE              10 NDX                   24   25   Num  I:Number of diagnoses on this discharge
+MA  1991 CORE              11 DX1                   26   30   Char I:Principal diagnosis
+MA  1991 CORE              12 DXV1                  31   34   Num  I:Validity flag: principal diagnosis
+MA  1991 CORE              13 DCCHPR1               35   38   Num  I:CCHPR: principal diagnosis
+MA  1991 CORE              14 NPR                   39   40   Num  I:Number of procedures on this discharge
+MA  1991 CORE              15 PR1                   41   44   Char I:Principal procedure
+MA  1991 CORE              16 PRV1                  45   47   Num  I:Validity flag: principal procedure
+MA  1991 CORE              17 PCCHPR1               48   51   Num  I:CCHPR: principal procedure
+MA  1991 CORE              18 DRG                   52   54   Num  I:DRG in effect on discharge date
+MA  1991 CORE              19 MDC                   55   56   Num  I:MDC in effect on discharge date
+MA  1991 CORE              20 DRGVER                57   58   Num  I:DRG grouper version used on disch date
+MA  1991 CORE              21 DRG10                 59   61   Num  I:DRG, Version 10
+MA  1991 CORE              22 MDC10                 62   63   Num  I:MDC, Version 10
+MA  1991 CORE              23 PAY1                  64   65   Num  I:Primary expected payer, uniform
+MA  1991 CORE              24 TOTCHG                66   75   Num  I:Total charges (cleaned)
+MA  1991 CORE              25 PROCESS               76   86   Num  I:HCUP-3 discharge processing ID number
+MA  1991 CORE              26 YEAR                  87   90   Num  Calendar year
+MA  1991 CORE              27 DSHOSPID              91  103   Char I:Data source hospital ID number
+MA  1991 CORE              28 DSNUM                104  106   Num  I:Data source ID number
+MA  1991 CORE              29 DSTYPE               107  109   Num  I:Data source type
+MA  1991 CORE              30 HOSPST               110  111   Char Hospital state postal code
+MA  1991 CORE              31 ADAYWK               112  114   Num  I:Admission day of week
+MA  1991 CORE              32 AMONTH               115  116   Num  I:Admission month
+MA  1991 CORE              33 LOS_X                117  121   Num  I:Length of stay (uncleaned)
+MA  1991 CORE              34 NEOMAT               122  123   Num  I:Neonatal and/or maternal DX and/or PR
+MA  1991 CORE              35 DXSYS                124  126   Num  I:Diagnosis coding system
+MA  1991 CORE              36 DSNDX                127  129   Num  I:Max number of diagnoses from source
+MA  1991 CORE              37 PRSYS                130  132   Num  I:Procedure coding system
+MA  1991 CORE              38 DSNPR                133  135   Num  I:Max number of procedures from source
+MA  1991 CORE              39 PRDAY1               136  140   Num  I:No. of days from admission to PR1
+MA  1991 CORE              40 PAY1_N               141  143   Num  I:Primary expected payer, nonuniform
+MA  1991 CORE              41 PAY2                 144  145   Num  I:Secondary expected payer, uniform
+MA  1991 CORE              42 PAY2_N               146  148   Num  I:Secondary expected payer, nonuniform
+MA  1991 CORE              43 TOTCHG_X             149  160 2 Num  I:Total charges (from data source)
+MA  1991 CORE              44 DX2                  161  165   Char I:Diagnosis 2
+MA  1991 CORE              45 DX3                  166  170   Char I:Diagnosis 3
+MA  1991 CORE              46 DX4                  171  175   Char I:Diagnosis 4
+MA  1991 CORE              47 DX5                  176  180   Char I:Diagnosis 5
+MA  1991 CORE              48 DX6                  181  185   Char I:Diagnosis 6
+MA  1991 CORE              49 DX7                  186  190   Char I:Diagnosis 7
+MA  1991 CORE              50 DX8                  191  195   Char I:Diagnosis 8
+MA  1991 CORE              51 DX9                  196  200   Char I:Diagnosis 9
+MA  1991 CORE              52 DXV2                 201  204   Num  I:Validity flag: diagnosis 2
+MA  1991 CORE              53 DXV3                 205  208   Num  I:Validity flag: diagnosis 3
+MA  1991 CORE              54 DXV4                 209  212   Num  I:Validity flag: diagnosis 4
+MA  1991 CORE              55 DXV5                 213  216   Num  I:Validity flag: diagnosis 5
+MA  1991 CORE              56 DXV6                 217  220   Num  I:Validity flag: diagnosis 6
+MA  1991 CORE              57 DXV7                 221  224   Num  I:Validity flag: diagnosis 7
+MA  1991 CORE              58 DXV8                 225  228   Num  I:Validity flag: diagnosis 8
+MA  1991 CORE              59 DXV9                 229  232   Num  I:Validity flag: diagnosis 9
+MA  1991 CORE              60 DCCHPR2              233  236   Num  I:CCHPR: diagnosis 2
+MA  1991 CORE              61 DCCHPR3              237  240   Num  I:CCHPR: diagnosis 3
+MA  1991 CORE              62 DCCHPR4              241  244   Num  I:CCHPR: diagnosis 4
+MA  1991 CORE              63 DCCHPR5              245  248   Num  I:CCHPR: diagnosis 5
+MA  1991 CORE              64 DCCHPR6              249  252   Num  I:CCHPR: diagnosis 6
+MA  1991 CORE              65 DCCHPR7              253  256   Num  I:CCHPR: diagnosis 7
+MA  1991 CORE              66 DCCHPR8              257  260   Num  I:CCHPR: diagnosis 8
+MA  1991 CORE              67 DCCHPR9              261  264   Num  I:CCHPR: diagnosis 9
+MA  1991 CORE              68 PR2                  265  268   Char I:Procedure 2
+MA  1991 CORE              69 PR3                  269  272   Char I:Procedure 3
+MA  1991 CORE              70 PR4                  273  276   Char I:Procedure 4
+MA  1991 CORE              71 PR5                  277  280   Char I:Procedure 5
+MA  1991 CORE              72 PR6                  281  284   Char I:Procedure 6
+MA  1991 CORE              73 PR7                  285  288   Char I:Procedure 7
+MA  1991 CORE              74 PR8                  289  292   Char I:Procedure 8
+MA  1991 CORE              75 PR9                  293  296   Char I:Procedure 9
+MA  1991 CORE              76 PR10                 297  300   Char I:Procedure 10
+MA  1991 CORE              77 PRV2                 301  303   Num  I:Validity flag: procedure 2
+MA  1991 CORE              78 PRV3                 304  306   Num  I:Validity flag: procedure 3
+MA  1991 CORE              79 PRV4                 307  309   Num  I:Validity flag: procedure 4
+MA  1991 CORE              80 PRV5                 310  312   Num  I:Validity flag: procedure 5
+MA  1991 CORE              81 PRV6                 313  315   Num  I:Validity flag: procedure 6
+MA  1991 CORE              82 PRV7                 316  318   Num  I:Validity flag: procedure 7
+MA  1991 CORE              83 PRV8                 319  321   Num  I:Validity flag: procedure 8
+MA  1991 CORE              84 PRV9                 322  324   Num  I:Validity flag: procedure 9
+MA  1991 CORE              85 PRV10                325  327   Num  I:Validity flag: procedure 10
+MA  1991 CORE              86 PCCHPR2              328  331   Num  I:CCHPR: procedure 2
+MA  1991 CORE              87 PCCHPR3              332  335   Num  I:CCHPR: procedure 3
+MA  1991 CORE              88 PCCHPR4              336  339   Num  I:CCHPR: procedure 4
+MA  1991 CORE              89 PCCHPR5              340  343   Num  I:CCHPR: procedure 5
+MA  1991 CORE              90 PCCHPR6              344  347   Num  I:CCHPR: procedure 6
+MA  1991 CORE              91 PCCHPR7              348  351   Num  I:CCHPR: procedure 7
+MA  1991 CORE              92 PCCHPR8              352  355   Num  I:CCHPR: procedure 8
+MA  1991 CORE              93 PCCHPR9              356  359   Num  I:CCHPR: procedure 9
+MA  1991 CORE              94 PCCHPR10             360  363   Num  I:CCHPR: procedure 10
+MA  1991 CORE              95 PRDAY2               364  368   Num  I:No. of days from admission to PR2
+MA  1991 CORE              96 PRDAY3               369  373   Num  I:No. of days from admission to PR3
+MA  1991 CORE              97 PAY1_X               374  374   Char I:Primary exp. payer (from data source)
+MA  1991 CORE              98 PAY2_X               375  375   Char I:Secondary exp. payer (from data source
+MA  1991 CORE              99 AYEAR                376  379   Num  Admission year
+MA  1991 CORE             100 DMONTH               380  381   Num  Discharge month
+MA  1991 CORE             101 PRMONTH1             382  383   Num  Month of procedure 1
+MA  1991 CORE             102 PRMONTH2             384  385   Num  Month of procedure 2
+MA  1991 CORE             103 PRMONTH3             386  387   Num  Month of procedure 3
+MA  1991 CORE             104 PRYEAR1              388  391   Num  Year of procedure 1
+MA  1991 CORE             105 PRYEAR2              392  395   Num  Year of procedure 2
+MA  1991 CORE             106 PRYEAR3              396  399   Num  Year of procedure 3

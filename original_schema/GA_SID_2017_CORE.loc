@@ -1,0 +1,870 @@
+Data Set Name: GA_SIDC_2017_CORE               
+Number of Observations: 1089399
+Total Record Length: 3563
+Total Number of Variables: 849
+Creation Date: 02/26/2019   
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 61    Variable name
+63- 66    Starting column of variable in ASCII file
+68- 71    Ending column of variable in ASCII file
+73- 73    Non-zero number of digits after decimal point for numeric variable
+75- 78    Variable type (Num=numeric; Char=character)
+80-179    Variable label
+
+
+GA  2017 CORE               1 AGE                                1    3   Num  Age in years at admission
+GA  2017 CORE               2 AGEDAY                             4    6   Num  Age in days (when age < 1 year)
+GA  2017 CORE               3 AGEMONTH                           7    9   Num  Age in months (when age < 11 years)
+GA  2017 CORE               4 AMONTH                            10   11   Num  Admission month
+GA  2017 CORE               5 ATYPE                             12   13   Num  Admission type
+GA  2017 CORE               6 AWEEKEND                          14   15   Num  Admission day is a weekend
+GA  2017 CORE               7 BILLTYPE                          16   19   Char Type of bill, UB-04 coding
+GA  2017 CORE               8 BWT                               20   23   Num  Birth weight in grams
+GA  2017 CORE               9 CPT1                              24   28   Char CPT/HCPCS procedure code 1
+GA  2017 CORE              10 CPT2                              29   33   Char CPT/HCPCS procedure code 2
+GA  2017 CORE              11 CPT3                              34   38   Char CPT/HCPCS procedure code 3
+GA  2017 CORE              12 CPT4                              39   43   Char CPT/HCPCS procedure code 4
+GA  2017 CORE              13 CPT5                              44   48   Char CPT/HCPCS procedure code 5
+GA  2017 CORE              14 CPT6                              49   53   Char CPT/HCPCS procedure code 6
+GA  2017 CORE              15 CPT7                              54   58   Char CPT/HCPCS procedure code 7
+GA  2017 CORE              16 CPT8                              59   63   Char CPT/HCPCS procedure code 8
+GA  2017 CORE              17 CPT9                              64   68   Char CPT/HCPCS procedure code 9
+GA  2017 CORE              18 CPT10                             69   73   Char CPT/HCPCS procedure code 10
+GA  2017 CORE              19 CPT11                             74   78   Char CPT/HCPCS procedure code 11
+GA  2017 CORE              20 CPT12                             79   83   Char CPT/HCPCS procedure code 12
+GA  2017 CORE              21 CPT13                             84   88   Char CPT/HCPCS procedure code 13
+GA  2017 CORE              22 CPT14                             89   93   Char CPT/HCPCS procedure code 14
+GA  2017 CORE              23 CPT15                             94   98   Char CPT/HCPCS procedure code 15
+GA  2017 CORE              24 CPT16                             99  103   Char CPT/HCPCS procedure code 16
+GA  2017 CORE              25 CPT17                            104  108   Char CPT/HCPCS procedure code 17
+GA  2017 CORE              26 CPT18                            109  113   Char CPT/HCPCS procedure code 18
+GA  2017 CORE              27 CPT19                            114  118   Char CPT/HCPCS procedure code 19
+GA  2017 CORE              28 CPT20                            119  123   Char CPT/HCPCS procedure code 20
+GA  2017 CORE              29 CPT21                            124  128   Char CPT/HCPCS procedure code 21
+GA  2017 CORE              30 CPT22                            129  133   Char CPT/HCPCS procedure code 22
+GA  2017 CORE              31 CPT23                            134  138   Char CPT/HCPCS procedure code 23
+GA  2017 CORE              32 CPT24                            139  143   Char CPT/HCPCS procedure code 24
+GA  2017 CORE              33 CPT25                            144  148   Char CPT/HCPCS procedure code 25
+GA  2017 CORE              34 CPT26                            149  153   Char CPT/HCPCS procedure code 26
+GA  2017 CORE              35 CPT27                            154  158   Char CPT/HCPCS procedure code 27
+GA  2017 CORE              36 CPT28                            159  163   Char CPT/HCPCS procedure code 28
+GA  2017 CORE              37 CPT29                            164  168   Char CPT/HCPCS procedure code 29
+GA  2017 CORE              38 CPT30                            169  173   Char CPT/HCPCS procedure code 30
+GA  2017 CORE              39 CPT31                            174  178   Char CPT/HCPCS procedure code 31
+GA  2017 CORE              40 CPT32                            179  183   Char CPT/HCPCS procedure code 32
+GA  2017 CORE              41 CPT33                            184  188   Char CPT/HCPCS procedure code 33
+GA  2017 CORE              42 CPT34                            189  193   Char CPT/HCPCS procedure code 34
+GA  2017 CORE              43 CPT35                            194  198   Char CPT/HCPCS procedure code 35
+GA  2017 CORE              44 CPT36                            199  203   Char CPT/HCPCS procedure code 36
+GA  2017 CORE              45 CPT37                            204  208   Char CPT/HCPCS procedure code 37
+GA  2017 CORE              46 CPT38                            209  213   Char CPT/HCPCS procedure code 38
+GA  2017 CORE              47 CPT39                            214  218   Char CPT/HCPCS procedure code 39
+GA  2017 CORE              48 CPT40                            219  223   Char CPT/HCPCS procedure code 40
+GA  2017 CORE              49 CPT41                            224  228   Char CPT/HCPCS procedure code 41
+GA  2017 CORE              50 CPT42                            229  233   Char CPT/HCPCS procedure code 42
+GA  2017 CORE              51 CPT43                            234  238   Char CPT/HCPCS procedure code 43
+GA  2017 CORE              52 CPT44                            239  243   Char CPT/HCPCS procedure code 44
+GA  2017 CORE              53 CPT45                            244  248   Char CPT/HCPCS procedure code 45
+GA  2017 CORE              54 CPT46                            249  253   Char CPT/HCPCS procedure code 46
+GA  2017 CORE              55 CPT47                            254  258   Char CPT/HCPCS procedure code 47
+GA  2017 CORE              56 CPT48                            259  263   Char CPT/HCPCS procedure code 48
+GA  2017 CORE              57 CPT49                            264  268   Char CPT/HCPCS procedure code 49
+GA  2017 CORE              58 CPT50                            269  273   Char CPT/HCPCS procedure code 50
+GA  2017 CORE              59 CPT51                            274  278   Char CPT/HCPCS procedure code 51
+GA  2017 CORE              60 CPT52                            279  283   Char CPT/HCPCS procedure code 52
+GA  2017 CORE              61 CPT53                            284  288   Char CPT/HCPCS procedure code 53
+GA  2017 CORE              62 CPT54                            289  293   Char CPT/HCPCS procedure code 54
+GA  2017 CORE              63 CPT55                            294  298   Char CPT/HCPCS procedure code 55
+GA  2017 CORE              64 CPT56                            299  303   Char CPT/HCPCS procedure code 56
+GA  2017 CORE              65 CPT57                            304  308   Char CPT/HCPCS procedure code 57
+GA  2017 CORE              66 CPT58                            309  313   Char CPT/HCPCS procedure code 58
+GA  2017 CORE              67 CPT59                            314  318   Char CPT/HCPCS procedure code 59
+GA  2017 CORE              68 CPT60                            319  323   Char CPT/HCPCS procedure code 60
+GA  2017 CORE              69 CPT61                            324  328   Char CPT/HCPCS procedure code 61
+GA  2017 CORE              70 CPT62                            329  333   Char CPT/HCPCS procedure code 62
+GA  2017 CORE              71 CPT63                            334  338   Char CPT/HCPCS procedure code 63
+GA  2017 CORE              72 CPT64                            339  343   Char CPT/HCPCS procedure code 64
+GA  2017 CORE              73 CPT65                            344  348   Char CPT/HCPCS procedure code 65
+GA  2017 CORE              74 CPT66                            349  353   Char CPT/HCPCS procedure code 66
+GA  2017 CORE              75 CPT67                            354  358   Char CPT/HCPCS procedure code 67
+GA  2017 CORE              76 CPT68                            359  363   Char CPT/HCPCS procedure code 68
+GA  2017 CORE              77 CPT69                            364  368   Char CPT/HCPCS procedure code 69
+GA  2017 CORE              78 CPT70                            369  373   Char CPT/HCPCS procedure code 70
+GA  2017 CORE              79 CPT71                            374  378   Char CPT/HCPCS procedure code 71
+GA  2017 CORE              80 CPT72                            379  383   Char CPT/HCPCS procedure code 72
+GA  2017 CORE              81 CPT73                            384  388   Char CPT/HCPCS procedure code 73
+GA  2017 CORE              82 CPT74                            389  393   Char CPT/HCPCS procedure code 74
+GA  2017 CORE              83 CPT75                            394  398   Char CPT/HCPCS procedure code 75
+GA  2017 CORE              84 CPT76                            399  403   Char CPT/HCPCS procedure code 76
+GA  2017 CORE              85 CPT77                            404  408   Char CPT/HCPCS procedure code 77
+GA  2017 CORE              86 CPT78                            409  413   Char CPT/HCPCS procedure code 78
+GA  2017 CORE              87 CPT79                            414  418   Char CPT/HCPCS procedure code 79
+GA  2017 CORE              88 CPT80                            419  423   Char CPT/HCPCS procedure code 80
+GA  2017 CORE              89 CPT81                            424  428   Char CPT/HCPCS procedure code 81
+GA  2017 CORE              90 CPT82                            429  433   Char CPT/HCPCS procedure code 82
+GA  2017 CORE              91 CPT83                            434  438   Char CPT/HCPCS procedure code 83
+GA  2017 CORE              92 CPT84                            439  443   Char CPT/HCPCS procedure code 84
+GA  2017 CORE              93 CPT85                            444  448   Char CPT/HCPCS procedure code 85
+GA  2017 CORE              94 CPT86                            449  453   Char CPT/HCPCS procedure code 86
+GA  2017 CORE              95 CPT87                            454  458   Char CPT/HCPCS procedure code 87
+GA  2017 CORE              96 CPT88                            459  463   Char CPT/HCPCS procedure code 88
+GA  2017 CORE              97 CPT89                            464  468   Char CPT/HCPCS procedure code 89
+GA  2017 CORE              98 CPT90                            469  473   Char CPT/HCPCS procedure code 90
+GA  2017 CORE              99 CPT91                            474  478   Char CPT/HCPCS procedure code 91
+GA  2017 CORE             100 CPT92                            479  483   Char CPT/HCPCS procedure code 92
+GA  2017 CORE             101 CPT93                            484  488   Char CPT/HCPCS procedure code 93
+GA  2017 CORE             102 CPT94                            489  493   Char CPT/HCPCS procedure code 94
+GA  2017 CORE             103 CPT95                            494  498   Char CPT/HCPCS procedure code 95
+GA  2017 CORE             104 CPT96                            499  503   Char CPT/HCPCS procedure code 96
+GA  2017 CORE             105 CPT97                            504  508   Char CPT/HCPCS procedure code 97
+GA  2017 CORE             106 CPT98                            509  513   Char CPT/HCPCS procedure code 98
+GA  2017 CORE             107 CPT99                            514  518   Char CPT/HCPCS procedure code 99
+GA  2017 CORE             108 CPT100                           519  523   Char CPT/HCPCS procedure code 100
+GA  2017 CORE             109 CPTCCS1                          524  526   Num  CCS: CPT 1
+GA  2017 CORE             110 CPTCCS2                          527  529   Num  CCS: CPT 2
+GA  2017 CORE             111 CPTCCS3                          530  532   Num  CCS: CPT 3
+GA  2017 CORE             112 CPTCCS4                          533  535   Num  CCS: CPT 4
+GA  2017 CORE             113 CPTCCS5                          536  538   Num  CCS: CPT 5
+GA  2017 CORE             114 CPTCCS6                          539  541   Num  CCS: CPT 6
+GA  2017 CORE             115 CPTCCS7                          542  544   Num  CCS: CPT 7
+GA  2017 CORE             116 CPTCCS8                          545  547   Num  CCS: CPT 8
+GA  2017 CORE             117 CPTCCS9                          548  550   Num  CCS: CPT 9
+GA  2017 CORE             118 CPTCCS10                         551  553   Num  CCS: CPT 10
+GA  2017 CORE             119 CPTCCS11                         554  556   Num  CCS: CPT 11
+GA  2017 CORE             120 CPTCCS12                         557  559   Num  CCS: CPT 12
+GA  2017 CORE             121 CPTCCS13                         560  562   Num  CCS: CPT 13
+GA  2017 CORE             122 CPTCCS14                         563  565   Num  CCS: CPT 14
+GA  2017 CORE             123 CPTCCS15                         566  568   Num  CCS: CPT 15
+GA  2017 CORE             124 CPTCCS16                         569  571   Num  CCS: CPT 16
+GA  2017 CORE             125 CPTCCS17                         572  574   Num  CCS: CPT 17
+GA  2017 CORE             126 CPTCCS18                         575  577   Num  CCS: CPT 18
+GA  2017 CORE             127 CPTCCS19                         578  580   Num  CCS: CPT 19
+GA  2017 CORE             128 CPTCCS20                         581  583   Num  CCS: CPT 20
+GA  2017 CORE             129 CPTCCS21                         584  586   Num  CCS: CPT 21
+GA  2017 CORE             130 CPTCCS22                         587  589   Num  CCS: CPT 22
+GA  2017 CORE             131 CPTCCS23                         590  592   Num  CCS: CPT 23
+GA  2017 CORE             132 CPTCCS24                         593  595   Num  CCS: CPT 24
+GA  2017 CORE             133 CPTCCS25                         596  598   Num  CCS: CPT 25
+GA  2017 CORE             134 CPTCCS26                         599  601   Num  CCS: CPT 26
+GA  2017 CORE             135 CPTCCS27                         602  604   Num  CCS: CPT 27
+GA  2017 CORE             136 CPTCCS28                         605  607   Num  CCS: CPT 28
+GA  2017 CORE             137 CPTCCS29                         608  610   Num  CCS: CPT 29
+GA  2017 CORE             138 CPTCCS30                         611  613   Num  CCS: CPT 30
+GA  2017 CORE             139 CPTCCS31                         614  616   Num  CCS: CPT 31
+GA  2017 CORE             140 CPTCCS32                         617  619   Num  CCS: CPT 32
+GA  2017 CORE             141 CPTCCS33                         620  622   Num  CCS: CPT 33
+GA  2017 CORE             142 CPTCCS34                         623  625   Num  CCS: CPT 34
+GA  2017 CORE             143 CPTCCS35                         626  628   Num  CCS: CPT 35
+GA  2017 CORE             144 CPTCCS36                         629  631   Num  CCS: CPT 36
+GA  2017 CORE             145 CPTCCS37                         632  634   Num  CCS: CPT 37
+GA  2017 CORE             146 CPTCCS38                         635  637   Num  CCS: CPT 38
+GA  2017 CORE             147 CPTCCS39                         638  640   Num  CCS: CPT 39
+GA  2017 CORE             148 CPTCCS40                         641  643   Num  CCS: CPT 40
+GA  2017 CORE             149 CPTCCS41                         644  646   Num  CCS: CPT 41
+GA  2017 CORE             150 CPTCCS42                         647  649   Num  CCS: CPT 42
+GA  2017 CORE             151 CPTCCS43                         650  652   Num  CCS: CPT 43
+GA  2017 CORE             152 CPTCCS44                         653  655   Num  CCS: CPT 44
+GA  2017 CORE             153 CPTCCS45                         656  658   Num  CCS: CPT 45
+GA  2017 CORE             154 CPTCCS46                         659  661   Num  CCS: CPT 46
+GA  2017 CORE             155 CPTCCS47                         662  664   Num  CCS: CPT 47
+GA  2017 CORE             156 CPTCCS48                         665  667   Num  CCS: CPT 48
+GA  2017 CORE             157 CPTCCS49                         668  670   Num  CCS: CPT 49
+GA  2017 CORE             158 CPTCCS50                         671  673   Num  CCS: CPT 50
+GA  2017 CORE             159 CPTCCS51                         674  676   Num  CCS: CPT 51
+GA  2017 CORE             160 CPTCCS52                         677  679   Num  CCS: CPT 52
+GA  2017 CORE             161 CPTCCS53                         680  682   Num  CCS: CPT 53
+GA  2017 CORE             162 CPTCCS54                         683  685   Num  CCS: CPT 54
+GA  2017 CORE             163 CPTCCS55                         686  688   Num  CCS: CPT 55
+GA  2017 CORE             164 CPTCCS56                         689  691   Num  CCS: CPT 56
+GA  2017 CORE             165 CPTCCS57                         692  694   Num  CCS: CPT 57
+GA  2017 CORE             166 CPTCCS58                         695  697   Num  CCS: CPT 58
+GA  2017 CORE             167 CPTCCS59                         698  700   Num  CCS: CPT 59
+GA  2017 CORE             168 CPTCCS60                         701  703   Num  CCS: CPT 60
+GA  2017 CORE             169 CPTCCS61                         704  706   Num  CCS: CPT 61
+GA  2017 CORE             170 CPTCCS62                         707  709   Num  CCS: CPT 62
+GA  2017 CORE             171 CPTCCS63                         710  712   Num  CCS: CPT 63
+GA  2017 CORE             172 CPTCCS64                         713  715   Num  CCS: CPT 64
+GA  2017 CORE             173 CPTCCS65                         716  718   Num  CCS: CPT 65
+GA  2017 CORE             174 CPTCCS66                         719  721   Num  CCS: CPT 66
+GA  2017 CORE             175 CPTCCS67                         722  724   Num  CCS: CPT 67
+GA  2017 CORE             176 CPTCCS68                         725  727   Num  CCS: CPT 68
+GA  2017 CORE             177 CPTCCS69                         728  730   Num  CCS: CPT 69
+GA  2017 CORE             178 CPTCCS70                         731  733   Num  CCS: CPT 70
+GA  2017 CORE             179 CPTCCS71                         734  736   Num  CCS: CPT 71
+GA  2017 CORE             180 CPTCCS72                         737  739   Num  CCS: CPT 72
+GA  2017 CORE             181 CPTCCS73                         740  742   Num  CCS: CPT 73
+GA  2017 CORE             182 CPTCCS74                         743  745   Num  CCS: CPT 74
+GA  2017 CORE             183 CPTCCS75                         746  748   Num  CCS: CPT 75
+GA  2017 CORE             184 CPTCCS76                         749  751   Num  CCS: CPT 76
+GA  2017 CORE             185 CPTCCS77                         752  754   Num  CCS: CPT 77
+GA  2017 CORE             186 CPTCCS78                         755  757   Num  CCS: CPT 78
+GA  2017 CORE             187 CPTCCS79                         758  760   Num  CCS: CPT 79
+GA  2017 CORE             188 CPTCCS80                         761  763   Num  CCS: CPT 80
+GA  2017 CORE             189 CPTCCS81                         764  766   Num  CCS: CPT 81
+GA  2017 CORE             190 CPTCCS82                         767  769   Num  CCS: CPT 82
+GA  2017 CORE             191 CPTCCS83                         770  772   Num  CCS: CPT 83
+GA  2017 CORE             192 CPTCCS84                         773  775   Num  CCS: CPT 84
+GA  2017 CORE             193 CPTCCS85                         776  778   Num  CCS: CPT 85
+GA  2017 CORE             194 CPTCCS86                         779  781   Num  CCS: CPT 86
+GA  2017 CORE             195 CPTCCS87                         782  784   Num  CCS: CPT 87
+GA  2017 CORE             196 CPTCCS88                         785  787   Num  CCS: CPT 88
+GA  2017 CORE             197 CPTCCS89                         788  790   Num  CCS: CPT 89
+GA  2017 CORE             198 CPTCCS90                         791  793   Num  CCS: CPT 90
+GA  2017 CORE             199 CPTCCS91                         794  796   Num  CCS: CPT 91
+GA  2017 CORE             200 CPTCCS92                         797  799   Num  CCS: CPT 92
+GA  2017 CORE             201 CPTCCS93                         800  802   Num  CCS: CPT 93
+GA  2017 CORE             202 CPTCCS94                         803  805   Num  CCS: CPT 94
+GA  2017 CORE             203 CPTCCS95                         806  808   Num  CCS: CPT 95
+GA  2017 CORE             204 CPTCCS96                         809  811   Num  CCS: CPT 96
+GA  2017 CORE             205 CPTCCS97                         812  814   Num  CCS: CPT 97
+GA  2017 CORE             206 CPTCCS98                         815  817   Num  CCS: CPT 98
+GA  2017 CORE             207 CPTCCS99                         818  820   Num  CCS: CPT 99
+GA  2017 CORE             208 CPTCCS100                        821  823   Num  CCS: CPT 100
+GA  2017 CORE             209 DaysToEvent                      824  829   Num  Days from 'start date' to admission
+GA  2017 CORE             210 DIED                             830  831   Num  Died during hospitalization
+GA  2017 CORE             211 DISP_X                           832  833   Char Disposition of patient (as received from source)
+GA  2017 CORE             212 DISPUB04                         834  835   Num  Disposition of patient (UB-04 standard coding)
+GA  2017 CORE             213 DISPUNIFORM                      836  837   Num  Disposition of patient (uniform)
+GA  2017 CORE             214 DMONTH                           838  839   Num  Discharge month
+GA  2017 CORE             215 DQTR                             840  841   Num  Discharge quarter
+GA  2017 CORE             216 DRG                              842  844   Num  DRG in effect on discharge date
+GA  2017 CORE             217 DRG_NoPOA                        845  847   Num  DRG in use on discharge date, calculated without POA
+GA  2017 CORE             218 DRGVER                           848  849   Num  DRG grouper version used on discharge date
+GA  2017 CORE             219 DXPOA1                           850  850   Char Diagnosis 1, present on admission indicator
+GA  2017 CORE             220 DXPOA2                           851  851   Char Diagnosis 2, present on admission indicator
+GA  2017 CORE             221 DXPOA3                           852  852   Char Diagnosis 3, present on admission indicator
+GA  2017 CORE             222 DXPOA4                           853  853   Char Diagnosis 4, present on admission indicator
+GA  2017 CORE             223 DXPOA5                           854  854   Char Diagnosis 5, present on admission indicator
+GA  2017 CORE             224 DXPOA6                           855  855   Char Diagnosis 6, present on admission indicator
+GA  2017 CORE             225 DXPOA7                           856  856   Char Diagnosis 7, present on admission indicator
+GA  2017 CORE             226 DXPOA8                           857  857   Char Diagnosis 8, present on admission indicator
+GA  2017 CORE             227 DXPOA9                           858  858   Char Diagnosis 9, present on admission indicator
+GA  2017 CORE             228 DXPOA10                          859  859   Char Diagnosis 10, present on admission indicator
+GA  2017 CORE             229 DXPOA11                          860  860   Char Diagnosis 11, present on admission indicator
+GA  2017 CORE             230 DXPOA12                          861  861   Char Diagnosis 12, present on admission indicator
+GA  2017 CORE             231 DXPOA13                          862  862   Char Diagnosis 13, present on admission indicator
+GA  2017 CORE             232 DXPOA14                          863  863   Char Diagnosis 14, present on admission indicator
+GA  2017 CORE             233 DXPOA15                          864  864   Char Diagnosis 15, present on admission indicator
+GA  2017 CORE             234 DXPOA16                          865  865   Char Diagnosis 16, present on admission indicator
+GA  2017 CORE             235 DXPOA17                          866  866   Char Diagnosis 17, present on admission indicator
+GA  2017 CORE             236 DXPOA18                          867  867   Char Diagnosis 18, present on admission indicator
+GA  2017 CORE             237 DXPOA19                          868  868   Char Diagnosis 19, present on admission indicator
+GA  2017 CORE             238 DXPOA20                          869  869   Char Diagnosis 20, present on admission indicator
+GA  2017 CORE             239 DXPOA21                          870  870   Char Diagnosis 21, present on admission indicator
+GA  2017 CORE             240 DXPOA22                          871  871   Char Diagnosis 22, present on admission indicator
+GA  2017 CORE             241 DXPOA23                          872  872   Char Diagnosis 23, present on admission indicator
+GA  2017 CORE             242 DXPOA24                          873  873   Char Diagnosis 24, present on admission indicator
+GA  2017 CORE             243 DXPOA25                          874  874   Char Diagnosis 25, present on admission indicator
+GA  2017 CORE             244 DXPOA26                          875  875   Char Diagnosis 26, present on admission indicator
+GA  2017 CORE             245 DXPOA27                          876  876   Char Diagnosis 27, present on admission indicator
+GA  2017 CORE             246 DXPOA28                          877  877   Char Diagnosis 28, present on admission indicator
+GA  2017 CORE             247 DXPOA29                          878  878   Char Diagnosis 29, present on admission indicator
+GA  2017 CORE             248 DXPOA30                          879  879   Char Diagnosis 30, present on admission indicator
+GA  2017 CORE             249 DXPOA31                          880  880   Char Diagnosis 31, present on admission indicator
+GA  2017 CORE             250 DXPOA32                          881  881   Char Diagnosis 32, present on admission indicator
+GA  2017 CORE             251 DXPOA33                          882  882   Char Diagnosis 33, present on admission indicator
+GA  2017 CORE             252 DXPOA34                          883  883   Char Diagnosis 34, present on admission indicator
+GA  2017 CORE             253 DXPOA35                          884  884   Char Diagnosis 35, present on admission indicator
+GA  2017 CORE             254 DXPOA36                          885  885   Char Diagnosis 36, present on admission indicator
+GA  2017 CORE             255 DXPOA37                          886  886   Char Diagnosis 37, present on admission indicator
+GA  2017 CORE             256 DXPOA38                          887  887   Char Diagnosis 38, present on admission indicator
+GA  2017 CORE             257 DXPOA39                          888  888   Char Diagnosis 39, present on admission indicator
+GA  2017 CORE             258 DXPOA40                          889  889   Char Diagnosis 40, present on admission indicator
+GA  2017 CORE             259 DXPOA41                          890  890   Char Diagnosis 41, present on admission indicator
+GA  2017 CORE             260 DXPOA42                          891  891   Char Diagnosis 42, present on admission indicator
+GA  2017 CORE             261 DXPOA43                          892  892   Char Diagnosis 43, present on admission indicator
+GA  2017 CORE             262 DXPOA44                          893  893   Char Diagnosis 44, present on admission indicator
+GA  2017 CORE             263 DXPOA45                          894  894   Char Diagnosis 45, present on admission indicator
+GA  2017 CORE             264 DXPOA46                          895  895   Char Diagnosis 46, present on admission indicator
+GA  2017 CORE             265 DXPOA47                          896  896   Char Diagnosis 47, present on admission indicator
+GA  2017 CORE             266 DXPOA48                          897  897   Char Diagnosis 48, present on admission indicator
+GA  2017 CORE             267 DXPOA49                          898  898   Char Diagnosis 49, present on admission indicator
+GA  2017 CORE             268 DXPOA50                          899  899   Char Diagnosis 50, present on admission indicator
+GA  2017 CORE             269 DXPOA51                          900  900   Char Diagnosis 51, present on admission indicator
+GA  2017 CORE             270 DXPOA52                          901  901   Char Diagnosis 52, present on admission indicator
+GA  2017 CORE             271 DXPOA53                          902  902   Char Diagnosis 53, present on admission indicator
+GA  2017 CORE             272 DXPOA54                          903  903   Char Diagnosis 54, present on admission indicator
+GA  2017 CORE             273 DXPOA55                          904  904   Char Diagnosis 55, present on admission indicator
+GA  2017 CORE             274 DXPOA56                          905  905   Char Diagnosis 56, present on admission indicator
+GA  2017 CORE             275 DXPOA57                          906  906   Char Diagnosis 57, present on admission indicator
+GA  2017 CORE             276 DXPOA58                          907  907   Char Diagnosis 58, present on admission indicator
+GA  2017 CORE             277 DXPOA59                          908  908   Char Diagnosis 59, present on admission indicator
+GA  2017 CORE             278 DXPOA60                          909  909   Char Diagnosis 60, present on admission indicator
+GA  2017 CORE             279 DXPOA61                          910  910   Char Diagnosis 61, present on admission indicator
+GA  2017 CORE             280 DXPOA62                          911  911   Char Diagnosis 62, present on admission indicator
+GA  2017 CORE             281 DXPOA63                          912  912   Char Diagnosis 63, present on admission indicator
+GA  2017 CORE             282 DXPOA64                          913  913   Char Diagnosis 64, present on admission indicator
+GA  2017 CORE             283 DXPOA65                          914  914   Char Diagnosis 65, present on admission indicator
+GA  2017 CORE             284 DXPOA66                          915  915   Char Diagnosis 66, present on admission indicator
+GA  2017 CORE             285 DXPOA67                          916  916   Char Diagnosis 67, present on admission indicator
+GA  2017 CORE             286 DXPOA68                          917  917   Char Diagnosis 68, present on admission indicator
+GA  2017 CORE             287 DXPOA69                          918  918   Char Diagnosis 69, present on admission indicator
+GA  2017 CORE             288 DXPOA70                          919  919   Char Diagnosis 70, present on admission indicator
+GA  2017 CORE             289 DXPOA71                          920  920   Char Diagnosis 71, present on admission indicator
+GA  2017 CORE             290 DXPOA72                          921  921   Char Diagnosis 72, present on admission indicator
+GA  2017 CORE             291 DXPOA73                          922  922   Char Diagnosis 73, present on admission indicator
+GA  2017 CORE             292 DXPOA74                          923  923   Char Diagnosis 74, present on admission indicator
+GA  2017 CORE             293 DXPOA75                          924  924   Char Diagnosis 75, present on admission indicator
+GA  2017 CORE             294 DXPOA76                          925  925   Char Diagnosis 76, present on admission indicator
+GA  2017 CORE             295 DXPOA77                          926  926   Char Diagnosis 77, present on admission indicator
+GA  2017 CORE             296 DXPOA78                          927  927   Char Diagnosis 78, present on admission indicator
+GA  2017 CORE             297 DXPOA79                          928  928   Char Diagnosis 79, present on admission indicator
+GA  2017 CORE             298 DXPOA80                          929  929   Char Diagnosis 80, present on admission indicator
+GA  2017 CORE             299 DXPOA81                          930  930   Char Diagnosis 81, present on admission indicator
+GA  2017 CORE             300 DXPOA82                          931  931   Char Diagnosis 82, present on admission indicator
+GA  2017 CORE             301 DXPOA83                          932  932   Char Diagnosis 83, present on admission indicator
+GA  2017 CORE             302 DXVER                            933  935   Num  Diagnosis Version
+GA  2017 CORE             303 FEMALE                           936  937   Num  Indicator of sex
+GA  2017 CORE             304 HCUP_ED                          938  939   Num  HCUP Emergency Department service indicator
+GA  2017 CORE             305 HCUP_OS                          940  941   Num  HCUP Observation Stay service indicator
+GA  2017 CORE             306 HISPANIC                         942  943   Num  Hispanic ethnicity (uniform)
+GA  2017 CORE             307 HISPANIC_X                       944  944   Char Hispanic ethnicity (as received from source)
+GA  2017 CORE             308 Homeless                         945  946   Num  Indicator that patient is homeless
+GA  2017 CORE             309 HOSPST                           947  948   Char Hospital state postal code
+GA  2017 CORE             310 I10_DX1                          949  955   Char ICD-10-CM Diagnosis 1
+GA  2017 CORE             311 I10_DX2                          956  962   Char ICD-10-CM Diagnosis 2
+GA  2017 CORE             312 I10_DX3                          963  969   Char ICD-10-CM Diagnosis 3
+GA  2017 CORE             313 I10_DX4                          970  976   Char ICD-10-CM Diagnosis 4
+GA  2017 CORE             314 I10_DX5                          977  983   Char ICD-10-CM Diagnosis 5
+GA  2017 CORE             315 I10_DX6                          984  990   Char ICD-10-CM Diagnosis 6
+GA  2017 CORE             316 I10_DX7                          991  997   Char ICD-10-CM Diagnosis 7
+GA  2017 CORE             317 I10_DX8                          998 1004   Char ICD-10-CM Diagnosis 8
+GA  2017 CORE             318 I10_DX9                         1005 1011   Char ICD-10-CM Diagnosis 9
+GA  2017 CORE             319 I10_DX10                        1012 1018   Char ICD-10-CM Diagnosis 10
+GA  2017 CORE             320 I10_DX11                        1019 1025   Char ICD-10-CM Diagnosis 11
+GA  2017 CORE             321 I10_DX12                        1026 1032   Char ICD-10-CM Diagnosis 12
+GA  2017 CORE             322 I10_DX13                        1033 1039   Char ICD-10-CM Diagnosis 13
+GA  2017 CORE             323 I10_DX14                        1040 1046   Char ICD-10-CM Diagnosis 14
+GA  2017 CORE             324 I10_DX15                        1047 1053   Char ICD-10-CM Diagnosis 15
+GA  2017 CORE             325 I10_DX16                        1054 1060   Char ICD-10-CM Diagnosis 16
+GA  2017 CORE             326 I10_DX17                        1061 1067   Char ICD-10-CM Diagnosis 17
+GA  2017 CORE             327 I10_DX18                        1068 1074   Char ICD-10-CM Diagnosis 18
+GA  2017 CORE             328 I10_DX19                        1075 1081   Char ICD-10-CM Diagnosis 19
+GA  2017 CORE             329 I10_DX20                        1082 1088   Char ICD-10-CM Diagnosis 20
+GA  2017 CORE             330 I10_DX21                        1089 1095   Char ICD-10-CM Diagnosis 21
+GA  2017 CORE             331 I10_DX22                        1096 1102   Char ICD-10-CM Diagnosis 22
+GA  2017 CORE             332 I10_DX23                        1103 1109   Char ICD-10-CM Diagnosis 23
+GA  2017 CORE             333 I10_DX24                        1110 1116   Char ICD-10-CM Diagnosis 24
+GA  2017 CORE             334 I10_DX25                        1117 1123   Char ICD-10-CM Diagnosis 25
+GA  2017 CORE             335 I10_DX26                        1124 1130   Char ICD-10-CM Diagnosis 26
+GA  2017 CORE             336 I10_DX27                        1131 1137   Char ICD-10-CM Diagnosis 27
+GA  2017 CORE             337 I10_DX28                        1138 1144   Char ICD-10-CM Diagnosis 28
+GA  2017 CORE             338 I10_DX29                        1145 1151   Char ICD-10-CM Diagnosis 29
+GA  2017 CORE             339 I10_DX30                        1152 1158   Char ICD-10-CM Diagnosis 30
+GA  2017 CORE             340 I10_DX31                        1159 1165   Char ICD-10-CM Diagnosis 31
+GA  2017 CORE             341 I10_DX32                        1166 1172   Char ICD-10-CM Diagnosis 32
+GA  2017 CORE             342 I10_DX33                        1173 1179   Char ICD-10-CM Diagnosis 33
+GA  2017 CORE             343 I10_DX34                        1180 1186   Char ICD-10-CM Diagnosis 34
+GA  2017 CORE             344 I10_DX35                        1187 1193   Char ICD-10-CM Diagnosis 35
+GA  2017 CORE             345 I10_DX36                        1194 1200   Char ICD-10-CM Diagnosis 36
+GA  2017 CORE             346 I10_DX37                        1201 1207   Char ICD-10-CM Diagnosis 37
+GA  2017 CORE             347 I10_DX38                        1208 1214   Char ICD-10-CM Diagnosis 38
+GA  2017 CORE             348 I10_DX39                        1215 1221   Char ICD-10-CM Diagnosis 39
+GA  2017 CORE             349 I10_DX40                        1222 1228   Char ICD-10-CM Diagnosis 40
+GA  2017 CORE             350 I10_DX41                        1229 1235   Char ICD-10-CM Diagnosis 41
+GA  2017 CORE             351 I10_DX42                        1236 1242   Char ICD-10-CM Diagnosis 42
+GA  2017 CORE             352 I10_DX43                        1243 1249   Char ICD-10-CM Diagnosis 43
+GA  2017 CORE             353 I10_DX44                        1250 1256   Char ICD-10-CM Diagnosis 44
+GA  2017 CORE             354 I10_DX45                        1257 1263   Char ICD-10-CM Diagnosis 45
+GA  2017 CORE             355 I10_DX46                        1264 1270   Char ICD-10-CM Diagnosis 46
+GA  2017 CORE             356 I10_DX47                        1271 1277   Char ICD-10-CM Diagnosis 47
+GA  2017 CORE             357 I10_DX48                        1278 1284   Char ICD-10-CM Diagnosis 48
+GA  2017 CORE             358 I10_DX49                        1285 1291   Char ICD-10-CM Diagnosis 49
+GA  2017 CORE             359 I10_DX50                        1292 1298   Char ICD-10-CM Diagnosis 50
+GA  2017 CORE             360 I10_DX51                        1299 1305   Char ICD-10-CM Diagnosis 51
+GA  2017 CORE             361 I10_DX52                        1306 1312   Char ICD-10-CM Diagnosis 52
+GA  2017 CORE             362 I10_DX53                        1313 1319   Char ICD-10-CM Diagnosis 53
+GA  2017 CORE             363 I10_DX54                        1320 1326   Char ICD-10-CM Diagnosis 54
+GA  2017 CORE             364 I10_DX55                        1327 1333   Char ICD-10-CM Diagnosis 55
+GA  2017 CORE             365 I10_DX56                        1334 1340   Char ICD-10-CM Diagnosis 56
+GA  2017 CORE             366 I10_DX57                        1341 1347   Char ICD-10-CM Diagnosis 57
+GA  2017 CORE             367 I10_DX58                        1348 1354   Char ICD-10-CM Diagnosis 58
+GA  2017 CORE             368 I10_DX59                        1355 1361   Char ICD-10-CM Diagnosis 59
+GA  2017 CORE             369 I10_DX60                        1362 1368   Char ICD-10-CM Diagnosis 60
+GA  2017 CORE             370 I10_DX61                        1369 1375   Char ICD-10-CM Diagnosis 61
+GA  2017 CORE             371 I10_DX62                        1376 1382   Char ICD-10-CM Diagnosis 62
+GA  2017 CORE             372 I10_DX63                        1383 1389   Char ICD-10-CM Diagnosis 63
+GA  2017 CORE             373 I10_DX64                        1390 1396   Char ICD-10-CM Diagnosis 64
+GA  2017 CORE             374 I10_DX65                        1397 1403   Char ICD-10-CM Diagnosis 65
+GA  2017 CORE             375 I10_DX66                        1404 1410   Char ICD-10-CM Diagnosis 66
+GA  2017 CORE             376 I10_DX67                        1411 1417   Char ICD-10-CM Diagnosis 67
+GA  2017 CORE             377 I10_DX68                        1418 1424   Char ICD-10-CM Diagnosis 68
+GA  2017 CORE             378 I10_DX69                        1425 1431   Char ICD-10-CM Diagnosis 69
+GA  2017 CORE             379 I10_DX70                        1432 1438   Char ICD-10-CM Diagnosis 70
+GA  2017 CORE             380 I10_DX71                        1439 1445   Char ICD-10-CM Diagnosis 71
+GA  2017 CORE             381 I10_DX72                        1446 1452   Char ICD-10-CM Diagnosis 72
+GA  2017 CORE             382 I10_DX73                        1453 1459   Char ICD-10-CM Diagnosis 73
+GA  2017 CORE             383 I10_DX74                        1460 1466   Char ICD-10-CM Diagnosis 74
+GA  2017 CORE             384 I10_DX75                        1467 1473   Char ICD-10-CM Diagnosis 75
+GA  2017 CORE             385 I10_DX76                        1474 1480   Char ICD-10-CM Diagnosis 76
+GA  2017 CORE             386 I10_DX77                        1481 1487   Char ICD-10-CM Diagnosis 77
+GA  2017 CORE             387 I10_DX78                        1488 1494   Char ICD-10-CM Diagnosis 78
+GA  2017 CORE             388 I10_DX79                        1495 1501   Char ICD-10-CM Diagnosis 79
+GA  2017 CORE             389 I10_DX80                        1502 1508   Char ICD-10-CM Diagnosis 80
+GA  2017 CORE             390 I10_DX81                        1509 1515   Char ICD-10-CM Diagnosis 81
+GA  2017 CORE             391 I10_DX82                        1516 1522   Char ICD-10-CM Diagnosis 82
+GA  2017 CORE             392 I10_DX83                        1523 1529   Char ICD-10-CM Diagnosis 83
+GA  2017 CORE             393 I10_NDX                         1530 1532   Num  ICD-10-CM Number of diagnoses on this record
+GA  2017 CORE             394 I10_NPR                         1533 1535   Num  ICD-10-PCS Number of procedures on this record
+GA  2017 CORE             395 I10_PR1                         1536 1542   Char ICD-10-PCS Procedure 1
+GA  2017 CORE             396 I10_PR2                         1543 1549   Char ICD-10-PCS Procedure 2
+GA  2017 CORE             397 I10_PR3                         1550 1556   Char ICD-10-PCS Procedure 3
+GA  2017 CORE             398 I10_PR4                         1557 1563   Char ICD-10-PCS Procedure 4
+GA  2017 CORE             399 I10_PR5                         1564 1570   Char ICD-10-PCS Procedure 5
+GA  2017 CORE             400 I10_PR6                         1571 1577   Char ICD-10-PCS Procedure 6
+GA  2017 CORE             401 I10_PR7                         1578 1584   Char ICD-10-PCS Procedure 7
+GA  2017 CORE             402 I10_PR8                         1585 1591   Char ICD-10-PCS Procedure 8
+GA  2017 CORE             403 I10_PR9                         1592 1598   Char ICD-10-PCS Procedure 9
+GA  2017 CORE             404 I10_PR10                        1599 1605   Char ICD-10-PCS Procedure 10
+GA  2017 CORE             405 I10_PR11                        1606 1612   Char ICD-10-PCS Procedure 11
+GA  2017 CORE             406 I10_PR12                        1613 1619   Char ICD-10-PCS Procedure 12
+GA  2017 CORE             407 I10_PR13                        1620 1626   Char ICD-10-PCS Procedure 13
+GA  2017 CORE             408 I10_PR14                        1627 1633   Char ICD-10-PCS Procedure 14
+GA  2017 CORE             409 I10_PR15                        1634 1640   Char ICD-10-PCS Procedure 15
+GA  2017 CORE             410 I10_PR16                        1641 1647   Char ICD-10-PCS Procedure 16
+GA  2017 CORE             411 I10_PR17                        1648 1654   Char ICD-10-PCS Procedure 17
+GA  2017 CORE             412 I10_PR18                        1655 1661   Char ICD-10-PCS Procedure 18
+GA  2017 CORE             413 I10_PR19                        1662 1668   Char ICD-10-PCS Procedure 19
+GA  2017 CORE             414 I10_PR20                        1669 1675   Char ICD-10-PCS Procedure 20
+GA  2017 CORE             415 I10_PR21                        1676 1682   Char ICD-10-PCS Procedure 21
+GA  2017 CORE             416 I10_PR22                        1683 1689   Char ICD-10-PCS Procedure 22
+GA  2017 CORE             417 I10_PR23                        1690 1696   Char ICD-10-PCS Procedure 23
+GA  2017 CORE             418 I10_PR24                        1697 1703   Char ICD-10-PCS Procedure 24
+GA  2017 CORE             419 I10_PR25                        1704 1710   Char ICD-10-PCS Procedure 25
+GA  2017 CORE             420 I10_PR26                        1711 1717   Char ICD-10-PCS Procedure 26
+GA  2017 CORE             421 I10_PR27                        1718 1724   Char ICD-10-PCS Procedure 27
+GA  2017 CORE             422 I10_PR28                        1725 1731   Char ICD-10-PCS Procedure 28
+GA  2017 CORE             423 I10_PR29                        1732 1738   Char ICD-10-PCS Procedure 29
+GA  2017 CORE             424 I10_PR30                        1739 1745   Char ICD-10-PCS Procedure 30
+GA  2017 CORE             425 I10_PR31                        1746 1752   Char ICD-10-PCS Procedure 31
+GA  2017 CORE             426 I10_PR32                        1753 1759   Char ICD-10-PCS Procedure 32
+GA  2017 CORE             427 I10_PR33                        1760 1766   Char ICD-10-PCS Procedure 33
+GA  2017 CORE             428 I10_PR34                        1767 1773   Char ICD-10-PCS Procedure 34
+GA  2017 CORE             429 I10_PR35                        1774 1780   Char ICD-10-PCS Procedure 35
+GA  2017 CORE             430 I10_PR36                        1781 1787   Char ICD-10-PCS Procedure 36
+GA  2017 CORE             431 I10_PR37                        1788 1794   Char ICD-10-PCS Procedure 37
+GA  2017 CORE             432 I10_PR38                        1795 1801   Char ICD-10-PCS Procedure 38
+GA  2017 CORE             433 I10_PR39                        1802 1808   Char ICD-10-PCS Procedure 39
+GA  2017 CORE             434 I10_PR40                        1809 1815   Char ICD-10-PCS Procedure 40
+GA  2017 CORE             435 I10_PR41                        1816 1822   Char ICD-10-PCS Procedure 41
+GA  2017 CORE             436 I10_PR42                        1823 1829   Char ICD-10-PCS Procedure 42
+GA  2017 CORE             437 I10_PR43                        1830 1836   Char ICD-10-PCS Procedure 43
+GA  2017 CORE             438 I10_PR44                        1837 1843   Char ICD-10-PCS Procedure 44
+GA  2017 CORE             439 I10_PR45                        1844 1850   Char ICD-10-PCS Procedure 45
+GA  2017 CORE             440 I10_PR46                        1851 1857   Char ICD-10-PCS Procedure 46
+GA  2017 CORE             441 I10_PR47                        1858 1864   Char ICD-10-PCS Procedure 47
+GA  2017 CORE             442 I10_PR48                        1865 1871   Char ICD-10-PCS Procedure 48
+GA  2017 CORE             443 I10_PR49                        1872 1878   Char ICD-10-PCS Procedure 49
+GA  2017 CORE             444 I10_PR50                        1879 1885   Char ICD-10-PCS Procedure 50
+GA  2017 CORE             445 I10_PR51                        1886 1892   Char ICD-10-PCS Procedure 51
+GA  2017 CORE             446 I10_PR52                        1893 1899   Char ICD-10-PCS Procedure 52
+GA  2017 CORE             447 I10_PR53                        1900 1906   Char ICD-10-PCS Procedure 53
+GA  2017 CORE             448 I10_PR54                        1907 1913   Char ICD-10-PCS Procedure 54
+GA  2017 CORE             449 I10_PR55                        1914 1920   Char ICD-10-PCS Procedure 55
+GA  2017 CORE             450 I10_PR56                        1921 1927   Char ICD-10-PCS Procedure 56
+GA  2017 CORE             451 I10_PR57                        1928 1934   Char ICD-10-PCS Procedure 57
+GA  2017 CORE             452 I10_PR58                        1935 1941   Char ICD-10-PCS Procedure 58
+GA  2017 CORE             453 I10_PR59                        1942 1948   Char ICD-10-PCS Procedure 59
+GA  2017 CORE             454 I10_PR60                        1949 1955   Char ICD-10-PCS Procedure 60
+GA  2017 CORE             455 I10_PR61                        1956 1962   Char ICD-10-PCS Procedure 61
+GA  2017 CORE             456 I10_PR62                        1963 1969   Char ICD-10-PCS Procedure 62
+GA  2017 CORE             457 I10_PR63                        1970 1976   Char ICD-10-PCS Procedure 63
+GA  2017 CORE             458 I10_PR64                        1977 1983   Char ICD-10-PCS Procedure 64
+GA  2017 CORE             459 I10_PR65                        1984 1990   Char ICD-10-PCS Procedure 65
+GA  2017 CORE             460 I10_PR66                        1991 1997   Char ICD-10-PCS Procedure 66
+GA  2017 CORE             461 I10_PR67                        1998 2004   Char ICD-10-PCS Procedure 67
+GA  2017 CORE             462 I10_PR68                        2005 2011   Char ICD-10-PCS Procedure 68
+GA  2017 CORE             463 I10_PR69                        2012 2018   Char ICD-10-PCS Procedure 69
+GA  2017 CORE             464 I10_PR70                        2019 2025   Char ICD-10-PCS Procedure 70
+GA  2017 CORE             465 I10_PR71                        2026 2032   Char ICD-10-PCS Procedure 71
+GA  2017 CORE             466 I10_PR72                        2033 2039   Char ICD-10-PCS Procedure 72
+GA  2017 CORE             467 I10_PR73                        2040 2046   Char ICD-10-PCS Procedure 73
+GA  2017 CORE             468 I10_PR74                        2047 2053   Char ICD-10-PCS Procedure 74
+GA  2017 CORE             469 I10_PR75                        2054 2060   Char ICD-10-PCS Procedure 75
+GA  2017 CORE             470 I10_PR76                        2061 2067   Char ICD-10-PCS Procedure 76
+GA  2017 CORE             471 I10_PR77                        2068 2074   Char ICD-10-PCS Procedure 77
+GA  2017 CORE             472 I10_PR78                        2075 2081   Char ICD-10-PCS Procedure 78
+GA  2017 CORE             473 I10_PR79                        2082 2088   Char ICD-10-PCS Procedure 79
+GA  2017 CORE             474 I10_PR80                        2089 2095   Char ICD-10-PCS Procedure 80
+GA  2017 CORE             475 I10_PR81                        2096 2102   Char ICD-10-PCS Procedure 81
+GA  2017 CORE             476 I10_PR82                        2103 2109   Char ICD-10-PCS Procedure 82
+GA  2017 CORE             477 I10_PR83                        2110 2116   Char ICD-10-PCS Procedure 83
+GA  2017 CORE             478 I10_PR84                        2117 2123   Char ICD-10-PCS Procedure 84
+GA  2017 CORE             479 I10_PR85                        2124 2130   Char ICD-10-PCS Procedure 85
+GA  2017 CORE             480 I10_PR86                        2131 2137   Char ICD-10-PCS Procedure 86
+GA  2017 CORE             481 I10_PR87                        2138 2144   Char ICD-10-PCS Procedure 87
+GA  2017 CORE             482 I10_PR88                        2145 2151   Char ICD-10-PCS Procedure 88
+GA  2017 CORE             483 I10_PR89                        2152 2158   Char ICD-10-PCS Procedure 89
+GA  2017 CORE             484 I10_PR90                        2159 2165   Char ICD-10-PCS Procedure 90
+GA  2017 CORE             485 I10_PR91                        2166 2172   Char ICD-10-PCS Procedure 91
+GA  2017 CORE             486 I10_PR92                        2173 2179   Char ICD-10-PCS Procedure 92
+GA  2017 CORE             487 I10_PR93                        2180 2186   Char ICD-10-PCS Procedure 93
+GA  2017 CORE             488 I10_PR94                        2187 2193   Char ICD-10-PCS Procedure 94
+GA  2017 CORE             489 I10_PR95                        2194 2200   Char ICD-10-PCS Procedure 95
+GA  2017 CORE             490 I10_PR96                        2201 2207   Char ICD-10-PCS Procedure 96
+GA  2017 CORE             491 I10_PR97                        2208 2214   Char ICD-10-PCS Procedure 97
+GA  2017 CORE             492 I10_PR98                        2215 2221   Char ICD-10-PCS Procedure 98
+GA  2017 CORE             493 I10_PR99                        2222 2228   Char ICD-10-PCS Procedure 99
+GA  2017 CORE             494 I10_PR100                       2229 2235   Char ICD-10-PCS Procedure 100
+GA  2017 CORE             495 I10_PROCTYPE                    2236 2238   Num  ICD-10-PCS Procedure type indicator
+GA  2017 CORE             496 KEY                             2239 2253   Num  HCUP record identifier
+GA  2017 CORE             497 LOS                             2254 2258   Num  Length of stay (cleaned)
+GA  2017 CORE             498 LOS_X                           2259 2264   Num  Length of stay (as received from source)
+GA  2017 CORE             499 MARITALSTATUS_X                 2265 2265   Char Patient's marital status (as received from source)
+GA  2017 CORE             500 MARITALSTATUSUB04               2266 2266   Char Patient's marital status, UB-04 standard coding
+GA  2017 CORE             501 MDC                             2267 2268   Num  MDC in effect on discharge date
+GA  2017 CORE             502 MDC_NoPOA                       2269 2270   Num  MDC in use on discharge date, calculated without POA
+GA  2017 CORE             503 MDNUM1_R                        2271 2279   Num  Physician 1 number (re-identified)
+GA  2017 CORE             504 MDNUM2_R                        2280 2288   Num  Physician 2 number (re-identified)
+GA  2017 CORE             505 MDNUM3_R                        2289 2297   Num  Physician 3 number (re-identified)
+GA  2017 CORE             506 MDNUM4_R                        2298 2306   Num  Physician 4 number (re-identified)
+GA  2017 CORE             507 MEDINCSTQ                       2307 2308   Num  Median household income state quartile for patient ZIP Code
+GA  2017 CORE             508 NCPT                            2309 2312   Num  Number of CPT/HCPCS procedures for this visit
+GA  2017 CORE             509 OS_TIME                         2313 2323 2 Num  Observation stay time summed from UNITS
+GA  2017 CORE             510 PAY1                            2324 2325   Num  Primary expected payer (uniform)
+GA  2017 CORE             511 PAY1_X                          2326 2329   Char Primary expected payer (as received from source)
+GA  2017 CORE             512 PAY2                            2330 2331   Num  Secondary expected payer (uniform)
+GA  2017 CORE             513 PAY2_X                          2332 2335   Char Secondary expected payer (as received from source)
+GA  2017 CORE             514 PAY3                            2336 2337   Num  Tertiary expected payer (uniform)
+GA  2017 CORE             515 PAY3_X                          2338 2341   Char Tertiary expected payer (as received from source)
+GA  2017 CORE             516 PL_CBSA                         2342 2344   Num  Patient location: Core Based Statistical Area (CBSA)
+GA  2017 CORE             517 PL_NCHS                         2345 2346   Num  Patient Location: NCHS Urban-Rural Code
+GA  2017 CORE             518 PL_RUCC                         2347 2348   Num  Patient location: Rural-Urban Continuum Codes(RUCC)
+GA  2017 CORE             519 PL_UIC                          2349 2350   Num  Patient location: Urban Influence Codes
+GA  2017 CORE             520 PL_UR_CAT4                      2351 2352   Num  Patient Location: Urban-Rural 4 Categories
+GA  2017 CORE             521 POA_Disch_Edit1                 2353 2354   Num  Discharge has POA missing on all nonexempt diagnoses
+GA  2017 CORE             522 POA_Disch_Edit2                 2355 2356   Num  Discharge has POA missing on all nonexempt secondary diagnoses
+GA  2017 CORE             523 POA_Hosp_Edit1                  2357 2358   Num  Hospital reported POA as Y on all diagnoses on all discharges
+GA  2017 CORE             524 POA_Hosp_Edit2                  2359 2360   Num  Hospital reported POA as missing on all non-Medicare discharges
+GA  2017 CORE             525 POA_Hosp_Edit3                  2361 2362   Num  Hospital reported POA as missing on all nonexempt diagnoses for 15% or more of discharges
+GA  2017 CORE             526 POA_Hosp_Edit3_Value            2363 2370 2 Num  Percentage of discharges with all nonexempt diagnoses missing POA indicators
+GA  2017 CORE             527 PointOfOrigin_X                 2371 2371   Char Point of origin for admission or visit, as received from source
+GA  2017 CORE             528 PointOfOriginUB04               2372 2372   Char Point of origin for admission or visit, UB-04 standard coding
+GA  2017 CORE             529 PRDAY1                          2373 2377   Num  Number of days from admission to I10_PR1
+GA  2017 CORE             530 PRDAY2                          2378 2382   Num  Number of days from admission to I10_PR2
+GA  2017 CORE             531 PRDAY3                          2383 2387   Num  Number of days from admission to I10_PR3
+GA  2017 CORE             532 PRDAY4                          2388 2392   Num  Number of days from admission to I10_PR4
+GA  2017 CORE             533 PRDAY5                          2393 2397   Num  Number of days from admission to I10_PR5
+GA  2017 CORE             534 PRDAY6                          2398 2402   Num  Number of days from admission to I10_PR6
+GA  2017 CORE             535 PRDAY7                          2403 2407   Num  Number of days from admission to I10_PR7
+GA  2017 CORE             536 PRDAY8                          2408 2412   Num  Number of days from admission to I10_PR8
+GA  2017 CORE             537 PRDAY9                          2413 2417   Num  Number of days from admission to I10_PR9
+GA  2017 CORE             538 PRDAY10                         2418 2422   Num  Number of days from admission to I10_PR10
+GA  2017 CORE             539 PRDAY11                         2423 2427   Num  Number of days from admission to I10_PR11
+GA  2017 CORE             540 PRDAY12                         2428 2432   Num  Number of days from admission to I10_PR12
+GA  2017 CORE             541 PRDAY13                         2433 2437   Num  Number of days from admission to I10_PR13
+GA  2017 CORE             542 PRDAY14                         2438 2442   Num  Number of days from admission to I10_PR14
+GA  2017 CORE             543 PRDAY15                         2443 2447   Num  Number of days from admission to I10_PR15
+GA  2017 CORE             544 PRDAY16                         2448 2452   Num  Number of days from admission to I10_PR16
+GA  2017 CORE             545 PRDAY17                         2453 2457   Num  Number of days from admission to I10_PR17
+GA  2017 CORE             546 PRDAY18                         2458 2462   Num  Number of days from admission to I10_PR18
+GA  2017 CORE             547 PRDAY19                         2463 2467   Num  Number of days from admission to I10_PR19
+GA  2017 CORE             548 PRDAY20                         2468 2472   Num  Number of days from admission to I10_PR20
+GA  2017 CORE             549 PRDAY21                         2473 2477   Num  Number of days from admission to I10_PR21
+GA  2017 CORE             550 PRDAY22                         2478 2482   Num  Number of days from admission to I10_PR22
+GA  2017 CORE             551 PRDAY23                         2483 2487   Num  Number of days from admission to I10_PR23
+GA  2017 CORE             552 PRDAY24                         2488 2492   Num  Number of days from admission to I10_PR24
+GA  2017 CORE             553 PRDAY25                         2493 2497   Num  Number of days from admission to I10_PR25
+GA  2017 CORE             554 PRDAY26                         2498 2502   Num  Number of days from admission to I10_PR26
+GA  2017 CORE             555 PRDAY27                         2503 2507   Num  Number of days from admission to I10_PR27
+GA  2017 CORE             556 PRDAY28                         2508 2512   Num  Number of days from admission to I10_PR28
+GA  2017 CORE             557 PRDAY29                         2513 2517   Num  Number of days from admission to I10_PR29
+GA  2017 CORE             558 PRDAY30                         2518 2522   Num  Number of days from admission to I10_PR30
+GA  2017 CORE             559 PRDAY31                         2523 2527   Num  Number of days from admission to I10_PR31
+GA  2017 CORE             560 PRDAY32                         2528 2532   Num  Number of days from admission to I10_PR32
+GA  2017 CORE             561 PRDAY33                         2533 2537   Num  Number of days from admission to I10_PR33
+GA  2017 CORE             562 PRDAY34                         2538 2542   Num  Number of days from admission to I10_PR34
+GA  2017 CORE             563 PRDAY35                         2543 2547   Num  Number of days from admission to I10_PR35
+GA  2017 CORE             564 PRDAY36                         2548 2552   Num  Number of days from admission to I10_PR36
+GA  2017 CORE             565 PRDAY37                         2553 2557   Num  Number of days from admission to I10_PR37
+GA  2017 CORE             566 PRDAY38                         2558 2562   Num  Number of days from admission to I10_PR38
+GA  2017 CORE             567 PRDAY39                         2563 2567   Num  Number of days from admission to I10_PR39
+GA  2017 CORE             568 PRDAY40                         2568 2572   Num  Number of days from admission to I10_PR40
+GA  2017 CORE             569 PRDAY41                         2573 2577   Num  Number of days from admission to I10_PR41
+GA  2017 CORE             570 PRDAY42                         2578 2582   Num  Number of days from admission to I10_PR42
+GA  2017 CORE             571 PRDAY43                         2583 2587   Num  Number of days from admission to I10_PR43
+GA  2017 CORE             572 PRDAY44                         2588 2592   Num  Number of days from admission to I10_PR44
+GA  2017 CORE             573 PRDAY45                         2593 2597   Num  Number of days from admission to I10_PR45
+GA  2017 CORE             574 PRDAY46                         2598 2602   Num  Number of days from admission to I10_PR46
+GA  2017 CORE             575 PRDAY47                         2603 2607   Num  Number of days from admission to I10_PR47
+GA  2017 CORE             576 PRDAY48                         2608 2612   Num  Number of days from admission to I10_PR48
+GA  2017 CORE             577 PRDAY49                         2613 2617   Num  Number of days from admission to I10_PR49
+GA  2017 CORE             578 PRDAY50                         2618 2622   Num  Number of days from admission to I10_PR50
+GA  2017 CORE             579 PRDAY51                         2623 2627   Num  Number of days from admission to I10_PR51
+GA  2017 CORE             580 PRDAY52                         2628 2632   Num  Number of days from admission to I10_PR52
+GA  2017 CORE             581 PRDAY53                         2633 2637   Num  Number of days from admission to I10_PR53
+GA  2017 CORE             582 PRDAY54                         2638 2642   Num  Number of days from admission to I10_PR54
+GA  2017 CORE             583 PRDAY55                         2643 2647   Num  Number of days from admission to I10_PR55
+GA  2017 CORE             584 PRDAY56                         2648 2652   Num  Number of days from admission to I10_PR56
+GA  2017 CORE             585 PRDAY57                         2653 2657   Num  Number of days from admission to I10_PR57
+GA  2017 CORE             586 PRDAY58                         2658 2662   Num  Number of days from admission to I10_PR58
+GA  2017 CORE             587 PRDAY59                         2663 2667   Num  Number of days from admission to I10_PR59
+GA  2017 CORE             588 PRDAY60                         2668 2672   Num  Number of days from admission to I10_PR60
+GA  2017 CORE             589 PRDAY61                         2673 2677   Num  Number of days from admission to I10_PR61
+GA  2017 CORE             590 PRDAY62                         2678 2682   Num  Number of days from admission to I10_PR62
+GA  2017 CORE             591 PRDAY63                         2683 2687   Num  Number of days from admission to I10_PR63
+GA  2017 CORE             592 PRDAY64                         2688 2692   Num  Number of days from admission to I10_PR64
+GA  2017 CORE             593 PRDAY65                         2693 2697   Num  Number of days from admission to I10_PR65
+GA  2017 CORE             594 PRDAY66                         2698 2702   Num  Number of days from admission to I10_PR66
+GA  2017 CORE             595 PRDAY67                         2703 2707   Num  Number of days from admission to I10_PR67
+GA  2017 CORE             596 PRDAY68                         2708 2712   Num  Number of days from admission to I10_PR68
+GA  2017 CORE             597 PRDAY69                         2713 2717   Num  Number of days from admission to I10_PR69
+GA  2017 CORE             598 PRDAY70                         2718 2722   Num  Number of days from admission to I10_PR70
+GA  2017 CORE             599 PRDAY71                         2723 2727   Num  Number of days from admission to I10_PR71
+GA  2017 CORE             600 PRDAY72                         2728 2732   Num  Number of days from admission to I10_PR72
+GA  2017 CORE             601 PRDAY73                         2733 2737   Num  Number of days from admission to I10_PR73
+GA  2017 CORE             602 PRDAY74                         2738 2742   Num  Number of days from admission to I10_PR74
+GA  2017 CORE             603 PRDAY75                         2743 2747   Num  Number of days from admission to I10_PR75
+GA  2017 CORE             604 PRDAY76                         2748 2752   Num  Number of days from admission to I10_PR76
+GA  2017 CORE             605 PRDAY77                         2753 2757   Num  Number of days from admission to I10_PR77
+GA  2017 CORE             606 PRDAY78                         2758 2762   Num  Number of days from admission to I10_PR78
+GA  2017 CORE             607 PRDAY79                         2763 2767   Num  Number of days from admission to I10_PR79
+GA  2017 CORE             608 PRDAY80                         2768 2772   Num  Number of days from admission to I10_PR80
+GA  2017 CORE             609 PRDAY81                         2773 2777   Num  Number of days from admission to I10_PR81
+GA  2017 CORE             610 PRDAY82                         2778 2782   Num  Number of days from admission to I10_PR82
+GA  2017 CORE             611 PRDAY83                         2783 2787   Num  Number of days from admission to I10_PR83
+GA  2017 CORE             612 PRDAY84                         2788 2792   Num  Number of days from admission to I10_PR84
+GA  2017 CORE             613 PRDAY85                         2793 2797   Num  Number of days from admission to I10_PR85
+GA  2017 CORE             614 PRDAY86                         2798 2802   Num  Number of days from admission to I10_PR86
+GA  2017 CORE             615 PRDAY87                         2803 2807   Num  Number of days from admission to I10_PR87
+GA  2017 CORE             616 PRDAY88                         2808 2812   Num  Number of days from admission to I10_PR88
+GA  2017 CORE             617 PRDAY89                         2813 2817   Num  Number of days from admission to I10_PR89
+GA  2017 CORE             618 PRDAY90                         2818 2822   Num  Number of days from admission to I10_PR90
+GA  2017 CORE             619 PRDAY91                         2823 2827   Num  Number of days from admission to I10_PR91
+GA  2017 CORE             620 PRDAY92                         2828 2832   Num  Number of days from admission to I10_PR92
+GA  2017 CORE             621 PRDAY93                         2833 2837   Num  Number of days from admission to I10_PR93
+GA  2017 CORE             622 PRDAY94                         2838 2842   Num  Number of days from admission to I10_PR94
+GA  2017 CORE             623 PRDAY95                         2843 2847   Num  Number of days from admission to I10_PR95
+GA  2017 CORE             624 PRDAY96                         2848 2852   Num  Number of days from admission to I10_PR96
+GA  2017 CORE             625 PRDAY97                         2853 2857   Num  Number of days from admission to I10_PR97
+GA  2017 CORE             626 PRDAY98                         2858 2862   Num  Number of days from admission to I10_PR98
+GA  2017 CORE             627 PRDAY99                         2863 2867   Num  Number of days from admission to I10_PR99
+GA  2017 CORE             628 PRDAY100                        2868 2872   Num  Number of days from admission to I10_PR100
+GA  2017 CORE             629 PrimLang                        2873 2875   Char Primary language of patient
+GA  2017 CORE             630 PRVER                           2876 2878   Num  Procedure Version
+GA  2017 CORE             631 PSTATE                          2879 2880   Char Patient State postal code
+GA  2017 CORE             632 PSTCO                           2881 2885   Num  Patient state/county FIPS code
+GA  2017 CORE             633 PSTCO2                          2886 2890   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+GA  2017 CORE             634 RACE                            2891 2892   Num  Race (uniform)
+GA  2017 CORE             635 RACE_EDIT                       2893 2894   Num  Race Edit Checks
+GA  2017 CORE             636 RACE_X                          2895 2895   Char Race (as received from source)
+GA  2017 CORE             637 TOTCHG                          2896 2905   Num  Total charges (cleaned)
+GA  2017 CORE             638 TOTCHG_X                        2906 2920 2 Num  Total charges (as received from source)
+GA  2017 CORE             639 TRAN_IN                         2921 2922   Num  Transfer in indicator
+GA  2017 CORE             640 TRAN_OUT                        2923 2924   Num  Transfer out indicator
+GA  2017 CORE             641 VisitLink                       2925 2933   Num  Visit linkage variable
+GA  2017 CORE             642 YEAR                            2934 2937   Num  Calendar year
+GA  2017 CORE             643 ZIP                             2938 2942   Char Patient ZIP Code
+GA  2017 CORE             644 ZIP3                            2943 2945   Char Patient ZIP Code, first 3 digits
+GA  2017 CORE             645 ZIPINC_QRTL                     2946 2948   Num  Median household income national quartile for patient ZIP Code
+GA  2017 CORE             646 HOSPID                          2949 2953   Num  HCUP hospital identification number
+GA  2017 CORE             647 AYEAR                           2954 2957   Num  Admission year
+GA  2017 CORE             648 BMONTH                          2958 2959   Num  Birth month
+GA  2017 CORE             649 BYEAR                           2960 2963   Num  Birth year
+GA  2017 CORE             650 PRMONTH1                        2964 2965   Num  Month of procedure 1
+GA  2017 CORE             651 PRMONTH2                        2966 2967   Num  Month of procedure 2
+GA  2017 CORE             652 PRMONTH3                        2968 2969   Num  Month of procedure 3
+GA  2017 CORE             653 PRMONTH4                        2970 2971   Num  Month of procedure 4
+GA  2017 CORE             654 PRMONTH5                        2972 2973   Num  Month of procedure 5
+GA  2017 CORE             655 PRMONTH6                        2974 2975   Num  Month of procedure 6
+GA  2017 CORE             656 PRMONTH7                        2976 2977   Num  Month of procedure 7
+GA  2017 CORE             657 PRMONTH8                        2978 2979   Num  Month of procedure 8
+GA  2017 CORE             658 PRMONTH9                        2980 2981   Num  Month of procedure 9
+GA  2017 CORE             659 PRMONTH10                       2982 2983   Num  Month of procedure 10
+GA  2017 CORE             660 PRMONTH11                       2984 2985   Num  Month of procedure 11
+GA  2017 CORE             661 PRMONTH12                       2986 2987   Num  Month of procedure 12
+GA  2017 CORE             662 PRMONTH13                       2988 2989   Num  Month of procedure 13
+GA  2017 CORE             663 PRMONTH14                       2990 2991   Num  Month of procedure 14
+GA  2017 CORE             664 PRMONTH15                       2992 2993   Num  Month of procedure 15
+GA  2017 CORE             665 PRMONTH16                       2994 2995   Num  Month of procedure 16
+GA  2017 CORE             666 PRMONTH17                       2996 2997   Num  Month of procedure 17
+GA  2017 CORE             667 PRMONTH18                       2998 2999   Num  Month of procedure 18
+GA  2017 CORE             668 PRMONTH19                       3000 3001   Num  Month of procedure 19
+GA  2017 CORE             669 PRMONTH20                       3002 3003   Num  Month of procedure 20
+GA  2017 CORE             670 PRMONTH21                       3004 3005   Num  Month of procedure 21
+GA  2017 CORE             671 PRMONTH22                       3006 3007   Num  Month of procedure 22
+GA  2017 CORE             672 PRMONTH23                       3008 3009   Num  Month of procedure 23
+GA  2017 CORE             673 PRMONTH24                       3010 3011   Num  Month of procedure 24
+GA  2017 CORE             674 PRMONTH25                       3012 3013   Num  Month of procedure 25
+GA  2017 CORE             675 PRMONTH26                       3014 3015   Num  Month of procedure 26
+GA  2017 CORE             676 PRMONTH27                       3016 3017   Num  Month of procedure 27
+GA  2017 CORE             677 PRMONTH28                       3018 3019   Num  Month of procedure 28
+GA  2017 CORE             678 PRMONTH29                       3020 3021   Num  Month of procedure 29
+GA  2017 CORE             679 PRMONTH30                       3022 3023   Num  Month of procedure 30
+GA  2017 CORE             680 PRMONTH31                       3024 3025   Num  Month of procedure 31
+GA  2017 CORE             681 PRMONTH32                       3026 3027   Num  Month of procedure 32
+GA  2017 CORE             682 PRMONTH33                       3028 3029   Num  Month of procedure 33
+GA  2017 CORE             683 PRMONTH34                       3030 3031   Num  Month of procedure 34
+GA  2017 CORE             684 PRMONTH35                       3032 3033   Num  Month of procedure 35
+GA  2017 CORE             685 PRMONTH36                       3034 3035   Num  Month of procedure 36
+GA  2017 CORE             686 PRMONTH37                       3036 3037   Num  Month of procedure 37
+GA  2017 CORE             687 PRMONTH38                       3038 3039   Num  Month of procedure 38
+GA  2017 CORE             688 PRMONTH39                       3040 3041   Num  Month of procedure 39
+GA  2017 CORE             689 PRMONTH40                       3042 3043   Num  Month of procedure 40
+GA  2017 CORE             690 PRMONTH41                       3044 3045   Num  Month of procedure 41
+GA  2017 CORE             691 PRMONTH42                       3046 3047   Num  Month of procedure 42
+GA  2017 CORE             692 PRMONTH43                       3048 3049   Num  Month of procedure 43
+GA  2017 CORE             693 PRMONTH44                       3050 3051   Num  Month of procedure 44
+GA  2017 CORE             694 PRMONTH45                       3052 3053   Num  Month of procedure 45
+GA  2017 CORE             695 PRMONTH46                       3054 3055   Num  Month of procedure 46
+GA  2017 CORE             696 PRMONTH47                       3056 3057   Num  Month of procedure 47
+GA  2017 CORE             697 PRMONTH48                       3058 3059   Num  Month of procedure 48
+GA  2017 CORE             698 PRMONTH49                       3060 3061   Num  Month of procedure 49
+GA  2017 CORE             699 PRMONTH50                       3062 3063   Num  Month of procedure 50
+GA  2017 CORE             700 PRMONTH51                       3064 3065   Num  Month of procedure 51
+GA  2017 CORE             701 PRMONTH52                       3066 3067   Num  Month of procedure 52
+GA  2017 CORE             702 PRMONTH53                       3068 3069   Num  Month of procedure 53
+GA  2017 CORE             703 PRMONTH54                       3070 3071   Num  Month of procedure 54
+GA  2017 CORE             704 PRMONTH55                       3072 3073   Num  Month of procedure 55
+GA  2017 CORE             705 PRMONTH56                       3074 3075   Num  Month of procedure 56
+GA  2017 CORE             706 PRMONTH57                       3076 3077   Num  Month of procedure 57
+GA  2017 CORE             707 PRMONTH58                       3078 3079   Num  Month of procedure 58
+GA  2017 CORE             708 PRMONTH59                       3080 3081   Num  Month of procedure 59
+GA  2017 CORE             709 PRMONTH60                       3082 3083   Num  Month of procedure 60
+GA  2017 CORE             710 PRMONTH61                       3084 3085   Num  Month of procedure 61
+GA  2017 CORE             711 PRMONTH62                       3086 3087   Num  Month of procedure 62
+GA  2017 CORE             712 PRMONTH63                       3088 3089   Num  Month of procedure 63
+GA  2017 CORE             713 PRMONTH64                       3090 3091   Num  Month of procedure 64
+GA  2017 CORE             714 PRMONTH65                       3092 3093   Num  Month of procedure 65
+GA  2017 CORE             715 PRMONTH66                       3094 3095   Num  Month of procedure 66
+GA  2017 CORE             716 PRMONTH67                       3096 3097   Num  Month of procedure 67
+GA  2017 CORE             717 PRMONTH68                       3098 3099   Num  Month of procedure 68
+GA  2017 CORE             718 PRMONTH69                       3100 3101   Num  Month of procedure 69
+GA  2017 CORE             719 PRMONTH70                       3102 3103   Num  Month of procedure 70
+GA  2017 CORE             720 PRMONTH71                       3104 3105   Num  Month of procedure 71
+GA  2017 CORE             721 PRMONTH72                       3106 3107   Num  Month of procedure 72
+GA  2017 CORE             722 PRMONTH73                       3108 3109   Num  Month of procedure 73
+GA  2017 CORE             723 PRMONTH74                       3110 3111   Num  Month of procedure 74
+GA  2017 CORE             724 PRMONTH75                       3112 3113   Num  Month of procedure 75
+GA  2017 CORE             725 PRMONTH76                       3114 3115   Num  Month of procedure 76
+GA  2017 CORE             726 PRMONTH77                       3116 3117   Num  Month of procedure 77
+GA  2017 CORE             727 PRMONTH78                       3118 3119   Num  Month of procedure 78
+GA  2017 CORE             728 PRMONTH79                       3120 3121   Num  Month of procedure 79
+GA  2017 CORE             729 PRMONTH80                       3122 3123   Num  Month of procedure 80
+GA  2017 CORE             730 PRMONTH81                       3124 3125   Num  Month of procedure 81
+GA  2017 CORE             731 PRMONTH82                       3126 3127   Num  Month of procedure 82
+GA  2017 CORE             732 PRMONTH83                       3128 3129   Num  Month of procedure 83
+GA  2017 CORE             733 PRMONTH84                       3130 3131   Num  Month of procedure 84
+GA  2017 CORE             734 PRMONTH85                       3132 3133   Num  Month of procedure 85
+GA  2017 CORE             735 PRMONTH86                       3134 3135   Num  Month of procedure 86
+GA  2017 CORE             736 PRMONTH87                       3136 3137   Num  Month of procedure 87
+GA  2017 CORE             737 PRMONTH88                       3138 3139   Num  Month of procedure 88
+GA  2017 CORE             738 PRMONTH89                       3140 3141   Num  Month of procedure 89
+GA  2017 CORE             739 PRMONTH90                       3142 3143   Num  Month of procedure 90
+GA  2017 CORE             740 PRMONTH91                       3144 3145   Num  Month of procedure 91
+GA  2017 CORE             741 PRMONTH92                       3146 3147   Num  Month of procedure 92
+GA  2017 CORE             742 PRMONTH93                       3148 3149   Num  Month of procedure 93
+GA  2017 CORE             743 PRMONTH94                       3150 3151   Num  Month of procedure 94
+GA  2017 CORE             744 PRMONTH95                       3152 3153   Num  Month of procedure 95
+GA  2017 CORE             745 PRMONTH96                       3154 3155   Num  Month of procedure 96
+GA  2017 CORE             746 PRMONTH97                       3156 3157   Num  Month of procedure 97
+GA  2017 CORE             747 PRMONTH98                       3158 3159   Num  Month of procedure 98
+GA  2017 CORE             748 PRMONTH99                       3160 3161   Num  Month of procedure 99
+GA  2017 CORE             749 PRMONTH100                      3162 3163   Num  Month of procedure 100
+GA  2017 CORE             750 PRYEAR1                         3164 3167   Num  Year of procedure 1
+GA  2017 CORE             751 PRYEAR2                         3168 3171   Num  Year of procedure 2
+GA  2017 CORE             752 PRYEAR3                         3172 3175   Num  Year of procedure 3
+GA  2017 CORE             753 PRYEAR4                         3176 3179   Num  Year of procedure 4
+GA  2017 CORE             754 PRYEAR5                         3180 3183   Num  Year of procedure 5
+GA  2017 CORE             755 PRYEAR6                         3184 3187   Num  Year of procedure 6
+GA  2017 CORE             756 PRYEAR7                         3188 3191   Num  Year of procedure 7
+GA  2017 CORE             757 PRYEAR8                         3192 3195   Num  Year of procedure 8
+GA  2017 CORE             758 PRYEAR9                         3196 3199   Num  Year of procedure 9
+GA  2017 CORE             759 PRYEAR10                        3200 3203   Num  Year of procedure 10
+GA  2017 CORE             760 PRYEAR11                        3204 3207   Num  Year of procedure 11
+GA  2017 CORE             761 PRYEAR12                        3208 3211   Num  Year of procedure 12
+GA  2017 CORE             762 PRYEAR13                        3212 3215   Num  Year of procedure 13
+GA  2017 CORE             763 PRYEAR14                        3216 3219   Num  Year of procedure 14
+GA  2017 CORE             764 PRYEAR15                        3220 3223   Num  Year of procedure 15
+GA  2017 CORE             765 PRYEAR16                        3224 3227   Num  Year of procedure 16
+GA  2017 CORE             766 PRYEAR17                        3228 3231   Num  Year of procedure 17
+GA  2017 CORE             767 PRYEAR18                        3232 3235   Num  Year of procedure 18
+GA  2017 CORE             768 PRYEAR19                        3236 3239   Num  Year of procedure 19
+GA  2017 CORE             769 PRYEAR20                        3240 3243   Num  Year of procedure 20
+GA  2017 CORE             770 PRYEAR21                        3244 3247   Num  Year of procedure 21
+GA  2017 CORE             771 PRYEAR22                        3248 3251   Num  Year of procedure 22
+GA  2017 CORE             772 PRYEAR23                        3252 3255   Num  Year of procedure 23
+GA  2017 CORE             773 PRYEAR24                        3256 3259   Num  Year of procedure 24
+GA  2017 CORE             774 PRYEAR25                        3260 3263   Num  Year of procedure 25
+GA  2017 CORE             775 PRYEAR26                        3264 3267   Num  Year of procedure 26
+GA  2017 CORE             776 PRYEAR27                        3268 3271   Num  Year of procedure 27
+GA  2017 CORE             777 PRYEAR28                        3272 3275   Num  Year of procedure 28
+GA  2017 CORE             778 PRYEAR29                        3276 3279   Num  Year of procedure 29
+GA  2017 CORE             779 PRYEAR30                        3280 3283   Num  Year of procedure 30
+GA  2017 CORE             780 PRYEAR31                        3284 3287   Num  Year of procedure 31
+GA  2017 CORE             781 PRYEAR32                        3288 3291   Num  Year of procedure 32
+GA  2017 CORE             782 PRYEAR33                        3292 3295   Num  Year of procedure 33
+GA  2017 CORE             783 PRYEAR34                        3296 3299   Num  Year of procedure 34
+GA  2017 CORE             784 PRYEAR35                        3300 3303   Num  Year of procedure 35
+GA  2017 CORE             785 PRYEAR36                        3304 3307   Num  Year of procedure 36
+GA  2017 CORE             786 PRYEAR37                        3308 3311   Num  Year of procedure 37
+GA  2017 CORE             787 PRYEAR38                        3312 3315   Num  Year of procedure 38
+GA  2017 CORE             788 PRYEAR39                        3316 3319   Num  Year of procedure 39
+GA  2017 CORE             789 PRYEAR40                        3320 3323   Num  Year of procedure 40
+GA  2017 CORE             790 PRYEAR41                        3324 3327   Num  Year of procedure 41
+GA  2017 CORE             791 PRYEAR42                        3328 3331   Num  Year of procedure 42
+GA  2017 CORE             792 PRYEAR43                        3332 3335   Num  Year of procedure 43
+GA  2017 CORE             793 PRYEAR44                        3336 3339   Num  Year of procedure 44
+GA  2017 CORE             794 PRYEAR45                        3340 3343   Num  Year of procedure 45
+GA  2017 CORE             795 PRYEAR46                        3344 3347   Num  Year of procedure 46
+GA  2017 CORE             796 PRYEAR47                        3348 3351   Num  Year of procedure 47
+GA  2017 CORE             797 PRYEAR48                        3352 3355   Num  Year of procedure 48
+GA  2017 CORE             798 PRYEAR49                        3356 3359   Num  Year of procedure 49
+GA  2017 CORE             799 PRYEAR50                        3360 3363   Num  Year of procedure 50
+GA  2017 CORE             800 PRYEAR51                        3364 3367   Num  Year of procedure 51
+GA  2017 CORE             801 PRYEAR52                        3368 3371   Num  Year of procedure 52
+GA  2017 CORE             802 PRYEAR53                        3372 3375   Num  Year of procedure 53
+GA  2017 CORE             803 PRYEAR54                        3376 3379   Num  Year of procedure 54
+GA  2017 CORE             804 PRYEAR55                        3380 3383   Num  Year of procedure 55
+GA  2017 CORE             805 PRYEAR56                        3384 3387   Num  Year of procedure 56
+GA  2017 CORE             806 PRYEAR57                        3388 3391   Num  Year of procedure 57
+GA  2017 CORE             807 PRYEAR58                        3392 3395   Num  Year of procedure 58
+GA  2017 CORE             808 PRYEAR59                        3396 3399   Num  Year of procedure 59
+GA  2017 CORE             809 PRYEAR60                        3400 3403   Num  Year of procedure 60
+GA  2017 CORE             810 PRYEAR61                        3404 3407   Num  Year of procedure 61
+GA  2017 CORE             811 PRYEAR62                        3408 3411   Num  Year of procedure 62
+GA  2017 CORE             812 PRYEAR63                        3412 3415   Num  Year of procedure 63
+GA  2017 CORE             813 PRYEAR64                        3416 3419   Num  Year of procedure 64
+GA  2017 CORE             814 PRYEAR65                        3420 3423   Num  Year of procedure 65
+GA  2017 CORE             815 PRYEAR66                        3424 3427   Num  Year of procedure 66
+GA  2017 CORE             816 PRYEAR67                        3428 3431   Num  Year of procedure 67
+GA  2017 CORE             817 PRYEAR68                        3432 3435   Num  Year of procedure 68
+GA  2017 CORE             818 PRYEAR69                        3436 3439   Num  Year of procedure 69
+GA  2017 CORE             819 PRYEAR70                        3440 3443   Num  Year of procedure 70
+GA  2017 CORE             820 PRYEAR71                        3444 3447   Num  Year of procedure 71
+GA  2017 CORE             821 PRYEAR72                        3448 3451   Num  Year of procedure 72
+GA  2017 CORE             822 PRYEAR73                        3452 3455   Num  Year of procedure 73
+GA  2017 CORE             823 PRYEAR74                        3456 3459   Num  Year of procedure 74
+GA  2017 CORE             824 PRYEAR75                        3460 3463   Num  Year of procedure 75
+GA  2017 CORE             825 PRYEAR76                        3464 3467   Num  Year of procedure 76
+GA  2017 CORE             826 PRYEAR77                        3468 3471   Num  Year of procedure 77
+GA  2017 CORE             827 PRYEAR78                        3472 3475   Num  Year of procedure 78
+GA  2017 CORE             828 PRYEAR79                        3476 3479   Num  Year of procedure 79
+GA  2017 CORE             829 PRYEAR80                        3480 3483   Num  Year of procedure 80
+GA  2017 CORE             830 PRYEAR81                        3484 3487   Num  Year of procedure 81
+GA  2017 CORE             831 PRYEAR82                        3488 3491   Num  Year of procedure 82
+GA  2017 CORE             832 PRYEAR83                        3492 3495   Num  Year of procedure 83
+GA  2017 CORE             833 PRYEAR84                        3496 3499   Num  Year of procedure 84
+GA  2017 CORE             834 PRYEAR85                        3500 3503   Num  Year of procedure 85
+GA  2017 CORE             835 PRYEAR86                        3504 3507   Num  Year of procedure 86
+GA  2017 CORE             836 PRYEAR87                        3508 3511   Num  Year of procedure 87
+GA  2017 CORE             837 PRYEAR88                        3512 3515   Num  Year of procedure 88
+GA  2017 CORE             838 PRYEAR89                        3516 3519   Num  Year of procedure 89
+GA  2017 CORE             839 PRYEAR90                        3520 3523   Num  Year of procedure 90
+GA  2017 CORE             840 PRYEAR91                        3524 3527   Num  Year of procedure 91
+GA  2017 CORE             841 PRYEAR92                        3528 3531   Num  Year of procedure 92
+GA  2017 CORE             842 PRYEAR93                        3532 3535   Num  Year of procedure 93
+GA  2017 CORE             843 PRYEAR94                        3536 3539   Num  Year of procedure 94
+GA  2017 CORE             844 PRYEAR95                        3540 3543   Num  Year of procedure 95
+GA  2017 CORE             845 PRYEAR96                        3544 3547   Num  Year of procedure 96
+GA  2017 CORE             846 PRYEAR97                        3548 3551   Num  Year of procedure 97
+GA  2017 CORE             847 PRYEAR98                        3552 3555   Num  Year of procedure 98
+GA  2017 CORE             848 PRYEAR99                        3556 3559   Num  Year of procedure 99
+GA  2017 CORE             849 PRYEAR100                       3560 3563   Num  Year of procedure 100

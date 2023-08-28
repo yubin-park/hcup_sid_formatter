@@ -1,0 +1,115 @@
+Data Set Name: DE_SIDC_2020_CORE               
+Number of Observations: 101509
+Total Record Length: 397
+Total Number of Variables: 94
+Creation Date: 05/10/2022   
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 61    Variable name
+63- 66    Starting column of variable in ASCII file
+68- 71    Ending column of variable in ASCII file
+73- 73    Non-zero number of digits after decimal point for numeric variable
+75- 78    Variable type (Num=numeric; Char=character)
+80-179    Variable label
+
+
+DE  2020 CORE               1 AGE                                1    3   Num  Age in years at admission
+DE  2020 CORE               2 AGEDAY                             4    6   Num  Age in days (when age < 1 year)
+DE  2020 CORE               3 AGEMONTH                           7    9   Num  Age in months (when age < 11 years)
+DE  2020 CORE               4 AMONTH                            10   11   Num  Admission month
+DE  2020 CORE               5 ATYPE                             12   13   Num  Admission type
+DE  2020 CORE               6 AWEEKEND                          14   15   Num  Admission day is a weekend
+DE  2020 CORE               7 BILLTYPE                          16   19   Char Type of bill, UB-04 coding
+DE  2020 CORE               8 DaysToEvent                       20   25   Num  Days from 'start date' to admission
+DE  2020 CORE               9 DIED                              26   27   Num  Died during hospitalization
+DE  2020 CORE              10 DISP_X                            28   30   Char Disposition of patient (as received from source)
+DE  2020 CORE              11 DISPUB04                          31   32   Num  Disposition of patient (UB-04 standard coding)
+DE  2020 CORE              12 DISPUNIFORM                       33   34   Num  Disposition of patient (uniform)
+DE  2020 CORE              13 DMONTH                            35   36   Num  Discharge month
+DE  2020 CORE              14 DQTR                              37   38   Num  Discharge quarter
+DE  2020 CORE              15 DRG                               39   41   Num  DRG in effect on discharge date
+DE  2020 CORE              16 DRG_NoPOA                         42   44   Num  DRG in use on discharge date, calculated without POA
+DE  2020 CORE              17 DRGVER                            45   46   Num  DRG grouper version used on discharge date
+DE  2020 CORE              18 DSHOSPID                          47   63   Char Data source hospital identifier
+DE  2020 CORE              19 FEMALE                            64   65   Num  Indicator of sex
+DE  2020 CORE              20 HCUP_ED                           66   67   Num  HCUP Emergency Department service indicator
+DE  2020 CORE              21 HCUP_OS                           68   69   Num  HCUP Observation Stay service indicator
+DE  2020 CORE              22 HOSPST                            70   71   Char Hospital state postal code
+DE  2020 CORE              23 I10_BIRTH                         72   74   Num  ICD-10-CM Birth Indicator
+DE  2020 CORE              24 I10_DELIVERY                      75   77   Num  ICD-10-CM Delivery Indicator
+DE  2020 CORE              25 I10_DX_Admitting                  78   84   Char ICD-10-CM Admitting Diagnosis Code
+DE  2020 CORE              26 I10_DX1                           85   91   Char ICD-10-CM Diagnosis 1
+DE  2020 CORE              27 I10_DX2                           92   98   Char ICD-10-CM Diagnosis 2
+DE  2020 CORE              28 I10_DX3                           99  105   Char ICD-10-CM Diagnosis 3
+DE  2020 CORE              29 I10_DX4                          106  112   Char ICD-10-CM Diagnosis 4
+DE  2020 CORE              30 I10_DX5                          113  119   Char ICD-10-CM Diagnosis 5
+DE  2020 CORE              31 I10_DX6                          120  126   Char ICD-10-CM Diagnosis 6
+DE  2020 CORE              32 I10_DX7                          127  133   Char ICD-10-CM Diagnosis 7
+DE  2020 CORE              33 I10_DX8                          134  140   Char ICD-10-CM Diagnosis 8
+DE  2020 CORE              34 I10_DX9                          141  147   Char ICD-10-CM Diagnosis 9
+DE  2020 CORE              35 I10_DX10                         148  154   Char ICD-10-CM Diagnosis 10
+DE  2020 CORE              36 I10_NDX                          155  157   Num  ICD-10-CM Number of diagnoses on this record
+DE  2020 CORE              37 I10_NPR                          158  160   Num  ICD-10-PCS Number of procedures on this record
+DE  2020 CORE              38 I10_PR1                          161  167   Char ICD-10-PCS Procedure 1
+DE  2020 CORE              39 I10_PR2                          168  174   Char ICD-10-PCS Procedure 2
+DE  2020 CORE              40 I10_PR3                          175  181   Char ICD-10-PCS Procedure 3
+DE  2020 CORE              41 I10_PR4                          182  188   Char ICD-10-PCS Procedure 4
+DE  2020 CORE              42 I10_PR5                          189  195   Char ICD-10-PCS Procedure 5
+DE  2020 CORE              43 I10_PR6                          196  202   Char ICD-10-PCS Procedure 6
+DE  2020 CORE              44 I10_PROCTYPE                     203  205   Num  ICD-10-PCS Procedure type indicator
+DE  2020 CORE              45 I10_SERVICELINE                  206  207   Num  ICD-10-CM/PCS Hospital Service Line
+DE  2020 CORE              46 KEY                              208  222   Num  HCUP record identifier
+DE  2020 CORE              47 LOS                              223  227   Num  Length of stay (cleaned)
+DE  2020 CORE              48 LOS_X                            228  233   Num  Length of stay (as received from source)
+DE  2020 CORE              49 MARITALSTATUS_X                  234  234   Char Patient's marital status (as received from source)
+DE  2020 CORE              50 MARITALSTATUSUB04                235  235   Char Patient's marital status, UB-04 standard coding
+DE  2020 CORE              51 MDC                              236  237   Num  MDC in effect on discharge date
+DE  2020 CORE              52 MDC_NoPOA                        238  239   Num  MDC in use on discharge date, calculated without POA
+DE  2020 CORE              53 MDNUM1_R                         240  248   Num  Physician 1 number (re-identified)
+DE  2020 CORE              54 MEDINCSTQ                        249  250   Num  Median household income state quartile for patient ZIP Code
+DE  2020 CORE              55 OS_TIME                          251  261 2 Num  Observation stay time summed from UNITS
+DE  2020 CORE              56 PAY1                             262  263   Num  Primary expected payer (uniform)
+DE  2020 CORE              57 PAY1_X                           264  265   Char Primary expected payer (as received from source)
+DE  2020 CORE              58 PAY2                             266  267   Num  Secondary expected payer (uniform)
+DE  2020 CORE              59 PAY2_X                           268  269   Char Secondary expected payer (as received from source)
+DE  2020 CORE              60 PAY3                             270  271   Num  Tertiary expected payer (uniform)
+DE  2020 CORE              61 PAY3_X                           272  273   Char Tertiary expected payer (as received from source)
+DE  2020 CORE              62 PCLASS_ORPROC                    274  275   Num  Indicates operating room (major diagnostic or therapeutic) procedure on the record
+DE  2020 CORE              63 PL_CBSA                          276  278   Num  Patient location: Core Based Statistical Area (CBSA)
+DE  2020 CORE              64 PL_NCHS                          279  280   Num  Patient Location: NCHS Urban-Rural Code
+DE  2020 CORE              65 PL_RUCC                          281  282   Num  Patient location: Rural-Urban Continuum Codes (RUCC)
+DE  2020 CORE              66 PL_UIC                           283  284   Num  Patient location: Urban Influence Codes
+DE  2020 CORE              67 PL_UR_CAT4                       285  286   Num  Patient Location: Urban-Rural 4 Categories
+DE  2020 CORE              68 PointOfOrigin_X                  287  287   Char Point of origin for admission or visit, as received from source
+DE  2020 CORE              69 PointOfOriginUB04                288  288   Char Point of origin for admission or visit, UB-04 standard coding
+DE  2020 CORE              70 PRDAY1                           289  293   Num  Number of days from admission to I10_PR1
+DE  2020 CORE              71 PRDAY2                           294  298   Num  Number of days from admission to I10_PR2
+DE  2020 CORE              72 PSTATE                           299  300   Char Patient State postal code
+DE  2020 CORE              73 PSTATE_GEO                       301  302   Char Patient State postal code assigned from ZIP Code
+DE  2020 CORE              74 PSTCO                            303  307   Num  Patient state/county FIPS code
+DE  2020 CORE              75 PSTCO_GEO                        308  312   Num  Counties assigned based on ZIP Code geographic centroids
+DE  2020 CORE              76 RACE                             313  314   Num  Race (uniform)
+DE  2020 CORE              77 RACE_PCT_MISS_HOSP               315  321 2 Num  Hospital percentage of missing or invalid race values
+DE  2020 CORE              78 RACE_X                           322  322   Char Race (as received from source)
+DE  2020 CORE              79 TOTCHG                           323  332   Num  Total charges (cleaned)
+DE  2020 CORE              80 TOTCHG_X                         333  347 2 Num  Total charges (as received from source)
+DE  2020 CORE              81 TRAN_IN                          348  349   Num  Transfer in indicator
+DE  2020 CORE              82 TRAN_OUT                         350  351   Num  Transfer out indicator
+DE  2020 CORE              83 VisitLink                        352  360   Num  Visit linkage variable
+DE  2020 CORE              84 YEAR                             361  364   Num  Calendar year
+DE  2020 CORE              85 ZIP                              365  369   Char Patient ZIP Code
+DE  2020 CORE              86 ZIP3                             370  372   Char Patient ZIP Code, first 3 digits
+DE  2020 CORE              87 ZIPINC_QRTL                      373  375   Num  Median household income national quartile for patient ZIP Code
+DE  2020 CORE              88 AYEAR                            376  379   Num  Admission year
+DE  2020 CORE              89 BMONTH                           380  381   Num  Birth month
+DE  2020 CORE              90 BYEAR                            382  385   Num  Birth year
+DE  2020 CORE              91 PRMONTH1                         386  387   Num  Month of procedure 1
+DE  2020 CORE              92 PRMONTH2                         388  389   Num  Month of procedure 2
+DE  2020 CORE              93 PRYEAR1                          390  393   Num  Year of procedure 1
+DE  2020 CORE              94 PRYEAR2                          394  397   Num  Year of procedure 2

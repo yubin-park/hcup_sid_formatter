@@ -1,0 +1,186 @@
+Columns   Description:
+=======   ============
+ 1- 2     State postal code
+ 5- 8     Discharge year of data
+10-14     File name
+19-21     Variable number
+23-30     Variable name
+32-34     Starting column of variable in ASCII file
+36-38     Ending column of variable in ASCII file
+   40     Non-zero number of digits after decimal point for numeric variable
+42-45     Variable type (NUM=numeric; CHAR=character)
+46-88     Variable label
+
+
+SC  1995 CORE     1   MDSPEC   1   3     CharI:Physician specialty
+SC  1995 CORE     2   MRN_S    4   20    CharI:Medical record number (synthetic)
+SC  1995 CORE     3   PSTCO    21  25    Num I:Patient state/county FIPS code
+SC  1995 CORE     4   PAY1_X   26  42    CharI:Primary exp. payer (from data source)
+SC  1995 CORE     5   PAY2_X   43  59    CharI:Secondary exp. payer (from data source
+SC  1995 CORE     6   UNIT1    60  63    Num I:Units of service 1 (from data source)
+SC  1995 CORE     7   UNIT2    64  67    Num I:Units of service 2 (from data source)
+SC  1995 CORE     8   UNIT3    68  71    Num I:Units of service 3 (from data source)
+SC  1995 CORE     9   UNIT4    72  75    Num I:Units of service 4 (from data source)
+SC  1995 CORE     10  UNIT5    76  79    Num I:Units of service 5 (from data source)
+SC  1995 CORE     11  UNIT6    80  83    Num I:Units of service 6 (from data source)
+SC  1995 CORE     12  UNIT7    84  87    Num I:Units of service 7 (from data source)
+SC  1995 CORE     13  UNIT8    88  91    Num I:Units of service 8 (from data source)
+SC  1995 CORE     14  UNIT9    92  95    Num I:Units of service 9 (from data source)
+SC  1995 CORE     15  UNIT10   96  99    Num I:Units of service 10 (from data source)
+SC  1995 CORE     16  UNIT11   100 103   Num I:Units of service 11 (from data source)
+SC  1995 CORE     17  CHG1     104 115 2 Num I:Detailed charges 1 (from data source)
+SC  1995 CORE     18  CHG2     116 127 2 Num I:Detailed charges 2 (from data source)
+SC  1995 CORE     19  CHG3     128 139 2 Num I:Detailed charges 3 (from data source)
+SC  1995 CORE     20  CHG4     140 151 2 Num I:Detailed charges 4 (from data source)
+SC  1995 CORE     21  CHG5     152 163 2 Num I:Detailed charges 5 (from data source)
+SC  1995 CORE     22  CHG6     164 175 2 Num I:Detailed charges 6 (from data source)
+SC  1995 CORE     23  CHG7     176 187 2 Num I:Detailed charges 7 (from data source)
+SC  1995 CORE     24  CHG8     188 199 2 Num I:Detailed charges 8 (from data source)
+SC  1995 CORE     25  CHG9     200 211 2 Num I:Detailed charges 9 (from data source)
+SC  1995 CORE     26  CHG10    212 223 2 Num I:Detailed charges 10 (from data source)
+SC  1995 CORE     27  CHG11    224 235 2 Num I:Detailed charges 11 (from data source)
+SC  1995 CORE     28  CHG12    236 247 2 Num I:Detailed charges 12 (from data source)
+SC  1995 CORE     29  CHG13    248 259 2 Num I:Detailed charges 13 (from data source)
+SC  1995 CORE     30  CHG14    260 271 2 Num I:Detailed charges 14 (from data source)
+SC  1995 CORE     31  CHG15    272 283 2 Num I:Detailed charges 15 (from data source)
+SC  1995 CORE     32  CHG16    284 295 2 Num I:Detailed charges 16 (from data source)
+SC  1995 CORE     33  CHG17    296 307 2 Num I:Detailed charges 17 (from data source)
+SC  1995 CORE     34  CHG18    308 319 2 Num I:Detailed charges 18 (from data source)
+SC  1995 CORE     35  CHG19    320 331 2 Num I:Detailed charges 19 (from data source)
+SC  1995 CORE     36  CHG20    332 343 2 Num I:Detailed charges 20 (from data source)
+SC  1995 CORE     37  CHG21    344 355 2 Num I:Detailed charges 21 (from data source)
+SC  1995 CORE     38  CHG22    356 367 2 Num I:Detailed charges 22 (from data source)
+SC  1995 CORE     39  CHG23    368 379 2 Num I:Detailed charges 23 (from data source)
+SC  1995 CORE     40  CHG24    380 391 2 Num I:Detailed charges 24 (from data source)
+SC  1995 CORE     41  CHG25    392 403 2 Num I:Detailed charges 25 (from data source)
+SC  1995 CORE     42  CHG26    404 415 2 Num I:Detailed charges 26 (from data source)
+SC  1995 CORE     43  CHG27    416 427 2 Num I:Detailed charges 27 (from data source)
+SC  1995 CORE     44  CHG28    428 439 2 Num I:Detailed charges 28 (from data source)
+SC  1995 CORE     45  CHG29    440 451 2 Num I:Detailed charges 29 (from data source)
+SC  1995 CORE     46  CHG30    452 463 2 Num I:Detailed charges 30 (from data source)
+SC  1995 CORE     47  CHG31    464 475 2 Num I:Detailed charges 31 (from data source)
+SC  1995 CORE     48  CHG32    476 487 2 Num I:Detailed charges 32 (from data source)
+SC  1995 CORE     49  CHG33    488 499 2 Num I:Detailed charges 33 (from data source)
+SC  1995 CORE     50  CHG34    500 511 2 Num I:Detailed charges 34 (from data source)
+SC  1995 CORE     51  CHG35    512 523 2 Num I:Detailed charges 35 (from data source)
+SC  1995 CORE     52  CHG36    524 535 2 Num I:Detailed charges 36 (from data source)
+SC  1995 CORE     53  CHG37    536 547 2 Num I:Detailed charges 37 (from data source)
+SC  1995 CORE     54  CHG38    548 559 2 Num I:Detailed charges 38 (from data source)
+SC  1995 CORE     55  CHG39    560 571 2 Num I:Detailed charges 39 (from data source)
+SC  1995 CORE     56  CHG40    572 583 2 Num I:Detailed charges 40 (from data source)
+SC  1995 CORE     57  CHG41    584 595 2 Num I:Detailed charges 41 (from data source)
+SC  1995 CORE     58  CHG42    596 607 2 Num I:Detailed charges 42 (from data source)
+SC  1995 CORE     59  CHG43    608 619 2 Num I:Detailed charges 43 (from data source)
+SC  1995 CORE     60  CHG44    620 631 2 Num I:Detailed charges 44 (from data source)
+SC  1995 CORE     61  CHG45    632 643 2 Num I:Detailed charges 45 (from data source)
+SC  1995 CORE     62  CHG46    644 655 2 Num I:Detailed charges 46 (from data source)
+SC  1995 CORE     63  CHG47    656 667 2 Num I:Detailed charges 47 (from data source)
+SC  1995 CORE     64  CHG48    668 679 2 Num I:Detailed charges 48 (from data source)
+SC  1995 CORE     65  CHG49    680 691 2 Num I:Detailed charges 49 (from data source)
+SC  1995 CORE     66  CHG50    692 703 2 Num I:Detailed charges 50 (from data source)
+SC  1995 CORE     67  CHG51    704 715 2 Num I:Detailed charges 51 (from data source)
+SC  1995 CORE     68  CHG52    716 727 2 Num I:Detailed charges 52 (from data source)
+SC  1995 CORE     69  PROCESS  728 738   Num I:HCUP discharge processing ID number
+SC  1995 CORE     70  YEAR     739 740   Num Calendar year
+SC  1995 CORE     71  DSNUM    741 742   Num I:Data source ID number
+SC  1995 CORE     72  DSTYPE   743 743   Num I:Data source type
+SC  1995 CORE     73  HOSPST   744 745   CharHospital state postal code
+SC  1995 CORE     74  AGE      746 748   Num I:Age in years at admission
+SC  1995 CORE     75  AGEDAY   749 751   Num I:Age in days (when < 1 year)
+SC  1995 CORE     76  SEX      752 753   Num I:Sex
+SC  1995 CORE     77  RACE     754 755   Num I:Race
+SC  1995 CORE     78  ADAYWK   756 757   Num I:Admission day of week
+SC  1995 CORE     79  AMONTH   758 759   Num I:Admission month
+SC  1995 CORE     80  DQTR     760 760   Num I:Discharge quarter
+SC  1995 CORE     81  LOS      761 765   Num I:Length of stay (cleaned)
+SC  1995 CORE     82  LOS_X    766 771   Num I:Length of stay (uncleaned)
+SC  1995 CORE     83  DISP     772 773   Num I:Disposition of patient
+SC  1995 CORE     84  DIED     774 775   Num I:Died during hospitalization
+SC  1995 CORE     85  NEOMAT   776 776   Num I:Neonatal and/or maternal DX and/or PR
+SC  1995 CORE     86  ATYPE    777 778   Num I:Admission type
+SC  1995 CORE     87  ASOURCE  779 780   Num I:Admission source
+SC  1995 CORE     88  DXSYS    781 782   Num I:Diagnosis coding system
+SC  1995 CORE     89  DSNDX    783 784   Num I:Max number of diagnoses from source
+SC  1995 CORE     90  NDX      785 786   Num I:Number of diagnoses on this discharge
+SC  1995 CORE     91  DX1      787 791   CharI:Principal diagnosis
+SC  1995 CORE     92  DX2      792 796   CharI:Diagnosis 2
+SC  1995 CORE     93  DX3      797 801   CharI:Diagnosis 3
+SC  1995 CORE     94  DX4      802 806   CharI:Diagnosis 4
+SC  1995 CORE     95  DX5      807 811   CharI:Diagnosis 5
+SC  1995 CORE     96  DX6      812 816   CharI:Diagnosis 6
+SC  1995 CORE     97  DX7      817 821   CharI:Diagnosis 7
+SC  1995 CORE     98  DX8      822 826   CharI:Diagnosis 8
+SC  1995 CORE     99  DX9      827 831   CharI:Diagnosis 9
+SC  1995 CORE     100 DX10     832 836   CharI:Diagnosis 10
+SC  1995 CORE     101 DXV1     837 838   Num I:Validity flag: principal diagnosis
+SC  1995 CORE     102 DXV2     839 840   Num I:Validity flag: diagnosis 2
+SC  1995 CORE     103 DXV3     841 842   Num I:Validity flag: diagnosis 3
+SC  1995 CORE     104 DXV4     843 844   Num I:Validity flag: diagnosis 4
+SC  1995 CORE     105 DXV5     845 846   Num I:Validity flag: diagnosis 5
+SC  1995 CORE     106 DXV6     847 848   Num I:Validity flag: diagnosis 6
+SC  1995 CORE     107 DXV7     849 850   Num I:Validity flag: diagnosis 7
+SC  1995 CORE     108 DXV8     851 852   Num I:Validity flag: diagnosis 8
+SC  1995 CORE     109 DXV9     853 854   Num I:Validity flag: diagnosis 9
+SC  1995 CORE     110 DXV10    855 856   Num I:Validity flag: diagnosis 10
+SC  1995 CORE     111 DCCHPR1  857 859   Num I:CCHPR: principal diagnosis
+SC  1995 CORE     112 DCCHPR2  860 862   Num I:CCHPR: diagnosis 2
+SC  1995 CORE     113 DCCHPR3  863 865   Num I:CCHPR: diagnosis 3
+SC  1995 CORE     114 DCCHPR4  866 868   Num I:CCHPR: diagnosis 4
+SC  1995 CORE     115 DCCHPR5  869 871   Num I:CCHPR: diagnosis 5
+SC  1995 CORE     116 DCCHPR6  872 874   Num I:CCHPR: diagnosis 6
+SC  1995 CORE     117 DCCHPR7  875 877   Num I:CCHPR: diagnosis 7
+SC  1995 CORE     118 DCCHPR8  878 880   Num I:CCHPR: diagnosis 8
+SC  1995 CORE     119 DCCHPR9  881 883   Num I:CCHPR: diagnosis 9
+SC  1995 CORE     120 DCCHPR10 884 886   Num I:CCHPR: diagnosis 10
+SC  1995 CORE     121 PRSYS    887 888   Num I:Procedure coding system
+SC  1995 CORE     122 DSNPR    889 890   Num I:Max number of procedures from source
+SC  1995 CORE     123 NPR      891 892   Num I:Number of procedures on this discharge
+SC  1995 CORE     124 PR1      893 896   CharI:Principal procedure
+SC  1995 CORE     125 PR2      897 900   CharI:Procedure 2
+SC  1995 CORE     126 PR3      901 904   CharI:Procedure 3
+SC  1995 CORE     127 PR4      905 908   CharI:Procedure 4
+SC  1995 CORE     128 PR5      909 912   CharI:Procedure 5
+SC  1995 CORE     129 PR6      913 916   CharI:Procedure 6
+SC  1995 CORE     130 PR7      917 920   CharI:Procedure 7
+SC  1995 CORE     131 PR8      921 924   CharI:Procedure 8
+SC  1995 CORE     132 PR9      925 928   CharI:Procedure 9
+SC  1995 CORE     133 PR10     929 932   CharI:Procedure 10
+SC  1995 CORE     134 PRV1     933 934   Num I:Validity flag: principal procedure
+SC  1995 CORE     135 PRV2     935 936   Num I:Validity flag: procedure 2
+SC  1995 CORE     136 PRV3     937 938   Num I:Validity flag: procedure 3
+SC  1995 CORE     137 PRV4     939 940   Num I:Validity flag: procedure 4
+SC  1995 CORE     138 PRV5     941 942   Num I:Validity flag: procedure 5
+SC  1995 CORE     139 PRV6     943 944   Num I:Validity flag: procedure 6
+SC  1995 CORE     140 PRV7     945 946   Num I:Validity flag: procedure 7
+SC  1995 CORE     141 PRV8     947 948   Num I:Validity flag: procedure 8
+SC  1995 CORE     142 PRV9     949 950   Num I:Validity flag: procedure 9
+SC  1995 CORE     143 PRV10    951 952   Num I:Validity flag: procedure 10
+SC  1995 CORE     144 PCCHPR1  953 955   Num I:CCHPR: principal procedure
+SC  1995 CORE     145 PCCHPR2  956 958   Num I:CCHPR: procedure 2
+SC  1995 CORE     146 PCCHPR3  959 961   Num I:CCHPR: procedure 3
+SC  1995 CORE     147 PCCHPR4  962 964   Num I:CCHPR: procedure 4
+SC  1995 CORE     148 PCCHPR5  965 967   Num I:CCHPR: procedure 5
+SC  1995 CORE     149 PCCHPR6  968 970   Num I:CCHPR: procedure 6
+SC  1995 CORE     150 PCCHPR7  971 973   Num I:CCHPR: procedure 7
+SC  1995 CORE     151 PCCHPR8  974 976   Num I:CCHPR: procedure 8
+SC  1995 CORE     152 PCCHPR9  977 979   Num I:CCHPR: procedure 9
+SC  1995 CORE     153 PCCHPR10 980 982   Num I:CCHPR: procedure 10
+SC  1995 CORE     154 PRDAY1   983 987   Num I:No. of days from admission to PR1
+SC  1995 CORE     155 PRDAY2   988 992   Num I:No. of days from admission to PR2
+SC  1995 CORE     156 PRDAY3   993 997   Num I:No. of days from admission to PR3
+SC  1995 CORE     157 PRDAY4   998 1002  Num I:No. of days from admission to PR4
+SC  1995 CORE     158 PRDAY5   10031007  Num I:No. of days from admission to PR5
+SC  1995 CORE     159 PRDAY6   10081012  Num I:No. of days from admission to PR6
+SC  1995 CORE     160 PRDAY7   10131017  Num I:No. of days from admission to PR7
+SC  1995 CORE     161 PRDAY8   10181022  Num I:No. of days from admission to PR8
+SC  1995 CORE     162 PRDAY9   10231027  Num I:No. of days from admission to PR9
+SC  1995 CORE     163 PRDAY10  10281032  Num I:No. of days from admission to PR10
+SC  1995 CORE     164 DRG      10331035  Num I:DRG in effect on discharge date
+SC  1995 CORE     165 MDC      10361037  Num I:MDC in effect on discharge date
+SC  1995 CORE     166 DRGVER   10381039  Num I:DRG grouper version used on disch date
+SC  1995 CORE     167 DRG10    10401042  Num I:DRG, Version 10
+SC  1995 CORE     168 MDC10    10431044  Num I:MDC, Version 10
+SC  1995 CORE     169 PAY1     10451046  Num I:Primary expected payer, uniform
+SC  1995 CORE     170 PAY2     10471048  Num I:Secondary expected payer, uniform
+SC  1995 CORE     171 TOTCHG   10491058  Num I:Total charges (cleaned)
+SC  1995 CORE     172 TOTCHG_X 105910732 Num I:Total charges (from data source)

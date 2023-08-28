@@ -1,0 +1,171 @@
+Data Set Name: NE_SIDC_2013_CORE               
+Number of Observations: 204733
+Total Record Length: 528
+Total Number of Variables: 150
+Creation Date: 11/26/2014   
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 56    Variable name
+58- 61    Starting column of variable in ASCII file
+63- 66    Ending column of variable in ASCII file
+    68    Non-zero number of digits after decimal point for numeric variable
+70- 73    Variable type (Num=numeric; Char=character)
+75-174    Variable label
+
+
+NE  2013 CORE               1 AGE                           1    3   Num  Age in years at admission
+NE  2013 CORE               2 AGEDAY                        4    6   Num  Age in days (when age < 1 year)
+NE  2013 CORE               3 AGEMONTH                      7    9   Num  Age in months (when age < 11 years)
+NE  2013 CORE               4 AHOUR                        10   13   Num  Admission Hour
+NE  2013 CORE               5 AMONTH                       14   15   Num  Admission month
+NE  2013 CORE               6 ATYPE                        16   17   Num  Admission type
+NE  2013 CORE               7 AWEEKEND                     18   19   Num  Admission day is a weekend
+NE  2013 CORE               8 BILLTYPE                     20   23   Char Type of bill, UB-04 coding
+NE  2013 CORE               9 BLOOD                        24   29   Num  Pints of blood furnished to the patient
+NE  2013 CORE              10 DHOUR                        30   33   Num  Discharge Hour
+NE  2013 CORE              11 DIED                         34   35   Num  Died during hospitalization
+NE  2013 CORE              12 DISPUB04                     36   37   Num  Disposition of patient (UB-04 standard coding)
+NE  2013 CORE              13 DISPUNIFORM                  38   39   Num  Disposition of patient (uniform)
+NE  2013 CORE              14 DISP_X                       40   41   Char Disposition of patient (as received from source)
+NE  2013 CORE              15 DMONTH                       42   43   Num  Discharge month
+NE  2013 CORE              16 DQTR                         44   45   Num  Discharge quarter
+NE  2013 CORE              17 DRG                          46   48   Num  DRG in effect on discharge date
+NE  2013 CORE              18 DRG24                        49   51   Num  DRG, version 24
+NE  2013 CORE              19 DRGVER                       52   53   Num  DRG grouper version used on discharge date
+NE  2013 CORE              20 DRG_NoPOA                    54   56   Num  DRG in use on discharge date, calculated without POA
+NE  2013 CORE              21 DX1                          57   61   Char Diagnosis 1
+NE  2013 CORE              22 DX2                          62   66   Char Diagnosis 2
+NE  2013 CORE              23 DX3                          67   71   Char Diagnosis 3
+NE  2013 CORE              24 DX4                          72   76   Char Diagnosis 4
+NE  2013 CORE              25 DX5                          77   81   Char Diagnosis 5
+NE  2013 CORE              26 DX6                          82   86   Char Diagnosis 6
+NE  2013 CORE              27 DX7                          87   91   Char Diagnosis 7
+NE  2013 CORE              28 DX8                          92   96   Char Diagnosis 8
+NE  2013 CORE              29 DX9                          97  101   Char Diagnosis 9
+NE  2013 CORE              30 DXCCS1                      102  105   Num  CCS: diagnosis 1
+NE  2013 CORE              31 DXCCS2                      106  109   Num  CCS: diagnosis 2
+NE  2013 CORE              32 DXCCS3                      110  113   Num  CCS: diagnosis 3
+NE  2013 CORE              33 DXCCS4                      114  117   Num  CCS: diagnosis 4
+NE  2013 CORE              34 DXCCS5                      118  121   Num  CCS: diagnosis 5
+NE  2013 CORE              35 DXCCS6                      122  125   Num  CCS: diagnosis 6
+NE  2013 CORE              36 DXCCS7                      126  129   Num  CCS: diagnosis 7
+NE  2013 CORE              37 DXCCS8                      130  133   Num  CCS: diagnosis 8
+NE  2013 CORE              38 DXCCS9                      134  137   Num  CCS: diagnosis 9
+NE  2013 CORE              39 DXPOA1                      138  138   Char Diagnosis 1, present on admission indicator
+NE  2013 CORE              40 DXPOA2                      139  139   Char Diagnosis 2, present on admission indicator
+NE  2013 CORE              41 DXPOA3                      140  140   Char Diagnosis 3, present on admission indicator
+NE  2013 CORE              42 DXPOA4                      141  141   Char Diagnosis 4, present on admission indicator
+NE  2013 CORE              43 DXPOA5                      142  142   Char Diagnosis 5, present on admission indicator
+NE  2013 CORE              44 DXPOA6                      143  143   Char Diagnosis 6, present on admission indicator
+NE  2013 CORE              45 DXPOA7                      144  144   Char Diagnosis 7, present on admission indicator
+NE  2013 CORE              46 DXPOA8                      145  145   Char Diagnosis 8, present on admission indicator
+NE  2013 CORE              47 DXPOA9                      146  146   Char Diagnosis 9, present on admission indicator
+NE  2013 CORE              48 DX_Admitting                147  151   Char Admitting Diagnosis Code
+NE  2013 CORE              49 DaysToEvent                 152  157   Num  Days from 'start date' to admission
+NE  2013 CORE              50 ECODE1                      158  162   Char E code 1
+NE  2013 CORE              51 ECODE2                      163  167   Char E code 2
+NE  2013 CORE              52 ECODE3                      168  172   Char E code 3
+NE  2013 CORE              53 ECODE4                      173  177   Char E code 4
+NE  2013 CORE              54 ECODE5                      178  182   Char E code 5
+NE  2013 CORE              55 ECODE6                      183  187   Char E code 6
+NE  2013 CORE              56 E_CCS1                      188  191   Num  CCS: E Code 1
+NE  2013 CORE              57 E_CCS2                      192  195   Num  CCS: E Code 2
+NE  2013 CORE              58 E_CCS3                      196  199   Num  CCS: E Code 3
+NE  2013 CORE              59 E_CCS4                      200  203   Num  CCS: E Code 4
+NE  2013 CORE              60 E_CCS5                      204  207   Num  CCS: E Code 5
+NE  2013 CORE              61 E_CCS6                      208  211   Num  CCS: E Code 6
+NE  2013 CORE              62 E_POA1                      212  212   Char E Code 1, present on admission indicator
+NE  2013 CORE              63 E_POA2                      213  213   Char E Code 2, present on admission indicator
+NE  2013 CORE              64 E_POA3                      214  214   Char E Code 3, present on admission indicator
+NE  2013 CORE              65 E_POA4                      215  215   Char E Code 4, present on admission indicator
+NE  2013 CORE              66 E_POA5                      216  216   Char E Code 5, present on admission indicator
+NE  2013 CORE              67 E_POA6                      217  217   Char E Code 6, present on admission indicator
+NE  2013 CORE              68 FEMALE                      218  219   Num  Indicator of sex
+NE  2013 CORE              69 HCUP_ED                     220  221   Num  HCUP Emergency Department service indicator
+NE  2013 CORE              70 HCUP_OS                     222  223   Num  HCUP Observation Stay service indicator
+NE  2013 CORE              71 HOSPBRTH                    224  226   Num  Indicator of birth in this hospital
+NE  2013 CORE              72 HOSPST                      227  228   Char Hospital state postal code
+NE  2013 CORE              73 KEY                         229  243   Num  HCUP record identifier
+NE  2013 CORE              74 LOS                         244  248   Num  Length of stay (cleaned)
+NE  2013 CORE              75 LOS_X                       249  254   Num  Length of stay (as received from source)
+NE  2013 CORE              76 MARITALSTATUSUB04           255  255   Char Patient's marital status, UB-04 standard coding
+NE  2013 CORE              77 MARITALSTATUS_X             256  256   Char Patient's marital status (as received from source)
+NE  2013 CORE              78 MDC                         257  258   Num  MDC in effect on discharge date
+NE  2013 CORE              79 MDC24                       259  260   Num  MDC, version 24
+NE  2013 CORE              80 MDC_NoPOA                   261  262   Num  MDC in use on discharge date, calculated without POA
+NE  2013 CORE              81 MEDINCSTQ                   263  264   Num  Median household income state quartile for patient ZIP Code
+NE  2013 CORE              82 NCHRONIC                    265  267   Num  Number of chronic conditions
+NE  2013 CORE              83 NDX                         268  269   Num  Number of diagnoses on this record
+NE  2013 CORE              84 NECODE                      270  271   Num  Number of E codes on this record
+NE  2013 CORE              85 NEOMAT                      272  273   Num  Neonatal and/or maternal DX and/or PR
+NE  2013 CORE              86 NPR                         274  275   Num  Number of procedures on this record
+NE  2013 CORE              87 ORPROC                      276  277   Num  Major operating room procedure indicator
+NE  2013 CORE              88 OS_TIME                     278  285   Num  Observation stay time summed from UNITS
+NE  2013 CORE              89 P7EDSRC_X                   286  287   Char Condition Code P7, Direct Inpatient Admission from Emergency Room
+NE  2013 CORE              90 PAY1                        288  289   Num  Primary expected payer (uniform)
+NE  2013 CORE              91 PAY1_X                      290  291   Char Primary expected payer (as received from source)
+NE  2013 CORE              92 PAY2                        292  293   Num  Secondary expected payer (uniform)
+NE  2013 CORE              93 PAY2_X                      294  295   Char Secondary expected payer (as received from source)
+NE  2013 CORE              94 PAY3                        296  297   Num  Tertiary expected payer (uniform)
+NE  2013 CORE              95 PAY3_X                      298  299   Char Tertiary expected payer (as received from source)
+NE  2013 CORE              96 PL_CBSA                     300  302   Num  Patient location: Core Based Statistical Area (CBSA)
+NE  2013 CORE              97 PL_NCHS                     303  304   Num  Patient Location: NCHS Urban-Rural Code
+NE  2013 CORE              98 PL_RUCA10_2005              305  306   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, ten levels
+NE  2013 CORE              99 PL_RUCA2005                 307  310 1 Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes
+NE  2013 CORE             100 PL_RUCA4_2005               311  312   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, four levels
+NE  2013 CORE             101 PL_RUCC                     313  314   Num  Patient location: Rural-Urban Continuum Codes(RUCC)
+NE  2013 CORE             102 PL_UIC                      315  316   Num  Patient location: Urban Influence Codes
+NE  2013 CORE             103 PL_UR_CAT4                  317  318   Num  Patient Location: Urban-Rural 4 Categories
+NE  2013 CORE             104 PR1                         319  322   Char Procedure 1
+NE  2013 CORE             105 PR2                         323  326   Char Procedure 2
+NE  2013 CORE             106 PR3                         327  330   Char Procedure 3
+NE  2013 CORE             107 PR4                         331  334   Char Procedure 4
+NE  2013 CORE             108 PR5                         335  338   Char Procedure 5
+NE  2013 CORE             109 PR6                         339  342   Char Procedure 6
+NE  2013 CORE             110 PRCCS1                      343  345   Num  CCS: procedure 1
+NE  2013 CORE             111 PRCCS2                      346  348   Num  CCS: procedure 2
+NE  2013 CORE             112 PRCCS3                      349  351   Num  CCS: procedure 3
+NE  2013 CORE             113 PRCCS4                      352  354   Num  CCS: procedure 4
+NE  2013 CORE             114 PRCCS5                      355  357   Num  CCS: procedure 5
+NE  2013 CORE             115 PRCCS6                      358  360   Num  CCS: procedure 6
+NE  2013 CORE             116 PRDAY1                      361  365   Num  Number of days from admission to PR1
+NE  2013 CORE             117 PRDAY2                      366  370   Num  Number of days from admission to PR2
+NE  2013 CORE             118 PRDAY3                      371  375   Num  Number of days from admission to PR3
+NE  2013 CORE             119 PRDAY4                      376  380   Num  Number of days from admission to PR4
+NE  2013 CORE             120 PRDAY5                      381  385   Num  Number of days from admission to PR5
+NE  2013 CORE             121 PRDAY6                      386  390   Num  Number of days from admission to PR6
+NE  2013 CORE             122 PROCTYPE                    391  393   Num  Procedure type indicator
+NE  2013 CORE             123 PSTATE                      394  395   Char Patient State postal code
+NE  2013 CORE             124 PSTCO2                      396  400   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+NE  2013 CORE             125 PointOfOriginUB04           401  401   Char Point of origin for admission or visit, UB-04 standard coding
+NE  2013 CORE             126 PointOfOrigin_X             402  402   Char Point of origin for admission or visit, as received from source
+NE  2013 CORE             127 TOTCHG                      403  412   Num  Total charges (cleaned)
+NE  2013 CORE             128 TOTCHG_X                    413  427 2 Num  Total charges (as received from source)
+NE  2013 CORE             129 TRAN_IN                     428  429   Num  Transfer in indicator
+NE  2013 CORE             130 TRAN_OUT                    430  431   Num  Transfer out indicator
+NE  2013 CORE             131 VisitLink                   432  440   Num  Visit linkage variable
+NE  2013 CORE             132 YEAR                        441  444   Num  Calendar year
+NE  2013 CORE             133 ZIPINC_QRTL                 445  447   Num  Median household income national quartile for patient ZIP Code
+NE  2013 CORE             134 TOWN                        448  477   Char Patient town of residence (as received from source)
+NE  2013 CORE             135 ZIP                         478  482   Char Patient ZIP Code
+NE  2013 CORE             136 AYEAR                       483  486   Num  Admission year
+NE  2013 CORE             137 BMONTH                      487  488   Num  Birth month
+NE  2013 CORE             138 BYEAR                       489  492   Num  Birth year
+NE  2013 CORE             139 PRMONTH1                    493  494   Num  Month of procedure 1
+NE  2013 CORE             140 PRMONTH2                    495  496   Num  Month of procedure 2
+NE  2013 CORE             141 PRMONTH3                    497  498   Num  Month of procedure 3
+NE  2013 CORE             142 PRMONTH4                    499  500   Num  Month of procedure 4
+NE  2013 CORE             143 PRMONTH5                    501  502   Num  Month of procedure 5
+NE  2013 CORE             144 PRMONTH6                    503  504   Num  Month of procedure 6
+NE  2013 CORE             145 PRYEAR1                     505  508   Num  Year of procedure 1
+NE  2013 CORE             146 PRYEAR2                     509  512   Num  Year of procedure 2
+NE  2013 CORE             147 PRYEAR3                     513  516   Num  Year of procedure 3
+NE  2013 CORE             148 PRYEAR4                     517  520   Num  Year of procedure 4
+NE  2013 CORE             149 PRYEAR5                     521  524   Num  Year of procedure 5
+NE  2013 CORE             150 PRYEAR6                     525  528   Num  Year of procedure 6

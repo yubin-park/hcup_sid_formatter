@@ -1,0 +1,88 @@
+WA  1996 CORE     1   SEQ_SID  1   13    Num I:HCUP SID record sequence number
+WA  1996 CORE     2   PROCESS  14  24    Num I:HCUP discharge processing ID number
+WA  1996 CORE     3   YEAR     25  26    Num Calendar year
+WA  1996 CORE     4   DSHOSPID 27  39    CharI:Data source hospital ID number
+WA  1996 CORE     5   DSNUM    40  41    Num I:Data source ID number
+WA  1996 CORE     6   DSTYPE   42  42    Num I:Data source type
+WA  1996 CORE     7   HOSPST   43  44    CharHospital state postal code
+WA  1996 CORE     8   MDID_S   45  60    CharI:Attending physician number (synthetic)
+WA  1996 CORE     9   SURGID_S 61  76    CharI:Primary surgeon number (synthetic)
+WA  1996 CORE     10  AGE      77  79    Num I:Age in years at admission
+WA  1996 CORE     11  AGEDAY   80  82    Num I:Age in days (when < 1 year)
+WA  1996 CORE     12  SEX      83  84    Num I:Sex
+WA  1996 CORE     13  ADAYWK   85  86    Num I:Admission day of week
+WA  1996 CORE     14  AMONTH   87  88    Num I:Admission month
+WA  1996 CORE     15  DQTR     89  89    Num I:Discharge quarter
+WA  1996 CORE     16  LOS      90  94    Num I:Length of stay (cleaned)
+WA  1996 CORE     17  LOS_X    95  100   Num I:Length of stay (uncleaned)
+WA  1996 CORE     18  DISP     101 102   Num I:Disposition of patient
+WA  1996 CORE     19  DIED     103 104   Num I:Died during hospitalization
+WA  1996 CORE     20  NEOMAT   105 105   Num I:Neonatal and/or maternal DX and/or PR
+WA  1996 CORE     21  ATYPE    106 107   Num I:Admission type
+WA  1996 CORE     22  ASOURCE  108 109   Num I:Admission source
+WA  1996 CORE     23  DXSYS    110 111   Num I:Diagnosis coding system
+WA  1996 CORE     24  DSNDX    112 113   Num I:Max number of diagnoses from source
+WA  1996 CORE     25  NDX      114 115   Num I:Number of diagnoses on this discharge
+WA  1996 CORE     26  DX1      116 120   CharI:Principal diagnosis
+WA  1996 CORE     27  DX2      121 125   CharI:Diagnosis 2
+WA  1996 CORE     28  DX3      126 130   CharI:Diagnosis 3
+WA  1996 CORE     29  DX4      131 135   CharI:Diagnosis 4
+WA  1996 CORE     30  DX5      136 140   CharI:Diagnosis 5
+WA  1996 CORE     31  DX6      141 145   CharI:Diagnosis 6
+WA  1996 CORE     32  DX7      146 150   CharI:Diagnosis 7
+WA  1996 CORE     33  DX8      151 155   CharI:Diagnosis 8
+WA  1996 CORE     34  DX9      156 160   CharI:Diagnosis 9
+WA  1996 CORE     35  DX10     161 165   CharI:Diagnosis 10
+WA  1996 CORE     36  DXV1     166 167   Num I:Validity flag: principal diagnosis
+WA  1996 CORE     37  DXV2     168 169   Num I:Validity flag: diagnosis 2
+WA  1996 CORE     38  DXV3     170 171   Num I:Validity flag: diagnosis 3
+WA  1996 CORE     39  DXV4     172 173   Num I:Validity flag: diagnosis 4
+WA  1996 CORE     40  DXV5     174 175   Num I:Validity flag: diagnosis 5
+WA  1996 CORE     41  DXV6     176 177   Num I:Validity flag: diagnosis 6
+WA  1996 CORE     42  DXV7     178 179   Num I:Validity flag: diagnosis 7
+WA  1996 CORE     43  DXV8     180 181   Num I:Validity flag: diagnosis 8
+WA  1996 CORE     44  DXV9     182 183   Num I:Validity flag: diagnosis 9
+WA  1996 CORE     45  DXV10    184 185   Num I:Validity flag: diagnosis 10
+WA  1996 CORE     46  DCCHPR1  186 188   Num I:CCHPR: principal diagnosis
+WA  1996 CORE     47  DCCHPR2  189 191   Num I:CCHPR: diagnosis 2
+WA  1996 CORE     48  DCCHPR3  192 194   Num I:CCHPR: diagnosis 3
+WA  1996 CORE     49  DCCHPR4  195 197   Num I:CCHPR: diagnosis 4
+WA  1996 CORE     50  DCCHPR5  198 200   Num I:CCHPR: diagnosis 5
+WA  1996 CORE     51  DCCHPR6  201 203   Num I:CCHPR: diagnosis 6
+WA  1996 CORE     52  DCCHPR7  204 206   Num I:CCHPR: diagnosis 7
+WA  1996 CORE     53  DCCHPR8  207 209   Num I:CCHPR: diagnosis 8
+WA  1996 CORE     54  DCCHPR9  210 212   Num I:CCHPR: diagnosis 9
+WA  1996 CORE     55  DCCHPR10 213 215   Num I:CCHPR: diagnosis 10
+WA  1996 CORE     56  PRSYS    216 217   Num I:Procedure coding system
+WA  1996 CORE     57  DSNPR    218 219   Num I:Max number of procedures from source
+WA  1996 CORE     58  NPR      220 221   Num I:Number of procedures on this discharge
+WA  1996 CORE     59  PR1      222 225   CharI:Principal procedure
+WA  1996 CORE     60  PR2      226 229   CharI:Procedure 2
+WA  1996 CORE     61  PR3      230 233   CharI:Procedure 3
+WA  1996 CORE     62  PR4      234 237   CharI:Procedure 4
+WA  1996 CORE     63  PR5      238 241   CharI:Procedure 5
+WA  1996 CORE     64  PR6      242 245   CharI:Procedure 6
+WA  1996 CORE     65  PRV1     246 247   Num I:Validity flag: principal procedure
+WA  1996 CORE     66  PRV2     248 249   Num I:Validity flag: procedure 2
+WA  1996 CORE     67  PRV3     250 251   Num I:Validity flag: procedure 3
+WA  1996 CORE     68  PRV4     252 253   Num I:Validity flag: procedure 4
+WA  1996 CORE     69  PRV5     254 255   Num I:Validity flag: procedure 5
+WA  1996 CORE     70  PRV6     256 257   Num I:Validity flag: procedure 6
+WA  1996 CORE     71  PCCHPR1  258 260   Num I:CCHPR: principal procedure
+WA  1996 CORE     72  PCCHPR2  261 263   Num I:CCHPR: procedure 2
+WA  1996 CORE     73  PCCHPR3  264 266   Num I:CCHPR: procedure 3
+WA  1996 CORE     74  PCCHPR4  267 269   Num I:CCHPR: procedure 4
+WA  1996 CORE     75  PCCHPR5  270 272   Num I:CCHPR: procedure 5
+WA  1996 CORE     76  PCCHPR6  273 275   Num I:CCHPR: procedure 6
+WA  1996 CORE     77  DRG      276 278   Num I:DRG in effect on discharge date
+WA  1996 CORE     78  MDC      279 280   Num I:MDC in effect on discharge date
+WA  1996 CORE     79  DRGVER   281 282   Num I:DRG grouper version used on disch date
+WA  1996 CORE     80  DRG10    283 285   Num I:DRG, Version 10
+WA  1996 CORE     81  MDC10    286 287   Num I:MDC, Version 10
+WA  1996 CORE     82  PAY1     288 289   Num I:Primary expected payer, uniform
+WA  1996 CORE     83  PAY1_N   290 291   Num I:Primary expected payer, nonuniform
+WA  1996 CORE     84  PAY2     292 293   Num I:Secondary expected payer, uniform
+WA  1996 CORE     85  PAY2_N   294 295   Num I:Secondary expected payer, nonuniform
+WA  1996 CORE     86  TOTCHG   296 305   Num I:Total charges (cleaned)
+WA  1996 CORE     87  TOTCHG_X 306 320 2 Num I:Total charges (from data source)
+WA  1996 CORE     88  HOSPID   321 325   Num HCUP hospital ID number (SSHHH)

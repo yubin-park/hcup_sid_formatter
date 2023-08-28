@@ -1,0 +1,200 @@
+Data Set Name: MI_SID_2002_CORE                
+Number of Observations: 1274239
+Total Record Length: 707
+Total Number of Variables: 180
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 49    Variable name
+51- 54    Starting column of variable in ASCII file
+56- 59    Ending column of variable in ASCII file
+    61    Non-zero number of digits after decimal point for numeric variable
+63- 66    Variable type (Num=numeric; Char=character)
+68-167    Variable label
+
+
+MI  2002 CORE               1 HOSPID                 1    5   Num  HCUP hospital identification number
+MI  2002 CORE               2 HOSPST                 6    7   Char Hospital state postal code
+MI  2002 CORE               3 KEY                    8   21   Num  HCUP record identifier
+MI  2002 CORE               4 ADRG                  22   24   Num  All Patient Refined DRG
+MI  2002 CORE               5 ADRGRISKMORTALITY     25   26   Num  All Patient Refined DRG mortality risk
+MI  2002 CORE               6 ADRGSEV               27   28   Num  All Patient Refined DRG severity level
+MI  2002 CORE               7 AGE                   29   31   Num  Age in years at admission
+MI  2002 CORE               8 AGEDAY                32   34   Num  Age in days (when age < 1 year)
+MI  2002 CORE               9 AGEMONTH              35   37   Num  Age in months (when age < 11 years)
+MI  2002 CORE              10 AMONTH                38   39   Num  Admission month
+MI  2002 CORE              11 ASOURCE               40   41   Num  Admission source (uniform)
+MI  2002 CORE              12 ASOURCE_X             42   42   Char Admission source (as received from source)
+MI  2002 CORE              13 ASOURCEUB92           43   43   Char Admission source (UB-92 standard coding)
+MI  2002 CORE              14 ATYPE                 44   45   Num  Admission type
+MI  2002 CORE              15 AWEEKEND              46   47   Num  Admission day is a weekend
+MI  2002 CORE              16 DaysCCU               48   50   Num  Days in coronary care unit (as received from the source)
+MI  2002 CORE              17 DaysICU               51   53   Num  Days in medical/surgical intensive care unit (as received from the source)
+MI  2002 CORE              18 DIED                  54   55   Num  Died during hospitalization
+MI  2002 CORE              19 DISP_X                56   57   Char Disposition of patient (as received from source)
+MI  2002 CORE              20 DISPUB92              58   59   Num  Disposition of patient (UB-92 standard coding)
+MI  2002 CORE              21 DISPUNIFORM           60   61   Num  Disposition of patient (uniform)
+MI  2002 CORE              22 DQTR                  62   63   Num  Discharge quarter
+MI  2002 CORE              23 DRG                   64   66   Num  DRG in effect on discharge date
+MI  2002 CORE              24 DRG18                 67   69   Num  DRG, version 18
+MI  2002 CORE              25 DRGVER                70   71   Num  DRG grouper version used on discharge date
+MI  2002 CORE              26 DX1                   72   76   Char Principal diagnosis
+MI  2002 CORE              27 DX2                   77   81   Char Diagnosis 2
+MI  2002 CORE              28 DX3                   82   86   Char Diagnosis 3
+MI  2002 CORE              29 DX4                   87   91   Char Diagnosis 4
+MI  2002 CORE              30 DX5                   92   96   Char Diagnosis 5
+MI  2002 CORE              31 DX6                   97  101   Char Diagnosis 6
+MI  2002 CORE              32 DX7                  102  106   Char Diagnosis 7
+MI  2002 CORE              33 DX8                  107  111   Char Diagnosis 8
+MI  2002 CORE              34 DX9                  112  116   Char Diagnosis 9
+MI  2002 CORE              35 DX10                 117  121   Char Diagnosis 10
+MI  2002 CORE              36 DX11                 122  126   Char Diagnosis 11
+MI  2002 CORE              37 DX12                 127  131   Char Diagnosis 12
+MI  2002 CORE              38 DX13                 132  136   Char Diagnosis 13
+MI  2002 CORE              39 DX14                 137  141   Char Diagnosis 14
+MI  2002 CORE              40 DX15                 142  146   Char Diagnosis 15
+MI  2002 CORE              41 DX16                 147  151   Char Diagnosis 16
+MI  2002 CORE              42 DX17                 152  156   Char Diagnosis 17
+MI  2002 CORE              43 DX18                 157  161   Char Diagnosis 18
+MI  2002 CORE              44 DX19                 162  166   Char Diagnosis 19
+MI  2002 CORE              45 DX20                 167  171   Char Diagnosis 20
+MI  2002 CORE              46 DX21                 172  176   Char Diagnosis 21
+MI  2002 CORE              47 DX22                 177  181   Char Diagnosis 22
+MI  2002 CORE              48 DX23                 182  186   Char Diagnosis 23
+MI  2002 CORE              49 DX24                 187  191   Char Diagnosis 24
+MI  2002 CORE              50 DX25                 192  196   Char Diagnosis 25
+MI  2002 CORE              51 DX26                 197  201   Char Diagnosis 26
+MI  2002 CORE              52 DX27                 202  206   Char Diagnosis 27
+MI  2002 CORE              53 DX28                 207  211   Char Diagnosis 28
+MI  2002 CORE              54 DX29                 212  216   Char Diagnosis 29
+MI  2002 CORE              55 DX30                 217  221   Char Diagnosis 30
+MI  2002 CORE              56 DXCCS1               222  225   Num  CCS: principal diagnosis
+MI  2002 CORE              57 DXCCS2               226  229   Num  CCS: diagnosis 2
+MI  2002 CORE              58 DXCCS3               230  233   Num  CCS: diagnosis 3
+MI  2002 CORE              59 DXCCS4               234  237   Num  CCS: diagnosis 4
+MI  2002 CORE              60 DXCCS5               238  241   Num  CCS: diagnosis 5
+MI  2002 CORE              61 DXCCS6               242  245   Num  CCS: diagnosis 6
+MI  2002 CORE              62 DXCCS7               246  249   Num  CCS: diagnosis 7
+MI  2002 CORE              63 DXCCS8               250  253   Num  CCS: diagnosis 8
+MI  2002 CORE              64 DXCCS9               254  257   Num  CCS: diagnosis 9
+MI  2002 CORE              65 DXCCS10              258  261   Num  CCS: diagnosis 10
+MI  2002 CORE              66 DXCCS11              262  265   Num  CCS: diagnosis 11
+MI  2002 CORE              67 DXCCS12              266  269   Num  CCS: diagnosis 12
+MI  2002 CORE              68 DXCCS13              270  273   Num  CCS: diagnosis 13
+MI  2002 CORE              69 DXCCS14              274  277   Num  CCS: diagnosis 14
+MI  2002 CORE              70 DXCCS15              278  281   Num  CCS: diagnosis 15
+MI  2002 CORE              71 DXCCS16              282  285   Num  CCS: diagnosis 16
+MI  2002 CORE              72 DXCCS17              286  289   Num  CCS: diagnosis 17
+MI  2002 CORE              73 DXCCS18              290  293   Num  CCS: diagnosis 18
+MI  2002 CORE              74 DXCCS19              294  297   Num  CCS: diagnosis 19
+MI  2002 CORE              75 DXCCS20              298  301   Num  CCS: diagnosis 20
+MI  2002 CORE              76 DXCCS21              302  305   Num  CCS: diagnosis 21
+MI  2002 CORE              77 DXCCS22              306  309   Num  CCS: diagnosis 22
+MI  2002 CORE              78 DXCCS23              310  313   Num  CCS: diagnosis 23
+MI  2002 CORE              79 DXCCS24              314  317   Num  CCS: diagnosis 24
+MI  2002 CORE              80 DXCCS25              318  321   Num  CCS: diagnosis 25
+MI  2002 CORE              81 DXCCS26              322  325   Num  CCS: diagnosis 26
+MI  2002 CORE              82 DXCCS27              326  329   Num  CCS: diagnosis 27
+MI  2002 CORE              83 DXCCS28              330  333   Num  CCS: diagnosis 28
+MI  2002 CORE              84 DXCCS29              334  337   Num  CCS: diagnosis 29
+MI  2002 CORE              85 DXCCS30              338  341   Num  CCS: diagnosis 30
+MI  2002 CORE              86 FEMALE               342  343   Num  Indicator of sex
+MI  2002 CORE              87 HISPANIC_X           344  344   Char Hispanic ethnicity (as received from source)
+MI  2002 CORE              88 LOS                  345  349   Num  Length of stay (cleaned)
+MI  2002 CORE              89 LOS_X                350  355   Num  Length of stay (as received from source)
+MI  2002 CORE              90 MDC                  356  357   Num  MDC in effect on discharge date
+MI  2002 CORE              91 MDC18                358  359   Num  MDC, version 18
+MI  2002 CORE              92 MDNUM1_S             360  375   Char Physician 1 number (synthetic)
+MI  2002 CORE              93 MDNUM2_S             376  391   Char Physician 2 number (synthetic)
+MI  2002 CORE              94 MRN_S                392  408   Char Medical record number (synthetic)
+MI  2002 CORE              95 NDX                  409  410   Num  Number of diagnoses on this record
+MI  2002 CORE              96 NEOMAT               411  412   Num  Neonatal and/or maternal DX and/or PR
+MI  2002 CORE              97 NPR                  413  414   Num  Number of procedures on this record
+MI  2002 CORE              98 PAY1                 415  416   Num  Primary expected payer (uniform)
+MI  2002 CORE              99 PAY2                 417  418   Num  Secondary expected payer (uniform)
+MI  2002 CORE             100 PAY1_X               419  420   Char Primary expected payer (as received from source)
+MI  2002 CORE             101 PAY2_X               421  422   Char Secondary expected payer (as received from source)
+MI  2002 CORE             102 PL_CBSA              423  424   Num  Patient location: Core Based Statistical Area (CBSA)
+MI  2002 CORE             103 PL_MSA1993           425  426   Num  Patient location: Metropolitan Statistical Area (MSA), 1993
+MI  2002 CORE             104 PL_RUCA              427  430 1 Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes
+MI  2002 CORE             105 PL_RUCA10            431  432   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, ten levels
+MI  2002 CORE             106 PL_RUCA4             433  434   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, four levels
+MI  2002 CORE             107 PL_RUCC              435  436   Num  Patient location: Rural-Urban Continuum Codes(RUCC)
+MI  2002 CORE             108 PL_UIC               437  438   Num  Patient location: Urban Influence Codes
+MI  2002 CORE             109 PR1                  439  442   Char Principal procedure
+MI  2002 CORE             110 PR2                  443  446   Char Procedure 2
+MI  2002 CORE             111 PR3                  447  450   Char Procedure 3
+MI  2002 CORE             112 PR4                  451  454   Char Procedure 4
+MI  2002 CORE             113 PR5                  455  458   Char Procedure 5
+MI  2002 CORE             114 PR6                  459  462   Char Procedure 6
+MI  2002 CORE             115 PR7                  463  466   Char Procedure 7
+MI  2002 CORE             116 PR8                  467  470   Char Procedure 8
+MI  2002 CORE             117 PR9                  471  474   Char Procedure 9
+MI  2002 CORE             118 PR10                 475  478   Char Procedure 10
+MI  2002 CORE             119 PR11                 479  482   Char Procedure 11
+MI  2002 CORE             120 PR12                 483  486   Char Procedure 12
+MI  2002 CORE             121 PR13                 487  490   Char Procedure 13
+MI  2002 CORE             122 PR14                 491  494   Char Procedure 14
+MI  2002 CORE             123 PR15                 495  498   Char Procedure 15
+MI  2002 CORE             124 PR16                 499  502   Char Procedure 16
+MI  2002 CORE             125 PR17                 503  506   Char Procedure 17
+MI  2002 CORE             126 PR18                 507  510   Char Procedure 18
+MI  2002 CORE             127 PR19                 511  514   Char Procedure 19
+MI  2002 CORE             128 PR20                 515  518   Char Procedure 20
+MI  2002 CORE             129 PR21                 519  522   Char Procedure 21
+MI  2002 CORE             130 PR22                 523  526   Char Procedure 22
+MI  2002 CORE             131 PR23                 527  530   Char Procedure 23
+MI  2002 CORE             132 PR24                 531  534   Char Procedure 24
+MI  2002 CORE             133 PR25                 535  538   Char Procedure 25
+MI  2002 CORE             134 PR26                 539  542   Char Procedure 26
+MI  2002 CORE             135 PR27                 543  546   Char Procedure 27
+MI  2002 CORE             136 PR28                 547  550   Char Procedure 28
+MI  2002 CORE             137 PR29                 551  554   Char Procedure 29
+MI  2002 CORE             138 PR30                 555  558   Char Procedure 30
+MI  2002 CORE             139 PRCCS1               559  561   Num  CCS: principal procedure
+MI  2002 CORE             140 PRCCS2               562  564   Num  CCS: procedure 2
+MI  2002 CORE             141 PRCCS3               565  567   Num  CCS: procedure 3
+MI  2002 CORE             142 PRCCS4               568  570   Num  CCS: procedure 4
+MI  2002 CORE             143 PRCCS5               571  573   Num  CCS: procedure 5
+MI  2002 CORE             144 PRCCS6               574  576   Num  CCS: procedure 6
+MI  2002 CORE             145 PRCCS7               577  579   Num  CCS: procedure 7
+MI  2002 CORE             146 PRCCS8               580  582   Num  CCS: procedure 8
+MI  2002 CORE             147 PRCCS9               583  585   Num  CCS: procedure 9
+MI  2002 CORE             148 PRCCS10              586  588   Num  CCS: procedure 10
+MI  2002 CORE             149 PRCCS11              589  591   Num  CCS: procedure 11
+MI  2002 CORE             150 PRCCS12              592  594   Num  CCS: procedure 12
+MI  2002 CORE             151 PRCCS13              595  597   Num  CCS: procedure 13
+MI  2002 CORE             152 PRCCS14              598  600   Num  CCS: procedure 14
+MI  2002 CORE             153 PRCCS15              601  603   Num  CCS: procedure 15
+MI  2002 CORE             154 PRCCS16              604  606   Num  CCS: procedure 16
+MI  2002 CORE             155 PRCCS17              607  609   Num  CCS: procedure 17
+MI  2002 CORE             156 PRCCS18              610  612   Num  CCS: procedure 18
+MI  2002 CORE             157 PRCCS19              613  615   Num  CCS: procedure 19
+MI  2002 CORE             158 PRCCS20              616  618   Num  CCS: procedure 20
+MI  2002 CORE             159 PRCCS21              619  621   Num  CCS: procedure 21
+MI  2002 CORE             160 PRCCS22              622  624   Num  CCS: procedure 22
+MI  2002 CORE             161 PRCCS23              625  627   Num  CCS: procedure 23
+MI  2002 CORE             162 PRCCS24              628  630   Num  CCS: procedure 24
+MI  2002 CORE             163 PRCCS25              631  633   Num  CCS: procedure 25
+MI  2002 CORE             164 PRCCS26              634  636   Num  CCS: procedure 26
+MI  2002 CORE             165 PRCCS27              637  639   Num  CCS: procedure 27
+MI  2002 CORE             166 PRCCS28              640  642   Num  CCS: procedure 28
+MI  2002 CORE             167 PRCCS29              643  645   Num  CCS: procedure 29
+MI  2002 CORE             168 PRCCS30              646  648   Num  CCS: procedure 30
+MI  2002 CORE             169 PRDAY1               649  653   Num  Number of days from admission to PR1
+MI  2002 CORE             170 PSTCO2               654  658   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+MI  2002 CORE             171 RACE                 659  660   Num  Race (uniform)
+MI  2002 CORE             172 RACE_X               661  661   Char Race (as received from source)
+MI  2002 CORE             173 TOTCHG               662  671   Num  Total charges (cleaned)
+MI  2002 CORE             174 TOTCHG_X             672  686 2 Num  Total charges (as received from source)
+MI  2002 CORE             175 YEAR                 687  690   Num  Calendar year
+MI  2002 CORE             176 ZIP                  691  695   Char Patient ZIP Code
+MI  2002 CORE             177 AYEAR                696  699   Num  Admission year
+MI  2002 CORE             178 DMONTH               700  701   Num  Discharge month
+MI  2002 CORE             179 BMONTH               702  703   Num  Birth month
+MI  2002 CORE             180 BYEAR                704  707   Num  Birth year

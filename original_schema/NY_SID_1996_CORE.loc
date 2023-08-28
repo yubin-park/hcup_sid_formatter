@@ -1,0 +1,152 @@
+NY  1996 CORE     1   SEQ_SID  1   13    Num I:HCUP SID record sequence number
+NY  1996 CORE     2   PROCESS  14  24    Num I:HCUP discharge processing ID number
+NY  1996 CORE     3   YEAR     25  26    Num Calendar year
+NY  1996 CORE     4   DSHOSPID 27  39    CharI:Data source hospital ID number
+NY  1996 CORE     5   DSNUM    40  41    Num I:Data source ID number
+NY  1996 CORE     6   DSTYPE   42  42    Num I:Data source type
+NY  1996 CORE     7   HOSPST   43  44    CharHospital state postal code
+NY  1996 CORE     8   MDID_S   45  60    CharI:Attending physician number (synthetic)
+NY  1996 CORE     9   SURGID_S 61  76    CharI:Primary surgeon number (synthetic)
+NY  1996 CORE     10  AGE      77  79    Num I:Age in years at admission
+NY  1996 CORE     11  AGEDAY   80  82    Num I:Age in days (when < 1 year)
+NY  1996 CORE     12  SEX      83  84    Num I:Sex
+NY  1996 CORE     13  RACE     85  86    Num I:Race
+NY  1996 CORE     14  ADAYWK   87  88    Num I:Admission day of week
+NY  1996 CORE     15  AMONTH   89  90    Num I:Admission month
+NY  1996 CORE     16  DQTR     91  91    Num I:Discharge quarter
+NY  1996 CORE     17  LOS      92  96    Num I:Length of stay (cleaned)
+NY  1996 CORE     18  LOS_X    97  102   Num I:Length of stay (uncleaned)
+NY  1996 CORE     19  DISP     103 104   Num I:Disposition of patient
+NY  1996 CORE     20  DIED     105 106   Num I:Died during hospitalization
+NY  1996 CORE     21  NEOMAT   107 107   Num I:Neonatal and/or maternal DX and/or PR
+NY  1996 CORE     22  ATYPE    108 109   Num I:Admission type
+NY  1996 CORE     23  ASOURCE  110 111   Num I:Admission source
+NY  1996 CORE     24  DXSYS    112 113   Num I:Diagnosis coding system
+NY  1996 CORE     25  DSNDX    114 115   Num I:Max number of diagnoses from source
+NY  1996 CORE     26  NDX      116 117   Num I:Number of diagnoses on this discharge
+NY  1996 CORE     27  DX1      118 122   CharI:Principal diagnosis
+NY  1996 CORE     28  DX2      123 127   CharI:Diagnosis 2
+NY  1996 CORE     29  DX3      128 132   CharI:Diagnosis 3
+NY  1996 CORE     30  DX4      133 137   CharI:Diagnosis 4
+NY  1996 CORE     31  DX5      138 142   CharI:Diagnosis 5
+NY  1996 CORE     32  DX6      143 147   CharI:Diagnosis 6
+NY  1996 CORE     33  DX7      148 152   CharI:Diagnosis 7
+NY  1996 CORE     34  DX8      153 157   CharI:Diagnosis 8
+NY  1996 CORE     35  DX9      158 162   CharI:Diagnosis 9
+NY  1996 CORE     36  DX10     163 167   CharI:Diagnosis 10
+NY  1996 CORE     37  DX11     168 172   CharI:Diagnosis 11
+NY  1996 CORE     38  DX12     173 177   CharI:Diagnosis 12
+NY  1996 CORE     39  DX13     178 182   CharI:Diagnosis 13
+NY  1996 CORE     40  DX14     183 187   CharI:Diagnosis 14
+NY  1996 CORE     41  DX15     188 192   CharI:Diagnosis 15
+NY  1996 CORE     42  DX16     193 197   CharI:Diagnosis 16
+NY  1996 CORE     43  DX17     198 202   CharI:Diagnosis 17
+NY  1996 CORE     44  DXV1     203 204   Num I:Validity flag: principal diagnosis
+NY  1996 CORE     45  DXV2     205 206   Num I:Validity flag: diagnosis 2
+NY  1996 CORE     46  DXV3     207 208   Num I:Validity flag: diagnosis 3
+NY  1996 CORE     47  DXV4     209 210   Num I:Validity flag: diagnosis 4
+NY  1996 CORE     48  DXV5     211 212   Num I:Validity flag: diagnosis 5
+NY  1996 CORE     49  DXV6     213 214   Num I:Validity flag: diagnosis 6
+NY  1996 CORE     50  DXV7     215 216   Num I:Validity flag: diagnosis 7
+NY  1996 CORE     51  DXV8     217 218   Num I:Validity flag: diagnosis 8
+NY  1996 CORE     52  DXV9     219 220   Num I:Validity flag: diagnosis 9
+NY  1996 CORE     53  DXV10    221 222   Num I:Validity flag: diagnosis 10
+NY  1996 CORE     54  DXV11    223 224   Num I:Validity flag: diagnosis 11
+NY  1996 CORE     55  DXV12    225 226   Num I:Validity flag: diagnosis 12
+NY  1996 CORE     56  DXV13    227 228   Num I:Validity flag: diagnosis 13
+NY  1996 CORE     57  DXV14    229 230   Num I:Validity flag: diagnosis 14
+NY  1996 CORE     58  DXV15    231 232   Num I:Validity flag: diagnosis 15
+NY  1996 CORE     59  DXV16    233 234   Num I:Validity flag: diagnosis 16
+NY  1996 CORE     60  DXV17    235 236   Num I:Validity flag: diagnosis 17
+NY  1996 CORE     61  DCCHPR1  237 239   Num I:CCHPR: principal diagnosis
+NY  1996 CORE     62  DCCHPR2  240 242   Num I:CCHPR: diagnosis 2
+NY  1996 CORE     63  DCCHPR3  243 245   Num I:CCHPR: diagnosis 3
+NY  1996 CORE     64  DCCHPR4  246 248   Num I:CCHPR: diagnosis 4
+NY  1996 CORE     65  DCCHPR5  249 251   Num I:CCHPR: diagnosis 5
+NY  1996 CORE     66  DCCHPR6  252 254   Num I:CCHPR: diagnosis 6
+NY  1996 CORE     67  DCCHPR7  255 257   Num I:CCHPR: diagnosis 7
+NY  1996 CORE     68  DCCHPR8  258 260   Num I:CCHPR: diagnosis 8
+NY  1996 CORE     69  DCCHPR9  261 263   Num I:CCHPR: diagnosis 9
+NY  1996 CORE     70  DCCHPR10 264 266   Num I:CCHPR: diagnosis 10
+NY  1996 CORE     71  DCCHPR11 267 269   Num I:CCHPR: diagnosis 11
+NY  1996 CORE     72  DCCHPR12 270 272   Num I:CCHPR: diagnosis 12
+NY  1996 CORE     73  DCCHPR13 273 275   Num I:CCHPR: diagnosis 13
+NY  1996 CORE     74  DCCHPR14 276 278   Num I:CCHPR: diagnosis 14
+NY  1996 CORE     75  DCCHPR15 279 281   Num I:CCHPR: diagnosis 15
+NY  1996 CORE     76  DCCHPR16 282 284   Num I:CCHPR: diagnosis 16
+NY  1996 CORE     77  DCCHPR17 285 287   Num I:CCHPR: diagnosis 17
+NY  1996 CORE     78  PRSYS    288 289   Num I:Procedure coding system
+NY  1996 CORE     79  DSNPR    290 291   Num I:Max number of procedures from source
+NY  1996 CORE     80  NPR      292 293   Num I:Number of procedures on this discharge
+NY  1996 CORE     81  PR1      294 297   CharI:Principal procedure
+NY  1996 CORE     82  PR2      298 301   CharI:Procedure 2
+NY  1996 CORE     83  PR3      302 305   CharI:Procedure 3
+NY  1996 CORE     84  PR4      306 309   CharI:Procedure 4
+NY  1996 CORE     85  PR5      310 313   CharI:Procedure 5
+NY  1996 CORE     86  PR6      314 317   CharI:Procedure 6
+NY  1996 CORE     87  PR7      318 321   CharI:Procedure 7
+NY  1996 CORE     88  PR8      322 325   CharI:Procedure 8
+NY  1996 CORE     89  PR9      326 329   CharI:Procedure 9
+NY  1996 CORE     90  PR10     330 333   CharI:Procedure 10
+NY  1996 CORE     91  PR11     334 337   CharI:Procedure 11
+NY  1996 CORE     92  PR12     338 341   CharI:Procedure 12
+NY  1996 CORE     93  PR13     342 345   CharI:Procedure 13
+NY  1996 CORE     94  PR14     346 349   CharI:Procedure 14
+NY  1996 CORE     95  PR15     350 353   CharI:Procedure 15
+NY  1996 CORE     96  PRV1     354 355   Num I:Validity flag: principal procedure
+NY  1996 CORE     97  PRV2     356 357   Num I:Validity flag: procedure 2
+NY  1996 CORE     98  PRV3     358 359   Num I:Validity flag: procedure 3
+NY  1996 CORE     99  PRV4     360 361   Num I:Validity flag: procedure 4
+NY  1996 CORE     100 PRV5     362 363   Num I:Validity flag: procedure 5
+NY  1996 CORE     101 PRV6     364 365   Num I:Validity flag: procedure 6
+NY  1996 CORE     102 PRV7     366 367   Num I:Validity flag: procedure 7
+NY  1996 CORE     103 PRV8     368 369   Num I:Validity flag: procedure 8
+NY  1996 CORE     104 PRV9     370 371   Num I:Validity flag: procedure 9
+NY  1996 CORE     105 PRV10    372 373   Num I:Validity flag: procedure 10
+NY  1996 CORE     106 PRV11    374 375   Num I:Validity flag: procedure 11
+NY  1996 CORE     107 PRV12    376 377   Num I:Validity flag: procedure 12
+NY  1996 CORE     108 PRV13    378 379   Num I:Validity flag: procedure 13
+NY  1996 CORE     109 PRV14    380 381   Num I:Validity flag: procedure 14
+NY  1996 CORE     110 PRV15    382 383   Num I:Validity flag: procedure 15
+NY  1996 CORE     111 PCCHPR1  384 386   Num I:CCHPR: principal procedure
+NY  1996 CORE     112 PCCHPR2  387 389   Num I:CCHPR: procedure 2
+NY  1996 CORE     113 PCCHPR3  390 392   Num I:CCHPR: procedure 3
+NY  1996 CORE     114 PCCHPR4  393 395   Num I:CCHPR: procedure 4
+NY  1996 CORE     115 PCCHPR5  396 398   Num I:CCHPR: procedure 5
+NY  1996 CORE     116 PCCHPR6  399 401   Num I:CCHPR: procedure 6
+NY  1996 CORE     117 PCCHPR7  402 404   Num I:CCHPR: procedure 7
+NY  1996 CORE     118 PCCHPR8  405 407   Num I:CCHPR: procedure 8
+NY  1996 CORE     119 PCCHPR9  408 410   Num I:CCHPR: procedure 9
+NY  1996 CORE     120 PCCHPR10 411 413   Num I:CCHPR: procedure 10
+NY  1996 CORE     121 PCCHPR11 414 416   Num I:CCHPR: procedure 11
+NY  1996 CORE     122 PCCHPR12 417 419   Num I:CCHPR: procedure 12
+NY  1996 CORE     123 PCCHPR13 420 422   Num I:CCHPR: procedure 13
+NY  1996 CORE     124 PCCHPR14 423 425   Num I:CCHPR: procedure 14
+NY  1996 CORE     125 PCCHPR15 426 428   Num I:CCHPR: procedure 15
+NY  1996 CORE     126 PRDAY1   429 433   Num I:No. of days from admission to PR1
+NY  1996 CORE     127 PRDAY2   434 438   Num I:No. of days from admission to PR2
+NY  1996 CORE     128 PRDAY3   439 443   Num I:No. of days from admission to PR3
+NY  1996 CORE     129 PRDAY4   444 448   Num I:No. of days from admission to PR4
+NY  1996 CORE     130 PRDAY5   449 453   Num I:No. of days from admission to PR5
+NY  1996 CORE     131 PRDAY6   454 458   Num I:No. of days from admission to PR6
+NY  1996 CORE     132 PRDAY7   459 463   Num I:No. of days from admission to PR7
+NY  1996 CORE     133 PRDAY8   464 468   Num I:No. of days from admission to PR8
+NY  1996 CORE     134 PRDAY9   469 473   Num I:No. of days from admission to PR9
+NY  1996 CORE     135 PRDAY10  474 478   Num I:No. of days from admission to PR10
+NY  1996 CORE     136 PRDAY11  479 483   Num I:No. of days from admission to PR11
+NY  1996 CORE     137 PRDAY12  484 488   Num I:No. of days from admission to PR12
+NY  1996 CORE     138 PRDAY13  489 493   Num I:No. of days from admission to PR13
+NY  1996 CORE     139 PRDAY14  494 498   Num I:No. of days from admission to PR14
+NY  1996 CORE     140 PRDAY15  499 503   Num I:No. of days from admission to PR15
+NY  1996 CORE     141 DRG      504 506   Num I:DRG in effect on discharge date
+NY  1996 CORE     142 MDC      507 508   Num I:MDC in effect on discharge date
+NY  1996 CORE     143 DRGVER   509 510   Num I:DRG grouper version used on disch date
+NY  1996 CORE     144 DRG10    511 513   Num I:DRG, Version 10
+NY  1996 CORE     145 MDC10    514 515   Num I:MDC, Version 10
+NY  1996 CORE     146 PAY1     516 517   Num I:Primary expected payer, uniform
+NY  1996 CORE     147 PAY1_N   518 519   Num I:Primary expected payer, nonuniform
+NY  1996 CORE     148 PAY2     520 521   Num I:Secondary expected payer, uniform
+NY  1996 CORE     149 PAY2_N   522 523   Num I:Secondary expected payer, nonuniform
+NY  1996 CORE     150 TOTCHG   524 533   Num I:Total charges (cleaned)
+NY  1996 CORE     151 TOTCHG_X 534 548 2 Num I:Total charges (from data source)
+NY  1996 CORE     152 HOSPID   549 553   Num HCUP hospital ID number (SSHHH)

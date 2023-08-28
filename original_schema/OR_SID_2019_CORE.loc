@@ -1,0 +1,260 @@
+Data Set Name: OR_SIDC_2019_CORE               
+Number of Observations: 367657
+Total Record Length: 996
+Total Number of Variables: 239
+Creation Date: 11/17/2020   
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 61    Variable name
+63- 66    Starting column of variable in ASCII file
+68- 71    Ending column of variable in ASCII file
+73- 73    Non-zero number of digits after decimal point for numeric variable
+75- 78    Variable type (Num=numeric; Char=character)
+80-179    Variable label
+
+
+OR  2019 CORE               1 AGE                                1    3   Num  Age in years at admission
+OR  2019 CORE               2 AGEDAY                             4    6   Num  Age in days (when age < 1 year)
+OR  2019 CORE               3 AGEMONTH                           7    9   Num  Age in months (when age < 11 years)
+OR  2019 CORE               4 AHOUR                             10   13   Num  Admission Hour
+OR  2019 CORE               5 AMONTH                            14   15   Num  Admission month
+OR  2019 CORE               6 ATYPE                             16   17   Num  Admission type
+OR  2019 CORE               7 AWEEKEND                          18   19   Num  Admission day is a weekend
+OR  2019 CORE               8 BWT                               20   23   Num  Birth weight in grams
+OR  2019 CORE               9 DHOUR                             24   27   Num  Discharge Hour
+OR  2019 CORE              10 DIED                              28   29   Num  Died during hospitalization
+OR  2019 CORE              11 DISPUB04                          30   31   Num  Disposition of patient (UB-04 standard coding)
+OR  2019 CORE              12 DISPUNIFORM                       32   33   Num  Disposition of patient (uniform)
+OR  2019 CORE              13 DISP_X                            34   35   Char Disposition of patient (as received from source)
+OR  2019 CORE              14 DMONTH                            36   37   Num  Discharge month
+OR  2019 CORE              15 DNR                               38   39   Num  Do not resuscitate indicator
+OR  2019 CORE              16 DQTR                              40   41   Num  Discharge quarter
+OR  2019 CORE              17 DRG                               42   44   Num  DRG in effect on discharge date
+OR  2019 CORE              18 DRGVER                            45   46   Num  DRG grouper version used on discharge date
+OR  2019 CORE              19 DRG_NoPOA                         47   49   Num  DRG in use on discharge date, calculated without POA
+OR  2019 CORE              20 DSHOSPID                          50   66   Char Data source hospital identifier
+OR  2019 CORE              21 DXPOA1                            67   67   Char Diagnosis 1, present on admission indicator
+OR  2019 CORE              22 DXPOA2                            68   68   Char Diagnosis 2, present on admission indicator
+OR  2019 CORE              23 DXPOA3                            69   69   Char Diagnosis 3, present on admission indicator
+OR  2019 CORE              24 DXPOA4                            70   70   Char Diagnosis 4, present on admission indicator
+OR  2019 CORE              25 DXPOA5                            71   71   Char Diagnosis 5, present on admission indicator
+OR  2019 CORE              26 DXPOA6                            72   72   Char Diagnosis 6, present on admission indicator
+OR  2019 CORE              27 DXPOA7                            73   73   Char Diagnosis 7, present on admission indicator
+OR  2019 CORE              28 DXPOA8                            74   74   Char Diagnosis 8, present on admission indicator
+OR  2019 CORE              29 DXPOA9                            75   75   Char Diagnosis 9, present on admission indicator
+OR  2019 CORE              30 DXPOA10                           76   76   Char Diagnosis 10, present on admission indicator
+OR  2019 CORE              31 DXPOA11                           77   77   Char Diagnosis 11, present on admission indicator
+OR  2019 CORE              32 DXPOA12                           78   78   Char Diagnosis 12, present on admission indicator
+OR  2019 CORE              33 DXPOA13                           79   79   Char Diagnosis 13, present on admission indicator
+OR  2019 CORE              34 DXPOA14                           80   80   Char Diagnosis 14, present on admission indicator
+OR  2019 CORE              35 DXPOA15                           81   81   Char Diagnosis 15, present on admission indicator
+OR  2019 CORE              36 DXPOA16                           82   82   Char Diagnosis 16, present on admission indicator
+OR  2019 CORE              37 DXPOA17                           83   83   Char Diagnosis 17, present on admission indicator
+OR  2019 CORE              38 DXPOA18                           84   84   Char Diagnosis 18, present on admission indicator
+OR  2019 CORE              39 DXPOA19                           85   85   Char Diagnosis 19, present on admission indicator
+OR  2019 CORE              40 DXPOA20                           86   86   Char Diagnosis 20, present on admission indicator
+OR  2019 CORE              41 DXPOA21                           87   87   Char Diagnosis 21, present on admission indicator
+OR  2019 CORE              42 DXPOA22                           88   88   Char Diagnosis 22, present on admission indicator
+OR  2019 CORE              43 DXPOA23                           89   89   Char Diagnosis 23, present on admission indicator
+OR  2019 CORE              44 DXPOA24                           90   90   Char Diagnosis 24, present on admission indicator
+OR  2019 CORE              45 DXPOA25                           91   91   Char Diagnosis 25, present on admission indicator
+OR  2019 CORE              46 DXPOA26                           92   92   Char Diagnosis 26, present on admission indicator
+OR  2019 CORE              47 DXPOA27                           93   93   Char Diagnosis 27, present on admission indicator
+OR  2019 CORE              48 DXPOA28                           94   94   Char Diagnosis 28, present on admission indicator
+OR  2019 CORE              49 FEMALE                            95   96   Num  Indicator of sex
+OR  2019 CORE              50 HCUP_ED                           97   98   Num  HCUP Emergency Department service indicator
+OR  2019 CORE              51 HCUP_OS                           99  100   Num  HCUP Observation Stay service indicator
+OR  2019 CORE              52 HISPANIC                         101  102   Num  Hispanic ethnicity (uniform)
+OR  2019 CORE              53 HISPANIC_X                       103  104   Char Hispanic ethnicity (as received from source)
+OR  2019 CORE              54 HOSPST                           105  106   Char Hospital state postal code
+OR  2019 CORE              55 HospitalUnit                     107  108   Num  Patient was discharged from a special unit within an acute care hospital (reported by source)
+OR  2019 CORE              56 I10_BIRTH                        109  110   Num  ICD-10-CM Birth Indicator
+OR  2019 CORE              57 I10_DELIVERY                     111  112   Num  ICD-10-CM Delivery Indicator
+OR  2019 CORE              58 I10_DX1                          113  119   Char ICD-10-CM Diagnosis 1
+OR  2019 CORE              59 I10_DX2                          120  126   Char ICD-10-CM Diagnosis 2
+OR  2019 CORE              60 I10_DX3                          127  133   Char ICD-10-CM Diagnosis 3
+OR  2019 CORE              61 I10_DX4                          134  140   Char ICD-10-CM Diagnosis 4
+OR  2019 CORE              62 I10_DX5                          141  147   Char ICD-10-CM Diagnosis 5
+OR  2019 CORE              63 I10_DX6                          148  154   Char ICD-10-CM Diagnosis 6
+OR  2019 CORE              64 I10_DX7                          155  161   Char ICD-10-CM Diagnosis 7
+OR  2019 CORE              65 I10_DX8                          162  168   Char ICD-10-CM Diagnosis 8
+OR  2019 CORE              66 I10_DX9                          169  175   Char ICD-10-CM Diagnosis 9
+OR  2019 CORE              67 I10_DX10                         176  182   Char ICD-10-CM Diagnosis 10
+OR  2019 CORE              68 I10_DX11                         183  189   Char ICD-10-CM Diagnosis 11
+OR  2019 CORE              69 I10_DX12                         190  196   Char ICD-10-CM Diagnosis 12
+OR  2019 CORE              70 I10_DX13                         197  203   Char ICD-10-CM Diagnosis 13
+OR  2019 CORE              71 I10_DX14                         204  210   Char ICD-10-CM Diagnosis 14
+OR  2019 CORE              72 I10_DX15                         211  217   Char ICD-10-CM Diagnosis 15
+OR  2019 CORE              73 I10_DX16                         218  224   Char ICD-10-CM Diagnosis 16
+OR  2019 CORE              74 I10_DX17                         225  231   Char ICD-10-CM Diagnosis 17
+OR  2019 CORE              75 I10_DX18                         232  238   Char ICD-10-CM Diagnosis 18
+OR  2019 CORE              76 I10_DX19                         239  245   Char ICD-10-CM Diagnosis 19
+OR  2019 CORE              77 I10_DX20                         246  252   Char ICD-10-CM Diagnosis 20
+OR  2019 CORE              78 I10_DX21                         253  259   Char ICD-10-CM Diagnosis 21
+OR  2019 CORE              79 I10_DX22                         260  266   Char ICD-10-CM Diagnosis 22
+OR  2019 CORE              80 I10_DX23                         267  273   Char ICD-10-CM Diagnosis 23
+OR  2019 CORE              81 I10_DX24                         274  280   Char ICD-10-CM Diagnosis 24
+OR  2019 CORE              82 I10_DX25                         281  287   Char ICD-10-CM Diagnosis 25
+OR  2019 CORE              83 I10_DX26                         288  294   Char ICD-10-CM Diagnosis 26
+OR  2019 CORE              84 I10_DX27                         295  301   Char ICD-10-CM Diagnosis 27
+OR  2019 CORE              85 I10_DX28                         302  308   Char ICD-10-CM Diagnosis 28
+OR  2019 CORE              86 I10_DX_Admitting                 309  315   Char ICD-10-CM Admitting Diagnosis Code
+OR  2019 CORE              87 I10_NDX                          316  318   Num  ICD-10-CM Number of diagnoses on this record
+OR  2019 CORE              88 I10_NPR                          319  321   Num  ICD-10-PCS Number of procedures on this record
+OR  2019 CORE              89 I10_ORPROC                       322  323   Num  ICD-10-PCS Major operating room procedure indicator
+OR  2019 CORE              90 I10_PR1                          324  330   Char ICD-10-PCS Procedure 1
+OR  2019 CORE              91 I10_PR2                          331  337   Char ICD-10-PCS Procedure 2
+OR  2019 CORE              92 I10_PR3                          338  344   Char ICD-10-PCS Procedure 3
+OR  2019 CORE              93 I10_PR4                          345  351   Char ICD-10-PCS Procedure 4
+OR  2019 CORE              94 I10_PR5                          352  358   Char ICD-10-PCS Procedure 5
+OR  2019 CORE              95 I10_PR6                          359  365   Char ICD-10-PCS Procedure 6
+OR  2019 CORE              96 I10_PR7                          366  372   Char ICD-10-PCS Procedure 7
+OR  2019 CORE              97 I10_PR8                          373  379   Char ICD-10-PCS Procedure 8
+OR  2019 CORE              98 I10_PR9                          380  386   Char ICD-10-PCS Procedure 9
+OR  2019 CORE              99 I10_PR10                         387  393   Char ICD-10-PCS Procedure 10
+OR  2019 CORE             100 I10_PR11                         394  400   Char ICD-10-PCS Procedure 11
+OR  2019 CORE             101 I10_PR12                         401  407   Char ICD-10-PCS Procedure 12
+OR  2019 CORE             102 I10_PR13                         408  414   Char ICD-10-PCS Procedure 13
+OR  2019 CORE             103 I10_PR14                         415  421   Char ICD-10-PCS Procedure 14
+OR  2019 CORE             104 I10_PR15                         422  428   Char ICD-10-PCS Procedure 15
+OR  2019 CORE             105 I10_PR16                         429  435   Char ICD-10-PCS Procedure 16
+OR  2019 CORE             106 I10_PR17                         436  442   Char ICD-10-PCS Procedure 17
+OR  2019 CORE             107 I10_PR18                         443  449   Char ICD-10-PCS Procedure 18
+OR  2019 CORE             108 I10_PR19                         450  456   Char ICD-10-PCS Procedure 19
+OR  2019 CORE             109 I10_PR20                         457  463   Char ICD-10-PCS Procedure 20
+OR  2019 CORE             110 I10_PR21                         464  470   Char ICD-10-PCS Procedure 21
+OR  2019 CORE             111 I10_PR22                         471  477   Char ICD-10-PCS Procedure 22
+OR  2019 CORE             112 I10_PR23                         478  484   Char ICD-10-PCS Procedure 23
+OR  2019 CORE             113 I10_PR24                         485  491   Char ICD-10-PCS Procedure 24
+OR  2019 CORE             114 I10_PR25                         492  498   Char ICD-10-PCS Procedure 25
+OR  2019 CORE             115 I10_PROCTYPE                     499  501   Num  ICD-10-PCS Procedure type indicator
+OR  2019 CORE             116 I10_SERVICELINE                  502  503   Num  ICD-10-CM/PCS Hospital Service Line
+OR  2019 CORE             117 KEY                              504  518   Num  HCUP record identifier
+OR  2019 CORE             118 LOS                              519  523   Num  Length of stay (cleaned)
+OR  2019 CORE             119 LOS_X                            524  529   Num  Length of stay (as received from source)
+OR  2019 CORE             120 MDC                              530  531   Num  MDC in effect on discharge date
+OR  2019 CORE             121 MDC_NoPOA                        532  533   Num  MDC in use on discharge date, calculated without POA
+OR  2019 CORE             122 MDNUM1_R                         534  542   Num  Physician 1 number (re-identified)
+OR  2019 CORE             123 MDNUM2_R                         543  551   Num  Physician 2 number (re-identified)
+OR  2019 CORE             124 MDNUM3_R                         552  560   Num  Physician 3 number (re-identified)
+OR  2019 CORE             125 MDNUM4_R                         561  569   Num  Physician 4 number (re-identified)
+OR  2019 CORE             126 MEDINCSTQ                        570  571   Num  Median household income state quartile for patient ZIP Code
+OR  2019 CORE             127 OS_TIME                          572  582 2 Num  Observation stay time summed from UNITS
+OR  2019 CORE             128 PAY1                             583  584   Num  Primary expected payer (uniform)
+OR  2019 CORE             129 PAY1_X                           585  593   Char Primary expected payer (as received from source)
+OR  2019 CORE             130 PAY2                             594  595   Num  Secondary expected payer (uniform)
+OR  2019 CORE             131 PAY2_X                           596  604   Char Secondary expected payer (as received from source)
+OR  2019 CORE             132 PAY3                             605  606   Num  Tertiary expected payer (uniform)
+OR  2019 CORE             133 PAY3_X                           607  615   Char Tertiary expected payer (as received from source)
+OR  2019 CORE             134 PL_CBSA                          616  618   Num  Patient location: Core Based Statistical Area (CBSA)
+OR  2019 CORE             135 PL_NCHS                          619  620   Num  Patient Location: NCHS Urban-Rural Code
+OR  2019 CORE             136 PL_RUCC                          621  622   Num  Patient location: Rural-Urban Continuum Codes (RUCC)
+OR  2019 CORE             137 PL_UIC                           623  624   Num  Patient location: Urban Influence Codes
+OR  2019 CORE             138 PL_UR_CAT4                       625  626   Num  Patient Location: Urban-Rural 4 Categories
+OR  2019 CORE             139 POA_Disch_Edit1                  627  628   Num  Discharge has POA missing on all nonexempt diagnoses
+OR  2019 CORE             140 POA_Disch_Edit2                  629  630   Num  Discharge has POA missing on all nonexempt secondary diagnoses
+OR  2019 CORE             141 POA_Hosp_Edit1                   631  632   Num  Hospital reported POA as Y on all diagnoses on all discharges
+OR  2019 CORE             142 POA_Hosp_Edit2                   633  634   Num  Hospital reported POA as missing on all non-Medicare discharges
+OR  2019 CORE             143 POA_Hosp_Edit3                   635  636   Num  Hospital reported POA as missing on all nonexempt diagnoses for 15% or more of discharges
+OR  2019 CORE             144 POA_Hosp_Edit3_Value             637  644 2 Num  Percentage of discharges with all nonexempt diagnoses missing POA indicators
+OR  2019 CORE             145 PRDAY1                           645  649   Num  Number of days from admission to I10_PR1
+OR  2019 CORE             146 PRDAY2                           650  654   Num  Number of days from admission to I10_PR2
+OR  2019 CORE             147 PRDAY3                           655  659   Num  Number of days from admission to I10_PR3
+OR  2019 CORE             148 PRDAY4                           660  664   Num  Number of days from admission to I10_PR4
+OR  2019 CORE             149 PRDAY5                           665  669   Num  Number of days from admission to I10_PR5
+OR  2019 CORE             150 PRDAY6                           670  674   Num  Number of days from admission to I10_PR6
+OR  2019 CORE             151 PRDAY7                           675  679   Num  Number of days from admission to I10_PR7
+OR  2019 CORE             152 PRDAY8                           680  684   Num  Number of days from admission to I10_PR8
+OR  2019 CORE             153 PRDAY9                           685  689   Num  Number of days from admission to I10_PR9
+OR  2019 CORE             154 PRDAY10                          690  694   Num  Number of days from admission to I10_PR10
+OR  2019 CORE             155 PRDAY11                          695  699   Num  Number of days from admission to I10_PR11
+OR  2019 CORE             156 PRDAY12                          700  704   Num  Number of days from admission to I10_PR12
+OR  2019 CORE             157 PRDAY13                          705  709   Num  Number of days from admission to I10_PR13
+OR  2019 CORE             158 PRDAY14                          710  714   Num  Number of days from admission to I10_PR14
+OR  2019 CORE             159 PRDAY15                          715  719   Num  Number of days from admission to I10_PR15
+OR  2019 CORE             160 PRDAY16                          720  724   Num  Number of days from admission to I10_PR16
+OR  2019 CORE             161 PRDAY17                          725  729   Num  Number of days from admission to I10_PR17
+OR  2019 CORE             162 PRDAY18                          730  734   Num  Number of days from admission to I10_PR18
+OR  2019 CORE             163 PRDAY19                          735  739   Num  Number of days from admission to I10_PR19
+OR  2019 CORE             164 PRDAY20                          740  744   Num  Number of days from admission to I10_PR20
+OR  2019 CORE             165 PRDAY21                          745  749   Num  Number of days from admission to I10_PR21
+OR  2019 CORE             166 PRDAY22                          750  754   Num  Number of days from admission to I10_PR22
+OR  2019 CORE             167 PRDAY23                          755  759   Num  Number of days from admission to I10_PR23
+OR  2019 CORE             168 PRDAY24                          760  764   Num  Number of days from admission to I10_PR24
+OR  2019 CORE             169 PRDAY25                          765  769   Num  Number of days from admission to I10_PR25
+OR  2019 CORE             170 PSTATE                           770  771   Char Patient State postal code
+OR  2019 CORE             171 PSTATE_GEO                       772  773   Char Patient State postal code assigned from ZIP Code
+OR  2019 CORE             172 PSTCO                            774  778   Num  Patient state/county FIPS code
+OR  2019 CORE             173 PSTCO_GEO                        779  783   Num  Counties assigned based on ZIP Code geographic centroids
+OR  2019 CORE             174 PointOfOriginUB04                784  784   Char Point of origin for admission or visit, UB-04 standard coding
+OR  2019 CORE             175 PointOfOrigin_X                  785  786   Char Point of origin for admission or visit, as received from source
+OR  2019 CORE             176 RACE                             787  788   Num  Race (uniform)
+OR  2019 CORE             177 RACE_EDIT                        789  790   Num  Race Edit Checks
+OR  2019 CORE             178 RACE_X                           791  792   Char Race (as received from source)
+OR  2019 CORE             179 TOTCHG                           793  802   Num  Total charges (cleaned)
+OR  2019 CORE             180 TOTCHG_X                         803  817 2 Num  Total charges (as received from source)
+OR  2019 CORE             181 TRAN_IN                          818  819   Num  Transfer in indicator
+OR  2019 CORE             182 TRAN_OUT                         820  821   Num  Transfer out indicator
+OR  2019 CORE             183 YEAR                             822  825   Num  Calendar year
+OR  2019 CORE             184 ZIP                              826  830   Char Patient ZIP Code
+OR  2019 CORE             185 ZIP3                             831  833   Char Patient ZIP Code, first 3 digits
+OR  2019 CORE             186 ZIPINC_QRTL                      834  836   Num  Median household income national quartile for patient ZIP Code
+OR  2019 CORE             187 AYEAR                            837  840   Num  Admission year
+OR  2019 CORE             188 BMONTH                           841  842   Num  Birth month
+OR  2019 CORE             189 BYEAR                            843  846   Num  Birth year
+OR  2019 CORE             190 PRMONTH1                         847  848   Num  Month of procedure 1
+OR  2019 CORE             191 PRMONTH2                         849  850   Num  Month of procedure 2
+OR  2019 CORE             192 PRMONTH3                         851  852   Num  Month of procedure 3
+OR  2019 CORE             193 PRMONTH4                         853  854   Num  Month of procedure 4
+OR  2019 CORE             194 PRMONTH5                         855  856   Num  Month of procedure 5
+OR  2019 CORE             195 PRMONTH6                         857  858   Num  Month of procedure 6
+OR  2019 CORE             196 PRMONTH7                         859  860   Num  Month of procedure 7
+OR  2019 CORE             197 PRMONTH8                         861  862   Num  Month of procedure 8
+OR  2019 CORE             198 PRMONTH9                         863  864   Num  Month of procedure 9
+OR  2019 CORE             199 PRMONTH10                        865  866   Num  Month of procedure 10
+OR  2019 CORE             200 PRMONTH11                        867  868   Num  Month of procedure 11
+OR  2019 CORE             201 PRMONTH12                        869  870   Num  Month of procedure 12
+OR  2019 CORE             202 PRMONTH13                        871  872   Num  Month of procedure 13
+OR  2019 CORE             203 PRMONTH14                        873  874   Num  Month of procedure 14
+OR  2019 CORE             204 PRMONTH15                        875  876   Num  Month of procedure 15
+OR  2019 CORE             205 PRMONTH16                        877  878   Num  Month of procedure 16
+OR  2019 CORE             206 PRMONTH17                        879  880   Num  Month of procedure 17
+OR  2019 CORE             207 PRMONTH18                        881  882   Num  Month of procedure 18
+OR  2019 CORE             208 PRMONTH19                        883  884   Num  Month of procedure 19
+OR  2019 CORE             209 PRMONTH20                        885  886   Num  Month of procedure 20
+OR  2019 CORE             210 PRMONTH21                        887  888   Num  Month of procedure 21
+OR  2019 CORE             211 PRMONTH22                        889  890   Num  Month of procedure 22
+OR  2019 CORE             212 PRMONTH23                        891  892   Num  Month of procedure 23
+OR  2019 CORE             213 PRMONTH24                        893  894   Num  Month of procedure 24
+OR  2019 CORE             214 PRMONTH25                        895  896   Num  Month of procedure 25
+OR  2019 CORE             215 PRYEAR1                          897  900   Num  Year of procedure 1
+OR  2019 CORE             216 PRYEAR2                          901  904   Num  Year of procedure 2
+OR  2019 CORE             217 PRYEAR3                          905  908   Num  Year of procedure 3
+OR  2019 CORE             218 PRYEAR4                          909  912   Num  Year of procedure 4
+OR  2019 CORE             219 PRYEAR5                          913  916   Num  Year of procedure 5
+OR  2019 CORE             220 PRYEAR6                          917  920   Num  Year of procedure 6
+OR  2019 CORE             221 PRYEAR7                          921  924   Num  Year of procedure 7
+OR  2019 CORE             222 PRYEAR8                          925  928   Num  Year of procedure 8
+OR  2019 CORE             223 PRYEAR9                          929  932   Num  Year of procedure 9
+OR  2019 CORE             224 PRYEAR10                         933  936   Num  Year of procedure 10
+OR  2019 CORE             225 PRYEAR11                         937  940   Num  Year of procedure 11
+OR  2019 CORE             226 PRYEAR12                         941  944   Num  Year of procedure 12
+OR  2019 CORE             227 PRYEAR13                         945  948   Num  Year of procedure 13
+OR  2019 CORE             228 PRYEAR14                         949  952   Num  Year of procedure 14
+OR  2019 CORE             229 PRYEAR15                         953  956   Num  Year of procedure 15
+OR  2019 CORE             230 PRYEAR16                         957  960   Num  Year of procedure 16
+OR  2019 CORE             231 PRYEAR17                         961  964   Num  Year of procedure 17
+OR  2019 CORE             232 PRYEAR18                         965  968   Num  Year of procedure 18
+OR  2019 CORE             233 PRYEAR19                         969  972   Num  Year of procedure 19
+OR  2019 CORE             234 PRYEAR20                         973  976   Num  Year of procedure 20
+OR  2019 CORE             235 PRYEAR21                         977  980   Num  Year of procedure 21
+OR  2019 CORE             236 PRYEAR22                         981  984   Num  Year of procedure 22
+OR  2019 CORE             237 PRYEAR23                         985  988   Num  Year of procedure 23
+OR  2019 CORE             238 PRYEAR24                         989  992   Num  Year of procedure 24
+OR  2019 CORE             239 PRYEAR25                         993  996   Num  Year of procedure 25

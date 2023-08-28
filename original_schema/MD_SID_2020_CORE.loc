@@ -1,0 +1,404 @@
+Data Set Name: MD_SIDC_2020_CORE               
+Number of Observations: 522191
+Total Record Length: 1740
+Total Number of Variables: 383
+Creation Date: 11/15/2021   
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 61    Variable name
+63- 66    Starting column of variable in ASCII file
+68- 71    Ending column of variable in ASCII file
+73- 73    Non-zero number of digits after decimal point for numeric variable
+75- 78    Variable type (Num=numeric; Char=character)
+80-179    Variable label
+
+
+MD  2020 CORE               1 AGE                                1    3   Num  Age in years at admission
+MD  2020 CORE               2 AGEDAY                             4    6   Num  Age in days (when age < 1 year)
+MD  2020 CORE               3 AGEMONTH                           7    9   Num  Age in months (when age < 11 years)
+MD  2020 CORE               4 ATYPE                             10   11   Num  Admission type
+MD  2020 CORE               5 AWEEKEND                          12   13   Num  Admission day is a weekend
+MD  2020 CORE               6 BWT                               14   17   Num  Birth weight in grams
+MD  2020 CORE               7 DaysBurnUnit                      18   20   Num  Days in burn care unit (as received from source)
+MD  2020 CORE               8 DaysCCU                           21   23   Num  Days in coronary care unit (as received from source)
+MD  2020 CORE               9 DaysICU                           24   26   Num  Days in medical/surgical intensive care unit (as received from source)
+MD  2020 CORE              10 DaysNICU                          27   29   Num  Days in neonetal care unit (as received from source)
+MD  2020 CORE              11 DaysPICU                          30   32   Num  Days in pediatric care unit (as received from source)
+MD  2020 CORE              12 DaysShockUnit                     33   35   Num  Days in shock trauma unit (as received from source
+MD  2020 CORE              13 DaysToEvent                       36   41   Num  Days from 'start date' to admission
+MD  2020 CORE              14 DIED                              42   43   Num  Died during hospitalization
+MD  2020 CORE              15 DISP_X                            44   45   Char Disposition of patient (as received from source)
+MD  2020 CORE              16 DISPUB04                          46   47   Num  Disposition of patient (UB-04 standard coding)
+MD  2020 CORE              17 DISPUNIFORM                       48   49   Num  Disposition of patient (uniform)
+MD  2020 CORE              18 DQTR                              50   51   Num  Discharge quarter
+MD  2020 CORE              19 DRG                               52   54   Num  DRG in effect on discharge date
+MD  2020 CORE              20 DRG_NoPOA                         55   57   Num  DRG in use on discharge date, calculated without POA
+MD  2020 CORE              21 DRGVER                            58   59   Num  DRG grouper version used on discharge date
+MD  2020 CORE              22 DSHOSPID                          60   76   Char Data source hospital identifier
+MD  2020 CORE              23 DXPOA1                            77   77   Char Diagnosis 1, present on admission indicator
+MD  2020 CORE              24 DXPOA2                            78   78   Char Diagnosis 2, present on admission indicator
+MD  2020 CORE              25 DXPOA3                            79   79   Char Diagnosis 3, present on admission indicator
+MD  2020 CORE              26 DXPOA4                            80   80   Char Diagnosis 4, present on admission indicator
+MD  2020 CORE              27 DXPOA5                            81   81   Char Diagnosis 5, present on admission indicator
+MD  2020 CORE              28 DXPOA6                            82   82   Char Diagnosis 6, present on admission indicator
+MD  2020 CORE              29 DXPOA7                            83   83   Char Diagnosis 7, present on admission indicator
+MD  2020 CORE              30 DXPOA8                            84   84   Char Diagnosis 8, present on admission indicator
+MD  2020 CORE              31 DXPOA9                            85   85   Char Diagnosis 9, present on admission indicator
+MD  2020 CORE              32 DXPOA10                           86   86   Char Diagnosis 10, present on admission indicator
+MD  2020 CORE              33 DXPOA11                           87   87   Char Diagnosis 11, present on admission indicator
+MD  2020 CORE              34 DXPOA12                           88   88   Char Diagnosis 12, present on admission indicator
+MD  2020 CORE              35 DXPOA13                           89   89   Char Diagnosis 13, present on admission indicator
+MD  2020 CORE              36 DXPOA14                           90   90   Char Diagnosis 14, present on admission indicator
+MD  2020 CORE              37 DXPOA15                           91   91   Char Diagnosis 15, present on admission indicator
+MD  2020 CORE              38 DXPOA16                           92   92   Char Diagnosis 16, present on admission indicator
+MD  2020 CORE              39 DXPOA17                           93   93   Char Diagnosis 17, present on admission indicator
+MD  2020 CORE              40 DXPOA18                           94   94   Char Diagnosis 18, present on admission indicator
+MD  2020 CORE              41 DXPOA19                           95   95   Char Diagnosis 19, present on admission indicator
+MD  2020 CORE              42 DXPOA20                           96   96   Char Diagnosis 20, present on admission indicator
+MD  2020 CORE              43 DXPOA21                           97   97   Char Diagnosis 21, present on admission indicator
+MD  2020 CORE              44 DXPOA22                           98   98   Char Diagnosis 22, present on admission indicator
+MD  2020 CORE              45 DXPOA23                           99   99   Char Diagnosis 23, present on admission indicator
+MD  2020 CORE              46 DXPOA24                          100  100   Char Diagnosis 24, present on admission indicator
+MD  2020 CORE              47 DXPOA25                          101  101   Char Diagnosis 25, present on admission indicator
+MD  2020 CORE              48 DXPOA26                          102  102   Char Diagnosis 26, present on admission indicator
+MD  2020 CORE              49 DXPOA27                          103  103   Char Diagnosis 27, present on admission indicator
+MD  2020 CORE              50 DXPOA28                          104  104   Char Diagnosis 28, present on admission indicator
+MD  2020 CORE              51 DXPOA29                          105  105   Char Diagnosis 29, present on admission indicator
+MD  2020 CORE              52 DXPOA30                          106  106   Char Diagnosis 30, present on admission indicator
+MD  2020 CORE              53 DXPOA31                          107  107   Char Diagnosis 31, present on admission indicator
+MD  2020 CORE              54 DXPOA32                          108  108   Char Diagnosis 32, present on admission indicator
+MD  2020 CORE              55 DXPOA33                          109  109   Char Diagnosis 33, present on admission indicator
+MD  2020 CORE              56 DXPOA34                          110  110   Char Diagnosis 34, present on admission indicator
+MD  2020 CORE              57 DXPOA35                          111  111   Char Diagnosis 35, present on admission indicator
+MD  2020 CORE              58 DXPOA36                          112  112   Char Diagnosis 36, present on admission indicator
+MD  2020 CORE              59 DXPOA37                          113  113   Char Diagnosis 37, present on admission indicator
+MD  2020 CORE              60 DXPOA38                          114  114   Char Diagnosis 38, present on admission indicator
+MD  2020 CORE              61 DXPOA39                          115  115   Char Diagnosis 39, present on admission indicator
+MD  2020 CORE              62 DXPOA40                          116  116   Char Diagnosis 40, present on admission indicator
+MD  2020 CORE              63 DXPOA41                          117  117   Char Diagnosis 41, present on admission indicator
+MD  2020 CORE              64 DXPOA42                          118  118   Char Diagnosis 42, present on admission indicator
+MD  2020 CORE              65 DXPOA43                          119  119   Char Diagnosis 43, present on admission indicator
+MD  2020 CORE              66 DXPOA44                          120  120   Char Diagnosis 44, present on admission indicator
+MD  2020 CORE              67 DXPOA45                          121  121   Char Diagnosis 45, present on admission indicator
+MD  2020 CORE              68 DXPOA46                          122  122   Char Diagnosis 46, present on admission indicator
+MD  2020 CORE              69 DXPOA47                          123  123   Char Diagnosis 47, present on admission indicator
+MD  2020 CORE              70 DXPOA48                          124  124   Char Diagnosis 48, present on admission indicator
+MD  2020 CORE              71 DXPOA49                          125  125   Char Diagnosis 49, present on admission indicator
+MD  2020 CORE              72 DXPOA50                          126  126   Char Diagnosis 50, present on admission indicator
+MD  2020 CORE              73 DXPOA51                          127  127   Char Diagnosis 51, present on admission indicator
+MD  2020 CORE              74 DXPOA52                          128  128   Char Diagnosis 52, present on admission indicator
+MD  2020 CORE              75 DXPOA53                          129  129   Char Diagnosis 53, present on admission indicator
+MD  2020 CORE              76 DXPOA54                          130  130   Char Diagnosis 54, present on admission indicator
+MD  2020 CORE              77 DXPOA55                          131  131   Char Diagnosis 55, present on admission indicator
+MD  2020 CORE              78 DXPOA56                          132  132   Char Diagnosis 56, present on admission indicator
+MD  2020 CORE              79 DXPOA57                          133  133   Char Diagnosis 57, present on admission indicator
+MD  2020 CORE              80 DXPOA58                          134  134   Char Diagnosis 58, present on admission indicator
+MD  2020 CORE              81 DXPOA59                          135  135   Char Diagnosis 59, present on admission indicator
+MD  2020 CORE              82 DXPOA60                          136  136   Char Diagnosis 60, present on admission indicator
+MD  2020 CORE              83 DXPOA61                          137  137   Char Diagnosis 61, present on admission indicator
+MD  2020 CORE              84 DXPOA62                          138  138   Char Diagnosis 62, present on admission indicator
+MD  2020 CORE              85 DXPOA63                          139  139   Char Diagnosis 63, present on admission indicator
+MD  2020 CORE              86 DXPOA64                          140  140   Char Diagnosis 64, present on admission indicator
+MD  2020 CORE              87 DXPOA65                          141  141   Char Diagnosis 65, present on admission indicator
+MD  2020 CORE              88 DXPOA66                          142  142   Char Diagnosis 66, present on admission indicator
+MD  2020 CORE              89 DXPOA67                          143  143   Char Diagnosis 67, present on admission indicator
+MD  2020 CORE              90 DXPOA68                          144  144   Char Diagnosis 68, present on admission indicator
+MD  2020 CORE              91 DXPOA69                          145  145   Char Diagnosis 69, present on admission indicator
+MD  2020 CORE              92 DXPOA70                          146  146   Char Diagnosis 70, present on admission indicator
+MD  2020 CORE              93 DXPOA71                          147  147   Char Diagnosis 71, present on admission indicator
+MD  2020 CORE              94 DXPOA72                          148  148   Char Diagnosis 72, present on admission indicator
+MD  2020 CORE              95 DXPOA73                          149  149   Char Diagnosis 73, present on admission indicator
+MD  2020 CORE              96 DXPOA74                          150  150   Char Diagnosis 74, present on admission indicator
+MD  2020 CORE              97 DXPOA75                          151  151   Char Diagnosis 75, present on admission indicator
+MD  2020 CORE              98 DXPOA76                          152  152   Char Diagnosis 76, present on admission indicator
+MD  2020 CORE              99 DXPOA77                          153  153   Char Diagnosis 77, present on admission indicator
+MD  2020 CORE             100 DXPOA78                          154  154   Char Diagnosis 78, present on admission indicator
+MD  2020 CORE             101 DXPOA79                          155  155   Char Diagnosis 79, present on admission indicator
+MD  2020 CORE             102 DXPOA80                          156  156   Char Diagnosis 80, present on admission indicator
+MD  2020 CORE             103 DXPOA81                          157  157   Char Diagnosis 81, present on admission indicator
+MD  2020 CORE             104 DXPOA82                          158  158   Char Diagnosis 82, present on admission indicator
+MD  2020 CORE             105 DXPOA83                          159  159   Char Diagnosis 83, present on admission indicator
+MD  2020 CORE             106 FEMALE                           160  161   Num  Indicator of sex
+MD  2020 CORE             107 HCUP_ED                          162  163   Num  HCUP Emergency Department service indicator
+MD  2020 CORE             108 HCUP_OS                          164  165   Num  HCUP Observation Stay service indicator
+MD  2020 CORE             109 HISPANIC                         166  167   Num  Hispanic ethnicity (uniform)
+MD  2020 CORE             110 HISPANIC_X                       168  168   Char Hispanic ethnicity (as received from source)
+MD  2020 CORE             111 Homeless                         169  170   Num  Indicator that patient is homeless
+MD  2020 CORE             112 HospitalUnit                     171  172   Num  Patient was discharged from a special unit within an acute care hospital (reported by source)
+MD  2020 CORE             113 HOSPST                           173  174   Char Hospital state postal code
+MD  2020 CORE             114 I10_BIRTH                        175  177   Num  ICD-10-CM Birth Indicator
+MD  2020 CORE             115 I10_DELIVERY                     178  180   Num  ICD-10-CM Delivery Indicator
+MD  2020 CORE             116 I10_DX1                          181  187   Char ICD-10-CM Diagnosis 1
+MD  2020 CORE             117 I10_DX2                          188  194   Char ICD-10-CM Diagnosis 2
+MD  2020 CORE             118 I10_DX3                          195  201   Char ICD-10-CM Diagnosis 3
+MD  2020 CORE             119 I10_DX4                          202  208   Char ICD-10-CM Diagnosis 4
+MD  2020 CORE             120 I10_DX5                          209  215   Char ICD-10-CM Diagnosis 5
+MD  2020 CORE             121 I10_DX6                          216  222   Char ICD-10-CM Diagnosis 6
+MD  2020 CORE             122 I10_DX7                          223  229   Char ICD-10-CM Diagnosis 7
+MD  2020 CORE             123 I10_DX8                          230  236   Char ICD-10-CM Diagnosis 8
+MD  2020 CORE             124 I10_DX9                          237  243   Char ICD-10-CM Diagnosis 9
+MD  2020 CORE             125 I10_DX10                         244  250   Char ICD-10-CM Diagnosis 10
+MD  2020 CORE             126 I10_DX11                         251  257   Char ICD-10-CM Diagnosis 11
+MD  2020 CORE             127 I10_DX12                         258  264   Char ICD-10-CM Diagnosis 12
+MD  2020 CORE             128 I10_DX13                         265  271   Char ICD-10-CM Diagnosis 13
+MD  2020 CORE             129 I10_DX14                         272  278   Char ICD-10-CM Diagnosis 14
+MD  2020 CORE             130 I10_DX15                         279  285   Char ICD-10-CM Diagnosis 15
+MD  2020 CORE             131 I10_DX16                         286  292   Char ICD-10-CM Diagnosis 16
+MD  2020 CORE             132 I10_DX17                         293  299   Char ICD-10-CM Diagnosis 17
+MD  2020 CORE             133 I10_DX18                         300  306   Char ICD-10-CM Diagnosis 18
+MD  2020 CORE             134 I10_DX19                         307  313   Char ICD-10-CM Diagnosis 19
+MD  2020 CORE             135 I10_DX20                         314  320   Char ICD-10-CM Diagnosis 20
+MD  2020 CORE             136 I10_DX21                         321  327   Char ICD-10-CM Diagnosis 21
+MD  2020 CORE             137 I10_DX22                         328  334   Char ICD-10-CM Diagnosis 22
+MD  2020 CORE             138 I10_DX23                         335  341   Char ICD-10-CM Diagnosis 23
+MD  2020 CORE             139 I10_DX24                         342  348   Char ICD-10-CM Diagnosis 24
+MD  2020 CORE             140 I10_DX25                         349  355   Char ICD-10-CM Diagnosis 25
+MD  2020 CORE             141 I10_DX26                         356  362   Char ICD-10-CM Diagnosis 26
+MD  2020 CORE             142 I10_DX27                         363  369   Char ICD-10-CM Diagnosis 27
+MD  2020 CORE             143 I10_DX28                         370  376   Char ICD-10-CM Diagnosis 28
+MD  2020 CORE             144 I10_DX29                         377  383   Char ICD-10-CM Diagnosis 29
+MD  2020 CORE             145 I10_DX30                         384  390   Char ICD-10-CM Diagnosis 30
+MD  2020 CORE             146 I10_DX31                         391  397   Char ICD-10-CM Diagnosis 31
+MD  2020 CORE             147 I10_DX32                         398  404   Char ICD-10-CM Diagnosis 32
+MD  2020 CORE             148 I10_DX33                         405  411   Char ICD-10-CM Diagnosis 33
+MD  2020 CORE             149 I10_DX34                         412  418   Char ICD-10-CM Diagnosis 34
+MD  2020 CORE             150 I10_DX35                         419  425   Char ICD-10-CM Diagnosis 35
+MD  2020 CORE             151 I10_DX36                         426  432   Char ICD-10-CM Diagnosis 36
+MD  2020 CORE             152 I10_DX37                         433  439   Char ICD-10-CM Diagnosis 37
+MD  2020 CORE             153 I10_DX38                         440  446   Char ICD-10-CM Diagnosis 38
+MD  2020 CORE             154 I10_DX39                         447  453   Char ICD-10-CM Diagnosis 39
+MD  2020 CORE             155 I10_DX40                         454  460   Char ICD-10-CM Diagnosis 40
+MD  2020 CORE             156 I10_DX41                         461  467   Char ICD-10-CM Diagnosis 41
+MD  2020 CORE             157 I10_DX42                         468  474   Char ICD-10-CM Diagnosis 42
+MD  2020 CORE             158 I10_DX43                         475  481   Char ICD-10-CM Diagnosis 43
+MD  2020 CORE             159 I10_DX44                         482  488   Char ICD-10-CM Diagnosis 44
+MD  2020 CORE             160 I10_DX45                         489  495   Char ICD-10-CM Diagnosis 45
+MD  2020 CORE             161 I10_DX46                         496  502   Char ICD-10-CM Diagnosis 46
+MD  2020 CORE             162 I10_DX47                         503  509   Char ICD-10-CM Diagnosis 47
+MD  2020 CORE             163 I10_DX48                         510  516   Char ICD-10-CM Diagnosis 48
+MD  2020 CORE             164 I10_DX49                         517  523   Char ICD-10-CM Diagnosis 49
+MD  2020 CORE             165 I10_DX50                         524  530   Char ICD-10-CM Diagnosis 50
+MD  2020 CORE             166 I10_DX51                         531  537   Char ICD-10-CM Diagnosis 51
+MD  2020 CORE             167 I10_DX52                         538  544   Char ICD-10-CM Diagnosis 52
+MD  2020 CORE             168 I10_DX53                         545  551   Char ICD-10-CM Diagnosis 53
+MD  2020 CORE             169 I10_DX54                         552  558   Char ICD-10-CM Diagnosis 54
+MD  2020 CORE             170 I10_DX55                         559  565   Char ICD-10-CM Diagnosis 55
+MD  2020 CORE             171 I10_DX56                         566  572   Char ICD-10-CM Diagnosis 56
+MD  2020 CORE             172 I10_DX57                         573  579   Char ICD-10-CM Diagnosis 57
+MD  2020 CORE             173 I10_DX58                         580  586   Char ICD-10-CM Diagnosis 58
+MD  2020 CORE             174 I10_DX59                         587  593   Char ICD-10-CM Diagnosis 59
+MD  2020 CORE             175 I10_DX60                         594  600   Char ICD-10-CM Diagnosis 60
+MD  2020 CORE             176 I10_DX61                         601  607   Char ICD-10-CM Diagnosis 61
+MD  2020 CORE             177 I10_DX62                         608  614   Char ICD-10-CM Diagnosis 62
+MD  2020 CORE             178 I10_DX63                         615  621   Char ICD-10-CM Diagnosis 63
+MD  2020 CORE             179 I10_DX64                         622  628   Char ICD-10-CM Diagnosis 64
+MD  2020 CORE             180 I10_DX65                         629  635   Char ICD-10-CM Diagnosis 65
+MD  2020 CORE             181 I10_DX66                         636  642   Char ICD-10-CM Diagnosis 66
+MD  2020 CORE             182 I10_DX67                         643  649   Char ICD-10-CM Diagnosis 67
+MD  2020 CORE             183 I10_DX68                         650  656   Char ICD-10-CM Diagnosis 68
+MD  2020 CORE             184 I10_DX69                         657  663   Char ICD-10-CM Diagnosis 69
+MD  2020 CORE             185 I10_DX70                         664  670   Char ICD-10-CM Diagnosis 70
+MD  2020 CORE             186 I10_DX71                         671  677   Char ICD-10-CM Diagnosis 71
+MD  2020 CORE             187 I10_DX72                         678  684   Char ICD-10-CM Diagnosis 72
+MD  2020 CORE             188 I10_DX73                         685  691   Char ICD-10-CM Diagnosis 73
+MD  2020 CORE             189 I10_DX74                         692  698   Char ICD-10-CM Diagnosis 74
+MD  2020 CORE             190 I10_DX75                         699  705   Char ICD-10-CM Diagnosis 75
+MD  2020 CORE             191 I10_DX76                         706  712   Char ICD-10-CM Diagnosis 76
+MD  2020 CORE             192 I10_DX77                         713  719   Char ICD-10-CM Diagnosis 77
+MD  2020 CORE             193 I10_DX78                         720  726   Char ICD-10-CM Diagnosis 78
+MD  2020 CORE             194 I10_DX79                         727  733   Char ICD-10-CM Diagnosis 79
+MD  2020 CORE             195 I10_DX80                         734  740   Char ICD-10-CM Diagnosis 80
+MD  2020 CORE             196 I10_DX81                         741  747   Char ICD-10-CM Diagnosis 81
+MD  2020 CORE             197 I10_DX82                         748  754   Char ICD-10-CM Diagnosis 82
+MD  2020 CORE             198 I10_DX83                         755  761   Char ICD-10-CM Diagnosis 83
+MD  2020 CORE             199 I10_NDX                          762  764   Num  ICD-10-CM Number of diagnoses on this record
+MD  2020 CORE             200 I10_NPR                          765  767   Num  ICD-10-PCS Number of procedures on this record
+MD  2020 CORE             201 I10_PR1                          768  774   Char ICD-10-PCS Procedure 1
+MD  2020 CORE             202 I10_PR2                          775  781   Char ICD-10-PCS Procedure 2
+MD  2020 CORE             203 I10_PR3                          782  788   Char ICD-10-PCS Procedure 3
+MD  2020 CORE             204 I10_PR4                          789  795   Char ICD-10-PCS Procedure 4
+MD  2020 CORE             205 I10_PR5                          796  802   Char ICD-10-PCS Procedure 5
+MD  2020 CORE             206 I10_PR6                          803  809   Char ICD-10-PCS Procedure 6
+MD  2020 CORE             207 I10_PR7                          810  816   Char ICD-10-PCS Procedure 7
+MD  2020 CORE             208 I10_PR8                          817  823   Char ICD-10-PCS Procedure 8
+MD  2020 CORE             209 I10_PR9                          824  830   Char ICD-10-PCS Procedure 9
+MD  2020 CORE             210 I10_PR10                         831  837   Char ICD-10-PCS Procedure 10
+MD  2020 CORE             211 I10_PR11                         838  844   Char ICD-10-PCS Procedure 11
+MD  2020 CORE             212 I10_PR12                         845  851   Char ICD-10-PCS Procedure 12
+MD  2020 CORE             213 I10_PR13                         852  858   Char ICD-10-PCS Procedure 13
+MD  2020 CORE             214 I10_PR14                         859  865   Char ICD-10-PCS Procedure 14
+MD  2020 CORE             215 I10_PR15                         866  872   Char ICD-10-PCS Procedure 15
+MD  2020 CORE             216 I10_PR16                         873  879   Char ICD-10-PCS Procedure 16
+MD  2020 CORE             217 I10_PR17                         880  886   Char ICD-10-PCS Procedure 17
+MD  2020 CORE             218 I10_PR18                         887  893   Char ICD-10-PCS Procedure 18
+MD  2020 CORE             219 I10_PR19                         894  900   Char ICD-10-PCS Procedure 19
+MD  2020 CORE             220 I10_PR20                         901  907   Char ICD-10-PCS Procedure 20
+MD  2020 CORE             221 I10_PR21                         908  914   Char ICD-10-PCS Procedure 21
+MD  2020 CORE             222 I10_PR22                         915  921   Char ICD-10-PCS Procedure 22
+MD  2020 CORE             223 I10_PR23                         922  928   Char ICD-10-PCS Procedure 23
+MD  2020 CORE             224 I10_PR24                         929  935   Char ICD-10-PCS Procedure 24
+MD  2020 CORE             225 I10_PR25                         936  942   Char ICD-10-PCS Procedure 25
+MD  2020 CORE             226 I10_PR26                         943  949   Char ICD-10-PCS Procedure 26
+MD  2020 CORE             227 I10_PR27                         950  956   Char ICD-10-PCS Procedure 27
+MD  2020 CORE             228 I10_PR28                         957  963   Char ICD-10-PCS Procedure 28
+MD  2020 CORE             229 I10_PR29                         964  970   Char ICD-10-PCS Procedure 29
+MD  2020 CORE             230 I10_PR30                         971  977   Char ICD-10-PCS Procedure 30
+MD  2020 CORE             231 I10_PR31                         978  984   Char ICD-10-PCS Procedure 31
+MD  2020 CORE             232 I10_PR32                         985  991   Char ICD-10-PCS Procedure 32
+MD  2020 CORE             233 I10_PR33                         992  998   Char ICD-10-PCS Procedure 33
+MD  2020 CORE             234 I10_PR34                         999 1005   Char ICD-10-PCS Procedure 34
+MD  2020 CORE             235 I10_PR35                        1006 1012   Char ICD-10-PCS Procedure 35
+MD  2020 CORE             236 I10_PR36                        1013 1019   Char ICD-10-PCS Procedure 36
+MD  2020 CORE             237 I10_PR37                        1020 1026   Char ICD-10-PCS Procedure 37
+MD  2020 CORE             238 I10_PR38                        1027 1033   Char ICD-10-PCS Procedure 38
+MD  2020 CORE             239 I10_PR39                        1034 1040   Char ICD-10-PCS Procedure 39
+MD  2020 CORE             240 I10_PR40                        1041 1047   Char ICD-10-PCS Procedure 40
+MD  2020 CORE             241 I10_PR41                        1048 1054   Char ICD-10-PCS Procedure 41
+MD  2020 CORE             242 I10_PR42                        1055 1061   Char ICD-10-PCS Procedure 42
+MD  2020 CORE             243 I10_PR43                        1062 1068   Char ICD-10-PCS Procedure 43
+MD  2020 CORE             244 I10_PR44                        1069 1075   Char ICD-10-PCS Procedure 44
+MD  2020 CORE             245 I10_PR45                        1076 1082   Char ICD-10-PCS Procedure 45
+MD  2020 CORE             246 I10_PR46                        1083 1089   Char ICD-10-PCS Procedure 46
+MD  2020 CORE             247 I10_PR47                        1090 1096   Char ICD-10-PCS Procedure 47
+MD  2020 CORE             248 I10_PR48                        1097 1103   Char ICD-10-PCS Procedure 48
+MD  2020 CORE             249 I10_PR49                        1104 1110   Char ICD-10-PCS Procedure 49
+MD  2020 CORE             250 I10_PR50                        1111 1117   Char ICD-10-PCS Procedure 50
+MD  2020 CORE             251 I10_PR51                        1118 1124   Char ICD-10-PCS Procedure 51
+MD  2020 CORE             252 I10_PR52                        1125 1131   Char ICD-10-PCS Procedure 52
+MD  2020 CORE             253 I10_PR53                        1132 1138   Char ICD-10-PCS Procedure 53
+MD  2020 CORE             254 I10_PR54                        1139 1145   Char ICD-10-PCS Procedure 54
+MD  2020 CORE             255 I10_PR55                        1146 1152   Char ICD-10-PCS Procedure 55
+MD  2020 CORE             256 I10_PR56                        1153 1159   Char ICD-10-PCS Procedure 56
+MD  2020 CORE             257 I10_PR57                        1160 1166   Char ICD-10-PCS Procedure 57
+MD  2020 CORE             258 I10_PR58                        1167 1173   Char ICD-10-PCS Procedure 58
+MD  2020 CORE             259 I10_PR59                        1174 1180   Char ICD-10-PCS Procedure 59
+MD  2020 CORE             260 I10_PR60                        1181 1187   Char ICD-10-PCS Procedure 60
+MD  2020 CORE             261 I10_PR61                        1188 1194   Char ICD-10-PCS Procedure 61
+MD  2020 CORE             262 I10_PR62                        1195 1201   Char ICD-10-PCS Procedure 62
+MD  2020 CORE             263 I10_PR63                        1202 1208   Char ICD-10-PCS Procedure 63
+MD  2020 CORE             264 I10_PROCTYPE                    1209 1211   Num  ICD-10-PCS Procedure type indicator
+MD  2020 CORE             265 I10_SERVICELINE                 1212 1213   Num  ICD-10-CM/PCS Hospital Service Line
+MD  2020 CORE             266 KEY                             1214 1228   Num  HCUP record identifier
+MD  2020 CORE             267 LOS                             1229 1233   Num  Length of stay (cleaned)
+MD  2020 CORE             268 LOS_X                           1234 1239   Num  Length of stay (as received from source)
+MD  2020 CORE             269 MARITALSTATUS_X                 1240 1240   Char Patient's marital status (as received from source)
+MD  2020 CORE             270 MARITALSTATUSUB04               1241 1241   Char Patient's marital status, UB-04 standard coding
+MD  2020 CORE             271 MDC                             1242 1243   Num  MDC in effect on discharge date
+MD  2020 CORE             272 MDC_NoPOA                       1244 1245   Num  MDC in use on discharge date, calculated without POA
+MD  2020 CORE             273 MDNUM1_R                        1246 1254   Num  Physician 1 number (re-identified)
+MD  2020 CORE             274 MDNUM2_R                        1255 1263   Num  Physician 2 number (re-identified)
+MD  2020 CORE             275 MEDINCSTQ                       1264 1265   Num  Median household income state quartile for patient ZIP Code
+MD  2020 CORE             276 MRN_R                           1266 1274   Num  Medical record number (re-identified)
+MD  2020 CORE             277 OS_TIME                         1275 1285 2 Num  Observation stay time summed from UNITS
+MD  2020 CORE             278 P7EDSRC_X                       1286 1287   Char Condition Code P7, Direct Inpatient Admission from Emergency Room
+MD  2020 CORE             279 PAY1                            1288 1289   Num  Primary expected payer (uniform)
+MD  2020 CORE             280 PAY1_X                          1290 1291   Char Primary expected payer (as received from source)
+MD  2020 CORE             281 PAY2                            1292 1293   Num  Secondary expected payer (uniform)
+MD  2020 CORE             282 PAY2_X                          1294 1295   Char Secondary expected payer (as received from source)
+MD  2020 CORE             283 PAY3                            1296 1297   Num  Tertiary expected payer (uniform)
+MD  2020 CORE             284 PAY3_X                          1298 1299   Char Tertiary expected payer (as received from source)
+MD  2020 CORE             285 PAYER1_X                        1300 1301   Char Primary expected payer plan identifier (as received from source)
+MD  2020 CORE             286 PAYER2_X                        1302 1303   Char Secondary expected payer plan identifier (as received from source)
+MD  2020 CORE             287 PAYER3_X                        1304 1305   Char Tertiary expected payer plan identifier (as received from source)
+MD  2020 CORE             288 PCLASS_ORPROC                   1306 1307   Num  Indicates operating room (major diagnostic or therapeutic) procedure on the record
+MD  2020 CORE             289 PL_CBSA                         1308 1310   Num  Patient location: Core Based Statistical Area (CBSA)
+MD  2020 CORE             290 PL_NCHS                         1311 1312   Num  Patient Location: NCHS Urban-Rural Code
+MD  2020 CORE             291 PL_RUCC                         1313 1314   Num  Patient location: Rural-Urban Continuum Codes (RUCC)
+MD  2020 CORE             292 PL_UIC                          1315 1316   Num  Patient location: Urban Influence Codes
+MD  2020 CORE             293 PL_UR_CAT4                      1317 1318   Num  Patient Location: Urban-Rural 4 Categories
+MD  2020 CORE             294 POA_Disch_Edit1                 1319 1320   Num  Discharge has POA missing on all nonexempt diagnoses
+MD  2020 CORE             295 POA_Disch_Edit2                 1321 1322   Num  Discharge has POA missing on all nonexempt secondary diagnoses
+MD  2020 CORE             296 POA_Hosp_Edit1                  1323 1324   Num  Hospital reported POA as Y on all diagnoses on all discharges
+MD  2020 CORE             297 POA_Hosp_Edit2                  1325 1326   Num  Hospital reported POA as missing on all non-Medicare discharges
+MD  2020 CORE             298 POA_Hosp_Edit3                  1327 1328   Num  Hospital reported POA as missing on all nonexempt diagnoses for 15% or more of discharges
+MD  2020 CORE             299 POA_Hosp_Edit3_Value            1329 1336 2 Num  Percentage of discharges with all nonexempt diagnoses missing POA indicators
+MD  2020 CORE             300 PointOfOrigin_X                 1337 1338   Char Point of origin for admission or visit, as received from source
+MD  2020 CORE             301 PointOfOriginUB04               1339 1339   Char Point of origin for admission or visit, UB-04 standard coding
+MD  2020 CORE             302 PRDAY1                          1340 1344   Num  Number of days from admission to I10_PR1
+MD  2020 CORE             303 PRDAY2                          1345 1349   Num  Number of days from admission to I10_PR2
+MD  2020 CORE             304 PRDAY3                          1350 1354   Num  Number of days from admission to I10_PR3
+MD  2020 CORE             305 PRDAY4                          1355 1359   Num  Number of days from admission to I10_PR4
+MD  2020 CORE             306 PRDAY5                          1360 1364   Num  Number of days from admission to I10_PR5
+MD  2020 CORE             307 PRDAY6                          1365 1369   Num  Number of days from admission to I10_PR6
+MD  2020 CORE             308 PRDAY7                          1370 1374   Num  Number of days from admission to I10_PR7
+MD  2020 CORE             309 PRDAY8                          1375 1379   Num  Number of days from admission to I10_PR8
+MD  2020 CORE             310 PRDAY9                          1380 1384   Num  Number of days from admission to I10_PR9
+MD  2020 CORE             311 PRDAY10                         1385 1389   Num  Number of days from admission to I10_PR10
+MD  2020 CORE             312 PRDAY11                         1390 1394   Num  Number of days from admission to I10_PR11
+MD  2020 CORE             313 PRDAY12                         1395 1399   Num  Number of days from admission to I10_PR12
+MD  2020 CORE             314 PRDAY13                         1400 1404   Num  Number of days from admission to I10_PR13
+MD  2020 CORE             315 PRDAY14                         1405 1409   Num  Number of days from admission to I10_PR14
+MD  2020 CORE             316 PRDAY15                         1410 1414   Num  Number of days from admission to I10_PR15
+MD  2020 CORE             317 PRDAY16                         1415 1419   Num  Number of days from admission to I10_PR16
+MD  2020 CORE             318 PRDAY17                         1420 1424   Num  Number of days from admission to I10_PR17
+MD  2020 CORE             319 PRDAY18                         1425 1429   Num  Number of days from admission to I10_PR18
+MD  2020 CORE             320 PRDAY19                         1430 1434   Num  Number of days from admission to I10_PR19
+MD  2020 CORE             321 PRDAY20                         1435 1439   Num  Number of days from admission to I10_PR20
+MD  2020 CORE             322 PRDAY21                         1440 1444   Num  Number of days from admission to I10_PR21
+MD  2020 CORE             323 PRDAY22                         1445 1449   Num  Number of days from admission to I10_PR22
+MD  2020 CORE             324 PRDAY23                         1450 1454   Num  Number of days from admission to I10_PR23
+MD  2020 CORE             325 PRDAY24                         1455 1459   Num  Number of days from admission to I10_PR24
+MD  2020 CORE             326 PRDAY25                         1460 1464   Num  Number of days from admission to I10_PR25
+MD  2020 CORE             327 PRDAY26                         1465 1469   Num  Number of days from admission to I10_PR26
+MD  2020 CORE             328 PRDAY27                         1470 1474   Num  Number of days from admission to I10_PR27
+MD  2020 CORE             329 PRDAY28                         1475 1479   Num  Number of days from admission to I10_PR28
+MD  2020 CORE             330 PRDAY29                         1480 1484   Num  Number of days from admission to I10_PR29
+MD  2020 CORE             331 PRDAY30                         1485 1489   Num  Number of days from admission to I10_PR30
+MD  2020 CORE             332 PRDAY31                         1490 1494   Num  Number of days from admission to I10_PR31
+MD  2020 CORE             333 PRDAY32                         1495 1499   Num  Number of days from admission to I10_PR32
+MD  2020 CORE             334 PRDAY33                         1500 1504   Num  Number of days from admission to I10_PR33
+MD  2020 CORE             335 PRDAY34                         1505 1509   Num  Number of days from admission to I10_PR34
+MD  2020 CORE             336 PRDAY35                         1510 1514   Num  Number of days from admission to I10_PR35
+MD  2020 CORE             337 PRDAY36                         1515 1519   Num  Number of days from admission to I10_PR36
+MD  2020 CORE             338 PRDAY37                         1520 1524   Num  Number of days from admission to I10_PR37
+MD  2020 CORE             339 PRDAY38                         1525 1529   Num  Number of days from admission to I10_PR38
+MD  2020 CORE             340 PRDAY39                         1530 1534   Num  Number of days from admission to I10_PR39
+MD  2020 CORE             341 PRDAY40                         1535 1539   Num  Number of days from admission to I10_PR40
+MD  2020 CORE             342 PRDAY41                         1540 1544   Num  Number of days from admission to I10_PR41
+MD  2020 CORE             343 PRDAY42                         1545 1549   Num  Number of days from admission to I10_PR42
+MD  2020 CORE             344 PRDAY43                         1550 1554   Num  Number of days from admission to I10_PR43
+MD  2020 CORE             345 PRDAY44                         1555 1559   Num  Number of days from admission to I10_PR44
+MD  2020 CORE             346 PRDAY45                         1560 1564   Num  Number of days from admission to I10_PR45
+MD  2020 CORE             347 PRDAY46                         1565 1569   Num  Number of days from admission to I10_PR46
+MD  2020 CORE             348 PRDAY47                         1570 1574   Num  Number of days from admission to I10_PR47
+MD  2020 CORE             349 PRDAY48                         1575 1579   Num  Number of days from admission to I10_PR48
+MD  2020 CORE             350 PRDAY49                         1580 1584   Num  Number of days from admission to I10_PR49
+MD  2020 CORE             351 PRDAY50                         1585 1589   Num  Number of days from admission to I10_PR50
+MD  2020 CORE             352 PRDAY51                         1590 1594   Num  Number of days from admission to I10_PR51
+MD  2020 CORE             353 PRDAY52                         1595 1599   Num  Number of days from admission to I10_PR52
+MD  2020 CORE             354 PRDAY53                         1600 1604   Num  Number of days from admission to I10_PR53
+MD  2020 CORE             355 PRDAY54                         1605 1609   Num  Number of days from admission to I10_PR54
+MD  2020 CORE             356 PRDAY55                         1610 1614   Num  Number of days from admission to I10_PR55
+MD  2020 CORE             357 PRDAY56                         1615 1619   Num  Number of days from admission to I10_PR56
+MD  2020 CORE             358 PRDAY57                         1620 1624   Num  Number of days from admission to I10_PR57
+MD  2020 CORE             359 PRDAY58                         1625 1629   Num  Number of days from admission to I10_PR58
+MD  2020 CORE             360 PRDAY59                         1630 1634   Num  Number of days from admission to I10_PR59
+MD  2020 CORE             361 PRDAY60                         1635 1639   Num  Number of days from admission to I10_PR60
+MD  2020 CORE             362 PRDAY61                         1640 1644   Num  Number of days from admission to I10_PR61
+MD  2020 CORE             363 PRDAY62                         1645 1649   Num  Number of days from admission to I10_PR62
+MD  2020 CORE             364 PRDAY63                         1650 1654   Num  Number of days from admission to I10_PR63
+MD  2020 CORE             365 PrimLang                        1655 1657   Char Primary language of patient
+MD  2020 CORE             366 PSTATE                          1658 1659   Char Patient State postal code
+MD  2020 CORE             367 PSTATE_GEO                      1660 1661   Char Patient State postal code assigned from ZIP Code
+MD  2020 CORE             368 PSTCO                           1662 1666   Num  Patient state/county FIPS code
+MD  2020 CORE             369 PSTCO_GEO                       1667 1671   Num  Counties assigned based on ZIP Code geographic centroids
+MD  2020 CORE             370 RACE                            1672 1673   Num  Race (uniform)
+MD  2020 CORE             371 RACE_PCT_MISS_HOSP              1674 1680 2 Num  Hospital percentage of missing or invalid race values
+MD  2020 CORE             372 RACE_X                          1681 1681   Char Race (as received from source)
+MD  2020 CORE             373 READMIT                         1682 1683   Num  Readmission
+MD  2020 CORE             374 TOTCHG                          1684 1693   Num  Total charges (cleaned)
+MD  2020 CORE             375 TOTCHG_X                        1694 1708 2 Num  Total charges (as received from source)
+MD  2020 CORE             376 TRAN_IN                         1709 1710   Num  Transfer in indicator
+MD  2020 CORE             377 TRAN_OUT                        1711 1712   Num  Transfer out indicator
+MD  2020 CORE             378 VisitLink                       1713 1721   Num  Visit linkage variable
+MD  2020 CORE             379 YEAR                            1722 1725   Num  Calendar year
+MD  2020 CORE             380 ZIP                             1726 1730   Char Patient ZIP Code
+MD  2020 CORE             381 ZIP3                            1731 1733   Char Patient ZIP Code, first 3 digits
+MD  2020 CORE             382 ZIPINC_QRTL                     1734 1736   Num  Median household income national quartile for patient ZIP Code
+MD  2020 CORE             383 AYEAR                           1737 1740   Num  Admission year

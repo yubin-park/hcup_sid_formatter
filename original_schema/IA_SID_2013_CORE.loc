@@ -1,0 +1,547 @@
+Data Set Name: IA_SIDC_2013_CORE               
+Number of Observations: 317843
+Total Record Length: 1845
+Total Number of Variables: 526
+Creation Date: 03/09/2015   
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 61    Variable name
+63- 66    Starting column of variable in ASCII file
+68- 71    Ending column of variable in ASCII file
+    73    Non-zero number of digits after decimal point for numeric variable
+75- 78    Variable type (Num=numeric; Char=character)
+80-179    Variable label
+
+
+IA  2013 CORE               1 AGE                                1    3   Num  Age in years at admission
+IA  2013 CORE               2 AGEDAY                             4    6   Num  Age in days (when age < 1 year)
+IA  2013 CORE               3 AGEMONTH                           7    9   Num  Age in months (when age < 11 years)
+IA  2013 CORE               4 AMONTH                            10   11   Num  Admission month
+IA  2013 CORE               5 ATYPE                             12   13   Num  Admission type
+IA  2013 CORE               6 AWEEKEND                          14   15   Num  Admission day is a weekend
+IA  2013 CORE               7 DIED                              16   17   Num  Died during hospitalization
+IA  2013 CORE               8 DISPUB04                          18   19   Num  Disposition of patient (UB-04 standard coding)
+IA  2013 CORE               9 DISPUNIFORM                       20   21   Num  Disposition of patient (uniform)
+IA  2013 CORE              10 DISP_X                            22   25   Char Disposition of patient (as received from source)
+IA  2013 CORE              11 DMONTH                            26   27   Num  Discharge month
+IA  2013 CORE              12 DQTR                              28   29   Num  Discharge quarter
+IA  2013 CORE              13 DRG                               30   32   Num  DRG in effect on discharge date
+IA  2013 CORE              14 DRG24                             33   35   Num  DRG, version 24
+IA  2013 CORE              15 DRGVER                            36   37   Num  DRG grouper version used on discharge date
+IA  2013 CORE              16 DRG_NoPOA                         38   40   Num  DRG in use on discharge date, calculated without POA
+IA  2013 CORE              17 DX1                               41   45   Char Diagnosis 1
+IA  2013 CORE              18 DX2                               46   50   Char Diagnosis 2
+IA  2013 CORE              19 DX3                               51   55   Char Diagnosis 3
+IA  2013 CORE              20 DX4                               56   60   Char Diagnosis 4
+IA  2013 CORE              21 DX5                               61   65   Char Diagnosis 5
+IA  2013 CORE              22 DX6                               66   70   Char Diagnosis 6
+IA  2013 CORE              23 DX7                               71   75   Char Diagnosis 7
+IA  2013 CORE              24 DX8                               76   80   Char Diagnosis 8
+IA  2013 CORE              25 DX9                               81   85   Char Diagnosis 9
+IA  2013 CORE              26 DX10                              86   90   Char Diagnosis 10
+IA  2013 CORE              27 DX11                              91   95   Char Diagnosis 11
+IA  2013 CORE              28 DX12                              96  100   Char Diagnosis 12
+IA  2013 CORE              29 DX13                             101  105   Char Diagnosis 13
+IA  2013 CORE              30 DX14                             106  110   Char Diagnosis 14
+IA  2013 CORE              31 DX15                             111  115   Char Diagnosis 15
+IA  2013 CORE              32 DX16                             116  120   Char Diagnosis 16
+IA  2013 CORE              33 DX17                             121  125   Char Diagnosis 17
+IA  2013 CORE              34 DX18                             126  130   Char Diagnosis 18
+IA  2013 CORE              35 DX19                             131  135   Char Diagnosis 19
+IA  2013 CORE              36 DX20                             136  140   Char Diagnosis 20
+IA  2013 CORE              37 DX21                             141  145   Char Diagnosis 21
+IA  2013 CORE              38 DX22                             146  150   Char Diagnosis 22
+IA  2013 CORE              39 DX23                             151  155   Char Diagnosis 23
+IA  2013 CORE              40 DX24                             156  160   Char Diagnosis 24
+IA  2013 CORE              41 DX25                             161  165   Char Diagnosis 25
+IA  2013 CORE              42 DX26                             166  170   Char Diagnosis 26
+IA  2013 CORE              43 DX27                             171  175   Char Diagnosis 27
+IA  2013 CORE              44 DX28                             176  180   Char Diagnosis 28
+IA  2013 CORE              45 DX29                             181  185   Char Diagnosis 29
+IA  2013 CORE              46 DX30                             186  190   Char Diagnosis 30
+IA  2013 CORE              47 DX31                             191  195   Char Diagnosis 31
+IA  2013 CORE              48 DX32                             196  200   Char Diagnosis 32
+IA  2013 CORE              49 DX33                             201  205   Char Diagnosis 33
+IA  2013 CORE              50 DX34                             206  210   Char Diagnosis 34
+IA  2013 CORE              51 DX35                             211  215   Char Diagnosis 35
+IA  2013 CORE              52 DX36                             216  220   Char Diagnosis 36
+IA  2013 CORE              53 DX37                             221  225   Char Diagnosis 37
+IA  2013 CORE              54 DX38                             226  230   Char Diagnosis 38
+IA  2013 CORE              55 DX39                             231  235   Char Diagnosis 39
+IA  2013 CORE              56 DX40                             236  240   Char Diagnosis 40
+IA  2013 CORE              57 DX41                             241  245   Char Diagnosis 41
+IA  2013 CORE              58 DX42                             246  250   Char Diagnosis 42
+IA  2013 CORE              59 DX43                             251  255   Char Diagnosis 43
+IA  2013 CORE              60 DX44                             256  260   Char Diagnosis 44
+IA  2013 CORE              61 DX45                             261  265   Char Diagnosis 45
+IA  2013 CORE              62 DX46                             266  270   Char Diagnosis 46
+IA  2013 CORE              63 DX47                             271  275   Char Diagnosis 47
+IA  2013 CORE              64 DX48                             276  280   Char Diagnosis 48
+IA  2013 CORE              65 DX49                             281  285   Char Diagnosis 49
+IA  2013 CORE              66 DX50                             286  290   Char Diagnosis 50
+IA  2013 CORE              67 DXCCS1                           291  294   Num  CCS: diagnosis 1
+IA  2013 CORE              68 DXCCS2                           295  298   Num  CCS: diagnosis 2
+IA  2013 CORE              69 DXCCS3                           299  302   Num  CCS: diagnosis 3
+IA  2013 CORE              70 DXCCS4                           303  306   Num  CCS: diagnosis 4
+IA  2013 CORE              71 DXCCS5                           307  310   Num  CCS: diagnosis 5
+IA  2013 CORE              72 DXCCS6                           311  314   Num  CCS: diagnosis 6
+IA  2013 CORE              73 DXCCS7                           315  318   Num  CCS: diagnosis 7
+IA  2013 CORE              74 DXCCS8                           319  322   Num  CCS: diagnosis 8
+IA  2013 CORE              75 DXCCS9                           323  326   Num  CCS: diagnosis 9
+IA  2013 CORE              76 DXCCS10                          327  330   Num  CCS: diagnosis 10
+IA  2013 CORE              77 DXCCS11                          331  334   Num  CCS: diagnosis 11
+IA  2013 CORE              78 DXCCS12                          335  338   Num  CCS: diagnosis 12
+IA  2013 CORE              79 DXCCS13                          339  342   Num  CCS: diagnosis 13
+IA  2013 CORE              80 DXCCS14                          343  346   Num  CCS: diagnosis 14
+IA  2013 CORE              81 DXCCS15                          347  350   Num  CCS: diagnosis 15
+IA  2013 CORE              82 DXCCS16                          351  354   Num  CCS: diagnosis 16
+IA  2013 CORE              83 DXCCS17                          355  358   Num  CCS: diagnosis 17
+IA  2013 CORE              84 DXCCS18                          359  362   Num  CCS: diagnosis 18
+IA  2013 CORE              85 DXCCS19                          363  366   Num  CCS: diagnosis 19
+IA  2013 CORE              86 DXCCS20                          367  370   Num  CCS: diagnosis 20
+IA  2013 CORE              87 DXCCS21                          371  374   Num  CCS: diagnosis 21
+IA  2013 CORE              88 DXCCS22                          375  378   Num  CCS: diagnosis 22
+IA  2013 CORE              89 DXCCS23                          379  382   Num  CCS: diagnosis 23
+IA  2013 CORE              90 DXCCS24                          383  386   Num  CCS: diagnosis 24
+IA  2013 CORE              91 DXCCS25                          387  390   Num  CCS: diagnosis 25
+IA  2013 CORE              92 DXCCS26                          391  394   Num  CCS: diagnosis 26
+IA  2013 CORE              93 DXCCS27                          395  398   Num  CCS: diagnosis 27
+IA  2013 CORE              94 DXCCS28                          399  402   Num  CCS: diagnosis 28
+IA  2013 CORE              95 DXCCS29                          403  406   Num  CCS: diagnosis 29
+IA  2013 CORE              96 DXCCS30                          407  410   Num  CCS: diagnosis 30
+IA  2013 CORE              97 DXCCS31                          411  414   Num  CCS: diagnosis 31
+IA  2013 CORE              98 DXCCS32                          415  418   Num  CCS: diagnosis 32
+IA  2013 CORE              99 DXCCS33                          419  422   Num  CCS: diagnosis 33
+IA  2013 CORE             100 DXCCS34                          423  426   Num  CCS: diagnosis 34
+IA  2013 CORE             101 DXCCS35                          427  430   Num  CCS: diagnosis 35
+IA  2013 CORE             102 DXCCS36                          431  434   Num  CCS: diagnosis 36
+IA  2013 CORE             103 DXCCS37                          435  438   Num  CCS: diagnosis 37
+IA  2013 CORE             104 DXCCS38                          439  442   Num  CCS: diagnosis 38
+IA  2013 CORE             105 DXCCS39                          443  446   Num  CCS: diagnosis 39
+IA  2013 CORE             106 DXCCS40                          447  450   Num  CCS: diagnosis 40
+IA  2013 CORE             107 DXCCS41                          451  454   Num  CCS: diagnosis 41
+IA  2013 CORE             108 DXCCS42                          455  458   Num  CCS: diagnosis 42
+IA  2013 CORE             109 DXCCS43                          459  462   Num  CCS: diagnosis 43
+IA  2013 CORE             110 DXCCS44                          463  466   Num  CCS: diagnosis 44
+IA  2013 CORE             111 DXCCS45                          467  470   Num  CCS: diagnosis 45
+IA  2013 CORE             112 DXCCS46                          471  474   Num  CCS: diagnosis 46
+IA  2013 CORE             113 DXCCS47                          475  478   Num  CCS: diagnosis 47
+IA  2013 CORE             114 DXCCS48                          479  482   Num  CCS: diagnosis 48
+IA  2013 CORE             115 DXCCS49                          483  486   Num  CCS: diagnosis 49
+IA  2013 CORE             116 DXCCS50                          487  490   Num  CCS: diagnosis 50
+IA  2013 CORE             117 DXPOA1                           491  491   Char Diagnosis 1, present on admission indicator
+IA  2013 CORE             118 DXPOA2                           492  492   Char Diagnosis 2, present on admission indicator
+IA  2013 CORE             119 DXPOA3                           493  493   Char Diagnosis 3, present on admission indicator
+IA  2013 CORE             120 DXPOA4                           494  494   Char Diagnosis 4, present on admission indicator
+IA  2013 CORE             121 DXPOA5                           495  495   Char Diagnosis 5, present on admission indicator
+IA  2013 CORE             122 DXPOA6                           496  496   Char Diagnosis 6, present on admission indicator
+IA  2013 CORE             123 DXPOA7                           497  497   Char Diagnosis 7, present on admission indicator
+IA  2013 CORE             124 DXPOA8                           498  498   Char Diagnosis 8, present on admission indicator
+IA  2013 CORE             125 DXPOA9                           499  499   Char Diagnosis 9, present on admission indicator
+IA  2013 CORE             126 DXPOA10                          500  500   Char Diagnosis 10, present on admission indicator
+IA  2013 CORE             127 DXPOA11                          501  501   Char Diagnosis 11, present on admission indicator
+IA  2013 CORE             128 DXPOA12                          502  502   Char Diagnosis 12, present on admission indicator
+IA  2013 CORE             129 DXPOA13                          503  503   Char Diagnosis 13, present on admission indicator
+IA  2013 CORE             130 DXPOA14                          504  504   Char Diagnosis 14, present on admission indicator
+IA  2013 CORE             131 DXPOA15                          505  505   Char Diagnosis 15, present on admission indicator
+IA  2013 CORE             132 DXPOA16                          506  506   Char Diagnosis 16, present on admission indicator
+IA  2013 CORE             133 DXPOA17                          507  507   Char Diagnosis 17, present on admission indicator
+IA  2013 CORE             134 DXPOA18                          508  508   Char Diagnosis 18, present on admission indicator
+IA  2013 CORE             135 DXPOA19                          509  509   Char Diagnosis 19, present on admission indicator
+IA  2013 CORE             136 DXPOA20                          510  510   Char Diagnosis 20, present on admission indicator
+IA  2013 CORE             137 DXPOA21                          511  511   Char Diagnosis 21, present on admission indicator
+IA  2013 CORE             138 DXPOA22                          512  512   Char Diagnosis 22, present on admission indicator
+IA  2013 CORE             139 DXPOA23                          513  513   Char Diagnosis 23, present on admission indicator
+IA  2013 CORE             140 DXPOA24                          514  514   Char Diagnosis 24, present on admission indicator
+IA  2013 CORE             141 DXPOA25                          515  515   Char Diagnosis 25, present on admission indicator
+IA  2013 CORE             142 DXPOA26                          516  516   Char Diagnosis 26, present on admission indicator
+IA  2013 CORE             143 DXPOA27                          517  517   Char Diagnosis 27, present on admission indicator
+IA  2013 CORE             144 DXPOA28                          518  518   Char Diagnosis 28, present on admission indicator
+IA  2013 CORE             145 DXPOA29                          519  519   Char Diagnosis 29, present on admission indicator
+IA  2013 CORE             146 DXPOA30                          520  520   Char Diagnosis 30, present on admission indicator
+IA  2013 CORE             147 DXPOA31                          521  521   Char Diagnosis 31, present on admission indicator
+IA  2013 CORE             148 DXPOA32                          522  522   Char Diagnosis 32, present on admission indicator
+IA  2013 CORE             149 DXPOA33                          523  523   Char Diagnosis 33, present on admission indicator
+IA  2013 CORE             150 DXPOA34                          524  524   Char Diagnosis 34, present on admission indicator
+IA  2013 CORE             151 DXPOA35                          525  525   Char Diagnosis 35, present on admission indicator
+IA  2013 CORE             152 DXPOA36                          526  526   Char Diagnosis 36, present on admission indicator
+IA  2013 CORE             153 DXPOA37                          527  527   Char Diagnosis 37, present on admission indicator
+IA  2013 CORE             154 DXPOA38                          528  528   Char Diagnosis 38, present on admission indicator
+IA  2013 CORE             155 DXPOA39                          529  529   Char Diagnosis 39, present on admission indicator
+IA  2013 CORE             156 DXPOA40                          530  530   Char Diagnosis 40, present on admission indicator
+IA  2013 CORE             157 DXPOA41                          531  531   Char Diagnosis 41, present on admission indicator
+IA  2013 CORE             158 DXPOA42                          532  532   Char Diagnosis 42, present on admission indicator
+IA  2013 CORE             159 DXPOA43                          533  533   Char Diagnosis 43, present on admission indicator
+IA  2013 CORE             160 DXPOA44                          534  534   Char Diagnosis 44, present on admission indicator
+IA  2013 CORE             161 DXPOA45                          535  535   Char Diagnosis 45, present on admission indicator
+IA  2013 CORE             162 DXPOA46                          536  536   Char Diagnosis 46, present on admission indicator
+IA  2013 CORE             163 DXPOA47                          537  537   Char Diagnosis 47, present on admission indicator
+IA  2013 CORE             164 DXPOA48                          538  538   Char Diagnosis 48, present on admission indicator
+IA  2013 CORE             165 DXPOA49                          539  539   Char Diagnosis 49, present on admission indicator
+IA  2013 CORE             166 DXPOA50                          540  540   Char Diagnosis 50, present on admission indicator
+IA  2013 CORE             167 DX_Admitting                     541  545   Char Admitting Diagnosis Code
+IA  2013 CORE             168 DaysToEvent                      546  551   Num  Days from 'start date' to admission
+IA  2013 CORE             169 ECODE1                           552  556   Char E code 1
+IA  2013 CORE             170 ECODE2                           557  561   Char E code 2
+IA  2013 CORE             171 ECODE3                           562  566   Char E code 3
+IA  2013 CORE             172 ECODE4                           567  571   Char E code 4
+IA  2013 CORE             173 ECODE5                           572  576   Char E code 5
+IA  2013 CORE             174 ECODE6                           577  581   Char E code 6
+IA  2013 CORE             175 ECODE7                           582  586   Char E code 7
+IA  2013 CORE             176 ECODE8                           587  591   Char E code 8
+IA  2013 CORE             177 E_CCS1                           592  595   Num  CCS: E Code 1
+IA  2013 CORE             178 E_CCS2                           596  599   Num  CCS: E Code 2
+IA  2013 CORE             179 E_CCS3                           600  603   Num  CCS: E Code 3
+IA  2013 CORE             180 E_CCS4                           604  607   Num  CCS: E Code 4
+IA  2013 CORE             181 E_CCS5                           608  611   Num  CCS: E Code 5
+IA  2013 CORE             182 E_CCS6                           612  615   Num  CCS: E Code 6
+IA  2013 CORE             183 E_CCS7                           616  619   Num  CCS: E Code 7
+IA  2013 CORE             184 E_CCS8                           620  623   Num  CCS: E Code 8
+IA  2013 CORE             185 E_POA1                           624  624   Char E Code 1, present on admission indicator
+IA  2013 CORE             186 E_POA2                           625  625   Char E Code 2, present on admission indicator
+IA  2013 CORE             187 E_POA3                           626  626   Char E Code 3, present on admission indicator
+IA  2013 CORE             188 E_POA4                           627  627   Char E Code 4, present on admission indicator
+IA  2013 CORE             189 E_POA5                           628  628   Char E Code 5, present on admission indicator
+IA  2013 CORE             190 E_POA6                           629  629   Char E Code 6, present on admission indicator
+IA  2013 CORE             191 E_POA7                           630  630   Char E Code 7, present on admission indicator
+IA  2013 CORE             192 E_POA8                           631  631   Char E Code 8, present on admission indicator
+IA  2013 CORE             193 FEMALE                           632  633   Num  Indicator of sex
+IA  2013 CORE             194 HCUP_ED                          634  635   Num  HCUP Emergency Department service indicator
+IA  2013 CORE             195 HCUP_OS                          636  637   Num  HCUP Observation Stay service indicator
+IA  2013 CORE             196 HISPANIC_X                       638  638   Char Hispanic ethnicity (as received from source)
+IA  2013 CORE             197 HOSPBRTH                         639  641   Num  Indicator of birth in this hospital
+IA  2013 CORE             198 HOSPST                           642  643   Char Hospital state postal code
+IA  2013 CORE             199 HospitalUnit                     644  645   Num  Indicator that patient was discharged from a special unit within an acute care hospital (reported by source)
+IA  2013 CORE             200 KEY                              646  660   Num  HCUP record identifier
+IA  2013 CORE             201 LOS                              661  665   Num  Length of stay (cleaned)
+IA  2013 CORE             202 LOS_X                            666  671   Num  Length of stay (as received from source)
+IA  2013 CORE             203 MDC                              672  673   Num  MDC in effect on discharge date
+IA  2013 CORE             204 MDC24                            674  675   Num  MDC, version 24
+IA  2013 CORE             205 MDC_NoPOA                        676  677   Num  MDC in use on discharge date, calculated without POA
+IA  2013 CORE             206 MDNUM1_R                         678  686   Num  Physician 1 number (re-identified)
+IA  2013 CORE             207 MDNUM2_R                         687  695   Num  Physician 2 number (re-identified)
+IA  2013 CORE             208 MDNUM3_R                         696  704   Num  Physician 3 number (re-identified)
+IA  2013 CORE             209 MEDINCSTQ                        705  706   Num  Median household income state quartile for patient ZIP Code
+IA  2013 CORE             210 MRN_R                            707  715   Num  Medical record number (re-identified)
+IA  2013 CORE             211 NCHRONIC                         716  718   Num  Number of chronic conditions
+IA  2013 CORE             212 NDX                              719  721   Num  Number of diagnoses on this record
+IA  2013 CORE             213 NECODE                           722  723   Num  Number of E codes on this record
+IA  2013 CORE             214 NEOMAT                           724  725   Num  Neonatal and/or maternal DX and/or PR
+IA  2013 CORE             215 NPR                              726  728   Num  Number of procedures on this record
+IA  2013 CORE             216 ORPROC                           729  730   Num  Major operating room procedure indicator
+IA  2013 CORE             217 P7EDSRC_X                        731  732   Char Condition Code P7, Direct Inpatient Admission from Emergency Room
+IA  2013 CORE             218 PAY1                             733  734   Num  Primary expected payer (uniform)
+IA  2013 CORE             219 PAY1_X                           735  738   Char Primary expected payer (as received from source)
+IA  2013 CORE             220 PAY2                             739  740   Num  Secondary expected payer (uniform)
+IA  2013 CORE             221 PAY2_X                           741  744   Char Secondary expected payer (as received from source)
+IA  2013 CORE             222 PAY3                             745  746   Num  Tertiary expected payer (uniform)
+IA  2013 CORE             223 PAY3_X                           747  750   Char Tertiary expected payer (as received from source)
+IA  2013 CORE             224 PL_CBSA                          751  753   Num  Patient location: Core Based Statistical Area (CBSA)
+IA  2013 CORE             225 PL_NCHS                          754  755   Num  Patient Location: NCHS Urban-Rural Code
+IA  2013 CORE             226 PL_RUCA10_2005                   756  757   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, ten levels
+IA  2013 CORE             227 PL_RUCA2005                      758  761 1 Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes
+IA  2013 CORE             228 PL_RUCA4_2005                    762  763   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, four levels
+IA  2013 CORE             229 PL_RUCC                          764  765   Num  Patient location: Rural-Urban Continuum Codes(RUCC)
+IA  2013 CORE             230 PL_UIC                           766  767   Num  Patient location: Urban Influence Codes
+IA  2013 CORE             231 PL_UR_CAT4                       768  769   Num  Patient Location: Urban-Rural 4 Categories
+IA  2013 CORE             232 PR1                              770  773   Char Procedure 1
+IA  2013 CORE             233 PR2                              774  777   Char Procedure 2
+IA  2013 CORE             234 PR3                              778  781   Char Procedure 3
+IA  2013 CORE             235 PR4                              782  785   Char Procedure 4
+IA  2013 CORE             236 PR5                              786  789   Char Procedure 5
+IA  2013 CORE             237 PR6                              790  793   Char Procedure 6
+IA  2013 CORE             238 PR7                              794  797   Char Procedure 7
+IA  2013 CORE             239 PR8                              798  801   Char Procedure 8
+IA  2013 CORE             240 PR9                              802  805   Char Procedure 9
+IA  2013 CORE             241 PR10                             806  809   Char Procedure 10
+IA  2013 CORE             242 PR11                             810  813   Char Procedure 11
+IA  2013 CORE             243 PR12                             814  817   Char Procedure 12
+IA  2013 CORE             244 PR13                             818  821   Char Procedure 13
+IA  2013 CORE             245 PR14                             822  825   Char Procedure 14
+IA  2013 CORE             246 PR15                             826  829   Char Procedure 15
+IA  2013 CORE             247 PR16                             830  833   Char Procedure 16
+IA  2013 CORE             248 PR17                             834  837   Char Procedure 17
+IA  2013 CORE             249 PR18                             838  841   Char Procedure 18
+IA  2013 CORE             250 PR19                             842  845   Char Procedure 19
+IA  2013 CORE             251 PR20                             846  849   Char Procedure 20
+IA  2013 CORE             252 PR21                             850  853   Char Procedure 21
+IA  2013 CORE             253 PR22                             854  857   Char Procedure 22
+IA  2013 CORE             254 PR23                             858  861   Char Procedure 23
+IA  2013 CORE             255 PR24                             862  865   Char Procedure 24
+IA  2013 CORE             256 PR25                             866  869   Char Procedure 25
+IA  2013 CORE             257 PR26                             870  873   Char Procedure 26
+IA  2013 CORE             258 PR27                             874  877   Char Procedure 27
+IA  2013 CORE             259 PR28                             878  881   Char Procedure 28
+IA  2013 CORE             260 PR29                             882  885   Char Procedure 29
+IA  2013 CORE             261 PR30                             886  889   Char Procedure 30
+IA  2013 CORE             262 PR31                             890  893   Char Procedure 31
+IA  2013 CORE             263 PR32                             894  897   Char Procedure 32
+IA  2013 CORE             264 PR33                             898  901   Char Procedure 33
+IA  2013 CORE             265 PR34                             902  905   Char Procedure 34
+IA  2013 CORE             266 PR35                             906  909   Char Procedure 35
+IA  2013 CORE             267 PR36                             910  913   Char Procedure 36
+IA  2013 CORE             268 PR37                             914  917   Char Procedure 37
+IA  2013 CORE             269 PR38                             918  921   Char Procedure 38
+IA  2013 CORE             270 PR39                             922  925   Char Procedure 39
+IA  2013 CORE             271 PR40                             926  929   Char Procedure 40
+IA  2013 CORE             272 PR41                             930  933   Char Procedure 41
+IA  2013 CORE             273 PR42                             934  937   Char Procedure 42
+IA  2013 CORE             274 PR43                             938  941   Char Procedure 43
+IA  2013 CORE             275 PR44                             942  945   Char Procedure 44
+IA  2013 CORE             276 PR45                             946  949   Char Procedure 45
+IA  2013 CORE             277 PR46                             950  953   Char Procedure 46
+IA  2013 CORE             278 PR47                             954  957   Char Procedure 47
+IA  2013 CORE             279 PR48                             958  961   Char Procedure 48
+IA  2013 CORE             280 PR49                             962  965   Char Procedure 49
+IA  2013 CORE             281 PR50                             966  969   Char Procedure 50
+IA  2013 CORE             282 PR51                             970  973   Char Procedure 51
+IA  2013 CORE             283 PR52                             974  977   Char Procedure 52
+IA  2013 CORE             284 PR53                             978  981   Char Procedure 53
+IA  2013 CORE             285 PR54                             982  985   Char Procedure 54
+IA  2013 CORE             286 PR55                             986  989   Char Procedure 55
+IA  2013 CORE             287 PRCCS1                           990  992   Num  CCS: procedure 1
+IA  2013 CORE             288 PRCCS2                           993  995   Num  CCS: procedure 2
+IA  2013 CORE             289 PRCCS3                           996  998   Num  CCS: procedure 3
+IA  2013 CORE             290 PRCCS4                           999 1001   Num  CCS: procedure 4
+IA  2013 CORE             291 PRCCS5                          1002 1004   Num  CCS: procedure 5
+IA  2013 CORE             292 PRCCS6                          1005 1007   Num  CCS: procedure 6
+IA  2013 CORE             293 PRCCS7                          1008 1010   Num  CCS: procedure 7
+IA  2013 CORE             294 PRCCS8                          1011 1013   Num  CCS: procedure 8
+IA  2013 CORE             295 PRCCS9                          1014 1016   Num  CCS: procedure 9
+IA  2013 CORE             296 PRCCS10                         1017 1019   Num  CCS: procedure 10
+IA  2013 CORE             297 PRCCS11                         1020 1022   Num  CCS: procedure 11
+IA  2013 CORE             298 PRCCS12                         1023 1025   Num  CCS: procedure 12
+IA  2013 CORE             299 PRCCS13                         1026 1028   Num  CCS: procedure 13
+IA  2013 CORE             300 PRCCS14                         1029 1031   Num  CCS: procedure 14
+IA  2013 CORE             301 PRCCS15                         1032 1034   Num  CCS: procedure 15
+IA  2013 CORE             302 PRCCS16                         1035 1037   Num  CCS: procedure 16
+IA  2013 CORE             303 PRCCS17                         1038 1040   Num  CCS: procedure 17
+IA  2013 CORE             304 PRCCS18                         1041 1043   Num  CCS: procedure 18
+IA  2013 CORE             305 PRCCS19                         1044 1046   Num  CCS: procedure 19
+IA  2013 CORE             306 PRCCS20                         1047 1049   Num  CCS: procedure 20
+IA  2013 CORE             307 PRCCS21                         1050 1052   Num  CCS: procedure 21
+IA  2013 CORE             308 PRCCS22                         1053 1055   Num  CCS: procedure 22
+IA  2013 CORE             309 PRCCS23                         1056 1058   Num  CCS: procedure 23
+IA  2013 CORE             310 PRCCS24                         1059 1061   Num  CCS: procedure 24
+IA  2013 CORE             311 PRCCS25                         1062 1064   Num  CCS: procedure 25
+IA  2013 CORE             312 PRCCS26                         1065 1067   Num  CCS: procedure 26
+IA  2013 CORE             313 PRCCS27                         1068 1070   Num  CCS: procedure 27
+IA  2013 CORE             314 PRCCS28                         1071 1073   Num  CCS: procedure 28
+IA  2013 CORE             315 PRCCS29                         1074 1076   Num  CCS: procedure 29
+IA  2013 CORE             316 PRCCS30                         1077 1079   Num  CCS: procedure 30
+IA  2013 CORE             317 PRCCS31                         1080 1082   Num  CCS: procedure 31
+IA  2013 CORE             318 PRCCS32                         1083 1085   Num  CCS: procedure 32
+IA  2013 CORE             319 PRCCS33                         1086 1088   Num  CCS: procedure 33
+IA  2013 CORE             320 PRCCS34                         1089 1091   Num  CCS: procedure 34
+IA  2013 CORE             321 PRCCS35                         1092 1094   Num  CCS: procedure 35
+IA  2013 CORE             322 PRCCS36                         1095 1097   Num  CCS: procedure 36
+IA  2013 CORE             323 PRCCS37                         1098 1100   Num  CCS: procedure 37
+IA  2013 CORE             324 PRCCS38                         1101 1103   Num  CCS: procedure 38
+IA  2013 CORE             325 PRCCS39                         1104 1106   Num  CCS: procedure 39
+IA  2013 CORE             326 PRCCS40                         1107 1109   Num  CCS: procedure 40
+IA  2013 CORE             327 PRCCS41                         1110 1112   Num  CCS: procedure 41
+IA  2013 CORE             328 PRCCS42                         1113 1115   Num  CCS: procedure 42
+IA  2013 CORE             329 PRCCS43                         1116 1118   Num  CCS: procedure 43
+IA  2013 CORE             330 PRCCS44                         1119 1121   Num  CCS: procedure 44
+IA  2013 CORE             331 PRCCS45                         1122 1124   Num  CCS: procedure 45
+IA  2013 CORE             332 PRCCS46                         1125 1127   Num  CCS: procedure 46
+IA  2013 CORE             333 PRCCS47                         1128 1130   Num  CCS: procedure 47
+IA  2013 CORE             334 PRCCS48                         1131 1133   Num  CCS: procedure 48
+IA  2013 CORE             335 PRCCS49                         1134 1136   Num  CCS: procedure 49
+IA  2013 CORE             336 PRCCS50                         1137 1139   Num  CCS: procedure 50
+IA  2013 CORE             337 PRCCS51                         1140 1142   Num  CCS: procedure 51
+IA  2013 CORE             338 PRCCS52                         1143 1145   Num  CCS: procedure 52
+IA  2013 CORE             339 PRCCS53                         1146 1148   Num  CCS: procedure 53
+IA  2013 CORE             340 PRCCS54                         1149 1151   Num  CCS: procedure 54
+IA  2013 CORE             341 PRCCS55                         1152 1154   Num  CCS: procedure 55
+IA  2013 CORE             342 PRDAY1                          1155 1159   Num  Number of days from admission to PR1
+IA  2013 CORE             343 PRDAY2                          1160 1164   Num  Number of days from admission to PR2
+IA  2013 CORE             344 PRDAY3                          1165 1169   Num  Number of days from admission to PR3
+IA  2013 CORE             345 PRDAY4                          1170 1174   Num  Number of days from admission to PR4
+IA  2013 CORE             346 PRDAY5                          1175 1179   Num  Number of days from admission to PR5
+IA  2013 CORE             347 PRDAY6                          1180 1184   Num  Number of days from admission to PR6
+IA  2013 CORE             348 PRDAY7                          1185 1189   Num  Number of days from admission to PR7
+IA  2013 CORE             349 PRDAY8                          1190 1194   Num  Number of days from admission to PR8
+IA  2013 CORE             350 PRDAY9                          1195 1199   Num  Number of days from admission to PR9
+IA  2013 CORE             351 PRDAY10                         1200 1204   Num  Number of days from admission to PR10
+IA  2013 CORE             352 PRDAY11                         1205 1209   Num  Number of days from admission to PR11
+IA  2013 CORE             353 PRDAY12                         1210 1214   Num  Number of days from admission to PR12
+IA  2013 CORE             354 PRDAY13                         1215 1219   Num  Number of days from admission to PR13
+IA  2013 CORE             355 PRDAY14                         1220 1224   Num  Number of days from admission to PR14
+IA  2013 CORE             356 PRDAY15                         1225 1229   Num  Number of days from admission to PR15
+IA  2013 CORE             357 PRDAY16                         1230 1234   Num  Number of days from admission to PR16
+IA  2013 CORE             358 PRDAY17                         1235 1239   Num  Number of days from admission to PR17
+IA  2013 CORE             359 PRDAY18                         1240 1244   Num  Number of days from admission to PR18
+IA  2013 CORE             360 PRDAY19                         1245 1249   Num  Number of days from admission to PR19
+IA  2013 CORE             361 PRDAY20                         1250 1254   Num  Number of days from admission to PR20
+IA  2013 CORE             362 PRDAY21                         1255 1259   Num  Number of days from admission to PR21
+IA  2013 CORE             363 PRDAY22                         1260 1264   Num  Number of days from admission to PR22
+IA  2013 CORE             364 PRDAY23                         1265 1269   Num  Number of days from admission to PR23
+IA  2013 CORE             365 PRDAY24                         1270 1274   Num  Number of days from admission to PR24
+IA  2013 CORE             366 PRDAY25                         1275 1279   Num  Number of days from admission to PR25
+IA  2013 CORE             367 PRDAY26                         1280 1284   Num  Number of days from admission to PR26
+IA  2013 CORE             368 PRDAY27                         1285 1289   Num  Number of days from admission to PR27
+IA  2013 CORE             369 PRDAY28                         1290 1294   Num  Number of days from admission to PR28
+IA  2013 CORE             370 PRDAY29                         1295 1299   Num  Number of days from admission to PR29
+IA  2013 CORE             371 PRDAY30                         1300 1304   Num  Number of days from admission to PR30
+IA  2013 CORE             372 PRDAY31                         1305 1309   Num  Number of days from admission to PR31
+IA  2013 CORE             373 PRDAY32                         1310 1314   Num  Number of days from admission to PR32
+IA  2013 CORE             374 PRDAY33                         1315 1319   Num  Number of days from admission to PR33
+IA  2013 CORE             375 PRDAY34                         1320 1324   Num  Number of days from admission to PR34
+IA  2013 CORE             376 PRDAY35                         1325 1329   Num  Number of days from admission to PR35
+IA  2013 CORE             377 PRDAY36                         1330 1334   Num  Number of days from admission to PR36
+IA  2013 CORE             378 PRDAY37                         1335 1339   Num  Number of days from admission to PR37
+IA  2013 CORE             379 PRDAY38                         1340 1344   Num  Number of days from admission to PR38
+IA  2013 CORE             380 PRDAY39                         1345 1349   Num  Number of days from admission to PR39
+IA  2013 CORE             381 PRDAY40                         1350 1354   Num  Number of days from admission to PR40
+IA  2013 CORE             382 PRDAY41                         1355 1359   Num  Number of days from admission to PR41
+IA  2013 CORE             383 PRDAY42                         1360 1364   Num  Number of days from admission to PR42
+IA  2013 CORE             384 PRDAY43                         1365 1369   Num  Number of days from admission to PR43
+IA  2013 CORE             385 PRDAY44                         1370 1374   Num  Number of days from admission to PR44
+IA  2013 CORE             386 PRDAY45                         1375 1379   Num  Number of days from admission to PR45
+IA  2013 CORE             387 PRDAY46                         1380 1384   Num  Number of days from admission to PR46
+IA  2013 CORE             388 PRDAY47                         1385 1389   Num  Number of days from admission to PR47
+IA  2013 CORE             389 PRDAY48                         1390 1394   Num  Number of days from admission to PR48
+IA  2013 CORE             390 PRDAY49                         1395 1399   Num  Number of days from admission to PR49
+IA  2013 CORE             391 PRDAY50                         1400 1404   Num  Number of days from admission to PR50
+IA  2013 CORE             392 PRDAY51                         1405 1409   Num  Number of days from admission to PR51
+IA  2013 CORE             393 PRDAY52                         1410 1414   Num  Number of days from admission to PR52
+IA  2013 CORE             394 PRDAY53                         1415 1419   Num  Number of days from admission to PR53
+IA  2013 CORE             395 PRDAY54                         1420 1424   Num  Number of days from admission to PR54
+IA  2013 CORE             396 PRDAY55                         1425 1429   Num  Number of days from admission to PR55
+IA  2013 CORE             397 PROCTYPE                        1430 1432   Num  Procedure type indicator
+IA  2013 CORE             398 PSTATE                          1433 1434   Char Patient State postal code
+IA  2013 CORE             399 PSTCO                           1435 1439   Num  Patient state/county FIPS code
+IA  2013 CORE             400 PSTCO2                          1440 1444   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+IA  2013 CORE             401 PointOfOriginUB04               1445 1445   Char Point of origin for admission or visit, UB-04 standard coding
+IA  2013 CORE             402 PointOfOrigin_X                 1446 1446   Char Point of origin for admission or visit, as received from source
+IA  2013 CORE             403 RACE                            1447 1448   Num  Race (uniform)
+IA  2013 CORE             404 RACE_X                          1449 1452   Char Race (as received from source)
+IA  2013 CORE             405 TOTCHG                          1453 1462   Num  Total charges (cleaned)
+IA  2013 CORE             406 TOTCHG_X                        1463 1477 2 Num  Total charges (as received from source)
+IA  2013 CORE             407 TRAN_IN                         1478 1479   Num  Transfer in indicator
+IA  2013 CORE             408 TRAN_OUT                        1480 1481   Num  Transfer out indicator
+IA  2013 CORE             409 VisitLink                       1482 1490   Num  Visit linkage variable
+IA  2013 CORE             410 YEAR                            1491 1494   Num  Calendar year
+IA  2013 CORE             411 ZIP3                            1495 1497   Char Patient ZIP Code, first 3 digits
+IA  2013 CORE             412 ZIPINC_QRTL                     1498 1500   Num  Median household income national quartile for patient ZIP Code
+IA  2013 CORE             413 ZIP                             1501 1505   Char Patient ZIP Code
+IA  2013 CORE             414 AYEAR                           1506 1509   Num  Admission year
+IA  2013 CORE             415 BMONTH                          1510 1511   Num  Birth month
+IA  2013 CORE             416 BYEAR                           1512 1515   Num  Birth year
+IA  2013 CORE             417 PRMONTH1                        1516 1517   Num  Month of procedure 1
+IA  2013 CORE             418 PRMONTH2                        1518 1519   Num  Month of procedure 2
+IA  2013 CORE             419 PRMONTH3                        1520 1521   Num  Month of procedure 3
+IA  2013 CORE             420 PRMONTH4                        1522 1523   Num  Month of procedure 4
+IA  2013 CORE             421 PRMONTH5                        1524 1525   Num  Month of procedure 5
+IA  2013 CORE             422 PRMONTH6                        1526 1527   Num  Month of procedure 6
+IA  2013 CORE             423 PRMONTH7                        1528 1529   Num  Month of procedure 7
+IA  2013 CORE             424 PRMONTH8                        1530 1531   Num  Month of procedure 8
+IA  2013 CORE             425 PRMONTH9                        1532 1533   Num  Month of procedure 9
+IA  2013 CORE             426 PRMONTH10                       1534 1535   Num  Month of procedure 10
+IA  2013 CORE             427 PRMONTH11                       1536 1537   Num  Month of procedure 11
+IA  2013 CORE             428 PRMONTH12                       1538 1539   Num  Month of procedure 12
+IA  2013 CORE             429 PRMONTH13                       1540 1541   Num  Month of procedure 13
+IA  2013 CORE             430 PRMONTH14                       1542 1543   Num  Month of procedure 14
+IA  2013 CORE             431 PRMONTH15                       1544 1545   Num  Month of procedure 15
+IA  2013 CORE             432 PRMONTH16                       1546 1547   Num  Month of procedure 16
+IA  2013 CORE             433 PRMONTH17                       1548 1549   Num  Month of procedure 17
+IA  2013 CORE             434 PRMONTH18                       1550 1551   Num  Month of procedure 18
+IA  2013 CORE             435 PRMONTH19                       1552 1553   Num  Month of procedure 19
+IA  2013 CORE             436 PRMONTH20                       1554 1555   Num  Month of procedure 20
+IA  2013 CORE             437 PRMONTH21                       1556 1557   Num  Month of procedure 21
+IA  2013 CORE             438 PRMONTH22                       1558 1559   Num  Month of procedure 22
+IA  2013 CORE             439 PRMONTH23                       1560 1561   Num  Month of procedure 23
+IA  2013 CORE             440 PRMONTH24                       1562 1563   Num  Month of procedure 24
+IA  2013 CORE             441 PRMONTH25                       1564 1565   Num  Month of procedure 25
+IA  2013 CORE             442 PRMONTH26                       1566 1567   Num  Month of procedure 26
+IA  2013 CORE             443 PRMONTH27                       1568 1569   Num  Month of procedure 27
+IA  2013 CORE             444 PRMONTH28                       1570 1571   Num  Month of procedure 28
+IA  2013 CORE             445 PRMONTH29                       1572 1573   Num  Month of procedure 29
+IA  2013 CORE             446 PRMONTH30                       1574 1575   Num  Month of procedure 30
+IA  2013 CORE             447 PRMONTH31                       1576 1577   Num  Month of procedure 31
+IA  2013 CORE             448 PRMONTH32                       1578 1579   Num  Month of procedure 32
+IA  2013 CORE             449 PRMONTH33                       1580 1581   Num  Month of procedure 33
+IA  2013 CORE             450 PRMONTH34                       1582 1583   Num  Month of procedure 34
+IA  2013 CORE             451 PRMONTH35                       1584 1585   Num  Month of procedure 35
+IA  2013 CORE             452 PRMONTH36                       1586 1587   Num  Month of procedure 36
+IA  2013 CORE             453 PRMONTH37                       1588 1589   Num  Month of procedure 37
+IA  2013 CORE             454 PRMONTH38                       1590 1591   Num  Month of procedure 38
+IA  2013 CORE             455 PRMONTH39                       1592 1593   Num  Month of procedure 39
+IA  2013 CORE             456 PRMONTH40                       1594 1595   Num  Month of procedure 40
+IA  2013 CORE             457 PRMONTH41                       1596 1597   Num  Month of procedure 41
+IA  2013 CORE             458 PRMONTH42                       1598 1599   Num  Month of procedure 42
+IA  2013 CORE             459 PRMONTH43                       1600 1601   Num  Month of procedure 43
+IA  2013 CORE             460 PRMONTH44                       1602 1603   Num  Month of procedure 44
+IA  2013 CORE             461 PRMONTH45                       1604 1605   Num  Month of procedure 45
+IA  2013 CORE             462 PRMONTH46                       1606 1607   Num  Month of procedure 46
+IA  2013 CORE             463 PRMONTH47                       1608 1609   Num  Month of procedure 47
+IA  2013 CORE             464 PRMONTH48                       1610 1611   Num  Month of procedure 48
+IA  2013 CORE             465 PRMONTH49                       1612 1613   Num  Month of procedure 49
+IA  2013 CORE             466 PRMONTH50                       1614 1615   Num  Month of procedure 50
+IA  2013 CORE             467 PRMONTH51                       1616 1617   Num  Month of procedure 51
+IA  2013 CORE             468 PRMONTH52                       1618 1619   Num  Month of procedure 52
+IA  2013 CORE             469 PRMONTH53                       1620 1621   Num  Month of procedure 53
+IA  2013 CORE             470 PRMONTH54                       1622 1623   Num  Month of procedure 54
+IA  2013 CORE             471 PRMONTH55                       1624 1625   Num  Month of procedure 55
+IA  2013 CORE             472 PRYEAR1                         1626 1629   Num  Year of procedure 1
+IA  2013 CORE             473 PRYEAR2                         1630 1633   Num  Year of procedure 2
+IA  2013 CORE             474 PRYEAR3                         1634 1637   Num  Year of procedure 3
+IA  2013 CORE             475 PRYEAR4                         1638 1641   Num  Year of procedure 4
+IA  2013 CORE             476 PRYEAR5                         1642 1645   Num  Year of procedure 5
+IA  2013 CORE             477 PRYEAR6                         1646 1649   Num  Year of procedure 6
+IA  2013 CORE             478 PRYEAR7                         1650 1653   Num  Year of procedure 7
+IA  2013 CORE             479 PRYEAR8                         1654 1657   Num  Year of procedure 8
+IA  2013 CORE             480 PRYEAR9                         1658 1661   Num  Year of procedure 9
+IA  2013 CORE             481 PRYEAR10                        1662 1665   Num  Year of procedure 10
+IA  2013 CORE             482 PRYEAR11                        1666 1669   Num  Year of procedure 11
+IA  2013 CORE             483 PRYEAR12                        1670 1673   Num  Year of procedure 12
+IA  2013 CORE             484 PRYEAR13                        1674 1677   Num  Year of procedure 13
+IA  2013 CORE             485 PRYEAR14                        1678 1681   Num  Year of procedure 14
+IA  2013 CORE             486 PRYEAR15                        1682 1685   Num  Year of procedure 15
+IA  2013 CORE             487 PRYEAR16                        1686 1689   Num  Year of procedure 16
+IA  2013 CORE             488 PRYEAR17                        1690 1693   Num  Year of procedure 17
+IA  2013 CORE             489 PRYEAR18                        1694 1697   Num  Year of procedure 18
+IA  2013 CORE             490 PRYEAR19                        1698 1701   Num  Year of procedure 19
+IA  2013 CORE             491 PRYEAR20                        1702 1705   Num  Year of procedure 20
+IA  2013 CORE             492 PRYEAR21                        1706 1709   Num  Year of procedure 21
+IA  2013 CORE             493 PRYEAR22                        1710 1713   Num  Year of procedure 22
+IA  2013 CORE             494 PRYEAR23                        1714 1717   Num  Year of procedure 23
+IA  2013 CORE             495 PRYEAR24                        1718 1721   Num  Year of procedure 24
+IA  2013 CORE             496 PRYEAR25                        1722 1725   Num  Year of procedure 25
+IA  2013 CORE             497 PRYEAR26                        1726 1729   Num  Year of procedure 26
+IA  2013 CORE             498 PRYEAR27                        1730 1733   Num  Year of procedure 27
+IA  2013 CORE             499 PRYEAR28                        1734 1737   Num  Year of procedure 28
+IA  2013 CORE             500 PRYEAR29                        1738 1741   Num  Year of procedure 29
+IA  2013 CORE             501 PRYEAR30                        1742 1745   Num  Year of procedure 30
+IA  2013 CORE             502 PRYEAR31                        1746 1749   Num  Year of procedure 31
+IA  2013 CORE             503 PRYEAR32                        1750 1753   Num  Year of procedure 32
+IA  2013 CORE             504 PRYEAR33                        1754 1757   Num  Year of procedure 33
+IA  2013 CORE             505 PRYEAR34                        1758 1761   Num  Year of procedure 34
+IA  2013 CORE             506 PRYEAR35                        1762 1765   Num  Year of procedure 35
+IA  2013 CORE             507 PRYEAR36                        1766 1769   Num  Year of procedure 36
+IA  2013 CORE             508 PRYEAR37                        1770 1773   Num  Year of procedure 37
+IA  2013 CORE             509 PRYEAR38                        1774 1777   Num  Year of procedure 38
+IA  2013 CORE             510 PRYEAR39                        1778 1781   Num  Year of procedure 39
+IA  2013 CORE             511 PRYEAR40                        1782 1785   Num  Year of procedure 40
+IA  2013 CORE             512 PRYEAR41                        1786 1789   Num  Year of procedure 41
+IA  2013 CORE             513 PRYEAR42                        1790 1793   Num  Year of procedure 42
+IA  2013 CORE             514 PRYEAR43                        1794 1797   Num  Year of procedure 43
+IA  2013 CORE             515 PRYEAR44                        1798 1801   Num  Year of procedure 44
+IA  2013 CORE             516 PRYEAR45                        1802 1805   Num  Year of procedure 45
+IA  2013 CORE             517 PRYEAR46                        1806 1809   Num  Year of procedure 46
+IA  2013 CORE             518 PRYEAR47                        1810 1813   Num  Year of procedure 47
+IA  2013 CORE             519 PRYEAR48                        1814 1817   Num  Year of procedure 48
+IA  2013 CORE             520 PRYEAR49                        1818 1821   Num  Year of procedure 49
+IA  2013 CORE             521 PRYEAR50                        1822 1825   Num  Year of procedure 50
+IA  2013 CORE             522 PRYEAR51                        1826 1829   Num  Year of procedure 51
+IA  2013 CORE             523 PRYEAR52                        1830 1833   Num  Year of procedure 52
+IA  2013 CORE             524 PRYEAR53                        1834 1837   Num  Year of procedure 53
+IA  2013 CORE             525 PRYEAR54                        1838 1841   Num  Year of procedure 54
+IA  2013 CORE             526 PRYEAR55                        1842 1845   Num  Year of procedure 55

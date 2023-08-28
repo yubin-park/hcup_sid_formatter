@@ -1,0 +1,133 @@
+Data Set Name: MA_SID_1994_CORE                
+Number of Observations: 821385
+Total Record Length: 438
+Total Number of Variables: 113
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 49    Variable name
+51- 54    Starting column of variable in ASCII file
+56- 59    Ending column of variable in ASCII file
+    61    Non-zero number of digits after decimal point for numeric variable
+63- 66    Variable type (Num=numeric; Char=character)
+68-167    Variable label
+
+
+MA  1994 CORE               1 SEQ_SID                1   13   Num  I:HCUP-3 SID record sequence number
+MA  1994 CORE               2 AGE                   14   16   Num  I:Age in years at admission
+MA  1994 CORE               3 SEX                   17   19   Num  I:Sex
+MA  1994 CORE               4 RACE                  20   21   Num  I:Race
+MA  1994 CORE               5 DQTR                  22   23   Num  I:Discharge quarter
+MA  1994 CORE               6 LOS                   24   28   Num  I:Length of stay (cleaned)
+MA  1994 CORE               7 DISP                  29   30   Num  I:Disposition of patient
+MA  1994 CORE               8 DIED                  31   32   Num  I:Died during hospitalization
+MA  1994 CORE               9 ATYPE                 33   34   Num  I:Admission type
+MA  1994 CORE              10 ASOURCE               35   36   Num  I:Admission source
+MA  1994 CORE              11 NDX                   37   38   Num  I:Number of diagnoses on this discharge
+MA  1994 CORE              12 DX1                   39   43   Char I:Principal diagnosis
+MA  1994 CORE              13 DXV1                  44   47   Num  I:Validity flag: principal diagnosis
+MA  1994 CORE              14 DCCHPR1               48   51   Num  I:CCHPR: principal diagnosis
+MA  1994 CORE              15 NPR                   52   53   Num  I:Number of procedures on this discharge
+MA  1994 CORE              16 PR1                   54   57   Char I:Principal procedure
+MA  1994 CORE              17 PRV1                  58   60   Num  I:Validity flag: principal procedure
+MA  1994 CORE              18 PCCHPR1               61   64   Num  I:CCHPR: principal procedure
+MA  1994 CORE              19 DRG                   65   67   Num  I:DRG in effect on discharge date
+MA  1994 CORE              20 MDC                   68   69   Num  I:MDC in effect on discharge date
+MA  1994 CORE              21 DRGVER                70   71   Num  I:DRG grouper version used on disch date
+MA  1994 CORE              22 DRG10                 72   74   Num  I:DRG, Version 10
+MA  1994 CORE              23 MDC10                 75   76   Num  I:MDC, Version 10
+MA  1994 CORE              24 PAY1                  77   78   Num  I:Primary expected payer, uniform
+MA  1994 CORE              25 TOTCHG                79   88   Num  I:Total charges (cleaned)
+MA  1994 CORE              26 PROCESS               89   99   Num  I:HCUP-3 discharge processing ID number
+MA  1994 CORE              27 YEAR                 100  103   Num  Calendar year
+MA  1994 CORE              28 DSHOSPID             104  116   Char I:Data source hospital ID number
+MA  1994 CORE              29 DSNUM                117  119   Num  I:Data source ID number
+MA  1994 CORE              30 DSTYPE               120  122   Num  I:Data source type
+MA  1994 CORE              31 HOSPST               123  124   Char Hospital state postal code
+MA  1994 CORE              32 ADAYWK               125  127   Num  I:Admission day of week
+MA  1994 CORE              33 AMONTH               128  129   Num  I:Admission month
+MA  1994 CORE              34 LOS_X                130  134   Num  I:Length of stay (uncleaned)
+MA  1994 CORE              35 NEOMAT               135  136   Num  I:Neonatal and/or maternal DX and/or PR
+MA  1994 CORE              36 DXSYS                137  139   Num  I:Diagnosis coding system
+MA  1994 CORE              37 DSNDX                140  142   Num  I:Max number of diagnoses from source
+MA  1994 CORE              38 PRSYS                143  145   Num  I:Procedure coding system
+MA  1994 CORE              39 DSNPR                146  148   Num  I:Max number of procedures from source
+MA  1994 CORE              40 PRDAY1               149  153   Num  I:No. of days from admission to PR1
+MA  1994 CORE              41 PAY1_N               154  156   Num  I:Primary expected payer, nonuniform
+MA  1994 CORE              42 PAY2                 157  158   Num  I:Secondary expected payer, uniform
+MA  1994 CORE              43 PAY2_N               159  161   Num  I:Secondary expected payer, nonuniform
+MA  1994 CORE              44 TOTCHG_X             162  173 2 Num  I:Total charges (from data source)
+MA  1994 CORE              45 DX2                  174  178   Char I:Diagnosis 2
+MA  1994 CORE              46 DX3                  179  183   Char I:Diagnosis 3
+MA  1994 CORE              47 DX4                  184  188   Char I:Diagnosis 4
+MA  1994 CORE              48 DX5                  189  193   Char I:Diagnosis 5
+MA  1994 CORE              49 DX6                  194  198   Char I:Diagnosis 6
+MA  1994 CORE              50 DX7                  199  203   Char I:Diagnosis 7
+MA  1994 CORE              51 DX8                  204  208   Char I:Diagnosis 8
+MA  1994 CORE              52 DX9                  209  213   Char I:Diagnosis 9
+MA  1994 CORE              53 DX10                 214  218   Char I:Diagnosis 10
+MA  1994 CORE              54 DX11                 219  223   Char I:Diagnosis 11
+MA  1994 CORE              55 DXV2                 224  227   Num  I:Validity flag: diagnosis 2
+MA  1994 CORE              56 DXV3                 228  231   Num  I:Validity flag: diagnosis 3
+MA  1994 CORE              57 DXV4                 232  235   Num  I:Validity flag: diagnosis 4
+MA  1994 CORE              58 DXV5                 236  239   Num  I:Validity flag: diagnosis 5
+MA  1994 CORE              59 DXV6                 240  243   Num  I:Validity flag: diagnosis 6
+MA  1994 CORE              60 DXV7                 244  247   Num  I:Validity flag: diagnosis 7
+MA  1994 CORE              61 DXV8                 248  251   Num  I:Validity flag: diagnosis 8
+MA  1994 CORE              62 DXV9                 252  255   Num  I:Validity flag: diagnosis 9
+MA  1994 CORE              63 DXV10                256  259   Num  I:Validity flag: diagnosis 10
+MA  1994 CORE              64 DXV11                260  263   Num  I:Validity flag: diagnosis 11
+MA  1994 CORE              65 DCCHPR2              264  267   Num  I:CCHPR: diagnosis 2
+MA  1994 CORE              66 DCCHPR3              268  271   Num  I:CCHPR: diagnosis 3
+MA  1994 CORE              67 DCCHPR4              272  275   Num  I:CCHPR: diagnosis 4
+MA  1994 CORE              68 DCCHPR5              276  279   Num  I:CCHPR: diagnosis 5
+MA  1994 CORE              69 DCCHPR6              280  283   Num  I:CCHPR: diagnosis 6
+MA  1994 CORE              70 DCCHPR7              284  287   Num  I:CCHPR: diagnosis 7
+MA  1994 CORE              71 DCCHPR8              288  291   Num  I:CCHPR: diagnosis 8
+MA  1994 CORE              72 DCCHPR9              292  295   Num  I:CCHPR: diagnosis 9
+MA  1994 CORE              73 DCCHPR10             296  299   Num  I:CCHPR: diagnosis 10
+MA  1994 CORE              74 DCCHPR11             300  303   Num  I:CCHPR: diagnosis 11
+MA  1994 CORE              75 PR2                  304  307   Char I:Procedure 2
+MA  1994 CORE              76 PR3                  308  311   Char I:Procedure 3
+MA  1994 CORE              77 PR4                  312  315   Char I:Procedure 4
+MA  1994 CORE              78 PR5                  316  319   Char I:Procedure 5
+MA  1994 CORE              79 PR6                  320  323   Char I:Procedure 6
+MA  1994 CORE              80 PR7                  324  327   Char I:Procedure 7
+MA  1994 CORE              81 PR8                  328  331   Char I:Procedure 8
+MA  1994 CORE              82 PR9                  332  335   Char I:Procedure 9
+MA  1994 CORE              83 PR10                 336  339   Char I:Procedure 10
+MA  1994 CORE              84 PRV2                 340  342   Num  I:Validity flag: procedure 2
+MA  1994 CORE              85 PRV3                 343  345   Num  I:Validity flag: procedure 3
+MA  1994 CORE              86 PRV4                 346  348   Num  I:Validity flag: procedure 4
+MA  1994 CORE              87 PRV5                 349  351   Num  I:Validity flag: procedure 5
+MA  1994 CORE              88 PRV6                 352  354   Num  I:Validity flag: procedure 6
+MA  1994 CORE              89 PRV7                 355  357   Num  I:Validity flag: procedure 7
+MA  1994 CORE              90 PRV8                 358  360   Num  I:Validity flag: procedure 8
+MA  1994 CORE              91 PRV9                 361  363   Num  I:Validity flag: procedure 9
+MA  1994 CORE              92 PRV10                364  366   Num  I:Validity flag: procedure 10
+MA  1994 CORE              93 PCCHPR2              367  370   Num  I:CCHPR: procedure 2
+MA  1994 CORE              94 PCCHPR3              371  374   Num  I:CCHPR: procedure 3
+MA  1994 CORE              95 PCCHPR4              375  378   Num  I:CCHPR: procedure 4
+MA  1994 CORE              96 PCCHPR5              379  382   Num  I:CCHPR: procedure 5
+MA  1994 CORE              97 PCCHPR6              383  386   Num  I:CCHPR: procedure 6
+MA  1994 CORE              98 PCCHPR7              387  390   Num  I:CCHPR: procedure 7
+MA  1994 CORE              99 PCCHPR8              391  394   Num  I:CCHPR: procedure 8
+MA  1994 CORE             100 PCCHPR9              395  398   Num  I:CCHPR: procedure 9
+MA  1994 CORE             101 PCCHPR10             399  402   Num  I:CCHPR: procedure 10
+MA  1994 CORE             102 PRDAY2               403  407   Num  I:No. of days from admission to PR2
+MA  1994 CORE             103 PRDAY3               408  412   Num  I:No. of days from admission to PR3
+MA  1994 CORE             104 PAY1_X               413  413   Char I:Primary exp. payer (from data source)
+MA  1994 CORE             105 PAY2_X               414  414   Char I:Secondary exp. payer (from data source
+MA  1994 CORE             106 AYEAR                415  418   Num  Admission year
+MA  1994 CORE             107 DMONTH               419  420   Num  Discharge month
+MA  1994 CORE             108 PRMONTH1             421  422   Num  Month of procedure 1
+MA  1994 CORE             109 PRMONTH2             423  424   Num  Month of procedure 2
+MA  1994 CORE             110 PRMONTH3             425  426   Num  Month of procedure 3
+MA  1994 CORE             111 PRYEAR1              427  430   Num  Year of procedure 1
+MA  1994 CORE             112 PRYEAR2              431  434   Num  Year of procedure 2
+MA  1994 CORE             113 PRYEAR3              435  438   Num  Year of procedure 3

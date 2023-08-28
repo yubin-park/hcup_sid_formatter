@@ -1,0 +1,133 @@
+Data Set Name: NM_SIDC_2008_CORE               
+Number of Observations: 206079
+Total Record Length: 458
+Total Number of Variables: 112
+Creation Date: 12/30/2015   
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 61    Variable name
+63- 66    Starting column of variable in ASCII file
+68- 71    Ending column of variable in ASCII file
+    73    Non-zero number of digits after decimal point for numeric variable
+75- 78    Variable type (Num=numeric; Char=character)
+80-179    Variable label
+
+
+NM  2008 CORE               1 AGE                                1    3   Num  Age in years at admission
+NM  2008 CORE               2 AGEDAY                             4    6   Num  Age in days (when age < 1 year)
+NM  2008 CORE               3 AGEMONTH                           7    9   Num  Age in months (when age < 11 years)
+NM  2008 CORE               4 AMONTH                            10   11   Num  Admission month
+NM  2008 CORE               5 ASOURCE                           12   13   Num  Admission source (uniform)
+NM  2008 CORE               6 ASOURCEUB92                       14   14   Char Admission source (UB-92 standard coding)
+NM  2008 CORE               7 ASOURCE_X                         15   15   Char Admission source (as received from source)
+NM  2008 CORE               8 ATYPE                             16   17   Num  Admission type
+NM  2008 CORE               9 AWEEKEND                          18   19   Num  Admission day is a weekend
+NM  2008 CORE              10 DIED                              20   21   Num  Died during hospitalization
+NM  2008 CORE              11 DISPUB04                          22   23   Num  Disposition of patient (UB-04 standard coding)
+NM  2008 CORE              12 DISPUNIFORM                       24   25   Num  Disposition of patient (uniform)
+NM  2008 CORE              13 DISP_X                            26   27   Char Disposition of patient (as received from source)
+NM  2008 CORE              14 DQTR                              28   29   Num  Discharge quarter
+NM  2008 CORE              15 DRG                               30   32   Num  DRG in effect on discharge date
+NM  2008 CORE              16 DRG24                             33   35   Num  DRG, version 24
+NM  2008 CORE              17 DRGVER                            36   37   Num  DRG grouper version used on discharge date
+NM  2008 CORE              18 DRG_NoPOA                         38   40   Num  DRG in use on discharge date, calculated without POA
+NM  2008 CORE              19 DX1                               41   47   Char Diagnosis 1
+NM  2008 CORE              20 DX2                               48   54   Char Diagnosis 2
+NM  2008 CORE              21 DX3                               55   61   Char Diagnosis 3
+NM  2008 CORE              22 DX4                               62   68   Char Diagnosis 4
+NM  2008 CORE              23 DX5                               69   75   Char Diagnosis 5
+NM  2008 CORE              24 DX6                               76   82   Char Diagnosis 6
+NM  2008 CORE              25 DX7                               83   89   Char Diagnosis 7
+NM  2008 CORE              26 DX8                               90   96   Char Diagnosis 8
+NM  2008 CORE              27 DX9                               97  103   Char Diagnosis 9
+NM  2008 CORE              28 DXCCS1                           104  107   Num  CCS: diagnosis 1
+NM  2008 CORE              29 DXCCS2                           108  111   Num  CCS: diagnosis 2
+NM  2008 CORE              30 DXCCS3                           112  115   Num  CCS: diagnosis 3
+NM  2008 CORE              31 DXCCS4                           116  119   Num  CCS: diagnosis 4
+NM  2008 CORE              32 DXCCS5                           120  123   Num  CCS: diagnosis 5
+NM  2008 CORE              33 DXCCS6                           124  127   Num  CCS: diagnosis 6
+NM  2008 CORE              34 DXCCS7                           128  131   Num  CCS: diagnosis 7
+NM  2008 CORE              35 DXCCS8                           132  135   Num  CCS: diagnosis 8
+NM  2008 CORE              36 DXCCS9                           136  139   Num  CCS: diagnosis 9
+NM  2008 CORE              37 ECODE1                           140  146   Char E code 1
+NM  2008 CORE              38 ECODE2                           147  153   Char E code 2
+NM  2008 CORE              39 ECODE3                           154  160   Char E code 3
+NM  2008 CORE              40 ECODE4                           161  167   Char E code 4
+NM  2008 CORE              41 ECODE5                           168  174   Char E code 5
+NM  2008 CORE              42 ECODE6                           175  181   Char E code 6
+NM  2008 CORE              43 E_CCS1                           182  185   Num  CCS: E Code 1
+NM  2008 CORE              44 E_CCS2                           186  189   Num  CCS: E Code 2
+NM  2008 CORE              45 E_CCS3                           190  193   Num  CCS: E Code 3
+NM  2008 CORE              46 E_CCS4                           194  197   Num  CCS: E Code 4
+NM  2008 CORE              47 E_CCS5                           198  201   Num  CCS: E Code 5
+NM  2008 CORE              48 E_CCS6                           202  205   Num  CCS: E Code 6
+NM  2008 CORE              49 FEMALE                           206  207   Num  Indicator of sex
+NM  2008 CORE              50 HCUP_ED                          208  209   Num  HCUP Emergency Department service indicator
+NM  2008 CORE              51 HCUP_OS                          210  211   Num  HCUP Observation Stay service indicator
+NM  2008 CORE              52 HOSPBRTH                         212  214   Num  Indicator of birth in this hospital
+NM  2008 CORE              53 HOSPST                           215  216   Char Hospital state postal code
+NM  2008 CORE              54 KEY                              217  231   Num  HCUP record identifier
+NM  2008 CORE              55 LOS                              232  236   Num  Length of stay (cleaned)
+NM  2008 CORE              56 LOS_X                            237  242   Num  Length of stay (as received from source)
+NM  2008 CORE              57 MDC                              243  244   Num  MDC in effect on discharge date
+NM  2008 CORE              58 MDC24                            245  246   Num  MDC, version 24
+NM  2008 CORE              59 MDNUM1_R                         247  255   Num  Physician 1 number (re-identified)
+NM  2008 CORE              60 MDNUM2_R                         256  264   Num  Physician 2 number (re-identified)
+NM  2008 CORE              61 MEDINCSTQ                        265  266   Num  Median household income state quartile for patient ZIP Code
+NM  2008 CORE              62 NDX                              267  269   Num  Number of diagnoses on this record
+NM  2008 CORE              63 NECODE                           270  271   Num  Number of E codes on this record
+NM  2008 CORE              64 NEOMAT                           272  273   Num  Neonatal and/or maternal DX and/or PR
+NM  2008 CORE              65 NPR                              274  276   Num  Number of procedures on this record
+NM  2008 CORE              66 PAY1                             277  278   Num  Primary expected payer (uniform)
+NM  2008 CORE              67 PAY1_X                           279  280   Char Primary expected payer (as received from source)
+NM  2008 CORE              68 PAY2                             281  282   Num  Secondary expected payer (uniform)
+NM  2008 CORE              69 PAY2_X                           283  284   Char Secondary expected payer (as received from source)
+NM  2008 CORE              70 PL_CBSA                          285  287   Num  Patient location: Core Based Statistical Area (CBSA)
+NM  2008 CORE              71 PL_MSA1993                       288  290   Num  Patient location: Metropolitan Statistical Area (MSA), 1993
+NM  2008 CORE              72 PL_NCHS2006                      291  292   Num  Patient Location: NCHS Urban-Rural Code (V2006)
+NM  2008 CORE              73 PL_RUCA10_2005                   293  294   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, ten levels
+NM  2008 CORE              74 PL_RUCA2005                      295  298 1 Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes
+NM  2008 CORE              75 PL_RUCA4_2005                    299  300   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, four levels
+NM  2008 CORE              76 PL_RUCC2003                      301  302   Num  Patient location: Rural-Urban Continuum Codes(RUCC), 2003
+NM  2008 CORE              77 PL_UIC2003                       303  304   Num  Patient location: Urban Influence Codes, 2003
+NM  2008 CORE              78 PL_UR_CAT4                       305  306   Num  Patient Location: Urban-Rural 4 Categories
+NM  2008 CORE              79 PNUM_R                           307  315   Num  Person number (re-identified)
+NM  2008 CORE              80 PR1                              316  322   Char Procedure 1
+NM  2008 CORE              81 PR2                              323  329   Char Procedure 2
+NM  2008 CORE              82 PR3                              330  336   Char Procedure 3
+NM  2008 CORE              83 PR4                              337  343   Char Procedure 4
+NM  2008 CORE              84 PR5                              344  350   Char Procedure 5
+NM  2008 CORE              85 PR6                              351  357   Char Procedure 6
+NM  2008 CORE              86 PRCCS1                           358  360   Num  CCS: procedure 1
+NM  2008 CORE              87 PRCCS2                           361  363   Num  CCS: procedure 2
+NM  2008 CORE              88 PRCCS3                           364  366   Num  CCS: procedure 3
+NM  2008 CORE              89 PRCCS4                           367  369   Num  CCS: procedure 4
+NM  2008 CORE              90 PRCCS5                           370  372   Num  CCS: procedure 5
+NM  2008 CORE              91 PRCCS6                           373  375   Num  CCS: procedure 6
+NM  2008 CORE              92 PRDAY1                           376  380   Num  Number of days from admission to PR1
+NM  2008 CORE              93 PROCTYPE                         381  383   Num  Procedure type indicator
+NM  2008 CORE              94 PSTATE                           384  385   Char Patient State postal code
+NM  2008 CORE              95 PSTCO2                           386  390   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+NM  2008 CORE              96 PointOfOriginUB04                391  391   Char Point of origin for admission or visit, UB-04 standard coding
+NM  2008 CORE              97 PointOfOrigin_X                  392  392   Char Point of origin for admission or visit, as received from source
+NM  2008 CORE              98 RACE                             393  394   Num  Race (uniform)
+NM  2008 CORE              99 RACE_X                           395  395   Char Race (as received from source)
+NM  2008 CORE             100 TOTCHG                           396  405   Num  Total charges (cleaned)
+NM  2008 CORE             101 TOTCHG_X                         406  420 2 Num  Total charges (as received from source)
+NM  2008 CORE             102 YEAR                             421  424   Num  Calendar year
+NM  2008 CORE             103 ZIP3                             425  427   Char Patient ZIP Code, first 3 digits
+NM  2008 CORE             104 ZIPINC_QRTL                      428  430   Num  Median household income national quartile for patient ZIP Code
+NM  2008 CORE             105 ZIP_S                            431  435   Char Patient ZIP Code (synthetic)
+NM  2008 CORE             106 HOSPID                           436  440   Num  HCUP hospital identification number
+NM  2008 CORE             107 AYEAR                            441  444   Num  Admission year
+NM  2008 CORE             108 DMONTH                           445  446   Num  Discharge month
+NM  2008 CORE             109 BMONTH                           447  448   Num  Birth month
+NM  2008 CORE             110 BYEAR                            449  452   Num  Birth year
+NM  2008 CORE             111 PRMONTH1                         453  454   Num  Month of procedure 1
+NM  2008 CORE             112 PRYEAR1                          455  458   Num  Year of procedure 1

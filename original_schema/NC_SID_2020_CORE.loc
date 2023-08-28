@@ -1,0 +1,189 @@
+Data Set Name: NC_SIDC_2020_CORE               
+Number of Observations: 1059990
+Total Record Length: 728
+Total Number of Variables: 168
+Creation Date: 03/14/2022   
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 61    Variable name
+63- 66    Starting column of variable in ASCII file
+68- 71    Ending column of variable in ASCII file
+73- 73    Non-zero number of digits after decimal point for numeric variable
+75- 78    Variable type (Num=numeric; Char=character)
+80-179    Variable label
+
+
+NC  2020 CORE               1 AGE                                1    3   Num  Age in years at admission
+NC  2020 CORE               2 AGEDAY                             4    6   Num  Age in days (when age < 1 year)
+NC  2020 CORE               3 AGEMONTH                           7    9   Num  Age in months (when age < 11 years)
+NC  2020 CORE               4 AHOUR                             10   13   Num  Admission Hour
+NC  2020 CORE               5 AMONTH                            14   15   Num  Admission month
+NC  2020 CORE               6 ATYPE                             16   17   Num  Admission type
+NC  2020 CORE               7 AWEEKEND                          18   19   Num  Admission day is a weekend
+NC  2020 CORE               8 BILLTYPE                          20   23   Char Type of bill, UB-04 coding
+NC  2020 CORE               9 BWT                               24   27   Num  Birth weight in grams
+NC  2020 CORE              10 DHOUR                             28   31   Num  Discharge Hour
+NC  2020 CORE              11 DIED                              32   33   Num  Died during hospitalization
+NC  2020 CORE              12 DISP_X                            34   39   Char Disposition of patient (as received from source)
+NC  2020 CORE              13 DISPUB04                          40   41   Num  Disposition of patient (UB-04 standard coding)
+NC  2020 CORE              14 DISPUNIFORM                       42   43   Num  Disposition of patient (uniform)
+NC  2020 CORE              15 DMONTH                            44   45   Num  Discharge month
+NC  2020 CORE              16 DQTR                              46   47   Num  Discharge quarter
+NC  2020 CORE              17 DRG                               48   50   Num  DRG in effect on discharge date
+NC  2020 CORE              18 DRG_NoPOA                         51   53   Num  DRG in use on discharge date, calculated without POA
+NC  2020 CORE              19 DRGVER                            54   55   Num  DRG grouper version used on discharge date
+NC  2020 CORE              20 DSHOSPID                          56   72   Char Data source hospital identifier
+NC  2020 CORE              21 DXPOA1                            73   73   Char Diagnosis 1, present on admission indicator
+NC  2020 CORE              22 DXPOA2                            74   74   Char Diagnosis 2, present on admission indicator
+NC  2020 CORE              23 DXPOA3                            75   75   Char Diagnosis 3, present on admission indicator
+NC  2020 CORE              24 DXPOA4                            76   76   Char Diagnosis 4, present on admission indicator
+NC  2020 CORE              25 DXPOA5                            77   77   Char Diagnosis 5, present on admission indicator
+NC  2020 CORE              26 DXPOA6                            78   78   Char Diagnosis 6, present on admission indicator
+NC  2020 CORE              27 DXPOA7                            79   79   Char Diagnosis 7, present on admission indicator
+NC  2020 CORE              28 DXPOA8                            80   80   Char Diagnosis 8, present on admission indicator
+NC  2020 CORE              29 DXPOA9                            81   81   Char Diagnosis 9, present on admission indicator
+NC  2020 CORE              30 DXPOA10                           82   82   Char Diagnosis 10, present on admission indicator
+NC  2020 CORE              31 DXPOA11                           83   83   Char Diagnosis 11, present on admission indicator
+NC  2020 CORE              32 DXPOA12                           84   84   Char Diagnosis 12, present on admission indicator
+NC  2020 CORE              33 DXPOA13                           85   85   Char Diagnosis 13, present on admission indicator
+NC  2020 CORE              34 DXPOA14                           86   86   Char Diagnosis 14, present on admission indicator
+NC  2020 CORE              35 DXPOA15                           87   87   Char Diagnosis 15, present on admission indicator
+NC  2020 CORE              36 DXPOA16                           88   88   Char Diagnosis 16, present on admission indicator
+NC  2020 CORE              37 DXPOA17                           89   89   Char Diagnosis 17, present on admission indicator
+NC  2020 CORE              38 DXPOA18                           90   90   Char Diagnosis 18, present on admission indicator
+NC  2020 CORE              39 DXPOA19                           91   91   Char Diagnosis 19, present on admission indicator
+NC  2020 CORE              40 DXPOA20                           92   92   Char Diagnosis 20, present on admission indicator
+NC  2020 CORE              41 DXPOA21                           93   93   Char Diagnosis 21, present on admission indicator
+NC  2020 CORE              42 DXPOA22                           94   94   Char Diagnosis 22, present on admission indicator
+NC  2020 CORE              43 DXPOA23                           95   95   Char Diagnosis 23, present on admission indicator
+NC  2020 CORE              44 DXPOA24                           96   96   Char Diagnosis 24, present on admission indicator
+NC  2020 CORE              45 DXPOA25                           97   97   Char Diagnosis 25, present on admission indicator
+NC  2020 CORE              46 FEMALE                            98   99   Num  Indicator of sex
+NC  2020 CORE              47 HCUP_ED                          100  101   Num  HCUP Emergency Department service indicator
+NC  2020 CORE              48 HCUP_OS                          102  103   Num  HCUP Observation Stay service indicator
+NC  2020 CORE              49 HISPANIC                         104  105   Num  Hispanic ethnicity (uniform)
+NC  2020 CORE              50 HISPANIC_X                       106  108   Char Hispanic ethnicity (as received from source)
+NC  2020 CORE              51 HOSPST                           109  110   Char Hospital state postal code
+NC  2020 CORE              52 I10_BIRTH                        111  113   Num  ICD-10-CM Birth Indicator
+NC  2020 CORE              53 I10_DELIVERY                     114  116   Num  ICD-10-CM Delivery Indicator
+NC  2020 CORE              54 I10_DX_Admitting                 117  123   Char ICD-10-CM Admitting Diagnosis Code
+NC  2020 CORE              55 I10_DX1                          124  130   Char ICD-10-CM Diagnosis 1
+NC  2020 CORE              56 I10_DX2                          131  137   Char ICD-10-CM Diagnosis 2
+NC  2020 CORE              57 I10_DX3                          138  144   Char ICD-10-CM Diagnosis 3
+NC  2020 CORE              58 I10_DX4                          145  151   Char ICD-10-CM Diagnosis 4
+NC  2020 CORE              59 I10_DX5                          152  158   Char ICD-10-CM Diagnosis 5
+NC  2020 CORE              60 I10_DX6                          159  165   Char ICD-10-CM Diagnosis 6
+NC  2020 CORE              61 I10_DX7                          166  172   Char ICD-10-CM Diagnosis 7
+NC  2020 CORE              62 I10_DX8                          173  179   Char ICD-10-CM Diagnosis 8
+NC  2020 CORE              63 I10_DX9                          180  186   Char ICD-10-CM Diagnosis 9
+NC  2020 CORE              64 I10_DX10                         187  193   Char ICD-10-CM Diagnosis 10
+NC  2020 CORE              65 I10_DX11                         194  200   Char ICD-10-CM Diagnosis 11
+NC  2020 CORE              66 I10_DX12                         201  207   Char ICD-10-CM Diagnosis 12
+NC  2020 CORE              67 I10_DX13                         208  214   Char ICD-10-CM Diagnosis 13
+NC  2020 CORE              68 I10_DX14                         215  221   Char ICD-10-CM Diagnosis 14
+NC  2020 CORE              69 I10_DX15                         222  228   Char ICD-10-CM Diagnosis 15
+NC  2020 CORE              70 I10_DX16                         229  235   Char ICD-10-CM Diagnosis 16
+NC  2020 CORE              71 I10_DX17                         236  242   Char ICD-10-CM Diagnosis 17
+NC  2020 CORE              72 I10_DX18                         243  249   Char ICD-10-CM Diagnosis 18
+NC  2020 CORE              73 I10_DX19                         250  256   Char ICD-10-CM Diagnosis 19
+NC  2020 CORE              74 I10_DX20                         257  263   Char ICD-10-CM Diagnosis 20
+NC  2020 CORE              75 I10_DX21                         264  270   Char ICD-10-CM Diagnosis 21
+NC  2020 CORE              76 I10_DX22                         271  277   Char ICD-10-CM Diagnosis 22
+NC  2020 CORE              77 I10_DX23                         278  284   Char ICD-10-CM Diagnosis 23
+NC  2020 CORE              78 I10_DX24                         285  291   Char ICD-10-CM Diagnosis 24
+NC  2020 CORE              79 I10_DX25                         292  298   Char ICD-10-CM Diagnosis 25
+NC  2020 CORE              80 I10_NDX                          299  301   Num  ICD-10-CM Number of diagnoses on this record
+NC  2020 CORE              81 I10_NPR                          302  304   Num  ICD-10-PCS Number of procedures on this record
+NC  2020 CORE              82 I10_PR1                          305  311   Char ICD-10-PCS Procedure 1
+NC  2020 CORE              83 I10_PR2                          312  318   Char ICD-10-PCS Procedure 2
+NC  2020 CORE              84 I10_PR3                          319  325   Char ICD-10-PCS Procedure 3
+NC  2020 CORE              85 I10_PR4                          326  332   Char ICD-10-PCS Procedure 4
+NC  2020 CORE              86 I10_PR5                          333  339   Char ICD-10-PCS Procedure 5
+NC  2020 CORE              87 I10_PR6                          340  346   Char ICD-10-PCS Procedure 6
+NC  2020 CORE              88 I10_PR7                          347  353   Char ICD-10-PCS Procedure 7
+NC  2020 CORE              89 I10_PR8                          354  360   Char ICD-10-PCS Procedure 8
+NC  2020 CORE              90 I10_PR9                          361  367   Char ICD-10-PCS Procedure 9
+NC  2020 CORE              91 I10_PR10                         368  374   Char ICD-10-PCS Procedure 10
+NC  2020 CORE              92 I10_PR11                         375  381   Char ICD-10-PCS Procedure 11
+NC  2020 CORE              93 I10_PR12                         382  388   Char ICD-10-PCS Procedure 12
+NC  2020 CORE              94 I10_PR13                         389  395   Char ICD-10-PCS Procedure 13
+NC  2020 CORE              95 I10_PR14                         396  402   Char ICD-10-PCS Procedure 14
+NC  2020 CORE              96 I10_PR15                         403  409   Char ICD-10-PCS Procedure 15
+NC  2020 CORE              97 I10_PR16                         410  416   Char ICD-10-PCS Procedure 16
+NC  2020 CORE              98 I10_PR17                         417  423   Char ICD-10-PCS Procedure 17
+NC  2020 CORE              99 I10_PR18                         424  430   Char ICD-10-PCS Procedure 18
+NC  2020 CORE             100 I10_PR19                         431  437   Char ICD-10-PCS Procedure 19
+NC  2020 CORE             101 I10_PR20                         438  444   Char ICD-10-PCS Procedure 20
+NC  2020 CORE             102 I10_PROCTYPE                     445  447   Num  ICD-10-PCS Procedure type indicator
+NC  2020 CORE             103 I10_SERVICELINE                  448  449   Num  ICD-10-CM/PCS Hospital Service Line
+NC  2020 CORE             104 KEY                              450  464   Num  HCUP record identifier
+NC  2020 CORE             105 LOS                              465  469   Num  Length of stay (cleaned)
+NC  2020 CORE             106 LOS_X                            470  475   Num  Length of stay (as received from source)
+NC  2020 CORE             107 MDC                              476  477   Num  MDC in effect on discharge date
+NC  2020 CORE             108 MDC_NoPOA                        478  479   Num  MDC in use on discharge date, calculated without POA
+NC  2020 CORE             109 MEDINCSTQ                        480  481   Num  Median household income state quartile for patient ZIP Code
+NC  2020 CORE             110 OS_TIME                          482  492 2 Num  Observation stay time summed from UNITS
+NC  2020 CORE             111 PAY1                             493  494   Num  Primary expected payer (uniform)
+NC  2020 CORE             112 PAY1_X                           495  499   Char Primary expected payer (as received from source)
+NC  2020 CORE             113 PAY2                             500  501   Num  Secondary expected payer (uniform)
+NC  2020 CORE             114 PAY2_X                           502  506   Char Secondary expected payer (as received from source)
+NC  2020 CORE             115 PAY3                             507  508   Num  Tertiary expected payer (uniform)
+NC  2020 CORE             116 PAY3_X                           509  513   Char Tertiary expected payer (as received from source)
+NC  2020 CORE             117 PCLASS_ORPROC                    514  515   Num  Indicates operating room (major diagnostic or therapeutic) procedure on the record
+NC  2020 CORE             118 PL_CBSA                          516  518   Num  Patient location: Core Based Statistical Area (CBSA)
+NC  2020 CORE             119 PL_NCHS                          519  520   Num  Patient Location: NCHS Urban-Rural Code
+NC  2020 CORE             120 PL_RUCC                          521  522   Num  Patient location: Rural-Urban Continuum Codes (RUCC)
+NC  2020 CORE             121 PL_UIC                           523  524   Num  Patient location: Urban Influence Codes
+NC  2020 CORE             122 PL_UR_CAT4                       525  526   Num  Patient Location: Urban-Rural 4 Categories
+NC  2020 CORE             123 POA_Disch_Edit1                  527  528   Num  Discharge has POA missing on all nonexempt diagnoses
+NC  2020 CORE             124 POA_Disch_Edit2                  529  530   Num  Discharge has POA missing on all nonexempt secondary diagnoses
+NC  2020 CORE             125 POA_Hosp_Edit1                   531  532   Num  Hospital reported POA as Y on all diagnoses on all discharges
+NC  2020 CORE             126 POA_Hosp_Edit2                   533  534   Num  Hospital reported POA as missing on all non-Medicare discharges
+NC  2020 CORE             127 POA_Hosp_Edit3                   535  536   Num  Hospital reported POA as missing on all nonexempt diagnoses for 15% or more of discharges
+NC  2020 CORE             128 POA_Hosp_Edit3_Value             537  544 2 Num  Percentage of discharges with all nonexempt diagnoses missing POA indicators
+NC  2020 CORE             129 PointOfOrigin_X                  545  547   Char Point of origin for admission or visit, as received from source
+NC  2020 CORE             130 PointOfOriginUB04                548  548   Char Point of origin for admission or visit, UB-04 standard coding
+NC  2020 CORE             131 PRDAY1                           549  553   Num  Number of days from admission to I10_PR1
+NC  2020 CORE             132 PRDAY2                           554  558   Num  Number of days from admission to I10_PR2
+NC  2020 CORE             133 PRDAY3                           559  563   Num  Number of days from admission to I10_PR3
+NC  2020 CORE             134 PRDAY4                           564  568   Num  Number of days from admission to I10_PR4
+NC  2020 CORE             135 PRDAY5                           569  573   Num  Number of days from admission to I10_PR5
+NC  2020 CORE             136 PRDAY6                           574  578   Num  Number of days from admission to I10_PR6
+NC  2020 CORE             137 PRDAY7                           579  583   Num  Number of days from admission to I10_PR7
+NC  2020 CORE             138 PRDAY8                           584  588   Num  Number of days from admission to I10_PR8
+NC  2020 CORE             139 PRDAY9                           589  593   Num  Number of days from admission to I10_PR9
+NC  2020 CORE             140 PRDAY10                          594  598   Num  Number of days from admission to I10_PR10
+NC  2020 CORE             141 PRDAY11                          599  603   Num  Number of days from admission to I10_PR11
+NC  2020 CORE             142 PRDAY12                          604  608   Num  Number of days from admission to I10_PR12
+NC  2020 CORE             143 PRDAY13                          609  613   Num  Number of days from admission to I10_PR13
+NC  2020 CORE             144 PRDAY14                          614  618   Num  Number of days from admission to I10_PR14
+NC  2020 CORE             145 PRDAY15                          619  623   Num  Number of days from admission to I10_PR15
+NC  2020 CORE             146 PRDAY16                          624  628   Num  Number of days from admission to I10_PR16
+NC  2020 CORE             147 PRDAY17                          629  633   Num  Number of days from admission to I10_PR17
+NC  2020 CORE             148 PRDAY18                          634  638   Num  Number of days from admission to I10_PR18
+NC  2020 CORE             149 PRDAY19                          639  643   Num  Number of days from admission to I10_PR19
+NC  2020 CORE             150 PRDAY20                          644  648   Num  Number of days from admission to I10_PR20
+NC  2020 CORE             151 PSTATE                           649  650   Char Patient State postal code
+NC  2020 CORE             152 PSTATE_GEO                       651  652   Char Patient State postal code assigned from ZIP Code
+NC  2020 CORE             153 PSTCO                            653  657   Num  Patient state/county FIPS code
+NC  2020 CORE             154 PSTCO_GEO                        658  662   Num  Counties assigned based on ZIP Code geographic centroids
+NC  2020 CORE             155 RACE                             663  664   Num  Race (uniform)
+NC  2020 CORE             156 RACE_PCT_MISS_HOSP               665  671 2 Num  Hospital percentage of missing or invalid race values
+NC  2020 CORE             157 RACE_X                           672  674   Char Race (as received from source)
+NC  2020 CORE             158 TOTCHG                           675  684   Num  Total charges (cleaned)
+NC  2020 CORE             159 TOTCHG_X                         685  699 2 Num  Total charges (as received from source)
+NC  2020 CORE             160 TRAN_IN                          700  701   Num  Transfer in indicator
+NC  2020 CORE             161 TRAN_OUT                         702  703   Num  Transfer out indicator
+NC  2020 CORE             162 YEAR                             704  707   Num  Calendar year
+NC  2020 CORE             163 ZIP                              708  712   Char Patient ZIP Code
+NC  2020 CORE             164 ZIP3                             713  715   Char Patient ZIP Code, first 3 digits
+NC  2020 CORE             165 ZIPINC_QRTL                      716  718   Num  Median household income national quartile for patient ZIP Code
+NC  2020 CORE             166 AYEAR                            719  722   Num  Admission year
+NC  2020 CORE             167 BMONTH                           723  724   Num  Birth month
+NC  2020 CORE             168 BYEAR                            725  728   Num  Birth year

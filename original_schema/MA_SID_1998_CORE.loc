@@ -1,0 +1,114 @@
+Data Set Name: MA_SID_1998_CORE                
+Number of Observations: 777922
+Total Record Length: 337
+Total Number of Variables: 94
+
+
+Columns   Description:
+=======   ============
+ 1- 3     Database name
+ 5- 8     Discharge year of data
+10-17     File name
+19-21     Variable number
+23-41     Variable name
+43-45     Starting column of variable in ASCII file
+47-49     Ending column of variable in ASCII file
+   51     Non-zero number of digits after decimal point for numeric variable
+53-56     Variable type (Num=numeric; Char=character)
+58-113    Variable label
+
+
+MA  1998 CORE       1 KEY                   1  14   Num  HCUP record identifier
+MA  1998 CORE       2 ADRG                 15  17   Num  All Patient Refined DRG
+MA  1998 CORE       3 ADRGRISKMORTALITY    18  19   Num  All Patient Refined DRG mortality risk
+MA  1998 CORE       4 ADRGSEV              20  21   Num  All Patient Refined DRG severity level
+MA  1998 CORE       5 AGE                  22  24   Num  Age in years at admission
+MA  1998 CORE       6 AMDC                 25  26   Num  All Patient Refined MDC
+MA  1998 CORE       7 AMONTH               27  28   Num  Admission month
+MA  1998 CORE       8 ASOURCE              29  30   Num  Admission source (uniform)
+MA  1998 CORE       9 ASOURCE_X            31  31   Char Admission source (as received from source)
+MA  1998 CORE      10 ATYPE                32  33   Num  Admission type
+MA  1998 CORE      11 AWEEKEND             34  35   Num  Admission day is a weekend
+MA  1998 CORE      12 BWT                  36  39   Num  Birth weight in grams
+MA  1998 CORE      13 DIED                 40  41   Num  Died during hospitalization
+MA  1998 CORE      14 DISPUB92             42  43   Num  Disposition of patient (UB-92 standard coding)
+MA  1998 CORE      15 DISPUNIFORM          44  45   Num  Disposition of patient (uniform)
+MA  1998 CORE      16 DISP_X               46  47   Char Disposition of patient (as received from source)
+MA  1998 CORE      17 DQTR                 48  49   Num  Discharge quarter
+MA  1998 CORE      18 DRG                  50  52   Num  DRG in effect on discharge date
+MA  1998 CORE      19 DRG10                53  55   Num  DRG, version 10
+MA  1998 CORE      20 DRG18                56  58   Num  DRG, version 18
+MA  1998 CORE      21 DRGVER               59  60   Num  DRG grouper version used on discharge date
+MA  1998 CORE      22 DSHOSPID             61  73   Char Data source hospital identifier
+MA  1998 CORE      23 DX1                  74  78   Char Principal diagnosis
+MA  1998 CORE      24 DX2                  79  83   Char Diagnosis 2
+MA  1998 CORE      25 DX3                  84  88   Char Diagnosis 3
+MA  1998 CORE      26 DX4                  89  93   Char Diagnosis 4
+MA  1998 CORE      27 DX5                  94  98   Char Diagnosis 5
+MA  1998 CORE      28 DX6                  99 103   Char Diagnosis 6
+MA  1998 CORE      29 DX7                 104 108   Char Diagnosis 7
+MA  1998 CORE      30 DX8                 109 113   Char Diagnosis 8
+MA  1998 CORE      31 DX9                 114 118   Char Diagnosis 9
+MA  1998 CORE      32 DX10                119 123   Char Diagnosis 10
+MA  1998 CORE      33 DXCCS1              124 127   Num  CCS: principal diagnosis
+MA  1998 CORE      34 DXCCS2              128 131   Num  CCS: diagnosis 2
+MA  1998 CORE      35 DXCCS3              132 135   Num  CCS: diagnosis 3
+MA  1998 CORE      36 DXCCS4              136 139   Num  CCS: diagnosis 4
+MA  1998 CORE      37 DXCCS5              140 143   Num  CCS: diagnosis 5
+MA  1998 CORE      38 DXCCS6              144 147   Num  CCS: diagnosis 6
+MA  1998 CORE      39 DXCCS7              148 151   Num  CCS: diagnosis 7
+MA  1998 CORE      40 DXCCS8              152 155   Num  CCS: diagnosis 8
+MA  1998 CORE      41 DXCCS9              156 159   Num  CCS: diagnosis 9
+MA  1998 CORE      42 DXCCS10             160 163   Num  CCS: diagnosis 10
+MA  1998 CORE      43 FEMALE              164 165   Num  Indicator of sex
+MA  1998 CORE      44 HOSPST              166 167   Char Hospital state postal code
+MA  1998 CORE      45 LOS                 168 172   Num  Length of stay (cleaned)
+MA  1998 CORE      46 LOS_X               173 178   Num  Length of stay (uncleaned)
+MA  1998 CORE      47 MDC                 179 180   Num  MDC in effect on discharge date
+MA  1998 CORE      48 MDC10               181 182   Num  MDC, version 10
+MA  1998 CORE      49 MDC18               183 184   Num  MDC, version 18
+MA  1998 CORE      50 NDX                 185 186   Num  Number of diagnoses on this record
+MA  1998 CORE      51 NEOMAT              187 188   Num  Neonatal and/or maternal DX and/or PR
+MA  1998 CORE      52 NPR                 189 190   Num  Number of procedures on this record
+MA  1998 CORE      53 PAY1                191 192   Num  Primary expected payer (uniform)
+MA  1998 CORE      54 PAY2                193 194   Num  Secondary expected payer (uniform)
+MA  1998 CORE      55 PAY1_X              195 195   Char Primary expected payer (as received from source)
+MA  1998 CORE      56 PAY2_X              196 196   Char Secondary expected payer (as received from source)
+MA  1998 CORE      57 PAYER1_X            197 199   Char Primary expected payer plan identifier (as received from source)
+MA  1998 CORE      58 PAYER2_X            200 202   Char Secondary expected payer plan identifier (as received from source)
+MA  1998 CORE      59 PR1                 203 206   Char Principal procedure
+MA  1998 CORE      60 PR2                 207 210   Char Procedure 2
+MA  1998 CORE      61 PR3                 211 214   Char Procedure 3
+MA  1998 CORE      62 PR4                 215 218   Char Procedure 4
+MA  1998 CORE      63 PR5                 219 222   Char Procedure 5
+MA  1998 CORE      64 PR6                 223 226   Char Procedure 6
+MA  1998 CORE      65 PR7                 227 230   Char Procedure 7
+MA  1998 CORE      66 PR8                 231 234   Char Procedure 8
+MA  1998 CORE      67 PR9                 235 238   Char Procedure 9
+MA  1998 CORE      68 PR10                239 242   Char Procedure 10
+MA  1998 CORE      69 PRCCS1              243 245   Num  CCS: principal procedure
+MA  1998 CORE      70 PRCCS2              246 248   Num  CCS: procedure 2
+MA  1998 CORE      71 PRCCS3              249 251   Num  CCS: procedure 3
+MA  1998 CORE      72 PRCCS4              252 254   Num  CCS: procedure 4
+MA  1998 CORE      73 PRCCS5              255 257   Num  CCS: procedure 5
+MA  1998 CORE      74 PRCCS6              258 260   Num  CCS: procedure 6
+MA  1998 CORE      75 PRCCS7              261 263   Num  CCS: procedure 7
+MA  1998 CORE      76 PRCCS8              264 266   Num  CCS: procedure 8
+MA  1998 CORE      77 PRCCS9              267 269   Num  CCS: procedure 9
+MA  1998 CORE      78 PRCCS10             270 272   Num  CCS: procedure 10
+MA  1998 CORE      79 PRDAY1              273 275   Num  Number of days from admission to PR1
+MA  1998 CORE      80 PRDAY2              276 278   Num  Number of days from admission to PR2
+MA  1998 CORE      81 PRDAY3              279 281   Num  Number of days from admission to PR3
+MA  1998 CORE      82 RACE                282 283   Num  Race (uniform)
+MA  1998 CORE      83 RACE_X              284 284   Char Race (as received from source)
+MA  1998 CORE      84 TOTCHG              285 294   Num  Total charges (cleaned)
+MA  1998 CORE      85 TOTCHG_X            295 309 2 Num  Total charges (as received from source)
+MA  1998 CORE      86 YEAR                310 313   Num  Calendar year
+MA  1998 CORE      87 AYEAR               314 317   Num  Admission year
+MA  1998 CORE      88 DMONTH              318 319   Num  Discharge month
+MA  1998 CORE      89 PRMONTH1            320 321   Num  Month of procedure 1
+MA  1998 CORE      90 PRMONTH2            322 323   Num  Month of procedure 2
+MA  1998 CORE      91 PRMONTH3            324 325   Num  Month of procedure 3
+MA  1998 CORE      92 PRYEAR1             326 329   Num  Year of procedure 1
+MA  1998 CORE      93 PRYEAR2             330 333   Num  Year of procedure 2
+MA  1998 CORE      94 PRYEAR3             334 337   Num  Year of procedure 3

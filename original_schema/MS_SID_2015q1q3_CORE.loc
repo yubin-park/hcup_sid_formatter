@@ -1,0 +1,418 @@
+Data Set Name: MS_SIDC_2015Q1Q3_CORE           
+Number of Observations: 288397
+Total Record Length: 1586
+Total Number of Variables: 397
+Creation Date: 04/27/2018   
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 61    Variable name
+63- 66    Starting column of variable in ASCII file
+68- 71    Ending column of variable in ASCII file
+73- 73    Non-zero number of digits after decimal point for numeric variable
+75- 78    Variable type (Num=numeric; Char=character)
+80-179    Variable label
+
+
+MS  2015 CORE               1 AGE                                1    3   Num  Age in years at admission
+MS  2015 CORE               2 AGEDAY                             4    6   Num  Age in days (when age < 1 year)
+MS  2015 CORE               3 AGEMONTH                           7    9   Num  Age in months (when age < 11 years)
+MS  2015 CORE               4 AHOUR                             10   13   Num  Admission Hour
+MS  2015 CORE               5 AMONTH                            14   15   Num  Admission month
+MS  2015 CORE               6 ATYPE                             16   17   Num  Admission type
+MS  2015 CORE               7 AWEEKEND                          18   19   Num  Admission day is a weekend
+MS  2015 CORE               8 DaysToEvent                       20   25   Num  Days from 'start date' to admission
+MS  2015 CORE               9 DHOUR                             26   29   Num  Discharge Hour
+MS  2015 CORE              10 DIED                              30   31   Num  Died during hospitalization
+MS  2015 CORE              11 DISP_X                            32   35   Char Disposition of patient (as received from source)
+MS  2015 CORE              12 DISPUB04                          36   37   Num  Disposition of patient (UB-04 standard coding)
+MS  2015 CORE              13 DISPUNIFORM                       38   39   Num  Disposition of patient (uniform)
+MS  2015 CORE              14 DMONTH                            40   41   Num  Discharge month
+MS  2015 CORE              15 DQTR                              42   43   Num  Discharge quarter
+MS  2015 CORE              16 DRG                               44   46   Num  DRG in effect on discharge date
+MS  2015 CORE              17 DRG_NoPOA                         47   49   Num  DRG in use on discharge date, calculated without POA
+MS  2015 CORE              18 DRG32                             50   52   Num  DRG, version 32
+MS  2015 CORE              19 DRGVER                            53   54   Num  DRG grouper version used on discharge date
+MS  2015 CORE              20 DSHOSPID                          55   71   Char Data source hospital identifier
+MS  2015 CORE              21 DX_Admitting                      72   78   Char Admitting Diagnosis Code
+MS  2015 CORE              22 DX1                               79   85   Char Diagnosis 1
+MS  2015 CORE              23 DX2                               86   92   Char Diagnosis 2
+MS  2015 CORE              24 DX3                               93   99   Char Diagnosis 3
+MS  2015 CORE              25 DX4                              100  106   Char Diagnosis 4
+MS  2015 CORE              26 DX5                              107  113   Char Diagnosis 5
+MS  2015 CORE              27 DX6                              114  120   Char Diagnosis 6
+MS  2015 CORE              28 DX7                              121  127   Char Diagnosis 7
+MS  2015 CORE              29 DX8                              128  134   Char Diagnosis 8
+MS  2015 CORE              30 DX9                              135  141   Char Diagnosis 9
+MS  2015 CORE              31 DX10                             142  148   Char Diagnosis 10
+MS  2015 CORE              32 DX11                             149  155   Char Diagnosis 11
+MS  2015 CORE              33 DX12                             156  162   Char Diagnosis 12
+MS  2015 CORE              34 DX13                             163  169   Char Diagnosis 13
+MS  2015 CORE              35 DX14                             170  176   Char Diagnosis 14
+MS  2015 CORE              36 DX15                             177  183   Char Diagnosis 15
+MS  2015 CORE              37 DX16                             184  190   Char Diagnosis 16
+MS  2015 CORE              38 DX17                             191  197   Char Diagnosis 17
+MS  2015 CORE              39 DX18                             198  204   Char Diagnosis 18
+MS  2015 CORE              40 DX19                             205  211   Char Diagnosis 19
+MS  2015 CORE              41 DX20                             212  218   Char Diagnosis 20
+MS  2015 CORE              42 DX21                             219  225   Char Diagnosis 21
+MS  2015 CORE              43 DX22                             226  232   Char Diagnosis 22
+MS  2015 CORE              44 DX23                             233  239   Char Diagnosis 23
+MS  2015 CORE              45 DX24                             240  246   Char Diagnosis 24
+MS  2015 CORE              46 DX25                             247  253   Char Diagnosis 25
+MS  2015 CORE              47 DX26                             254  260   Char Diagnosis 26
+MS  2015 CORE              48 DX27                             261  267   Char Diagnosis 27
+MS  2015 CORE              49 DX28                             268  274   Char Diagnosis 28
+MS  2015 CORE              50 DX29                             275  281   Char Diagnosis 29
+MS  2015 CORE              51 DX30                             282  288   Char Diagnosis 30
+MS  2015 CORE              52 DX31                             289  295   Char Diagnosis 31
+MS  2015 CORE              53 DX32                             296  302   Char Diagnosis 32
+MS  2015 CORE              54 DX33                             303  309   Char Diagnosis 33
+MS  2015 CORE              55 DX34                             310  316   Char Diagnosis 34
+MS  2015 CORE              56 DX35                             317  323   Char Diagnosis 35
+MS  2015 CORE              57 DX36                             324  330   Char Diagnosis 36
+MS  2015 CORE              58 DX37                             331  337   Char Diagnosis 37
+MS  2015 CORE              59 DX38                             338  344   Char Diagnosis 38
+MS  2015 CORE              60 DX39                             345  351   Char Diagnosis 39
+MS  2015 CORE              61 DX40                             352  358   Char Diagnosis 40
+MS  2015 CORE              62 DX41                             359  365   Char Diagnosis 41
+MS  2015 CORE              63 DX42                             366  372   Char Diagnosis 42
+MS  2015 CORE              64 DX43                             373  379   Char Diagnosis 43
+MS  2015 CORE              65 DX44                             380  386   Char Diagnosis 44
+MS  2015 CORE              66 DX45                             387  393   Char Diagnosis 45
+MS  2015 CORE              67 DX46                             394  400   Char Diagnosis 46
+MS  2015 CORE              68 DX47                             401  407   Char Diagnosis 47
+MS  2015 CORE              69 DX48                             408  414   Char Diagnosis 48
+MS  2015 CORE              70 DXCCS1                           415  418   Num  CCS: diagnosis 1
+MS  2015 CORE              71 DXCCS2                           419  422   Num  CCS: diagnosis 2
+MS  2015 CORE              72 DXCCS3                           423  426   Num  CCS: diagnosis 3
+MS  2015 CORE              73 DXCCS4                           427  430   Num  CCS: diagnosis 4
+MS  2015 CORE              74 DXCCS5                           431  434   Num  CCS: diagnosis 5
+MS  2015 CORE              75 DXCCS6                           435  438   Num  CCS: diagnosis 6
+MS  2015 CORE              76 DXCCS7                           439  442   Num  CCS: diagnosis 7
+MS  2015 CORE              77 DXCCS8                           443  446   Num  CCS: diagnosis 8
+MS  2015 CORE              78 DXCCS9                           447  450   Num  CCS: diagnosis 9
+MS  2015 CORE              79 DXCCS10                          451  454   Num  CCS: diagnosis 10
+MS  2015 CORE              80 DXCCS11                          455  458   Num  CCS: diagnosis 11
+MS  2015 CORE              81 DXCCS12                          459  462   Num  CCS: diagnosis 12
+MS  2015 CORE              82 DXCCS13                          463  466   Num  CCS: diagnosis 13
+MS  2015 CORE              83 DXCCS14                          467  470   Num  CCS: diagnosis 14
+MS  2015 CORE              84 DXCCS15                          471  474   Num  CCS: diagnosis 15
+MS  2015 CORE              85 DXCCS16                          475  478   Num  CCS: diagnosis 16
+MS  2015 CORE              86 DXCCS17                          479  482   Num  CCS: diagnosis 17
+MS  2015 CORE              87 DXCCS18                          483  486   Num  CCS: diagnosis 18
+MS  2015 CORE              88 DXCCS19                          487  490   Num  CCS: diagnosis 19
+MS  2015 CORE              89 DXCCS20                          491  494   Num  CCS: diagnosis 20
+MS  2015 CORE              90 DXCCS21                          495  498   Num  CCS: diagnosis 21
+MS  2015 CORE              91 DXCCS22                          499  502   Num  CCS: diagnosis 22
+MS  2015 CORE              92 DXCCS23                          503  506   Num  CCS: diagnosis 23
+MS  2015 CORE              93 DXCCS24                          507  510   Num  CCS: diagnosis 24
+MS  2015 CORE              94 DXCCS25                          511  514   Num  CCS: diagnosis 25
+MS  2015 CORE              95 DXCCS26                          515  518   Num  CCS: diagnosis 26
+MS  2015 CORE              96 DXCCS27                          519  522   Num  CCS: diagnosis 27
+MS  2015 CORE              97 DXCCS28                          523  526   Num  CCS: diagnosis 28
+MS  2015 CORE              98 DXCCS29                          527  530   Num  CCS: diagnosis 29
+MS  2015 CORE              99 DXCCS30                          531  534   Num  CCS: diagnosis 30
+MS  2015 CORE             100 DXCCS31                          535  538   Num  CCS: diagnosis 31
+MS  2015 CORE             101 DXCCS32                          539  542   Num  CCS: diagnosis 32
+MS  2015 CORE             102 DXCCS33                          543  546   Num  CCS: diagnosis 33
+MS  2015 CORE             103 DXCCS34                          547  550   Num  CCS: diagnosis 34
+MS  2015 CORE             104 DXCCS35                          551  554   Num  CCS: diagnosis 35
+MS  2015 CORE             105 DXCCS36                          555  558   Num  CCS: diagnosis 36
+MS  2015 CORE             106 DXCCS37                          559  562   Num  CCS: diagnosis 37
+MS  2015 CORE             107 DXCCS38                          563  566   Num  CCS: diagnosis 38
+MS  2015 CORE             108 DXCCS39                          567  570   Num  CCS: diagnosis 39
+MS  2015 CORE             109 DXCCS40                          571  574   Num  CCS: diagnosis 40
+MS  2015 CORE             110 DXCCS41                          575  578   Num  CCS: diagnosis 41
+MS  2015 CORE             111 DXCCS42                          579  582   Num  CCS: diagnosis 42
+MS  2015 CORE             112 DXCCS43                          583  586   Num  CCS: diagnosis 43
+MS  2015 CORE             113 DXCCS44                          587  590   Num  CCS: diagnosis 44
+MS  2015 CORE             114 DXCCS45                          591  594   Num  CCS: diagnosis 45
+MS  2015 CORE             115 DXCCS46                          595  598   Num  CCS: diagnosis 46
+MS  2015 CORE             116 DXCCS47                          599  602   Num  CCS: diagnosis 47
+MS  2015 CORE             117 DXCCS48                          603  606   Num  CCS: diagnosis 48
+MS  2015 CORE             118 DXPOA1                           607  607   Char Diagnosis 1, present on admission indicator
+MS  2015 CORE             119 DXPOA2                           608  608   Char Diagnosis 2, present on admission indicator
+MS  2015 CORE             120 DXPOA3                           609  609   Char Diagnosis 3, present on admission indicator
+MS  2015 CORE             121 DXPOA4                           610  610   Char Diagnosis 4, present on admission indicator
+MS  2015 CORE             122 DXPOA5                           611  611   Char Diagnosis 5, present on admission indicator
+MS  2015 CORE             123 DXPOA6                           612  612   Char Diagnosis 6, present on admission indicator
+MS  2015 CORE             124 DXPOA7                           613  613   Char Diagnosis 7, present on admission indicator
+MS  2015 CORE             125 DXPOA8                           614  614   Char Diagnosis 8, present on admission indicator
+MS  2015 CORE             126 DXPOA9                           615  615   Char Diagnosis 9, present on admission indicator
+MS  2015 CORE             127 DXPOA10                          616  616   Char Diagnosis 10, present on admission indicator
+MS  2015 CORE             128 DXPOA11                          617  617   Char Diagnosis 11, present on admission indicator
+MS  2015 CORE             129 DXPOA12                          618  618   Char Diagnosis 12, present on admission indicator
+MS  2015 CORE             130 DXPOA13                          619  619   Char Diagnosis 13, present on admission indicator
+MS  2015 CORE             131 DXPOA14                          620  620   Char Diagnosis 14, present on admission indicator
+MS  2015 CORE             132 DXPOA15                          621  621   Char Diagnosis 15, present on admission indicator
+MS  2015 CORE             133 DXPOA16                          622  622   Char Diagnosis 16, present on admission indicator
+MS  2015 CORE             134 DXPOA17                          623  623   Char Diagnosis 17, present on admission indicator
+MS  2015 CORE             135 DXPOA18                          624  624   Char Diagnosis 18, present on admission indicator
+MS  2015 CORE             136 DXPOA19                          625  625   Char Diagnosis 19, present on admission indicator
+MS  2015 CORE             137 DXPOA20                          626  626   Char Diagnosis 20, present on admission indicator
+MS  2015 CORE             138 DXPOA21                          627  627   Char Diagnosis 21, present on admission indicator
+MS  2015 CORE             139 DXPOA22                          628  628   Char Diagnosis 22, present on admission indicator
+MS  2015 CORE             140 DXPOA23                          629  629   Char Diagnosis 23, present on admission indicator
+MS  2015 CORE             141 DXPOA24                          630  630   Char Diagnosis 24, present on admission indicator
+MS  2015 CORE             142 DXPOA25                          631  631   Char Diagnosis 25, present on admission indicator
+MS  2015 CORE             143 DXPOA26                          632  632   Char Diagnosis 26, present on admission indicator
+MS  2015 CORE             144 DXPOA27                          633  633   Char Diagnosis 27, present on admission indicator
+MS  2015 CORE             145 DXPOA28                          634  634   Char Diagnosis 28, present on admission indicator
+MS  2015 CORE             146 DXPOA29                          635  635   Char Diagnosis 29, present on admission indicator
+MS  2015 CORE             147 DXPOA30                          636  636   Char Diagnosis 30, present on admission indicator
+MS  2015 CORE             148 DXPOA31                          637  637   Char Diagnosis 31, present on admission indicator
+MS  2015 CORE             149 DXPOA32                          638  638   Char Diagnosis 32, present on admission indicator
+MS  2015 CORE             150 DXPOA33                          639  639   Char Diagnosis 33, present on admission indicator
+MS  2015 CORE             151 DXPOA34                          640  640   Char Diagnosis 34, present on admission indicator
+MS  2015 CORE             152 DXPOA35                          641  641   Char Diagnosis 35, present on admission indicator
+MS  2015 CORE             153 DXPOA36                          642  642   Char Diagnosis 36, present on admission indicator
+MS  2015 CORE             154 DXPOA37                          643  643   Char Diagnosis 37, present on admission indicator
+MS  2015 CORE             155 DXPOA38                          644  644   Char Diagnosis 38, present on admission indicator
+MS  2015 CORE             156 DXPOA39                          645  645   Char Diagnosis 39, present on admission indicator
+MS  2015 CORE             157 DXPOA40                          646  646   Char Diagnosis 40, present on admission indicator
+MS  2015 CORE             158 DXPOA41                          647  647   Char Diagnosis 41, present on admission indicator
+MS  2015 CORE             159 DXPOA42                          648  648   Char Diagnosis 42, present on admission indicator
+MS  2015 CORE             160 DXPOA43                          649  649   Char Diagnosis 43, present on admission indicator
+MS  2015 CORE             161 DXPOA44                          650  650   Char Diagnosis 44, present on admission indicator
+MS  2015 CORE             162 DXPOA45                          651  651   Char Diagnosis 45, present on admission indicator
+MS  2015 CORE             163 DXPOA46                          652  652   Char Diagnosis 46, present on admission indicator
+MS  2015 CORE             164 DXPOA47                          653  653   Char Diagnosis 47, present on admission indicator
+MS  2015 CORE             165 DXPOA48                          654  654   Char Diagnosis 48, present on admission indicator
+MS  2015 CORE             166 DXVER                            655  657   Num  Diagnosis Version
+MS  2015 CORE             167 E_CCS1                           658  661   Num  CCS: E Code 1
+MS  2015 CORE             168 E_CCS2                           662  665   Num  CCS: E Code 2
+MS  2015 CORE             169 E_CCS3                           666  669   Num  CCS: E Code 3
+MS  2015 CORE             170 E_CCS4                           670  673   Num  CCS: E Code 4
+MS  2015 CORE             171 E_CCS5                           674  677   Num  CCS: E Code 5
+MS  2015 CORE             172 E_CCS6                           678  681   Num  CCS: E Code 6
+MS  2015 CORE             173 E_POA1                           682  682   Char E Code 1, present on admission indicator
+MS  2015 CORE             174 E_POA2                           683  683   Char E Code 2, present on admission indicator
+MS  2015 CORE             175 E_POA3                           684  684   Char E Code 3, present on admission indicator
+MS  2015 CORE             176 E_POA4                           685  685   Char E Code 4, present on admission indicator
+MS  2015 CORE             177 E_POA5                           686  686   Char E Code 5, present on admission indicator
+MS  2015 CORE             178 E_POA6                           687  687   Char E Code 6, present on admission indicator
+MS  2015 CORE             179 ECODE1                           688  694   Char E code 1
+MS  2015 CORE             180 ECODE2                           695  701   Char E code 2
+MS  2015 CORE             181 ECODE3                           702  708   Char E code 3
+MS  2015 CORE             182 ECODE4                           709  715   Char E code 4
+MS  2015 CORE             183 ECODE5                           716  722   Char E code 5
+MS  2015 CORE             184 ECODE6                           723  729   Char E code 6
+MS  2015 CORE             185 FEMALE                           730  731   Num  Indicator of sex
+MS  2015 CORE             186 HCUP_ED                          732  733   Num  HCUP Emergency Department service indicator
+MS  2015 CORE             187 HCUP_OS                          734  735   Num  HCUP Observation Stay service indicator
+MS  2015 CORE             188 HISPANIC                         736  737   Num  Hispanic ethnicity (uniform)
+MS  2015 CORE             189 HISPANIC_X                       738  738   Char Hispanic ethnicity (as received from source)
+MS  2015 CORE             190 HOSPBRTH                         739  741   Num  Indicator of birth in this hospital
+MS  2015 CORE             191 HospitalUnit                     742  743   Num  Patient was discharged from a special unit within an acute care hospital (reported by source)
+MS  2015 CORE             192 HOSPST                           744  745   Char Hospital state postal code
+MS  2015 CORE             193 KEY                              746  760   Num  HCUP record identifier
+MS  2015 CORE             194 LOS                              761  765   Num  Length of stay (cleaned)
+MS  2015 CORE             195 LOS_X                            766  771   Num  Length of stay (as received from source)
+MS  2015 CORE             196 MDC                              772  773   Num  MDC in effect on discharge date
+MS  2015 CORE             197 MDC_NoPOA                        774  775   Num  MDC in use on discharge date, calculated without POA
+MS  2015 CORE             198 MDC32                            776  777   Num  MDC, version 32
+MS  2015 CORE             199 MDNUM1_R                         778  786   Num  Physician 1 number (re-identified)
+MS  2015 CORE             200 MDNUM2_R                         787  795   Num  Physician 2 number (re-identified)
+MS  2015 CORE             201 MDNUM3_R                         796  804   Num  Physician 3 number (re-identified)
+MS  2015 CORE             202 MEDINCSTQ                        805  806   Num  Median household income state quartile for patient ZIP Code
+MS  2015 CORE             203 NCHRONIC                         807  809   Num  Number of chronic conditions
+MS  2015 CORE             204 NDX                              810  812   Num  Number of diagnoses on this record
+MS  2015 CORE             205 NECODE                           813  814   Num  Number of E codes on this record
+MS  2015 CORE             206 NEOMAT                           815  816   Num  Neonatal and/or maternal DX and/or PR
+MS  2015 CORE             207 NPR                              817  819   Num  Number of procedures on this record
+MS  2015 CORE             208 ORPROC                           820  821   Num  Major operating room procedure indicator
+MS  2015 CORE             209 P7EDSRC_X                        822  823   Char Condition Code P7, Direct Inpatient Admission from Emergency Room
+MS  2015 CORE             210 PAY1                             824  825   Num  Primary expected payer (uniform)
+MS  2015 CORE             211 PAY1_X                           826  830   Char Primary expected payer (as received from source)
+MS  2015 CORE             212 PAY2                             831  832   Num  Secondary expected payer (uniform)
+MS  2015 CORE             213 PAY2_X                           833  837   Char Secondary expected payer (as received from source)
+MS  2015 CORE             214 PAY3                             838  839   Num  Tertiary expected payer (uniform)
+MS  2015 CORE             215 PAY3_X                           840  844   Char Tertiary expected payer (as received from source)
+MS  2015 CORE             216 PL_CBSA                          845  847   Num  Patient location: Core Based Statistical Area (CBSA)
+MS  2015 CORE             217 PL_NCHS                          848  849   Num  Patient Location: NCHS Urban-Rural Code
+MS  2015 CORE             218 PL_RUCC                          850  851   Num  Patient location: Rural-Urban Continuum Codes(RUCC)
+MS  2015 CORE             219 PL_UIC                           852  853   Num  Patient location: Urban Influence Codes
+MS  2015 CORE             220 PL_UR_CAT4                       854  855   Num  Patient Location: Urban-Rural 4 Categories
+MS  2015 CORE             221 POA_Disch_Edit1                  856  857   Num  Discharge has POA missing on all nonexempt diagnoses
+MS  2015 CORE             222 POA_Disch_Edit2                  858  859   Num  Discharge has POA missing on all nonexempt secondary diagnoses
+MS  2015 CORE             223 POA_Hosp_Edit1                   860  861   Num  Hospital reported POA as Y on all diagnoses on all discharges
+MS  2015 CORE             224 POA_Hosp_Edit2                   862  863   Num  Hospital reported POA as missing on all non-Medicare discharges
+MS  2015 CORE             225 POA_Hosp_Edit3                   864  865   Num  Hospital reported POA as missing on all nonexempt diagnoses for 15% or more of discharges
+MS  2015 CORE             226 POA_Hosp_Edit3_Value             866  873 2 Num  Percentage of discharges with all nonexempt diagnoses missing POA indicators
+MS  2015 CORE             227 PointOfOrigin_X                  874  874   Char Point of origin for admission or visit, as received from source
+MS  2015 CORE             228 PointOfOriginUB04                875  875   Char Point of origin for admission or visit, UB-04 standard coding
+MS  2015 CORE             229 PR1                              876  882   Char Procedure 1
+MS  2015 CORE             230 PR2                              883  889   Char Procedure 2
+MS  2015 CORE             231 PR3                              890  896   Char Procedure 3
+MS  2015 CORE             232 PR4                              897  903   Char Procedure 4
+MS  2015 CORE             233 PR5                              904  910   Char Procedure 5
+MS  2015 CORE             234 PR6                              911  917   Char Procedure 6
+MS  2015 CORE             235 PR7                              918  924   Char Procedure 7
+MS  2015 CORE             236 PR8                              925  931   Char Procedure 8
+MS  2015 CORE             237 PR9                              932  938   Char Procedure 9
+MS  2015 CORE             238 PR10                             939  945   Char Procedure 10
+MS  2015 CORE             239 PR11                             946  952   Char Procedure 11
+MS  2015 CORE             240 PR12                             953  959   Char Procedure 12
+MS  2015 CORE             241 PR13                             960  966   Char Procedure 13
+MS  2015 CORE             242 PR14                             967  973   Char Procedure 14
+MS  2015 CORE             243 PR15                             974  980   Char Procedure 15
+MS  2015 CORE             244 PR16                             981  987   Char Procedure 16
+MS  2015 CORE             245 PR17                             988  994   Char Procedure 17
+MS  2015 CORE             246 PR18                             995 1001   Char Procedure 18
+MS  2015 CORE             247 PR19                            1002 1008   Char Procedure 19
+MS  2015 CORE             248 PR20                            1009 1015   Char Procedure 20
+MS  2015 CORE             249 PR21                            1016 1022   Char Procedure 21
+MS  2015 CORE             250 PR22                            1023 1029   Char Procedure 22
+MS  2015 CORE             251 PR23                            1030 1036   Char Procedure 23
+MS  2015 CORE             252 PR24                            1037 1043   Char Procedure 24
+MS  2015 CORE             253 PR25                            1044 1050   Char Procedure 25
+MS  2015 CORE             254 PR26                            1051 1057   Char Procedure 26
+MS  2015 CORE             255 PR27                            1058 1064   Char Procedure 27
+MS  2015 CORE             256 PR28                            1065 1071   Char Procedure 28
+MS  2015 CORE             257 PR29                            1072 1078   Char Procedure 29
+MS  2015 CORE             258 PR30                            1079 1085   Char Procedure 30
+MS  2015 CORE             259 PRCCS1                          1086 1088   Num  CCS: procedure 1
+MS  2015 CORE             260 PRCCS2                          1089 1091   Num  CCS: procedure 2
+MS  2015 CORE             261 PRCCS3                          1092 1094   Num  CCS: procedure 3
+MS  2015 CORE             262 PRCCS4                          1095 1097   Num  CCS: procedure 4
+MS  2015 CORE             263 PRCCS5                          1098 1100   Num  CCS: procedure 5
+MS  2015 CORE             264 PRCCS6                          1101 1103   Num  CCS: procedure 6
+MS  2015 CORE             265 PRCCS7                          1104 1106   Num  CCS: procedure 7
+MS  2015 CORE             266 PRCCS8                          1107 1109   Num  CCS: procedure 8
+MS  2015 CORE             267 PRCCS9                          1110 1112   Num  CCS: procedure 9
+MS  2015 CORE             268 PRCCS10                         1113 1115   Num  CCS: procedure 10
+MS  2015 CORE             269 PRCCS11                         1116 1118   Num  CCS: procedure 11
+MS  2015 CORE             270 PRCCS12                         1119 1121   Num  CCS: procedure 12
+MS  2015 CORE             271 PRCCS13                         1122 1124   Num  CCS: procedure 13
+MS  2015 CORE             272 PRCCS14                         1125 1127   Num  CCS: procedure 14
+MS  2015 CORE             273 PRCCS15                         1128 1130   Num  CCS: procedure 15
+MS  2015 CORE             274 PRCCS16                         1131 1133   Num  CCS: procedure 16
+MS  2015 CORE             275 PRCCS17                         1134 1136   Num  CCS: procedure 17
+MS  2015 CORE             276 PRCCS18                         1137 1139   Num  CCS: procedure 18
+MS  2015 CORE             277 PRCCS19                         1140 1142   Num  CCS: procedure 19
+MS  2015 CORE             278 PRCCS20                         1143 1145   Num  CCS: procedure 20
+MS  2015 CORE             279 PRCCS21                         1146 1148   Num  CCS: procedure 21
+MS  2015 CORE             280 PRCCS22                         1149 1151   Num  CCS: procedure 22
+MS  2015 CORE             281 PRCCS23                         1152 1154   Num  CCS: procedure 23
+MS  2015 CORE             282 PRCCS24                         1155 1157   Num  CCS: procedure 24
+MS  2015 CORE             283 PRCCS25                         1158 1160   Num  CCS: procedure 25
+MS  2015 CORE             284 PRCCS26                         1161 1163   Num  CCS: procedure 26
+MS  2015 CORE             285 PRCCS27                         1164 1166   Num  CCS: procedure 27
+MS  2015 CORE             286 PRCCS28                         1167 1169   Num  CCS: procedure 28
+MS  2015 CORE             287 PRCCS29                         1170 1172   Num  CCS: procedure 29
+MS  2015 CORE             288 PRCCS30                         1173 1175   Num  CCS: procedure 30
+MS  2015 CORE             289 PRDAY1                          1176 1180   Num  Number of days from admission to PR1
+MS  2015 CORE             290 PRDAY2                          1181 1185   Num  Number of days from admission to PR2
+MS  2015 CORE             291 PRDAY3                          1186 1190   Num  Number of days from admission to PR3
+MS  2015 CORE             292 PRDAY4                          1191 1195   Num  Number of days from admission to PR4
+MS  2015 CORE             293 PRDAY5                          1196 1200   Num  Number of days from admission to PR5
+MS  2015 CORE             294 PRDAY6                          1201 1205   Num  Number of days from admission to PR6
+MS  2015 CORE             295 PRDAY7                          1206 1210   Num  Number of days from admission to PR7
+MS  2015 CORE             296 PRDAY8                          1211 1215   Num  Number of days from admission to PR8
+MS  2015 CORE             297 PRDAY9                          1216 1220   Num  Number of days from admission to PR9
+MS  2015 CORE             298 PRDAY10                         1221 1225   Num  Number of days from admission to PR10
+MS  2015 CORE             299 PRDAY11                         1226 1230   Num  Number of days from admission to PR11
+MS  2015 CORE             300 PRDAY12                         1231 1235   Num  Number of days from admission to PR12
+MS  2015 CORE             301 PRDAY13                         1236 1240   Num  Number of days from admission to PR13
+MS  2015 CORE             302 PRDAY14                         1241 1245   Num  Number of days from admission to PR14
+MS  2015 CORE             303 PRDAY15                         1246 1250   Num  Number of days from admission to PR15
+MS  2015 CORE             304 PRDAY16                         1251 1255   Num  Number of days from admission to PR16
+MS  2015 CORE             305 PRDAY17                         1256 1260   Num  Number of days from admission to PR17
+MS  2015 CORE             306 PRDAY18                         1261 1265   Num  Number of days from admission to PR18
+MS  2015 CORE             307 PRDAY19                         1266 1270   Num  Number of days from admission to PR19
+MS  2015 CORE             308 PRDAY20                         1271 1275   Num  Number of days from admission to PR20
+MS  2015 CORE             309 PRDAY21                         1276 1280   Num  Number of days from admission to PR21
+MS  2015 CORE             310 PRDAY22                         1281 1285   Num  Number of days from admission to PR22
+MS  2015 CORE             311 PRDAY23                         1286 1290   Num  Number of days from admission to PR23
+MS  2015 CORE             312 PRDAY24                         1291 1295   Num  Number of days from admission to PR24
+MS  2015 CORE             313 PRDAY25                         1296 1300   Num  Number of days from admission to PR25
+MS  2015 CORE             314 PRDAY26                         1301 1305   Num  Number of days from admission to PR26
+MS  2015 CORE             315 PRDAY27                         1306 1310   Num  Number of days from admission to PR27
+MS  2015 CORE             316 PRDAY28                         1311 1315   Num  Number of days from admission to PR28
+MS  2015 CORE             317 PRDAY29                         1316 1320   Num  Number of days from admission to PR29
+MS  2015 CORE             318 PRDAY30                         1321 1325   Num  Number of days from admission to PR30
+MS  2015 CORE             319 PROCTYPE                        1326 1328   Num  Procedure type indicator
+MS  2015 CORE             320 PRVER                           1329 1331   Num  Procedure Version
+MS  2015 CORE             321 PSTATE                          1332 1333   Char Patient State postal code
+MS  2015 CORE             322 PSTCO2                          1334 1338   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+MS  2015 CORE             323 RACE                            1339 1340   Num  Race (uniform)
+MS  2015 CORE             324 RACE_X                          1341 1341   Char Race (as received from source)
+MS  2015 CORE             325 SERVICELINE                     1342 1343   Num  Hospital Service Line
+MS  2015 CORE             326 TOTCHG                          1344 1353   Num  Total charges (cleaned)
+MS  2015 CORE             327 TOTCHG_X                        1354 1368 2 Num  Total charges (as received from source)
+MS  2015 CORE             328 TRAN_IN                         1369 1370   Num  Transfer in indicator
+MS  2015 CORE             329 TRAN_OUT                        1371 1372   Num  Transfer out indicator
+MS  2015 CORE             330 VisitLink                       1373 1381   Num  Visit linkage variable
+MS  2015 CORE             331 YEAR                            1382 1385   Num  Calendar year
+MS  2015 CORE             332 ZIP                             1386 1390   Char Patient ZIP Code
+MS  2015 CORE             333 ZIP3                            1391 1393   Char Patient ZIP Code, first 3 digits
+MS  2015 CORE             334 ZIPINC_QRTL                     1394 1396   Num  Median household income national quartile for patient ZIP Code
+MS  2015 CORE             335 AYEAR                           1397 1400   Num  Admission year
+MS  2015 CORE             336 BMONTH                          1401 1402   Num  Birth month
+MS  2015 CORE             337 BYEAR                           1403 1406   Num  Birth year
+MS  2015 CORE             338 PRMONTH1                        1407 1408   Num  Month of procedure 1
+MS  2015 CORE             339 PRMONTH2                        1409 1410   Num  Month of procedure 2
+MS  2015 CORE             340 PRMONTH3                        1411 1412   Num  Month of procedure 3
+MS  2015 CORE             341 PRMONTH4                        1413 1414   Num  Month of procedure 4
+MS  2015 CORE             342 PRMONTH5                        1415 1416   Num  Month of procedure 5
+MS  2015 CORE             343 PRMONTH6                        1417 1418   Num  Month of procedure 6
+MS  2015 CORE             344 PRMONTH7                        1419 1420   Num  Month of procedure 7
+MS  2015 CORE             345 PRMONTH8                        1421 1422   Num  Month of procedure 8
+MS  2015 CORE             346 PRMONTH9                        1423 1424   Num  Month of procedure 9
+MS  2015 CORE             347 PRMONTH10                       1425 1426   Num  Month of procedure 10
+MS  2015 CORE             348 PRMONTH11                       1427 1428   Num  Month of procedure 11
+MS  2015 CORE             349 PRMONTH12                       1429 1430   Num  Month of procedure 12
+MS  2015 CORE             350 PRMONTH13                       1431 1432   Num  Month of procedure 13
+MS  2015 CORE             351 PRMONTH14                       1433 1434   Num  Month of procedure 14
+MS  2015 CORE             352 PRMONTH15                       1435 1436   Num  Month of procedure 15
+MS  2015 CORE             353 PRMONTH16                       1437 1438   Num  Month of procedure 16
+MS  2015 CORE             354 PRMONTH17                       1439 1440   Num  Month of procedure 17
+MS  2015 CORE             355 PRMONTH18                       1441 1442   Num  Month of procedure 18
+MS  2015 CORE             356 PRMONTH19                       1443 1444   Num  Month of procedure 19
+MS  2015 CORE             357 PRMONTH20                       1445 1446   Num  Month of procedure 20
+MS  2015 CORE             358 PRMONTH21                       1447 1448   Num  Month of procedure 21
+MS  2015 CORE             359 PRMONTH22                       1449 1450   Num  Month of procedure 22
+MS  2015 CORE             360 PRMONTH23                       1451 1452   Num  Month of procedure 23
+MS  2015 CORE             361 PRMONTH24                       1453 1454   Num  Month of procedure 24
+MS  2015 CORE             362 PRMONTH25                       1455 1456   Num  Month of procedure 25
+MS  2015 CORE             363 PRMONTH26                       1457 1458   Num  Month of procedure 26
+MS  2015 CORE             364 PRMONTH27                       1459 1460   Num  Month of procedure 27
+MS  2015 CORE             365 PRMONTH28                       1461 1462   Num  Month of procedure 28
+MS  2015 CORE             366 PRMONTH29                       1463 1464   Num  Month of procedure 29
+MS  2015 CORE             367 PRMONTH30                       1465 1466   Num  Month of procedure 30
+MS  2015 CORE             368 PRYEAR1                         1467 1470   Num  Year of procedure 1
+MS  2015 CORE             369 PRYEAR2                         1471 1474   Num  Year of procedure 2
+MS  2015 CORE             370 PRYEAR3                         1475 1478   Num  Year of procedure 3
+MS  2015 CORE             371 PRYEAR4                         1479 1482   Num  Year of procedure 4
+MS  2015 CORE             372 PRYEAR5                         1483 1486   Num  Year of procedure 5
+MS  2015 CORE             373 PRYEAR6                         1487 1490   Num  Year of procedure 6
+MS  2015 CORE             374 PRYEAR7                         1491 1494   Num  Year of procedure 7
+MS  2015 CORE             375 PRYEAR8                         1495 1498   Num  Year of procedure 8
+MS  2015 CORE             376 PRYEAR9                         1499 1502   Num  Year of procedure 9
+MS  2015 CORE             377 PRYEAR10                        1503 1506   Num  Year of procedure 10
+MS  2015 CORE             378 PRYEAR11                        1507 1510   Num  Year of procedure 11
+MS  2015 CORE             379 PRYEAR12                        1511 1514   Num  Year of procedure 12
+MS  2015 CORE             380 PRYEAR13                        1515 1518   Num  Year of procedure 13
+MS  2015 CORE             381 PRYEAR14                        1519 1522   Num  Year of procedure 14
+MS  2015 CORE             382 PRYEAR15                        1523 1526   Num  Year of procedure 15
+MS  2015 CORE             383 PRYEAR16                        1527 1530   Num  Year of procedure 16
+MS  2015 CORE             384 PRYEAR17                        1531 1534   Num  Year of procedure 17
+MS  2015 CORE             385 PRYEAR18                        1535 1538   Num  Year of procedure 18
+MS  2015 CORE             386 PRYEAR19                        1539 1542   Num  Year of procedure 19
+MS  2015 CORE             387 PRYEAR20                        1543 1546   Num  Year of procedure 20
+MS  2015 CORE             388 PRYEAR21                        1547 1550   Num  Year of procedure 21
+MS  2015 CORE             389 PRYEAR22                        1551 1554   Num  Year of procedure 22
+MS  2015 CORE             390 PRYEAR23                        1555 1558   Num  Year of procedure 23
+MS  2015 CORE             391 PRYEAR24                        1559 1562   Num  Year of procedure 24
+MS  2015 CORE             392 PRYEAR25                        1563 1566   Num  Year of procedure 25
+MS  2015 CORE             393 PRYEAR26                        1567 1570   Num  Year of procedure 26
+MS  2015 CORE             394 PRYEAR27                        1571 1574   Num  Year of procedure 27
+MS  2015 CORE             395 PRYEAR28                        1575 1578   Num  Year of procedure 28
+MS  2015 CORE             396 PRYEAR29                        1579 1582   Num  Year of procedure 29
+MS  2015 CORE             397 PRYEAR30                        1583 1586   Num  Year of procedure 30

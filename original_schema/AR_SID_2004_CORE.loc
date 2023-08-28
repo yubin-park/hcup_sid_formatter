@@ -1,0 +1,144 @@
+Data Set Name: AR_SIDC_2004_CORE               
+Number of Observations: 429785
+Total Record Length: 472
+Total Number of Variables: 124
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 56    Variable name
+58- 61    Starting column of variable in ASCII file
+63- 66    Ending column of variable in ASCII file
+    68    Non-zero number of digits after decimal point for numeric variable
+70- 73    Variable type (Num=numeric; Char=character)
+75-174    Variable label
+
+
+AR  2004 CORE               1 KEY                           1   14   Num  HCUP record identifier
+AR  2004 CORE               2 AGE                          15   17   Num  Age in years at admission
+AR  2004 CORE               3 AGEDAY                       18   20   Num  Age in days (when age < 1 year)
+AR  2004 CORE               4 AGEMONTH                     21   23   Num  Age in months (when age < 11 years)
+AR  2004 CORE               5 AHOUR                        24   27   Num  Admission Hour
+AR  2004 CORE               6 AMONTH                       28   29   Num  Admission month
+AR  2004 CORE               7 ASOURCE                      30   31   Num  Admission source (uniform)
+AR  2004 CORE               8 ASOURCE_X                    32   32   Char Admission source (as received from source)
+AR  2004 CORE               9 ASOURCEUB92                  33   33   Char Admission source (UB-92 standard coding)
+AR  2004 CORE              10 ATYPE                        34   35   Num  Admission type
+AR  2004 CORE              11 AWEEKEND                     36   37   Num  Admission day is a weekend
+AR  2004 CORE              12 BILLTYPE                     38   40   Char UB-92 bill type
+AR  2004 CORE              13 BWT                          41   44   Num  Birth weight in grams
+AR  2004 CORE              14 DHOUR                        45   48   Num  Discharge Hour
+AR  2004 CORE              15 DIED                         49   50   Num  Died during hospitalization
+AR  2004 CORE              16 DISP_X                       51   52   Char Disposition of patient (as received from source)
+AR  2004 CORE              17 DISPUB92                     53   54   Num  Disposition of patient (UB-92 standard coding)
+AR  2004 CORE              18 DISPUNIFORM                  55   56   Num  Disposition of patient (uniform)
+AR  2004 CORE              19 DQTR                         57   58   Num  Discharge quarter
+AR  2004 CORE              20 DRG                          59   61   Num  DRG in effect on discharge date
+AR  2004 CORE              21 DRG18                        62   64   Num  DRG, version 18
+AR  2004 CORE              22 DRGVER                       65   66   Num  DRG grouper version used on discharge date
+AR  2004 CORE              23 DSHOSPID                     67   79   Char Data source hospital identifier
+AR  2004 CORE              24 DX1                          80   84   Char Principal diagnosis
+AR  2004 CORE              25 DX2                          85   89   Char Diagnosis 2
+AR  2004 CORE              26 DX3                          90   94   Char Diagnosis 3
+AR  2004 CORE              27 DX4                          95   99   Char Diagnosis 4
+AR  2004 CORE              28 DX5                         100  104   Char Diagnosis 5
+AR  2004 CORE              29 DX6                         105  109   Char Diagnosis 6
+AR  2004 CORE              30 DX7                         110  114   Char Diagnosis 7
+AR  2004 CORE              31 DX8                         115  119   Char Diagnosis 8
+AR  2004 CORE              32 DX9                         120  124   Char Diagnosis 9
+AR  2004 CORE              33 DXCCS1                      125  128   Num  CCS: principal diagnosis
+AR  2004 CORE              34 DXCCS2                      129  132   Num  CCS: diagnosis 2
+AR  2004 CORE              35 DXCCS3                      133  136   Num  CCS: diagnosis 3
+AR  2004 CORE              36 DXCCS4                      137  140   Num  CCS: diagnosis 4
+AR  2004 CORE              37 DXCCS5                      141  144   Num  CCS: diagnosis 5
+AR  2004 CORE              38 DXCCS6                      145  148   Num  CCS: diagnosis 6
+AR  2004 CORE              39 DXCCS7                      149  152   Num  CCS: diagnosis 7
+AR  2004 CORE              40 DXCCS8                      153  156   Num  CCS: diagnosis 8
+AR  2004 CORE              41 DXCCS9                      157  160   Num  CCS: diagnosis 9
+AR  2004 CORE              42 ECODE1                      161  165   Char E code 1
+AR  2004 CORE              43 ECODE2                      166  170   Char E code 2
+AR  2004 CORE              44 ECODE3                      171  175   Char E code 3
+AR  2004 CORE              45 ECODE4                      176  180   Char E code 4
+AR  2004 CORE              46 ECODE5                      181  185   Char E code 5
+AR  2004 CORE              47 ECODE6                      186  190   Char E code 6
+AR  2004 CORE              48 E_CCS1                      191  194   Num  CCS: E Code 1
+AR  2004 CORE              49 E_CCS2                      195  198   Num  CCS: E Code 2
+AR  2004 CORE              50 E_CCS3                      199  202   Num  CCS: E Code 3
+AR  2004 CORE              51 E_CCS4                      203  206   Num  CCS: E Code 4
+AR  2004 CORE              52 E_CCS5                      207  210   Num  CCS: E Code 5
+AR  2004 CORE              53 E_CCS6                      211  214   Num  CCS: E Code 6
+AR  2004 CORE              54 FEMALE                      215  216   Num  Indicator of sex
+AR  2004 CORE              55 HISPANIC_X                  217  217   Char Hispanic ethnicity (as received from source)
+AR  2004 CORE              56 HOSPST                      218  219   Char Hospital state postal code
+AR  2004 CORE              57 LOS                         220  224   Num  Length of stay (cleaned)
+AR  2004 CORE              58 LOS_X                       225  230   Num  Length of stay (as received from source)
+AR  2004 CORE              59 MARITALSTATUS               231  231   Char Patient's marital status
+AR  2004 CORE              60 MDC                         232  233   Num  MDC in effect on discharge date
+AR  2004 CORE              61 MDC18                       234  235   Num  MDC, version 18
+AR  2004 CORE              62 MDNUM1_R                    236  244   Num  Physician 1 number (re-identified)
+AR  2004 CORE              63 MDNUMTYPE1                  245  245   Char Physician 1 number type
+AR  2004 CORE              64 MDNUM2_R                    246  254   Num  Physician 2 number (re-identified)
+AR  2004 CORE              65 MDNUM3_R                    255  263   Num  Physician 3 number (re-identified)
+AR  2004 CORE              66 MDNUM4_R                    264  272   Num  Physician 4 number (re-identified)
+AR  2004 CORE              67 MRN_R                       273  281   Num  Medical record number (re-identified)
+AR  2004 CORE              68 NDX                         282  283   Num  Number of diagnoses on this record
+AR  2004 CORE              69 NECODE                      284  285   Num  Number of E codes on this record
+AR  2004 CORE              70 NEOMAT                      286  287   Num  Neonatal and/or maternal DX and/or PR
+AR  2004 CORE              71 NPR                         288  289   Num  Number of procedures on this record
+AR  2004 CORE              72 PAY1                        290  291   Num  Primary expected payer (uniform)
+AR  2004 CORE              73 PAY2                        292  293   Num  Secondary expected payer (uniform)
+AR  2004 CORE              74 PAY1_X                      294  295   Char Primary expected payer (as received from source)
+AR  2004 CORE              75 PAY2_X                      296  297   Char Secondary expected payer (as received from source)
+AR  2004 CORE              76 PAY3_X                      298  299   Char Tertiary expected payer (as received from source)
+AR  2004 CORE              77 PL_CBSA                     300  302   Num  Patient location: Core Based Statistical Area (CBSA)
+AR  2004 CORE              78 PL_MSA1993                  303  305   Num  Patient location: Metropolitan Statistical Area (MSA), 1993
+AR  2004 CORE              79 PL_RUCA                     306  309 1 Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes
+AR  2004 CORE              80 PL_RUCA10                   310  311   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, ten levels
+AR  2004 CORE              81 PL_RUCA4                    312  313   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, four levels
+AR  2004 CORE              82 PL_RUCC2003                 314  315   Num  Patient location: Rural-Urban Continuum Codes(RUCC), 2003
+AR  2004 CORE              83 PL_UIC2003                  316  317   Num  Patient location: Urban Influence Codes, 2003
+AR  2004 CORE              84 PL_UR_CAT4                  318  319   Num  Patient Location: Urban-Rural 4 Categories
+AR  2004 CORE              85 PL_UR_CAT5                  320  321   Num  Patient Location: Urban-Rural 5 Categories
+AR  2004 CORE              86 PNUM_R                      322  330   Num  Person number (re-identified)
+AR  2004 CORE              87 PR1                         331  334   Char Principal procedure
+AR  2004 CORE              88 PR2                         335  338   Char Procedure 2
+AR  2004 CORE              89 PR3                         339  342   Char Procedure 3
+AR  2004 CORE              90 PR4                         343  346   Char Procedure 4
+AR  2004 CORE              91 PR5                         347  350   Char Procedure 5
+AR  2004 CORE              92 PR6                         351  354   Char Procedure 6
+AR  2004 CORE              93 PRCCS1                      355  357   Num  CCS: principal procedure
+AR  2004 CORE              94 PRCCS2                      358  360   Num  CCS: procedure 2
+AR  2004 CORE              95 PRCCS3                      361  363   Num  CCS: procedure 3
+AR  2004 CORE              96 PRCCS4                      364  366   Num  CCS: procedure 4
+AR  2004 CORE              97 PRCCS5                      367  369   Num  CCS: procedure 5
+AR  2004 CORE              98 PRCCS6                      370  372   Num  CCS: procedure 6
+AR  2004 CORE              99 PRDAY1                      373  377   Num  Number of days from admission to PR1
+AR  2004 CORE             100 PSTATE                      378  379   Char Patient State postal code
+AR  2004 CORE             101 PSTCO2                      380  384   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+AR  2004 CORE             102 RACE                        385  386   Num  Race (uniform)
+AR  2004 CORE             103 RACE_X                      387  387   Char Race (as received from source)
+AR  2004 CORE             104 TOTCHG                      388  397   Num  Total charges (cleaned)
+AR  2004 CORE             105 TOTCHG_X                    398  412 2 Num  Total charges (as received from source)
+AR  2004 CORE             106 YEAR                        413  416   Num  Calendar year
+AR  2004 CORE             107 ZIP3                        417  419   Char Patient ZIP Code, first 3 digits
+AR  2004 CORE             108 ZIP_S                       420  424   Char Patient ZIP Code (synthetic)
+AR  2004 CORE             109 AYEAR                       425  428   Num  Admission year
+AR  2004 CORE             110 DMONTH                      429  430   Num  Discharge month
+AR  2004 CORE             111 BMONTH                      431  432   Num  Birth month
+AR  2004 CORE             112 BYEAR                       433  436   Num  Birth year
+AR  2004 CORE             113 PRMONTH1                    437  438   Num  Month of procedure 1
+AR  2004 CORE             114 PRMONTH2                    439  440   Num  Month of procedure 2
+AR  2004 CORE             115 PRMONTH3                    441  442   Num  Month of procedure 3
+AR  2004 CORE             116 PRMONTH4                    443  444   Num  Month of procedure 4
+AR  2004 CORE             117 PRMONTH5                    445  446   Num  Month of procedure 5
+AR  2004 CORE             118 PRMONTH6                    447  448   Num  Month of procedure 6
+AR  2004 CORE             119 PRYEAR1                     449  452   Num  Year of procedure 1
+AR  2004 CORE             120 PRYEAR2                     453  456   Num  Year of procedure 2
+AR  2004 CORE             121 PRYEAR3                     457  460   Num  Year of procedure 3
+AR  2004 CORE             122 PRYEAR4                     461  464   Num  Year of procedure 4
+AR  2004 CORE             123 PRYEAR5                     465  468   Num  Year of procedure 5
+AR  2004 CORE             124 PRYEAR6                     469  472   Num  Year of procedure 6

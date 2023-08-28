@@ -1,0 +1,231 @@
+Data Set Name: NY_SIDC_2006_CORE               
+Number of Observations: 2659025
+Total Record Length: 758
+Total Number of Variables: 211
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 56    Variable name
+58- 61    Starting column of variable in ASCII file
+63- 66    Ending column of variable in ASCII file
+    68    Non-zero number of digits after decimal point for numeric variable
+70- 73    Variable type (Num=numeric; Char=character)
+75-174    Variable label
+
+
+NY  2006 CORE               1 KEY                           1   14   Num  HCUP record identifier
+NY  2006 CORE               2 AGE                          15   17   Num  Age in years at admission
+NY  2006 CORE               3 AGEDAY                       18   20   Num  Age in days (when age < 1 year)
+NY  2006 CORE               4 AGEMONTH                     21   23   Num  Age in months (when age < 11 years)
+NY  2006 CORE               5 AHOUR                        24   27   Num  Admission Hour
+NY  2006 CORE               6 AMONTH                       28   29   Num  Admission month
+NY  2006 CORE               7 ANESTH                       30   32   Num  Method of anesthesia
+NY  2006 CORE               8 ASCHED                       33   34   Num  Admission scheduled vs. unscheduled
+NY  2006 CORE               9 ASOURCE                      35   36   Num  Admission source (uniform)
+NY  2006 CORE              10 ASOURCE_X                    37   37   Char Admission source (as received from source)
+NY  2006 CORE              11 ASOURCEUB92                  38   38   Char Admission source (UB-92 standard coding)
+NY  2006 CORE              12 ATYPE                        39   40   Num  Admission type
+NY  2006 CORE              13 AWEEKEND                     41   42   Num  Admission day is a weekend
+NY  2006 CORE              14 BLOOD                        43   48   Num  Pints of blood furnished to the patient
+NY  2006 CORE              15 BWT                          49   52   Num  Birth weight in grams
+NY  2006 CORE              16 DHOUR                        53   56   Num  Discharge Hour
+NY  2006 CORE              17 DIED                         57   58   Num  Died during hospitalization
+NY  2006 CORE              18 DISP_X                       59   60   Char Disposition of patient (as received from source)
+NY  2006 CORE              19 DISPUB92                     61   62   Num  Disposition of patient (UB-92 standard coding)
+NY  2006 CORE              20 DISPUNIFORM                  63   64   Num  Disposition of patient (uniform)
+NY  2006 CORE              21 DQTR                         65   66   Num  Discharge quarter
+NY  2006 CORE              22 DRG                          67   69   Num  DRG in effect on discharge date
+NY  2006 CORE              23 DRG18                        70   72   Num  DRG, version 18
+NY  2006 CORE              24 DRG24                        73   75   Num  DRG, version 24
+NY  2006 CORE              25 DRGVER                       76   77   Num  DRG grouper version used on discharge date
+NY  2006 CORE              26 DSHOSPID                     78   90   Char Data source hospital identifier
+NY  2006 CORE              27 DX1                          91   95   Char Principal diagnosis
+NY  2006 CORE              28 DX2                          96  100   Char Diagnosis 2
+NY  2006 CORE              29 DX3                         101  105   Char Diagnosis 3
+NY  2006 CORE              30 DX4                         106  110   Char Diagnosis 4
+NY  2006 CORE              31 DX5                         111  115   Char Diagnosis 5
+NY  2006 CORE              32 DX6                         116  120   Char Diagnosis 6
+NY  2006 CORE              33 DX7                         121  125   Char Diagnosis 7
+NY  2006 CORE              34 DX8                         126  130   Char Diagnosis 8
+NY  2006 CORE              35 DX9                         131  135   Char Diagnosis 9
+NY  2006 CORE              36 DX10                        136  140   Char Diagnosis 10
+NY  2006 CORE              37 DX11                        141  145   Char Diagnosis 11
+NY  2006 CORE              38 DX12                        146  150   Char Diagnosis 12
+NY  2006 CORE              39 DX13                        151  155   Char Diagnosis 13
+NY  2006 CORE              40 DX14                        156  160   Char Diagnosis 14
+NY  2006 CORE              41 DX15                        161  165   Char Diagnosis 15
+NY  2006 CORE              42 DXATADMIT1                  166  167   Num  Principal diagnosis present at admission
+NY  2006 CORE              43 DXATADMIT2                  168  169   Num  Diagnosis 2 present at admission
+NY  2006 CORE              44 DXATADMIT3                  170  171   Num  Diagnosis 3 present at admission
+NY  2006 CORE              45 DXATADMIT4                  172  173   Num  Diagnosis 4 present at admission
+NY  2006 CORE              46 DXATADMIT5                  174  175   Num  Diagnosis 5 present at admission
+NY  2006 CORE              47 DXATADMIT6                  176  177   Num  Diagnosis 6 present at admission
+NY  2006 CORE              48 DXATADMIT7                  178  179   Num  Diagnosis 7 present at admission
+NY  2006 CORE              49 DXATADMIT8                  180  181   Num  Diagnosis 8 present at admission
+NY  2006 CORE              50 DXATADMIT9                  182  183   Num  Diagnosis 9 present at admission
+NY  2006 CORE              51 DXATADMIT10                 184  185   Num  Diagnosis 10 present at admission
+NY  2006 CORE              52 DXATADMIT11                 186  187   Num  Diagnosis 11 present at admission
+NY  2006 CORE              53 DXATADMIT12                 188  189   Num  Diagnosis 12 present at admission
+NY  2006 CORE              54 DXATADMIT13                 190  191   Num  Diagnosis 13 present at admission
+NY  2006 CORE              55 DXATADMIT14                 192  193   Num  Diagnosis 14 present at admission
+NY  2006 CORE              56 DXATADMIT15                 194  195   Num  Diagnosis 15 present at admission
+NY  2006 CORE              57 DXCCS1                      196  199   Num  CCS: principal diagnosis
+NY  2006 CORE              58 DXCCS2                      200  203   Num  CCS: diagnosis 2
+NY  2006 CORE              59 DXCCS3                      204  207   Num  CCS: diagnosis 3
+NY  2006 CORE              60 DXCCS4                      208  211   Num  CCS: diagnosis 4
+NY  2006 CORE              61 DXCCS5                      212  215   Num  CCS: diagnosis 5
+NY  2006 CORE              62 DXCCS6                      216  219   Num  CCS: diagnosis 6
+NY  2006 CORE              63 DXCCS7                      220  223   Num  CCS: diagnosis 7
+NY  2006 CORE              64 DXCCS8                      224  227   Num  CCS: diagnosis 8
+NY  2006 CORE              65 DXCCS9                      228  231   Num  CCS: diagnosis 9
+NY  2006 CORE              66 DXCCS10                     232  235   Num  CCS: diagnosis 10
+NY  2006 CORE              67 DXCCS11                     236  239   Num  CCS: diagnosis 11
+NY  2006 CORE              68 DXCCS12                     240  243   Num  CCS: diagnosis 12
+NY  2006 CORE              69 DXCCS13                     244  247   Num  CCS: diagnosis 13
+NY  2006 CORE              70 DXCCS14                     248  251   Num  CCS: diagnosis 14
+NY  2006 CORE              71 DXCCS15                     252  255   Num  CCS: diagnosis 15
+NY  2006 CORE              72 ECODE1                      256  260   Char E code 1
+NY  2006 CORE              73 ECODE2                      261  265   Char E code 2
+NY  2006 CORE              74 ECODE3                      266  270   Char E code 3
+NY  2006 CORE              75 ECODE4                      271  275   Char E code 4
+NY  2006 CORE              76 ECODE5                      276  280   Char E code 5
+NY  2006 CORE              77 ECODE6                      281  285   Char E code 6
+NY  2006 CORE              78 ECODE7                      286  290   Char E code 7
+NY  2006 CORE              79 ECODE8                      291  295   Char E code 8
+NY  2006 CORE              80 E_CCS1                      296  299   Num  CCS: E Code 1
+NY  2006 CORE              81 E_CCS2                      300  303   Num  CCS: E Code 2
+NY  2006 CORE              82 E_CCS3                      304  307   Num  CCS: E Code 3
+NY  2006 CORE              83 E_CCS4                      308  311   Num  CCS: E Code 4
+NY  2006 CORE              84 E_CCS5                      312  315   Num  CCS: E Code 5
+NY  2006 CORE              85 E_CCS6                      316  319   Num  CCS: E Code 6
+NY  2006 CORE              86 E_CCS7                      320  323   Num  CCS: E Code 7
+NY  2006 CORE              87 E_CCS8                      324  327   Num  CCS: E Code 8
+NY  2006 CORE              88 FEMALE                      328  329   Num  Indicator of sex
+NY  2006 CORE              89 HCUP_ED                     330  331   Num  HCUP Emergency Department service indicator
+NY  2006 CORE              90 HCUP_OS                     332  333   Num  HCUP Observation Stay service indicator
+NY  2006 CORE              91 HISPANIC_X                  334  334   Char Hispanic ethnicity (as received from source)
+NY  2006 CORE              92 Homeless                    335  336   Num  Indicator that patient is homeless
+NY  2006 CORE              93 HOSPBRTH                    337  339   Num  Indicator of birth in this hospital
+NY  2006 CORE              94 HOSPST                      340  341   Char Hospital state postal code
+NY  2006 CORE              95 LOS                         342  346   Num  Length of stay (cleaned)
+NY  2006 CORE              96 LOS_X                       347  352   Num  Length of stay (as received from source)
+NY  2006 CORE              97 MDC                         353  354   Num  MDC in effect on discharge date
+NY  2006 CORE              98 MDC18                       355  356   Num  MDC, version 18
+NY  2006 CORE              99 MDC24                       357  358   Num  MDC, version 24
+NY  2006 CORE             100 MDNUM1_R                    359  367   Num  Physician 1 number (re-identified)
+NY  2006 CORE             101 MDNUM2_R                    368  376   Num  Physician 2 number (re-identified)
+NY  2006 CORE             102 MEDINCSTQ                   377  378   Num  Median household income state quartile for patient ZIP Code
+NY  2006 CORE             103 NDX                         379  380   Num  Number of diagnoses on this record
+NY  2006 CORE             104 NECODE                      381  382   Num  Number of E codes on this record
+NY  2006 CORE             105 NEOMAT                      383  384   Num  Neonatal and/or maternal DX and/or PR
+NY  2006 CORE             106 NPR                         385  386   Num  Number of procedures on this record
+NY  2006 CORE             107 PAY1                        387  388   Num  Primary expected payer (uniform)
+NY  2006 CORE             108 PAY2                        389  390   Num  Secondary expected payer (uniform)
+NY  2006 CORE             109 PAY1_X                      391  392   Char Primary expected payer (as received from source)
+NY  2006 CORE             110 PAY2_X                      393  394   Char Secondary expected payer (as received from source)
+NY  2006 CORE             111 PAY3_X                      395  396   Char Tertiary expected payer (as received from source)
+NY  2006 CORE             112 PL_CBSA                     397  399   Num  Patient location: Core Based Statistical Area (CBSA)
+NY  2006 CORE             113 PL_MSA1993                  400  402   Num  Patient location: Metropolitan Statistical Area (MSA), 1993
+NY  2006 CORE             114 PL_NHCS2006                 403  404   Num  Patient Location: NCHS Urban-Rural Code (V2006)
+NY  2006 CORE             115 PL_RUCA10_2005              405  406   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, ten levels
+NY  2006 CORE             116 PL_RUCA2005                 407  410 1 Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes
+NY  2006 CORE             117 PL_RUCA4_2005               411  412   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, four levels
+NY  2006 CORE             118 PL_RUCC2003                 413  414   Num  Patient location: Rural-Urban Continuum Codes(RUCC), 2003
+NY  2006 CORE             119 PL_UIC2003                  415  416   Num  Patient location: Urban Influence Codes, 2003
+NY  2006 CORE             120 PL_UR_CAT4                  417  418   Num  Patient Location: Urban-Rural 4 Categories
+NY  2006 CORE             121 PL_UR_CAT5                  419  420   Num  Patient Location: Urban-Rural 5 Categories
+NY  2006 CORE             122 PR1                         421  424   Char Principal procedure
+NY  2006 CORE             123 PR2                         425  428   Char Procedure 2
+NY  2006 CORE             124 PR3                         429  432   Char Procedure 3
+NY  2006 CORE             125 PR4                         433  436   Char Procedure 4
+NY  2006 CORE             126 PR5                         437  440   Char Procedure 5
+NY  2006 CORE             127 PR6                         441  444   Char Procedure 6
+NY  2006 CORE             128 PR7                         445  448   Char Procedure 7
+NY  2006 CORE             129 PR8                         449  452   Char Procedure 8
+NY  2006 CORE             130 PR9                         453  456   Char Procedure 9
+NY  2006 CORE             131 PR10                        457  460   Char Procedure 10
+NY  2006 CORE             132 PR11                        461  464   Char Procedure 11
+NY  2006 CORE             133 PR12                        465  468   Char Procedure 12
+NY  2006 CORE             134 PR13                        469  472   Char Procedure 13
+NY  2006 CORE             135 PR14                        473  476   Char Procedure 14
+NY  2006 CORE             136 PR15                        477  480   Char Procedure 15
+NY  2006 CORE             137 PRCCS1                      481  483   Num  CCS: principal procedure
+NY  2006 CORE             138 PRCCS2                      484  486   Num  CCS: procedure 2
+NY  2006 CORE             139 PRCCS3                      487  489   Num  CCS: procedure 3
+NY  2006 CORE             140 PRCCS4                      490  492   Num  CCS: procedure 4
+NY  2006 CORE             141 PRCCS5                      493  495   Num  CCS: procedure 5
+NY  2006 CORE             142 PRCCS6                      496  498   Num  CCS: procedure 6
+NY  2006 CORE             143 PRCCS7                      499  501   Num  CCS: procedure 7
+NY  2006 CORE             144 PRCCS8                      502  504   Num  CCS: procedure 8
+NY  2006 CORE             145 PRCCS9                      505  507   Num  CCS: procedure 9
+NY  2006 CORE             146 PRCCS10                     508  510   Num  CCS: procedure 10
+NY  2006 CORE             147 PRCCS11                     511  513   Num  CCS: procedure 11
+NY  2006 CORE             148 PRCCS12                     514  516   Num  CCS: procedure 12
+NY  2006 CORE             149 PRCCS13                     517  519   Num  CCS: procedure 13
+NY  2006 CORE             150 PRCCS14                     520  522   Num  CCS: procedure 14
+NY  2006 CORE             151 PRCCS15                     523  525   Num  CCS: procedure 15
+NY  2006 CORE             152 PRDAY1                      526  530   Num  Number of days from admission to PR1
+NY  2006 CORE             153 PRDAY2                      531  535   Num  Number of days from admission to PR2
+NY  2006 CORE             154 PRDAY3                      536  540   Num  Number of days from admission to PR3
+NY  2006 CORE             155 PRDAY4                      541  545   Num  Number of days from admission to PR4
+NY  2006 CORE             156 PRDAY5                      546  550   Num  Number of days from admission to PR5
+NY  2006 CORE             157 PRDAY6                      551  555   Num  Number of days from admission to PR6
+NY  2006 CORE             158 PRDAY7                      556  560   Num  Number of days from admission to PR7
+NY  2006 CORE             159 PRDAY8                      561  565   Num  Number of days from admission to PR8
+NY  2006 CORE             160 PRDAY9                      566  570   Num  Number of days from admission to PR9
+NY  2006 CORE             161 PRDAY10                     571  575   Num  Number of days from admission to PR10
+NY  2006 CORE             162 PRDAY11                     576  580   Num  Number of days from admission to PR11
+NY  2006 CORE             163 PRDAY12                     581  585   Num  Number of days from admission to PR12
+NY  2006 CORE             164 PRDAY13                     586  590   Num  Number of days from admission to PR13
+NY  2006 CORE             165 PRDAY14                     591  595   Num  Number of days from admission to PR14
+NY  2006 CORE             166 PRDAY15                     596  600   Num  Number of days from admission to PR15
+NY  2006 CORE             167 PROCTYPE                    601  603   Num  Procedure type indicator
+NY  2006 CORE             168 PSTATE                      604  605   Char Patient State postal code
+NY  2006 CORE             169 PSTCO                       606  610   Num  Patient state/county FIPS code
+NY  2006 CORE             170 PSTCO2                      611  615   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+NY  2006 CORE             171 RACE                        616  617   Num  Race (uniform)
+NY  2006 CORE             172 RACE_X                      618  619   Char Race (as received from source)
+NY  2006 CORE             173 TOTCHG                      620  629   Num  Total charges (cleaned)
+NY  2006 CORE             174 TOTCHG_X                    630  644 2 Num  Total charges (as received from source)
+NY  2006 CORE             175 YEAR                        645  648   Num  Calendar year
+NY  2006 CORE             176 ZIPINC_QRTL                 649  651   Num  Median household income national quartile for patient ZIP Code
+NY  2006 CORE             177 ZIP                         652  656   Char Patient ZIP Code
+NY  2006 CORE             178 AYEAR                       657  660   Num  Admission year
+NY  2006 CORE             179 DMONTH                      661  662   Num  Discharge month
+NY  2006 CORE             180 BMONTH                      663  664   Num  Birth month
+NY  2006 CORE             181 BYEAR                       665  668   Num  Birth year
+NY  2006 CORE             182 PRMONTH1                    669  670   Num  Month of procedure 1
+NY  2006 CORE             183 PRMONTH2                    671  672   Num  Month of procedure 2
+NY  2006 CORE             184 PRMONTH3                    673  674   Num  Month of procedure 3
+NY  2006 CORE             185 PRMONTH4                    675  676   Num  Month of procedure 4
+NY  2006 CORE             186 PRMONTH5                    677  678   Num  Month of procedure 5
+NY  2006 CORE             187 PRMONTH6                    679  680   Num  Month of procedure 6
+NY  2006 CORE             188 PRMONTH7                    681  682   Num  Month of procedure 7
+NY  2006 CORE             189 PRMONTH8                    683  684   Num  Month of procedure 8
+NY  2006 CORE             190 PRMONTH9                    685  686   Num  Month of procedure 9
+NY  2006 CORE             191 PRMONTH10                   687  688   Num  Month of procedure 10
+NY  2006 CORE             192 PRMONTH11                   689  690   Num  Month of procedure 11
+NY  2006 CORE             193 PRMONTH12                   691  692   Num  Month of procedure 12
+NY  2006 CORE             194 PRMONTH13                   693  694   Num  Month of procedure 13
+NY  2006 CORE             195 PRMONTH14                   695  696   Num  Month of procedure 14
+NY  2006 CORE             196 PRMONTH15                   697  698   Num  Month of procedure 15
+NY  2006 CORE             197 PRYEAR1                     699  702   Num  Year of procedure 1
+NY  2006 CORE             198 PRYEAR2                     703  706   Num  Year of procedure 2
+NY  2006 CORE             199 PRYEAR3                     707  710   Num  Year of procedure 3
+NY  2006 CORE             200 PRYEAR4                     711  714   Num  Year of procedure 4
+NY  2006 CORE             201 PRYEAR5                     715  718   Num  Year of procedure 5
+NY  2006 CORE             202 PRYEAR6                     719  722   Num  Year of procedure 6
+NY  2006 CORE             203 PRYEAR7                     723  726   Num  Year of procedure 7
+NY  2006 CORE             204 PRYEAR8                     727  730   Num  Year of procedure 8
+NY  2006 CORE             205 PRYEAR9                     731  734   Num  Year of procedure 9
+NY  2006 CORE             206 PRYEAR10                    735  738   Num  Year of procedure 10
+NY  2006 CORE             207 PRYEAR11                    739  742   Num  Year of procedure 11
+NY  2006 CORE             208 PRYEAR12                    743  746   Num  Year of procedure 12
+NY  2006 CORE             209 PRYEAR13                    747  750   Num  Year of procedure 13
+NY  2006 CORE             210 PRYEAR14                    751  754   Num  Year of procedure 14
+NY  2006 CORE             211 PRYEAR15                    755  758   Num  Year of procedure 15

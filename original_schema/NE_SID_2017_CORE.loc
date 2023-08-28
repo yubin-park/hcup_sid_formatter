@@ -1,0 +1,203 @@
+Data Set Name: NE_SIDC_2017_CORE               
+Number of Observations: 207638
+Total Record Length: 752
+Total Number of Variables: 182
+Creation Date: 12/06/2018   
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 61    Variable name
+63- 66    Starting column of variable in ASCII file
+68- 71    Ending column of variable in ASCII file
+73- 73    Non-zero number of digits after decimal point for numeric variable
+75- 78    Variable type (Num=numeric; Char=character)
+80-179    Variable label
+
+
+NE  2017 CORE               1 AGE                                1    3   Num  Age in years at admission
+NE  2017 CORE               2 AGEDAY                             4    6   Num  Age in days (when age < 1 year)
+NE  2017 CORE               3 AGEMONTH                           7    9   Num  Age in months (when age < 11 years)
+NE  2017 CORE               4 AHOUR                             10   13   Num  Admission Hour
+NE  2017 CORE               5 AMONTH                            14   15   Num  Admission month
+NE  2017 CORE               6 ATYPE                             16   17   Num  Admission type
+NE  2017 CORE               7 AWEEKEND                          18   19   Num  Admission day is a weekend
+NE  2017 CORE               8 BILLTYPE                          20   23   Char Type of bill, UB-04 coding
+NE  2017 CORE               9 BLOOD                             24   29   Num  Pints of blood furnished to the patient
+NE  2017 CORE              10 DaysToEvent                       30   35   Num  Days from 'start date' to admission
+NE  2017 CORE              11 DHOUR                             36   39   Num  Discharge Hour
+NE  2017 CORE              12 DIED                              40   41   Num  Died during hospitalization
+NE  2017 CORE              13 DISP_X                            42   43   Char Disposition of patient (as received from source)
+NE  2017 CORE              14 DISPUB04                          44   45   Num  Disposition of patient (UB-04 standard coding)
+NE  2017 CORE              15 DISPUNIFORM                       46   47   Num  Disposition of patient (uniform)
+NE  2017 CORE              16 DMONTH                            48   49   Num  Discharge month
+NE  2017 CORE              17 DQTR                              50   51   Num  Discharge quarter
+NE  2017 CORE              18 DRG                               52   54   Num  DRG in effect on discharge date
+NE  2017 CORE              19 DRG_NoPOA                         55   57   Num  DRG in use on discharge date, calculated without POA
+NE  2017 CORE              20 DRGVER                            58   59   Num  DRG grouper version used on discharge date
+NE  2017 CORE              21 DXPOA1                            60   60   Char Diagnosis 1, present on admission indicator
+NE  2017 CORE              22 DXPOA2                            61   61   Char Diagnosis 2, present on admission indicator
+NE  2017 CORE              23 DXPOA3                            62   62   Char Diagnosis 3, present on admission indicator
+NE  2017 CORE              24 DXPOA4                            63   63   Char Diagnosis 4, present on admission indicator
+NE  2017 CORE              25 DXPOA5                            64   64   Char Diagnosis 5, present on admission indicator
+NE  2017 CORE              26 DXPOA6                            65   65   Char Diagnosis 6, present on admission indicator
+NE  2017 CORE              27 DXPOA7                            66   66   Char Diagnosis 7, present on admission indicator
+NE  2017 CORE              28 DXPOA8                            67   67   Char Diagnosis 8, present on admission indicator
+NE  2017 CORE              29 DXPOA9                            68   68   Char Diagnosis 9, present on admission indicator
+NE  2017 CORE              30 DXPOA10                           69   69   Char Diagnosis 10, present on admission indicator
+NE  2017 CORE              31 DXPOA11                           70   70   Char Diagnosis 11, present on admission indicator
+NE  2017 CORE              32 DXPOA12                           71   71   Char Diagnosis 12, present on admission indicator
+NE  2017 CORE              33 DXPOA13                           72   72   Char Diagnosis 13, present on admission indicator
+NE  2017 CORE              34 DXPOA14                           73   73   Char Diagnosis 14, present on admission indicator
+NE  2017 CORE              35 DXPOA15                           74   74   Char Diagnosis 15, present on admission indicator
+NE  2017 CORE              36 DXPOA16                           75   75   Char Diagnosis 16, present on admission indicator
+NE  2017 CORE              37 DXPOA17                           76   76   Char Diagnosis 17, present on admission indicator
+NE  2017 CORE              38 DXPOA18                           77   77   Char Diagnosis 18, present on admission indicator
+NE  2017 CORE              39 DXPOA19                           78   78   Char Diagnosis 19, present on admission indicator
+NE  2017 CORE              40 DXPOA20                           79   79   Char Diagnosis 20, present on admission indicator
+NE  2017 CORE              41 DXPOA21                           80   80   Char Diagnosis 21, present on admission indicator
+NE  2017 CORE              42 DXPOA22                           81   81   Char Diagnosis 22, present on admission indicator
+NE  2017 CORE              43 DXPOA23                           82   82   Char Diagnosis 23, present on admission indicator
+NE  2017 CORE              44 DXPOA24                           83   83   Char Diagnosis 24, present on admission indicator
+NE  2017 CORE              45 DXPOA25                           84   84   Char Diagnosis 25, present on admission indicator
+NE  2017 CORE              46 DXVER                             85   87   Num  Diagnosis Version
+NE  2017 CORE              47 FEMALE                            88   89   Num  Indicator of sex
+NE  2017 CORE              48 HCUP_ED                           90   91   Num  HCUP Emergency Department service indicator
+NE  2017 CORE              49 HCUP_OS                           92   93   Num  HCUP Observation Stay service indicator
+NE  2017 CORE              50 HOSPST                            94   95   Char Hospital state postal code
+NE  2017 CORE              51 I10_DX_Admitting                  96  102   Char ICD-10-CM Admitting Diagnosis Code
+NE  2017 CORE              52 I10_DX1                          103  109   Char ICD-10-CM Diagnosis 1
+NE  2017 CORE              53 I10_DX2                          110  116   Char ICD-10-CM Diagnosis 2
+NE  2017 CORE              54 I10_DX3                          117  123   Char ICD-10-CM Diagnosis 3
+NE  2017 CORE              55 I10_DX4                          124  130   Char ICD-10-CM Diagnosis 4
+NE  2017 CORE              56 I10_DX5                          131  137   Char ICD-10-CM Diagnosis 5
+NE  2017 CORE              57 I10_DX6                          138  144   Char ICD-10-CM Diagnosis 6
+NE  2017 CORE              58 I10_DX7                          145  151   Char ICD-10-CM Diagnosis 7
+NE  2017 CORE              59 I10_DX8                          152  158   Char ICD-10-CM Diagnosis 8
+NE  2017 CORE              60 I10_DX9                          159  165   Char ICD-10-CM Diagnosis 9
+NE  2017 CORE              61 I10_DX10                         166  172   Char ICD-10-CM Diagnosis 10
+NE  2017 CORE              62 I10_DX11                         173  179   Char ICD-10-CM Diagnosis 11
+NE  2017 CORE              63 I10_DX12                         180  186   Char ICD-10-CM Diagnosis 12
+NE  2017 CORE              64 I10_DX13                         187  193   Char ICD-10-CM Diagnosis 13
+NE  2017 CORE              65 I10_DX14                         194  200   Char ICD-10-CM Diagnosis 14
+NE  2017 CORE              66 I10_DX15                         201  207   Char ICD-10-CM Diagnosis 15
+NE  2017 CORE              67 I10_DX16                         208  214   Char ICD-10-CM Diagnosis 16
+NE  2017 CORE              68 I10_DX17                         215  221   Char ICD-10-CM Diagnosis 17
+NE  2017 CORE              69 I10_DX18                         222  228   Char ICD-10-CM Diagnosis 18
+NE  2017 CORE              70 I10_DX19                         229  235   Char ICD-10-CM Diagnosis 19
+NE  2017 CORE              71 I10_DX20                         236  242   Char ICD-10-CM Diagnosis 20
+NE  2017 CORE              72 I10_DX21                         243  249   Char ICD-10-CM Diagnosis 21
+NE  2017 CORE              73 I10_DX22                         250  256   Char ICD-10-CM Diagnosis 22
+NE  2017 CORE              74 I10_DX23                         257  263   Char ICD-10-CM Diagnosis 23
+NE  2017 CORE              75 I10_DX24                         264  270   Char ICD-10-CM Diagnosis 24
+NE  2017 CORE              76 I10_DX25                         271  277   Char ICD-10-CM Diagnosis 25
+NE  2017 CORE              77 I10_DX26                         278  284   Char ICD-10-CM Diagnosis 26
+NE  2017 CORE              78 I10_NDX                          285  287   Num  ICD-10-CM Number of diagnoses on this record
+NE  2017 CORE              79 I10_NPR                          288  290   Num  ICD-10-PCS Number of procedures on this record
+NE  2017 CORE              80 I10_PR1                          291  297   Char ICD-10-PCS Procedure 1
+NE  2017 CORE              81 I10_PR2                          298  304   Char ICD-10-PCS Procedure 2
+NE  2017 CORE              82 I10_PR3                          305  311   Char ICD-10-PCS Procedure 3
+NE  2017 CORE              83 I10_PR4                          312  318   Char ICD-10-PCS Procedure 4
+NE  2017 CORE              84 I10_PR5                          319  325   Char ICD-10-PCS Procedure 5
+NE  2017 CORE              85 I10_PR6                          326  332   Char ICD-10-PCS Procedure 6
+NE  2017 CORE              86 I10_PR7                          333  339   Char ICD-10-PCS Procedure 7
+NE  2017 CORE              87 I10_PR8                          340  346   Char ICD-10-PCS Procedure 8
+NE  2017 CORE              88 I10_PR9                          347  353   Char ICD-10-PCS Procedure 9
+NE  2017 CORE              89 I10_PR10                         354  360   Char ICD-10-PCS Procedure 10
+NE  2017 CORE              90 I10_PR11                         361  367   Char ICD-10-PCS Procedure 11
+NE  2017 CORE              91 I10_PR12                         368  374   Char ICD-10-PCS Procedure 12
+NE  2017 CORE              92 I10_PR13                         375  381   Char ICD-10-PCS Procedure 13
+NE  2017 CORE              93 I10_PR14                         382  388   Char ICD-10-PCS Procedure 14
+NE  2017 CORE              94 I10_PR15                         389  395   Char ICD-10-PCS Procedure 15
+NE  2017 CORE              95 I10_PROCTYPE                     396  398   Num  ICD-10-PCS Procedure type indicator
+NE  2017 CORE              96 KEY                              399  413   Num  HCUP record identifier
+NE  2017 CORE              97 LOS                              414  418   Num  Length of stay (cleaned)
+NE  2017 CORE              98 LOS_X                            419  424   Num  Length of stay (as received from source)
+NE  2017 CORE              99 MDC                              425  426   Num  MDC in effect on discharge date
+NE  2017 CORE             100 MDC_NoPOA                        427  428   Num  MDC in use on discharge date, calculated without POA
+NE  2017 CORE             101 MEDINCSTQ                        429  430   Num  Median household income state quartile for patient ZIP Code
+NE  2017 CORE             102 OS_TIME                          431  441 2 Num  Observation stay time summed from UNITS
+NE  2017 CORE             103 PAY1                             442  443   Num  Primary expected payer (uniform)
+NE  2017 CORE             104 PAY1_X                           444  445   Char Primary expected payer (as received from source)
+NE  2017 CORE             105 PAY2                             446  447   Num  Secondary expected payer (uniform)
+NE  2017 CORE             106 PAY2_X                           448  449   Char Secondary expected payer (as received from source)
+NE  2017 CORE             107 PAY3                             450  451   Num  Tertiary expected payer (uniform)
+NE  2017 CORE             108 PAY3_X                           452  453   Char Tertiary expected payer (as received from source)
+NE  2017 CORE             109 PL_CBSA                          454  456   Num  Patient location: Core Based Statistical Area (CBSA)
+NE  2017 CORE             110 PL_NCHS                          457  458   Num  Patient Location: NCHS Urban-Rural Code
+NE  2017 CORE             111 PL_RUCC                          459  460   Num  Patient location: Rural-Urban Continuum Codes(RUCC)
+NE  2017 CORE             112 PL_UIC                           461  462   Num  Patient location: Urban Influence Codes
+NE  2017 CORE             113 PL_UR_CAT4                       463  464   Num  Patient Location: Urban-Rural 4 Categories
+NE  2017 CORE             114 POA_Disch_Edit1                  465  466   Num  Discharge has POA missing on all nonexempt diagnoses
+NE  2017 CORE             115 POA_Disch_Edit2                  467  468   Num  Discharge has POA missing on all nonexempt secondary diagnoses
+NE  2017 CORE             116 POA_Hosp_Edit1                   469  470   Num  Hospital reported POA as Y on all diagnoses on all discharges
+NE  2017 CORE             117 POA_Hosp_Edit2                   471  472   Num  Hospital reported POA as missing on all non-Medicare discharges
+NE  2017 CORE             118 POA_Hosp_Edit3                   473  474   Num  Hospital reported POA as missing on all nonexempt diagnoses for 15% or more of discharges
+NE  2017 CORE             119 POA_Hosp_Edit3_Value             475  482 2 Num  Percentage of discharges with all nonexempt diagnoses missing POA indicators
+NE  2017 CORE             120 PointOfOrigin_X                  483  483   Char Point of origin for admission or visit, as received from source
+NE  2017 CORE             121 PointOfOriginUB04                484  484   Char Point of origin for admission or visit, UB-04 standard coding
+NE  2017 CORE             122 PRDAY1                           485  489   Num  Number of days from admission to I10_PR1
+NE  2017 CORE             123 PRDAY2                           490  494   Num  Number of days from admission to I10_PR2
+NE  2017 CORE             124 PRDAY3                           495  499   Num  Number of days from admission to I10_PR3
+NE  2017 CORE             125 PRDAY4                           500  504   Num  Number of days from admission to I10_PR4
+NE  2017 CORE             126 PRDAY5                           505  509   Num  Number of days from admission to I10_PR5
+NE  2017 CORE             127 PRDAY6                           510  514   Num  Number of days from admission to I10_PR6
+NE  2017 CORE             128 PRDAY7                           515  519   Num  Number of days from admission to I10_PR7
+NE  2017 CORE             129 PRDAY8                           520  524   Num  Number of days from admission to I10_PR8
+NE  2017 CORE             130 PRDAY9                           525  529   Num  Number of days from admission to I10_PR9
+NE  2017 CORE             131 PRDAY10                          530  534   Num  Number of days from admission to I10_PR10
+NE  2017 CORE             132 PRDAY11                          535  539   Num  Number of days from admission to I10_PR11
+NE  2017 CORE             133 PRDAY12                          540  544   Num  Number of days from admission to I10_PR12
+NE  2017 CORE             134 PRDAY13                          545  549   Num  Number of days from admission to I10_PR13
+NE  2017 CORE             135 PRDAY14                          550  554   Num  Number of days from admission to I10_PR14
+NE  2017 CORE             136 PRDAY15                          555  559   Num  Number of days from admission to I10_PR15
+NE  2017 CORE             137 PRVER                            560  562   Num  Procedure Version
+NE  2017 CORE             138 PSTATE                           563  564   Char Patient State postal code
+NE  2017 CORE             139 PSTCO2                           565  569   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+NE  2017 CORE             140 TOTCHG                           570  579   Num  Total charges (cleaned)
+NE  2017 CORE             141 TOTCHG_X                         580  594 2 Num  Total charges (as received from source)
+NE  2017 CORE             142 TRAN_IN                          595  596   Num  Transfer in indicator
+NE  2017 CORE             143 TRAN_OUT                         597  598   Num  Transfer out indicator
+NE  2017 CORE             144 VisitLink                        599  607   Num  Visit linkage variable
+NE  2017 CORE             145 YEAR                             608  611   Num  Calendar year
+NE  2017 CORE             146 ZIP                              612  616   Char Patient ZIP Code
+NE  2017 CORE             147 ZIP3                             617  619   Char Patient ZIP Code, first 3 digits
+NE  2017 CORE             148 ZIPINC_QRTL                      620  622   Num  Median household income national quartile for patient ZIP Code
+NE  2017 CORE             149 TOWN                             623  652   Char Patient town of residence (as received from source)
+NE  2017 CORE             150 AYEAR                            653  656   Num  Admission year
+NE  2017 CORE             151 BMONTH                           657  658   Num  Birth month
+NE  2017 CORE             152 BYEAR                            659  662   Num  Birth year
+NE  2017 CORE             153 PRMONTH1                         663  664   Num  Month of procedure 1
+NE  2017 CORE             154 PRMONTH2                         665  666   Num  Month of procedure 2
+NE  2017 CORE             155 PRMONTH3                         667  668   Num  Month of procedure 3
+NE  2017 CORE             156 PRMONTH4                         669  670   Num  Month of procedure 4
+NE  2017 CORE             157 PRMONTH5                         671  672   Num  Month of procedure 5
+NE  2017 CORE             158 PRMONTH6                         673  674   Num  Month of procedure 6
+NE  2017 CORE             159 PRMONTH7                         675  676   Num  Month of procedure 7
+NE  2017 CORE             160 PRMONTH8                         677  678   Num  Month of procedure 8
+NE  2017 CORE             161 PRMONTH9                         679  680   Num  Month of procedure 9
+NE  2017 CORE             162 PRMONTH10                        681  682   Num  Month of procedure 10
+NE  2017 CORE             163 PRMONTH11                        683  684   Num  Month of procedure 11
+NE  2017 CORE             164 PRMONTH12                        685  686   Num  Month of procedure 12
+NE  2017 CORE             165 PRMONTH13                        687  688   Num  Month of procedure 13
+NE  2017 CORE             166 PRMONTH14                        689  690   Num  Month of procedure 14
+NE  2017 CORE             167 PRMONTH15                        691  692   Num  Month of procedure 15
+NE  2017 CORE             168 PRYEAR1                          693  696   Num  Year of procedure 1
+NE  2017 CORE             169 PRYEAR2                          697  700   Num  Year of procedure 2
+NE  2017 CORE             170 PRYEAR3                          701  704   Num  Year of procedure 3
+NE  2017 CORE             171 PRYEAR4                          705  708   Num  Year of procedure 4
+NE  2017 CORE             172 PRYEAR5                          709  712   Num  Year of procedure 5
+NE  2017 CORE             173 PRYEAR6                          713  716   Num  Year of procedure 6
+NE  2017 CORE             174 PRYEAR7                          717  720   Num  Year of procedure 7
+NE  2017 CORE             175 PRYEAR8                          721  724   Num  Year of procedure 8
+NE  2017 CORE             176 PRYEAR9                          725  728   Num  Year of procedure 9
+NE  2017 CORE             177 PRYEAR10                         729  732   Num  Year of procedure 10
+NE  2017 CORE             178 PRYEAR11                         733  736   Num  Year of procedure 11
+NE  2017 CORE             179 PRYEAR12                         737  740   Num  Year of procedure 12
+NE  2017 CORE             180 PRYEAR13                         741  744   Num  Year of procedure 13
+NE  2017 CORE             181 PRYEAR14                         745  748   Num  Year of procedure 14
+NE  2017 CORE             182 PRYEAR15                         749  752   Num  Year of procedure 15

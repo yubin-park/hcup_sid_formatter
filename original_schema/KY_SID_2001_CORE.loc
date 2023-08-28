@@ -1,0 +1,117 @@
+Data Set Name: KY_SID_2001_CORE                
+Number of Observations: 600259
+Total Record Length: 404
+Total Number of Variables: 97
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 49    Variable name
+51- 54    Starting column of variable in ASCII file
+56- 59    Ending column of variable in ASCII file
+    61    Non-zero number of digits after decimal point for numeric variable
+63- 66    Variable type (Num=numeric; Char=character)
+68-167    Variable label
+
+
+KY  2001 CORE               1 KEY                    1   14   Num  HCUP record identifier
+KY  2001 CORE               2 ADRG                  15   17   Num  All Patient Refined DRG
+KY  2001 CORE               3 AGE                   18   20   Num  Age in years at admission
+KY  2001 CORE               4 AGEDAY                21   23   Num  Age in days (when age < 1 year)
+KY  2001 CORE               5 AGEMONTH              24   26   Num  Age in months (when age < 11 years)
+KY  2001 CORE               6 AMONTH                27   28   Num  Admission month
+KY  2001 CORE               7 ASOURCE               29   30   Num  Admission source (uniform)
+KY  2001 CORE               8 ASOURCE_X             31   32   Char Admission source (as received from source)
+KY  2001 CORE               9 ATYPE                 33   34   Num  Admission type
+KY  2001 CORE              10 AWEEKEND              35   36   Num  Admission day is a weekend
+KY  2001 CORE              11 BWT                   37   40   Num  Birth weight in grams
+KY  2001 CORE              12 DIED                  41   42   Num  Died during hospitalization
+KY  2001 CORE              13 DISP_X                43   44   Char Disposition of patient (as received from source)
+KY  2001 CORE              14 DISPUB92              45   46   Num  Disposition of patient (UB-92 standard coding)
+KY  2001 CORE              15 DISPUNIFORM           47   48   Num  Disposition of patient (uniform)
+KY  2001 CORE              16 DQTR                  49   50   Num  Discharge quarter
+KY  2001 CORE              17 DRG                   51   53   Num  DRG in effect on discharge date
+KY  2001 CORE              18 DRG18                 54   56   Num  DRG, version 18
+KY  2001 CORE              19 DRGVER                57   58   Num  DRG grouper version used on discharge date
+KY  2001 CORE              20 DSHOSPID              59   71   Char Data source hospital identifier
+KY  2001 CORE              21 DX1                   72   76   Char Principal diagnosis
+KY  2001 CORE              22 DX2                   77   81   Char Diagnosis 2
+KY  2001 CORE              23 DX3                   82   86   Char Diagnosis 3
+KY  2001 CORE              24 DX4                   87   91   Char Diagnosis 4
+KY  2001 CORE              25 DX5                   92   96   Char Diagnosis 5
+KY  2001 CORE              26 DX6                   97  101   Char Diagnosis 6
+KY  2001 CORE              27 DX7                  102  106   Char Diagnosis 7
+KY  2001 CORE              28 DX8                  107  111   Char Diagnosis 8
+KY  2001 CORE              29 DX9                  112  116   Char Diagnosis 9
+KY  2001 CORE              30 DX10                 117  121   Char Diagnosis 10
+KY  2001 CORE              31 DXCCS1               122  125   Num  CCS: principal diagnosis
+KY  2001 CORE              32 DXCCS2               126  129   Num  CCS: diagnosis 2
+KY  2001 CORE              33 DXCCS3               130  133   Num  CCS: diagnosis 3
+KY  2001 CORE              34 DXCCS4               134  137   Num  CCS: diagnosis 4
+KY  2001 CORE              35 DXCCS5               138  141   Num  CCS: diagnosis 5
+KY  2001 CORE              36 DXCCS6               142  145   Num  CCS: diagnosis 6
+KY  2001 CORE              37 DXCCS7               146  149   Num  CCS: diagnosis 7
+KY  2001 CORE              38 DXCCS8               150  153   Num  CCS: diagnosis 8
+KY  2001 CORE              39 DXCCS9               154  157   Num  CCS: diagnosis 9
+KY  2001 CORE              40 DXCCS10              158  161   Num  CCS: diagnosis 10
+KY  2001 CORE              41 FEMALE               162  163   Num  Indicator of sex
+KY  2001 CORE              42 HOSPST               164  165   Char Hospital state postal code
+KY  2001 CORE              43 LOS                  166  170   Num  Length of stay (cleaned)
+KY  2001 CORE              44 LOS_X                171  176   Num  Length of stay (as received from source)
+KY  2001 CORE              45 MDC                  177  178   Num  MDC in effect on discharge date
+KY  2001 CORE              46 MDC18                179  180   Num  MDC, version 18
+KY  2001 CORE              47 MDNUM1_S             181  196   Char Physician 1 number (synthetic)
+KY  2001 CORE              48 MDNUM2_S             197  212   Char Physician 2 number (synthetic)
+KY  2001 CORE              49 MDNUM3_S             213  228   Char Physician 3 number (synthetic)
+KY  2001 CORE              50 MRN_S                229  245   Char Medical record number (synthetic)
+KY  2001 CORE              51 NDX                  246  247   Num  Number of diagnoses on this record
+KY  2001 CORE              52 NEOMAT               248  249   Num  Neonatal and/or maternal DX and/or PR
+KY  2001 CORE              53 NPR                  250  251   Num  Number of procedures on this record
+KY  2001 CORE              54 PAY1                 252  253   Num  Primary expected payer (uniform)
+KY  2001 CORE              55 PAY2                 254  255   Num  Secondary expected payer (uniform)
+KY  2001 CORE              56 PAY1_X               256  256   Char Primary expected payer (as received from source)
+KY  2001 CORE              57 PAY2_X               257  257   Char Secondary expected payer (as received from source)
+KY  2001 CORE              58 PAY3_X               258  258   Char Tertiary expected payer (as received from source)
+KY  2001 CORE              59 PR1                  259  262   Char Principal procedure
+KY  2001 CORE              60 PR2                  263  266   Char Procedure 2
+KY  2001 CORE              61 PR3                  267  270   Char Procedure 3
+KY  2001 CORE              62 PR4                  271  274   Char Procedure 4
+KY  2001 CORE              63 PR5                  275  278   Char Procedure 5
+KY  2001 CORE              64 PR6                  279  282   Char Procedure 6
+KY  2001 CORE              65 PRCCS1               283  285   Num  CCS: principal procedure
+KY  2001 CORE              66 PRCCS2               286  288   Num  CCS: procedure 2
+KY  2001 CORE              67 PRCCS3               289  291   Num  CCS: procedure 3
+KY  2001 CORE              68 PRCCS4               292  294   Num  CCS: procedure 4
+KY  2001 CORE              69 PRCCS5               295  297   Num  CCS: procedure 5
+KY  2001 CORE              70 PRCCS6               298  300   Num  CCS: procedure 6
+KY  2001 CORE              71 PRDAY1               301  303   Num  Number of days from admission to PR1
+KY  2001 CORE              72 PRDAY2               304  306   Num  Number of days from admission to PR2
+KY  2001 CORE              73 PRDAY3               307  309   Num  Number of days from admission to PR3
+KY  2001 CORE              74 PRDAY4               310  312   Num  Number of days from admission to PR4
+KY  2001 CORE              75 PRDAY5               313  315   Num  Number of days from admission to PR5
+KY  2001 CORE              76 PRDAY6               316  318   Num  Number of days from admission to PR6
+KY  2001 CORE              77 RDRG                 319  322   Char Refined DRG
+KY  2001 CORE              78 TOTCHG               323  332   Num  Total charges (cleaned)
+KY  2001 CORE              79 TOTCHG_X             333  347 2 Num  Total charges (as received from source)
+KY  2001 CORE              80 YEAR                 348  351   Num  Calendar year
+KY  2001 CORE              81 ZIP                  352  356   Char Patient ZIP Code
+KY  2001 CORE              82 AYEAR                357  360   Num  Admission year
+KY  2001 CORE              83 DMONTH               361  362   Num  Discharge month
+KY  2001 CORE              84 BMONTH               363  364   Num  Birth month
+KY  2001 CORE              85 BYEAR                365  368   Num  Birth year
+KY  2001 CORE              86 PRMONTH1             369  370   Num  Month of procedure 1
+KY  2001 CORE              87 PRMONTH2             371  372   Num  Month of procedure 2
+KY  2001 CORE              88 PRMONTH3             373  374   Num  Month of procedure 3
+KY  2001 CORE              89 PRMONTH4             375  376   Num  Month of procedure 4
+KY  2001 CORE              90 PRMONTH5             377  378   Num  Month of procedure 5
+KY  2001 CORE              91 PRMONTH6             379  380   Num  Month of procedure 6
+KY  2001 CORE              92 PRYEAR1              381  384   Num  Year of procedure 1
+KY  2001 CORE              93 PRYEAR2              385  388   Num  Year of procedure 2
+KY  2001 CORE              94 PRYEAR3              389  392   Num  Year of procedure 3
+KY  2001 CORE              95 PRYEAR4              393  396   Num  Year of procedure 4
+KY  2001 CORE              96 PRYEAR5              397  400   Num  Year of procedure 5
+KY  2001 CORE              97 PRYEAR6              401  404   Num  Year of procedure 6

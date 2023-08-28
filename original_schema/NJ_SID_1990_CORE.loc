@@ -1,0 +1,127 @@
+Data Set Name: NJ_SID_1990_CORE                
+Number of Observations: 1124047
+Total Record Length: 454
+Total Number of Variables: 107
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 49    Variable name
+51- 54    Starting column of variable in ASCII file
+56- 59    Ending column of variable in ASCII file
+    61    Non-zero number of digits after decimal point for numeric variable
+63- 66    Variable type (Num=numeric; Char=character)
+68-167    Variable label
+
+
+NJ  1990 CORE               1 AGE                    1    3   Num  I:Age in years at admission
+NJ  1990 CORE               2 AGEDAY                 4    6   Num  I:Age in days (when < 1 year)
+NJ  1990 CORE               3 SEX                    7    9   Num  I:Sex
+NJ  1990 CORE               4 RACE                  10   11   Num  I:Race
+NJ  1990 CORE               5 DQTR                  12   13   Num  I:Discharge quarter
+NJ  1990 CORE               6 LOS                   14   18   Num  I:Length of stay (cleaned)
+NJ  1990 CORE               7 DISP                  19   20   Num  I:Disposition of patient
+NJ  1990 CORE               8 DIED                  21   22   Num  I:Died during hospitalization
+NJ  1990 CORE               9 ATYPE                 23   24   Num  I:Admission type
+NJ  1990 CORE              10 ASOURCE               25   26   Num  I:Admission source
+NJ  1990 CORE              11 NDX                   27   28   Num  I:Number of diagnoses on this discharge
+NJ  1990 CORE              12 DX1                   29   33   Char I:Principal diagnosis
+NJ  1990 CORE              13 DXV1                  34   37   Num  I:Validity flag: principal diagnosis
+NJ  1990 CORE              14 DCCHPR1               38   41   Num  I:CCHPR: principal diagnosis
+NJ  1990 CORE              15 NPR                   42   43   Num  I:Number of procedures on this discharge
+NJ  1990 CORE              16 PR1                   44   47   Char I:Principal procedure
+NJ  1990 CORE              17 PRV1                  48   50   Num  I:Validity flag: principal procedure
+NJ  1990 CORE              18 PCCHPR1               51   54   Num  I:CCHPR: principal procedure
+NJ  1990 CORE              19 DRG                   55   57   Num  I:DRG in effect on discharge date
+NJ  1990 CORE              20 MDC                   58   59   Num  I:MDC in effect on discharge date
+NJ  1990 CORE              21 DRGVER                60   61   Num  I:DRG grouper version used on disch date
+NJ  1990 CORE              22 DRG10                 62   64   Num  I:DRG, Version 10
+NJ  1990 CORE              23 MDC10                 65   66   Num  I:MDC, Version 10
+NJ  1990 CORE              24 PAY1                  67   68   Num  I:Primary expected payer, uniform
+NJ  1990 CORE              25 TOTCHG                69   78   Num  I:Total charges (cleaned)
+NJ  1990 CORE              26 PROCESS               79   89   Num  I:HCUP-3 discharge processing ID number
+NJ  1990 CORE              27 YEAR                  90   93   Num  Calendar year
+NJ  1990 CORE              28 DSHOSPID              94  106   Char I:Data source hospital ID number
+NJ  1990 CORE              29 DSNUM                107  109   Num  I:Data source ID number
+NJ  1990 CORE              30 DSTYPE               110  112   Num  I:Data source type
+NJ  1990 CORE              31 HOSPST               113  114   Char Hospital state postal code
+NJ  1990 CORE              32 MDID_S               115  130   Char I:Attending physician number (synthetic)
+NJ  1990 CORE              33 SURGID_S             131  146   Char I:Primary surgeon number (synthetic)
+NJ  1990 CORE              34 ADAYWK               147  149   Num  I:Admission day of week
+NJ  1990 CORE              35 AMONTH               150  151   Num  I:Admission month
+NJ  1990 CORE              36 LOS_X                152  156   Num  I:Length of stay (uncleaned)
+NJ  1990 CORE              37 NEOMAT               157  158   Num  I:Neonatal and/or maternal DX and/or PR
+NJ  1990 CORE              38 DXSYS                159  161   Num  I:Diagnosis coding system
+NJ  1990 CORE              39 DSNDX                162  164   Num  I:Max number of diagnoses from source
+NJ  1990 CORE              40 PRSYS                165  167   Num  I:Procedure coding system
+NJ  1990 CORE              41 DSNPR                168  170   Num  I:Max number of procedures from source
+NJ  1990 CORE              42 PRDAY1               171  175   Num  I:No. of days from admission to PR1
+NJ  1990 CORE              43 PAY1_N               176  178   Num  I:Primary expected payer, nonuniform
+NJ  1990 CORE              44 PAY2                 179  180   Num  I:Secondary expected payer, uniform
+NJ  1990 CORE              45 PAY2_N               181  183   Num  I:Secondary expected payer, nonuniform
+NJ  1990 CORE              46 TOTCHG_X             184  195 2 Num  I:Total charges (from data source)
+NJ  1990 CORE              47 DX2                  196  200   Char I:Diagnosis 2
+NJ  1990 CORE              48 DX3                  201  205   Char I:Diagnosis 3
+NJ  1990 CORE              49 DX4                  206  210   Char I:Diagnosis 4
+NJ  1990 CORE              50 DX5                  211  215   Char I:Diagnosis 5
+NJ  1990 CORE              51 DX6                  216  220   Char I:Diagnosis 6
+NJ  1990 CORE              52 DX7                  221  225   Char I:Diagnosis 7
+NJ  1990 CORE              53 DX8                  226  230   Char I:Diagnosis 8
+NJ  1990 CORE              54 DX9                  231  235   Char I:Diagnosis 9
+NJ  1990 CORE              55 DXV2                 236  239   Num  I:Validity flag: diagnosis 2
+NJ  1990 CORE              56 DXV3                 240  243   Num  I:Validity flag: diagnosis 3
+NJ  1990 CORE              57 DXV4                 244  247   Num  I:Validity flag: diagnosis 4
+NJ  1990 CORE              58 DXV5                 248  251   Num  I:Validity flag: diagnosis 5
+NJ  1990 CORE              59 DXV6                 252  255   Num  I:Validity flag: diagnosis 6
+NJ  1990 CORE              60 DXV7                 256  259   Num  I:Validity flag: diagnosis 7
+NJ  1990 CORE              61 DXV8                 260  263   Num  I:Validity flag: diagnosis 8
+NJ  1990 CORE              62 DXV9                 264  267   Num  I:Validity flag: diagnosis 9
+NJ  1990 CORE              63 DCCHPR2              268  271   Num  I:CCHPR: diagnosis 2
+NJ  1990 CORE              64 DCCHPR3              272  275   Num  I:CCHPR: diagnosis 3
+NJ  1990 CORE              65 DCCHPR4              276  279   Num  I:CCHPR: diagnosis 4
+NJ  1990 CORE              66 DCCHPR5              280  283   Num  I:CCHPR: diagnosis 5
+NJ  1990 CORE              67 DCCHPR6              284  287   Num  I:CCHPR: diagnosis 6
+NJ  1990 CORE              68 DCCHPR7              288  291   Num  I:CCHPR: diagnosis 7
+NJ  1990 CORE              69 DCCHPR8              292  295   Num  I:CCHPR: diagnosis 8
+NJ  1990 CORE              70 DCCHPR9              296  299   Num  I:CCHPR: diagnosis 9
+NJ  1990 CORE              71 PR2                  300  303   Char I:Procedure 2
+NJ  1990 CORE              72 PR3                  304  307   Char I:Procedure 3
+NJ  1990 CORE              73 PR4                  308  311   Char I:Procedure 4
+NJ  1990 CORE              74 PR5                  312  315   Char I:Procedure 5
+NJ  1990 CORE              75 PR6                  316  319   Char I:Procedure 6
+NJ  1990 CORE              76 PR7                  320  323   Char I:Procedure 7
+NJ  1990 CORE              77 PR8                  324  327   Char I:Procedure 8
+NJ  1990 CORE              78 PRV2                 328  330   Num  I:Validity flag: procedure 2
+NJ  1990 CORE              79 PRV3                 331  333   Num  I:Validity flag: procedure 3
+NJ  1990 CORE              80 PRV4                 334  336   Num  I:Validity flag: procedure 4
+NJ  1990 CORE              81 PRV5                 337  339   Num  I:Validity flag: procedure 5
+NJ  1990 CORE              82 PRV6                 340  342   Num  I:Validity flag: procedure 6
+NJ  1990 CORE              83 PRV7                 343  345   Num  I:Validity flag: procedure 7
+NJ  1990 CORE              84 PRV8                 346  348   Num  I:Validity flag: procedure 8
+NJ  1990 CORE              85 PCCHPR2              349  352   Num  I:CCHPR: procedure 2
+NJ  1990 CORE              86 PCCHPR3              353  356   Num  I:CCHPR: procedure 3
+NJ  1990 CORE              87 PCCHPR4              357  360   Num  I:CCHPR: procedure 4
+NJ  1990 CORE              88 PCCHPR5              361  364   Num  I:CCHPR: procedure 5
+NJ  1990 CORE              89 PCCHPR6              365  368   Num  I:CCHPR: procedure 6
+NJ  1990 CORE              90 PCCHPR7              369  372   Num  I:CCHPR: procedure 7
+NJ  1990 CORE              91 PCCHPR8              373  376   Num  I:CCHPR: procedure 8
+NJ  1990 CORE              92 PRDAY2               377  381   Num  I:No. of days from admission to PR2
+NJ  1990 CORE              93 PRDAY3               382  386   Num  I:No. of days from admission to PR3
+NJ  1990 CORE              94 PRDAY4               387  391   Num  I:No. of days from admission to PR4
+NJ  1990 CORE              95 PRDAY5               392  396   Num  I:No. of days from admission to PR5
+NJ  1990 CORE              96 PRDAY6               397  401   Num  I:No. of days from admission to PR6
+NJ  1990 CORE              97 PRDAY7               402  406   Num  I:No. of days from admission to PR7
+NJ  1990 CORE              98 PRDAY8               407  411   Num  I:No. of days from admission to PR8
+NJ  1990 CORE              99 ZIP                  412  416   Char I:Patient zip code
+NJ  1990 CORE             100 MRN_S                417  433   Char I:Medical record number (synthetic)
+NJ  1990 CORE             101 PAY1_X               434  436   Char I:Primary exp. payer (from data source)
+NJ  1990 CORE             102 PAY2_X               437  439   Char I:Secondary exp. payer (from data source
+NJ  1990 CORE             103 PAY3_X               440  442   Char I:Tertiary exp. payer (from data source)
+NJ  1990 CORE             104 BWT                  443  446   Num  I:Birthweight in grams
+NJ  1990 CORE             105 PSTCO                447  451   Num  I:Patient state/county FIPS code
+NJ  1990 CORE             106 READMIT              452  453   Num  I:Readmission
+NJ  1990 CORE             107 MDSPEC               454  454   Char I:Physician specialty

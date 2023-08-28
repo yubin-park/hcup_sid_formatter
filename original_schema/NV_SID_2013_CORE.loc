@@ -1,0 +1,281 @@
+Data Set Name: NV_SIDC_2013_CORE               
+Number of Observations: 298667
+Total Record Length: 920
+Total Number of Variables: 260
+Creation Date: 11/24/2014   
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 56    Variable name
+58- 61    Starting column of variable in ASCII file
+63- 66    Ending column of variable in ASCII file
+    68    Non-zero number of digits after decimal point for numeric variable
+70- 73    Variable type (Num=numeric; Char=character)
+75-174    Variable label
+
+
+NV  2013 CORE               1 AGE                           1    3   Num  Age in years at admission
+NV  2013 CORE               2 AGEDAY                        4    6   Num  Age in days (when age < 1 year)
+NV  2013 CORE               3 AGEMONTH                      7    9   Num  Age in months (when age < 11 years)
+NV  2013 CORE               4 AHOUR                        10   13   Num  Admission Hour
+NV  2013 CORE               5 AMONTH                       14   15   Num  Admission month
+NV  2013 CORE               6 ATYPE                        16   17   Num  Admission type
+NV  2013 CORE               7 AWEEKEND                     18   19   Num  Admission day is a weekend
+NV  2013 CORE               8 BILLTYPE                     20   23   Char Type of bill, UB-04 coding
+NV  2013 CORE               9 DHOUR                        24   27   Num  Discharge Hour
+NV  2013 CORE              10 DIED                         28   29   Num  Died during hospitalization
+NV  2013 CORE              11 DISPUB04                     30   31   Num  Disposition of patient (UB-04 standard coding)
+NV  2013 CORE              12 DISPUNIFORM                  32   33   Num  Disposition of patient (uniform)
+NV  2013 CORE              13 DISP_X                       34   35   Char Disposition of patient (as received from source)
+NV  2013 CORE              14 DMONTH                       36   37   Num  Discharge month
+NV  2013 CORE              15 DQTR                         38   39   Num  Discharge quarter
+NV  2013 CORE              16 DRG                          40   42   Num  DRG in effect on discharge date
+NV  2013 CORE              17 DRG24                        43   45   Num  DRG, version 24
+NV  2013 CORE              18 DRGVER                       46   47   Num  DRG grouper version used on discharge date
+NV  2013 CORE              19 DRG_NoPOA                    48   50   Num  DRG in use on discharge date, calculated without POA
+NV  2013 CORE              20 DSHOSPID                     51   67   Char Data source hospital identifier
+NV  2013 CORE              21 DX1                          68   72   Char Diagnosis 1
+NV  2013 CORE              22 DX2                          73   77   Char Diagnosis 2
+NV  2013 CORE              23 DX3                          78   82   Char Diagnosis 3
+NV  2013 CORE              24 DX4                          83   87   Char Diagnosis 4
+NV  2013 CORE              25 DX5                          88   92   Char Diagnosis 5
+NV  2013 CORE              26 DX6                          93   97   Char Diagnosis 6
+NV  2013 CORE              27 DX7                          98  102   Char Diagnosis 7
+NV  2013 CORE              28 DX8                         103  107   Char Diagnosis 8
+NV  2013 CORE              29 DX9                         108  112   Char Diagnosis 9
+NV  2013 CORE              30 DX10                        113  117   Char Diagnosis 10
+NV  2013 CORE              31 DX11                        118  122   Char Diagnosis 11
+NV  2013 CORE              32 DX12                        123  127   Char Diagnosis 12
+NV  2013 CORE              33 DX13                        128  132   Char Diagnosis 13
+NV  2013 CORE              34 DX14                        133  137   Char Diagnosis 14
+NV  2013 CORE              35 DX15                        138  142   Char Diagnosis 15
+NV  2013 CORE              36 DX16                        143  147   Char Diagnosis 16
+NV  2013 CORE              37 DX17                        148  152   Char Diagnosis 17
+NV  2013 CORE              38 DX18                        153  157   Char Diagnosis 18
+NV  2013 CORE              39 DX19                        158  162   Char Diagnosis 19
+NV  2013 CORE              40 DX20                        163  167   Char Diagnosis 20
+NV  2013 CORE              41 DX21                        168  172   Char Diagnosis 21
+NV  2013 CORE              42 DX22                        173  177   Char Diagnosis 22
+NV  2013 CORE              43 DX23                        178  182   Char Diagnosis 23
+NV  2013 CORE              44 DX24                        183  187   Char Diagnosis 24
+NV  2013 CORE              45 DX25                        188  192   Char Diagnosis 25
+NV  2013 CORE              46 DX26                        193  197   Char Diagnosis 26
+NV  2013 CORE              47 DX27                        198  202   Char Diagnosis 27
+NV  2013 CORE              48 DX28                        203  207   Char Diagnosis 28
+NV  2013 CORE              49 DX29                        208  212   Char Diagnosis 29
+NV  2013 CORE              50 DX30                        213  217   Char Diagnosis 30
+NV  2013 CORE              51 DX31                        218  222   Char Diagnosis 31
+NV  2013 CORE              52 DX32                        223  227   Char Diagnosis 32
+NV  2013 CORE              53 DX33                        228  232   Char Diagnosis 33
+NV  2013 CORE              54 DXCCS1                      233  236   Num  CCS: diagnosis 1
+NV  2013 CORE              55 DXCCS2                      237  240   Num  CCS: diagnosis 2
+NV  2013 CORE              56 DXCCS3                      241  244   Num  CCS: diagnosis 3
+NV  2013 CORE              57 DXCCS4                      245  248   Num  CCS: diagnosis 4
+NV  2013 CORE              58 DXCCS5                      249  252   Num  CCS: diagnosis 5
+NV  2013 CORE              59 DXCCS6                      253  256   Num  CCS: diagnosis 6
+NV  2013 CORE              60 DXCCS7                      257  260   Num  CCS: diagnosis 7
+NV  2013 CORE              61 DXCCS8                      261  264   Num  CCS: diagnosis 8
+NV  2013 CORE              62 DXCCS9                      265  268   Num  CCS: diagnosis 9
+NV  2013 CORE              63 DXCCS10                     269  272   Num  CCS: diagnosis 10
+NV  2013 CORE              64 DXCCS11                     273  276   Num  CCS: diagnosis 11
+NV  2013 CORE              65 DXCCS12                     277  280   Num  CCS: diagnosis 12
+NV  2013 CORE              66 DXCCS13                     281  284   Num  CCS: diagnosis 13
+NV  2013 CORE              67 DXCCS14                     285  288   Num  CCS: diagnosis 14
+NV  2013 CORE              68 DXCCS15                     289  292   Num  CCS: diagnosis 15
+NV  2013 CORE              69 DXCCS16                     293  296   Num  CCS: diagnosis 16
+NV  2013 CORE              70 DXCCS17                     297  300   Num  CCS: diagnosis 17
+NV  2013 CORE              71 DXCCS18                     301  304   Num  CCS: diagnosis 18
+NV  2013 CORE              72 DXCCS19                     305  308   Num  CCS: diagnosis 19
+NV  2013 CORE              73 DXCCS20                     309  312   Num  CCS: diagnosis 20
+NV  2013 CORE              74 DXCCS21                     313  316   Num  CCS: diagnosis 21
+NV  2013 CORE              75 DXCCS22                     317  320   Num  CCS: diagnosis 22
+NV  2013 CORE              76 DXCCS23                     321  324   Num  CCS: diagnosis 23
+NV  2013 CORE              77 DXCCS24                     325  328   Num  CCS: diagnosis 24
+NV  2013 CORE              78 DXCCS25                     329  332   Num  CCS: diagnosis 25
+NV  2013 CORE              79 DXCCS26                     333  336   Num  CCS: diagnosis 26
+NV  2013 CORE              80 DXCCS27                     337  340   Num  CCS: diagnosis 27
+NV  2013 CORE              81 DXCCS28                     341  344   Num  CCS: diagnosis 28
+NV  2013 CORE              82 DXCCS29                     345  348   Num  CCS: diagnosis 29
+NV  2013 CORE              83 DXCCS30                     349  352   Num  CCS: diagnosis 30
+NV  2013 CORE              84 DXCCS31                     353  356   Num  CCS: diagnosis 31
+NV  2013 CORE              85 DXCCS32                     357  360   Num  CCS: diagnosis 32
+NV  2013 CORE              86 DXCCS33                     361  364   Num  CCS: diagnosis 33
+NV  2013 CORE              87 DXPOA1                      365  365   Char Diagnosis 1, present on admission indicator
+NV  2013 CORE              88 DXPOA2                      366  366   Char Diagnosis 2, present on admission indicator
+NV  2013 CORE              89 DXPOA3                      367  367   Char Diagnosis 3, present on admission indicator
+NV  2013 CORE              90 DXPOA4                      368  368   Char Diagnosis 4, present on admission indicator
+NV  2013 CORE              91 DXPOA5                      369  369   Char Diagnosis 5, present on admission indicator
+NV  2013 CORE              92 DXPOA6                      370  370   Char Diagnosis 6, present on admission indicator
+NV  2013 CORE              93 DXPOA7                      371  371   Char Diagnosis 7, present on admission indicator
+NV  2013 CORE              94 DXPOA8                      372  372   Char Diagnosis 8, present on admission indicator
+NV  2013 CORE              95 DXPOA9                      373  373   Char Diagnosis 9, present on admission indicator
+NV  2013 CORE              96 DXPOA10                     374  374   Char Diagnosis 10, present on admission indicator
+NV  2013 CORE              97 DXPOA11                     375  375   Char Diagnosis 11, present on admission indicator
+NV  2013 CORE              98 DXPOA12                     376  376   Char Diagnosis 12, present on admission indicator
+NV  2013 CORE              99 DXPOA13                     377  377   Char Diagnosis 13, present on admission indicator
+NV  2013 CORE             100 DXPOA14                     378  378   Char Diagnosis 14, present on admission indicator
+NV  2013 CORE             101 DXPOA15                     379  379   Char Diagnosis 15, present on admission indicator
+NV  2013 CORE             102 DXPOA16                     380  380   Char Diagnosis 16, present on admission indicator
+NV  2013 CORE             103 DXPOA17                     381  381   Char Diagnosis 17, present on admission indicator
+NV  2013 CORE             104 DXPOA18                     382  382   Char Diagnosis 18, present on admission indicator
+NV  2013 CORE             105 DXPOA19                     383  383   Char Diagnosis 19, present on admission indicator
+NV  2013 CORE             106 DXPOA20                     384  384   Char Diagnosis 20, present on admission indicator
+NV  2013 CORE             107 DXPOA21                     385  385   Char Diagnosis 21, present on admission indicator
+NV  2013 CORE             108 DXPOA22                     386  386   Char Diagnosis 22, present on admission indicator
+NV  2013 CORE             109 DXPOA23                     387  387   Char Diagnosis 23, present on admission indicator
+NV  2013 CORE             110 DXPOA24                     388  388   Char Diagnosis 24, present on admission indicator
+NV  2013 CORE             111 DXPOA25                     389  389   Char Diagnosis 25, present on admission indicator
+NV  2013 CORE             112 DXPOA26                     390  390   Char Diagnosis 26, present on admission indicator
+NV  2013 CORE             113 DXPOA27                     391  391   Char Diagnosis 27, present on admission indicator
+NV  2013 CORE             114 DXPOA28                     392  392   Char Diagnosis 28, present on admission indicator
+NV  2013 CORE             115 DXPOA29                     393  393   Char Diagnosis 29, present on admission indicator
+NV  2013 CORE             116 DXPOA30                     394  394   Char Diagnosis 30, present on admission indicator
+NV  2013 CORE             117 DXPOA31                     395  395   Char Diagnosis 31, present on admission indicator
+NV  2013 CORE             118 DXPOA32                     396  396   Char Diagnosis 32, present on admission indicator
+NV  2013 CORE             119 DXPOA33                     397  397   Char Diagnosis 33, present on admission indicator
+NV  2013 CORE             120 DX_Admitting                398  402   Char Admitting Diagnosis Code
+NV  2013 CORE             121 ECODE1                      403  407   Char E code 1
+NV  2013 CORE             122 ECODE2                      408  412   Char E code 2
+NV  2013 CORE             123 ECODE3                      413  417   Char E code 3
+NV  2013 CORE             124 ECODE4                      418  422   Char E code 4
+NV  2013 CORE             125 E_CCS1                      423  426   Num  CCS: E Code 1
+NV  2013 CORE             126 E_CCS2                      427  430   Num  CCS: E Code 2
+NV  2013 CORE             127 E_CCS3                      431  434   Num  CCS: E Code 3
+NV  2013 CORE             128 E_CCS4                      435  438   Num  CCS: E Code 4
+NV  2013 CORE             129 E_POA1                      439  439   Char E Code 1, present on admission indicator
+NV  2013 CORE             130 E_POA2                      440  440   Char E Code 2, present on admission indicator
+NV  2013 CORE             131 E_POA3                      441  441   Char E Code 3, present on admission indicator
+NV  2013 CORE             132 E_POA4                      442  442   Char E Code 4, present on admission indicator
+NV  2013 CORE             133 FEMALE                      443  444   Num  Indicator of sex
+NV  2013 CORE             134 HCUP_ED                     445  446   Num  HCUP Emergency Department service indicator
+NV  2013 CORE             135 HCUP_OS                     447  448   Num  HCUP Observation Stay service indicator
+NV  2013 CORE             136 HOSPBRTH                    449  451   Num  Indicator of birth in this hospital
+NV  2013 CORE             137 HOSPST                      452  453   Char Hospital state postal code
+NV  2013 CORE             138 KEY                         454  468   Num  HCUP record identifier
+NV  2013 CORE             139 LOS                         469  473   Num  Length of stay (cleaned)
+NV  2013 CORE             140 LOS_X                       474  479   Num  Length of stay (as received from source)
+NV  2013 CORE             141 MARITALSTATUSUB04           480  480   Char Patient's marital status, UB-04 standard coding
+NV  2013 CORE             142 MARITALSTATUS_X             481  481   Char Patient's marital status (as received from source)
+NV  2013 CORE             143 MDC                         482  483   Num  MDC in effect on discharge date
+NV  2013 CORE             144 MDC24                       484  485   Num  MDC, version 24
+NV  2013 CORE             145 MDC_NoPOA                   486  487   Num  MDC in use on discharge date, calculated without POA
+NV  2013 CORE             146 MDNUM1_R                    488  496   Num  Physician 1 number (re-identified)
+NV  2013 CORE             147 MDNUM2_R                    497  505   Num  Physician 2 number (re-identified)
+NV  2013 CORE             148 MDNUMTYPE1                  506  506   Char Physician 1 number type
+NV  2013 CORE             149 MDNUMTYPE2                  507  507   Char Physician 2 number type
+NV  2013 CORE             150 MEDINCSTQ                   508  509   Num  Median household income state quartile for patient ZIP Code
+NV  2013 CORE             151 NCHRONIC                    510  512   Num  Number of chronic conditions
+NV  2013 CORE             152 NDX                         513  514   Num  Number of diagnoses on this record
+NV  2013 CORE             153 NECODE                      515  516   Num  Number of E codes on this record
+NV  2013 CORE             154 NEOMAT                      517  518   Num  Neonatal and/or maternal DX and/or PR
+NV  2013 CORE             155 NPR                         519  520   Num  Number of procedures on this record
+NV  2013 CORE             156 ORPROC                      521  522   Num  Major operating room procedure indicator
+NV  2013 CORE             157 OS_TIME                     523  530   Num  Observation stay time summed from UNITS
+NV  2013 CORE             158 PAY1                        531  532   Num  Primary expected payer (uniform)
+NV  2013 CORE             159 PAY1_X                      533  534   Char Primary expected payer (as received from source)
+NV  2013 CORE             160 PAY2                        535  536   Num  Secondary expected payer (uniform)
+NV  2013 CORE             161 PAY2_X                      537  538   Char Secondary expected payer (as received from source)
+NV  2013 CORE             162 PAY3                        539  540   Num  Tertiary expected payer (uniform)
+NV  2013 CORE             163 PAY3_X                      541  542   Char Tertiary expected payer (as received from source)
+NV  2013 CORE             164 PL_NCHS                     543  544   Num  Patient Location: NCHS Urban-Rural Code
+NV  2013 CORE             165 PL_RUCA10_2005              545  546   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, ten levels
+NV  2013 CORE             166 PL_RUCA2005                 547  550 1 Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes
+NV  2013 CORE             167 PL_RUCA4_2005               551  552   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, four levels
+NV  2013 CORE             168 PL_RUCC                     553  554   Num  Patient location: Rural-Urban Continuum Codes(RUCC)
+NV  2013 CORE             169 PL_UIC                      555  556   Num  Patient location: Urban Influence Codes
+NV  2013 CORE             170 PL_UR_CAT4                  557  558   Num  Patient Location: Urban-Rural 4 Categories
+NV  2013 CORE             171 PR1                         559  562   Char Procedure 1
+NV  2013 CORE             172 PR2                         563  566   Char Procedure 2
+NV  2013 CORE             173 PR3                         567  570   Char Procedure 3
+NV  2013 CORE             174 PR4                         571  574   Char Procedure 4
+NV  2013 CORE             175 PR5                         575  578   Char Procedure 5
+NV  2013 CORE             176 PR6                         579  582   Char Procedure 6
+NV  2013 CORE             177 PR7                         583  586   Char Procedure 7
+NV  2013 CORE             178 PR8                         587  590   Char Procedure 8
+NV  2013 CORE             179 PR9                         591  594   Char Procedure 9
+NV  2013 CORE             180 PR10                        595  598   Char Procedure 10
+NV  2013 CORE             181 PR11                        599  602   Char Procedure 11
+NV  2013 CORE             182 PR12                        603  606   Char Procedure 12
+NV  2013 CORE             183 PR13                        607  610   Char Procedure 13
+NV  2013 CORE             184 PR14                        611  614   Char Procedure 14
+NV  2013 CORE             185 PR15                        615  618   Char Procedure 15
+NV  2013 CORE             186 PR16                        619  622   Char Procedure 16
+NV  2013 CORE             187 PR17                        623  626   Char Procedure 17
+NV  2013 CORE             188 PR18                        627  630   Char Procedure 18
+NV  2013 CORE             189 PR19                        631  634   Char Procedure 19
+NV  2013 CORE             190 PR20                        635  638   Char Procedure 20
+NV  2013 CORE             191 PR21                        639  642   Char Procedure 21
+NV  2013 CORE             192 PR22                        643  646   Char Procedure 22
+NV  2013 CORE             193 PR23                        647  650   Char Procedure 23
+NV  2013 CORE             194 PR24                        651  654   Char Procedure 24
+NV  2013 CORE             195 PR25                        655  658   Char Procedure 25
+NV  2013 CORE             196 PRCCS1                      659  661   Num  CCS: procedure 1
+NV  2013 CORE             197 PRCCS2                      662  664   Num  CCS: procedure 2
+NV  2013 CORE             198 PRCCS3                      665  667   Num  CCS: procedure 3
+NV  2013 CORE             199 PRCCS4                      668  670   Num  CCS: procedure 4
+NV  2013 CORE             200 PRCCS5                      671  673   Num  CCS: procedure 5
+NV  2013 CORE             201 PRCCS6                      674  676   Num  CCS: procedure 6
+NV  2013 CORE             202 PRCCS7                      677  679   Num  CCS: procedure 7
+NV  2013 CORE             203 PRCCS8                      680  682   Num  CCS: procedure 8
+NV  2013 CORE             204 PRCCS9                      683  685   Num  CCS: procedure 9
+NV  2013 CORE             205 PRCCS10                     686  688   Num  CCS: procedure 10
+NV  2013 CORE             206 PRCCS11                     689  691   Num  CCS: procedure 11
+NV  2013 CORE             207 PRCCS12                     692  694   Num  CCS: procedure 12
+NV  2013 CORE             208 PRCCS13                     695  697   Num  CCS: procedure 13
+NV  2013 CORE             209 PRCCS14                     698  700   Num  CCS: procedure 14
+NV  2013 CORE             210 PRCCS15                     701  703   Num  CCS: procedure 15
+NV  2013 CORE             211 PRCCS16                     704  706   Num  CCS: procedure 16
+NV  2013 CORE             212 PRCCS17                     707  709   Num  CCS: procedure 17
+NV  2013 CORE             213 PRCCS18                     710  712   Num  CCS: procedure 18
+NV  2013 CORE             214 PRCCS19                     713  715   Num  CCS: procedure 19
+NV  2013 CORE             215 PRCCS20                     716  718   Num  CCS: procedure 20
+NV  2013 CORE             216 PRCCS21                     719  721   Num  CCS: procedure 21
+NV  2013 CORE             217 PRCCS22                     722  724   Num  CCS: procedure 22
+NV  2013 CORE             218 PRCCS23                     725  727   Num  CCS: procedure 23
+NV  2013 CORE             219 PRCCS24                     728  730   Num  CCS: procedure 24
+NV  2013 CORE             220 PRCCS25                     731  733   Num  CCS: procedure 25
+NV  2013 CORE             221 PRDAY1                      734  738   Num  Number of days from admission to PR1
+NV  2013 CORE             222 PRDAY2                      739  743   Num  Number of days from admission to PR2
+NV  2013 CORE             223 PRDAY3                      744  748   Num  Number of days from admission to PR3
+NV  2013 CORE             224 PRDAY4                      749  753   Num  Number of days from admission to PR4
+NV  2013 CORE             225 PRDAY5                      754  758   Num  Number of days from admission to PR5
+NV  2013 CORE             226 PRDAY6                      759  763   Num  Number of days from admission to PR6
+NV  2013 CORE             227 PRDAY7                      764  768   Num  Number of days from admission to PR7
+NV  2013 CORE             228 PRDAY8                      769  773   Num  Number of days from admission to PR8
+NV  2013 CORE             229 PRDAY9                      774  778   Num  Number of days from admission to PR9
+NV  2013 CORE             230 PRDAY10                     779  783   Num  Number of days from admission to PR10
+NV  2013 CORE             231 PRDAY11                     784  788   Num  Number of days from admission to PR11
+NV  2013 CORE             232 PRDAY12                     789  793   Num  Number of days from admission to PR12
+NV  2013 CORE             233 PRDAY13                     794  798   Num  Number of days from admission to PR13
+NV  2013 CORE             234 PRDAY14                     799  803   Num  Number of days from admission to PR14
+NV  2013 CORE             235 PRDAY15                     804  808   Num  Number of days from admission to PR15
+NV  2013 CORE             236 PRDAY16                     809  813   Num  Number of days from admission to PR16
+NV  2013 CORE             237 PRDAY17                     814  818   Num  Number of days from admission to PR17
+NV  2013 CORE             238 PRDAY18                     819  823   Num  Number of days from admission to PR18
+NV  2013 CORE             239 PRDAY19                     824  828   Num  Number of days from admission to PR19
+NV  2013 CORE             240 PRDAY20                     829  833   Num  Number of days from admission to PR20
+NV  2013 CORE             241 PRDAY21                     834  838   Num  Number of days from admission to PR21
+NV  2013 CORE             242 PRDAY22                     839  843   Num  Number of days from admission to PR22
+NV  2013 CORE             243 PRDAY23                     844  848   Num  Number of days from admission to PR23
+NV  2013 CORE             244 PRDAY24                     849  853   Num  Number of days from admission to PR24
+NV  2013 CORE             245 PRDAY25                     854  858   Num  Number of days from admission to PR25
+NV  2013 CORE             246 PROCTYPE                    859  861   Num  Procedure type indicator
+NV  2013 CORE             247 PSTATE                      862  863   Char Patient State postal code
+NV  2013 CORE             248 PSTCO                       864  868   Num  Patient state/county FIPS code
+NV  2013 CORE             249 PSTCO2                      869  873   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+NV  2013 CORE             250 PointOfOriginUB04           874  874   Char Point of origin for admission or visit, UB-04 standard coding
+NV  2013 CORE             251 PointOfOrigin_X             875  876   Char Point of origin for admission or visit, as received from source
+NV  2013 CORE             252 RACE                        877  878   Num  Race (uniform)
+NV  2013 CORE             253 RACE_X                      879  880   Char Race (as received from source)
+NV  2013 CORE             254 TOTCHG                      881  890   Num  Total charges (cleaned)
+NV  2013 CORE             255 TOTCHG_X                    891  905 2 Num  Total charges (as received from source)
+NV  2013 CORE             256 TRAN_IN                     906  907   Num  Transfer in indicator
+NV  2013 CORE             257 TRAN_OUT                    908  909   Num  Transfer out indicator
+NV  2013 CORE             258 YEAR                        910  913   Num  Calendar year
+NV  2013 CORE             259 ZIPINC_QRTL                 914  916   Num  Median household income national quartile for patient ZIP Code
+NV  2013 CORE             260 AYEAR                       917  920   Num  Admission year

@@ -1,0 +1,252 @@
+Data Set Name: KY_SIDC_2017_CORE               
+Number of Observations: 603131
+Total Record Length: 947
+Total Number of Variables: 231
+Creation Date: 11/29/2018   
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 61    Variable name
+63- 66    Starting column of variable in ASCII file
+68- 71    Ending column of variable in ASCII file
+73- 73    Non-zero number of digits after decimal point for numeric variable
+75- 78    Variable type (Num=numeric; Char=character)
+80-179    Variable label
+
+
+KY  2017 CORE               1 AGE                                1    3   Num  Age in years at admission
+KY  2017 CORE               2 AGEDAY                             4    6   Num  Age in days (when age < 1 year)
+KY  2017 CORE               3 AGEMONTH                           7    9   Num  Age in months (when age < 11 years)
+KY  2017 CORE               4 AMONTH                            10   11   Num  Admission month
+KY  2017 CORE               5 ATYPE                             12   13   Num  Admission type
+KY  2017 CORE               6 AWEEKEND                          14   15   Num  Admission day is a weekend
+KY  2017 CORE               7 BILLTYPE                          16   19   Char Type of bill, UB-04 coding
+KY  2017 CORE               8 BWT                               20   23   Num  Birth weight in grams
+KY  2017 CORE               9 DIED                              24   25   Num  Died during hospitalization
+KY  2017 CORE              10 DISP_X                            26   27   Char Disposition of patient (as received from source)
+KY  2017 CORE              11 DISPUB04                          28   29   Num  Disposition of patient (UB-04 standard coding)
+KY  2017 CORE              12 DISPUNIFORM                       30   31   Num  Disposition of patient (uniform)
+KY  2017 CORE              13 DMONTH                            32   33   Num  Discharge month
+KY  2017 CORE              14 DNR                               34   35   Num  Do not resuscitate indicator
+KY  2017 CORE              15 DQTR                              36   37   Num  Discharge quarter
+KY  2017 CORE              16 DRG                               38   40   Num  DRG in effect on discharge date
+KY  2017 CORE              17 DRG_NoPOA                         41   43   Num  DRG in use on discharge date, calculated without POA
+KY  2017 CORE              18 DRGVER                            44   45   Num  DRG grouper version used on discharge date
+KY  2017 CORE              19 DSHOSPID                          46   62   Char Data source hospital identifier
+KY  2017 CORE              20 DXPOA1                            63   63   Char Diagnosis 1, present on admission indicator
+KY  2017 CORE              21 DXPOA2                            64   64   Char Diagnosis 2, present on admission indicator
+KY  2017 CORE              22 DXPOA3                            65   65   Char Diagnosis 3, present on admission indicator
+KY  2017 CORE              23 DXPOA4                            66   66   Char Diagnosis 4, present on admission indicator
+KY  2017 CORE              24 DXPOA5                            67   67   Char Diagnosis 5, present on admission indicator
+KY  2017 CORE              25 DXPOA6                            68   68   Char Diagnosis 6, present on admission indicator
+KY  2017 CORE              26 DXPOA7                            69   69   Char Diagnosis 7, present on admission indicator
+KY  2017 CORE              27 DXPOA8                            70   70   Char Diagnosis 8, present on admission indicator
+KY  2017 CORE              28 DXPOA9                            71   71   Char Diagnosis 9, present on admission indicator
+KY  2017 CORE              29 DXPOA10                           72   72   Char Diagnosis 10, present on admission indicator
+KY  2017 CORE              30 DXPOA11                           73   73   Char Diagnosis 11, present on admission indicator
+KY  2017 CORE              31 DXPOA12                           74   74   Char Diagnosis 12, present on admission indicator
+KY  2017 CORE              32 DXPOA13                           75   75   Char Diagnosis 13, present on admission indicator
+KY  2017 CORE              33 DXPOA14                           76   76   Char Diagnosis 14, present on admission indicator
+KY  2017 CORE              34 DXPOA15                           77   77   Char Diagnosis 15, present on admission indicator
+KY  2017 CORE              35 DXPOA16                           78   78   Char Diagnosis 16, present on admission indicator
+KY  2017 CORE              36 DXPOA17                           79   79   Char Diagnosis 17, present on admission indicator
+KY  2017 CORE              37 DXPOA18                           80   80   Char Diagnosis 18, present on admission indicator
+KY  2017 CORE              38 DXPOA19                           81   81   Char Diagnosis 19, present on admission indicator
+KY  2017 CORE              39 DXPOA20                           82   82   Char Diagnosis 20, present on admission indicator
+KY  2017 CORE              40 DXPOA21                           83   83   Char Diagnosis 21, present on admission indicator
+KY  2017 CORE              41 DXPOA22                           84   84   Char Diagnosis 22, present on admission indicator
+KY  2017 CORE              42 DXPOA23                           85   85   Char Diagnosis 23, present on admission indicator
+KY  2017 CORE              43 DXPOA24                           86   86   Char Diagnosis 24, present on admission indicator
+KY  2017 CORE              44 DXPOA25                           87   87   Char Diagnosis 25, present on admission indicator
+KY  2017 CORE              45 DXPOA26                           88   88   Char Diagnosis 26, present on admission indicator
+KY  2017 CORE              46 DXPOA27                           89   89   Char Diagnosis 27, present on admission indicator
+KY  2017 CORE              47 DXPOA28                           90   90   Char Diagnosis 28, present on admission indicator
+KY  2017 CORE              48 DXVER                             91   93   Num  Diagnosis Version
+KY  2017 CORE              49 FEMALE                            94   95   Num  Indicator of sex
+KY  2017 CORE              50 HCUP_ED                           96   97   Num  HCUP Emergency Department service indicator
+KY  2017 CORE              51 HCUP_OS                           98   99   Num  HCUP Observation Stay service indicator
+KY  2017 CORE              52 HISPANIC                         100  101   Num  Hispanic ethnicity (uniform)
+KY  2017 CORE              53 HISPANIC_X                       102  103   Char Hispanic ethnicity (as received from source)
+KY  2017 CORE              54 HOSP_NPI                         104  113   Char Hospital NPI
+KY  2017 CORE              55 HOSPST                           114  115   Char Hospital state postal code
+KY  2017 CORE              56 I10_DX_Admitting                 116  122   Char ICD-10-CM Admitting Diagnosis Code
+KY  2017 CORE              57 I10_DX1                          123  129   Char ICD-10-CM Diagnosis 1
+KY  2017 CORE              58 I10_DX2                          130  136   Char ICD-10-CM Diagnosis 2
+KY  2017 CORE              59 I10_DX3                          137  143   Char ICD-10-CM Diagnosis 3
+KY  2017 CORE              60 I10_DX4                          144  150   Char ICD-10-CM Diagnosis 4
+KY  2017 CORE              61 I10_DX5                          151  157   Char ICD-10-CM Diagnosis 5
+KY  2017 CORE              62 I10_DX6                          158  164   Char ICD-10-CM Diagnosis 6
+KY  2017 CORE              63 I10_DX7                          165  171   Char ICD-10-CM Diagnosis 7
+KY  2017 CORE              64 I10_DX8                          172  178   Char ICD-10-CM Diagnosis 8
+KY  2017 CORE              65 I10_DX9                          179  185   Char ICD-10-CM Diagnosis 9
+KY  2017 CORE              66 I10_DX10                         186  192   Char ICD-10-CM Diagnosis 10
+KY  2017 CORE              67 I10_DX11                         193  199   Char ICD-10-CM Diagnosis 11
+KY  2017 CORE              68 I10_DX12                         200  206   Char ICD-10-CM Diagnosis 12
+KY  2017 CORE              69 I10_DX13                         207  213   Char ICD-10-CM Diagnosis 13
+KY  2017 CORE              70 I10_DX14                         214  220   Char ICD-10-CM Diagnosis 14
+KY  2017 CORE              71 I10_DX15                         221  227   Char ICD-10-CM Diagnosis 15
+KY  2017 CORE              72 I10_DX16                         228  234   Char ICD-10-CM Diagnosis 16
+KY  2017 CORE              73 I10_DX17                         235  241   Char ICD-10-CM Diagnosis 17
+KY  2017 CORE              74 I10_DX18                         242  248   Char ICD-10-CM Diagnosis 18
+KY  2017 CORE              75 I10_DX19                         249  255   Char ICD-10-CM Diagnosis 19
+KY  2017 CORE              76 I10_DX20                         256  262   Char ICD-10-CM Diagnosis 20
+KY  2017 CORE              77 I10_DX21                         263  269   Char ICD-10-CM Diagnosis 21
+KY  2017 CORE              78 I10_DX22                         270  276   Char ICD-10-CM Diagnosis 22
+KY  2017 CORE              79 I10_DX23                         277  283   Char ICD-10-CM Diagnosis 23
+KY  2017 CORE              80 I10_DX24                         284  290   Char ICD-10-CM Diagnosis 24
+KY  2017 CORE              81 I10_DX25                         291  297   Char ICD-10-CM Diagnosis 25
+KY  2017 CORE              82 I10_DX26                         298  304   Char ICD-10-CM Diagnosis 26
+KY  2017 CORE              83 I10_DX27                         305  311   Char ICD-10-CM Diagnosis 27
+KY  2017 CORE              84 I10_DX28                         312  318   Char ICD-10-CM Diagnosis 28
+KY  2017 CORE              85 I10_NDX                          319  321   Num  ICD-10-CM Number of diagnoses on this record
+KY  2017 CORE              86 I10_NPR                          322  324   Num  ICD-10-PCS Number of procedures on this record
+KY  2017 CORE              87 I10_PR1                          325  331   Char ICD-10-PCS Procedure 1
+KY  2017 CORE              88 I10_PR2                          332  338   Char ICD-10-PCS Procedure 2
+KY  2017 CORE              89 I10_PR3                          339  345   Char ICD-10-PCS Procedure 3
+KY  2017 CORE              90 I10_PR4                          346  352   Char ICD-10-PCS Procedure 4
+KY  2017 CORE              91 I10_PR5                          353  359   Char ICD-10-PCS Procedure 5
+KY  2017 CORE              92 I10_PR6                          360  366   Char ICD-10-PCS Procedure 6
+KY  2017 CORE              93 I10_PR7                          367  373   Char ICD-10-PCS Procedure 7
+KY  2017 CORE              94 I10_PR8                          374  380   Char ICD-10-PCS Procedure 8
+KY  2017 CORE              95 I10_PR9                          381  387   Char ICD-10-PCS Procedure 9
+KY  2017 CORE              96 I10_PR10                         388  394   Char ICD-10-PCS Procedure 10
+KY  2017 CORE              97 I10_PR11                         395  401   Char ICD-10-PCS Procedure 11
+KY  2017 CORE              98 I10_PR12                         402  408   Char ICD-10-PCS Procedure 12
+KY  2017 CORE              99 I10_PR13                         409  415   Char ICD-10-PCS Procedure 13
+KY  2017 CORE             100 I10_PR14                         416  422   Char ICD-10-PCS Procedure 14
+KY  2017 CORE             101 I10_PR15                         423  429   Char ICD-10-PCS Procedure 15
+KY  2017 CORE             102 I10_PR16                         430  436   Char ICD-10-PCS Procedure 16
+KY  2017 CORE             103 I10_PR17                         437  443   Char ICD-10-PCS Procedure 17
+KY  2017 CORE             104 I10_PR18                         444  450   Char ICD-10-PCS Procedure 18
+KY  2017 CORE             105 I10_PR19                         451  457   Char ICD-10-PCS Procedure 19
+KY  2017 CORE             106 I10_PR20                         458  464   Char ICD-10-PCS Procedure 20
+KY  2017 CORE             107 I10_PR21                         465  471   Char ICD-10-PCS Procedure 21
+KY  2017 CORE             108 I10_PR22                         472  478   Char ICD-10-PCS Procedure 22
+KY  2017 CORE             109 I10_PR23                         479  485   Char ICD-10-PCS Procedure 23
+KY  2017 CORE             110 I10_PR24                         486  492   Char ICD-10-PCS Procedure 24
+KY  2017 CORE             111 I10_PR25                         493  499   Char ICD-10-PCS Procedure 25
+KY  2017 CORE             112 I10_PROCTYPE                     500  502   Num  ICD-10-PCS Procedure type indicator
+KY  2017 CORE             113 KEY                              503  517   Num  HCUP record identifier
+KY  2017 CORE             114 LOS                              518  522   Num  Length of stay (cleaned)
+KY  2017 CORE             115 LOS_X                            523  528   Num  Length of stay (as received from source)
+KY  2017 CORE             116 MDC                              529  530   Num  MDC in effect on discharge date
+KY  2017 CORE             117 MDC_NoPOA                        531  532   Num  MDC in use on discharge date, calculated without POA
+KY  2017 CORE             118 MEDINCSTQ                        533  534   Num  Median household income state quartile for patient ZIP Code
+KY  2017 CORE             119 OS_TIME                          535  545 2 Num  Observation stay time summed from UNITS
+KY  2017 CORE             120 PAY1                             546  547   Num  Primary expected payer (uniform)
+KY  2017 CORE             121 PAY1_X                           548  552   Char Primary expected payer (as received from source)
+KY  2017 CORE             122 PAY2                             553  554   Num  Secondary expected payer (uniform)
+KY  2017 CORE             123 PAY2_X                           555  559   Char Secondary expected payer (as received from source)
+KY  2017 CORE             124 PAY3                             560  561   Num  Tertiary expected payer (uniform)
+KY  2017 CORE             125 PAY3_X                           562  566   Char Tertiary expected payer (as received from source)
+KY  2017 CORE             126 PL_CBSA                          567  569   Num  Patient location: Core Based Statistical Area (CBSA)
+KY  2017 CORE             127 PL_NCHS                          570  571   Num  Patient Location: NCHS Urban-Rural Code
+KY  2017 CORE             128 PL_RUCC                          572  573   Num  Patient location: Rural-Urban Continuum Codes(RUCC)
+KY  2017 CORE             129 PL_UIC                           574  575   Num  Patient location: Urban Influence Codes
+KY  2017 CORE             130 PL_UR_CAT4                       576  577   Num  Patient Location: Urban-Rural 4 Categories
+KY  2017 CORE             131 POA_Disch_Edit1                  578  579   Num  Discharge has POA missing on all nonexempt diagnoses
+KY  2017 CORE             132 POA_Disch_Edit2                  580  581   Num  Discharge has POA missing on all nonexempt secondary diagnoses
+KY  2017 CORE             133 POA_Hosp_Edit1                   582  583   Num  Hospital reported POA as Y on all diagnoses on all discharges
+KY  2017 CORE             134 POA_Hosp_Edit2                   584  585   Num  Hospital reported POA as missing on all non-Medicare discharges
+KY  2017 CORE             135 POA_Hosp_Edit3                   586  587   Num  Hospital reported POA as missing on all nonexempt diagnoses for 15% or more of discharges
+KY  2017 CORE             136 POA_Hosp_Edit3_Value             588  595 2 Num  Percentage of discharges with all nonexempt diagnoses missing POA indicators
+KY  2017 CORE             137 PointOfOrigin_X                  596  596   Char Point of origin for admission or visit, as received from source
+KY  2017 CORE             138 PointOfOriginUB04                597  597   Char Point of origin for admission or visit, UB-04 standard coding
+KY  2017 CORE             139 PRDAY1                           598  602   Num  Number of days from admission to I10_PR1
+KY  2017 CORE             140 PRDAY2                           603  607   Num  Number of days from admission to I10_PR2
+KY  2017 CORE             141 PRDAY3                           608  612   Num  Number of days from admission to I10_PR3
+KY  2017 CORE             142 PRDAY4                           613  617   Num  Number of days from admission to I10_PR4
+KY  2017 CORE             143 PRDAY5                           618  622   Num  Number of days from admission to I10_PR5
+KY  2017 CORE             144 PRDAY6                           623  627   Num  Number of days from admission to I10_PR6
+KY  2017 CORE             145 PRDAY7                           628  632   Num  Number of days from admission to I10_PR7
+KY  2017 CORE             146 PRDAY8                           633  637   Num  Number of days from admission to I10_PR8
+KY  2017 CORE             147 PRDAY9                           638  642   Num  Number of days from admission to I10_PR9
+KY  2017 CORE             148 PRDAY10                          643  647   Num  Number of days from admission to I10_PR10
+KY  2017 CORE             149 PRDAY11                          648  652   Num  Number of days from admission to I10_PR11
+KY  2017 CORE             150 PRDAY12                          653  657   Num  Number of days from admission to I10_PR12
+KY  2017 CORE             151 PRDAY13                          658  662   Num  Number of days from admission to I10_PR13
+KY  2017 CORE             152 PRDAY14                          663  667   Num  Number of days from admission to I10_PR14
+KY  2017 CORE             153 PRDAY15                          668  672   Num  Number of days from admission to I10_PR15
+KY  2017 CORE             154 PRDAY16                          673  677   Num  Number of days from admission to I10_PR16
+KY  2017 CORE             155 PRDAY17                          678  682   Num  Number of days from admission to I10_PR17
+KY  2017 CORE             156 PRDAY18                          683  687   Num  Number of days from admission to I10_PR18
+KY  2017 CORE             157 PRDAY19                          688  692   Num  Number of days from admission to I10_PR19
+KY  2017 CORE             158 PRDAY20                          693  697   Num  Number of days from admission to I10_PR20
+KY  2017 CORE             159 PRDAY21                          698  702   Num  Number of days from admission to I10_PR21
+KY  2017 CORE             160 PRDAY22                          703  707   Num  Number of days from admission to I10_PR22
+KY  2017 CORE             161 PRDAY23                          708  712   Num  Number of days from admission to I10_PR23
+KY  2017 CORE             162 PRDAY24                          713  717   Num  Number of days from admission to I10_PR24
+KY  2017 CORE             163 PRDAY25                          718  722   Num  Number of days from admission to I10_PR25
+KY  2017 CORE             164 PRVER                            723  725   Num  Procedure Version
+KY  2017 CORE             165 PSTATE                           726  727   Char Patient State postal code
+KY  2017 CORE             166 PSTCO                            728  732   Num  Patient state/county FIPS code
+KY  2017 CORE             167 PSTCO2                           733  737   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+KY  2017 CORE             168 RACE                             738  739   Num  Race (uniform)
+KY  2017 CORE             169 RACE_EDIT                        740  741   Num  Race Edit Checks
+KY  2017 CORE             170 RACE_X                           742  743   Char Race (as received from source)
+KY  2017 CORE             171 TOTCHG                           744  753   Num  Total charges (cleaned)
+KY  2017 CORE             172 TOTCHG_X                         754  768 2 Num  Total charges (as received from source)
+KY  2017 CORE             173 TRAN_IN                          769  770   Num  Transfer in indicator
+KY  2017 CORE             174 TRAN_OUT                         771  772   Num  Transfer out indicator
+KY  2017 CORE             175 YEAR                             773  776   Num  Calendar year
+KY  2017 CORE             176 ZIP                              777  781   Char Patient ZIP Code
+KY  2017 CORE             177 ZIP3                             782  784   Char Patient ZIP Code, first 3 digits
+KY  2017 CORE             178 ZIPINC_QRTL                      785  787   Num  Median household income national quartile for patient ZIP Code
+KY  2017 CORE             179 AYEAR                            788  791   Num  Admission year
+KY  2017 CORE             180 BMONTH                           792  793   Num  Birth month
+KY  2017 CORE             181 BYEAR                            794  797   Num  Birth year
+KY  2017 CORE             182 PRMONTH1                         798  799   Num  Month of procedure 1
+KY  2017 CORE             183 PRMONTH2                         800  801   Num  Month of procedure 2
+KY  2017 CORE             184 PRMONTH3                         802  803   Num  Month of procedure 3
+KY  2017 CORE             185 PRMONTH4                         804  805   Num  Month of procedure 4
+KY  2017 CORE             186 PRMONTH5                         806  807   Num  Month of procedure 5
+KY  2017 CORE             187 PRMONTH6                         808  809   Num  Month of procedure 6
+KY  2017 CORE             188 PRMONTH7                         810  811   Num  Month of procedure 7
+KY  2017 CORE             189 PRMONTH8                         812  813   Num  Month of procedure 8
+KY  2017 CORE             190 PRMONTH9                         814  815   Num  Month of procedure 9
+KY  2017 CORE             191 PRMONTH10                        816  817   Num  Month of procedure 10
+KY  2017 CORE             192 PRMONTH11                        818  819   Num  Month of procedure 11
+KY  2017 CORE             193 PRMONTH12                        820  821   Num  Month of procedure 12
+KY  2017 CORE             194 PRMONTH13                        822  823   Num  Month of procedure 13
+KY  2017 CORE             195 PRMONTH14                        824  825   Num  Month of procedure 14
+KY  2017 CORE             196 PRMONTH15                        826  827   Num  Month of procedure 15
+KY  2017 CORE             197 PRMONTH16                        828  829   Num  Month of procedure 16
+KY  2017 CORE             198 PRMONTH17                        830  831   Num  Month of procedure 17
+KY  2017 CORE             199 PRMONTH18                        832  833   Num  Month of procedure 18
+KY  2017 CORE             200 PRMONTH19                        834  835   Num  Month of procedure 19
+KY  2017 CORE             201 PRMONTH20                        836  837   Num  Month of procedure 20
+KY  2017 CORE             202 PRMONTH21                        838  839   Num  Month of procedure 21
+KY  2017 CORE             203 PRMONTH22                        840  841   Num  Month of procedure 22
+KY  2017 CORE             204 PRMONTH23                        842  843   Num  Month of procedure 23
+KY  2017 CORE             205 PRMONTH24                        844  845   Num  Month of procedure 24
+KY  2017 CORE             206 PRMONTH25                        846  847   Num  Month of procedure 25
+KY  2017 CORE             207 PRYEAR1                          848  851   Num  Year of procedure 1
+KY  2017 CORE             208 PRYEAR2                          852  855   Num  Year of procedure 2
+KY  2017 CORE             209 PRYEAR3                          856  859   Num  Year of procedure 3
+KY  2017 CORE             210 PRYEAR4                          860  863   Num  Year of procedure 4
+KY  2017 CORE             211 PRYEAR5                          864  867   Num  Year of procedure 5
+KY  2017 CORE             212 PRYEAR6                          868  871   Num  Year of procedure 6
+KY  2017 CORE             213 PRYEAR7                          872  875   Num  Year of procedure 7
+KY  2017 CORE             214 PRYEAR8                          876  879   Num  Year of procedure 8
+KY  2017 CORE             215 PRYEAR9                          880  883   Num  Year of procedure 9
+KY  2017 CORE             216 PRYEAR10                         884  887   Num  Year of procedure 10
+KY  2017 CORE             217 PRYEAR11                         888  891   Num  Year of procedure 11
+KY  2017 CORE             218 PRYEAR12                         892  895   Num  Year of procedure 12
+KY  2017 CORE             219 PRYEAR13                         896  899   Num  Year of procedure 13
+KY  2017 CORE             220 PRYEAR14                         900  903   Num  Year of procedure 14
+KY  2017 CORE             221 PRYEAR15                         904  907   Num  Year of procedure 15
+KY  2017 CORE             222 PRYEAR16                         908  911   Num  Year of procedure 16
+KY  2017 CORE             223 PRYEAR17                         912  915   Num  Year of procedure 17
+KY  2017 CORE             224 PRYEAR18                         916  919   Num  Year of procedure 18
+KY  2017 CORE             225 PRYEAR19                         920  923   Num  Year of procedure 19
+KY  2017 CORE             226 PRYEAR20                         924  927   Num  Year of procedure 20
+KY  2017 CORE             227 PRYEAR21                         928  931   Num  Year of procedure 21
+KY  2017 CORE             228 PRYEAR22                         932  935   Num  Year of procedure 22
+KY  2017 CORE             229 PRYEAR23                         936  939   Num  Year of procedure 23
+KY  2017 CORE             230 PRYEAR24                         940  943   Num  Year of procedure 24
+KY  2017 CORE             231 PRYEAR25                         944  947   Num  Year of procedure 25

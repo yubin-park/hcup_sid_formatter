@@ -1,0 +1,498 @@
+Data Set Name: DC_SIDC_2019_CORE               
+Number of Observations: 123888
+Total Record Length: 2286
+Total Number of Variables: 477
+Creation Date: 04/20/2021   
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 61    Variable name
+63- 66    Starting column of variable in ASCII file
+68- 71    Ending column of variable in ASCII file
+73- 73    Non-zero number of digits after decimal point for numeric variable
+75- 78    Variable type (Num=numeric; Char=character)
+80-179    Variable label
+
+
+DC  2019 CORE               1 AGE                                1    3   Num  Age in years at admission
+DC  2019 CORE               2 AGEDAY                             4    6   Num  Age in days (when age < 1 year)
+DC  2019 CORE               3 AGEMONTH                           7    9   Num  Age in months (when age < 11 years)
+DC  2019 CORE               4 AHOUR                             10   13   Num  Admission Hour
+DC  2019 CORE               5 AMONTH                            14   15   Num  Admission month
+DC  2019 CORE               6 ATYPE                             16   17   Num  Admission type
+DC  2019 CORE               7 AWEEKEND                          18   19   Num  Admission day is a weekend
+DC  2019 CORE               8 BILLTYPE                          20   23   Char Type of bill, UB-04 coding
+DC  2019 CORE               9 BWT                               24   27   Num  Birth weight in grams
+DC  2019 CORE              10 DHOUR                             28   31   Num  Discharge Hour
+DC  2019 CORE              11 DIED                              32   33   Num  Died during hospitalization
+DC  2019 CORE              12 DISPUB04                          34   35   Num  Disposition of patient (UB-04 standard coding)
+DC  2019 CORE              13 DISPUNIFORM                       36   37   Num  Disposition of patient (uniform)
+DC  2019 CORE              14 DISP_X                            38   39   Char Disposition of patient (as received from source)
+DC  2019 CORE              15 DMONTH                            40   41   Num  Discharge month
+DC  2019 CORE              16 DQTR                              42   43   Num  Discharge quarter
+DC  2019 CORE              17 DRG                               44   46   Num  DRG in effect on discharge date
+DC  2019 CORE              18 DRGVER                            47   48   Num  DRG grouper version used on discharge date
+DC  2019 CORE              19 DRG_NoPOA                         49   51   Num  DRG in use on discharge date, calculated without POA
+DC  2019 CORE              20 DXPOA1                            52   52   Char Diagnosis 1, present on admission indicator
+DC  2019 CORE              21 DXPOA2                            53   53   Char Diagnosis 2, present on admission indicator
+DC  2019 CORE              22 DXPOA3                            54   54   Char Diagnosis 3, present on admission indicator
+DC  2019 CORE              23 DXPOA4                            55   55   Char Diagnosis 4, present on admission indicator
+DC  2019 CORE              24 DXPOA5                            56   56   Char Diagnosis 5, present on admission indicator
+DC  2019 CORE              25 DXPOA6                            57   57   Char Diagnosis 6, present on admission indicator
+DC  2019 CORE              26 DXPOA7                            58   58   Char Diagnosis 7, present on admission indicator
+DC  2019 CORE              27 DXPOA8                            59   59   Char Diagnosis 8, present on admission indicator
+DC  2019 CORE              28 DXPOA9                            60   60   Char Diagnosis 9, present on admission indicator
+DC  2019 CORE              29 DXPOA10                           61   61   Char Diagnosis 10, present on admission indicator
+DC  2019 CORE              30 DXPOA11                           62   62   Char Diagnosis 11, present on admission indicator
+DC  2019 CORE              31 DXPOA12                           63   63   Char Diagnosis 12, present on admission indicator
+DC  2019 CORE              32 DXPOA13                           64   64   Char Diagnosis 13, present on admission indicator
+DC  2019 CORE              33 DXPOA14                           65   65   Char Diagnosis 14, present on admission indicator
+DC  2019 CORE              34 DXPOA15                           66   66   Char Diagnosis 15, present on admission indicator
+DC  2019 CORE              35 DXPOA16                           67   67   Char Diagnosis 16, present on admission indicator
+DC  2019 CORE              36 DXPOA17                           68   68   Char Diagnosis 17, present on admission indicator
+DC  2019 CORE              37 DXPOA18                           69   69   Char Diagnosis 18, present on admission indicator
+DC  2019 CORE              38 DXPOA19                           70   70   Char Diagnosis 19, present on admission indicator
+DC  2019 CORE              39 DXPOA20                           71   71   Char Diagnosis 20, present on admission indicator
+DC  2019 CORE              40 DXPOA21                           72   72   Char Diagnosis 21, present on admission indicator
+DC  2019 CORE              41 DXPOA22                           73   73   Char Diagnosis 22, present on admission indicator
+DC  2019 CORE              42 DXPOA23                           74   74   Char Diagnosis 23, present on admission indicator
+DC  2019 CORE              43 DXPOA24                           75   75   Char Diagnosis 24, present on admission indicator
+DC  2019 CORE              44 DXPOA25                           76   76   Char Diagnosis 25, present on admission indicator
+DC  2019 CORE              45 DXPOA26                           77   77   Char Diagnosis 26, present on admission indicator
+DC  2019 CORE              46 DXPOA27                           78   78   Char Diagnosis 27, present on admission indicator
+DC  2019 CORE              47 DXPOA28                           79   79   Char Diagnosis 28, present on admission indicator
+DC  2019 CORE              48 DXPOA29                           80   80   Char Diagnosis 29, present on admission indicator
+DC  2019 CORE              49 DXPOA30                           81   81   Char Diagnosis 30, present on admission indicator
+DC  2019 CORE              50 DXPOA31                           82   82   Char Diagnosis 31, present on admission indicator
+DC  2019 CORE              51 DXPOA32                           83   83   Char Diagnosis 32, present on admission indicator
+DC  2019 CORE              52 DXPOA33                           84   84   Char Diagnosis 33, present on admission indicator
+DC  2019 CORE              53 DXPOA34                           85   85   Char Diagnosis 34, present on admission indicator
+DC  2019 CORE              54 DXPOA35                           86   86   Char Diagnosis 35, present on admission indicator
+DC  2019 CORE              55 DXPOA36                           87   87   Char Diagnosis 36, present on admission indicator
+DC  2019 CORE              56 DXPOA37                           88   88   Char Diagnosis 37, present on admission indicator
+DC  2019 CORE              57 DXPOA38                           89   89   Char Diagnosis 38, present on admission indicator
+DC  2019 CORE              58 DXPOA39                           90   90   Char Diagnosis 39, present on admission indicator
+DC  2019 CORE              59 DXPOA40                           91   91   Char Diagnosis 40, present on admission indicator
+DC  2019 CORE              60 DXPOA41                           92   92   Char Diagnosis 41, present on admission indicator
+DC  2019 CORE              61 DXPOA42                           93   93   Char Diagnosis 42, present on admission indicator
+DC  2019 CORE              62 DXPOA43                           94   94   Char Diagnosis 43, present on admission indicator
+DC  2019 CORE              63 DXPOA44                           95   95   Char Diagnosis 44, present on admission indicator
+DC  2019 CORE              64 DXPOA45                           96   96   Char Diagnosis 45, present on admission indicator
+DC  2019 CORE              65 DXPOA46                           97   97   Char Diagnosis 46, present on admission indicator
+DC  2019 CORE              66 DXPOA47                           98   98   Char Diagnosis 47, present on admission indicator
+DC  2019 CORE              67 DXPOA48                           99   99   Char Diagnosis 48, present on admission indicator
+DC  2019 CORE              68 DXPOA49                          100  100   Char Diagnosis 49, present on admission indicator
+DC  2019 CORE              69 DXPOA50                          101  101   Char Diagnosis 50, present on admission indicator
+DC  2019 CORE              70 DXPOA51                          102  102   Char Diagnosis 51, present on admission indicator
+DC  2019 CORE              71 DXPOA52                          103  103   Char Diagnosis 52, present on admission indicator
+DC  2019 CORE              72 DXPOA53                          104  104   Char Diagnosis 53, present on admission indicator
+DC  2019 CORE              73 DXPOA54                          105  105   Char Diagnosis 54, present on admission indicator
+DC  2019 CORE              74 DXPOA55                          106  106   Char Diagnosis 55, present on admission indicator
+DC  2019 CORE              75 DXPOA56                          107  107   Char Diagnosis 56, present on admission indicator
+DC  2019 CORE              76 DXPOA57                          108  108   Char Diagnosis 57, present on admission indicator
+DC  2019 CORE              77 DXPOA58                          109  109   Char Diagnosis 58, present on admission indicator
+DC  2019 CORE              78 DXPOA59                          110  110   Char Diagnosis 59, present on admission indicator
+DC  2019 CORE              79 DXPOA60                          111  111   Char Diagnosis 60, present on admission indicator
+DC  2019 CORE              80 DXPOA61                          112  112   Char Diagnosis 61, present on admission indicator
+DC  2019 CORE              81 DXPOA62                          113  113   Char Diagnosis 62, present on admission indicator
+DC  2019 CORE              82 DXPOA63                          114  114   Char Diagnosis 63, present on admission indicator
+DC  2019 CORE              83 DXPOA64                          115  115   Char Diagnosis 64, present on admission indicator
+DC  2019 CORE              84 DXPOA65                          116  116   Char Diagnosis 65, present on admission indicator
+DC  2019 CORE              85 DXPOA66                          117  117   Char Diagnosis 66, present on admission indicator
+DC  2019 CORE              86 DXPOA67                          118  118   Char Diagnosis 67, present on admission indicator
+DC  2019 CORE              87 DXPOA68                          119  119   Char Diagnosis 68, present on admission indicator
+DC  2019 CORE              88 DXPOA69                          120  120   Char Diagnosis 69, present on admission indicator
+DC  2019 CORE              89 DXPOA70                          121  121   Char Diagnosis 70, present on admission indicator
+DC  2019 CORE              90 DXPOA71                          122  122   Char Diagnosis 71, present on admission indicator
+DC  2019 CORE              91 DXPOA72                          123  123   Char Diagnosis 72, present on admission indicator
+DC  2019 CORE              92 DXPOA73                          124  124   Char Diagnosis 73, present on admission indicator
+DC  2019 CORE              93 DXPOA74                          125  125   Char Diagnosis 74, present on admission indicator
+DC  2019 CORE              94 DXPOA75                          126  126   Char Diagnosis 75, present on admission indicator
+DC  2019 CORE              95 DXPOA76                          127  127   Char Diagnosis 76, present on admission indicator
+DC  2019 CORE              96 DXPOA77                          128  128   Char Diagnosis 77, present on admission indicator
+DC  2019 CORE              97 DXPOA78                          129  129   Char Diagnosis 78, present on admission indicator
+DC  2019 CORE              98 DXPOA79                          130  130   Char Diagnosis 79, present on admission indicator
+DC  2019 CORE              99 DXPOA80                          131  131   Char Diagnosis 80, present on admission indicator
+DC  2019 CORE             100 DXPOA81                          132  132   Char Diagnosis 81, present on admission indicator
+DC  2019 CORE             101 DXPOA82                          133  133   Char Diagnosis 82, present on admission indicator
+DC  2019 CORE             102 DXPOA83                          134  134   Char Diagnosis 83, present on admission indicator
+DC  2019 CORE             103 DXPOA84                          135  135   Char Diagnosis 84, present on admission indicator
+DC  2019 CORE             104 DXPOA85                          136  136   Char Diagnosis 85, present on admission indicator
+DC  2019 CORE             105 DXPOA86                          137  137   Char Diagnosis 86, present on admission indicator
+DC  2019 CORE             106 DXPOA87                          138  138   Char Diagnosis 87, present on admission indicator
+DC  2019 CORE             107 DXPOA88                          139  139   Char Diagnosis 88, present on admission indicator
+DC  2019 CORE             108 DXPOA89                          140  140   Char Diagnosis 89, present on admission indicator
+DC  2019 CORE             109 DXPOA90                          141  141   Char Diagnosis 90, present on admission indicator
+DC  2019 CORE             110 DXPOA91                          142  142   Char Diagnosis 91, present on admission indicator
+DC  2019 CORE             111 DXPOA92                          143  143   Char Diagnosis 92, present on admission indicator
+DC  2019 CORE             112 DXPOA93                          144  144   Char Diagnosis 93, present on admission indicator
+DC  2019 CORE             113 DXPOA94                          145  145   Char Diagnosis 94, present on admission indicator
+DC  2019 CORE             114 DXPOA95                          146  146   Char Diagnosis 95, present on admission indicator
+DC  2019 CORE             115 DXPOA96                          147  147   Char Diagnosis 96, present on admission indicator
+DC  2019 CORE             116 DXPOA97                          148  148   Char Diagnosis 97, present on admission indicator
+DC  2019 CORE             117 DXPOA98                          149  149   Char Diagnosis 98, present on admission indicator
+DC  2019 CORE             118 DXPOA99                          150  150   Char Diagnosis 99, present on admission indicator
+DC  2019 CORE             119 FEMALE                           151  152   Num  Indicator of sex
+DC  2019 CORE             120 HCUP_ED                          153  154   Num  HCUP Emergency Department service indicator
+DC  2019 CORE             121 HCUP_OS                          155  156   Num  HCUP Observation Stay service indicator
+DC  2019 CORE             122 HOSPST                           157  158   Char Hospital state postal code
+DC  2019 CORE             123 I10_BIRTH                        159  160   Num  ICD-10-CM Birth Indicator
+DC  2019 CORE             124 I10_DELIVERY                     161  162   Num  ICD-10-CM Delivery Indicator
+DC  2019 CORE             125 I10_DX1                          163  169   Char ICD-10-CM Diagnosis 1
+DC  2019 CORE             126 I10_DX2                          170  176   Char ICD-10-CM Diagnosis 2
+DC  2019 CORE             127 I10_DX3                          177  183   Char ICD-10-CM Diagnosis 3
+DC  2019 CORE             128 I10_DX4                          184  190   Char ICD-10-CM Diagnosis 4
+DC  2019 CORE             129 I10_DX5                          191  197   Char ICD-10-CM Diagnosis 5
+DC  2019 CORE             130 I10_DX6                          198  204   Char ICD-10-CM Diagnosis 6
+DC  2019 CORE             131 I10_DX7                          205  211   Char ICD-10-CM Diagnosis 7
+DC  2019 CORE             132 I10_DX8                          212  218   Char ICD-10-CM Diagnosis 8
+DC  2019 CORE             133 I10_DX9                          219  225   Char ICD-10-CM Diagnosis 9
+DC  2019 CORE             134 I10_DX10                         226  232   Char ICD-10-CM Diagnosis 10
+DC  2019 CORE             135 I10_DX11                         233  239   Char ICD-10-CM Diagnosis 11
+DC  2019 CORE             136 I10_DX12                         240  246   Char ICD-10-CM Diagnosis 12
+DC  2019 CORE             137 I10_DX13                         247  253   Char ICD-10-CM Diagnosis 13
+DC  2019 CORE             138 I10_DX14                         254  260   Char ICD-10-CM Diagnosis 14
+DC  2019 CORE             139 I10_DX15                         261  267   Char ICD-10-CM Diagnosis 15
+DC  2019 CORE             140 I10_DX16                         268  274   Char ICD-10-CM Diagnosis 16
+DC  2019 CORE             141 I10_DX17                         275  281   Char ICD-10-CM Diagnosis 17
+DC  2019 CORE             142 I10_DX18                         282  288   Char ICD-10-CM Diagnosis 18
+DC  2019 CORE             143 I10_DX19                         289  295   Char ICD-10-CM Diagnosis 19
+DC  2019 CORE             144 I10_DX20                         296  302   Char ICD-10-CM Diagnosis 20
+DC  2019 CORE             145 I10_DX21                         303  309   Char ICD-10-CM Diagnosis 21
+DC  2019 CORE             146 I10_DX22                         310  316   Char ICD-10-CM Diagnosis 22
+DC  2019 CORE             147 I10_DX23                         317  323   Char ICD-10-CM Diagnosis 23
+DC  2019 CORE             148 I10_DX24                         324  330   Char ICD-10-CM Diagnosis 24
+DC  2019 CORE             149 I10_DX25                         331  337   Char ICD-10-CM Diagnosis 25
+DC  2019 CORE             150 I10_DX26                         338  344   Char ICD-10-CM Diagnosis 26
+DC  2019 CORE             151 I10_DX27                         345  351   Char ICD-10-CM Diagnosis 27
+DC  2019 CORE             152 I10_DX28                         352  358   Char ICD-10-CM Diagnosis 28
+DC  2019 CORE             153 I10_DX29                         359  365   Char ICD-10-CM Diagnosis 29
+DC  2019 CORE             154 I10_DX30                         366  372   Char ICD-10-CM Diagnosis 30
+DC  2019 CORE             155 I10_DX31                         373  379   Char ICD-10-CM Diagnosis 31
+DC  2019 CORE             156 I10_DX32                         380  386   Char ICD-10-CM Diagnosis 32
+DC  2019 CORE             157 I10_DX33                         387  393   Char ICD-10-CM Diagnosis 33
+DC  2019 CORE             158 I10_DX34                         394  400   Char ICD-10-CM Diagnosis 34
+DC  2019 CORE             159 I10_DX35                         401  407   Char ICD-10-CM Diagnosis 35
+DC  2019 CORE             160 I10_DX36                         408  414   Char ICD-10-CM Diagnosis 36
+DC  2019 CORE             161 I10_DX37                         415  421   Char ICD-10-CM Diagnosis 37
+DC  2019 CORE             162 I10_DX38                         422  428   Char ICD-10-CM Diagnosis 38
+DC  2019 CORE             163 I10_DX39                         429  435   Char ICD-10-CM Diagnosis 39
+DC  2019 CORE             164 I10_DX40                         436  442   Char ICD-10-CM Diagnosis 40
+DC  2019 CORE             165 I10_DX41                         443  449   Char ICD-10-CM Diagnosis 41
+DC  2019 CORE             166 I10_DX42                         450  456   Char ICD-10-CM Diagnosis 42
+DC  2019 CORE             167 I10_DX43                         457  463   Char ICD-10-CM Diagnosis 43
+DC  2019 CORE             168 I10_DX44                         464  470   Char ICD-10-CM Diagnosis 44
+DC  2019 CORE             169 I10_DX45                         471  477   Char ICD-10-CM Diagnosis 45
+DC  2019 CORE             170 I10_DX46                         478  484   Char ICD-10-CM Diagnosis 46
+DC  2019 CORE             171 I10_DX47                         485  491   Char ICD-10-CM Diagnosis 47
+DC  2019 CORE             172 I10_DX48                         492  498   Char ICD-10-CM Diagnosis 48
+DC  2019 CORE             173 I10_DX49                         499  505   Char ICD-10-CM Diagnosis 49
+DC  2019 CORE             174 I10_DX50                         506  512   Char ICD-10-CM Diagnosis 50
+DC  2019 CORE             175 I10_DX51                         513  519   Char ICD-10-CM Diagnosis 51
+DC  2019 CORE             176 I10_DX52                         520  526   Char ICD-10-CM Diagnosis 52
+DC  2019 CORE             177 I10_DX53                         527  533   Char ICD-10-CM Diagnosis 53
+DC  2019 CORE             178 I10_DX54                         534  540   Char ICD-10-CM Diagnosis 54
+DC  2019 CORE             179 I10_DX55                         541  547   Char ICD-10-CM Diagnosis 55
+DC  2019 CORE             180 I10_DX56                         548  554   Char ICD-10-CM Diagnosis 56
+DC  2019 CORE             181 I10_DX57                         555  561   Char ICD-10-CM Diagnosis 57
+DC  2019 CORE             182 I10_DX58                         562  568   Char ICD-10-CM Diagnosis 58
+DC  2019 CORE             183 I10_DX59                         569  575   Char ICD-10-CM Diagnosis 59
+DC  2019 CORE             184 I10_DX60                         576  582   Char ICD-10-CM Diagnosis 60
+DC  2019 CORE             185 I10_DX61                         583  589   Char ICD-10-CM Diagnosis 61
+DC  2019 CORE             186 I10_DX62                         590  596   Char ICD-10-CM Diagnosis 62
+DC  2019 CORE             187 I10_DX63                         597  603   Char ICD-10-CM Diagnosis 63
+DC  2019 CORE             188 I10_DX64                         604  610   Char ICD-10-CM Diagnosis 64
+DC  2019 CORE             189 I10_DX65                         611  617   Char ICD-10-CM Diagnosis 65
+DC  2019 CORE             190 I10_DX66                         618  624   Char ICD-10-CM Diagnosis 66
+DC  2019 CORE             191 I10_DX67                         625  631   Char ICD-10-CM Diagnosis 67
+DC  2019 CORE             192 I10_DX68                         632  638   Char ICD-10-CM Diagnosis 68
+DC  2019 CORE             193 I10_DX69                         639  645   Char ICD-10-CM Diagnosis 69
+DC  2019 CORE             194 I10_DX70                         646  652   Char ICD-10-CM Diagnosis 70
+DC  2019 CORE             195 I10_DX71                         653  659   Char ICD-10-CM Diagnosis 71
+DC  2019 CORE             196 I10_DX72                         660  666   Char ICD-10-CM Diagnosis 72
+DC  2019 CORE             197 I10_DX73                         667  673   Char ICD-10-CM Diagnosis 73
+DC  2019 CORE             198 I10_DX74                         674  680   Char ICD-10-CM Diagnosis 74
+DC  2019 CORE             199 I10_DX75                         681  687   Char ICD-10-CM Diagnosis 75
+DC  2019 CORE             200 I10_DX76                         688  694   Char ICD-10-CM Diagnosis 76
+DC  2019 CORE             201 I10_DX77                         695  701   Char ICD-10-CM Diagnosis 77
+DC  2019 CORE             202 I10_DX78                         702  708   Char ICD-10-CM Diagnosis 78
+DC  2019 CORE             203 I10_DX79                         709  715   Char ICD-10-CM Diagnosis 79
+DC  2019 CORE             204 I10_DX80                         716  722   Char ICD-10-CM Diagnosis 80
+DC  2019 CORE             205 I10_DX81                         723  729   Char ICD-10-CM Diagnosis 81
+DC  2019 CORE             206 I10_DX82                         730  736   Char ICD-10-CM Diagnosis 82
+DC  2019 CORE             207 I10_DX83                         737  743   Char ICD-10-CM Diagnosis 83
+DC  2019 CORE             208 I10_DX84                         744  750   Char ICD-10-CM Diagnosis 84
+DC  2019 CORE             209 I10_DX85                         751  757   Char ICD-10-CM Diagnosis 85
+DC  2019 CORE             210 I10_DX86                         758  764   Char ICD-10-CM Diagnosis 86
+DC  2019 CORE             211 I10_DX87                         765  771   Char ICD-10-CM Diagnosis 87
+DC  2019 CORE             212 I10_DX88                         772  778   Char ICD-10-CM Diagnosis 88
+DC  2019 CORE             213 I10_DX89                         779  785   Char ICD-10-CM Diagnosis 89
+DC  2019 CORE             214 I10_DX90                         786  792   Char ICD-10-CM Diagnosis 90
+DC  2019 CORE             215 I10_DX91                         793  799   Char ICD-10-CM Diagnosis 91
+DC  2019 CORE             216 I10_DX92                         800  806   Char ICD-10-CM Diagnosis 92
+DC  2019 CORE             217 I10_DX93                         807  813   Char ICD-10-CM Diagnosis 93
+DC  2019 CORE             218 I10_DX94                         814  820   Char ICD-10-CM Diagnosis 94
+DC  2019 CORE             219 I10_DX95                         821  827   Char ICD-10-CM Diagnosis 95
+DC  2019 CORE             220 I10_DX96                         828  834   Char ICD-10-CM Diagnosis 96
+DC  2019 CORE             221 I10_DX97                         835  841   Char ICD-10-CM Diagnosis 97
+DC  2019 CORE             222 I10_DX98                         842  848   Char ICD-10-CM Diagnosis 98
+DC  2019 CORE             223 I10_DX99                         849  855   Char ICD-10-CM Diagnosis 99
+DC  2019 CORE             224 I10_DX_Admitting                 856  862   Char ICD-10-CM Admitting Diagnosis Code
+DC  2019 CORE             225 I10_NDX                          863  865   Num  ICD-10-CM Number of diagnoses on this record
+DC  2019 CORE             226 I10_NPR                          866  868   Num  ICD-10-PCS Number of procedures on this record
+DC  2019 CORE             227 I10_ORPROC                       869  870   Num  ICD-10-PCS Major operating room procedure indicator
+DC  2019 CORE             228 I10_PR1                          871  877   Char ICD-10-PCS Procedure 1
+DC  2019 CORE             229 I10_PR2                          878  884   Char ICD-10-PCS Procedure 2
+DC  2019 CORE             230 I10_PR3                          885  891   Char ICD-10-PCS Procedure 3
+DC  2019 CORE             231 I10_PR4                          892  898   Char ICD-10-PCS Procedure 4
+DC  2019 CORE             232 I10_PR5                          899  905   Char ICD-10-PCS Procedure 5
+DC  2019 CORE             233 I10_PR6                          906  912   Char ICD-10-PCS Procedure 6
+DC  2019 CORE             234 I10_PR7                          913  919   Char ICD-10-PCS Procedure 7
+DC  2019 CORE             235 I10_PR8                          920  926   Char ICD-10-PCS Procedure 8
+DC  2019 CORE             236 I10_PR9                          927  933   Char ICD-10-PCS Procedure 9
+DC  2019 CORE             237 I10_PR10                         934  940   Char ICD-10-PCS Procedure 10
+DC  2019 CORE             238 I10_PR11                         941  947   Char ICD-10-PCS Procedure 11
+DC  2019 CORE             239 I10_PR12                         948  954   Char ICD-10-PCS Procedure 12
+DC  2019 CORE             240 I10_PR13                         955  961   Char ICD-10-PCS Procedure 13
+DC  2019 CORE             241 I10_PR14                         962  968   Char ICD-10-PCS Procedure 14
+DC  2019 CORE             242 I10_PR15                         969  975   Char ICD-10-PCS Procedure 15
+DC  2019 CORE             243 I10_PR16                         976  982   Char ICD-10-PCS Procedure 16
+DC  2019 CORE             244 I10_PR17                         983  989   Char ICD-10-PCS Procedure 17
+DC  2019 CORE             245 I10_PR18                         990  996   Char ICD-10-PCS Procedure 18
+DC  2019 CORE             246 I10_PR19                         997 1003   Char ICD-10-PCS Procedure 19
+DC  2019 CORE             247 I10_PR20                        1004 1010   Char ICD-10-PCS Procedure 20
+DC  2019 CORE             248 I10_PR21                        1011 1017   Char ICD-10-PCS Procedure 21
+DC  2019 CORE             249 I10_PR22                        1018 1024   Char ICD-10-PCS Procedure 22
+DC  2019 CORE             250 I10_PR23                        1025 1031   Char ICD-10-PCS Procedure 23
+DC  2019 CORE             251 I10_PR24                        1032 1038   Char ICD-10-PCS Procedure 24
+DC  2019 CORE             252 I10_PR25                        1039 1045   Char ICD-10-PCS Procedure 25
+DC  2019 CORE             253 I10_PR26                        1046 1052   Char ICD-10-PCS Procedure 26
+DC  2019 CORE             254 I10_PR27                        1053 1059   Char ICD-10-PCS Procedure 27
+DC  2019 CORE             255 I10_PR28                        1060 1066   Char ICD-10-PCS Procedure 28
+DC  2019 CORE             256 I10_PR29                        1067 1073   Char ICD-10-PCS Procedure 29
+DC  2019 CORE             257 I10_PR30                        1074 1080   Char ICD-10-PCS Procedure 30
+DC  2019 CORE             258 I10_PR31                        1081 1087   Char ICD-10-PCS Procedure 31
+DC  2019 CORE             259 I10_PR32                        1088 1094   Char ICD-10-PCS Procedure 32
+DC  2019 CORE             260 I10_PR33                        1095 1101   Char ICD-10-PCS Procedure 33
+DC  2019 CORE             261 I10_PR34                        1102 1108   Char ICD-10-PCS Procedure 34
+DC  2019 CORE             262 I10_PR35                        1109 1115   Char ICD-10-PCS Procedure 35
+DC  2019 CORE             263 I10_PR36                        1116 1122   Char ICD-10-PCS Procedure 36
+DC  2019 CORE             264 I10_PR37                        1123 1129   Char ICD-10-PCS Procedure 37
+DC  2019 CORE             265 I10_PR38                        1130 1136   Char ICD-10-PCS Procedure 38
+DC  2019 CORE             266 I10_PR39                        1137 1143   Char ICD-10-PCS Procedure 39
+DC  2019 CORE             267 I10_PR40                        1144 1150   Char ICD-10-PCS Procedure 40
+DC  2019 CORE             268 I10_PR41                        1151 1157   Char ICD-10-PCS Procedure 41
+DC  2019 CORE             269 I10_PR42                        1158 1164   Char ICD-10-PCS Procedure 42
+DC  2019 CORE             270 I10_PR43                        1165 1171   Char ICD-10-PCS Procedure 43
+DC  2019 CORE             271 I10_PR44                        1172 1178   Char ICD-10-PCS Procedure 44
+DC  2019 CORE             272 I10_PR45                        1179 1185   Char ICD-10-PCS Procedure 45
+DC  2019 CORE             273 I10_PR46                        1186 1192   Char ICD-10-PCS Procedure 46
+DC  2019 CORE             274 I10_PR47                        1193 1199   Char ICD-10-PCS Procedure 47
+DC  2019 CORE             275 I10_PR48                        1200 1206   Char ICD-10-PCS Procedure 48
+DC  2019 CORE             276 I10_PR49                        1207 1213   Char ICD-10-PCS Procedure 49
+DC  2019 CORE             277 I10_PR50                        1214 1220   Char ICD-10-PCS Procedure 50
+DC  2019 CORE             278 I10_PR51                        1221 1227   Char ICD-10-PCS Procedure 51
+DC  2019 CORE             279 I10_PR52                        1228 1234   Char ICD-10-PCS Procedure 52
+DC  2019 CORE             280 I10_PR53                        1235 1241   Char ICD-10-PCS Procedure 53
+DC  2019 CORE             281 I10_PR54                        1242 1248   Char ICD-10-PCS Procedure 54
+DC  2019 CORE             282 I10_PR55                        1249 1255   Char ICD-10-PCS Procedure 55
+DC  2019 CORE             283 I10_PR56                        1256 1262   Char ICD-10-PCS Procedure 56
+DC  2019 CORE             284 I10_PR57                        1263 1269   Char ICD-10-PCS Procedure 57
+DC  2019 CORE             285 I10_PR58                        1270 1276   Char ICD-10-PCS Procedure 58
+DC  2019 CORE             286 I10_PR59                        1277 1283   Char ICD-10-PCS Procedure 59
+DC  2019 CORE             287 I10_PR60                        1284 1290   Char ICD-10-PCS Procedure 60
+DC  2019 CORE             288 I10_PR61                        1291 1297   Char ICD-10-PCS Procedure 61
+DC  2019 CORE             289 I10_PR62                        1298 1304   Char ICD-10-PCS Procedure 62
+DC  2019 CORE             290 I10_PR63                        1305 1311   Char ICD-10-PCS Procedure 63
+DC  2019 CORE             291 I10_PR64                        1312 1318   Char ICD-10-PCS Procedure 64
+DC  2019 CORE             292 I10_PR65                        1319 1325   Char ICD-10-PCS Procedure 65
+DC  2019 CORE             293 I10_PR66                        1326 1332   Char ICD-10-PCS Procedure 66
+DC  2019 CORE             294 I10_PR67                        1333 1339   Char ICD-10-PCS Procedure 67
+DC  2019 CORE             295 I10_PR68                        1340 1346   Char ICD-10-PCS Procedure 68
+DC  2019 CORE             296 I10_PR69                        1347 1353   Char ICD-10-PCS Procedure 69
+DC  2019 CORE             297 I10_PR70                        1354 1360   Char ICD-10-PCS Procedure 70
+DC  2019 CORE             298 I10_PR71                        1361 1367   Char ICD-10-PCS Procedure 71
+DC  2019 CORE             299 I10_PR72                        1368 1374   Char ICD-10-PCS Procedure 72
+DC  2019 CORE             300 I10_PR73                        1375 1381   Char ICD-10-PCS Procedure 73
+DC  2019 CORE             301 I10_PR74                        1382 1388   Char ICD-10-PCS Procedure 74
+DC  2019 CORE             302 I10_PR75                        1389 1395   Char ICD-10-PCS Procedure 75
+DC  2019 CORE             303 I10_PR76                        1396 1402   Char ICD-10-PCS Procedure 76
+DC  2019 CORE             304 I10_PR77                        1403 1409   Char ICD-10-PCS Procedure 77
+DC  2019 CORE             305 I10_PR78                        1410 1416   Char ICD-10-PCS Procedure 78
+DC  2019 CORE             306 I10_PR79                        1417 1423   Char ICD-10-PCS Procedure 79
+DC  2019 CORE             307 I10_PR80                        1424 1430   Char ICD-10-PCS Procedure 80
+DC  2019 CORE             308 I10_PR81                        1431 1437   Char ICD-10-PCS Procedure 81
+DC  2019 CORE             309 I10_PR82                        1438 1444   Char ICD-10-PCS Procedure 82
+DC  2019 CORE             310 I10_PR83                        1445 1451   Char ICD-10-PCS Procedure 83
+DC  2019 CORE             311 I10_PR84                        1452 1458   Char ICD-10-PCS Procedure 84
+DC  2019 CORE             312 I10_PR85                        1459 1465   Char ICD-10-PCS Procedure 85
+DC  2019 CORE             313 I10_PR86                        1466 1472   Char ICD-10-PCS Procedure 86
+DC  2019 CORE             314 I10_PR87                        1473 1479   Char ICD-10-PCS Procedure 87
+DC  2019 CORE             315 I10_PR88                        1480 1486   Char ICD-10-PCS Procedure 88
+DC  2019 CORE             316 I10_PR89                        1487 1493   Char ICD-10-PCS Procedure 89
+DC  2019 CORE             317 I10_PR90                        1494 1500   Char ICD-10-PCS Procedure 90
+DC  2019 CORE             318 I10_PR91                        1501 1507   Char ICD-10-PCS Procedure 91
+DC  2019 CORE             319 I10_PR92                        1508 1514   Char ICD-10-PCS Procedure 92
+DC  2019 CORE             320 I10_PR93                        1515 1521   Char ICD-10-PCS Procedure 93
+DC  2019 CORE             321 I10_PR94                        1522 1528   Char ICD-10-PCS Procedure 94
+DC  2019 CORE             322 I10_PR95                        1529 1535   Char ICD-10-PCS Procedure 95
+DC  2019 CORE             323 I10_PR96                        1536 1542   Char ICD-10-PCS Procedure 96
+DC  2019 CORE             324 I10_PR97                        1543 1549   Char ICD-10-PCS Procedure 97
+DC  2019 CORE             325 I10_PR98                        1550 1556   Char ICD-10-PCS Procedure 98
+DC  2019 CORE             326 I10_PR99                        1557 1563   Char ICD-10-PCS Procedure 99
+DC  2019 CORE             327 I10_PR100                       1564 1570   Char ICD-10-PCS Procedure 100
+DC  2019 CORE             328 I10_PROCTYPE                    1571 1573   Num  ICD-10-PCS Procedure type indicator
+DC  2019 CORE             329 I10_SERVICELINE                 1574 1575   Num  ICD-10-CM/PCS Hospital Service Line
+DC  2019 CORE             330 KEY                             1576 1590   Num  HCUP record identifier
+DC  2019 CORE             331 LOS                             1591 1595   Num  Length of stay (cleaned)
+DC  2019 CORE             332 LOS_X                           1596 1601   Num  Length of stay (as received from source)
+DC  2019 CORE             333 MDC                             1602 1603   Num  MDC in effect on discharge date
+DC  2019 CORE             334 MDC_NoPOA                       1604 1605   Num  MDC in use on discharge date, calculated without POA
+DC  2019 CORE             335 MDNUM1_R                        1606 1614   Num  Physician 1 number (re-identified)
+DC  2019 CORE             336 MDNUM2_R                        1615 1623   Num  Physician 2 number (re-identified)
+DC  2019 CORE             337 MDNUM3_R                        1624 1632   Num  Physician 3 number (re-identified)
+DC  2019 CORE             338 MDNUM4_R                        1633 1641   Num  Physician 4 number (re-identified)
+DC  2019 CORE             339 MEDINCSTQ                       1642 1643   Num  Median household income state quartile for patient ZIP Code
+DC  2019 CORE             340 PAY1                            1644 1645   Num  Primary expected payer (uniform)
+DC  2019 CORE             341 PAY1_X                          1646 1653   Char Primary expected payer (as received from source)
+DC  2019 CORE             342 PAY2                            1654 1655   Num  Secondary expected payer (uniform)
+DC  2019 CORE             343 PAY2_X                          1656 1663   Char Secondary expected payer (as received from source)
+DC  2019 CORE             344 PAY3                            1664 1665   Num  Tertiary expected payer (uniform)
+DC  2019 CORE             345 PAY3_X                          1666 1673   Char Tertiary expected payer (as received from source)
+DC  2019 CORE             346 PL_CBSA                         1674 1676   Num  Patient location: Core Based Statistical Area (CBSA)
+DC  2019 CORE             347 PL_NCHS                         1677 1678   Num  Patient Location: NCHS Urban-Rural Code
+DC  2019 CORE             348 PL_RUCC                         1679 1680   Num  Patient location: Rural-Urban Continuum Codes (RUCC)
+DC  2019 CORE             349 PL_UIC                          1681 1682   Num  Patient location: Urban Influence Codes
+DC  2019 CORE             350 PL_UR_CAT4                      1683 1684   Num  Patient Location: Urban-Rural 4 Categories
+DC  2019 CORE             351 POA_Disch_Edit1                 1685 1686   Num  Discharge has POA missing on all nonexempt diagnoses
+DC  2019 CORE             352 POA_Disch_Edit2                 1687 1688   Num  Discharge has POA missing on all nonexempt secondary diagnoses
+DC  2019 CORE             353 POA_Hosp_Edit1                  1689 1690   Num  Hospital reported POA as Y on all diagnoses on all discharges
+DC  2019 CORE             354 POA_Hosp_Edit2                  1691 1692   Num  Hospital reported POA as missing on all non-Medicare discharges
+DC  2019 CORE             355 POA_Hosp_Edit3                  1693 1694   Num  Hospital reported POA as missing on all nonexempt diagnoses for 15% or more of discharges
+DC  2019 CORE             356 POA_Hosp_Edit3_Value            1695 1702 2 Num  Percentage of discharges with all nonexempt diagnoses missing POA indicators
+DC  2019 CORE             357 PRDAY1                          1703 1707   Num  Number of days from admission to I10_PR1
+DC  2019 CORE             358 PRDAY2                          1708 1712   Num  Number of days from admission to I10_PR2
+DC  2019 CORE             359 PRDAY3                          1713 1717   Num  Number of days from admission to I10_PR3
+DC  2019 CORE             360 PRDAY4                          1718 1722   Num  Number of days from admission to I10_PR4
+DC  2019 CORE             361 PRDAY5                          1723 1727   Num  Number of days from admission to I10_PR5
+DC  2019 CORE             362 PRDAY6                          1728 1732   Num  Number of days from admission to I10_PR6
+DC  2019 CORE             363 PRDAY7                          1733 1737   Num  Number of days from admission to I10_PR7
+DC  2019 CORE             364 PRDAY8                          1738 1742   Num  Number of days from admission to I10_PR8
+DC  2019 CORE             365 PRDAY9                          1743 1747   Num  Number of days from admission to I10_PR9
+DC  2019 CORE             366 PRDAY10                         1748 1752   Num  Number of days from admission to I10_PR10
+DC  2019 CORE             367 PRDAY11                         1753 1757   Num  Number of days from admission to I10_PR11
+DC  2019 CORE             368 PRDAY12                         1758 1762   Num  Number of days from admission to I10_PR12
+DC  2019 CORE             369 PRDAY13                         1763 1767   Num  Number of days from admission to I10_PR13
+DC  2019 CORE             370 PRDAY14                         1768 1772   Num  Number of days from admission to I10_PR14
+DC  2019 CORE             371 PRDAY15                         1773 1777   Num  Number of days from admission to I10_PR15
+DC  2019 CORE             372 PRDAY16                         1778 1782   Num  Number of days from admission to I10_PR16
+DC  2019 CORE             373 PRDAY17                         1783 1787   Num  Number of days from admission to I10_PR17
+DC  2019 CORE             374 PRDAY18                         1788 1792   Num  Number of days from admission to I10_PR18
+DC  2019 CORE             375 PRDAY19                         1793 1797   Num  Number of days from admission to I10_PR19
+DC  2019 CORE             376 PRDAY20                         1798 1802   Num  Number of days from admission to I10_PR20
+DC  2019 CORE             377 PRDAY21                         1803 1807   Num  Number of days from admission to I10_PR21
+DC  2019 CORE             378 PRDAY22                         1808 1812   Num  Number of days from admission to I10_PR22
+DC  2019 CORE             379 PRDAY23                         1813 1817   Num  Number of days from admission to I10_PR23
+DC  2019 CORE             380 PRDAY24                         1818 1822   Num  Number of days from admission to I10_PR24
+DC  2019 CORE             381 PRDAY25                         1823 1827   Num  Number of days from admission to I10_PR25
+DC  2019 CORE             382 PRDAY26                         1828 1832   Num  Number of days from admission to I10_PR26
+DC  2019 CORE             383 PRDAY27                         1833 1837   Num  Number of days from admission to I10_PR27
+DC  2019 CORE             384 PRDAY28                         1838 1842   Num  Number of days from admission to I10_PR28
+DC  2019 CORE             385 PRDAY29                         1843 1847   Num  Number of days from admission to I10_PR29
+DC  2019 CORE             386 PRDAY30                         1848 1852   Num  Number of days from admission to I10_PR30
+DC  2019 CORE             387 PRDAY31                         1853 1857   Num  Number of days from admission to I10_PR31
+DC  2019 CORE             388 PRDAY32                         1858 1862   Num  Number of days from admission to I10_PR32
+DC  2019 CORE             389 PRDAY33                         1863 1867   Num  Number of days from admission to I10_PR33
+DC  2019 CORE             390 PRDAY34                         1868 1872   Num  Number of days from admission to I10_PR34
+DC  2019 CORE             391 PRDAY35                         1873 1877   Num  Number of days from admission to I10_PR35
+DC  2019 CORE             392 PRDAY36                         1878 1882   Num  Number of days from admission to I10_PR36
+DC  2019 CORE             393 PRDAY37                         1883 1887   Num  Number of days from admission to I10_PR37
+DC  2019 CORE             394 PRDAY38                         1888 1892   Num  Number of days from admission to I10_PR38
+DC  2019 CORE             395 PRDAY39                         1893 1897   Num  Number of days from admission to I10_PR39
+DC  2019 CORE             396 PRDAY40                         1898 1902   Num  Number of days from admission to I10_PR40
+DC  2019 CORE             397 PRDAY41                         1903 1907   Num  Number of days from admission to I10_PR41
+DC  2019 CORE             398 PRDAY42                         1908 1912   Num  Number of days from admission to I10_PR42
+DC  2019 CORE             399 PRDAY43                         1913 1917   Num  Number of days from admission to I10_PR43
+DC  2019 CORE             400 PRDAY44                         1918 1922   Num  Number of days from admission to I10_PR44
+DC  2019 CORE             401 PRDAY45                         1923 1927   Num  Number of days from admission to I10_PR45
+DC  2019 CORE             402 PRDAY46                         1928 1932   Num  Number of days from admission to I10_PR46
+DC  2019 CORE             403 PRDAY47                         1933 1937   Num  Number of days from admission to I10_PR47
+DC  2019 CORE             404 PRDAY48                         1938 1942   Num  Number of days from admission to I10_PR48
+DC  2019 CORE             405 PRDAY49                         1943 1947   Num  Number of days from admission to I10_PR49
+DC  2019 CORE             406 PRDAY50                         1948 1952   Num  Number of days from admission to I10_PR50
+DC  2019 CORE             407 PRDAY51                         1953 1957   Num  Number of days from admission to I10_PR51
+DC  2019 CORE             408 PRDAY52                         1958 1962   Num  Number of days from admission to I10_PR52
+DC  2019 CORE             409 PRDAY53                         1963 1967   Num  Number of days from admission to I10_PR53
+DC  2019 CORE             410 PRDAY54                         1968 1972   Num  Number of days from admission to I10_PR54
+DC  2019 CORE             411 PRDAY55                         1973 1977   Num  Number of days from admission to I10_PR55
+DC  2019 CORE             412 PRDAY56                         1978 1982   Num  Number of days from admission to I10_PR56
+DC  2019 CORE             413 PRDAY57                         1983 1987   Num  Number of days from admission to I10_PR57
+DC  2019 CORE             414 PRDAY58                         1988 1992   Num  Number of days from admission to I10_PR58
+DC  2019 CORE             415 PRDAY59                         1993 1997   Num  Number of days from admission to I10_PR59
+DC  2019 CORE             416 PRDAY60                         1998 2002   Num  Number of days from admission to I10_PR60
+DC  2019 CORE             417 PRDAY61                         2003 2007   Num  Number of days from admission to I10_PR61
+DC  2019 CORE             418 PRDAY62                         2008 2012   Num  Number of days from admission to I10_PR62
+DC  2019 CORE             419 PRDAY63                         2013 2017   Num  Number of days from admission to I10_PR63
+DC  2019 CORE             420 PRDAY64                         2018 2022   Num  Number of days from admission to I10_PR64
+DC  2019 CORE             421 PRDAY65                         2023 2027   Num  Number of days from admission to I10_PR65
+DC  2019 CORE             422 PRDAY66                         2028 2032   Num  Number of days from admission to I10_PR66
+DC  2019 CORE             423 PRDAY67                         2033 2037   Num  Number of days from admission to I10_PR67
+DC  2019 CORE             424 PRDAY68                         2038 2042   Num  Number of days from admission to I10_PR68
+DC  2019 CORE             425 PRDAY69                         2043 2047   Num  Number of days from admission to I10_PR69
+DC  2019 CORE             426 PRDAY70                         2048 2052   Num  Number of days from admission to I10_PR70
+DC  2019 CORE             427 PRDAY71                         2053 2057   Num  Number of days from admission to I10_PR71
+DC  2019 CORE             428 PRDAY72                         2058 2062   Num  Number of days from admission to I10_PR72
+DC  2019 CORE             429 PRDAY73                         2063 2067   Num  Number of days from admission to I10_PR73
+DC  2019 CORE             430 PRDAY74                         2068 2072   Num  Number of days from admission to I10_PR74
+DC  2019 CORE             431 PRDAY75                         2073 2077   Num  Number of days from admission to I10_PR75
+DC  2019 CORE             432 PRDAY76                         2078 2082   Num  Number of days from admission to I10_PR76
+DC  2019 CORE             433 PRDAY77                         2083 2087   Num  Number of days from admission to I10_PR77
+DC  2019 CORE             434 PRDAY78                         2088 2092   Num  Number of days from admission to I10_PR78
+DC  2019 CORE             435 PRDAY79                         2093 2097   Num  Number of days from admission to I10_PR79
+DC  2019 CORE             436 PRDAY80                         2098 2102   Num  Number of days from admission to I10_PR80
+DC  2019 CORE             437 PRDAY81                         2103 2107   Num  Number of days from admission to I10_PR81
+DC  2019 CORE             438 PRDAY82                         2108 2112   Num  Number of days from admission to I10_PR82
+DC  2019 CORE             439 PRDAY83                         2113 2117   Num  Number of days from admission to I10_PR83
+DC  2019 CORE             440 PRDAY84                         2118 2122   Num  Number of days from admission to I10_PR84
+DC  2019 CORE             441 PRDAY85                         2123 2127   Num  Number of days from admission to I10_PR85
+DC  2019 CORE             442 PRDAY86                         2128 2132   Num  Number of days from admission to I10_PR86
+DC  2019 CORE             443 PRDAY87                         2133 2137   Num  Number of days from admission to I10_PR87
+DC  2019 CORE             444 PRDAY88                         2138 2142   Num  Number of days from admission to I10_PR88
+DC  2019 CORE             445 PRDAY89                         2143 2147   Num  Number of days from admission to I10_PR89
+DC  2019 CORE             446 PRDAY90                         2148 2152   Num  Number of days from admission to I10_PR90
+DC  2019 CORE             447 PRDAY91                         2153 2157   Num  Number of days from admission to I10_PR91
+DC  2019 CORE             448 PRDAY92                         2158 2162   Num  Number of days from admission to I10_PR92
+DC  2019 CORE             449 PRDAY93                         2163 2167   Num  Number of days from admission to I10_PR93
+DC  2019 CORE             450 PRDAY94                         2168 2172   Num  Number of days from admission to I10_PR94
+DC  2019 CORE             451 PRDAY95                         2173 2177   Num  Number of days from admission to I10_PR95
+DC  2019 CORE             452 PRDAY96                         2178 2182   Num  Number of days from admission to I10_PR96
+DC  2019 CORE             453 PRDAY97                         2183 2187   Num  Number of days from admission to I10_PR97
+DC  2019 CORE             454 PRDAY98                         2188 2192   Num  Number of days from admission to I10_PR98
+DC  2019 CORE             455 PRDAY99                         2193 2197   Num  Number of days from admission to I10_PR99
+DC  2019 CORE             456 PRDAY100                        2198 2202   Num  Number of days from admission to I10_PR100
+DC  2019 CORE             457 PSTATE                          2203 2204   Char Patient State postal code
+DC  2019 CORE             458 PSTATE_GEO                      2205 2206   Char Patient State postal code assigned from ZIP Code
+DC  2019 CORE             459 PSTCO                           2207 2211   Num  Patient state/county FIPS code
+DC  2019 CORE             460 PSTCO_GEO                       2212 2216   Num  Counties assigned based on ZIP Code geographic centroids
+DC  2019 CORE             461 PointOfOriginUB04               2217 2217   Char Point of origin for admission or visit, UB-04 standard coding
+DC  2019 CORE             462 PointOfOrigin_X                 2218 2220   Char Point of origin for admission or visit, as received from source
+DC  2019 CORE             463 RACE                            2221 2222   Num  Race (uniform)
+DC  2019 CORE             464 RACE_EDIT                       2223 2224   Num  Race Edit Checks
+DC  2019 CORE             465 RACE_X                          2225 2227   Char Race (as received from source)
+DC  2019 CORE             466 TOTCHG                          2228 2237   Num  Total charges (cleaned)
+DC  2019 CORE             467 TOTCHG_X                        2238 2252 2 Num  Total charges (as received from source)
+DC  2019 CORE             468 TRAN_IN                         2253 2254   Num  Transfer in indicator
+DC  2019 CORE             469 TRAN_OUT                        2255 2256   Num  Transfer out indicator
+DC  2019 CORE             470 YEAR                            2257 2260   Num  Calendar year
+DC  2019 CORE             471 ZIP                             2261 2265   Char Patient ZIP Code
+DC  2019 CORE             472 ZIP3                            2266 2268   Char Patient ZIP Code, first 3 digits
+DC  2019 CORE             473 ZIPINC_QRTL                     2269 2271   Num  Median household income national quartile for patient ZIP Code
+DC  2019 CORE             474 HOSPID                          2272 2276   Num  HCUP hospital identification number
+DC  2019 CORE             475 AYEAR                           2277 2280   Num  Admission year
+DC  2019 CORE             476 BMONTH                          2281 2282   Num  Birth month
+DC  2019 CORE             477 BYEAR                           2283 2286   Num  Birth year

@@ -1,0 +1,111 @@
+Columns   Description:
+=======   ============
+ 1- 2     State postal code
+ 5- 8     Discharge year of data
+10-14     File name
+19-21     Variable number
+23-40     Variable name
+43-45     Starting column of variable in ASCII file
+47-49     Ending column of variable in ASCII file
+   51     Non-zero number of digits after decimal point for numeric variable
+53-56     Variable type (NUM=numeric; CHAR=character)
+57-88     Variable label
+
+
+IA  1999 CORE     1   KEY                 1   14    Num HCUP record identifier
+IA  1999 CORE     2   AGE                 15  17    Num Age in years at admission
+IA  1999 CORE     3   AGEDAY              18  20    Num Age in days (when age < 1 year)
+IA  1999 CORE     4   AGEMONTH            21  23    Num Age in months (when age < 11 years)
+IA  1999 CORE     5   AMONTH              24  25    Num Admission month
+IA  1999 CORE     6   ASOURCE             26  27    Num Admission source (uniform)
+IA  1999 CORE     7   ASOURCE_X           28  28    CharAdmission source (as received from source)
+IA  1999 CORE     8   ATYPE               29  30    Num Admission type
+IA  1999 CORE     9   AWEEKEND            31  32    Num Admission day is a weekend
+IA  1999 CORE     10  DIED                33  34    Num Died during hospitalization
+IA  1999 CORE     11  DISPUB92            35  36    Num Disposition of patient (UB-92 standard coding)
+IA  1999 CORE     12  DISPUNIFORM         37  38    Num Disposition of patient (uniform)
+IA  1999 CORE     13  DISP_X              39  39    CharDisposition of patient (as received from source)
+IA  1999 CORE     14  DQTR                40  40    Num Discharge quarter
+IA  1999 CORE     15  DRG                 41  43    Num DRG in effect on discharge date
+IA  1999 CORE     16  DRG10               44  46    Num DRG, version 10
+IA  1999 CORE     17  DRG18               47  49    Num DRG, version 18
+IA  1999 CORE     18  DRGVER              50  51    Num DRG grouper version used on discharge date
+IA  1999 CORE     19  DSHOSPID            52  64    CharData source hospital identifier
+IA  1999 CORE     20  DX1                 65  69    CharPrincipal diagnosis
+IA  1999 CORE     21  DX2                 70  74    CharDiagnosis 2
+IA  1999 CORE     22  DX3                 75  79    CharDiagnosis 3
+IA  1999 CORE     23  DX4                 80  84    CharDiagnosis 4
+IA  1999 CORE     24  DX5                 85  89    CharDiagnosis 5
+IA  1999 CORE     25  DX6                 90  94    CharDiagnosis 6
+IA  1999 CORE     26  DX7                 95  99    CharDiagnosis 7
+IA  1999 CORE     27  DX8                 100 104   CharDiagnosis 8
+IA  1999 CORE     28  DX9                 105 109   CharDiagnosis 9
+IA  1999 CORE     29  DX10                110 114   CharDiagnosis 10
+IA  1999 CORE     30  DX11                115 119   CharDiagnosis 11
+IA  1999 CORE     31  DXCCS1              120 123   Num CCS: principal diagnosis
+IA  1999 CORE     32  DXCCS2              124 127   Num CCS: diagnosis 2
+IA  1999 CORE     33  DXCCS3              128 131   Num CCS: diagnosis 3
+IA  1999 CORE     34  DXCCS4              132 135   Num CCS: diagnosis 4
+IA  1999 CORE     35  DXCCS5              136 139   Num CCS: diagnosis 5
+IA  1999 CORE     36  DXCCS6              140 143   Num CCS: diagnosis 6
+IA  1999 CORE     37  DXCCS7              144 147   Num CCS: diagnosis 7
+IA  1999 CORE     38  DXCCS8              148 151   Num CCS: diagnosis 8
+IA  1999 CORE     39  DXCCS9              152 155   Num CCS: diagnosis 9
+IA  1999 CORE     40  DXCCS10             156 159   Num CCS: diagnosis 10
+IA  1999 CORE     41  DXCCS11             160 163   Num CCS: diagnosis 11
+IA  1999 CORE     42  FEMALE              164 165   Num Indicator of sex
+IA  1999 CORE     43  HOSPST              166 167   CharHospital state postal code
+IA  1999 CORE     44  LOS                 168 172   Num Length of stay (cleaned)
+IA  1999 CORE     45  LOS_X               173 178   Num Length of stay (uncleaned)
+IA  1999 CORE     46  MDC                 179 180   Num MDC in effect on discharge date
+IA  1999 CORE     47  MDC10               181 182   Num MDC, version 10
+IA  1999 CORE     48  MDC18               183 184   Num MDC, version 18
+IA  1999 CORE     49  MDID_S              185 200   CharAttending physician number (synthetic)
+IA  1999 CORE     50  MRN_S               201 217   CharMedical record number (synthetic)
+IA  1999 CORE     51  NDX                 218 219   Num Number of diagnoses on this record
+IA  1999 CORE     52  NEOMAT              220 220   Num Neonatal and/or maternal DX and/or PR
+IA  1999 CORE     53  NPR                 221 222   Num Number of procedures on this record
+IA  1999 CORE     54  PAY1                223 224   Num Primary expected payer (uniform)
+IA  1999 CORE     55  PAY1_X              225 226   CharPrimary expected payer (as received from source)
+IA  1999 CORE     56  PR1                 227 230   CharPrincipal procedure
+IA  1999 CORE     57  PR2                 231 234   CharProcedure 2
+IA  1999 CORE     58  PR3                 235 238   CharProcedure 3
+IA  1999 CORE     59  PR4                 239 242   CharProcedure 4
+IA  1999 CORE     60  PR5                 243 246   CharProcedure 5
+IA  1999 CORE     61  PR6                 247 250   CharProcedure 6
+IA  1999 CORE     62  PRCCS1              251 253   Num CCS: principal procedure
+IA  1999 CORE     63  PRCCS2              254 256   Num CCS: procedure 2
+IA  1999 CORE     64  PRCCS3              257 259   Num CCS: procedure 3
+IA  1999 CORE     65  PRCCS4              260 262   Num CCS: procedure 4
+IA  1999 CORE     66  PRCCS5              263 265   Num CCS: procedure 5
+IA  1999 CORE     67  PRCCS6              266 268   Num CCS: procedure 6
+IA  1999 CORE     68  PRDAY1              269 271   Num Number of days from admission to PR1
+IA  1999 CORE     69  PRDAY2              272 274   Num Number of days from admission to PR2
+IA  1999 CORE     70  PRDAY3              275 277   Num Number of days from admission to PR3
+IA  1999 CORE     71  PRDAY4              278 280   Num Number of days from admission to PR4
+IA  1999 CORE     72  PRDAY5              281 283   Num Number of days from admission to PR5
+IA  1999 CORE     73  PRDAY6              284 286   Num Number of days from admission to PR6
+IA  1999 CORE     74  PSTCO               287 291   Num Patient state/county FIPS code
+IA  1999 CORE     75  RACE                292 293   Num Race (uniform)
+IA  1999 CORE     76  RACE_X              294 294   CharRace (as received from source)
+IA  1999 CORE     77  SURGID_S            295 310   CharPrimary surgeon number (synthetic)
+IA  1999 CORE     78  TOTCHG              311 320   Num Total charges (cleaned)
+IA  1999 CORE     79  TOTCHG_X            321 335 2 Num Total charges (as received from source)
+IA  1999 CORE     80  YEAR                336 339   Num Calendar year
+IA  1999 CORE     81  ZIP                 340 344   CharPatient zip code
+IA  1999 CORE     82  AYEAR               345 348   Num Admission year
+IA  1999 CORE     83  DMONTH              349 350   Num Discharge month
+IA  1999 CORE     84  BMONTH              351 352   Num Birth month
+IA  1999 CORE     85  BYEAR               353 356   Num Birth year
+IA  1999 CORE     86  PRMONTH1            357 358   Num Month of procedure 1
+IA  1999 CORE     87  PRMONTH2            359 360   Num Month of procedure 2
+IA  1999 CORE     88  PRMONTH3            361 362   Num Month of procedure 3
+IA  1999 CORE     89  PRMONTH4            363 364   Num Month of procedure 4
+IA  1999 CORE     90  PRMONTH5            365 366   Num Month of procedure 5
+IA  1999 CORE     91  PRMONTH6            367 368   Num Month of procedure 6
+IA  1999 CORE     92  PRYEAR1             369 372   Num Year of procedure 1
+IA  1999 CORE     93  PRYEAR2             373 376   Num Year of procedure 2
+IA  1999 CORE     94  PRYEAR3             377 380   Num Year of procedure 3
+IA  1999 CORE     95  PRYEAR4             381 384   Num Year of procedure 4
+IA  1999 CORE     96  PRYEAR5             385 388   Num Year of procedure 5
+IA  1999 CORE     97  PRYEAR6             389 392   Num Year of procedure 6

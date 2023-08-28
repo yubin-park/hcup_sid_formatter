@@ -1,0 +1,26 @@
+Data Set Name: AZ_SID_2000_AHAL                
+Number of Observations: 63
+Total Record Length: 36
+Total Number of Variables: 6
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 49    Variable name
+51- 54    Starting column of variable in ASCII file
+56- 59    Ending column of variable in ASCII file
+    61    Non-zero number of digits after decimal point for numeric variable
+63- 66    Variable type (Num=numeric; Char=character)
+68-167    Variable label
+
+
+AZ  2000 AHAL               1 AHAID                  1    7   Char AHA hospital identifier with the leading 6
+AZ  2000 AHAL               2 DSHOSPID               8   20   Char Data source hospital identifier
+AZ  2000 AHAL               3 HOSPID                21   25   Num  HCUP hospital identification number (SSHHH)
+AZ  2000 AHAL               4 HOSPST                26   27   Char Hospital state postal code
+AZ  2000 AHAL               5 HOSPSTCO              28   32   Num  Hospital modified FIPS state/county code
+AZ  2000 AHAL               6 YEAR                  33   36   Num  Calendar year

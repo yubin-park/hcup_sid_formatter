@@ -1,0 +1,142 @@
+Data Set Name: IA_SID_2005_CORE                
+Number of Observations: 362141
+Total Record Length: 475
+Total Number of Variables: 122
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 56    Variable name
+58- 61    Starting column of variable in ASCII file
+63- 66    Ending column of variable in ASCII file
+    68    Non-zero number of digits after decimal point for numeric variable
+70- 73    Variable type (Num=numeric; Char=character)
+75-174    Variable label
+
+
+IA  2005 CORE               1 KEY                           1   14   Num  HCUP record identifier
+IA  2005 CORE               2 AGE                          15   17   Num  Age in years at admission
+IA  2005 CORE               3 AGEDAY                       18   20   Num  Age in days (when age < 1 year)
+IA  2005 CORE               4 AGEMONTH                     21   23   Num  Age in months (when age < 11 years)
+IA  2005 CORE               5 AMONTH                       24   25   Num  Admission month
+IA  2005 CORE               6 ASOURCE                      26   27   Num  Admission source (uniform)
+IA  2005 CORE               7 ASOURCE_X                    28   28   Char Admission source (as received from source)
+IA  2005 CORE               8 ASOURCEUB92                  29   29   Char Admission source (UB-92 standard coding)
+IA  2005 CORE               9 ATYPE                        30   31   Num  Admission type
+IA  2005 CORE              10 AWEEKEND                     32   33   Num  Admission day is a weekend
+IA  2005 CORE              11 DIED                         34   35   Num  Died during hospitalization
+IA  2005 CORE              12 DISP_X                       36   39   Char Disposition of patient (as received from source)
+IA  2005 CORE              13 DISPUB92                     40   41   Num  Disposition of patient (UB-92 standard coding)
+IA  2005 CORE              14 DISPUNIFORM                  42   43   Num  Disposition of patient (uniform)
+IA  2005 CORE              15 DQTR                         44   45   Num  Discharge quarter
+IA  2005 CORE              16 DRG                          46   48   Num  DRG in effect on discharge date
+IA  2005 CORE              17 DRG18                        49   51   Num  DRG, version 18
+IA  2005 CORE              18 DRGVER                       52   53   Num  DRG grouper version used on discharge date
+IA  2005 CORE              19 DSHOSPID                     54   66   Char Data source hospital identifier
+IA  2005 CORE              20 DX1                          67   71   Char Principal diagnosis
+IA  2005 CORE              21 DX2                          72   76   Char Diagnosis 2
+IA  2005 CORE              22 DX3                          77   81   Char Diagnosis 3
+IA  2005 CORE              23 DX4                          82   86   Char Diagnosis 4
+IA  2005 CORE              24 DX5                          87   91   Char Diagnosis 5
+IA  2005 CORE              25 DX6                          92   96   Char Diagnosis 6
+IA  2005 CORE              26 DX7                          97  101   Char Diagnosis 7
+IA  2005 CORE              27 DX8                         102  106   Char Diagnosis 8
+IA  2005 CORE              28 DX9                         107  111   Char Diagnosis 9
+IA  2005 CORE              29 DXCCS1                      112  115   Num  CCS: principal diagnosis
+IA  2005 CORE              30 DXCCS2                      116  119   Num  CCS: diagnosis 2
+IA  2005 CORE              31 DXCCS3                      120  123   Num  CCS: diagnosis 3
+IA  2005 CORE              32 DXCCS4                      124  127   Num  CCS: diagnosis 4
+IA  2005 CORE              33 DXCCS5                      128  131   Num  CCS: diagnosis 5
+IA  2005 CORE              34 DXCCS6                      132  135   Num  CCS: diagnosis 6
+IA  2005 CORE              35 DXCCS7                      136  139   Num  CCS: diagnosis 7
+IA  2005 CORE              36 DXCCS8                      140  143   Num  CCS: diagnosis 8
+IA  2005 CORE              37 DXCCS9                      144  147   Num  CCS: diagnosis 9
+IA  2005 CORE              38 ECODE1                      148  152   Char E code 1
+IA  2005 CORE              39 ECODE2                      153  157   Char E code 2
+IA  2005 CORE              40 ECODE3                      158  162   Char E code 3
+IA  2005 CORE              41 ECODE4                      163  167   Char E code 4
+IA  2005 CORE              42 ECODE5                      168  172   Char E code 5
+IA  2005 CORE              43 ECODE6                      173  177   Char E code 6
+IA  2005 CORE              44 E_CCS1                      178  181   Num  CCS: E Code 1
+IA  2005 CORE              45 E_CCS2                      182  185   Num  CCS: E Code 2
+IA  2005 CORE              46 E_CCS3                      186  189   Num  CCS: E Code 3
+IA  2005 CORE              47 E_CCS4                      190  193   Num  CCS: E Code 4
+IA  2005 CORE              48 E_CCS5                      194  197   Num  CCS: E Code 5
+IA  2005 CORE              49 E_CCS6                      198  201   Num  CCS: E Code 6
+IA  2005 CORE              50 FEMALE                      202  203   Num  Indicator of sex
+IA  2005 CORE              51 HCUP_ED                     204  205   Num  HCUP Emergency Department service indicator
+IA  2005 CORE              52 HCUP_OS                     206  207   Num  HCUP Observation Stay service indicator
+IA  2005 CORE              53 HOSPST                      208  209   Char Hospital state postal code
+IA  2005 CORE              54 LEVELCARE                   210  212   Char Level of patient care (as received from source)
+IA  2005 CORE              55 LOS                         213  217   Num  Length of stay (cleaned)
+IA  2005 CORE              56 LOS_X                       218  223   Num  Length of stay (as received from source)
+IA  2005 CORE              57 MDC                         224  225   Num  MDC in effect on discharge date
+IA  2005 CORE              58 MDC18                       226  227   Num  MDC, version 18
+IA  2005 CORE              59 MDNUM1_R                    228  236   Num  Physician 1 number (re-identified)
+IA  2005 CORE              60 MDNUM2_R                    237  245   Num  Physician 2 number (re-identified)
+IA  2005 CORE              61 MDNUM3_R                    246  254   Num  Physician 3 number (re-identified)
+IA  2005 CORE              62 MEDINCSTQ                   255  256   Num  Median household income state quartile for patient ZIP Code
+IA  2005 CORE              63 MRN_R                       257  265   Num  Medical record number (re-identified)
+IA  2005 CORE              64 NDX                         266  267   Num  Number of diagnoses on this record
+IA  2005 CORE              65 NECODE                      268  269   Num  Number of E codes on this record
+IA  2005 CORE              66 NEOMAT                      270  271   Num  Neonatal and/or maternal DX and/or PR
+IA  2005 CORE              67 NPR                         272  273   Num  Number of procedures on this record
+IA  2005 CORE              68 PAY1                        274  275   Num  Primary expected payer (uniform)
+IA  2005 CORE              69 PAY1_X                      276  279   Char Primary expected payer (as received from source)
+IA  2005 CORE              70 PL_CBSA                     280  282   Num  Patient location: Core Based Statistical Area (CBSA)
+IA  2005 CORE              71 PL_MSA1993                  283  285   Num  Patient location: Metropolitan Statistical Area (MSA), 1993
+IA  2005 CORE              72 PL_NHCS2006                 286  287   Num  Patient Location: NCHS Urban-Rural Code (V2006)
+IA  2005 CORE              73 PL_RUCA10_2005              288  289   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, ten levels
+IA  2005 CORE              74 PL_RUCA2005                 290  293 1 Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes
+IA  2005 CORE              75 PL_RUCA4_2005               294  295   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, four levels
+IA  2005 CORE              76 PL_RUCC2003                 296  297   Num  Patient location: Rural-Urban Continuum Codes(RUCC), 2003
+IA  2005 CORE              77 PL_UIC2003                  298  299   Num  Patient location: Urban Influence Codes, 2003
+IA  2005 CORE              78 PL_UR_CAT4                  300  301   Num  Patient Location: Urban-Rural 4 Categories
+IA  2005 CORE              79 PL_UR_CAT5                  302  303   Num  Patient Location: Urban-Rural 5 Categories
+IA  2005 CORE              80 PR1                         304  307   Char Principal procedure
+IA  2005 CORE              81 PR2                         308  311   Char Procedure 2
+IA  2005 CORE              82 PR3                         312  315   Char Procedure 3
+IA  2005 CORE              83 PR4                         316  319   Char Procedure 4
+IA  2005 CORE              84 PR5                         320  323   Char Procedure 5
+IA  2005 CORE              85 PR6                         324  327   Char Procedure 6
+IA  2005 CORE              86 PRCCS1                      328  330   Num  CCS: principal procedure
+IA  2005 CORE              87 PRCCS2                      331  333   Num  CCS: procedure 2
+IA  2005 CORE              88 PRCCS3                      334  336   Num  CCS: procedure 3
+IA  2005 CORE              89 PRCCS4                      337  339   Num  CCS: procedure 4
+IA  2005 CORE              90 PRCCS5                      340  342   Num  CCS: procedure 5
+IA  2005 CORE              91 PRCCS6                      343  345   Num  CCS: procedure 6
+IA  2005 CORE              92 PRDAY1                      346  350   Num  Number of days from admission to PR1
+IA  2005 CORE              93 PRDAY2                      351  355   Num  Number of days from admission to PR2
+IA  2005 CORE              94 PRDAY3                      356  360   Num  Number of days from admission to PR3
+IA  2005 CORE              95 PRDAY4                      361  365   Num  Number of days from admission to PR4
+IA  2005 CORE              96 PRDAY5                      366  370   Num  Number of days from admission to PR5
+IA  2005 CORE              97 PRDAY6                      371  375   Num  Number of days from admission to PR6
+IA  2005 CORE              98 PSTATE                      376  377   Char Patient State postal code
+IA  2005 CORE              99 PSTCO                       378  382   Num  Patient state/county FIPS code
+IA  2005 CORE             100 PSTCO2                      383  387   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+IA  2005 CORE             101 RACE                        388  389   Num  Race (uniform)
+IA  2005 CORE             102 RACE_X                      390  393   Char Race (as received from source)
+IA  2005 CORE             103 TOTCHG                      394  403   Num  Total charges (cleaned)
+IA  2005 CORE             104 TOTCHG_X                    404  418 2 Num  Total charges (as received from source)
+IA  2005 CORE             105 YEAR                        419  422   Num  Calendar year
+IA  2005 CORE             106 ZIP                         423  427   Char Patient ZIP Code
+IA  2005 CORE             107 AYEAR                       428  431   Num  Admission year
+IA  2005 CORE             108 DMONTH                      432  433   Num  Discharge month
+IA  2005 CORE             109 BMONTH                      434  435   Num  Birth month
+IA  2005 CORE             110 BYEAR                       436  439   Num  Birth year
+IA  2005 CORE             111 PRMONTH1                    440  441   Num  Month of procedure 1
+IA  2005 CORE             112 PRMONTH2                    442  443   Num  Month of procedure 2
+IA  2005 CORE             113 PRMONTH3                    444  445   Num  Month of procedure 3
+IA  2005 CORE             114 PRMONTH4                    446  447   Num  Month of procedure 4
+IA  2005 CORE             115 PRMONTH5                    448  449   Num  Month of procedure 5
+IA  2005 CORE             116 PRMONTH6                    450  451   Num  Month of procedure 6
+IA  2005 CORE             117 PRYEAR1                     452  455   Num  Year of procedure 1
+IA  2005 CORE             118 PRYEAR2                     456  459   Num  Year of procedure 2
+IA  2005 CORE             119 PRYEAR3                     460  463   Num  Year of procedure 3
+IA  2005 CORE             120 PRYEAR4                     464  467   Num  Year of procedure 4
+IA  2005 CORE             121 PRYEAR5                     468  471   Num  Year of procedure 5
+IA  2005 CORE             122 PRYEAR6                     472  475   Num  Year of procedure 6

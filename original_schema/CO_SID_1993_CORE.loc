@@ -1,0 +1,157 @@
+Data Set Name: CO_SID_1993_CORE                
+Number of Observations: 384032
+Total Record Length: 571
+Total Number of Variables: 137
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 49    Variable name
+51- 54    Starting column of variable in ASCII file
+56- 59    Ending column of variable in ASCII file
+    61    Non-zero number of digits after decimal point for numeric variable
+63- 66    Variable type (Num=numeric; Char=character)
+68-167    Variable label
+
+
+CO  1993 CORE               1 AGE                    1    3   Num  I:Age in years at admission
+CO  1993 CORE               2 AGEDAY                 4    6   Num  I:Age in days (when < 1 year)
+CO  1993 CORE               3 SEX                    7    9   Num  I:Sex
+CO  1993 CORE               4 RACE                  10   11   Num  I:Race
+CO  1993 CORE               5 DQTR                  12   13   Num  I:Discharge quarter
+CO  1993 CORE               6 LOS                   14   18   Num  I:Length of stay (cleaned)
+CO  1993 CORE               7 DISP                  19   20   Num  I:Disposition of patient
+CO  1993 CORE               8 DIED                  21   22   Num  I:Died during hospitalization
+CO  1993 CORE               9 ATYPE                 23   24   Num  I:Admission type
+CO  1993 CORE              10 ASOURCE               25   26   Num  I:Admission source
+CO  1993 CORE              11 NDX                   27   28   Num  I:Number of diagnoses on this discharge
+CO  1993 CORE              12 DX1                   29   33   Char I:Principal diagnosis
+CO  1993 CORE              13 DXV1                  34   37   Num  I:Validity flag: principal diagnosis
+CO  1993 CORE              14 DCCHPR1               38   41   Num  I:CCHPR: principal diagnosis
+CO  1993 CORE              15 NPR                   42   43   Num  I:Number of procedures on this discharge
+CO  1993 CORE              16 PR1                   44   47   Char I:Principal procedure
+CO  1993 CORE              17 PRV1                  48   50   Num  I:Validity flag: principal procedure
+CO  1993 CORE              18 PCCHPR1               51   54   Num  I:CCHPR: principal procedure
+CO  1993 CORE              19 DRG                   55   57   Num  I:DRG in effect on discharge date
+CO  1993 CORE              20 MDC                   58   59   Num  I:MDC in effect on discharge date
+CO  1993 CORE              21 DRGVER                60   61   Num  I:DRG grouper version used on disch date
+CO  1993 CORE              22 DRG10                 62   64   Num  I:DRG, Version 10
+CO  1993 CORE              23 MDC10                 65   66   Num  I:MDC, Version 10
+CO  1993 CORE              24 PAY1                  67   68   Num  I:Primary expected payer, uniform
+CO  1993 CORE              25 TOTCHG                69   78   Num  I:Total charges (cleaned)
+CO  1993 CORE              26 PROCESS               79   89   Num  I:HCUP-3 discharge processing ID number
+CO  1993 CORE              27 YEAR                  90   93   Num  Calendar year
+CO  1993 CORE              28 DSHOSPID              94  106   Char I:Data source hospital ID number
+CO  1993 CORE              29 DSNUM                107  109   Num  I:Data source ID number
+CO  1993 CORE              30 DSTYPE               110  112   Num  I:Data source type
+CO  1993 CORE              31 HOSPST               113  114   Char Hospital state postal code
+CO  1993 CORE              32 MDID_S               115  130   Char I:Attending physician number (synthetic)
+CO  1993 CORE              33 SURGID_S             131  146   Char I:Primary surgeon number (synthetic)
+CO  1993 CORE              34 ADAYWK               147  149   Num  I:Admission day of week
+CO  1993 CORE              35 AMONTH               150  151   Num  I:Admission month
+CO  1993 CORE              36 LOS_X                152  156   Num  I:Length of stay (uncleaned)
+CO  1993 CORE              37 NEOMAT               157  158   Num  I:Neonatal and/or maternal DX and/or PR
+CO  1993 CORE              38 DXSYS                159  161   Num  I:Diagnosis coding system
+CO  1993 CORE              39 DSNDX                162  164   Num  I:Max number of diagnoses from source
+CO  1993 CORE              40 PRSYS                165  167   Num  I:Procedure coding system
+CO  1993 CORE              41 DSNPR                168  170   Num  I:Max number of procedures from source
+CO  1993 CORE              42 PRDAY1               171  175   Num  I:No. of days from admission to PR1
+CO  1993 CORE              43 PAY1_N               176  178   Num  I:Primary expected payer, nonuniform
+CO  1993 CORE              44 TOTCHG_X             179  190 2 Num  I:Total charges (from data source)
+CO  1993 CORE              45 DX2                  191  195   Char I:Diagnosis 2
+CO  1993 CORE              46 DX3                  196  200   Char I:Diagnosis 3
+CO  1993 CORE              47 DX4                  201  205   Char I:Diagnosis 4
+CO  1993 CORE              48 DX5                  206  210   Char I:Diagnosis 5
+CO  1993 CORE              49 DX6                  211  215   Char I:Diagnosis 6
+CO  1993 CORE              50 DX7                  216  220   Char I:Diagnosis 7
+CO  1993 CORE              51 DX8                  221  225   Char I:Diagnosis 8
+CO  1993 CORE              52 DX9                  226  230   Char I:Diagnosis 9
+CO  1993 CORE              53 DX10                 231  235   Char I:Diagnosis 10
+CO  1993 CORE              54 DX11                 236  240   Char I:Diagnosis 11
+CO  1993 CORE              55 DX12                 241  245   Char I:Diagnosis 12
+CO  1993 CORE              56 DX13                 246  250   Char I:Diagnosis 13
+CO  1993 CORE              57 DX14                 251  255   Char I:Diagnosis 14
+CO  1993 CORE              58 DX15                 256  260   Char I:Diagnosis 15
+CO  1993 CORE              59 DXV2                 261  264   Num  I:Validity flag: diagnosis 2
+CO  1993 CORE              60 DXV3                 265  268   Num  I:Validity flag: diagnosis 3
+CO  1993 CORE              61 DXV4                 269  272   Num  I:Validity flag: diagnosis 4
+CO  1993 CORE              62 DXV5                 273  276   Num  I:Validity flag: diagnosis 5
+CO  1993 CORE              63 DXV6                 277  280   Num  I:Validity flag: diagnosis 6
+CO  1993 CORE              64 DXV7                 281  284   Num  I:Validity flag: diagnosis 7
+CO  1993 CORE              65 DXV8                 285  288   Num  I:Validity flag: diagnosis 8
+CO  1993 CORE              66 DXV9                 289  292   Num  I:Validity flag: diagnosis 9
+CO  1993 CORE              67 DXV10                293  296   Num  I:Validity flag: diagnosis 10
+CO  1993 CORE              68 DXV11                297  300   Num  I:Validity flag: diagnosis 11
+CO  1993 CORE              69 DXV12                301  304   Num  I:Validity flag: diagnosis 12
+CO  1993 CORE              70 DXV13                305  308   Num  I:Validity flag: diagnosis 13
+CO  1993 CORE              71 DXV14                309  312   Num  I:Validity flag: diagnosis 14
+CO  1993 CORE              72 DXV15                313  316   Num  I:Validity flag: diagnosis 15
+CO  1993 CORE              73 DCCHPR2              317  320   Num  I:CCHPR: diagnosis 2
+CO  1993 CORE              74 DCCHPR3              321  324   Num  I:CCHPR: diagnosis 3
+CO  1993 CORE              75 DCCHPR4              325  328   Num  I:CCHPR: diagnosis 4
+CO  1993 CORE              76 DCCHPR5              329  332   Num  I:CCHPR: diagnosis 5
+CO  1993 CORE              77 DCCHPR6              333  336   Num  I:CCHPR: diagnosis 6
+CO  1993 CORE              78 DCCHPR7              337  340   Num  I:CCHPR: diagnosis 7
+CO  1993 CORE              79 DCCHPR8              341  344   Num  I:CCHPR: diagnosis 8
+CO  1993 CORE              80 DCCHPR9              345  348   Num  I:CCHPR: diagnosis 9
+CO  1993 CORE              81 DCCHPR10             349  352   Num  I:CCHPR: diagnosis 10
+CO  1993 CORE              82 DCCHPR11             353  356   Num  I:CCHPR: diagnosis 11
+CO  1993 CORE              83 DCCHPR12             357  360   Num  I:CCHPR: diagnosis 12
+CO  1993 CORE              84 DCCHPR13             361  364   Num  I:CCHPR: diagnosis 13
+CO  1993 CORE              85 DCCHPR14             365  368   Num  I:CCHPR: diagnosis 14
+CO  1993 CORE              86 DCCHPR15             369  372   Num  I:CCHPR: diagnosis 15
+CO  1993 CORE              87 PR2                  373  376   Char I:Procedure 2
+CO  1993 CORE              88 PR3                  377  380   Char I:Procedure 3
+CO  1993 CORE              89 PR4                  381  384   Char I:Procedure 4
+CO  1993 CORE              90 PR5                  385  388   Char I:Procedure 5
+CO  1993 CORE              91 PR6                  389  392   Char I:Procedure 6
+CO  1993 CORE              92 PR7                  393  396   Char I:Procedure 7
+CO  1993 CORE              93 PR8                  397  400   Char I:Procedure 8
+CO  1993 CORE              94 PR9                  401  404   Char I:Procedure 9
+CO  1993 CORE              95 PR10                 405  408   Char I:Procedure 10
+CO  1993 CORE              96 PR11                 409  412   Char I:Procedure 11
+CO  1993 CORE              97 PR12                 413  416   Char I:Procedure 12
+CO  1993 CORE              98 PR13                 417  420   Char I:Procedure 13
+CO  1993 CORE              99 PR14                 421  424   Char I:Procedure 14
+CO  1993 CORE             100 PR15                 425  428   Char I:Procedure 15
+CO  1993 CORE             101 PRV2                 429  431   Num  I:Validity flag: procedure 2
+CO  1993 CORE             102 PRV3                 432  434   Num  I:Validity flag: procedure 3
+CO  1993 CORE             103 PRV4                 435  437   Num  I:Validity flag: procedure 4
+CO  1993 CORE             104 PRV5                 438  440   Num  I:Validity flag: procedure 5
+CO  1993 CORE             105 PRV6                 441  443   Num  I:Validity flag: procedure 6
+CO  1993 CORE             106 PRV7                 444  446   Num  I:Validity flag: procedure 7
+CO  1993 CORE             107 PRV8                 447  449   Num  I:Validity flag: procedure 8
+CO  1993 CORE             108 PRV9                 450  452   Num  I:Validity flag: procedure 9
+CO  1993 CORE             109 PRV10                453  455   Num  I:Validity flag: procedure 10
+CO  1993 CORE             110 PRV11                456  458   Num  I:Validity flag: procedure 11
+CO  1993 CORE             111 PRV12                459  461   Num  I:Validity flag: procedure 12
+CO  1993 CORE             112 PRV13                462  464   Num  I:Validity flag: procedure 13
+CO  1993 CORE             113 PRV14                465  467   Num  I:Validity flag: procedure 14
+CO  1993 CORE             114 PRV15                468  470   Num  I:Validity flag: procedure 15
+CO  1993 CORE             115 PCCHPR2              471  474   Num  I:CCHPR: procedure 2
+CO  1993 CORE             116 PCCHPR3              475  478   Num  I:CCHPR: procedure 3
+CO  1993 CORE             117 PCCHPR4              479  482   Num  I:CCHPR: procedure 4
+CO  1993 CORE             118 PCCHPR5              483  486   Num  I:CCHPR: procedure 5
+CO  1993 CORE             119 PCCHPR6              487  490   Num  I:CCHPR: procedure 6
+CO  1993 CORE             120 PCCHPR7              491  494   Num  I:CCHPR: procedure 7
+CO  1993 CORE             121 PCCHPR8              495  498   Num  I:CCHPR: procedure 8
+CO  1993 CORE             122 PCCHPR9              499  502   Num  I:CCHPR: procedure 9
+CO  1993 CORE             123 PCCHPR10             503  506   Num  I:CCHPR: procedure 10
+CO  1993 CORE             124 PCCHPR11             507  510   Num  I:CCHPR: procedure 11
+CO  1993 CORE             125 PCCHPR12             511  514   Num  I:CCHPR: procedure 12
+CO  1993 CORE             126 PCCHPR13             515  518   Num  I:CCHPR: procedure 13
+CO  1993 CORE             127 PCCHPR14             519  522   Num  I:CCHPR: procedure 14
+CO  1993 CORE             128 PCCHPR15             523  526   Num  I:CCHPR: procedure 15
+CO  1993 CORE             129 ZIP                  527  531   Char I:Patient zip code
+CO  1993 CORE             130 MRN_S                532  548   Char I:Medical record number (synthetic)
+CO  1993 CORE             131 PSTCO                549  553   Num  I:Patient state/county FIPS code
+CO  1993 CORE             132 BWT                  554  557   Num  I:Birthweight in grams
+CO  1993 CORE             133 PAY1_X               558  559   Char I:Primary exp. payer (from data source)
+CO  1993 CORE             134 AYEAR                560  563   Num  Admission year
+CO  1993 CORE             135 DMONTH               564  565   Num  Discharge month
+CO  1993 CORE             136 PRMONTH1             566  567   Num  Month of procedure 1
+CO  1993 CORE             137 PRYEAR1              568  571   Num  Year of procedure 1

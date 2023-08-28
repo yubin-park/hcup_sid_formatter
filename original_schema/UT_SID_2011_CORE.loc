@@ -1,0 +1,150 @@
+Data Set Name: UT_SIDC_2011_CORE               
+Number of Observations: 280830
+Total Record Length: 478
+Total Number of Variables: 130
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 56    Variable name
+58- 61    Starting column of variable in ASCII file
+63- 66    Ending column of variable in ASCII file
+    68    Non-zero number of digits after decimal point for numeric variable
+70- 73    Variable type (Num=numeric; Char=character)
+75-174    Variable label
+
+
+UT  2011 CORE               1 ADRG                          1    3   Num  All Patient Refined DRG
+UT  2011 CORE               2 ADRGRISKMORTALITY             4    5   Num  All Patient Refined DRG mortality risk
+UT  2011 CORE               3 ADRGSEV                       6    7   Num  All Patient Refined DRG severity level
+UT  2011 CORE               4 AGE                           8   10   Num  Age in years at admission
+UT  2011 CORE               5 AGEDAY                       11   13   Num  Age in days (when age < 1 year)
+UT  2011 CORE               6 AGEMONTH                     14   16   Num  Age in months (when age < 11 years)
+UT  2011 CORE               7 AMONTH                       17   18   Num  Admission month
+UT  2011 CORE               8 ATYPE                        19   20   Num  Admission type
+UT  2011 CORE               9 AWEEKEND                     21   22   Num  Admission day is a weekend
+UT  2011 CORE              10 DIED                         23   24   Num  Died during hospitalization
+UT  2011 CORE              11 DISPUB04                     25   26   Num  Disposition of patient (UB-04 standard coding)
+UT  2011 CORE              12 DISPUNIFORM                  27   28   Num  Disposition of patient (uniform)
+UT  2011 CORE              13 DISP_X                       29   30   Char Disposition of patient (as received from source)
+UT  2011 CORE              14 DQTR                         31   32   Num  Discharge quarter
+UT  2011 CORE              15 DRG                          33   35   Num  DRG in effect on discharge date
+UT  2011 CORE              16 DRG24                        36   38   Num  DRG, version 24
+UT  2011 CORE              17 DRGVER                       39   40   Num  DRG grouper version used on discharge date
+UT  2011 CORE              18 DRG_NoPOA                    41   43   Num  DRG in use on discharge date, calculated without POA
+UT  2011 CORE              19 DSHOSPID                     44   60   Char Data source hospital identifier
+UT  2011 CORE              20 DX1                          61   65   Char Diagnosis 1
+UT  2011 CORE              21 DX2                          66   70   Char Diagnosis 2
+UT  2011 CORE              22 DX3                          71   75   Char Diagnosis 3
+UT  2011 CORE              23 DX4                          76   80   Char Diagnosis 4
+UT  2011 CORE              24 DX5                          81   85   Char Diagnosis 5
+UT  2011 CORE              25 DX6                          86   90   Char Diagnosis 6
+UT  2011 CORE              26 DX7                          91   95   Char Diagnosis 7
+UT  2011 CORE              27 DX8                          96  100   Char Diagnosis 8
+UT  2011 CORE              28 DX9                         101  105   Char Diagnosis 9
+UT  2011 CORE              29 DXCCS1                      106  109   Num  CCS: diagnosis 1
+UT  2011 CORE              30 DXCCS2                      110  113   Num  CCS: diagnosis 2
+UT  2011 CORE              31 DXCCS3                      114  117   Num  CCS: diagnosis 3
+UT  2011 CORE              32 DXCCS4                      118  121   Num  CCS: diagnosis 4
+UT  2011 CORE              33 DXCCS5                      122  125   Num  CCS: diagnosis 5
+UT  2011 CORE              34 DXCCS6                      126  129   Num  CCS: diagnosis 6
+UT  2011 CORE              35 DXCCS7                      130  133   Num  CCS: diagnosis 7
+UT  2011 CORE              36 DXCCS8                      134  137   Num  CCS: diagnosis 8
+UT  2011 CORE              37 DXCCS9                      138  141   Num  CCS: diagnosis 9
+UT  2011 CORE              38 DaysToEvent                 142  147   Num  Days from 'start date' to admission
+UT  2011 CORE              39 ECODE1                      148  152   Char E code 1
+UT  2011 CORE              40 ECODE2                      153  157   Char E code 2
+UT  2011 CORE              41 ECODE3                      158  162   Char E code 3
+UT  2011 CORE              42 ECODE4                      163  167   Char E code 4
+UT  2011 CORE              43 ECODE5                      168  172   Char E code 5
+UT  2011 CORE              44 ECODE6                      173  177   Char E code 6
+UT  2011 CORE              45 ECODE7                      178  182   Char E code 7
+UT  2011 CORE              46 ECODE8                      183  187   Char E code 8
+UT  2011 CORE              47 E_CCS1                      188  191   Num  CCS: E Code 1
+UT  2011 CORE              48 E_CCS2                      192  195   Num  CCS: E Code 2
+UT  2011 CORE              49 E_CCS3                      196  199   Num  CCS: E Code 3
+UT  2011 CORE              50 E_CCS4                      200  203   Num  CCS: E Code 4
+UT  2011 CORE              51 E_CCS5                      204  207   Num  CCS: E Code 5
+UT  2011 CORE              52 E_CCS6                      208  211   Num  CCS: E Code 6
+UT  2011 CORE              53 E_CCS7                      212  215   Num  CCS: E Code 7
+UT  2011 CORE              54 E_CCS8                      216  219   Num  CCS: E Code 8
+UT  2011 CORE              55 FEMALE                      220  221   Num  Indicator of sex
+UT  2011 CORE              56 HCUP_ED                     222  223   Num  HCUP Emergency Department service indicator
+UT  2011 CORE              57 HCUP_OS                     224  225   Num  HCUP Observation Stay service indicator
+UT  2011 CORE              58 HCUP_SURGERY_BROAD          226  227   Num  Revised HCUP_AS (PCLASSn=3 or 4, or broad definition)
+UT  2011 CORE              59 HCUP_SURGERY_NARROW         228  229   Num  Revised HCUP_AS (PCLASSn=4, or narrow definition)
+UT  2011 CORE              60 HISPANIC_X                  230  230   Char Hispanic ethnicity (as received from source)
+UT  2011 CORE              61 HOSPBRTH                    231  233   Num  Indicator of birth in this hospital
+UT  2011 CORE              62 HOSPST                      234  235   Char Hospital state postal code
+UT  2011 CORE              63 Homeless                    236  237   Num  Indicator that patient is homeless
+UT  2011 CORE              64 KEY                         238  252   Num  HCUP record identifier
+UT  2011 CORE              65 LOS                         253  257   Num  Length of stay (cleaned)
+UT  2011 CORE              66 LOS_X                       258  263   Num  Length of stay (as received from source)
+UT  2011 CORE              67 MARITALSTATUSUB04           264  264   Char Patient's marital status, UB-04 standard coding
+UT  2011 CORE              68 MARITALSTATUS_X             265  265   Char Patient's marital status (as received from source)
+UT  2011 CORE              69 MDC                         266  267   Num  MDC in effect on discharge date
+UT  2011 CORE              70 MDC24                       268  269   Num  MDC, version 24
+UT  2011 CORE              71 MDC_NoPOA                   270  271   Num  MDC in use on discharge date, calculated without POA
+UT  2011 CORE              72 MDNUM1_R                    272  280   Num  Physician 1 number (re-identified)
+UT  2011 CORE              73 MDSPEC1                     281  287   Char Physician 1 specialty (as received from source)
+UT  2011 CORE              74 MDSPEC2                     288  294   Char Physician 2 specialty (as received from source)
+UT  2011 CORE              75 MEDINCSTQ                   295  296   Num  Median household income state quartile for patient ZIP Code
+UT  2011 CORE              76 NCHRONIC                    297  299   Num  Number of chronic conditions
+UT  2011 CORE              77 NDX                         300  301   Num  Number of diagnoses on this record
+UT  2011 CORE              78 NECODE                      302  303   Num  Number of E codes on this record
+UT  2011 CORE              79 NEOMAT                      304  305   Num  Neonatal and/or maternal DX and/or PR
+UT  2011 CORE              80 NPR                         306  307   Num  Number of procedures on this record
+UT  2011 CORE              81 ORPROC                      308  309   Num  Major operating room procedure indicator
+UT  2011 CORE              82 OS_TIME                     310  317   Num  Observation stay time summed from UNITS
+UT  2011 CORE              83 PAY1                        318  319   Num  Primary expected payer (uniform)
+UT  2011 CORE              84 PAY1_X                      320  321   Char Primary expected payer (as received from source)
+UT  2011 CORE              85 PAY2                        322  323   Num  Secondary expected payer (uniform)
+UT  2011 CORE              86 PAY2_X                      324  325   Char Secondary expected payer (as received from source)
+UT  2011 CORE              87 PAY3                        326  327   Num  Tertiary expected payer (uniform)
+UT  2011 CORE              88 PAY3_X                      328  329   Char Tertiary expected payer (as received from source)
+UT  2011 CORE              89 PL_CBSA                     330  332   Num  Patient location: Core Based Statistical Area (CBSA)
+UT  2011 CORE              90 PL_MSA1993                  333  335   Num  Patient location: Metropolitan Statistical Area (MSA), 1993
+UT  2011 CORE              91 PL_NCHS2006                 336  337   Num  Patient Location: NCHS Urban-Rural Code (V2006)
+UT  2011 CORE              92 PL_RUCA10_2005              338  339   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, ten levels
+UT  2011 CORE              93 PL_RUCA2005                 340  343 1 Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes
+UT  2011 CORE              94 PL_RUCA4_2005               344  345   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, four levels
+UT  2011 CORE              95 PL_RUCC2003                 346  347   Num  Patient location: Rural-Urban Continuum Codes(RUCC), 2003
+UT  2011 CORE              96 PL_UIC2003                  348  349   Num  Patient location: Urban Influence Codes, 2003
+UT  2011 CORE              97 PL_UR_CAT4                  350  351   Num  Patient Location: Urban-Rural 4 Categories
+UT  2011 CORE              98 PR1                         352  355   Char Procedure 1
+UT  2011 CORE              99 PR2                         356  359   Char Procedure 2
+UT  2011 CORE             100 PR3                         360  363   Char Procedure 3
+UT  2011 CORE             101 PR4                         364  367   Char Procedure 4
+UT  2011 CORE             102 PR5                         368  371   Char Procedure 5
+UT  2011 CORE             103 PR6                         372  375   Char Procedure 6
+UT  2011 CORE             104 PRCCS1                      376  378   Num  CCS: procedure 1
+UT  2011 CORE             105 PRCCS2                      379  381   Num  CCS: procedure 2
+UT  2011 CORE             106 PRCCS3                      382  384   Num  CCS: procedure 3
+UT  2011 CORE             107 PRCCS4                      385  387   Num  CCS: procedure 4
+UT  2011 CORE             108 PRCCS5                      388  390   Num  CCS: procedure 5
+UT  2011 CORE             109 PRCCS6                      391  393   Num  CCS: procedure 6
+UT  2011 CORE             110 PROCTYPE                    394  396   Num  Procedure type indicator
+UT  2011 CORE             111 PSTATE                      397  398   Char Patient State postal code
+UT  2011 CORE             112 PSTCO                       399  403   Num  Patient state/county FIPS code
+UT  2011 CORE             113 PSTCO2                      404  408   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+UT  2011 CORE             114 PointOfOriginUB04           409  409   Char Point of origin for admission or visit, UB-04 standard coding
+UT  2011 CORE             115 PointOfOrigin_X             410  410   Char Point of origin for admission or visit, as received from source
+UT  2011 CORE             116 RACE                        411  412   Num  Race (uniform)
+UT  2011 CORE             117 RACE_X                      413  413   Char Race (as received from source)
+UT  2011 CORE             118 TOTCHG                      414  423   Num  Total charges (cleaned)
+UT  2011 CORE             119 TOTCHG_X                    424  438 2 Num  Total charges (as received from source)
+UT  2011 CORE             120 TRAN_IN                     439  440   Num  Transfer in indicator
+UT  2011 CORE             121 TRAN_OUT                    441  442   Num  Transfer out indicator
+UT  2011 CORE             122 VisitLink                   443  451   Num  Visit linkage variable
+UT  2011 CORE             123 YEAR                        452  455   Num  Calendar year
+UT  2011 CORE             124 ZIP3                        456  458   Char Patient ZIP Code, first 3 digits
+UT  2011 CORE             125 ZIPINC_QRTL                 459  461   Num  Median household income national quartile for patient ZIP Code
+UT  2011 CORE             126 ZIP                         462  466   Char Patient ZIP Code
+UT  2011 CORE             127 AYEAR                       467  470   Num  Admission year
+UT  2011 CORE             128 DMONTH                      471  472   Num  Discharge month
+UT  2011 CORE             129 BMONTH                      473  474   Num  Birth month
+UT  2011 CORE             130 BYEAR                       475  478   Num  Birth year

@@ -1,0 +1,226 @@
+Data Set Name: MA_SIDC_2007_CORE               
+Number of Observations: 849306
+Total Record Length: 711
+Total Number of Variables: 206
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 56    Variable name
+58- 61    Starting column of variable in ASCII file
+63- 66    Ending column of variable in ASCII file
+    68    Non-zero number of digits after decimal point for numeric variable
+70- 73    Variable type (Num=numeric; Char=character)
+75-174    Variable label
+
+
+MA  2007 CORE               1 ADRG                          1    3   Num  All Patient Refined DRG
+MA  2007 CORE               2 ADRGRISKMORTALITY             4    5   Num  All Patient Refined DRG mortality risk
+MA  2007 CORE               3 ADRGSEV                       6    7   Num  All Patient Refined DRG severity level
+MA  2007 CORE               4 AGE                           8   10   Num  Age in years at admission
+MA  2007 CORE               5 AGEMONTH                     11   13   Num  Age in months (when age < 11 years)
+MA  2007 CORE               6 AMDC                         14   15   Num  All Patient Refined MDC
+MA  2007 CORE               7 AMONTH                       16   17   Num  Admission month
+MA  2007 CORE               8 ASOURCE                      18   19   Num  Admission source (uniform)
+MA  2007 CORE               9 ASOURCEUB92                  20   20   Char Admission source (UB-92 standard coding)
+MA  2007 CORE              10 ASOURCE_X                    21   21   Char Admission source (as received from source)
+MA  2007 CORE              11 ATYPE                        22   23   Num  Admission type
+MA  2007 CORE              12 AWEEKEND                     24   25   Num  Admission day is a weekend
+MA  2007 CORE              13 BWT                          26   29   Num  Birth weight in grams
+MA  2007 CORE              14 DIED                         30   31   Num  Died during hospitalization
+MA  2007 CORE              15 DISPUB04                     32   33   Num  Disposition of patient (UB-04 standard coding)
+MA  2007 CORE              16 DISPUNIFORM                  34   35   Num  Disposition of patient (uniform)
+MA  2007 CORE              17 DISP_X                       36   37   Char Disposition of patient (as received from source)
+MA  2007 CORE              18 DQTR                         38   39   Num  Discharge quarter
+MA  2007 CORE              19 DRG                          40   42   Num  DRG in effect on discharge date
+MA  2007 CORE              20 DRG24                        43   45   Num  DRG, version 24
+MA  2007 CORE              21 DRGVER                       46   47   Num  DRG grouper version used on discharge date
+MA  2007 CORE              22 DSHOSPID                     48   60   Char Data source hospital identifier
+MA  2007 CORE              23 DX1                          61   65   Char Diagnosis 1
+MA  2007 CORE              24 DX2                          66   70   Char Diagnosis 2
+MA  2007 CORE              25 DX3                          71   75   Char Diagnosis 3
+MA  2007 CORE              26 DX4                          76   80   Char Diagnosis 4
+MA  2007 CORE              27 DX5                          81   85   Char Diagnosis 5
+MA  2007 CORE              28 DX6                          86   90   Char Diagnosis 6
+MA  2007 CORE              29 DX7                          91   95   Char Diagnosis 7
+MA  2007 CORE              30 DX8                          96  100   Char Diagnosis 8
+MA  2007 CORE              31 DX9                         101  105   Char Diagnosis 9
+MA  2007 CORE              32 DX10                        106  110   Char Diagnosis 10
+MA  2007 CORE              33 DX11                        111  115   Char Diagnosis 11
+MA  2007 CORE              34 DX12                        116  120   Char Diagnosis 12
+MA  2007 CORE              35 DX13                        121  125   Char Diagnosis 13
+MA  2007 CORE              36 DX14                        126  130   Char Diagnosis 14
+MA  2007 CORE              37 DX15                        131  135   Char Diagnosis 15
+MA  2007 CORE              38 DXCCS1                      136  139   Num  CCS: diagnosis 1
+MA  2007 CORE              39 DXCCS2                      140  143   Num  CCS: diagnosis 2
+MA  2007 CORE              40 DXCCS3                      144  147   Num  CCS: diagnosis 3
+MA  2007 CORE              41 DXCCS4                      148  151   Num  CCS: diagnosis 4
+MA  2007 CORE              42 DXCCS5                      152  155   Num  CCS: diagnosis 5
+MA  2007 CORE              43 DXCCS6                      156  159   Num  CCS: diagnosis 6
+MA  2007 CORE              44 DXCCS7                      160  163   Num  CCS: diagnosis 7
+MA  2007 CORE              45 DXCCS8                      164  167   Num  CCS: diagnosis 8
+MA  2007 CORE              46 DXCCS9                      168  171   Num  CCS: diagnosis 9
+MA  2007 CORE              47 DXCCS10                     172  175   Num  CCS: diagnosis 10
+MA  2007 CORE              48 DXCCS11                     176  179   Num  CCS: diagnosis 11
+MA  2007 CORE              49 DXCCS12                     180  183   Num  CCS: diagnosis 12
+MA  2007 CORE              50 DXCCS13                     184  187   Num  CCS: diagnosis 13
+MA  2007 CORE              51 DXCCS14                     188  191   Num  CCS: diagnosis 14
+MA  2007 CORE              52 DXCCS15                     192  195   Num  CCS: diagnosis 15
+MA  2007 CORE              53 DXPOA1                      196  196   Char Diagnosis 1, present on admission indicator
+MA  2007 CORE              54 DXPOA2                      197  197   Char Diagnosis 2, present on admission indicator
+MA  2007 CORE              55 DXPOA3                      198  198   Char Diagnosis 3, present on admission indicator
+MA  2007 CORE              56 DXPOA4                      199  199   Char Diagnosis 4, present on admission indicator
+MA  2007 CORE              57 DXPOA5                      200  200   Char Diagnosis 5, present on admission indicator
+MA  2007 CORE              58 DXPOA6                      201  201   Char Diagnosis 6, present on admission indicator
+MA  2007 CORE              59 DXPOA7                      202  202   Char Diagnosis 7, present on admission indicator
+MA  2007 CORE              60 DXPOA8                      203  203   Char Diagnosis 8, present on admission indicator
+MA  2007 CORE              61 DXPOA9                      204  204   Char Diagnosis 9, present on admission indicator
+MA  2007 CORE              62 DXPOA10                     205  205   Char Diagnosis 10, present on admission indicator
+MA  2007 CORE              63 DXPOA11                     206  206   Char Diagnosis 11, present on admission indicator
+MA  2007 CORE              64 DXPOA12                     207  207   Char Diagnosis 12, present on admission indicator
+MA  2007 CORE              65 DXPOA13                     208  208   Char Diagnosis 13, present on admission indicator
+MA  2007 CORE              66 DXPOA14                     209  209   Char Diagnosis 14, present on admission indicator
+MA  2007 CORE              67 DXPOA15                     210  210   Char Diagnosis 15, present on admission indicator
+MA  2007 CORE              68 DaysBetweenVisits           211  214   Num  Number of days between visits
+MA  2007 CORE              69 ECODE1                      215  219   Char E code 1
+MA  2007 CORE              70 ECODE2                      220  224   Char E code 2
+MA  2007 CORE              71 ECODE3                      225  229   Char E code 3
+MA  2007 CORE              72 ECODE4                      230  234   Char E code 4
+MA  2007 CORE              73 ECODE5                      235  239   Char E code 5
+MA  2007 CORE              74 ECODE6                      240  244   Char E code 6
+MA  2007 CORE              75 ECODE7                      245  249   Char E code 7
+MA  2007 CORE              76 ECODE8                      250  254   Char E code 8
+MA  2007 CORE              77 E_CCS1                      255  258   Num  CCS: E Code 1
+MA  2007 CORE              78 E_CCS2                      259  262   Num  CCS: E Code 2
+MA  2007 CORE              79 E_CCS3                      263  266   Num  CCS: E Code 3
+MA  2007 CORE              80 E_CCS4                      267  270   Num  CCS: E Code 4
+MA  2007 CORE              81 E_CCS5                      271  274   Num  CCS: E Code 5
+MA  2007 CORE              82 E_CCS6                      275  278   Num  CCS: E Code 6
+MA  2007 CORE              83 E_CCS7                      279  282   Num  CCS: E Code 7
+MA  2007 CORE              84 E_CCS8                      283  286   Num  CCS: E Code 8
+MA  2007 CORE              85 E_POA1                      287  287   Char E Code 1, present on admission indicator
+MA  2007 CORE              86 E_POA2                      288  288   Char E Code 2, present on admission indicator
+MA  2007 CORE              87 E_POA3                      289  289   Char E Code 3, present on admission indicator
+MA  2007 CORE              88 E_POA4                      290  290   Char E Code 4, present on admission indicator
+MA  2007 CORE              89 E_POA5                      291  291   Char E Code 5, present on admission indicator
+MA  2007 CORE              90 E_POA6                      292  292   Char E Code 6, present on admission indicator
+MA  2007 CORE              91 E_POA7                      293  293   Char E Code 7, present on admission indicator
+MA  2007 CORE              92 E_POA8                      294  294   Char E Code 8, present on admission indicator
+MA  2007 CORE              93 FEMALE                      295  296   Num  Indicator of sex
+MA  2007 CORE              94 HCUP_ED                     297  298   Num  HCUP Emergency Department service indicator
+MA  2007 CORE              95 HCUP_OS                     299  300   Num  HCUP Observation Stay service indicator
+MA  2007 CORE              96 HISPANIC_X                  301  315   Char Hispanic ethnicity (as received from source)
+MA  2007 CORE              97 HOSPBRTH                    316  318   Num  Indicator of birth in this hospital
+MA  2007 CORE              98 HOSPST                      319  320   Char Hospital state postal code
+MA  2007 CORE              99 Homeless                    321  322   Num  Indicator that patient is homeless
+MA  2007 CORE             100 KEY                         323  336   Num  HCUP record identifier
+MA  2007 CORE             101 LOS                         337  341   Num  Length of stay (cleaned)
+MA  2007 CORE             102 LOS_X                       342  347   Num  Length of stay (as received from source)
+MA  2007 CORE             103 MDC                         348  349   Num  MDC in effect on discharge date
+MA  2007 CORE             104 MDC24                       350  351   Num  MDC, version 24
+MA  2007 CORE             105 MEDINCSTQ                   352  353   Num  Median household income state quartile for patient ZIP Code
+MA  2007 CORE             106 NDX                         354  355   Num  Number of diagnoses on this record
+MA  2007 CORE             107 NECODE                      356  357   Num  Number of E codes on this record
+MA  2007 CORE             108 NEOMAT                      358  359   Num  Neonatal and/or maternal DX and/or PR
+MA  2007 CORE             109 NPR                         360  361   Num  Number of procedures on this record
+MA  2007 CORE             110 PAY1                        362  363   Num  Primary expected payer (uniform)
+MA  2007 CORE             111 PAY1_X                      364  364   Char Primary expected payer (as received from source)
+MA  2007 CORE             112 PAY2                        365  366   Num  Secondary expected payer (uniform)
+MA  2007 CORE             113 PAY2_X                      367  367   Char Secondary expected payer (as received from source)
+MA  2007 CORE             114 PAYER1_X                    368  370   Char Primary expected payer plan identifier (as received from source)
+MA  2007 CORE             115 PAYER2_X                    371  373   Char Secondary expected payer plan identifier (as received from source)
+MA  2007 CORE             116 PL_CBSA                     374  376   Num  Patient location: Core Based Statistical Area (CBSA)
+MA  2007 CORE             117 PL_MSA1993                  377  379   Num  Patient location: Metropolitan Statistical Area (MSA), 1993
+MA  2007 CORE             118 PL_RUCA4_2005               380  381   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, four levels
+MA  2007 CORE             119 PL_UR_CAT4                  382  383   Num  Patient Location: Urban-Rural 4 Categories
+MA  2007 CORE             120 PR1                         384  387   Char Procedure 1
+MA  2007 CORE             121 PR2                         388  391   Char Procedure 2
+MA  2007 CORE             122 PR3                         392  395   Char Procedure 3
+MA  2007 CORE             123 PR4                         396  399   Char Procedure 4
+MA  2007 CORE             124 PR5                         400  403   Char Procedure 5
+MA  2007 CORE             125 PR6                         404  407   Char Procedure 6
+MA  2007 CORE             126 PR7                         408  411   Char Procedure 7
+MA  2007 CORE             127 PR8                         412  415   Char Procedure 8
+MA  2007 CORE             128 PR9                         416  419   Char Procedure 9
+MA  2007 CORE             129 PR10                        420  423   Char Procedure 10
+MA  2007 CORE             130 PR11                        424  427   Char Procedure 11
+MA  2007 CORE             131 PR12                        428  431   Char Procedure 12
+MA  2007 CORE             132 PR13                        432  435   Char Procedure 13
+MA  2007 CORE             133 PR14                        436  439   Char Procedure 14
+MA  2007 CORE             134 PR15                        440  443   Char Procedure 15
+MA  2007 CORE             135 PRCCS1                      444  446   Num  CCS: procedure 1
+MA  2007 CORE             136 PRCCS2                      447  449   Num  CCS: procedure 2
+MA  2007 CORE             137 PRCCS3                      450  452   Num  CCS: procedure 3
+MA  2007 CORE             138 PRCCS4                      453  455   Num  CCS: procedure 4
+MA  2007 CORE             139 PRCCS5                      456  458   Num  CCS: procedure 5
+MA  2007 CORE             140 PRCCS6                      459  461   Num  CCS: procedure 6
+MA  2007 CORE             141 PRCCS7                      462  464   Num  CCS: procedure 7
+MA  2007 CORE             142 PRCCS8                      465  467   Num  CCS: procedure 8
+MA  2007 CORE             143 PRCCS9                      468  470   Num  CCS: procedure 9
+MA  2007 CORE             144 PRCCS10                     471  473   Num  CCS: procedure 10
+MA  2007 CORE             145 PRCCS11                     474  476   Num  CCS: procedure 11
+MA  2007 CORE             146 PRCCS12                     477  479   Num  CCS: procedure 12
+MA  2007 CORE             147 PRCCS13                     480  482   Num  CCS: procedure 13
+MA  2007 CORE             148 PRCCS14                     483  485   Num  CCS: procedure 14
+MA  2007 CORE             149 PRCCS15                     486  488   Num  CCS: procedure 15
+MA  2007 CORE             150 PRDAY1                      489  493   Num  Number of days from admission to PR1
+MA  2007 CORE             151 PRDAY2                      494  498   Num  Number of days from admission to PR2
+MA  2007 CORE             152 PRDAY3                      499  503   Num  Number of days from admission to PR3
+MA  2007 CORE             153 PRDAY4                      504  508   Num  Number of days from admission to PR4
+MA  2007 CORE             154 PRDAY5                      509  513   Num  Number of days from admission to PR5
+MA  2007 CORE             155 PRDAY6                      514  518   Num  Number of days from admission to PR6
+MA  2007 CORE             156 PRDAY7                      519  523   Num  Number of days from admission to PR7
+MA  2007 CORE             157 PRDAY8                      524  528   Num  Number of days from admission to PR8
+MA  2007 CORE             158 PRDAY9                      529  533   Num  Number of days from admission to PR9
+MA  2007 CORE             159 PRDAY10                     534  538   Num  Number of days from admission to PR10
+MA  2007 CORE             160 PRDAY11                     539  543   Num  Number of days from admission to PR11
+MA  2007 CORE             161 PRDAY12                     544  548   Num  Number of days from admission to PR12
+MA  2007 CORE             162 PRDAY13                     549  553   Num  Number of days from admission to PR13
+MA  2007 CORE             163 PRDAY14                     554  558   Num  Number of days from admission to PR14
+MA  2007 CORE             164 PRDAY15                     559  563   Num  Number of days from admission to PR15
+MA  2007 CORE             165 PROCTYPE                    564  566   Num  Procedure type indicator
+MA  2007 CORE             166 PSTATE                      567  568   Char Patient State postal code
+MA  2007 CORE             167 PSTCO2                      569  573   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+MA  2007 CORE             168 RACE                        574  575   Num  Race (uniform)
+MA  2007 CORE             169 RACE_X                      576  580   Char Race (as received from source)
+MA  2007 CORE             170 TOTCHG                      581  590   Num  Total charges (cleaned)
+MA  2007 CORE             171 TOTCHG_X                    591  605 2 Num  Total charges (as received from source)
+MA  2007 CORE             172 YEAR                        606  609   Num  Calendar year
+MA  2007 CORE             173 ZIP3                        610  612   Char Patient ZIP Code, first 3 digits
+MA  2007 CORE             174 ZIPINC_QRTL                 613  615   Num  Median household income national quartile for patient ZIP Code
+MA  2007 CORE             175 AYEAR                       616  619   Num  Admission year
+MA  2007 CORE             176 DMONTH                      620  621   Num  Discharge month
+MA  2007 CORE             177 PRMONTH1                    622  623   Num  Month of procedure 1
+MA  2007 CORE             178 PRMONTH2                    624  625   Num  Month of procedure 2
+MA  2007 CORE             179 PRMONTH3                    626  627   Num  Month of procedure 3
+MA  2007 CORE             180 PRMONTH4                    628  629   Num  Month of procedure 4
+MA  2007 CORE             181 PRMONTH5                    630  631   Num  Month of procedure 5
+MA  2007 CORE             182 PRMONTH6                    632  633   Num  Month of procedure 6
+MA  2007 CORE             183 PRMONTH7                    634  635   Num  Month of procedure 7
+MA  2007 CORE             184 PRMONTH8                    636  637   Num  Month of procedure 8
+MA  2007 CORE             185 PRMONTH9                    638  639   Num  Month of procedure 9
+MA  2007 CORE             186 PRMONTH10                   640  641   Num  Month of procedure 10
+MA  2007 CORE             187 PRMONTH11                   642  643   Num  Month of procedure 11
+MA  2007 CORE             188 PRMONTH12                   644  645   Num  Month of procedure 12
+MA  2007 CORE             189 PRMONTH13                   646  647   Num  Month of procedure 13
+MA  2007 CORE             190 PRMONTH14                   648  649   Num  Month of procedure 14
+MA  2007 CORE             191 PRMONTH15                   650  651   Num  Month of procedure 15
+MA  2007 CORE             192 PRYEAR1                     652  655   Num  Year of procedure 1
+MA  2007 CORE             193 PRYEAR2                     656  659   Num  Year of procedure 2
+MA  2007 CORE             194 PRYEAR3                     660  663   Num  Year of procedure 3
+MA  2007 CORE             195 PRYEAR4                     664  667   Num  Year of procedure 4
+MA  2007 CORE             196 PRYEAR5                     668  671   Num  Year of procedure 5
+MA  2007 CORE             197 PRYEAR6                     672  675   Num  Year of procedure 6
+MA  2007 CORE             198 PRYEAR7                     676  679   Num  Year of procedure 7
+MA  2007 CORE             199 PRYEAR8                     680  683   Num  Year of procedure 8
+MA  2007 CORE             200 PRYEAR9                     684  687   Num  Year of procedure 9
+MA  2007 CORE             201 PRYEAR10                    688  691   Num  Year of procedure 10
+MA  2007 CORE             202 PRYEAR11                    692  695   Num  Year of procedure 11
+MA  2007 CORE             203 PRYEAR12                    696  699   Num  Year of procedure 12
+MA  2007 CORE             204 PRYEAR13                    700  703   Num  Year of procedure 13
+MA  2007 CORE             205 PRYEAR14                    704  707   Num  Year of procedure 14
+MA  2007 CORE             206 PRYEAR15                    708  711   Num  Year of procedure 15

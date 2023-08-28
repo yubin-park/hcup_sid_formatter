@@ -1,0 +1,107 @@
+Data Set Name: OR_SID_1993_CORE                
+Number of Observations: 354425
+Total Record Length: 326
+Total Number of Variables: 87
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 49    Variable name
+51- 54    Starting column of variable in ASCII file
+56- 59    Ending column of variable in ASCII file
+    61    Non-zero number of digits after decimal point for numeric variable
+63- 66    Variable type (Num=numeric; Char=character)
+68-167    Variable label
+
+
+OR  1993 CORE               1 AGE                    1    3   Num  I:Age in years at admission
+OR  1993 CORE               2 AGEDAY                 4    6   Num  I:Age in days (when < 1 year)
+OR  1993 CORE               3 SEX                    7    9   Num  I:Sex
+OR  1993 CORE               4 DQTR                  10   11   Num  I:Discharge quarter
+OR  1993 CORE               5 LOS                   12   16   Num  I:Length of stay (cleaned)
+OR  1993 CORE               6 DISP                  17   18   Num  I:Disposition of patient
+OR  1993 CORE               7 DIED                  19   20   Num  I:Died during hospitalization
+OR  1993 CORE               8 ATYPE                 21   22   Num  I:Admission type
+OR  1993 CORE               9 ASOURCE               23   24   Num  I:Admission source
+OR  1993 CORE              10 NDX                   25   26   Num  I:Number of diagnoses on this discharge
+OR  1993 CORE              11 DX1                   27   31   Char I:Principal diagnosis
+OR  1993 CORE              12 DXV1                  32   35   Num  I:Validity flag: principal diagnosis
+OR  1993 CORE              13 DCCHPR1               36   39   Num  I:CCHPR: principal diagnosis
+OR  1993 CORE              14 NPR                   40   41   Num  I:Number of procedures on this discharge
+OR  1993 CORE              15 PR1                   42   45   Char I:Principal procedure
+OR  1993 CORE              16 PRV1                  46   48   Num  I:Validity flag: principal procedure
+OR  1993 CORE              17 PCCHPR1               49   52   Num  I:CCHPR: principal procedure
+OR  1993 CORE              18 DRG                   53   55   Num  I:DRG in effect on discharge date
+OR  1993 CORE              19 MDC                   56   57   Num  I:MDC in effect on discharge date
+OR  1993 CORE              20 DRGVER                58   59   Num  I:DRG grouper version used on disch date
+OR  1993 CORE              21 DRG10                 60   62   Num  I:DRG, Version 10
+OR  1993 CORE              22 MDC10                 63   64   Num  I:MDC, Version 10
+OR  1993 CORE              23 PAY1                  65   66   Num  I:Primary expected payer, uniform
+OR  1993 CORE              24 TOTCHG                67   76   Num  I:Total charges (cleaned)
+OR  1993 CORE              25 PROCESS               77   87   Num  I:HCUP-3 discharge processing ID number
+OR  1993 CORE              26 YEAR                  88   91   Num  Calendar year
+OR  1993 CORE              27 DSHOSPID              92  104   Char I:Data source hospital ID number
+OR  1993 CORE              28 DSNUM                105  107   Num  I:Data source ID number
+OR  1993 CORE              29 DSTYPE               108  110   Num  I:Data source type
+OR  1993 CORE              30 HOSPST               111  112   Char Hospital state postal code
+OR  1993 CORE              31 ADAYWK               113  115   Num  I:Admission day of week
+OR  1993 CORE              32 AMONTH               116  117   Num  I:Admission month
+OR  1993 CORE              33 LOS_X                118  122   Num  I:Length of stay (uncleaned)
+OR  1993 CORE              34 NEOMAT               123  124   Num  I:Neonatal and/or maternal DX and/or PR
+OR  1993 CORE              35 DXSYS                125  127   Num  I:Diagnosis coding system
+OR  1993 CORE              36 DSNDX                128  130   Num  I:Max number of diagnoses from source
+OR  1993 CORE              37 PRSYS                131  133   Num  I:Procedure coding system
+OR  1993 CORE              38 DSNPR                134  136   Num  I:Max number of procedures from source
+OR  1993 CORE              39 PRDAY1               137  141   Num  I:No. of days from admission to PR1
+OR  1993 CORE              40 PAY1_N               142  144   Num  I:Primary expected payer, nonuniform
+OR  1993 CORE              41 PAY2                 145  146   Num  I:Secondary expected payer, uniform
+OR  1993 CORE              42 PAY2_N               147  149   Num  I:Secondary expected payer, nonuniform
+OR  1993 CORE              43 TOTCHG_X             150  161 2 Num  I:Total charges (from data source)
+OR  1993 CORE              44 DX2                  162  166   Char I:Diagnosis 2
+OR  1993 CORE              45 DX3                  167  171   Char I:Diagnosis 3
+OR  1993 CORE              46 DX4                  172  176   Char I:Diagnosis 4
+OR  1993 CORE              47 DX5                  177  181   Char I:Diagnosis 5
+OR  1993 CORE              48 DXV2                 182  185   Num  I:Validity flag: diagnosis 2
+OR  1993 CORE              49 DXV3                 186  189   Num  I:Validity flag: diagnosis 3
+OR  1993 CORE              50 DXV4                 190  193   Num  I:Validity flag: diagnosis 4
+OR  1993 CORE              51 DXV5                 194  197   Num  I:Validity flag: diagnosis 5
+OR  1993 CORE              52 DCCHPR2              198  201   Num  I:CCHPR: diagnosis 2
+OR  1993 CORE              53 DCCHPR3              202  205   Num  I:CCHPR: diagnosis 3
+OR  1993 CORE              54 DCCHPR4              206  209   Num  I:CCHPR: diagnosis 4
+OR  1993 CORE              55 DCCHPR5              210  213   Num  I:CCHPR: diagnosis 5
+OR  1993 CORE              56 PR2                  214  217   Char I:Procedure 2
+OR  1993 CORE              57 PR3                  218  221   Char I:Procedure 3
+OR  1993 CORE              58 PR4                  222  225   Char I:Procedure 4
+OR  1993 CORE              59 PR5                  226  229   Char I:Procedure 5
+OR  1993 CORE              60 PRV2                 230  232   Num  I:Validity flag: procedure 2
+OR  1993 CORE              61 PRV3                 233  235   Num  I:Validity flag: procedure 3
+OR  1993 CORE              62 PRV4                 236  238   Num  I:Validity flag: procedure 4
+OR  1993 CORE              63 PRV5                 239  241   Num  I:Validity flag: procedure 5
+OR  1993 CORE              64 PCCHPR2              242  245   Num  I:CCHPR: procedure 2
+OR  1993 CORE              65 PCCHPR3              246  249   Num  I:CCHPR: procedure 3
+OR  1993 CORE              66 PCCHPR4              250  253   Num  I:CCHPR: procedure 4
+OR  1993 CORE              67 PCCHPR5              254  257   Num  I:CCHPR: procedure 5
+OR  1993 CORE              68 PRDAY2               258  262   Num  I:No. of days from admission to PR2
+OR  1993 CORE              69 PRDAY3               263  267   Num  I:No. of days from admission to PR3
+OR  1993 CORE              70 PRDAY4               268  272   Num  I:No. of days from admission to PR4
+OR  1993 CORE              71 PRDAY5               273  277   Num  I:No. of days from admission to PR5
+OR  1993 CORE              72 ZIP                  278  282   Char I:Patient zip code
+OR  1993 CORE              73 PAY1_X               283  284   Char I:Primary exp. payer (from data source)
+OR  1993 CORE              74 AYEAR                285  288   Num  Admission year
+OR  1993 CORE              75 DMONTH               289  290   Num  Discharge month
+OR  1993 CORE              76 BMONTH               291  292   Num  Birth month
+OR  1993 CORE              77 BYEAR                293  296   Num  Birth year
+OR  1993 CORE              78 PRMONTH1             297  298   Num  Month of procedure 1
+OR  1993 CORE              79 PRMONTH2             299  300   Num  Month of procedure 2
+OR  1993 CORE              80 PRMONTH3             301  302   Num  Month of procedure 3
+OR  1993 CORE              81 PRMONTH4             303  304   Num  Month of procedure 4
+OR  1993 CORE              82 PRMONTH5             305  306   Num  Month of procedure 5
+OR  1993 CORE              83 PRYEAR1              307  310   Num  Year of procedure 1
+OR  1993 CORE              84 PRYEAR2              311  314   Num  Year of procedure 2
+OR  1993 CORE              85 PRYEAR3              315  318   Num  Year of procedure 3
+OR  1993 CORE              86 PRYEAR4              319  322   Num  Year of procedure 4
+OR  1993 CORE              87 PRYEAR5              323  326   Num  Year of procedure 5

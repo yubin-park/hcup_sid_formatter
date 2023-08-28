@@ -1,0 +1,94 @@
+Columns   Description:
+=======   ============
+ 1- 2     State postal code
+ 5- 8     Discharge year of data
+10-14     File name
+19-21     Variable number
+23-30     Variable name
+32-34     Starting column of variable in ASCII file
+36-38     Ending column of variable in ASCII file
+   40     Non-zero number of digits after decimal point for numeric variable
+42-45     Variable type (NUM=numeric; CHAR=character)
+46-88     Variable label
+
+
+NJ  1997 SPEC     1   SEQ_SID  1   13    Num I:HCUP SID record sequence number
+NJ  1997 SPEC     2   MDSPEC   14  16    CharI:Physician specialty
+NJ  1997 SPEC     3   MRN_S    17  33    CharI:Medical record number (synthetic)
+NJ  1997 SPEC     4   PSTCO    34  38    Num I:Patient state/county FIPS code
+NJ  1997 SPEC     5   READMIT  39  40    Num I:Readmission
+NJ  1997 SPEC     6   BWT      41  45    Num I:Birthweight in grams
+NJ  1997 SPEC     7   PAY1_X   46  48    CharI:Primary exp. payer (from data source)
+NJ  1997 SPEC     8   PAY2_X   49  51    CharI:Secondary exp. payer (from data source
+NJ  1997 SPEC     9   PAY3_X   52  54    CharI:Tertiary exp. payer (from data source)
+NJ  1997 SPEC     10  UNIT1    55  58    Num I:Units of service 1 (from data source)
+NJ  1997 SPEC     11  UNIT2    59  62    Num I:Units of service 2 (from data source)
+NJ  1997 SPEC     12  UNIT3    63  66    Num I:Units of service 3 (from data source)
+NJ  1997 SPEC     13  UNIT4    67  70    Num I:Units of service 4 (from data source)
+NJ  1997 SPEC     14  UNIT5    71  74    Num I:Units of service 5 (from data source)
+NJ  1997 SPEC     15  UNIT6    75  78    Num I:Units of service 6 (from data source)
+NJ  1997 SPEC     16  UNIT7    79  82    Num I:Units of service 7 (from data source)
+NJ  1997 SPEC     17  UNIT8    83  86    Num I:Units of service 8 (from data source)
+NJ  1997 SPEC     18  UNIT9    87  90    Num I:Units of service 9 (from data source)
+NJ  1997 SPEC     19  UNIT10   91  94    Num I:Units of service 10 (from data source)
+NJ  1997 SPEC     20  UNIT11   95  98    Num I:Units of service 11 (from data source)
+NJ  1997 SPEC     21  UNIT12   99  102   Num I:Units of service 12 (from data source)
+NJ  1997 SPEC     22  UNIT13   103 106   Num I:Units of service 13 (from data source)
+NJ  1997 SPEC     23  UNIT14   107 110   Num I:Units of service 14 (from data source)
+NJ  1997 SPEC     24  UNIT15   111 114   Num I:Units of service 15 (from data source)
+NJ  1997 SPEC     25  UNIT16   115 118   Num I:Units of service 16 (from data source)
+NJ  1997 SPEC     26  UNIT17   119 122   Num I:Units of service 17 (from data source)
+NJ  1997 SPEC     27  UNIT18   123 126   Num I:Units of service 18 (from data source)
+NJ  1997 SPEC     28  UNIT19   127 130   Num I:Units of service 19 (from data source)
+NJ  1997 SPEC     29  UNIT20   131 134   Num I:Units of service 20 (from data source)
+NJ  1997 SPEC     30  UNIT21   135 138   Num I:Units of service 21 (from data source)
+NJ  1997 SPEC     31  UNIT22   139 142   Num I:Units of service 22 (from data source)
+NJ  1997 SPEC     32  UNIT23   143 146   Num I:Units of service 23 (from data source)
+NJ  1997 SPEC     33  UNIT24   147 150   Num I:Units of service 24 (from data source)
+NJ  1997 SPEC     34  UNIT25   151 154   Num I:Units of service 25 (from data source)
+NJ  1997 SPEC     35  UNIT26   155 158   Num I:Units of service 26 (from data source)
+NJ  1997 SPEC     36  UNIT27   159 162   Num I:Units of service 27 (from data source)
+NJ  1997 SPEC     37  UNIT28   163 166   Num I:Units of service 28 (from data source)
+NJ  1997 SPEC     38  UNIT29   167 170   Num I:Units of service 29 (from data source)
+NJ  1997 SPEC     39  UNIT30   171 174   Num I:Units of service 30 (from data source)
+NJ  1997 SPEC     40  UNIT31   175 178   Num I:Units of service 31 (from data source)
+NJ  1997 SPEC     41  UNIT32   179 182   Num I:Units of service 32 (from data source)
+NJ  1997 SPEC     42  UNIT33   183 186   Num I:Units of service 33 (from data source)
+NJ  1997 SPEC     43  UNIT34   187 190   Num I:Units of service 34 (from data source)
+NJ  1997 SPEC     44  UNIT35   191 194   Num I:Units of service 35 (from data source)
+NJ  1997 SPEC     45  CHG1     195 206 2 Num I:Detailed charges 1 (from data source)
+NJ  1997 SPEC     46  CHG2     207 218 2 Num I:Detailed charges 2 (from data source)
+NJ  1997 SPEC     47  CHG3     219 230 2 Num I:Detailed charges 3 (from data source)
+NJ  1997 SPEC     48  CHG4     231 242 2 Num I:Detailed charges 4 (from data source)
+NJ  1997 SPEC     49  CHG5     243 254 2 Num I:Detailed charges 5 (from data source)
+NJ  1997 SPEC     50  CHG6     255 266 2 Num I:Detailed charges 6 (from data source)
+NJ  1997 SPEC     51  CHG7     267 278 2 Num I:Detailed charges 7 (from data source)
+NJ  1997 SPEC     52  CHG8     279 290 2 Num I:Detailed charges 8 (from data source)
+NJ  1997 SPEC     53  CHG9     291 302 2 Num I:Detailed charges 9 (from data source)
+NJ  1997 SPEC     54  CHG10    303 314 2 Num I:Detailed charges 10 (from data source)
+NJ  1997 SPEC     55  CHG11    315 326 2 Num I:Detailed charges 11 (from data source)
+NJ  1997 SPEC     56  CHG12    327 338 2 Num I:Detailed charges 12 (from data source)
+NJ  1997 SPEC     57  CHG13    339 350 2 Num I:Detailed charges 13 (from data source)
+NJ  1997 SPEC     58  CHG14    351 362 2 Num I:Detailed charges 14 (from data source)
+NJ  1997 SPEC     59  CHG15    363 374 2 Num I:Detailed charges 15 (from data source)
+NJ  1997 SPEC     60  CHG16    375 386 2 Num I:Detailed charges 16 (from data source)
+NJ  1997 SPEC     61  CHG17    387 398 2 Num I:Detailed charges 17 (from data source)
+NJ  1997 SPEC     62  CHG18    399 410 2 Num I:Detailed charges 18 (from data source)
+NJ  1997 SPEC     63  CHG19    411 422 2 Num I:Detailed charges 19 (from data source)
+NJ  1997 SPEC     64  CHG20    423 434 2 Num I:Detailed charges 20 (from data source)
+NJ  1997 SPEC     65  CHG21    435 446 2 Num I:Detailed charges 21 (from data source)
+NJ  1997 SPEC     66  CHG22    447 458 2 Num I:Detailed charges 22 (from data source)
+NJ  1997 SPEC     67  CHG23    459 470 2 Num I:Detailed charges 23 (from data source)
+NJ  1997 SPEC     68  CHG24    471 482 2 Num I:Detailed charges 24 (from data source)
+NJ  1997 SPEC     69  CHG25    483 494 2 Num I:Detailed charges 25 (from data source)
+NJ  1997 SPEC     70  CHG26    495 506 2 Num I:Detailed charges 26 (from data source)
+NJ  1997 SPEC     71  CHG27    507 518 2 Num I:Detailed charges 27 (from data source)
+NJ  1997 SPEC     72  CHG28    519 530 2 Num I:Detailed charges 28 (from data source)
+NJ  1997 SPEC     73  CHG29    531 542 2 Num I:Detailed charges 29 (from data source)
+NJ  1997 SPEC     74  CHG30    543 554 2 Num I:Detailed charges 30 (from data source)
+NJ  1997 SPEC     75  CHG31    555 566 2 Num I:Detailed charges 31 (from data source)
+NJ  1997 SPEC     76  CHG32    567 578 2 Num I:Detailed charges 32 (from data source)
+NJ  1997 SPEC     77  CHG33    579 590 2 Num I:Detailed charges 33 (from data source)
+NJ  1997 SPEC     78  CHG34    591 602 2 Num I:Detailed charges 34 (from data source)
+NJ  1997 SPEC     79  CHG35    603 614 2 Num I:Detailed charges 35 (from data source)
+NJ  1997 SPEC     80  ZIP      615 619   CharI:Patient zip code

@@ -1,0 +1,250 @@
+Data Set Name: AZ_SIDC_2010_CORE               
+Number of Observations: 790492
+Total Record Length: 799
+Total Number of Variables: 230
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 56    Variable name
+58- 61    Starting column of variable in ASCII file
+63- 66    Ending column of variable in ASCII file
+    68    Non-zero number of digits after decimal point for numeric variable
+70- 73    Variable type (Num=numeric; Char=character)
+75-174    Variable label
+
+
+AZ  2010 CORE               1 AGE                           1    3   Num  Age in years at admission
+AZ  2010 CORE               2 AGEDAY                        4    6   Num  Age in days (when age < 1 year)
+AZ  2010 CORE               3 AGEMONTH                      7    9   Num  Age in months (when age < 11 years)
+AZ  2010 CORE               4 AHOUR                        10   13   Num  Admission Hour
+AZ  2010 CORE               5 AMONTH                       14   15   Num  Admission month
+AZ  2010 CORE               6 ATYPE                        16   17   Num  Admission type
+AZ  2010 CORE               7 AWEEKEND                     18   19   Num  Admission day is a weekend
+AZ  2010 CORE               8 BWT                          20   23   Num  Birth weight in grams
+AZ  2010 CORE               9 DHOUR                        24   27   Num  Discharge Hour
+AZ  2010 CORE              10 DIED                         28   29   Num  Died during hospitalization
+AZ  2010 CORE              11 DISPUB04                     30   31   Num  Disposition of patient (UB-04 standard coding)
+AZ  2010 CORE              12 DISPUNIFORM                  32   33   Num  Disposition of patient (uniform)
+AZ  2010 CORE              13 DISP_X                       34   35   Char Disposition of patient (as received from source)
+AZ  2010 CORE              14 DNR                          36   37   Num  Do not resuscitate indicator
+AZ  2010 CORE              15 DQTR                         38   39   Num  Discharge quarter
+AZ  2010 CORE              16 DRG                          40   42   Num  DRG in effect on discharge date
+AZ  2010 CORE              17 DRG24                        43   45   Num  DRG, version 24
+AZ  2010 CORE              18 DRGVER                       46   47   Num  DRG grouper version used on discharge date
+AZ  2010 CORE              19 DRG_NoPOA                    48   50   Num  DRG in use on discharge date, calculated without POA
+AZ  2010 CORE              20 DSHOSPID                     51   67   Char Data source hospital identifier
+AZ  2010 CORE              21 DX1                          68   72   Char Diagnosis 1
+AZ  2010 CORE              22 DX2                          73   77   Char Diagnosis 2
+AZ  2010 CORE              23 DX3                          78   82   Char Diagnosis 3
+AZ  2010 CORE              24 DX4                          83   87   Char Diagnosis 4
+AZ  2010 CORE              25 DX5                          88   92   Char Diagnosis 5
+AZ  2010 CORE              26 DX6                          93   97   Char Diagnosis 6
+AZ  2010 CORE              27 DX7                          98  102   Char Diagnosis 7
+AZ  2010 CORE              28 DX8                         103  107   Char Diagnosis 8
+AZ  2010 CORE              29 DX9                         108  112   Char Diagnosis 9
+AZ  2010 CORE              30 DX10                        113  117   Char Diagnosis 10
+AZ  2010 CORE              31 DX11                        118  122   Char Diagnosis 11
+AZ  2010 CORE              32 DX12                        123  127   Char Diagnosis 12
+AZ  2010 CORE              33 DX13                        128  132   Char Diagnosis 13
+AZ  2010 CORE              34 DX14                        133  137   Char Diagnosis 14
+AZ  2010 CORE              35 DX15                        138  142   Char Diagnosis 15
+AZ  2010 CORE              36 DX16                        143  147   Char Diagnosis 16
+AZ  2010 CORE              37 DX17                        148  152   Char Diagnosis 17
+AZ  2010 CORE              38 DX18                        153  157   Char Diagnosis 18
+AZ  2010 CORE              39 DX19                        158  162   Char Diagnosis 19
+AZ  2010 CORE              40 DX20                        163  167   Char Diagnosis 20
+AZ  2010 CORE              41 DX21                        168  172   Char Diagnosis 21
+AZ  2010 CORE              42 DX22                        173  177   Char Diagnosis 22
+AZ  2010 CORE              43 DX23                        178  182   Char Diagnosis 23
+AZ  2010 CORE              44 DX24                        183  187   Char Diagnosis 24
+AZ  2010 CORE              45 DX25                        188  192   Char Diagnosis 25
+AZ  2010 CORE              46 DXCCS1                      193  196   Num  CCS: diagnosis 1
+AZ  2010 CORE              47 DXCCS2                      197  200   Num  CCS: diagnosis 2
+AZ  2010 CORE              48 DXCCS3                      201  204   Num  CCS: diagnosis 3
+AZ  2010 CORE              49 DXCCS4                      205  208   Num  CCS: diagnosis 4
+AZ  2010 CORE              50 DXCCS5                      209  212   Num  CCS: diagnosis 5
+AZ  2010 CORE              51 DXCCS6                      213  216   Num  CCS: diagnosis 6
+AZ  2010 CORE              52 DXCCS7                      217  220   Num  CCS: diagnosis 7
+AZ  2010 CORE              53 DXCCS8                      221  224   Num  CCS: diagnosis 8
+AZ  2010 CORE              54 DXCCS9                      225  228   Num  CCS: diagnosis 9
+AZ  2010 CORE              55 DXCCS10                     229  232   Num  CCS: diagnosis 10
+AZ  2010 CORE              56 DXCCS11                     233  236   Num  CCS: diagnosis 11
+AZ  2010 CORE              57 DXCCS12                     237  240   Num  CCS: diagnosis 12
+AZ  2010 CORE              58 DXCCS13                     241  244   Num  CCS: diagnosis 13
+AZ  2010 CORE              59 DXCCS14                     245  248   Num  CCS: diagnosis 14
+AZ  2010 CORE              60 DXCCS15                     249  252   Num  CCS: diagnosis 15
+AZ  2010 CORE              61 DXCCS16                     253  256   Num  CCS: diagnosis 16
+AZ  2010 CORE              62 DXCCS17                     257  260   Num  CCS: diagnosis 17
+AZ  2010 CORE              63 DXCCS18                     261  264   Num  CCS: diagnosis 18
+AZ  2010 CORE              64 DXCCS19                     265  268   Num  CCS: diagnosis 19
+AZ  2010 CORE              65 DXCCS20                     269  272   Num  CCS: diagnosis 20
+AZ  2010 CORE              66 DXCCS21                     273  276   Num  CCS: diagnosis 21
+AZ  2010 CORE              67 DXCCS22                     277  280   Num  CCS: diagnosis 22
+AZ  2010 CORE              68 DXCCS23                     281  284   Num  CCS: diagnosis 23
+AZ  2010 CORE              69 DXCCS24                     285  288   Num  CCS: diagnosis 24
+AZ  2010 CORE              70 DXCCS25                     289  292   Num  CCS: diagnosis 25
+AZ  2010 CORE              71 DXPOA1                      293  293   Char Diagnosis 1, present on admission indicator
+AZ  2010 CORE              72 DXPOA2                      294  294   Char Diagnosis 2, present on admission indicator
+AZ  2010 CORE              73 DXPOA3                      295  295   Char Diagnosis 3, present on admission indicator
+AZ  2010 CORE              74 DXPOA4                      296  296   Char Diagnosis 4, present on admission indicator
+AZ  2010 CORE              75 DXPOA5                      297  297   Char Diagnosis 5, present on admission indicator
+AZ  2010 CORE              76 DXPOA6                      298  298   Char Diagnosis 6, present on admission indicator
+AZ  2010 CORE              77 DXPOA7                      299  299   Char Diagnosis 7, present on admission indicator
+AZ  2010 CORE              78 DXPOA8                      300  300   Char Diagnosis 8, present on admission indicator
+AZ  2010 CORE              79 DXPOA9                      301  301   Char Diagnosis 9, present on admission indicator
+AZ  2010 CORE              80 DXPOA10                     302  302   Char Diagnosis 10, present on admission indicator
+AZ  2010 CORE              81 DXPOA11                     303  303   Char Diagnosis 11, present on admission indicator
+AZ  2010 CORE              82 DXPOA12                     304  304   Char Diagnosis 12, present on admission indicator
+AZ  2010 CORE              83 DXPOA13                     305  305   Char Diagnosis 13, present on admission indicator
+AZ  2010 CORE              84 DXPOA14                     306  306   Char Diagnosis 14, present on admission indicator
+AZ  2010 CORE              85 DXPOA15                     307  307   Char Diagnosis 15, present on admission indicator
+AZ  2010 CORE              86 DXPOA16                     308  308   Char Diagnosis 16, present on admission indicator
+AZ  2010 CORE              87 DXPOA17                     309  309   Char Diagnosis 17, present on admission indicator
+AZ  2010 CORE              88 DXPOA18                     310  310   Char Diagnosis 18, present on admission indicator
+AZ  2010 CORE              89 DXPOA19                     311  311   Char Diagnosis 19, present on admission indicator
+AZ  2010 CORE              90 DXPOA20                     312  312   Char Diagnosis 20, present on admission indicator
+AZ  2010 CORE              91 DXPOA21                     313  313   Char Diagnosis 21, present on admission indicator
+AZ  2010 CORE              92 DXPOA22                     314  314   Char Diagnosis 22, present on admission indicator
+AZ  2010 CORE              93 DXPOA23                     315  315   Char Diagnosis 23, present on admission indicator
+AZ  2010 CORE              94 DXPOA24                     316  316   Char Diagnosis 24, present on admission indicator
+AZ  2010 CORE              95 DXPOA25                     317  317   Char Diagnosis 25, present on admission indicator
+AZ  2010 CORE              96 ECODE1                      318  322   Char E code 1
+AZ  2010 CORE              97 ECODE2                      323  327   Char E code 2
+AZ  2010 CORE              98 ECODE3                      328  332   Char E code 3
+AZ  2010 CORE              99 ECODE4                      333  337   Char E code 4
+AZ  2010 CORE             100 ECODE5                      338  342   Char E code 5
+AZ  2010 CORE             101 ECODE6                      343  347   Char E code 6
+AZ  2010 CORE             102 E_CCS1                      348  351   Num  CCS: E Code 1
+AZ  2010 CORE             103 E_CCS2                      352  355   Num  CCS: E Code 2
+AZ  2010 CORE             104 E_CCS3                      356  359   Num  CCS: E Code 3
+AZ  2010 CORE             105 E_CCS4                      360  363   Num  CCS: E Code 4
+AZ  2010 CORE             106 E_CCS5                      364  367   Num  CCS: E Code 5
+AZ  2010 CORE             107 E_CCS6                      368  371   Num  CCS: E Code 6
+AZ  2010 CORE             108 E_POA1                      372  372   Char E Code 1, present on admission indicator
+AZ  2010 CORE             109 E_POA2                      373  373   Char E Code 2, present on admission indicator
+AZ  2010 CORE             110 E_POA3                      374  374   Char E Code 3, present on admission indicator
+AZ  2010 CORE             111 E_POA4                      375  375   Char E Code 4, present on admission indicator
+AZ  2010 CORE             112 E_POA5                      376  376   Char E Code 5, present on admission indicator
+AZ  2010 CORE             113 E_POA6                      377  377   Char E Code 6, present on admission indicator
+AZ  2010 CORE             114 FEMALE                      378  379   Num  Indicator of sex
+AZ  2010 CORE             115 HCUP_ED                     380  381   Num  HCUP Emergency Department service indicator
+AZ  2010 CORE             116 HCUP_OS                     382  383   Num  HCUP Observation Stay service indicator
+AZ  2010 CORE             117 HOSPBRTH                    384  386   Num  Indicator of birth in this hospital
+AZ  2010 CORE             118 HOSPST                      387  388   Char Hospital state postal code
+AZ  2010 CORE             119 HOSP_NPI                    389  398   Char Hospital NPI
+AZ  2010 CORE             120 Homeless                    399  400   Num  Indicator that patient is homeless
+AZ  2010 CORE             121 KEY                         401  414   Num  HCUP record identifier
+AZ  2010 CORE             122 LOS                         415  419   Num  Length of stay (cleaned)
+AZ  2010 CORE             123 LOS_X                       420  425   Num  Length of stay (as received from source)
+AZ  2010 CORE             124 MARITALSTATUSUB04           426  426   Char Patient's marital status, UB-04 standard coding
+AZ  2010 CORE             125 MDBOARD1                    427  427   Char Physician 1 licensing board (as received from source)
+AZ  2010 CORE             126 MDBOARD2                    428  428   Char Physician 2 licensing board (as received from source)
+AZ  2010 CORE             127 MDC                         429  430   Num  MDC in effect on discharge date
+AZ  2010 CORE             128 MDC24                       431  432   Num  MDC, version 24
+AZ  2010 CORE             129 MDC_NoPOA                   433  434   Num  MDC in use on discharge date, calculated without POA
+AZ  2010 CORE             130 MDNUM1_R                    435  443   Num  Physician 1 number (re-identified)
+AZ  2010 CORE             131 MDNUM2_R                    444  452   Num  Physician 2 number (re-identified)
+AZ  2010 CORE             132 MDNUM3_R                    453  461   Num  Physician 3 number (re-identified)
+AZ  2010 CORE             133 MEDINCSTQ                   462  463   Num  Median household income state quartile for patient ZIP Code
+AZ  2010 CORE             134 MRN_R                       464  472   Num  Medical record number (re-identified)
+AZ  2010 CORE             135 NCHRONIC                    473  475   Num  Number of chronic conditions
+AZ  2010 CORE             136 NDX                         476  477   Num  Number of diagnoses on this record
+AZ  2010 CORE             137 NECODE                      478  479   Num  Number of E codes on this record
+AZ  2010 CORE             138 NEOMAT                      480  481   Num  Neonatal and/or maternal DX and/or PR
+AZ  2010 CORE             139 NPR                         482  483   Num  Number of procedures on this record
+AZ  2010 CORE             140 ORPROC                      484  485   Num  Major operating room procedure indicator
+AZ  2010 CORE             141 P7EDSRC_X                   486  487   Char Condition Code P7, Direct Inpatient Admission from Emergency Room
+AZ  2010 CORE             142 PAY1                        488  489   Num  Primary expected payer (uniform)
+AZ  2010 CORE             143 PAY1_X                      490  491   Char Primary expected payer (as received from source)
+AZ  2010 CORE             144 PL_CBSA                     492  494   Num  Patient location: Core Based Statistical Area (CBSA)
+AZ  2010 CORE             145 PL_MSA1993                  495  497   Num  Patient location: Metropolitan Statistical Area (MSA), 1993
+AZ  2010 CORE             146 PL_NCHS2006                 498  499   Num  Patient Location: NCHS Urban-Rural Code (V2006)
+AZ  2010 CORE             147 PL_RUCA10_2005              500  501   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, ten levels
+AZ  2010 CORE             148 PL_RUCA2005                 502  505 1 Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes
+AZ  2010 CORE             149 PL_RUCA4_2005               506  507   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, four levels
+AZ  2010 CORE             150 PL_RUCC2003                 508  509   Num  Patient location: Rural-Urban Continuum Codes(RUCC), 2003
+AZ  2010 CORE             151 PL_UIC2003                  510  511   Num  Patient location: Urban Influence Codes, 2003
+AZ  2010 CORE             152 PL_UR_CAT4                  512  513   Num  Patient Location: Urban-Rural 4 Categories
+AZ  2010 CORE             153 PR1                         514  517   Char Procedure 1
+AZ  2010 CORE             154 PR2                         518  521   Char Procedure 2
+AZ  2010 CORE             155 PR3                         522  525   Char Procedure 3
+AZ  2010 CORE             156 PR4                         526  529   Char Procedure 4
+AZ  2010 CORE             157 PR5                         530  533   Char Procedure 5
+AZ  2010 CORE             158 PR6                         534  537   Char Procedure 6
+AZ  2010 CORE             159 PR7                         538  541   Char Procedure 7
+AZ  2010 CORE             160 PR8                         542  545   Char Procedure 8
+AZ  2010 CORE             161 PR9                         546  549   Char Procedure 9
+AZ  2010 CORE             162 PR10                        550  553   Char Procedure 10
+AZ  2010 CORE             163 PR11                        554  557   Char Procedure 11
+AZ  2010 CORE             164 PR12                        558  561   Char Procedure 12
+AZ  2010 CORE             165 PRCCS1                      562  564   Num  CCS: procedure 1
+AZ  2010 CORE             166 PRCCS2                      565  567   Num  CCS: procedure 2
+AZ  2010 CORE             167 PRCCS3                      568  570   Num  CCS: procedure 3
+AZ  2010 CORE             168 PRCCS4                      571  573   Num  CCS: procedure 4
+AZ  2010 CORE             169 PRCCS5                      574  576   Num  CCS: procedure 5
+AZ  2010 CORE             170 PRCCS6                      577  579   Num  CCS: procedure 6
+AZ  2010 CORE             171 PRCCS7                      580  582   Num  CCS: procedure 7
+AZ  2010 CORE             172 PRCCS8                      583  585   Num  CCS: procedure 8
+AZ  2010 CORE             173 PRCCS9                      586  588   Num  CCS: procedure 9
+AZ  2010 CORE             174 PRCCS10                     589  591   Num  CCS: procedure 10
+AZ  2010 CORE             175 PRCCS11                     592  594   Num  CCS: procedure 11
+AZ  2010 CORE             176 PRCCS12                     595  597   Num  CCS: procedure 12
+AZ  2010 CORE             177 PRDAY1                      598  602   Num  Number of days from admission to PR1
+AZ  2010 CORE             178 PRDAY2                      603  607   Num  Number of days from admission to PR2
+AZ  2010 CORE             179 PRDAY3                      608  612   Num  Number of days from admission to PR3
+AZ  2010 CORE             180 PRDAY4                      613  617   Num  Number of days from admission to PR4
+AZ  2010 CORE             181 PRDAY5                      618  622   Num  Number of days from admission to PR5
+AZ  2010 CORE             182 PRDAY6                      623  627   Num  Number of days from admission to PR6
+AZ  2010 CORE             183 PRDAY7                      628  632   Num  Number of days from admission to PR7
+AZ  2010 CORE             184 PRDAY8                      633  637   Num  Number of days from admission to PR8
+AZ  2010 CORE             185 PRDAY9                      638  642   Num  Number of days from admission to PR9
+AZ  2010 CORE             186 PRDAY10                     643  647   Num  Number of days from admission to PR10
+AZ  2010 CORE             187 PRDAY11                     648  652   Num  Number of days from admission to PR11
+AZ  2010 CORE             188 PRDAY12                     653  657   Num  Number of days from admission to PR12
+AZ  2010 CORE             189 PROCTYPE                    658  660   Num  Procedure type indicator
+AZ  2010 CORE             190 PSTATE                      661  662   Char Patient State postal code
+AZ  2010 CORE             191 PSTCO2                      663  667   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+AZ  2010 CORE             192 PointOfOriginUB04           668  668   Char Point of origin for admission or visit, UB-04 standard coding
+AZ  2010 CORE             193 PointOfOrigin_X             669  669   Char Point of origin for admission or visit, as received from source
+AZ  2010 CORE             194 RACE                        670  671   Num  Race (uniform)
+AZ  2010 CORE             195 RACE_X                      672  675   Char Race (as received from source)
+AZ  2010 CORE             196 SPLIT_IPED                  676  677   Num  Split IP/ED records-single visit, from CAH
+AZ  2010 CORE             197 TOTCHG                      678  687   Num  Total charges (cleaned)
+AZ  2010 CORE             198 TOTCHG_X                    688  702 2 Num  Total charges (as received from source)
+AZ  2010 CORE             199 TRAN_IN                     703  704   Num  Transfer in indicator
+AZ  2010 CORE             200 TRAN_OUT                    705  706   Num  Transfer out indicator
+AZ  2010 CORE             201 YEAR                        707  710   Num  Calendar year
+AZ  2010 CORE             202 ZIP3                        711  713   Char Patient ZIP Code, first 3 digits
+AZ  2010 CORE             203 ZIPINC_QRTL                 714  716   Num  Median household income national quartile for patient ZIP Code
+AZ  2010 CORE             204 ZIP                         717  721   Char Patient ZIP Code
+AZ  2010 CORE             205 AYEAR                       722  725   Num  Admission year
+AZ  2010 CORE             206 DMONTH                      726  727   Num  Discharge month
+AZ  2010 CORE             207 PRMONTH1                    728  729   Num  Month of procedure 1
+AZ  2010 CORE             208 PRMONTH2                    730  731   Num  Month of procedure 2
+AZ  2010 CORE             209 PRMONTH3                    732  733   Num  Month of procedure 3
+AZ  2010 CORE             210 PRMONTH4                    734  735   Num  Month of procedure 4
+AZ  2010 CORE             211 PRMONTH5                    736  737   Num  Month of procedure 5
+AZ  2010 CORE             212 PRMONTH6                    738  739   Num  Month of procedure 6
+AZ  2010 CORE             213 PRMONTH7                    740  741   Num  Month of procedure 7
+AZ  2010 CORE             214 PRMONTH8                    742  743   Num  Month of procedure 8
+AZ  2010 CORE             215 PRMONTH9                    744  745   Num  Month of procedure 9
+AZ  2010 CORE             216 PRMONTH10                   746  747   Num  Month of procedure 10
+AZ  2010 CORE             217 PRMONTH11                   748  749   Num  Month of procedure 11
+AZ  2010 CORE             218 PRMONTH12                   750  751   Num  Month of procedure 12
+AZ  2010 CORE             219 PRYEAR1                     752  755   Num  Year of procedure 1
+AZ  2010 CORE             220 PRYEAR2                     756  759   Num  Year of procedure 2
+AZ  2010 CORE             221 PRYEAR3                     760  763   Num  Year of procedure 3
+AZ  2010 CORE             222 PRYEAR4                     764  767   Num  Year of procedure 4
+AZ  2010 CORE             223 PRYEAR5                     768  771   Num  Year of procedure 5
+AZ  2010 CORE             224 PRYEAR6                     772  775   Num  Year of procedure 6
+AZ  2010 CORE             225 PRYEAR7                     776  779   Num  Year of procedure 7
+AZ  2010 CORE             226 PRYEAR8                     780  783   Num  Year of procedure 8
+AZ  2010 CORE             227 PRYEAR9                     784  787   Num  Year of procedure 9
+AZ  2010 CORE             228 PRYEAR10                    788  791   Num  Year of procedure 10
+AZ  2010 CORE             229 PRYEAR11                    792  795   Num  Year of procedure 11
+AZ  2010 CORE             230 PRYEAR12                    796  799   Num  Year of procedure 12

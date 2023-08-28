@@ -1,0 +1,363 @@
+Data Set Name: RI_SIDC_2013_CORE               
+Number of Observations: 127346
+Total Record Length: 1372
+Total Number of Variables: 342
+Creation Date: 03/17/2016   
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 61    Variable name
+63- 66    Starting column of variable in ASCII file
+68- 71    Ending column of variable in ASCII file
+    73    Non-zero number of digits after decimal point for numeric variable
+75- 78    Variable type (Num=numeric; Char=character)
+80-179    Variable label
+
+
+RI  2013 CORE               1 AGE                                1    3   Num  Age in years at admission
+RI  2013 CORE               2 AHOUR                              4    7   Num  Admission Hour
+RI  2013 CORE               3 AMONTH                             8    9   Num  Admission month
+RI  2013 CORE               4 ATYPE                             10   11   Num  Admission type
+RI  2013 CORE               5 AWEEKEND                          12   13   Num  Admission day is a weekend
+RI  2013 CORE               6 BWT                               14   17   Num  Birth weight in grams
+RI  2013 CORE               7 CPT1                              18   22   Char CPT/HCPCS procedure code 1
+RI  2013 CORE               8 CPT2                              23   27   Char CPT/HCPCS procedure code 2
+RI  2013 CORE               9 CPT3                              28   32   Char CPT/HCPCS procedure code 3
+RI  2013 CORE              10 CPT4                              33   37   Char CPT/HCPCS procedure code 4
+RI  2013 CORE              11 CPT5                              38   42   Char CPT/HCPCS procedure code 5
+RI  2013 CORE              12 CPT6                              43   47   Char CPT/HCPCS procedure code 6
+RI  2013 CORE              13 CPT7                              48   52   Char CPT/HCPCS procedure code 7
+RI  2013 CORE              14 CPT8                              53   57   Char CPT/HCPCS procedure code 8
+RI  2013 CORE              15 CPT9                              58   62   Char CPT/HCPCS procedure code 9
+RI  2013 CORE              16 CPT10                             63   67   Char CPT/HCPCS procedure code 10
+RI  2013 CORE              17 CPT11                             68   72   Char CPT/HCPCS procedure code 11
+RI  2013 CORE              18 CPTCCS1                           73   75   Num  CCS: CPT 1
+RI  2013 CORE              19 CPTCCS2                           76   78   Num  CCS: CPT 2
+RI  2013 CORE              20 CPTCCS3                           79   81   Num  CCS: CPT 3
+RI  2013 CORE              21 CPTCCS4                           82   84   Num  CCS: CPT 4
+RI  2013 CORE              22 CPTCCS5                           85   87   Num  CCS: CPT 5
+RI  2013 CORE              23 CPTCCS6                           88   90   Num  CCS: CPT 6
+RI  2013 CORE              24 CPTCCS7                           91   93   Num  CCS: CPT 7
+RI  2013 CORE              25 CPTCCS8                           94   96   Num  CCS: CPT 8
+RI  2013 CORE              26 CPTCCS9                           97   99   Num  CCS: CPT 9
+RI  2013 CORE              27 CPTCCS10                         100  102   Num  CCS: CPT 10
+RI  2013 CORE              28 CPTCCS11                         103  105   Num  CCS: CPT 11
+RI  2013 CORE              29 CPTDAY1                          106  108   Num  Number of days from admission to CPT1
+RI  2013 CORE              30 CPTDAY2                          109  111   Num  Number of days from admission to CPT2
+RI  2013 CORE              31 CPTDAY3                          112  114   Num  Number of days from admission to CPT3
+RI  2013 CORE              32 CPTDAY4                          115  117   Num  Number of days from admission to CPT4
+RI  2013 CORE              33 CPTDAY5                          118  120   Num  Number of days from admission to CPT5
+RI  2013 CORE              34 CPTDAY6                          121  123   Num  Number of days from admission to CPT6
+RI  2013 CORE              35 CPTDAY7                          124  126   Num  Number of days from admission to CPT7
+RI  2013 CORE              36 CPTDAY8                          127  129   Num  Number of days from admission to CPT8
+RI  2013 CORE              37 CPTDAY9                          130  132   Num  Number of days from admission to CPT9
+RI  2013 CORE              38 CPTDAY10                         133  135   Num  Number of days from admission to CPT10
+RI  2013 CORE              39 CPTDAY11                         136  138   Num  Number of days from admission to CPT11
+RI  2013 CORE              40 DHOUR                            139  142   Num  Discharge Hour
+RI  2013 CORE              41 DIED                             143  144   Num  Died during hospitalization
+RI  2013 CORE              42 DISPUB04                         145  146   Num  Disposition of patient (UB-04 standard coding)
+RI  2013 CORE              43 DISPUNIFORM                      147  148   Num  Disposition of patient (uniform)
+RI  2013 CORE              44 DISP_X                           149  150   Char Disposition of patient (as received from source)
+RI  2013 CORE              45 DMONTH                           151  152   Num  Discharge month
+RI  2013 CORE              46 DQTR                             153  154   Num  Discharge quarter
+RI  2013 CORE              47 DRG                              155  157   Num  DRG in effect on discharge date
+RI  2013 CORE              48 DRG24                            158  160   Num  DRG, version 24
+RI  2013 CORE              49 DRGVER                           161  162   Num  DRG grouper version used on discharge date
+RI  2013 CORE              50 DRG_NoPOA                        163  165   Num  DRG in use on discharge date, calculated without POA
+RI  2013 CORE              51 DSHOSPID                         166  182   Char Data source hospital identifier
+RI  2013 CORE              52 DX1                              183  189   Char Diagnosis 1
+RI  2013 CORE              53 DX2                              190  196   Char Diagnosis 2
+RI  2013 CORE              54 DX3                              197  203   Char Diagnosis 3
+RI  2013 CORE              55 DX4                              204  210   Char Diagnosis 4
+RI  2013 CORE              56 DX5                              211  217   Char Diagnosis 5
+RI  2013 CORE              57 DX6                              218  224   Char Diagnosis 6
+RI  2013 CORE              58 DX7                              225  231   Char Diagnosis 7
+RI  2013 CORE              59 DX8                              232  238   Char Diagnosis 8
+RI  2013 CORE              60 DX9                              239  245   Char Diagnosis 9
+RI  2013 CORE              61 DX10                             246  252   Char Diagnosis 10
+RI  2013 CORE              62 DX11                             253  259   Char Diagnosis 11
+RI  2013 CORE              63 DX12                             260  266   Char Diagnosis 12
+RI  2013 CORE              64 DX13                             267  273   Char Diagnosis 13
+RI  2013 CORE              65 DX14                             274  280   Char Diagnosis 14
+RI  2013 CORE              66 DX15                             281  287   Char Diagnosis 15
+RI  2013 CORE              67 DX16                             288  294   Char Diagnosis 16
+RI  2013 CORE              68 DX17                             295  301   Char Diagnosis 17
+RI  2013 CORE              69 DX18                             302  308   Char Diagnosis 18
+RI  2013 CORE              70 DX19                             309  315   Char Diagnosis 19
+RI  2013 CORE              71 DX20                             316  322   Char Diagnosis 20
+RI  2013 CORE              72 DX21                             323  329   Char Diagnosis 21
+RI  2013 CORE              73 DX22                             330  336   Char Diagnosis 22
+RI  2013 CORE              74 DX23                             337  343   Char Diagnosis 23
+RI  2013 CORE              75 DX24                             344  350   Char Diagnosis 24
+RI  2013 CORE              76 DX25                             351  357   Char Diagnosis 25
+RI  2013 CORE              77 DXCCS1                           358  361   Num  CCS: diagnosis 1
+RI  2013 CORE              78 DXCCS2                           362  365   Num  CCS: diagnosis 2
+RI  2013 CORE              79 DXCCS3                           366  369   Num  CCS: diagnosis 3
+RI  2013 CORE              80 DXCCS4                           370  373   Num  CCS: diagnosis 4
+RI  2013 CORE              81 DXCCS5                           374  377   Num  CCS: diagnosis 5
+RI  2013 CORE              82 DXCCS6                           378  381   Num  CCS: diagnosis 6
+RI  2013 CORE              83 DXCCS7                           382  385   Num  CCS: diagnosis 7
+RI  2013 CORE              84 DXCCS8                           386  389   Num  CCS: diagnosis 8
+RI  2013 CORE              85 DXCCS9                           390  393   Num  CCS: diagnosis 9
+RI  2013 CORE              86 DXCCS10                          394  397   Num  CCS: diagnosis 10
+RI  2013 CORE              87 DXCCS11                          398  401   Num  CCS: diagnosis 11
+RI  2013 CORE              88 DXCCS12                          402  405   Num  CCS: diagnosis 12
+RI  2013 CORE              89 DXCCS13                          406  409   Num  CCS: diagnosis 13
+RI  2013 CORE              90 DXCCS14                          410  413   Num  CCS: diagnosis 14
+RI  2013 CORE              91 DXCCS15                          414  417   Num  CCS: diagnosis 15
+RI  2013 CORE              92 DXCCS16                          418  421   Num  CCS: diagnosis 16
+RI  2013 CORE              93 DXCCS17                          422  425   Num  CCS: diagnosis 17
+RI  2013 CORE              94 DXCCS18                          426  429   Num  CCS: diagnosis 18
+RI  2013 CORE              95 DXCCS19                          430  433   Num  CCS: diagnosis 19
+RI  2013 CORE              96 DXCCS20                          434  437   Num  CCS: diagnosis 20
+RI  2013 CORE              97 DXCCS21                          438  441   Num  CCS: diagnosis 21
+RI  2013 CORE              98 DXCCS22                          442  445   Num  CCS: diagnosis 22
+RI  2013 CORE              99 DXCCS23                          446  449   Num  CCS: diagnosis 23
+RI  2013 CORE             100 DXCCS24                          450  453   Num  CCS: diagnosis 24
+RI  2013 CORE             101 DXCCS25                          454  457   Num  CCS: diagnosis 25
+RI  2013 CORE             102 DXPOA1                           458  458   Char Diagnosis 1, present on admission indicator
+RI  2013 CORE             103 DXPOA2                           459  459   Char Diagnosis 2, present on admission indicator
+RI  2013 CORE             104 DXPOA3                           460  460   Char Diagnosis 3, present on admission indicator
+RI  2013 CORE             105 DXPOA4                           461  461   Char Diagnosis 4, present on admission indicator
+RI  2013 CORE             106 DXPOA5                           462  462   Char Diagnosis 5, present on admission indicator
+RI  2013 CORE             107 DXPOA6                           463  463   Char Diagnosis 6, present on admission indicator
+RI  2013 CORE             108 DXPOA7                           464  464   Char Diagnosis 7, present on admission indicator
+RI  2013 CORE             109 DXPOA8                           465  465   Char Diagnosis 8, present on admission indicator
+RI  2013 CORE             110 DXPOA9                           466  466   Char Diagnosis 9, present on admission indicator
+RI  2013 CORE             111 DXPOA10                          467  467   Char Diagnosis 10, present on admission indicator
+RI  2013 CORE             112 DXPOA11                          468  468   Char Diagnosis 11, present on admission indicator
+RI  2013 CORE             113 DXPOA12                          469  469   Char Diagnosis 12, present on admission indicator
+RI  2013 CORE             114 DXPOA13                          470  470   Char Diagnosis 13, present on admission indicator
+RI  2013 CORE             115 DXPOA14                          471  471   Char Diagnosis 14, present on admission indicator
+RI  2013 CORE             116 DXPOA15                          472  472   Char Diagnosis 15, present on admission indicator
+RI  2013 CORE             117 DXPOA16                          473  473   Char Diagnosis 16, present on admission indicator
+RI  2013 CORE             118 DXPOA17                          474  474   Char Diagnosis 17, present on admission indicator
+RI  2013 CORE             119 DXPOA18                          475  475   Char Diagnosis 18, present on admission indicator
+RI  2013 CORE             120 DXPOA19                          476  476   Char Diagnosis 19, present on admission indicator
+RI  2013 CORE             121 DXPOA20                          477  477   Char Diagnosis 20, present on admission indicator
+RI  2013 CORE             122 DXPOA21                          478  478   Char Diagnosis 21, present on admission indicator
+RI  2013 CORE             123 DXPOA22                          479  479   Char Diagnosis 22, present on admission indicator
+RI  2013 CORE             124 DXPOA23                          480  480   Char Diagnosis 23, present on admission indicator
+RI  2013 CORE             125 DXPOA24                          481  481   Char Diagnosis 24, present on admission indicator
+RI  2013 CORE             126 DXPOA25                          482  482   Char Diagnosis 25, present on admission indicator
+RI  2013 CORE             127 DX_Admitting                     483  489   Char Admitting Diagnosis Code
+RI  2013 CORE             128 DaysCCU                          490  492   Num  Days in coronary care unit (as received from source)
+RI  2013 CORE             129 DaysICU                          493  495   Num  Days in medical/surgical intensive care unit (as received from source)
+RI  2013 CORE             130 DaysNICU                         496  498   Num  Days in neonetal care unit (as received from source)
+RI  2013 CORE             131 ECODE1                           499  505   Char E code 1
+RI  2013 CORE             132 ECODE2                           506  512   Char E code 2
+RI  2013 CORE             133 ECODE3                           513  519   Char E code 3
+RI  2013 CORE             134 ECODE4                           520  526   Char E code 4
+RI  2013 CORE             135 ECODE5                           527  533   Char E code 5
+RI  2013 CORE             136 ECODE6                           534  540   Char E code 6
+RI  2013 CORE             137 ECODE7                           541  547   Char E code 7
+RI  2013 CORE             138 ECODE8                           548  554   Char E code 8
+RI  2013 CORE             139 ECODE9                           555  561   Char E code 9
+RI  2013 CORE             140 ECODE10                          562  568   Char E code 10
+RI  2013 CORE             141 ECODE11                          569  575   Char E code 11
+RI  2013 CORE             142 ECODE12                          576  582   Char E code 12
+RI  2013 CORE             143 E_CCS1                           583  586   Num  CCS: E Code 1
+RI  2013 CORE             144 E_CCS2                           587  590   Num  CCS: E Code 2
+RI  2013 CORE             145 E_CCS3                           591  594   Num  CCS: E Code 3
+RI  2013 CORE             146 E_CCS4                           595  598   Num  CCS: E Code 4
+RI  2013 CORE             147 E_CCS5                           599  602   Num  CCS: E Code 5
+RI  2013 CORE             148 E_CCS6                           603  606   Num  CCS: E Code 6
+RI  2013 CORE             149 E_CCS7                           607  610   Num  CCS: E Code 7
+RI  2013 CORE             150 E_CCS8                           611  614   Num  CCS: E Code 8
+RI  2013 CORE             151 E_CCS9                           615  618   Num  CCS: E Code 9
+RI  2013 CORE             152 E_CCS10                          619  622   Num  CCS: E Code 10
+RI  2013 CORE             153 E_CCS11                          623  626   Num  CCS: E Code 11
+RI  2013 CORE             154 E_CCS12                          627  630   Num  CCS: E Code 12
+RI  2013 CORE             155 E_POA1                           631  631   Char E Code 1, present on admission indicator
+RI  2013 CORE             156 E_POA2                           632  632   Char E Code 2, present on admission indicator
+RI  2013 CORE             157 E_POA3                           633  633   Char E Code 3, present on admission indicator
+RI  2013 CORE             158 E_POA4                           634  634   Char E Code 4, present on admission indicator
+RI  2013 CORE             159 E_POA5                           635  635   Char E Code 5, present on admission indicator
+RI  2013 CORE             160 E_POA6                           636  636   Char E Code 6, present on admission indicator
+RI  2013 CORE             161 E_POA7                           637  637   Char E Code 7, present on admission indicator
+RI  2013 CORE             162 E_POA8                           638  638   Char E Code 8, present on admission indicator
+RI  2013 CORE             163 E_POA9                           639  639   Char E Code 9, present on admission indicator
+RI  2013 CORE             164 E_POA10                          640  640   Char E Code 10, present on admission indicator
+RI  2013 CORE             165 E_POA11                          641  641   Char E Code 11, present on admission indicator
+RI  2013 CORE             166 E_POA12                          642  642   Char E Code 12, present on admission indicator
+RI  2013 CORE             167 FEMALE                           643  644   Num  Indicator of sex
+RI  2013 CORE             168 HCUP_ED                          645  646   Num  HCUP Emergency Department service indicator
+RI  2013 CORE             169 HCUP_OS                          647  648   Num  HCUP Observation Stay service indicator
+RI  2013 CORE             170 HISPANIC_X                       649  656   Char Hispanic ethnicity (as received from source)
+RI  2013 CORE             171 HOSPBRTH                         657  659   Num  Indicator of birth in this hospital
+RI  2013 CORE             172 HOSPST                           660  661   Char Hospital state postal code
+RI  2013 CORE             173 KEY                              662  676   Num  HCUP record identifier
+RI  2013 CORE             174 LOS                              677  681   Num  Length of stay (cleaned)
+RI  2013 CORE             175 LOS_X                            682  687   Num  Length of stay (as received from source)
+RI  2013 CORE             176 MDC                              688  689   Num  MDC in effect on discharge date
+RI  2013 CORE             177 MDC24                            690  691   Num  MDC, version 24
+RI  2013 CORE             178 MDC_NoPOA                        692  693   Num  MDC in use on discharge date, calculated without POA
+RI  2013 CORE             179 MDNUM1_R                         694  702   Num  Physician 1 number (re-identified)
+RI  2013 CORE             180 MDNUM2_R                         703  711   Num  Physician 2 number (re-identified)
+RI  2013 CORE             181 MDNUM3_R                         712  720   Num  Physician 3 number (re-identified)
+RI  2013 CORE             182 MEDINCSTQ                        721  722   Num  Median household income state quartile for patient ZIP Code
+RI  2013 CORE             183 NCHRONIC                         723  725   Num  Number of chronic conditions
+RI  2013 CORE             184 NCPT                             726  729   Num  Number of CPT/HCPCS procedures on this record
+RI  2013 CORE             185 NDX                              730  732   Num  Number of diagnoses on this record
+RI  2013 CORE             186 NECODE                           733  734   Num  Number of E codes on this record
+RI  2013 CORE             187 NEOMAT                           735  736   Num  Neonatal and/or maternal DX and/or PR
+RI  2013 CORE             188 NPR                              737  739   Num  Number of procedures on this record
+RI  2013 CORE             189 OBSERVATION                      740  743   Num  Time for observation services (as received from source)
+RI  2013 CORE             190 ORPROC                           744  745   Num  Major operating room procedure indicator
+RI  2013 CORE             191 PAY1                             746  747   Num  Primary expected payer (uniform)
+RI  2013 CORE             192 PAY1_X                           748  754   Char Primary expected payer (as received from source)
+RI  2013 CORE             193 PL_CBSA                          755  757   Num  Patient location: Core Based Statistical Area (CBSA)
+RI  2013 CORE             194 PL_NCHS                          758  759   Num  Patient Location: NCHS Urban-Rural Code
+RI  2013 CORE             195 PL_RUCA10_2005                   760  761   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, ten levels
+RI  2013 CORE             196 PL_RUCA2005                      762  765 1 Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes
+RI  2013 CORE             197 PL_RUCA4_2005                    766  767   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, four levels
+RI  2013 CORE             198 PL_RUCC                          768  769   Num  Patient location: Rural-Urban Continuum Codes(RUCC)
+RI  2013 CORE             199 PL_UIC                           770  771   Num  Patient location: Urban Influence Codes
+RI  2013 CORE             200 PL_UR_CAT4                       772  773   Num  Patient Location: Urban-Rural 4 Categories
+RI  2013 CORE             201 PR1                              774  780   Char Procedure 1
+RI  2013 CORE             202 PR2                              781  787   Char Procedure 2
+RI  2013 CORE             203 PR3                              788  794   Char Procedure 3
+RI  2013 CORE             204 PR4                              795  801   Char Procedure 4
+RI  2013 CORE             205 PR5                              802  808   Char Procedure 5
+RI  2013 CORE             206 PR6                              809  815   Char Procedure 6
+RI  2013 CORE             207 PR7                              816  822   Char Procedure 7
+RI  2013 CORE             208 PR8                              823  829   Char Procedure 8
+RI  2013 CORE             209 PR9                              830  836   Char Procedure 9
+RI  2013 CORE             210 PR10                             837  843   Char Procedure 10
+RI  2013 CORE             211 PR11                             844  850   Char Procedure 11
+RI  2013 CORE             212 PR12                             851  857   Char Procedure 12
+RI  2013 CORE             213 PR13                             858  864   Char Procedure 13
+RI  2013 CORE             214 PR14                             865  871   Char Procedure 14
+RI  2013 CORE             215 PR15                             872  878   Char Procedure 15
+RI  2013 CORE             216 PR16                             879  885   Char Procedure 16
+RI  2013 CORE             217 PR17                             886  892   Char Procedure 17
+RI  2013 CORE             218 PR18                             893  899   Char Procedure 18
+RI  2013 CORE             219 PR19                             900  906   Char Procedure 19
+RI  2013 CORE             220 PR20                             907  913   Char Procedure 20
+RI  2013 CORE             221 PR21                             914  920   Char Procedure 21
+RI  2013 CORE             222 PR22                             921  927   Char Procedure 22
+RI  2013 CORE             223 PR23                             928  934   Char Procedure 23
+RI  2013 CORE             224 PR24                             935  941   Char Procedure 24
+RI  2013 CORE             225 PR25                             942  948   Char Procedure 25
+RI  2013 CORE             226 PRCCS1                           949  951   Num  CCS: procedure 1
+RI  2013 CORE             227 PRCCS2                           952  954   Num  CCS: procedure 2
+RI  2013 CORE             228 PRCCS3                           955  957   Num  CCS: procedure 3
+RI  2013 CORE             229 PRCCS4                           958  960   Num  CCS: procedure 4
+RI  2013 CORE             230 PRCCS5                           961  963   Num  CCS: procedure 5
+RI  2013 CORE             231 PRCCS6                           964  966   Num  CCS: procedure 6
+RI  2013 CORE             232 PRCCS7                           967  969   Num  CCS: procedure 7
+RI  2013 CORE             233 PRCCS8                           970  972   Num  CCS: procedure 8
+RI  2013 CORE             234 PRCCS9                           973  975   Num  CCS: procedure 9
+RI  2013 CORE             235 PRCCS10                          976  978   Num  CCS: procedure 10
+RI  2013 CORE             236 PRCCS11                          979  981   Num  CCS: procedure 11
+RI  2013 CORE             237 PRCCS12                          982  984   Num  CCS: procedure 12
+RI  2013 CORE             238 PRCCS13                          985  987   Num  CCS: procedure 13
+RI  2013 CORE             239 PRCCS14                          988  990   Num  CCS: procedure 14
+RI  2013 CORE             240 PRCCS15                          991  993   Num  CCS: procedure 15
+RI  2013 CORE             241 PRCCS16                          994  996   Num  CCS: procedure 16
+RI  2013 CORE             242 PRCCS17                          997  999   Num  CCS: procedure 17
+RI  2013 CORE             243 PRCCS18                         1000 1002   Num  CCS: procedure 18
+RI  2013 CORE             244 PRCCS19                         1003 1005   Num  CCS: procedure 19
+RI  2013 CORE             245 PRCCS20                         1006 1008   Num  CCS: procedure 20
+RI  2013 CORE             246 PRCCS21                         1009 1011   Num  CCS: procedure 21
+RI  2013 CORE             247 PRCCS22                         1012 1014   Num  CCS: procedure 22
+RI  2013 CORE             248 PRCCS23                         1015 1017   Num  CCS: procedure 23
+RI  2013 CORE             249 PRCCS24                         1018 1020   Num  CCS: procedure 24
+RI  2013 CORE             250 PRCCS25                         1021 1023   Num  CCS: procedure 25
+RI  2013 CORE             251 PRDAY1                          1024 1028   Num  Number of days from admission to PR1
+RI  2013 CORE             252 PRDAY2                          1029 1033   Num  Number of days from admission to PR2
+RI  2013 CORE             253 PRDAY3                          1034 1038   Num  Number of days from admission to PR3
+RI  2013 CORE             254 PRDAY4                          1039 1043   Num  Number of days from admission to PR4
+RI  2013 CORE             255 PRDAY5                          1044 1048   Num  Number of days from admission to PR5
+RI  2013 CORE             256 PRDAY6                          1049 1053   Num  Number of days from admission to PR6
+RI  2013 CORE             257 PRDAY7                          1054 1058   Num  Number of days from admission to PR7
+RI  2013 CORE             258 PRDAY8                          1059 1063   Num  Number of days from admission to PR8
+RI  2013 CORE             259 PRDAY9                          1064 1068   Num  Number of days from admission to PR9
+RI  2013 CORE             260 PRDAY10                         1069 1073   Num  Number of days from admission to PR10
+RI  2013 CORE             261 PRDAY11                         1074 1078   Num  Number of days from admission to PR11
+RI  2013 CORE             262 PRDAY12                         1079 1083   Num  Number of days from admission to PR12
+RI  2013 CORE             263 PRDAY13                         1084 1088   Num  Number of days from admission to PR13
+RI  2013 CORE             264 PRDAY14                         1089 1093   Num  Number of days from admission to PR14
+RI  2013 CORE             265 PRDAY15                         1094 1098   Num  Number of days from admission to PR15
+RI  2013 CORE             266 PRDAY16                         1099 1103   Num  Number of days from admission to PR16
+RI  2013 CORE             267 PRDAY17                         1104 1108   Num  Number of days from admission to PR17
+RI  2013 CORE             268 PRDAY18                         1109 1113   Num  Number of days from admission to PR18
+RI  2013 CORE             269 PRDAY19                         1114 1118   Num  Number of days from admission to PR19
+RI  2013 CORE             270 PRDAY20                         1119 1123   Num  Number of days from admission to PR20
+RI  2013 CORE             271 PRDAY21                         1124 1128   Num  Number of days from admission to PR21
+RI  2013 CORE             272 PRDAY22                         1129 1133   Num  Number of days from admission to PR22
+RI  2013 CORE             273 PRDAY23                         1134 1138   Num  Number of days from admission to PR23
+RI  2013 CORE             274 PRDAY24                         1139 1143   Num  Number of days from admission to PR24
+RI  2013 CORE             275 PRDAY25                         1144 1148   Num  Number of days from admission to PR25
+RI  2013 CORE             276 PROCTYPE                        1149 1151   Num  Procedure type indicator
+RI  2013 CORE             277 PSTATE                          1152 1153   Char Patient State postal code
+RI  2013 CORE             278 PSTCO                           1154 1158   Num  Patient state/county FIPS code
+RI  2013 CORE             279 PSTCO2                          1159 1163   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+RI  2013 CORE             280 PointOfOriginUB04               1164 1164   Char Point of origin for admission or visit, UB-04 standard coding
+RI  2013 CORE             281 PointOfOrigin_X                 1165 1165   Char Point of origin for admission or visit, as received from source
+RI  2013 CORE             282 RACE                            1166 1167   Num  Race (uniform)
+RI  2013 CORE             283 RACE_X                          1168 1175   Char Race (as received from source)
+RI  2013 CORE             284 TOTCHG                          1176 1185   Num  Total charges (cleaned)
+RI  2013 CORE             285 TOTCHG_X                        1186 1200 2 Num  Total charges (as received from source)
+RI  2013 CORE             286 TRAN_IN                         1201 1202   Num  Transfer in indicator
+RI  2013 CORE             287 TRAN_OUT                        1203 1204   Num  Transfer out indicator
+RI  2013 CORE             288 YEAR                            1205 1208   Num  Calendar year
+RI  2013 CORE             289 ZIPINC_QRTL                     1209 1211   Num  Median household income national quartile for patient ZIP Code
+RI  2013 CORE             290 TOWN                            1212 1213   Char Patient town of residence (as received from source)
+RI  2013 CORE             291 ZIP                             1214 1218   Char Patient ZIP Code
+RI  2013 CORE             292 AYEAR                           1219 1222   Num  Admission year
+RI  2013 CORE             293 PRMONTH1                        1223 1224   Num  Month of procedure 1
+RI  2013 CORE             294 PRMONTH2                        1225 1226   Num  Month of procedure 2
+RI  2013 CORE             295 PRMONTH3                        1227 1228   Num  Month of procedure 3
+RI  2013 CORE             296 PRMONTH4                        1229 1230   Num  Month of procedure 4
+RI  2013 CORE             297 PRMONTH5                        1231 1232   Num  Month of procedure 5
+RI  2013 CORE             298 PRMONTH6                        1233 1234   Num  Month of procedure 6
+RI  2013 CORE             299 PRMONTH7                        1235 1236   Num  Month of procedure 7
+RI  2013 CORE             300 PRMONTH8                        1237 1238   Num  Month of procedure 8
+RI  2013 CORE             301 PRMONTH9                        1239 1240   Num  Month of procedure 9
+RI  2013 CORE             302 PRMONTH10                       1241 1242   Num  Month of procedure 10
+RI  2013 CORE             303 PRMONTH11                       1243 1244   Num  Month of procedure 11
+RI  2013 CORE             304 PRMONTH12                       1245 1246   Num  Month of procedure 12
+RI  2013 CORE             305 PRMONTH13                       1247 1248   Num  Month of procedure 13
+RI  2013 CORE             306 PRMONTH14                       1249 1250   Num  Month of procedure 14
+RI  2013 CORE             307 PRMONTH15                       1251 1252   Num  Month of procedure 15
+RI  2013 CORE             308 PRMONTH16                       1253 1254   Num  Month of procedure 16
+RI  2013 CORE             309 PRMONTH17                       1255 1256   Num  Month of procedure 17
+RI  2013 CORE             310 PRMONTH18                       1257 1258   Num  Month of procedure 18
+RI  2013 CORE             311 PRMONTH19                       1259 1260   Num  Month of procedure 19
+RI  2013 CORE             312 PRMONTH20                       1261 1262   Num  Month of procedure 20
+RI  2013 CORE             313 PRMONTH21                       1263 1264   Num  Month of procedure 21
+RI  2013 CORE             314 PRMONTH22                       1265 1266   Num  Month of procedure 22
+RI  2013 CORE             315 PRMONTH23                       1267 1268   Num  Month of procedure 23
+RI  2013 CORE             316 PRMONTH24                       1269 1270   Num  Month of procedure 24
+RI  2013 CORE             317 PRMONTH25                       1271 1272   Num  Month of procedure 25
+RI  2013 CORE             318 PRYEAR1                         1273 1276   Num  Year of procedure 1
+RI  2013 CORE             319 PRYEAR2                         1277 1280   Num  Year of procedure 2
+RI  2013 CORE             320 PRYEAR3                         1281 1284   Num  Year of procedure 3
+RI  2013 CORE             321 PRYEAR4                         1285 1288   Num  Year of procedure 4
+RI  2013 CORE             322 PRYEAR5                         1289 1292   Num  Year of procedure 5
+RI  2013 CORE             323 PRYEAR6                         1293 1296   Num  Year of procedure 6
+RI  2013 CORE             324 PRYEAR7                         1297 1300   Num  Year of procedure 7
+RI  2013 CORE             325 PRYEAR8                         1301 1304   Num  Year of procedure 8
+RI  2013 CORE             326 PRYEAR9                         1305 1308   Num  Year of procedure 9
+RI  2013 CORE             327 PRYEAR10                        1309 1312   Num  Year of procedure 10
+RI  2013 CORE             328 PRYEAR11                        1313 1316   Num  Year of procedure 11
+RI  2013 CORE             329 PRYEAR12                        1317 1320   Num  Year of procedure 12
+RI  2013 CORE             330 PRYEAR13                        1321 1324   Num  Year of procedure 13
+RI  2013 CORE             331 PRYEAR14                        1325 1328   Num  Year of procedure 14
+RI  2013 CORE             332 PRYEAR15                        1329 1332   Num  Year of procedure 15
+RI  2013 CORE             333 PRYEAR16                        1333 1336   Num  Year of procedure 16
+RI  2013 CORE             334 PRYEAR17                        1337 1340   Num  Year of procedure 17
+RI  2013 CORE             335 PRYEAR18                        1341 1344   Num  Year of procedure 18
+RI  2013 CORE             336 PRYEAR19                        1345 1348   Num  Year of procedure 19
+RI  2013 CORE             337 PRYEAR20                        1349 1352   Num  Year of procedure 20
+RI  2013 CORE             338 PRYEAR21                        1353 1356   Num  Year of procedure 21
+RI  2013 CORE             339 PRYEAR22                        1357 1360   Num  Year of procedure 22
+RI  2013 CORE             340 PRYEAR23                        1361 1364   Num  Year of procedure 23
+RI  2013 CORE             341 PRYEAR24                        1365 1368   Num  Year of procedure 24
+RI  2013 CORE             342 PRYEAR25                        1369 1372   Num  Year of procedure 25

@@ -1,0 +1,134 @@
+Data Set Name: ME_SIDC_2006_CORE               
+Number of Observations: 163704
+Total Record Length: 404
+Total Number of Variables: 114
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 56    Variable name
+58- 61    Starting column of variable in ASCII file
+63- 66    Ending column of variable in ASCII file
+    68    Non-zero number of digits after decimal point for numeric variable
+70- 73    Variable type (Num=numeric; Char=character)
+75-174    Variable label
+
+
+ME  2006 CORE               1 KEY                           1   14   Num  HCUP record identifier
+ME  2006 CORE               2 ADRG                         15   17   Num  All Patient Refined DRG
+ME  2006 CORE               3 AHOUR                        18   21   Num  Admission Hour
+ME  2006 CORE               4 AMDC                         22   23   Num  All Patient Refined MDC
+ME  2006 CORE               5 AMONTH                       24   25   Num  Admission month
+ME  2006 CORE               6 ASOURCE                      26   27   Num  Admission source (uniform)
+ME  2006 CORE               7 ATYPE                        28   29   Num  Admission type
+ME  2006 CORE               8 AWEEKEND                     30   31   Num  Admission day is a weekend
+ME  2006 CORE               9 DHOUR                        32   35   Num  Discharge Hour
+ME  2006 CORE              10 DIED                         36   37   Num  Died during hospitalization
+ME  2006 CORE              11 DISPUNIFORM                  38   39   Num  Disposition of patient (uniform)
+ME  2006 CORE              12 DQTR                         40   41   Num  Discharge quarter
+ME  2006 CORE              13 DRG                          42   44   Num  DRG in effect on discharge date
+ME  2006 CORE              14 DRG18                        45   47   Num  DRG, version 18
+ME  2006 CORE              15 DRG24                        48   50   Num  DRG, version 24
+ME  2006 CORE              16 DRGVER                       51   52   Num  DRG grouper version used on discharge date
+ME  2006 CORE              17 DX1                          53   57   Char Principal diagnosis
+ME  2006 CORE              18 DX2                          58   62   Char Diagnosis 2
+ME  2006 CORE              19 DX3                          63   67   Char Diagnosis 3
+ME  2006 CORE              20 DX4                          68   72   Char Diagnosis 4
+ME  2006 CORE              21 DX5                          73   77   Char Diagnosis 5
+ME  2006 CORE              22 DX6                          78   82   Char Diagnosis 6
+ME  2006 CORE              23 DX7                          83   87   Char Diagnosis 7
+ME  2006 CORE              24 DX8                          88   92   Char Diagnosis 8
+ME  2006 CORE              25 DX9                          93   97   Char Diagnosis 9
+ME  2006 CORE              26 DX10                         98  102   Char Diagnosis 10
+ME  2006 CORE              27 DXCCS1                      103  106   Num  CCS: principal diagnosis
+ME  2006 CORE              28 DXCCS2                      107  110   Num  CCS: diagnosis 2
+ME  2006 CORE              29 DXCCS3                      111  114   Num  CCS: diagnosis 3
+ME  2006 CORE              30 DXCCS4                      115  118   Num  CCS: diagnosis 4
+ME  2006 CORE              31 DXCCS5                      119  122   Num  CCS: diagnosis 5
+ME  2006 CORE              32 DXCCS6                      123  126   Num  CCS: diagnosis 6
+ME  2006 CORE              33 DXCCS7                      127  130   Num  CCS: diagnosis 7
+ME  2006 CORE              34 DXCCS8                      131  134   Num  CCS: diagnosis 8
+ME  2006 CORE              35 DXCCS9                      135  138   Num  CCS: diagnosis 9
+ME  2006 CORE              36 DXCCS10                     139  142   Num  CCS: diagnosis 10
+ME  2006 CORE              37 ECODE1                      143  147   Char E code 1
+ME  2006 CORE              38 ECODE2                      148  152   Char E code 2
+ME  2006 CORE              39 ECODE3                      153  157   Char E code 3
+ME  2006 CORE              40 ECODE4                      158  162   Char E code 4
+ME  2006 CORE              41 ECODE5                      163  167   Char E code 5
+ME  2006 CORE              42 E_CCS1                      168  171   Num  CCS: E Code 1
+ME  2006 CORE              43 E_CCS2                      172  175   Num  CCS: E Code 2
+ME  2006 CORE              44 E_CCS3                      176  179   Num  CCS: E Code 3
+ME  2006 CORE              45 E_CCS4                      180  183   Num  CCS: E Code 4
+ME  2006 CORE              46 E_CCS5                      184  187   Num  CCS: E Code 5
+ME  2006 CORE              47 FEMALE                      188  189   Num  Indicator of sex
+ME  2006 CORE              48 HCUP_ED                     190  191   Num  HCUP Emergency Department service indicator
+ME  2006 CORE              49 HCUP_OS                     192  193   Num  HCUP Observation Stay service indicator
+ME  2006 CORE              50 HOSPBRTH                    194  196   Num  Indicator of birth in this hospital
+ME  2006 CORE              51 HOSPST                      197  198   Char Hospital state postal code
+ME  2006 CORE              52 LOS                         199  203   Num  Length of stay (cleaned)
+ME  2006 CORE              53 MDC                         204  205   Num  MDC in effect on discharge date
+ME  2006 CORE              54 MDC18                       206  207   Num  MDC, version 18
+ME  2006 CORE              55 MDC24                       208  209   Num  MDC, version 24
+ME  2006 CORE              56 MDSPEC1                     210  211   Char Physician 1 specialty (as received from source)
+ME  2006 CORE              57 MDSPEC2                     212  213   Char Physician 2 specialty (as received from source)
+ME  2006 CORE              58 MEDINCSTQ                   214  215   Num  Median household income state quartile for patient ZIP Code
+ME  2006 CORE              59 MRN_R                       216  224   Num  Medical record number (re-identified)
+ME  2006 CORE              60 NDX                         225  226   Num  Number of diagnoses on this record
+ME  2006 CORE              61 NECODE                      227  228   Num  Number of E codes on this record
+ME  2006 CORE              62 NEOMAT                      229  230   Num  Neonatal and/or maternal DX and/or PR
+ME  2006 CORE              63 NPR                         231  232   Num  Number of procedures on this record
+ME  2006 CORE              64 PAY1                        233  234   Num  Primary expected payer (uniform)
+ME  2006 CORE              65 PAY2                        235  236   Num  Secondary expected payer (uniform)
+ME  2006 CORE              66 PL_CBSA                     237  239   Num  Patient location: Core Based Statistical Area (CBSA)
+ME  2006 CORE              67 PL_MSA1993                  240  242   Num  Patient location: Metropolitan Statistical Area (MSA), 1993
+ME  2006 CORE              68 PL_NHCS2006                 243  244   Num  Patient Location: NCHS Urban-Rural Code (V2006)
+ME  2006 CORE              69 PL_RUCA4_2005               245  246   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, four levels
+ME  2006 CORE              70 PL_UIC2003                  247  248   Num  Patient location: Urban Influence Codes, 2003
+ME  2006 CORE              71 PL_UR_CAT4                  249  250   Num  Patient Location: Urban-Rural 4 Categories
+ME  2006 CORE              72 PL_UR_CAT5                  251  252   Num  Patient Location: Urban-Rural 5 Categories
+ME  2006 CORE              73 PR1                         253  256   Char Principal procedure
+ME  2006 CORE              74 PR2                         257  260   Char Procedure 2
+ME  2006 CORE              75 PR3                         261  264   Char Procedure 3
+ME  2006 CORE              76 PR4                         265  268   Char Procedure 4
+ME  2006 CORE              77 PR5                         269  272   Char Procedure 5
+ME  2006 CORE              78 PR6                         273  276   Char Procedure 6
+ME  2006 CORE              79 PRCCS1                      277  279   Num  CCS: principal procedure
+ME  2006 CORE              80 PRCCS2                      280  282   Num  CCS: procedure 2
+ME  2006 CORE              81 PRCCS3                      283  285   Num  CCS: procedure 3
+ME  2006 CORE              82 PRCCS4                      286  288   Num  CCS: procedure 4
+ME  2006 CORE              83 PRCCS5                      289  291   Num  CCS: procedure 5
+ME  2006 CORE              84 PRCCS6                      292  294   Num  CCS: procedure 6
+ME  2006 CORE              85 PRDAY1                      295  299   Num  Number of days from admission to PR1
+ME  2006 CORE              86 PRDAY2                      300  304   Num  Number of days from admission to PR2
+ME  2006 CORE              87 PRDAY3                      305  309   Num  Number of days from admission to PR3
+ME  2006 CORE              88 PRDAY4                      310  314   Num  Number of days from admission to PR4
+ME  2006 CORE              89 PRDAY5                      315  319   Num  Number of days from admission to PR5
+ME  2006 CORE              90 PRDAY6                      320  324   Num  Number of days from admission to PR6
+ME  2006 CORE              91 PROCTYPE                    325  327   Num  Procedure type indicator
+ME  2006 CORE              92 PSTATE                      328  329   Char Patient State postal code
+ME  2006 CORE              93 PSTCO                       330  334   Num  Patient state/county FIPS code
+ME  2006 CORE              94 PSTCO2                      335  339   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+ME  2006 CORE              95 YEAR                        340  343   Num  Calendar year
+ME  2006 CORE              96 ZIP3                        344  346   Char Patient ZIP Code, first 3 digits
+ME  2006 CORE              97 ZIPINC_QRTL                 347  349   Num  Median household income national quartile for patient ZIP Code
+ME  2006 CORE              98 ZIP_S                       350  354   Char Patient ZIP Code (synthetic)
+ME  2006 CORE              99 AGEGROUP                    355  357   Num   
+ME  2006 CORE             100 HOSPID                      358  362   Num  HCUP hospital identification number
+ME  2006 CORE             101 AYEAR                       363  366   Num  Admission year
+ME  2006 CORE             102 DMONTH                      367  368   Num  Discharge month
+ME  2006 CORE             103 PRMONTH1                    369  370   Num  Month of procedure 1
+ME  2006 CORE             104 PRMONTH2                    371  372   Num  Month of procedure 2
+ME  2006 CORE             105 PRMONTH3                    373  374   Num  Month of procedure 3
+ME  2006 CORE             106 PRMONTH4                    375  376   Num  Month of procedure 4
+ME  2006 CORE             107 PRMONTH5                    377  378   Num  Month of procedure 5
+ME  2006 CORE             108 PRMONTH6                    379  380   Num  Month of procedure 6
+ME  2006 CORE             109 PRYEAR1                     381  384   Num  Year of procedure 1
+ME  2006 CORE             110 PRYEAR2                     385  388   Num  Year of procedure 2
+ME  2006 CORE             111 PRYEAR3                     389  392   Num  Year of procedure 3
+ME  2006 CORE             112 PRYEAR4                     393  396   Num  Year of procedure 4
+ME  2006 CORE             113 PRYEAR5                     397  400   Num  Year of procedure 5
+ME  2006 CORE             114 PRYEAR6                     401  404   Num  Year of procedure 6

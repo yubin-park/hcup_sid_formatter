@@ -1,0 +1,962 @@
+Data Set Name: MA_SIDC_2020_CORE               
+Number of Observations: 732345
+Total Record Length: 4084
+Total Number of Variables: 941
+Creation Date: 10/11/2022   
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 61    Variable name
+63- 66    Starting column of variable in ASCII file
+68- 71    Ending column of variable in ASCII file
+73- 73    Non-zero number of digits after decimal point for numeric variable
+75- 78    Variable type (Num=numeric; Char=character)
+80-179    Variable label
+
+
+MA  2020 CORE                1 ADRG                               1    3   Num  All Patient Refined DRG
+MA  2020 CORE                2 ADRGRISKMORTALITY                  4    5   Num  All Patient Refined DRG mortality risk
+MA  2020 CORE                3 ADRGSEV                            6    7   Num  All Patient Refined DRG severity level
+MA  2020 CORE                4 AGE                                8   10   Num  Age in years at admission
+MA  2020 CORE                5 AGEMONTH                          11   13   Num  Age in months (when age < 11 years)
+MA  2020 CORE                6 AMDC                              14   15   Num  All Patient Refined MDC
+MA  2020 CORE                7 AMONTH                            16   17   Num  Admission month
+MA  2020 CORE                8 ASOURCE                           18   19   Num  Admission source (uniform)
+MA  2020 CORE                9 ASOURCE_X                         20   20   Char Admission source (as received from source)
+MA  2020 CORE               10 ASOURCEUB92                       21   21   Char Admission source (UB-92 standard coding)
+MA  2020 CORE               11 ATYPE                             22   23   Num  Admission type
+MA  2020 CORE               12 AWEEKEND                          24   25   Num  Admission day is a weekend
+MA  2020 CORE               13 BWT                               26   29   Num  Birth weight in grams
+MA  2020 CORE               14 DaysBetweenVisits                 30   33   Num  Number of days between visits
+MA  2020 CORE               15 DaysToEvent                       34   39   Num  Days from 'start date' to admission
+MA  2020 CORE               16 DIED                              40   41   Num  Died during hospitalization
+MA  2020 CORE               17 DISP_X                            42   43   Char Disposition of patient (as received from source)
+MA  2020 CORE               18 DISPUB04                          44   45   Num  Disposition of patient (UB-04 standard coding)
+MA  2020 CORE               19 DISPUNIFORM                       46   47   Num  Disposition of patient (uniform)
+MA  2020 CORE               20 DMONTH                            48   49   Num  Discharge month
+MA  2020 CORE               21 DNR                               50   51   Num  Do not resuscitate indicator
+MA  2020 CORE               22 DQTR                              52   53   Num  Discharge quarter
+MA  2020 CORE               23 DRG                               54   56   Num  DRG in effect on discharge date
+MA  2020 CORE               24 DRG_NoPOA                         57   59   Num  DRG in use on discharge date, calculated without POA
+MA  2020 CORE               25 DRGVER                            60   61   Num  DRG grouper version used on discharge date
+MA  2020 CORE               26 DSHOSPID                          62   78   Char Data source hospital identifier
+MA  2020 CORE               27 DXPOA1                            79   79   Char Diagnosis 1, present on admission indicator
+MA  2020 CORE               28 DXPOA2                            80   80   Char Diagnosis 2, present on admission indicator
+MA  2020 CORE               29 DXPOA3                            81   81   Char Diagnosis 3, present on admission indicator
+MA  2020 CORE               30 DXPOA4                            82   82   Char Diagnosis 4, present on admission indicator
+MA  2020 CORE               31 DXPOA5                            83   83   Char Diagnosis 5, present on admission indicator
+MA  2020 CORE               32 DXPOA6                            84   84   Char Diagnosis 6, present on admission indicator
+MA  2020 CORE               33 DXPOA7                            85   85   Char Diagnosis 7, present on admission indicator
+MA  2020 CORE               34 DXPOA8                            86   86   Char Diagnosis 8, present on admission indicator
+MA  2020 CORE               35 DXPOA9                            87   87   Char Diagnosis 9, present on admission indicator
+MA  2020 CORE               36 DXPOA10                           88   88   Char Diagnosis 10, present on admission indicator
+MA  2020 CORE               37 DXPOA11                           89   89   Char Diagnosis 11, present on admission indicator
+MA  2020 CORE               38 DXPOA12                           90   90   Char Diagnosis 12, present on admission indicator
+MA  2020 CORE               39 DXPOA13                           91   91   Char Diagnosis 13, present on admission indicator
+MA  2020 CORE               40 DXPOA14                           92   92   Char Diagnosis 14, present on admission indicator
+MA  2020 CORE               41 DXPOA15                           93   93   Char Diagnosis 15, present on admission indicator
+MA  2020 CORE               42 DXPOA16                           94   94   Char Diagnosis 16, present on admission indicator
+MA  2020 CORE               43 DXPOA17                           95   95   Char Diagnosis 17, present on admission indicator
+MA  2020 CORE               44 DXPOA18                           96   96   Char Diagnosis 18, present on admission indicator
+MA  2020 CORE               45 DXPOA19                           97   97   Char Diagnosis 19, present on admission indicator
+MA  2020 CORE               46 DXPOA20                           98   98   Char Diagnosis 20, present on admission indicator
+MA  2020 CORE               47 DXPOA21                           99   99   Char Diagnosis 21, present on admission indicator
+MA  2020 CORE               48 DXPOA22                          100  100   Char Diagnosis 22, present on admission indicator
+MA  2020 CORE               49 DXPOA23                          101  101   Char Diagnosis 23, present on admission indicator
+MA  2020 CORE               50 DXPOA24                          102  102   Char Diagnosis 24, present on admission indicator
+MA  2020 CORE               51 DXPOA25                          103  103   Char Diagnosis 25, present on admission indicator
+MA  2020 CORE               52 DXPOA26                          104  104   Char Diagnosis 26, present on admission indicator
+MA  2020 CORE               53 DXPOA27                          105  105   Char Diagnosis 27, present on admission indicator
+MA  2020 CORE               54 DXPOA28                          106  106   Char Diagnosis 28, present on admission indicator
+MA  2020 CORE               55 DXPOA29                          107  107   Char Diagnosis 29, present on admission indicator
+MA  2020 CORE               56 DXPOA30                          108  108   Char Diagnosis 30, present on admission indicator
+MA  2020 CORE               57 DXPOA31                          109  109   Char Diagnosis 31, present on admission indicator
+MA  2020 CORE               58 DXPOA32                          110  110   Char Diagnosis 32, present on admission indicator
+MA  2020 CORE               59 DXPOA33                          111  111   Char Diagnosis 33, present on admission indicator
+MA  2020 CORE               60 DXPOA34                          112  112   Char Diagnosis 34, present on admission indicator
+MA  2020 CORE               61 DXPOA35                          113  113   Char Diagnosis 35, present on admission indicator
+MA  2020 CORE               62 DXPOA36                          114  114   Char Diagnosis 36, present on admission indicator
+MA  2020 CORE               63 DXPOA37                          115  115   Char Diagnosis 37, present on admission indicator
+MA  2020 CORE               64 DXPOA38                          116  116   Char Diagnosis 38, present on admission indicator
+MA  2020 CORE               65 DXPOA39                          117  117   Char Diagnosis 39, present on admission indicator
+MA  2020 CORE               66 DXPOA40                          118  118   Char Diagnosis 40, present on admission indicator
+MA  2020 CORE               67 DXPOA41                          119  119   Char Diagnosis 41, present on admission indicator
+MA  2020 CORE               68 DXPOA42                          120  120   Char Diagnosis 42, present on admission indicator
+MA  2020 CORE               69 DXPOA43                          121  121   Char Diagnosis 43, present on admission indicator
+MA  2020 CORE               70 DXPOA44                          122  122   Char Diagnosis 44, present on admission indicator
+MA  2020 CORE               71 DXPOA45                          123  123   Char Diagnosis 45, present on admission indicator
+MA  2020 CORE               72 DXPOA46                          124  124   Char Diagnosis 46, present on admission indicator
+MA  2020 CORE               73 DXPOA47                          125  125   Char Diagnosis 47, present on admission indicator
+MA  2020 CORE               74 DXPOA48                          126  126   Char Diagnosis 48, present on admission indicator
+MA  2020 CORE               75 DXPOA49                          127  127   Char Diagnosis 49, present on admission indicator
+MA  2020 CORE               76 DXPOA50                          128  128   Char Diagnosis 50, present on admission indicator
+MA  2020 CORE               77 DXPOA51                          129  129   Char Diagnosis 51, present on admission indicator
+MA  2020 CORE               78 DXPOA52                          130  130   Char Diagnosis 52, present on admission indicator
+MA  2020 CORE               79 DXPOA53                          131  131   Char Diagnosis 53, present on admission indicator
+MA  2020 CORE               80 DXPOA54                          132  132   Char Diagnosis 54, present on admission indicator
+MA  2020 CORE               81 DXPOA55                          133  133   Char Diagnosis 55, present on admission indicator
+MA  2020 CORE               82 DXPOA56                          134  134   Char Diagnosis 56, present on admission indicator
+MA  2020 CORE               83 DXPOA57                          135  135   Char Diagnosis 57, present on admission indicator
+MA  2020 CORE               84 DXPOA58                          136  136   Char Diagnosis 58, present on admission indicator
+MA  2020 CORE               85 DXPOA59                          137  137   Char Diagnosis 59, present on admission indicator
+MA  2020 CORE               86 DXPOA60                          138  138   Char Diagnosis 60, present on admission indicator
+MA  2020 CORE               87 DXPOA61                          139  139   Char Diagnosis 61, present on admission indicator
+MA  2020 CORE               88 DXPOA62                          140  140   Char Diagnosis 62, present on admission indicator
+MA  2020 CORE               89 DXPOA63                          141  141   Char Diagnosis 63, present on admission indicator
+MA  2020 CORE               90 DXPOA64                          142  142   Char Diagnosis 64, present on admission indicator
+MA  2020 CORE               91 DXPOA65                          143  143   Char Diagnosis 65, present on admission indicator
+MA  2020 CORE               92 DXPOA66                          144  144   Char Diagnosis 66, present on admission indicator
+MA  2020 CORE               93 DXPOA67                          145  145   Char Diagnosis 67, present on admission indicator
+MA  2020 CORE               94 DXPOA68                          146  146   Char Diagnosis 68, present on admission indicator
+MA  2020 CORE               95 DXPOA69                          147  147   Char Diagnosis 69, present on admission indicator
+MA  2020 CORE               96 DXPOA70                          148  148   Char Diagnosis 70, present on admission indicator
+MA  2020 CORE               97 DXPOA71                          149  149   Char Diagnosis 71, present on admission indicator
+MA  2020 CORE               98 DXPOA72                          150  150   Char Diagnosis 72, present on admission indicator
+MA  2020 CORE               99 DXPOA73                          151  151   Char Diagnosis 73, present on admission indicator
+MA  2020 CORE              100 DXPOA74                          152  152   Char Diagnosis 74, present on admission indicator
+MA  2020 CORE              101 DXPOA75                          153  153   Char Diagnosis 75, present on admission indicator
+MA  2020 CORE              102 DXPOA76                          154  154   Char Diagnosis 76, present on admission indicator
+MA  2020 CORE              103 DXPOA77                          155  155   Char Diagnosis 77, present on admission indicator
+MA  2020 CORE              104 DXPOA78                          156  156   Char Diagnosis 78, present on admission indicator
+MA  2020 CORE              105 DXPOA79                          157  157   Char Diagnosis 79, present on admission indicator
+MA  2020 CORE              106 DXPOA80                          158  158   Char Diagnosis 80, present on admission indicator
+MA  2020 CORE              107 DXPOA81                          159  159   Char Diagnosis 81, present on admission indicator
+MA  2020 CORE              108 DXPOA82                          160  160   Char Diagnosis 82, present on admission indicator
+MA  2020 CORE              109 DXPOA83                          161  161   Char Diagnosis 83, present on admission indicator
+MA  2020 CORE              110 DXPOA84                          162  162   Char Diagnosis 84, present on admission indicator
+MA  2020 CORE              111 DXPOA85                          163  163   Char Diagnosis 85, present on admission indicator
+MA  2020 CORE              112 DXPOA86                          164  164   Char Diagnosis 86, present on admission indicator
+MA  2020 CORE              113 DXPOA87                          165  165   Char Diagnosis 87, present on admission indicator
+MA  2020 CORE              114 DXPOA88                          166  166   Char Diagnosis 88, present on admission indicator
+MA  2020 CORE              115 DXPOA89                          167  167   Char Diagnosis 89, present on admission indicator
+MA  2020 CORE              116 DXPOA90                          168  168   Char Diagnosis 90, present on admission indicator
+MA  2020 CORE              117 DXPOA91                          169  169   Char Diagnosis 91, present on admission indicator
+MA  2020 CORE              118 DXPOA92                          170  170   Char Diagnosis 92, present on admission indicator
+MA  2020 CORE              119 DXPOA93                          171  171   Char Diagnosis 93, present on admission indicator
+MA  2020 CORE              120 DXPOA94                          172  172   Char Diagnosis 94, present on admission indicator
+MA  2020 CORE              121 DXPOA95                          173  173   Char Diagnosis 95, present on admission indicator
+MA  2020 CORE              122 DXPOA96                          174  174   Char Diagnosis 96, present on admission indicator
+MA  2020 CORE              123 FEMALE                           175  176   Num  Indicator of sex
+MA  2020 CORE              124 HCUP_ED                          177  178   Num  HCUP Emergency Department service indicator
+MA  2020 CORE              125 HCUP_OS                          179  180   Num  HCUP Observation Stay service indicator
+MA  2020 CORE              126 HISPANIC                         181  182   Num  Hispanic ethnicity (uniform)
+MA  2020 CORE              127 HISPANIC_X                       183  197   Char Hispanic ethnicity (as received from source)
+MA  2020 CORE              128 Homeless                         198  199   Num  Indicator that patient is homeless
+MA  2020 CORE              129 HOSPST                           200  201   Char Hospital state postal code
+MA  2020 CORE              130 I10_BIRTH                        202  204   Num  ICD-10-CM Birth Indicator
+MA  2020 CORE              131 I10_DELIVERY                     205  207   Num  ICD-10-CM Delivery Indicator
+MA  2020 CORE              132 I10_DX_Admitting                 208  214   Char ICD-10-CM Admitting Diagnosis Code
+MA  2020 CORE              133 I10_DX1                          215  221   Char ICD-10-CM Diagnosis 1
+MA  2020 CORE              134 I10_DX2                          222  228   Char ICD-10-CM Diagnosis 2
+MA  2020 CORE              135 I10_DX3                          229  235   Char ICD-10-CM Diagnosis 3
+MA  2020 CORE              136 I10_DX4                          236  242   Char ICD-10-CM Diagnosis 4
+MA  2020 CORE              137 I10_DX5                          243  249   Char ICD-10-CM Diagnosis 5
+MA  2020 CORE              138 I10_DX6                          250  256   Char ICD-10-CM Diagnosis 6
+MA  2020 CORE              139 I10_DX7                          257  263   Char ICD-10-CM Diagnosis 7
+MA  2020 CORE              140 I10_DX8                          264  270   Char ICD-10-CM Diagnosis 8
+MA  2020 CORE              141 I10_DX9                          271  277   Char ICD-10-CM Diagnosis 9
+MA  2020 CORE              142 I10_DX10                         278  284   Char ICD-10-CM Diagnosis 10
+MA  2020 CORE              143 I10_DX11                         285  291   Char ICD-10-CM Diagnosis 11
+MA  2020 CORE              144 I10_DX12                         292  298   Char ICD-10-CM Diagnosis 12
+MA  2020 CORE              145 I10_DX13                         299  305   Char ICD-10-CM Diagnosis 13
+MA  2020 CORE              146 I10_DX14                         306  312   Char ICD-10-CM Diagnosis 14
+MA  2020 CORE              147 I10_DX15                         313  319   Char ICD-10-CM Diagnosis 15
+MA  2020 CORE              148 I10_DX16                         320  326   Char ICD-10-CM Diagnosis 16
+MA  2020 CORE              149 I10_DX17                         327  333   Char ICD-10-CM Diagnosis 17
+MA  2020 CORE              150 I10_DX18                         334  340   Char ICD-10-CM Diagnosis 18
+MA  2020 CORE              151 I10_DX19                         341  347   Char ICD-10-CM Diagnosis 19
+MA  2020 CORE              152 I10_DX20                         348  354   Char ICD-10-CM Diagnosis 20
+MA  2020 CORE              153 I10_DX21                         355  361   Char ICD-10-CM Diagnosis 21
+MA  2020 CORE              154 I10_DX22                         362  368   Char ICD-10-CM Diagnosis 22
+MA  2020 CORE              155 I10_DX23                         369  375   Char ICD-10-CM Diagnosis 23
+MA  2020 CORE              156 I10_DX24                         376  382   Char ICD-10-CM Diagnosis 24
+MA  2020 CORE              157 I10_DX25                         383  389   Char ICD-10-CM Diagnosis 25
+MA  2020 CORE              158 I10_DX26                         390  396   Char ICD-10-CM Diagnosis 26
+MA  2020 CORE              159 I10_DX27                         397  403   Char ICD-10-CM Diagnosis 27
+MA  2020 CORE              160 I10_DX28                         404  410   Char ICD-10-CM Diagnosis 28
+MA  2020 CORE              161 I10_DX29                         411  417   Char ICD-10-CM Diagnosis 29
+MA  2020 CORE              162 I10_DX30                         418  424   Char ICD-10-CM Diagnosis 30
+MA  2020 CORE              163 I10_DX31                         425  431   Char ICD-10-CM Diagnosis 31
+MA  2020 CORE              164 I10_DX32                         432  438   Char ICD-10-CM Diagnosis 32
+MA  2020 CORE              165 I10_DX33                         439  445   Char ICD-10-CM Diagnosis 33
+MA  2020 CORE              166 I10_DX34                         446  452   Char ICD-10-CM Diagnosis 34
+MA  2020 CORE              167 I10_DX35                         453  459   Char ICD-10-CM Diagnosis 35
+MA  2020 CORE              168 I10_DX36                         460  466   Char ICD-10-CM Diagnosis 36
+MA  2020 CORE              169 I10_DX37                         467  473   Char ICD-10-CM Diagnosis 37
+MA  2020 CORE              170 I10_DX38                         474  480   Char ICD-10-CM Diagnosis 38
+MA  2020 CORE              171 I10_DX39                         481  487   Char ICD-10-CM Diagnosis 39
+MA  2020 CORE              172 I10_DX40                         488  494   Char ICD-10-CM Diagnosis 40
+MA  2020 CORE              173 I10_DX41                         495  501   Char ICD-10-CM Diagnosis 41
+MA  2020 CORE              174 I10_DX42                         502  508   Char ICD-10-CM Diagnosis 42
+MA  2020 CORE              175 I10_DX43                         509  515   Char ICD-10-CM Diagnosis 43
+MA  2020 CORE              176 I10_DX44                         516  522   Char ICD-10-CM Diagnosis 44
+MA  2020 CORE              177 I10_DX45                         523  529   Char ICD-10-CM Diagnosis 45
+MA  2020 CORE              178 I10_DX46                         530  536   Char ICD-10-CM Diagnosis 46
+MA  2020 CORE              179 I10_DX47                         537  543   Char ICD-10-CM Diagnosis 47
+MA  2020 CORE              180 I10_DX48                         544  550   Char ICD-10-CM Diagnosis 48
+MA  2020 CORE              181 I10_DX49                         551  557   Char ICD-10-CM Diagnosis 49
+MA  2020 CORE              182 I10_DX50                         558  564   Char ICD-10-CM Diagnosis 50
+MA  2020 CORE              183 I10_DX51                         565  571   Char ICD-10-CM Diagnosis 51
+MA  2020 CORE              184 I10_DX52                         572  578   Char ICD-10-CM Diagnosis 52
+MA  2020 CORE              185 I10_DX53                         579  585   Char ICD-10-CM Diagnosis 53
+MA  2020 CORE              186 I10_DX54                         586  592   Char ICD-10-CM Diagnosis 54
+MA  2020 CORE              187 I10_DX55                         593  599   Char ICD-10-CM Diagnosis 55
+MA  2020 CORE              188 I10_DX56                         600  606   Char ICD-10-CM Diagnosis 56
+MA  2020 CORE              189 I10_DX57                         607  613   Char ICD-10-CM Diagnosis 57
+MA  2020 CORE              190 I10_DX58                         614  620   Char ICD-10-CM Diagnosis 58
+MA  2020 CORE              191 I10_DX59                         621  627   Char ICD-10-CM Diagnosis 59
+MA  2020 CORE              192 I10_DX60                         628  634   Char ICD-10-CM Diagnosis 60
+MA  2020 CORE              193 I10_DX61                         635  641   Char ICD-10-CM Diagnosis 61
+MA  2020 CORE              194 I10_DX62                         642  648   Char ICD-10-CM Diagnosis 62
+MA  2020 CORE              195 I10_DX63                         649  655   Char ICD-10-CM Diagnosis 63
+MA  2020 CORE              196 I10_DX64                         656  662   Char ICD-10-CM Diagnosis 64
+MA  2020 CORE              197 I10_DX65                         663  669   Char ICD-10-CM Diagnosis 65
+MA  2020 CORE              198 I10_DX66                         670  676   Char ICD-10-CM Diagnosis 66
+MA  2020 CORE              199 I10_DX67                         677  683   Char ICD-10-CM Diagnosis 67
+MA  2020 CORE              200 I10_DX68                         684  690   Char ICD-10-CM Diagnosis 68
+MA  2020 CORE              201 I10_DX69                         691  697   Char ICD-10-CM Diagnosis 69
+MA  2020 CORE              202 I10_DX70                         698  704   Char ICD-10-CM Diagnosis 70
+MA  2020 CORE              203 I10_DX71                         705  711   Char ICD-10-CM Diagnosis 71
+MA  2020 CORE              204 I10_DX72                         712  718   Char ICD-10-CM Diagnosis 72
+MA  2020 CORE              205 I10_DX73                         719  725   Char ICD-10-CM Diagnosis 73
+MA  2020 CORE              206 I10_DX74                         726  732   Char ICD-10-CM Diagnosis 74
+MA  2020 CORE              207 I10_DX75                         733  739   Char ICD-10-CM Diagnosis 75
+MA  2020 CORE              208 I10_DX76                         740  746   Char ICD-10-CM Diagnosis 76
+MA  2020 CORE              209 I10_DX77                         747  753   Char ICD-10-CM Diagnosis 77
+MA  2020 CORE              210 I10_DX78                         754  760   Char ICD-10-CM Diagnosis 78
+MA  2020 CORE              211 I10_DX79                         761  767   Char ICD-10-CM Diagnosis 79
+MA  2020 CORE              212 I10_DX80                         768  774   Char ICD-10-CM Diagnosis 80
+MA  2020 CORE              213 I10_DX81                         775  781   Char ICD-10-CM Diagnosis 81
+MA  2020 CORE              214 I10_DX82                         782  788   Char ICD-10-CM Diagnosis 82
+MA  2020 CORE              215 I10_DX83                         789  795   Char ICD-10-CM Diagnosis 83
+MA  2020 CORE              216 I10_DX84                         796  802   Char ICD-10-CM Diagnosis 84
+MA  2020 CORE              217 I10_DX85                         803  809   Char ICD-10-CM Diagnosis 85
+MA  2020 CORE              218 I10_DX86                         810  816   Char ICD-10-CM Diagnosis 86
+MA  2020 CORE              219 I10_DX87                         817  823   Char ICD-10-CM Diagnosis 87
+MA  2020 CORE              220 I10_DX88                         824  830   Char ICD-10-CM Diagnosis 88
+MA  2020 CORE              221 I10_DX89                         831  837   Char ICD-10-CM Diagnosis 89
+MA  2020 CORE              222 I10_DX90                         838  844   Char ICD-10-CM Diagnosis 90
+MA  2020 CORE              223 I10_DX91                         845  851   Char ICD-10-CM Diagnosis 91
+MA  2020 CORE              224 I10_DX92                         852  858   Char ICD-10-CM Diagnosis 92
+MA  2020 CORE              225 I10_DX93                         859  865   Char ICD-10-CM Diagnosis 93
+MA  2020 CORE              226 I10_DX94                         866  872   Char ICD-10-CM Diagnosis 94
+MA  2020 CORE              227 I10_DX95                         873  879   Char ICD-10-CM Diagnosis 95
+MA  2020 CORE              228 I10_DX96                         880  886   Char ICD-10-CM Diagnosis 96
+MA  2020 CORE              229 I10_NDX                          887  889   Num  ICD-10-CM Number of diagnoses on this record
+MA  2020 CORE              230 I10_NPR                          890  892   Num  ICD-10-PCS Number of procedures on this record
+MA  2020 CORE              231 I10_PR1                          893  899   Char ICD-10-PCS Procedure 1
+MA  2020 CORE              232 I10_PR2                          900  906   Char ICD-10-PCS Procedure 2
+MA  2020 CORE              233 I10_PR3                          907  913   Char ICD-10-PCS Procedure 3
+MA  2020 CORE              234 I10_PR4                          914  920   Char ICD-10-PCS Procedure 4
+MA  2020 CORE              235 I10_PR5                          921  927   Char ICD-10-PCS Procedure 5
+MA  2020 CORE              236 I10_PR6                          928  934   Char ICD-10-PCS Procedure 6
+MA  2020 CORE              237 I10_PR7                          935  941   Char ICD-10-PCS Procedure 7
+MA  2020 CORE              238 I10_PR8                          942  948   Char ICD-10-PCS Procedure 8
+MA  2020 CORE              239 I10_PR9                          949  955   Char ICD-10-PCS Procedure 9
+MA  2020 CORE              240 I10_PR10                         956  962   Char ICD-10-PCS Procedure 10
+MA  2020 CORE              241 I10_PR11                         963  969   Char ICD-10-PCS Procedure 11
+MA  2020 CORE              242 I10_PR12                         970  976   Char ICD-10-PCS Procedure 12
+MA  2020 CORE              243 I10_PR13                         977  983   Char ICD-10-PCS Procedure 13
+MA  2020 CORE              244 I10_PR14                         984  990   Char ICD-10-PCS Procedure 14
+MA  2020 CORE              245 I10_PR15                         991  997   Char ICD-10-PCS Procedure 15
+MA  2020 CORE              246 I10_PR16                         998 1004   Char ICD-10-PCS Procedure 16
+MA  2020 CORE              247 I10_PR17                        1005 1011   Char ICD-10-PCS Procedure 17
+MA  2020 CORE              248 I10_PR18                        1012 1018   Char ICD-10-PCS Procedure 18
+MA  2020 CORE              249 I10_PR19                        1019 1025   Char ICD-10-PCS Procedure 19
+MA  2020 CORE              250 I10_PR20                        1026 1032   Char ICD-10-PCS Procedure 20
+MA  2020 CORE              251 I10_PR21                        1033 1039   Char ICD-10-PCS Procedure 21
+MA  2020 CORE              252 I10_PR22                        1040 1046   Char ICD-10-PCS Procedure 22
+MA  2020 CORE              253 I10_PR23                        1047 1053   Char ICD-10-PCS Procedure 23
+MA  2020 CORE              254 I10_PR24                        1054 1060   Char ICD-10-PCS Procedure 24
+MA  2020 CORE              255 I10_PR25                        1061 1067   Char ICD-10-PCS Procedure 25
+MA  2020 CORE              256 I10_PR26                        1068 1074   Char ICD-10-PCS Procedure 26
+MA  2020 CORE              257 I10_PR27                        1075 1081   Char ICD-10-PCS Procedure 27
+MA  2020 CORE              258 I10_PR28                        1082 1088   Char ICD-10-PCS Procedure 28
+MA  2020 CORE              259 I10_PR29                        1089 1095   Char ICD-10-PCS Procedure 29
+MA  2020 CORE              260 I10_PR30                        1096 1102   Char ICD-10-PCS Procedure 30
+MA  2020 CORE              261 I10_PR31                        1103 1109   Char ICD-10-PCS Procedure 31
+MA  2020 CORE              262 I10_PR32                        1110 1116   Char ICD-10-PCS Procedure 32
+MA  2020 CORE              263 I10_PR33                        1117 1123   Char ICD-10-PCS Procedure 33
+MA  2020 CORE              264 I10_PR34                        1124 1130   Char ICD-10-PCS Procedure 34
+MA  2020 CORE              265 I10_PR35                        1131 1137   Char ICD-10-PCS Procedure 35
+MA  2020 CORE              266 I10_PR36                        1138 1144   Char ICD-10-PCS Procedure 36
+MA  2020 CORE              267 I10_PR37                        1145 1151   Char ICD-10-PCS Procedure 37
+MA  2020 CORE              268 I10_PR38                        1152 1158   Char ICD-10-PCS Procedure 38
+MA  2020 CORE              269 I10_PR39                        1159 1165   Char ICD-10-PCS Procedure 39
+MA  2020 CORE              270 I10_PR40                        1166 1172   Char ICD-10-PCS Procedure 40
+MA  2020 CORE              271 I10_PR41                        1173 1179   Char ICD-10-PCS Procedure 41
+MA  2020 CORE              272 I10_PR42                        1180 1186   Char ICD-10-PCS Procedure 42
+MA  2020 CORE              273 I10_PR43                        1187 1193   Char ICD-10-PCS Procedure 43
+MA  2020 CORE              274 I10_PR44                        1194 1200   Char ICD-10-PCS Procedure 44
+MA  2020 CORE              275 I10_PR45                        1201 1207   Char ICD-10-PCS Procedure 45
+MA  2020 CORE              276 I10_PR46                        1208 1214   Char ICD-10-PCS Procedure 46
+MA  2020 CORE              277 I10_PR47                        1215 1221   Char ICD-10-PCS Procedure 47
+MA  2020 CORE              278 I10_PR48                        1222 1228   Char ICD-10-PCS Procedure 48
+MA  2020 CORE              279 I10_PR49                        1229 1235   Char ICD-10-PCS Procedure 49
+MA  2020 CORE              280 I10_PR50                        1236 1242   Char ICD-10-PCS Procedure 50
+MA  2020 CORE              281 I10_PR51                        1243 1249   Char ICD-10-PCS Procedure 51
+MA  2020 CORE              282 I10_PR52                        1250 1256   Char ICD-10-PCS Procedure 52
+MA  2020 CORE              283 I10_PR53                        1257 1263   Char ICD-10-PCS Procedure 53
+MA  2020 CORE              284 I10_PR54                        1264 1270   Char ICD-10-PCS Procedure 54
+MA  2020 CORE              285 I10_PR55                        1271 1277   Char ICD-10-PCS Procedure 55
+MA  2020 CORE              286 I10_PR56                        1278 1284   Char ICD-10-PCS Procedure 56
+MA  2020 CORE              287 I10_PR57                        1285 1291   Char ICD-10-PCS Procedure 57
+MA  2020 CORE              288 I10_PR58                        1292 1298   Char ICD-10-PCS Procedure 58
+MA  2020 CORE              289 I10_PR59                        1299 1305   Char ICD-10-PCS Procedure 59
+MA  2020 CORE              290 I10_PR60                        1306 1312   Char ICD-10-PCS Procedure 60
+MA  2020 CORE              291 I10_PR61                        1313 1319   Char ICD-10-PCS Procedure 61
+MA  2020 CORE              292 I10_PR62                        1320 1326   Char ICD-10-PCS Procedure 62
+MA  2020 CORE              293 I10_PR63                        1327 1333   Char ICD-10-PCS Procedure 63
+MA  2020 CORE              294 I10_PR64                        1334 1340   Char ICD-10-PCS Procedure 64
+MA  2020 CORE              295 I10_PR65                        1341 1347   Char ICD-10-PCS Procedure 65
+MA  2020 CORE              296 I10_PR66                        1348 1354   Char ICD-10-PCS Procedure 66
+MA  2020 CORE              297 I10_PR67                        1355 1361   Char ICD-10-PCS Procedure 67
+MA  2020 CORE              298 I10_PR68                        1362 1368   Char ICD-10-PCS Procedure 68
+MA  2020 CORE              299 I10_PR69                        1369 1375   Char ICD-10-PCS Procedure 69
+MA  2020 CORE              300 I10_PR70                        1376 1382   Char ICD-10-PCS Procedure 70
+MA  2020 CORE              301 I10_PR71                        1383 1389   Char ICD-10-PCS Procedure 71
+MA  2020 CORE              302 I10_PR72                        1390 1396   Char ICD-10-PCS Procedure 72
+MA  2020 CORE              303 I10_PR73                        1397 1403   Char ICD-10-PCS Procedure 73
+MA  2020 CORE              304 I10_PR74                        1404 1410   Char ICD-10-PCS Procedure 74
+MA  2020 CORE              305 I10_PR75                        1411 1417   Char ICD-10-PCS Procedure 75
+MA  2020 CORE              306 I10_PR76                        1418 1424   Char ICD-10-PCS Procedure 76
+MA  2020 CORE              307 I10_PR77                        1425 1431   Char ICD-10-PCS Procedure 77
+MA  2020 CORE              308 I10_PR78                        1432 1438   Char ICD-10-PCS Procedure 78
+MA  2020 CORE              309 I10_PR79                        1439 1445   Char ICD-10-PCS Procedure 79
+MA  2020 CORE              310 I10_PR80                        1446 1452   Char ICD-10-PCS Procedure 80
+MA  2020 CORE              311 I10_PR81                        1453 1459   Char ICD-10-PCS Procedure 81
+MA  2020 CORE              312 I10_PR82                        1460 1466   Char ICD-10-PCS Procedure 82
+MA  2020 CORE              313 I10_PR83                        1467 1473   Char ICD-10-PCS Procedure 83
+MA  2020 CORE              314 I10_PR84                        1474 1480   Char ICD-10-PCS Procedure 84
+MA  2020 CORE              315 I10_PR85                        1481 1487   Char ICD-10-PCS Procedure 85
+MA  2020 CORE              316 I10_PR86                        1488 1494   Char ICD-10-PCS Procedure 86
+MA  2020 CORE              317 I10_PR87                        1495 1501   Char ICD-10-PCS Procedure 87
+MA  2020 CORE              318 I10_PR88                        1502 1508   Char ICD-10-PCS Procedure 88
+MA  2020 CORE              319 I10_PR89                        1509 1515   Char ICD-10-PCS Procedure 89
+MA  2020 CORE              320 I10_PR90                        1516 1522   Char ICD-10-PCS Procedure 90
+MA  2020 CORE              321 I10_PR91                        1523 1529   Char ICD-10-PCS Procedure 91
+MA  2020 CORE              322 I10_PR92                        1530 1536   Char ICD-10-PCS Procedure 92
+MA  2020 CORE              323 I10_PR93                        1537 1543   Char ICD-10-PCS Procedure 93
+MA  2020 CORE              324 I10_PR94                        1544 1550   Char ICD-10-PCS Procedure 94
+MA  2020 CORE              325 I10_PR95                        1551 1557   Char ICD-10-PCS Procedure 95
+MA  2020 CORE              326 I10_PR96                        1558 1564   Char ICD-10-PCS Procedure 96
+MA  2020 CORE              327 I10_PR97                        1565 1571   Char ICD-10-PCS Procedure 97
+MA  2020 CORE              328 I10_PR98                        1572 1578   Char ICD-10-PCS Procedure 98
+MA  2020 CORE              329 I10_PR99                        1579 1585   Char ICD-10-PCS Procedure 99
+MA  2020 CORE              330 I10_PR100                       1586 1592   Char ICD-10-PCS Procedure 100
+MA  2020 CORE              331 I10_PR101                       1593 1599   Char ICD-10-PCS Procedure 101
+MA  2020 CORE              332 I10_PR102                       1600 1606   Char ICD-10-PCS Procedure 102
+MA  2020 CORE              333 I10_PR103                       1607 1613   Char ICD-10-PCS Procedure 103
+MA  2020 CORE              334 I10_PR104                       1614 1620   Char ICD-10-PCS Procedure 104
+MA  2020 CORE              335 I10_PR105                       1621 1627   Char ICD-10-PCS Procedure 105
+MA  2020 CORE              336 I10_PR106                       1628 1634   Char ICD-10-PCS Procedure 106
+MA  2020 CORE              337 I10_PR107                       1635 1641   Char ICD-10-PCS Procedure 107
+MA  2020 CORE              338 I10_PR108                       1642 1648   Char ICD-10-PCS Procedure 108
+MA  2020 CORE              339 I10_PR109                       1649 1655   Char ICD-10-PCS Procedure 109
+MA  2020 CORE              340 I10_PR110                       1656 1662   Char ICD-10-PCS Procedure 110
+MA  2020 CORE              341 I10_PR111                       1663 1669   Char ICD-10-PCS Procedure 111
+MA  2020 CORE              342 I10_PR112                       1670 1676   Char ICD-10-PCS Procedure 112
+MA  2020 CORE              343 I10_PR113                       1677 1683   Char ICD-10-PCS Procedure 113
+MA  2020 CORE              344 I10_PR114                       1684 1690   Char ICD-10-PCS Procedure 114
+MA  2020 CORE              345 I10_PR115                       1691 1697   Char ICD-10-PCS Procedure 115
+MA  2020 CORE              346 I10_PR116                       1698 1704   Char ICD-10-PCS Procedure 116
+MA  2020 CORE              347 I10_PR117                       1705 1711   Char ICD-10-PCS Procedure 117
+MA  2020 CORE              348 I10_PR118                       1712 1718   Char ICD-10-PCS Procedure 118
+MA  2020 CORE              349 I10_PR119                       1719 1725   Char ICD-10-PCS Procedure 119
+MA  2020 CORE              350 I10_PR120                       1726 1732   Char ICD-10-PCS Procedure 120
+MA  2020 CORE              351 I10_PR121                       1733 1739   Char ICD-10-PCS Procedure 121
+MA  2020 CORE              352 I10_PR122                       1740 1746   Char ICD-10-PCS Procedure 122
+MA  2020 CORE              353 I10_PR123                       1747 1753   Char ICD-10-PCS Procedure 123
+MA  2020 CORE              354 I10_PR124                       1754 1760   Char ICD-10-PCS Procedure 124
+MA  2020 CORE              355 I10_PR125                       1761 1767   Char ICD-10-PCS Procedure 125
+MA  2020 CORE              356 I10_PR126                       1768 1774   Char ICD-10-PCS Procedure 126
+MA  2020 CORE              357 I10_PR127                       1775 1781   Char ICD-10-PCS Procedure 127
+MA  2020 CORE              358 I10_PR128                       1782 1788   Char ICD-10-PCS Procedure 128
+MA  2020 CORE              359 I10_PR129                       1789 1795   Char ICD-10-PCS Procedure 129
+MA  2020 CORE              360 I10_PR130                       1796 1802   Char ICD-10-PCS Procedure 130
+MA  2020 CORE              361 I10_PR131                       1803 1809   Char ICD-10-PCS Procedure 131
+MA  2020 CORE              362 I10_PR132                       1810 1816   Char ICD-10-PCS Procedure 132
+MA  2020 CORE              363 I10_PR133                       1817 1823   Char ICD-10-PCS Procedure 133
+MA  2020 CORE              364 I10_PR134                       1824 1830   Char ICD-10-PCS Procedure 134
+MA  2020 CORE              365 I10_PR135                       1831 1837   Char ICD-10-PCS Procedure 135
+MA  2020 CORE              366 I10_PR136                       1838 1844   Char ICD-10-PCS Procedure 136
+MA  2020 CORE              367 I10_PR137                       1845 1851   Char ICD-10-PCS Procedure 137
+MA  2020 CORE              368 I10_PR138                       1852 1858   Char ICD-10-PCS Procedure 138
+MA  2020 CORE              369 I10_PR139                       1859 1865   Char ICD-10-PCS Procedure 139
+MA  2020 CORE              370 I10_PR140                       1866 1872   Char ICD-10-PCS Procedure 140
+MA  2020 CORE              371 I10_PR141                       1873 1879   Char ICD-10-PCS Procedure 141
+MA  2020 CORE              372 I10_PR142                       1880 1886   Char ICD-10-PCS Procedure 142
+MA  2020 CORE              373 I10_PR143                       1887 1893   Char ICD-10-PCS Procedure 143
+MA  2020 CORE              374 I10_PR144                       1894 1900   Char ICD-10-PCS Procedure 144
+MA  2020 CORE              375 I10_PR145                       1901 1907   Char ICD-10-PCS Procedure 145
+MA  2020 CORE              376 I10_PR146                       1908 1914   Char ICD-10-PCS Procedure 146
+MA  2020 CORE              377 I10_PR147                       1915 1921   Char ICD-10-PCS Procedure 147
+MA  2020 CORE              378 I10_PR148                       1922 1928   Char ICD-10-PCS Procedure 148
+MA  2020 CORE              379 I10_PR149                       1929 1935   Char ICD-10-PCS Procedure 149
+MA  2020 CORE              380 I10_PR150                       1936 1942   Char ICD-10-PCS Procedure 150
+MA  2020 CORE              381 I10_PR151                       1943 1949   Char ICD-10-PCS Procedure 151
+MA  2020 CORE              382 I10_PR152                       1950 1956   Char ICD-10-PCS Procedure 152
+MA  2020 CORE              383 I10_PR153                       1957 1963   Char ICD-10-PCS Procedure 153
+MA  2020 CORE              384 I10_PR154                       1964 1970   Char ICD-10-PCS Procedure 154
+MA  2020 CORE              385 I10_PR155                       1971 1977   Char ICD-10-PCS Procedure 155
+MA  2020 CORE              386 I10_PR156                       1978 1984   Char ICD-10-PCS Procedure 156
+MA  2020 CORE              387 I10_PR157                       1985 1991   Char ICD-10-PCS Procedure 157
+MA  2020 CORE              388 I10_PR158                       1992 1998   Char ICD-10-PCS Procedure 158
+MA  2020 CORE              389 I10_PR159                       1999 2005   Char ICD-10-PCS Procedure 159
+MA  2020 CORE              390 I10_PR160                       2006 2012   Char ICD-10-PCS Procedure 160
+MA  2020 CORE              391 I10_PR161                       2013 2019   Char ICD-10-PCS Procedure 161
+MA  2020 CORE              392 I10_PR162                       2020 2026   Char ICD-10-PCS Procedure 162
+MA  2020 CORE              393 I10_PR163                       2027 2033   Char ICD-10-PCS Procedure 163
+MA  2020 CORE              394 I10_PR164                       2034 2040   Char ICD-10-PCS Procedure 164
+MA  2020 CORE              395 I10_PR165                       2041 2047   Char ICD-10-PCS Procedure 165
+MA  2020 CORE              396 I10_PR166                       2048 2054   Char ICD-10-PCS Procedure 166
+MA  2020 CORE              397 I10_PR167                       2055 2061   Char ICD-10-PCS Procedure 167
+MA  2020 CORE              398 I10_PR168                       2062 2068   Char ICD-10-PCS Procedure 168
+MA  2020 CORE              399 I10_PROCTYPE                    2069 2071   Num  ICD-10-PCS Procedure type indicator
+MA  2020 CORE              400 I10_SERVICELINE                 2072 2073   Num  ICD-10-CM/PCS Hospital Service Line
+MA  2020 CORE              401 KEY                             2074 2088   Num  HCUP record identifier
+MA  2020 CORE              402 LOS                             2089 2093   Num  Length of stay (cleaned)
+MA  2020 CORE              403 LOS_X                           2094 2099   Num  Length of stay (as received from source)
+MA  2020 CORE              404 MDC                             2100 2101   Num  MDC in effect on discharge date
+MA  2020 CORE              405 MDC_NoPOA                       2102 2103   Num  MDC in use on discharge date, calculated without POA
+MA  2020 CORE              406 MEDINCSTQ                       2104 2105   Num  Median household income state quartile for patient ZIP Code
+MA  2020 CORE              407 OS_TIME                         2106 21162  Num  Observation stay time summed from UNITS
+MA  2020 CORE              408 PAY1                            2117 2118   Num  Primary expected payer (uniform)
+MA  2020 CORE              409 PAY1_X                          2119 2119   Char Primary expected payer (as received from source)
+MA  2020 CORE              410 PAY2                            2120 2121   Num  Secondary expected payer (uniform)
+MA  2020 CORE              411 PAY2_X                          2122 2122   Char Secondary expected payer (as received from source)
+MA  2020 CORE              412 PAYER1_X                        2123 2125   Char Primary expected payer plan identifier (as received from source)
+MA  2020 CORE              413 PAYER2_X                        2126 2128   Char Secondary expected payer plan identifier (as received from source)
+MA  2020 CORE              414 PCLASS_ORPROC                   2129 2130   Num  Indicates operating room (major diagnostic or therapeutic) procedure on the record
+MA  2020 CORE              415 PL_CBSA                         2131 2133   Num  Patient location: Core Based Statistical Area (CBSA)
+MA  2020 CORE              416 PL_UR_CAT4                      2134 2135   Num  Patient Location: Urban-Rural 4 Categories
+MA  2020 CORE              417 POA_Disch_Edit1                 2136 2137   Num  Discharge has POA missing on all nonexempt diagnoses
+MA  2020 CORE              418 POA_Disch_Edit2                 2138 2139   Num  Discharge has POA missing on all nonexempt secondary diagnoses
+MA  2020 CORE              419 POA_Hosp_Edit1                  2140 2141   Num  Hospital reported POA as Y on all diagnoses on all discharges
+MA  2020 CORE              420 POA_Hosp_Edit2                  2142 2143   Num  Hospital reported POA as missing on all non-Medicare discharges
+MA  2020 CORE              421 POA_Hosp_Edit3                  2144 2145   Num  Hospital reported POA as missing on all nonexempt diagnoses for 15% or more of discharges
+MA  2020 CORE              422 POA_Hosp_Edit3_Value            2146 21532  Num  Percentage of discharges with all nonexempt diagnoses missing POA indicators
+MA  2020 CORE              423 PRDAY1                          2154 2158   Num  Number of days from admission to I10_PR1
+MA  2020 CORE              424 PRDAY2                          2159 2163   Num  Number of days from admission to I10_PR2
+MA  2020 CORE              425 PRDAY3                          2164 2168   Num  Number of days from admission to I10_PR3
+MA  2020 CORE              426 PRDAY4                          2169 2173   Num  Number of days from admission to I10_PR4
+MA  2020 CORE              427 PRDAY5                          2174 2178   Num  Number of days from admission to I10_PR5
+MA  2020 CORE              428 PRDAY6                          2179 2183   Num  Number of days from admission to I10_PR6
+MA  2020 CORE              429 PRDAY7                          2184 2188   Num  Number of days from admission to I10_PR7
+MA  2020 CORE              430 PRDAY8                          2189 2193   Num  Number of days from admission to I10_PR8
+MA  2020 CORE              431 PRDAY9                          2194 2198   Num  Number of days from admission to I10_PR9
+MA  2020 CORE              432 PRDAY10                         2199 2203   Num  Number of days from admission to I10_PR10
+MA  2020 CORE              433 PRDAY11                         2204 2208   Num  Number of days from admission to I10_PR11
+MA  2020 CORE              434 PRDAY12                         2209 2213   Num  Number of days from admission to I10_PR12
+MA  2020 CORE              435 PRDAY13                         2214 2218   Num  Number of days from admission to I10_PR13
+MA  2020 CORE              436 PRDAY14                         2219 2223   Num  Number of days from admission to I10_PR14
+MA  2020 CORE              437 PRDAY15                         2224 2228   Num  Number of days from admission to I10_PR15
+MA  2020 CORE              438 PRDAY16                         2229 2233   Num  Number of days from admission to I10_PR16
+MA  2020 CORE              439 PRDAY17                         2234 2238   Num  Number of days from admission to I10_PR17
+MA  2020 CORE              440 PRDAY18                         2239 2243   Num  Number of days from admission to I10_PR18
+MA  2020 CORE              441 PRDAY19                         2244 2248   Num  Number of days from admission to I10_PR19
+MA  2020 CORE              442 PRDAY20                         2249 2253   Num  Number of days from admission to I10_PR20
+MA  2020 CORE              443 PRDAY21                         2254 2258   Num  Number of days from admission to I10_PR21
+MA  2020 CORE              444 PRDAY22                         2259 2263   Num  Number of days from admission to I10_PR22
+MA  2020 CORE              445 PRDAY23                         2264 2268   Num  Number of days from admission to I10_PR23
+MA  2020 CORE              446 PRDAY24                         2269 2273   Num  Number of days from admission to I10_PR24
+MA  2020 CORE              447 PRDAY25                         2274 2278   Num  Number of days from admission to I10_PR25
+MA  2020 CORE              448 PRDAY26                         2279 2283   Num  Number of days from admission to I10_PR26
+MA  2020 CORE              449 PRDAY27                         2284 2288   Num  Number of days from admission to I10_PR27
+MA  2020 CORE              450 PRDAY28                         2289 2293   Num  Number of days from admission to I10_PR28
+MA  2020 CORE              451 PRDAY29                         2294 2298   Num  Number of days from admission to I10_PR29
+MA  2020 CORE              452 PRDAY30                         2299 2303   Num  Number of days from admission to I10_PR30
+MA  2020 CORE              453 PRDAY31                         2304 2308   Num  Number of days from admission to I10_PR31
+MA  2020 CORE              454 PRDAY32                         2309 2313   Num  Number of days from admission to I10_PR32
+MA  2020 CORE              455 PRDAY33                         2314 2318   Num  Number of days from admission to I10_PR33
+MA  2020 CORE              456 PRDAY34                         2319 2323   Num  Number of days from admission to I10_PR34
+MA  2020 CORE              457 PRDAY35                         2324 2328   Num  Number of days from admission to I10_PR35
+MA  2020 CORE              458 PRDAY36                         2329 2333   Num  Number of days from admission to I10_PR36
+MA  2020 CORE              459 PRDAY37                         2334 2338   Num  Number of days from admission to I10_PR37
+MA  2020 CORE              460 PRDAY38                         2339 2343   Num  Number of days from admission to I10_PR38
+MA  2020 CORE              461 PRDAY39                         2344 2348   Num  Number of days from admission to I10_PR39
+MA  2020 CORE              462 PRDAY40                         2349 2353   Num  Number of days from admission to I10_PR40
+MA  2020 CORE              463 PRDAY41                         2354 2358   Num  Number of days from admission to I10_PR41
+MA  2020 CORE              464 PRDAY42                         2359 2363   Num  Number of days from admission to I10_PR42
+MA  2020 CORE              465 PRDAY43                         2364 2368   Num  Number of days from admission to I10_PR43
+MA  2020 CORE              466 PRDAY44                         2369 2373   Num  Number of days from admission to I10_PR44
+MA  2020 CORE              467 PRDAY45                         2374 2378   Num  Number of days from admission to I10_PR45
+MA  2020 CORE              468 PRDAY46                         2379 2383   Num  Number of days from admission to I10_PR46
+MA  2020 CORE              469 PRDAY47                         2384 2388   Num  Number of days from admission to I10_PR47
+MA  2020 CORE              470 PRDAY48                         2389 2393   Num  Number of days from admission to I10_PR48
+MA  2020 CORE              471 PRDAY49                         2394 2398   Num  Number of days from admission to I10_PR49
+MA  2020 CORE              472 PRDAY50                         2399 2403   Num  Number of days from admission to I10_PR50
+MA  2020 CORE              473 PRDAY51                         2404 2408   Num  Number of days from admission to I10_PR51
+MA  2020 CORE              474 PRDAY52                         2409 2413   Num  Number of days from admission to I10_PR52
+MA  2020 CORE              475 PRDAY53                         2414 2418   Num  Number of days from admission to I10_PR53
+MA  2020 CORE              476 PRDAY54                         2419 2423   Num  Number of days from admission to I10_PR54
+MA  2020 CORE              477 PRDAY55                         2424 2428   Num  Number of days from admission to I10_PR55
+MA  2020 CORE              478 PRDAY56                         2429 2433   Num  Number of days from admission to I10_PR56
+MA  2020 CORE              479 PRDAY57                         2434 2438   Num  Number of days from admission to I10_PR57
+MA  2020 CORE              480 PRDAY58                         2439 2443   Num  Number of days from admission to I10_PR58
+MA  2020 CORE              481 PRDAY59                         2444 2448   Num  Number of days from admission to I10_PR59
+MA  2020 CORE              482 PRDAY60                         2449 2453   Num  Number of days from admission to I10_PR60
+MA  2020 CORE              483 PRDAY61                         2454 2458   Num  Number of days from admission to I10_PR61
+MA  2020 CORE              484 PRDAY62                         2459 2463   Num  Number of days from admission to I10_PR62
+MA  2020 CORE              485 PRDAY63                         2464 2468   Num  Number of days from admission to I10_PR63
+MA  2020 CORE              486 PRDAY64                         2469 2473   Num  Number of days from admission to I10_PR64
+MA  2020 CORE              487 PRDAY65                         2474 2478   Num  Number of days from admission to I10_PR65
+MA  2020 CORE              488 PRDAY66                         2479 2483   Num  Number of days from admission to I10_PR66
+MA  2020 CORE              489 PRDAY67                         2484 2488   Num  Number of days from admission to I10_PR67
+MA  2020 CORE              490 PRDAY68                         2489 2493   Num  Number of days from admission to I10_PR68
+MA  2020 CORE              491 PRDAY69                         2494 2498   Num  Number of days from admission to I10_PR69
+MA  2020 CORE              492 PRDAY70                         2499 2503   Num  Number of days from admission to I10_PR70
+MA  2020 CORE              493 PRDAY71                         2504 2508   Num  Number of days from admission to I10_PR71
+MA  2020 CORE              494 PRDAY72                         2509 2513   Num  Number of days from admission to I10_PR72
+MA  2020 CORE              495 PRDAY73                         2514 2518   Num  Number of days from admission to I10_PR73
+MA  2020 CORE              496 PRDAY74                         2519 2523   Num  Number of days from admission to I10_PR74
+MA  2020 CORE              497 PRDAY75                         2524 2528   Num  Number of days from admission to I10_PR75
+MA  2020 CORE              498 PRDAY76                         2529 2533   Num  Number of days from admission to I10_PR76
+MA  2020 CORE              499 PRDAY77                         2534 2538   Num  Number of days from admission to I10_PR77
+MA  2020 CORE              500 PRDAY78                         2539 2543   Num  Number of days from admission to I10_PR78
+MA  2020 CORE              501 PRDAY79                         2544 2548   Num  Number of days from admission to I10_PR79
+MA  2020 CORE              502 PRDAY80                         2549 2553   Num  Number of days from admission to I10_PR80
+MA  2020 CORE              503 PRDAY81                         2554 2558   Num  Number of days from admission to I10_PR81
+MA  2020 CORE              504 PRDAY82                         2559 2563   Num  Number of days from admission to I10_PR82
+MA  2020 CORE              505 PRDAY83                         2564 2568   Num  Number of days from admission to I10_PR83
+MA  2020 CORE              506 PRDAY84                         2569 2573   Num  Number of days from admission to I10_PR84
+MA  2020 CORE              507 PRDAY85                         2574 2578   Num  Number of days from admission to I10_PR85
+MA  2020 CORE              508 PRDAY86                         2579 2583   Num  Number of days from admission to I10_PR86
+MA  2020 CORE              509 PRDAY87                         2584 2588   Num  Number of days from admission to I10_PR87
+MA  2020 CORE              510 PRDAY88                         2589 2593   Num  Number of days from admission to I10_PR88
+MA  2020 CORE              511 PRDAY89                         2594 2598   Num  Number of days from admission to I10_PR89
+MA  2020 CORE              512 PRDAY90                         2599 2603   Num  Number of days from admission to I10_PR90
+MA  2020 CORE              513 PRDAY91                         2604 2608   Num  Number of days from admission to I10_PR91
+MA  2020 CORE              514 PRDAY92                         2609 2613   Num  Number of days from admission to I10_PR92
+MA  2020 CORE              515 PRDAY93                         2614 2618   Num  Number of days from admission to I10_PR93
+MA  2020 CORE              516 PRDAY94                         2619 2623   Num  Number of days from admission to I10_PR94
+MA  2020 CORE              517 PRDAY95                         2624 2628   Num  Number of days from admission to I10_PR95
+MA  2020 CORE              518 PRDAY96                         2629 2633   Num  Number of days from admission to I10_PR96
+MA  2020 CORE              519 PRDAY97                         2634 2638   Num  Number of days from admission to I10_PR97
+MA  2020 CORE              520 PRDAY98                         2639 2643   Num  Number of days from admission to I10_PR98
+MA  2020 CORE              521 PRDAY99                         2644 2648   Num  Number of days from admission to I10_PR99
+MA  2020 CORE              522 PRDAY100                        2649 2653   Num  Number of days from admission to I10_PR100
+MA  2020 CORE              523 PRDAY101                        2654 2658   Num  Number of days from admission to I10_PR101
+MA  2020 CORE              524 PRDAY102                        2659 2663   Num  Number of days from admission to I10_PR102
+MA  2020 CORE              525 PRDAY103                        2664 2668   Num  Number of days from admission to I10_PR103
+MA  2020 CORE              526 PRDAY104                        2669 2673   Num  Number of days from admission to I10_PR104
+MA  2020 CORE              527 PRDAY105                        2674 2678   Num  Number of days from admission to I10_PR105
+MA  2020 CORE              528 PRDAY106                        2679 2683   Num  Number of days from admission to I10_PR106
+MA  2020 CORE              529 PRDAY107                        2684 2688   Num  Number of days from admission to I10_PR107
+MA  2020 CORE              530 PRDAY108                        2689 2693   Num  Number of days from admission to I10_PR108
+MA  2020 CORE              531 PRDAY109                        2694 2698   Num  Number of days from admission to I10_PR109
+MA  2020 CORE              532 PRDAY110                        2699 2703   Num  Number of days from admission to I10_PR110
+MA  2020 CORE              533 PRDAY111                        2704 2708   Num  Number of days from admission to I10_PR111
+MA  2020 CORE              534 PRDAY112                        2709 2713   Num  Number of days from admission to I10_PR112
+MA  2020 CORE              535 PRDAY113                        2714 2718   Num  Number of days from admission to I10_PR113
+MA  2020 CORE              536 PRDAY114                        2719 2723   Num  Number of days from admission to I10_PR114
+MA  2020 CORE              537 PRDAY115                        2724 2728   Num  Number of days from admission to I10_PR115
+MA  2020 CORE              538 PRDAY116                        2729 2733   Num  Number of days from admission to I10_PR116
+MA  2020 CORE              539 PRDAY117                        2734 2738   Num  Number of days from admission to I10_PR117
+MA  2020 CORE              540 PRDAY118                        2739 2743   Num  Number of days from admission to I10_PR118
+MA  2020 CORE              541 PRDAY119                        2744 2748   Num  Number of days from admission to I10_PR119
+MA  2020 CORE              542 PRDAY120                        2749 2753   Num  Number of days from admission to I10_PR120
+MA  2020 CORE              543 PRDAY121                        2754 2758   Num  Number of days from admission to I10_PR121
+MA  2020 CORE              544 PRDAY122                        2759 2763   Num  Number of days from admission to I10_PR122
+MA  2020 CORE              545 PRDAY123                        2764 2768   Num  Number of days from admission to I10_PR123
+MA  2020 CORE              546 PRDAY124                        2769 2773   Num  Number of days from admission to I10_PR124
+MA  2020 CORE              547 PRDAY125                        2774 2778   Num  Number of days from admission to I10_PR125
+MA  2020 CORE              548 PRDAY126                        2779 2783   Num  Number of days from admission to I10_PR126
+MA  2020 CORE              549 PRDAY127                        2784 2788   Num  Number of days from admission to I10_PR127
+MA  2020 CORE              550 PRDAY128                        2789 2793   Num  Number of days from admission to I10_PR128
+MA  2020 CORE              551 PRDAY129                        2794 2798   Num  Number of days from admission to I10_PR129
+MA  2020 CORE              552 PRDAY130                        2799 2803   Num  Number of days from admission to I10_PR130
+MA  2020 CORE              553 PRDAY131                        2804 2808   Num  Number of days from admission to I10_PR131
+MA  2020 CORE              554 PRDAY132                        2809 2813   Num  Number of days from admission to I10_PR132
+MA  2020 CORE              555 PRDAY133                        2814 2818   Num  Number of days from admission to I10_PR133
+MA  2020 CORE              556 PRDAY134                        2819 2823   Num  Number of days from admission to I10_PR134
+MA  2020 CORE              557 PRDAY135                        2824 2828   Num  Number of days from admission to I10_PR135
+MA  2020 CORE              558 PRDAY136                        2829 2833   Num  Number of days from admission to I10_PR136
+MA  2020 CORE              559 PRDAY137                        2834 2838   Num  Number of days from admission to I10_PR137
+MA  2020 CORE              560 PRDAY138                        2839 2843   Num  Number of days from admission to I10_PR138
+MA  2020 CORE              561 PRDAY139                        2844 2848   Num  Number of days from admission to I10_PR139
+MA  2020 CORE              562 PRDAY140                        2849 2853   Num  Number of days from admission to I10_PR140
+MA  2020 CORE              563 PRDAY141                        2854 2858   Num  Number of days from admission to I10_PR141
+MA  2020 CORE              564 PRDAY142                        2859 2863   Num  Number of days from admission to I10_PR142
+MA  2020 CORE              565 PRDAY143                        2864 2868   Num  Number of days from admission to I10_PR143
+MA  2020 CORE              566 PRDAY144                        2869 2873   Num  Number of days from admission to I10_PR144
+MA  2020 CORE              567 PRDAY145                        2874 2878   Num  Number of days from admission to I10_PR145
+MA  2020 CORE              568 PRDAY146                        2879 2883   Num  Number of days from admission to I10_PR146
+MA  2020 CORE              569 PRDAY147                        2884 2888   Num  Number of days from admission to I10_PR147
+MA  2020 CORE              570 PRDAY148                        2889 2893   Num  Number of days from admission to I10_PR148
+MA  2020 CORE              571 PRDAY149                        2894 2898   Num  Number of days from admission to I10_PR149
+MA  2020 CORE              572 PRDAY150                        2899 2903   Num  Number of days from admission to I10_PR150
+MA  2020 CORE              573 PRDAY151                        2904 2908   Num  Number of days from admission to I10_PR151
+MA  2020 CORE              574 PRDAY152                        2909 2913   Num  Number of days from admission to I10_PR152
+MA  2020 CORE              575 PRDAY153                        2914 2918   Num  Number of days from admission to I10_PR153
+MA  2020 CORE              576 PRDAY154                        2919 2923   Num  Number of days from admission to I10_PR154
+MA  2020 CORE              577 PRDAY155                        2924 2928   Num  Number of days from admission to I10_PR155
+MA  2020 CORE              578 PRDAY156                        2929 2933   Num  Number of days from admission to I10_PR156
+MA  2020 CORE              579 PRDAY157                        2934 2938   Num  Number of days from admission to I10_PR157
+MA  2020 CORE              580 PRDAY158                        2939 2943   Num  Number of days from admission to I10_PR158
+MA  2020 CORE              581 PRDAY159                        2944 2948   Num  Number of days from admission to I10_PR159
+MA  2020 CORE              582 PRDAY160                        2949 2953   Num  Number of days from admission to I10_PR160
+MA  2020 CORE              583 PRDAY161                        2954 2958   Num  Number of days from admission to I10_PR161
+MA  2020 CORE              584 PRDAY162                        2959 2963   Num  Number of days from admission to I10_PR162
+MA  2020 CORE              585 PRDAY163                        2964 2968   Num  Number of days from admission to I10_PR163
+MA  2020 CORE              586 PRDAY164                        2969 2973   Num  Number of days from admission to I10_PR164
+MA  2020 CORE              587 PRDAY165                        2974 2978   Num  Number of days from admission to I10_PR165
+MA  2020 CORE              588 PRDAY166                        2979 2983   Num  Number of days from admission to I10_PR166
+MA  2020 CORE              589 PRDAY167                        2984 2988   Num  Number of days from admission to I10_PR167
+MA  2020 CORE              590 PRDAY168                        2989 2993   Num  Number of days from admission to I10_PR168
+MA  2020 CORE              591 PSTATE                          2994 2995   Char Patient State postal code
+MA  2020 CORE              592 PSTATE_GEO                      2996 2997   Char Patient State postal code assigned from ZIP Code
+MA  2020 CORE              593 PSTCO_GEO                       2998 3002   Num  Counties assigned based on ZIP Code geographic centroids
+MA  2020 CORE              594 RACE                            3003 3004   Num  Race (uniform)
+MA  2020 CORE              595 RACE_PCT_MISS_HOSP              3005 30112  Num  Hospital percentage of missing or invalid race values
+MA  2020 CORE              596 RACE_X                          3012 3024   Char Race (as received from source)
+MA  2020 CORE              597 TOTCHG                          3025 3034   Num  Total charges (cleaned)
+MA  2020 CORE              598 TOTCHG_X                        3035 30492  Num  Total charges (as received from source)
+MA  2020 CORE              599 TRAN_IN                         3050 3051   Num  Transfer in indicator
+MA  2020 CORE              600 TRAN_OUT                        3052 3053   Num  Transfer out indicator
+MA  2020 CORE              601 VisitLink                       3054 3062   Num  Visit linkage variable
+MA  2020 CORE              602 YEAR                            3063 3066   Num  Calendar year
+MA  2020 CORE              603 ZIP3                            3067 3069   Char Patient ZIP Code, first 3 digits
+MA  2020 CORE              604 ZIPINC_QRTL                     3070 3072   Num  Median household income national quartile for patient ZIP Code
+MA  2020 CORE              605 AYEAR                           3073 3076   Num  Admission year
+MA  2020 CORE              606 PRMONTH1                        3077 3078   Num  Month of procedure 1
+MA  2020 CORE              607 PRMONTH2                        3079 3080   Num  Month of procedure 2
+MA  2020 CORE              608 PRMONTH3                        3081 3082   Num  Month of procedure 3
+MA  2020 CORE              609 PRMONTH4                        3083 3084   Num  Month of procedure 4
+MA  2020 CORE              610 PRMONTH5                        3085 3086   Num  Month of procedure 5
+MA  2020 CORE              611 PRMONTH6                        3087 3088   Num  Month of procedure 6
+MA  2020 CORE              612 PRMONTH7                        3089 3090   Num  Month of procedure 7
+MA  2020 CORE              613 PRMONTH8                        3091 3092   Num  Month of procedure 8
+MA  2020 CORE              614 PRMONTH9                        3093 3094   Num  Month of procedure 9
+MA  2020 CORE              615 PRMONTH10                       3095 3096   Num  Month of procedure 10
+MA  2020 CORE              616 PRMONTH11                       3097 3098   Num  Month of procedure 11
+MA  2020 CORE              617 PRMONTH12                       3099 3100   Num  Month of procedure 12
+MA  2020 CORE              618 PRMONTH13                       3101 3102   Num  Month of procedure 13
+MA  2020 CORE              619 PRMONTH14                       3103 3104   Num  Month of procedure 14
+MA  2020 CORE              620 PRMONTH15                       3105 3106   Num  Month of procedure 15
+MA  2020 CORE              621 PRMONTH16                       3107 3108   Num  Month of procedure 16
+MA  2020 CORE              622 PRMONTH17                       3109 3110   Num  Month of procedure 17
+MA  2020 CORE              623 PRMONTH18                       3111 3112   Num  Month of procedure 18
+MA  2020 CORE              624 PRMONTH19                       3113 3114   Num  Month of procedure 19
+MA  2020 CORE              625 PRMONTH20                       3115 3116   Num  Month of procedure 20
+MA  2020 CORE              626 PRMONTH21                       3117 3118   Num  Month of procedure 21
+MA  2020 CORE              627 PRMONTH22                       3119 3120   Num  Month of procedure 22
+MA  2020 CORE              628 PRMONTH23                       3121 3122   Num  Month of procedure 23
+MA  2020 CORE              629 PRMONTH24                       3123 3124   Num  Month of procedure 24
+MA  2020 CORE              630 PRMONTH25                       3125 3126   Num  Month of procedure 25
+MA  2020 CORE              631 PRMONTH26                       3127 3128   Num  Month of procedure 26
+MA  2020 CORE              632 PRMONTH27                       3129 3130   Num  Month of procedure 27
+MA  2020 CORE              633 PRMONTH28                       3131 3132   Num  Month of procedure 28
+MA  2020 CORE              634 PRMONTH29                       3133 3134   Num  Month of procedure 29
+MA  2020 CORE              635 PRMONTH30                       3135 3136   Num  Month of procedure 30
+MA  2020 CORE              636 PRMONTH31                       3137 3138   Num  Month of procedure 31
+MA  2020 CORE              637 PRMONTH32                       3139 3140   Num  Month of procedure 32
+MA  2020 CORE              638 PRMONTH33                       3141 3142   Num  Month of procedure 33
+MA  2020 CORE              639 PRMONTH34                       3143 3144   Num  Month of procedure 34
+MA  2020 CORE              640 PRMONTH35                       3145 3146   Num  Month of procedure 35
+MA  2020 CORE              641 PRMONTH36                       3147 3148   Num  Month of procedure 36
+MA  2020 CORE              642 PRMONTH37                       3149 3150   Num  Month of procedure 37
+MA  2020 CORE              643 PRMONTH38                       3151 3152   Num  Month of procedure 38
+MA  2020 CORE              644 PRMONTH39                       3153 3154   Num  Month of procedure 39
+MA  2020 CORE              645 PRMONTH40                       3155 3156   Num  Month of procedure 40
+MA  2020 CORE              646 PRMONTH41                       3157 3158   Num  Month of procedure 41
+MA  2020 CORE              647 PRMONTH42                       3159 3160   Num  Month of procedure 42
+MA  2020 CORE              648 PRMONTH43                       3161 3162   Num  Month of procedure 43
+MA  2020 CORE              649 PRMONTH44                       3163 3164   Num  Month of procedure 44
+MA  2020 CORE              650 PRMONTH45                       3165 3166   Num  Month of procedure 45
+MA  2020 CORE              651 PRMONTH46                       3167 3168   Num  Month of procedure 46
+MA  2020 CORE              652 PRMONTH47                       3169 3170   Num  Month of procedure 47
+MA  2020 CORE              653 PRMONTH48                       3171 3172   Num  Month of procedure 48
+MA  2020 CORE              654 PRMONTH49                       3173 3174   Num  Month of procedure 49
+MA  2020 CORE              655 PRMONTH50                       3175 3176   Num  Month of procedure 50
+MA  2020 CORE              656 PRMONTH51                       3177 3178   Num  Month of procedure 51
+MA  2020 CORE              657 PRMONTH52                       3179 3180   Num  Month of procedure 52
+MA  2020 CORE              658 PRMONTH53                       3181 3182   Num  Month of procedure 53
+MA  2020 CORE              659 PRMONTH54                       3183 3184   Num  Month of procedure 54
+MA  2020 CORE              660 PRMONTH55                       3185 3186   Num  Month of procedure 55
+MA  2020 CORE              661 PRMONTH56                       3187 3188   Num  Month of procedure 56
+MA  2020 CORE              662 PRMONTH57                       3189 3190   Num  Month of procedure 57
+MA  2020 CORE              663 PRMONTH58                       3191 3192   Num  Month of procedure 58
+MA  2020 CORE              664 PRMONTH59                       3193 3194   Num  Month of procedure 59
+MA  2020 CORE              665 PRMONTH60                       3195 3196   Num  Month of procedure 60
+MA  2020 CORE              666 PRMONTH61                       3197 3198   Num  Month of procedure 61
+MA  2020 CORE              667 PRMONTH62                       3199 3200   Num  Month of procedure 62
+MA  2020 CORE              668 PRMONTH63                       3201 3202   Num  Month of procedure 63
+MA  2020 CORE              669 PRMONTH64                       3203 3204   Num  Month of procedure 64
+MA  2020 CORE              670 PRMONTH65                       3205 3206   Num  Month of procedure 65
+MA  2020 CORE              671 PRMONTH66                       3207 3208   Num  Month of procedure 66
+MA  2020 CORE              672 PRMONTH67                       3209 3210   Num  Month of procedure 67
+MA  2020 CORE              673 PRMONTH68                       3211 3212   Num  Month of procedure 68
+MA  2020 CORE              674 PRMONTH69                       3213 3214   Num  Month of procedure 69
+MA  2020 CORE              675 PRMONTH70                       3215 3216   Num  Month of procedure 70
+MA  2020 CORE              676 PRMONTH71                       3217 3218   Num  Month of procedure 71
+MA  2020 CORE              677 PRMONTH72                       3219 3220   Num  Month of procedure 72
+MA  2020 CORE              678 PRMONTH73                       3221 3222   Num  Month of procedure 73
+MA  2020 CORE              679 PRMONTH74                       3223 3224   Num  Month of procedure 74
+MA  2020 CORE              680 PRMONTH75                       3225 3226   Num  Month of procedure 75
+MA  2020 CORE              681 PRMONTH76                       3227 3228   Num  Month of procedure 76
+MA  2020 CORE              682 PRMONTH77                       3229 3230   Num  Month of procedure 77
+MA  2020 CORE              683 PRMONTH78                       3231 3232   Num  Month of procedure 78
+MA  2020 CORE              684 PRMONTH79                       3233 3234   Num  Month of procedure 79
+MA  2020 CORE              685 PRMONTH80                       3235 3236   Num  Month of procedure 80
+MA  2020 CORE              686 PRMONTH81                       3237 3238   Num  Month of procedure 81
+MA  2020 CORE              687 PRMONTH82                       3239 3240   Num  Month of procedure 82
+MA  2020 CORE              688 PRMONTH83                       3241 3242   Num  Month of procedure 83
+MA  2020 CORE              689 PRMONTH84                       3243 3244   Num  Month of procedure 84
+MA  2020 CORE              690 PRMONTH85                       3245 3246   Num  Month of procedure 85
+MA  2020 CORE              691 PRMONTH86                       3247 3248   Num  Month of procedure 86
+MA  2020 CORE              692 PRMONTH87                       3249 3250   Num  Month of procedure 87
+MA  2020 CORE              693 PRMONTH88                       3251 3252   Num  Month of procedure 88
+MA  2020 CORE              694 PRMONTH89                       3253 3254   Num  Month of procedure 89
+MA  2020 CORE              695 PRMONTH90                       3255 3256   Num  Month of procedure 90
+MA  2020 CORE              696 PRMONTH91                       3257 3258   Num  Month of procedure 91
+MA  2020 CORE              697 PRMONTH92                       3259 3260   Num  Month of procedure 92
+MA  2020 CORE              698 PRMONTH93                       3261 3262   Num  Month of procedure 93
+MA  2020 CORE              699 PRMONTH94                       3263 3264   Num  Month of procedure 94
+MA  2020 CORE              700 PRMONTH95                       3265 3266   Num  Month of procedure 95
+MA  2020 CORE              701 PRMONTH96                       3267 3268   Num  Month of procedure 96
+MA  2020 CORE              702 PRMONTH97                       3269 3270   Num  Month of procedure 97
+MA  2020 CORE              703 PRMONTH98                       3271 3272   Num  Month of procedure 98
+MA  2020 CORE              704 PRMONTH99                       3273 3274   Num  Month of procedure 99
+MA  2020 CORE              705 PRMONTH100                      3275 3276   Num  Month of procedure 100
+MA  2020 CORE              706 PRMONTH101                      3277 3278   Num  Month of procedure 101
+MA  2020 CORE              707 PRMONTH102                      3279 3280   Num  Month of procedure 102
+MA  2020 CORE              708 PRMONTH103                      3281 3282   Num  Month of procedure 103
+MA  2020 CORE              709 PRMONTH104                      3283 3284   Num  Month of procedure 104
+MA  2020 CORE              710 PRMONTH105                      3285 3286   Num  Month of procedure 105
+MA  2020 CORE              711 PRMONTH106                      3287 3288   Num  Month of procedure 106
+MA  2020 CORE              712 PRMONTH107                      3289 3290   Num  Month of procedure 107
+MA  2020 CORE              713 PRMONTH108                      3291 3292   Num  Month of procedure 108
+MA  2020 CORE              714 PRMONTH109                      3293 3294   Num  Month of procedure 109
+MA  2020 CORE              715 PRMONTH110                      3295 3296   Num  Month of procedure 110
+MA  2020 CORE              716 PRMONTH111                      3297 3298   Num  Month of procedure 111
+MA  2020 CORE              717 PRMONTH112                      3299 3300   Num  Month of procedure 112
+MA  2020 CORE              718 PRMONTH113                      3301 3302   Num  Month of procedure 113
+MA  2020 CORE              719 PRMONTH114                      3303 3304   Num  Month of procedure 114
+MA  2020 CORE              720 PRMONTH115                      3305 3306   Num  Month of procedure 115
+MA  2020 CORE              721 PRMONTH116                      3307 3308   Num  Month of procedure 116
+MA  2020 CORE              722 PRMONTH117                      3309 3310   Num  Month of procedure 117
+MA  2020 CORE              723 PRMONTH118                      3311 3312   Num  Month of procedure 118
+MA  2020 CORE              724 PRMONTH119                      3313 3314   Num  Month of procedure 119
+MA  2020 CORE              725 PRMONTH120                      3315 3316   Num  Month of procedure 120
+MA  2020 CORE              726 PRMONTH121                      3317 3318   Num  Month of procedure 121
+MA  2020 CORE              727 PRMONTH122                      3319 3320   Num  Month of procedure 122
+MA  2020 CORE              728 PRMONTH123                      3321 3322   Num  Month of procedure 123
+MA  2020 CORE              729 PRMONTH124                      3323 3324   Num  Month of procedure 124
+MA  2020 CORE              730 PRMONTH125                      3325 3326   Num  Month of procedure 125
+MA  2020 CORE              731 PRMONTH126                      3327 3328   Num  Month of procedure 126
+MA  2020 CORE              732 PRMONTH127                      3329 3330   Num  Month of procedure 127
+MA  2020 CORE              733 PRMONTH128                      3331 3332   Num  Month of procedure 128
+MA  2020 CORE              734 PRMONTH129                      3333 3334   Num  Month of procedure 129
+MA  2020 CORE              735 PRMONTH130                      3335 3336   Num  Month of procedure 130
+MA  2020 CORE              736 PRMONTH131                      3337 3338   Num  Month of procedure 131
+MA  2020 CORE              737 PRMONTH132                      3339 3340   Num  Month of procedure 132
+MA  2020 CORE              738 PRMONTH133                      3341 3342   Num  Month of procedure 133
+MA  2020 CORE              739 PRMONTH134                      3343 3344   Num  Month of procedure 134
+MA  2020 CORE              740 PRMONTH135                      3345 3346   Num  Month of procedure 135
+MA  2020 CORE              741 PRMONTH136                      3347 3348   Num  Month of procedure 136
+MA  2020 CORE              742 PRMONTH137                      3349 3350   Num  Month of procedure 137
+MA  2020 CORE              743 PRMONTH138                      3351 3352   Num  Month of procedure 138
+MA  2020 CORE              744 PRMONTH139                      3353 3354   Num  Month of procedure 139
+MA  2020 CORE              745 PRMONTH140                      3355 3356   Num  Month of procedure 140
+MA  2020 CORE              746 PRMONTH141                      3357 3358   Num  Month of procedure 141
+MA  2020 CORE              747 PRMONTH142                      3359 3360   Num  Month of procedure 142
+MA  2020 CORE              748 PRMONTH143                      3361 3362   Num  Month of procedure 143
+MA  2020 CORE              749 PRMONTH144                      3363 3364   Num  Month of procedure 144
+MA  2020 CORE              750 PRMONTH145                      3365 3366   Num  Month of procedure 145
+MA  2020 CORE              751 PRMONTH146                      3367 3368   Num  Month of procedure 146
+MA  2020 CORE              752 PRMONTH147                      3369 3370   Num  Month of procedure 147
+MA  2020 CORE              753 PRMONTH148                      3371 3372   Num  Month of procedure 148
+MA  2020 CORE              754 PRMONTH149                      3373 3374   Num  Month of procedure 149
+MA  2020 CORE              755 PRMONTH150                      3375 3376   Num  Month of procedure 150
+MA  2020 CORE              756 PRMONTH151                      3377 3378   Num  Month of procedure 151
+MA  2020 CORE              757 PRMONTH152                      3379 3380   Num  Month of procedure 152
+MA  2020 CORE              758 PRMONTH153                      3381 3382   Num  Month of procedure 153
+MA  2020 CORE              759 PRMONTH154                      3383 3384   Num  Month of procedure 154
+MA  2020 CORE              760 PRMONTH155                      3385 3386   Num  Month of procedure 155
+MA  2020 CORE              761 PRMONTH156                      3387 3388   Num  Month of procedure 156
+MA  2020 CORE              762 PRMONTH157                      3389 3390   Num  Month of procedure 157
+MA  2020 CORE              763 PRMONTH158                      3391 3392   Num  Month of procedure 158
+MA  2020 CORE              764 PRMONTH159                      3393 3394   Num  Month of procedure 159
+MA  2020 CORE              765 PRMONTH160                      3395 3396   Num  Month of procedure 160
+MA  2020 CORE              766 PRMONTH161                      3397 3398   Num  Month of procedure 161
+MA  2020 CORE              767 PRMONTH162                      3399 3400   Num  Month of procedure 162
+MA  2020 CORE              768 PRMONTH163                      3401 3402   Num  Month of procedure 163
+MA  2020 CORE              769 PRMONTH164                      3403 3404   Num  Month of procedure 164
+MA  2020 CORE              770 PRMONTH165                      3405 3406   Num  Month of procedure 165
+MA  2020 CORE              771 PRMONTH166                      3407 3408   Num  Month of procedure 166
+MA  2020 CORE              772 PRMONTH167                      3409 3410   Num  Month of procedure 167
+MA  2020 CORE              773 PRMONTH168                      3411 3412   Num  Month of procedure 168
+MA  2020 CORE              774 PRYEAR1                         3413 3416   Num  Year of procedure 1
+MA  2020 CORE              775 PRYEAR2                         3417 3420   Num  Year of procedure 2
+MA  2020 CORE              776 PRYEAR3                         3421 3424   Num  Year of procedure 3
+MA  2020 CORE              777 PRYEAR4                         3425 3428   Num  Year of procedure 4
+MA  2020 CORE              778 PRYEAR5                         3429 3432   Num  Year of procedure 5
+MA  2020 CORE              779 PRYEAR6                         3433 3436   Num  Year of procedure 6
+MA  2020 CORE              780 PRYEAR7                         3437 3440   Num  Year of procedure 7
+MA  2020 CORE              781 PRYEAR8                         3441 3444   Num  Year of procedure 8
+MA  2020 CORE              782 PRYEAR9                         3445 3448   Num  Year of procedure 9
+MA  2020 CORE              783 PRYEAR10                        3449 3452   Num  Year of procedure 10
+MA  2020 CORE              784 PRYEAR11                        3453 3456   Num  Year of procedure 11
+MA  2020 CORE              785 PRYEAR12                        3457 3460   Num  Year of procedure 12
+MA  2020 CORE              786 PRYEAR13                        3461 3464   Num  Year of procedure 13
+MA  2020 CORE              787 PRYEAR14                        3465 3468   Num  Year of procedure 14
+MA  2020 CORE              788 PRYEAR15                        3469 3472   Num  Year of procedure 15
+MA  2020 CORE              789 PRYEAR16                        3473 3476   Num  Year of procedure 16
+MA  2020 CORE              790 PRYEAR17                        3477 3480   Num  Year of procedure 17
+MA  2020 CORE              791 PRYEAR18                        3481 3484   Num  Year of procedure 18
+MA  2020 CORE              792 PRYEAR19                        3485 3488   Num  Year of procedure 19
+MA  2020 CORE              793 PRYEAR20                        3489 3492   Num  Year of procedure 20
+MA  2020 CORE              794 PRYEAR21                        3493 3496   Num  Year of procedure 21
+MA  2020 CORE              795 PRYEAR22                        3497 3500   Num  Year of procedure 22
+MA  2020 CORE              796 PRYEAR23                        3501 3504   Num  Year of procedure 23
+MA  2020 CORE              797 PRYEAR24                        3505 3508   Num  Year of procedure 24
+MA  2020 CORE              798 PRYEAR25                        3509 3512   Num  Year of procedure 25
+MA  2020 CORE              799 PRYEAR26                        3513 3516   Num  Year of procedure 26
+MA  2020 CORE              800 PRYEAR27                        3517 3520   Num  Year of procedure 27
+MA  2020 CORE              801 PRYEAR28                        3521 3524   Num  Year of procedure 28
+MA  2020 CORE              802 PRYEAR29                        3525 3528   Num  Year of procedure 29
+MA  2020 CORE              803 PRYEAR30                        3529 3532   Num  Year of procedure 30
+MA  2020 CORE              804 PRYEAR31                        3533 3536   Num  Year of procedure 31
+MA  2020 CORE              805 PRYEAR32                        3537 3540   Num  Year of procedure 32
+MA  2020 CORE              806 PRYEAR33                        3541 3544   Num  Year of procedure 33
+MA  2020 CORE              807 PRYEAR34                        3545 3548   Num  Year of procedure 34
+MA  2020 CORE              808 PRYEAR35                        3549 3552   Num  Year of procedure 35
+MA  2020 CORE              809 PRYEAR36                        3553 3556   Num  Year of procedure 36
+MA  2020 CORE              810 PRYEAR37                        3557 3560   Num  Year of procedure 37
+MA  2020 CORE              811 PRYEAR38                        3561 3564   Num  Year of procedure 38
+MA  2020 CORE              812 PRYEAR39                        3565 3568   Num  Year of procedure 39
+MA  2020 CORE              813 PRYEAR40                        3569 3572   Num  Year of procedure 40
+MA  2020 CORE              814 PRYEAR41                        3573 3576   Num  Year of procedure 41
+MA  2020 CORE              815 PRYEAR42                        3577 3580   Num  Year of procedure 42
+MA  2020 CORE              816 PRYEAR43                        3581 3584   Num  Year of procedure 43
+MA  2020 CORE              817 PRYEAR44                        3585 3588   Num  Year of procedure 44
+MA  2020 CORE              818 PRYEAR45                        3589 3592   Num  Year of procedure 45
+MA  2020 CORE              819 PRYEAR46                        3593 3596   Num  Year of procedure 46
+MA  2020 CORE              820 PRYEAR47                        3597 3600   Num  Year of procedure 47
+MA  2020 CORE              821 PRYEAR48                        3601 3604   Num  Year of procedure 48
+MA  2020 CORE              822 PRYEAR49                        3605 3608   Num  Year of procedure 49
+MA  2020 CORE              823 PRYEAR50                        3609 3612   Num  Year of procedure 50
+MA  2020 CORE              824 PRYEAR51                        3613 3616   Num  Year of procedure 51
+MA  2020 CORE              825 PRYEAR52                        3617 3620   Num  Year of procedure 52
+MA  2020 CORE              826 PRYEAR53                        3621 3624   Num  Year of procedure 53
+MA  2020 CORE              827 PRYEAR54                        3625 3628   Num  Year of procedure 54
+MA  2020 CORE              828 PRYEAR55                        3629 3632   Num  Year of procedure 55
+MA  2020 CORE              829 PRYEAR56                        3633 3636   Num  Year of procedure 56
+MA  2020 CORE              830 PRYEAR57                        3637 3640   Num  Year of procedure 57
+MA  2020 CORE              831 PRYEAR58                        3641 3644   Num  Year of procedure 58
+MA  2020 CORE              832 PRYEAR59                        3645 3648   Num  Year of procedure 59
+MA  2020 CORE              833 PRYEAR60                        3649 3652   Num  Year of procedure 60
+MA  2020 CORE              834 PRYEAR61                        3653 3656   Num  Year of procedure 61
+MA  2020 CORE              835 PRYEAR62                        3657 3660   Num  Year of procedure 62
+MA  2020 CORE              836 PRYEAR63                        3661 3664   Num  Year of procedure 63
+MA  2020 CORE              837 PRYEAR64                        3665 3668   Num  Year of procedure 64
+MA  2020 CORE              838 PRYEAR65                        3669 3672   Num  Year of procedure 65
+MA  2020 CORE              839 PRYEAR66                        3673 3676   Num  Year of procedure 66
+MA  2020 CORE              840 PRYEAR67                        3677 3680   Num  Year of procedure 67
+MA  2020 CORE              841 PRYEAR68                        3681 3684   Num  Year of procedure 68
+MA  2020 CORE              842 PRYEAR69                        3685 3688   Num  Year of procedure 69
+MA  2020 CORE              843 PRYEAR70                        3689 3692   Num  Year of procedure 70
+MA  2020 CORE              844 PRYEAR71                        3693 3696   Num  Year of procedure 71
+MA  2020 CORE              845 PRYEAR72                        3697 3700   Num  Year of procedure 72
+MA  2020 CORE              846 PRYEAR73                        3701 3704   Num  Year of procedure 73
+MA  2020 CORE              847 PRYEAR74                        3705 3708   Num  Year of procedure 74
+MA  2020 CORE              848 PRYEAR75                        3709 3712   Num  Year of procedure 75
+MA  2020 CORE              849 PRYEAR76                        3713 3716   Num  Year of procedure 76
+MA  2020 CORE              850 PRYEAR77                        3717 3720   Num  Year of procedure 77
+MA  2020 CORE              851 PRYEAR78                        3721 3724   Num  Year of procedure 78
+MA  2020 CORE              852 PRYEAR79                        3725 3728   Num  Year of procedure 79
+MA  2020 CORE              853 PRYEAR80                        3729 3732   Num  Year of procedure 80
+MA  2020 CORE              854 PRYEAR81                        3733 3736   Num  Year of procedure 81
+MA  2020 CORE              855 PRYEAR82                        3737 3740   Num  Year of procedure 82
+MA  2020 CORE              856 PRYEAR83                        3741 3744   Num  Year of procedure 83
+MA  2020 CORE              857 PRYEAR84                        3745 3748   Num  Year of procedure 84
+MA  2020 CORE              858 PRYEAR85                        3749 3752   Num  Year of procedure 85
+MA  2020 CORE              859 PRYEAR86                        3753 3756   Num  Year of procedure 86
+MA  2020 CORE              860 PRYEAR87                        3757 3760   Num  Year of procedure 87
+MA  2020 CORE              861 PRYEAR88                        3761 3764   Num  Year of procedure 88
+MA  2020 CORE              862 PRYEAR89                        3765 3768   Num  Year of procedure 89
+MA  2020 CORE              863 PRYEAR90                        3769 3772   Num  Year of procedure 90
+MA  2020 CORE              864 PRYEAR91                        3773 3776   Num  Year of procedure 91
+MA  2020 CORE              865 PRYEAR92                        3777 3780   Num  Year of procedure 92
+MA  2020 CORE              866 PRYEAR93                        3781 3784   Num  Year of procedure 93
+MA  2020 CORE              867 PRYEAR94                        3785 3788   Num  Year of procedure 94
+MA  2020 CORE              868 PRYEAR95                        3789 3792   Num  Year of procedure 95
+MA  2020 CORE              869 PRYEAR96                        3793 3796   Num  Year of procedure 96
+MA  2020 CORE              870 PRYEAR97                        3797 3800   Num  Year of procedure 97
+MA  2020 CORE              871 PRYEAR98                        3801 3804   Num  Year of procedure 98
+MA  2020 CORE              872 PRYEAR99                        3805 3808   Num  Year of procedure 99
+MA  2020 CORE              873 PRYEAR100                       3809 3812   Num  Year of procedure 100
+MA  2020 CORE              874 PRYEAR101                       3813 3816   Num  Year of procedure 101
+MA  2020 CORE              875 PRYEAR102                       3817 3820   Num  Year of procedure 102
+MA  2020 CORE              876 PRYEAR103                       3821 3824   Num  Year of procedure 103
+MA  2020 CORE              877 PRYEAR104                       3825 3828   Num  Year of procedure 104
+MA  2020 CORE              878 PRYEAR105                       3829 3832   Num  Year of procedure 105
+MA  2020 CORE              879 PRYEAR106                       3833 3836   Num  Year of procedure 106
+MA  2020 CORE              880 PRYEAR107                       3837 3840   Num  Year of procedure 107
+MA  2020 CORE              881 PRYEAR108                       3841 3844   Num  Year of procedure 108
+MA  2020 CORE              882 PRYEAR109                       3845 3848   Num  Year of procedure 109
+MA  2020 CORE              883 PRYEAR110                       3849 3852   Num  Year of procedure 110
+MA  2020 CORE              884 PRYEAR111                       3853 3856   Num  Year of procedure 111
+MA  2020 CORE              885 PRYEAR112                       3857 3860   Num  Year of procedure 112
+MA  2020 CORE              886 PRYEAR113                       3861 3864   Num  Year of procedure 113
+MA  2020 CORE              887 PRYEAR114                       3865 3868   Num  Year of procedure 114
+MA  2020 CORE              888 PRYEAR115                       3869 3872   Num  Year of procedure 115
+MA  2020 CORE              889 PRYEAR116                       3873 3876   Num  Year of procedure 116
+MA  2020 CORE              890 PRYEAR117                       3877 3880   Num  Year of procedure 117
+MA  2020 CORE              891 PRYEAR118                       3881 3884   Num  Year of procedure 118
+MA  2020 CORE              892 PRYEAR119                       3885 3888   Num  Year of procedure 119
+MA  2020 CORE              893 PRYEAR120                       3889 3892   Num  Year of procedure 120
+MA  2020 CORE              894 PRYEAR121                       3893 3896   Num  Year of procedure 121
+MA  2020 CORE              895 PRYEAR122                       3897 3900   Num  Year of procedure 122
+MA  2020 CORE              896 PRYEAR123                       3901 3904   Num  Year of procedure 123
+MA  2020 CORE              897 PRYEAR124                       3905 3908   Num  Year of procedure 124
+MA  2020 CORE              898 PRYEAR125                       3909 3912   Num  Year of procedure 125
+MA  2020 CORE              899 PRYEAR126                       3913 3916   Num  Year of procedure 126
+MA  2020 CORE              900 PRYEAR127                       3917 3920   Num  Year of procedure 127
+MA  2020 CORE              901 PRYEAR128                       3921 3924   Num  Year of procedure 128
+MA  2020 CORE              902 PRYEAR129                       3925 3928   Num  Year of procedure 129
+MA  2020 CORE              903 PRYEAR130                       3929 3932   Num  Year of procedure 130
+MA  2020 CORE              904 PRYEAR131                       3933 3936   Num  Year of procedure 131
+MA  2020 CORE              905 PRYEAR132                       3937 3940   Num  Year of procedure 132
+MA  2020 CORE              906 PRYEAR133                       3941 3944   Num  Year of procedure 133
+MA  2020 CORE              907 PRYEAR134                       3945 3948   Num  Year of procedure 134
+MA  2020 CORE              908 PRYEAR135                       3949 3952   Num  Year of procedure 135
+MA  2020 CORE              909 PRYEAR136                       3953 3956   Num  Year of procedure 136
+MA  2020 CORE              910 PRYEAR137                       3957 3960   Num  Year of procedure 137
+MA  2020 CORE              911 PRYEAR138                       3961 3964   Num  Year of procedure 138
+MA  2020 CORE              912 PRYEAR139                       3965 3968   Num  Year of procedure 139
+MA  2020 CORE              913 PRYEAR140                       3969 3972   Num  Year of procedure 140
+MA  2020 CORE              914 PRYEAR141                       3973 3976   Num  Year of procedure 141
+MA  2020 CORE              915 PRYEAR142                       3977 3980   Num  Year of procedure 142
+MA  2020 CORE              916 PRYEAR143                       3981 3984   Num  Year of procedure 143
+MA  2020 CORE              917 PRYEAR144                       3985 3988   Num  Year of procedure 144
+MA  2020 CORE              918 PRYEAR145                       3989 3992   Num  Year of procedure 145
+MA  2020 CORE              919 PRYEAR146                       3993 3996   Num  Year of procedure 146
+MA  2020 CORE              920 PRYEAR147                       3997 4000   Num  Year of procedure 147
+MA  2020 CORE              921 PRYEAR148                       4001 4004   Num  Year of procedure 148
+MA  2020 CORE              922 PRYEAR149                       4005 4008   Num  Year of procedure 149
+MA  2020 CORE              923 PRYEAR150                       4009 4012   Num  Year of procedure 150
+MA  2020 CORE              924 PRYEAR151                       4013 4016   Num  Year of procedure 151
+MA  2020 CORE              925 PRYEAR152                       4017 4020   Num  Year of procedure 152
+MA  2020 CORE              926 PRYEAR153                       4021 4024   Num  Year of procedure 153
+MA  2020 CORE              927 PRYEAR154                       4025 4028   Num  Year of procedure 154
+MA  2020 CORE              928 PRYEAR155                       4029 4032   Num  Year of procedure 155
+MA  2020 CORE              929 PRYEAR156                       4033 4036   Num  Year of procedure 156
+MA  2020 CORE              930 PRYEAR157                       4037 4040   Num  Year of procedure 157
+MA  2020 CORE              931 PRYEAR158                       4041 4044   Num  Year of procedure 158
+MA  2020 CORE              932 PRYEAR159                       4045 4048   Num  Year of procedure 159
+MA  2020 CORE              933 PRYEAR160                       4049 4052   Num  Year of procedure 160
+MA  2020 CORE              934 PRYEAR161                       4053 4056   Num  Year of procedure 161
+MA  2020 CORE              935 PRYEAR162                       4057 4060   Num  Year of procedure 162
+MA  2020 CORE              936 PRYEAR163                       4061 4064   Num  Year of procedure 163
+MA  2020 CORE              937 PRYEAR164                       4065 4068   Num  Year of procedure 164
+MA  2020 CORE              938 PRYEAR165                       4069 4072   Num  Year of procedure 165
+MA  2020 CORE              939 PRYEAR166                       4073 4076   Num  Year of procedure 166
+MA  2020 CORE              940 PRYEAR167                       4077 4080   Num  Year of procedure 167
+MA  2020 CORE              941 PRYEAR168                       4081 4084   Num  Year of procedure 168

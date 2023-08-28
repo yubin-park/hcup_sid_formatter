@@ -1,0 +1,224 @@
+Data Set Name: NC_SIDC_2011_CORE               
+Number of Observations: 1111961
+Total Record Length: 801
+Total Number of Variables: 204
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 56    Variable name
+58- 61    Starting column of variable in ASCII file
+63- 66    Ending column of variable in ASCII file
+    68    Non-zero number of digits after decimal point for numeric variable
+70- 73    Variable type (Num=numeric; Char=character)
+75-174    Variable label
+
+
+NC  2011 CORE               1 AGE                           1    3   Num  Age in years at admission
+NC  2011 CORE               2 AGEDAY                        4    6   Num  Age in days (when age < 1 year)
+NC  2011 CORE               3 AGEMONTH                      7    9   Num  Age in months (when age < 11 years)
+NC  2011 CORE               4 AMONTH                       10   11   Num  Admission month
+NC  2011 CORE               5 ATYPE                        12   13   Num  Admission type
+NC  2011 CORE               6 AWEEKEND                     14   15   Num  Admission day is a weekend
+NC  2011 CORE               7 BWT                          16   19   Num  Birth weight in grams
+NC  2011 CORE               8 DIED                         20   21   Num  Died during hospitalization
+NC  2011 CORE               9 DISPUB04                     22   23   Num  Disposition of patient (UB-04 standard coding)
+NC  2011 CORE              10 DISPUNIFORM                  24   25   Num  Disposition of patient (uniform)
+NC  2011 CORE              11 DISP_X                       26   31   Char Disposition of patient (as received from source)
+NC  2011 CORE              12 DQTR                         32   33   Num  Discharge quarter
+NC  2011 CORE              13 DRG                          34   36   Num  DRG in effect on discharge date
+NC  2011 CORE              14 DRG24                        37   39   Num  DRG, version 24
+NC  2011 CORE              15 DRGVER                       40   41   Num  DRG grouper version used on discharge date
+NC  2011 CORE              16 DRG_NoPOA                    42   44   Num  DRG in use on discharge date, calculated without POA
+NC  2011 CORE              17 DSHOSPID                     45   61   Char Data source hospital identifier
+NC  2011 CORE              18 DX1                          62   66   Char Diagnosis 1
+NC  2011 CORE              19 DX2                          67   71   Char Diagnosis 2
+NC  2011 CORE              20 DX3                          72   76   Char Diagnosis 3
+NC  2011 CORE              21 DX4                          77   81   Char Diagnosis 4
+NC  2011 CORE              22 DX5                          82   86   Char Diagnosis 5
+NC  2011 CORE              23 DX6                          87   91   Char Diagnosis 6
+NC  2011 CORE              24 DX7                          92   96   Char Diagnosis 7
+NC  2011 CORE              25 DX8                          97  101   Char Diagnosis 8
+NC  2011 CORE              26 DX9                         102  106   Char Diagnosis 9
+NC  2011 CORE              27 DX10                        107  111   Char Diagnosis 10
+NC  2011 CORE              28 DX11                        112  116   Char Diagnosis 11
+NC  2011 CORE              29 DX12                        117  121   Char Diagnosis 12
+NC  2011 CORE              30 DX13                        122  126   Char Diagnosis 13
+NC  2011 CORE              31 DX14                        127  131   Char Diagnosis 14
+NC  2011 CORE              32 DX15                        132  136   Char Diagnosis 15
+NC  2011 CORE              33 DX16                        137  141   Char Diagnosis 16
+NC  2011 CORE              34 DX17                        142  146   Char Diagnosis 17
+NC  2011 CORE              35 DX18                        147  151   Char Diagnosis 18
+NC  2011 CORE              36 DX19                        152  156   Char Diagnosis 19
+NC  2011 CORE              37 DX20                        157  161   Char Diagnosis 20
+NC  2011 CORE              38 DX21                        162  166   Char Diagnosis 21
+NC  2011 CORE              39 DX22                        167  171   Char Diagnosis 22
+NC  2011 CORE              40 DX23                        172  176   Char Diagnosis 23
+NC  2011 CORE              41 DX24                        177  181   Char Diagnosis 24
+NC  2011 CORE              42 DX25                        182  186   Char Diagnosis 25
+NC  2011 CORE              43 DXCCS1                      187  190   Num  CCS: diagnosis 1
+NC  2011 CORE              44 DXCCS2                      191  194   Num  CCS: diagnosis 2
+NC  2011 CORE              45 DXCCS3                      195  198   Num  CCS: diagnosis 3
+NC  2011 CORE              46 DXCCS4                      199  202   Num  CCS: diagnosis 4
+NC  2011 CORE              47 DXCCS5                      203  206   Num  CCS: diagnosis 5
+NC  2011 CORE              48 DXCCS6                      207  210   Num  CCS: diagnosis 6
+NC  2011 CORE              49 DXCCS7                      211  214   Num  CCS: diagnosis 7
+NC  2011 CORE              50 DXCCS8                      215  218   Num  CCS: diagnosis 8
+NC  2011 CORE              51 DXCCS9                      219  222   Num  CCS: diagnosis 9
+NC  2011 CORE              52 DXCCS10                     223  226   Num  CCS: diagnosis 10
+NC  2011 CORE              53 DXCCS11                     227  230   Num  CCS: diagnosis 11
+NC  2011 CORE              54 DXCCS12                     231  234   Num  CCS: diagnosis 12
+NC  2011 CORE              55 DXCCS13                     235  238   Num  CCS: diagnosis 13
+NC  2011 CORE              56 DXCCS14                     239  242   Num  CCS: diagnosis 14
+NC  2011 CORE              57 DXCCS15                     243  246   Num  CCS: diagnosis 15
+NC  2011 CORE              58 DXCCS16                     247  250   Num  CCS: diagnosis 16
+NC  2011 CORE              59 DXCCS17                     251  254   Num  CCS: diagnosis 17
+NC  2011 CORE              60 DXCCS18                     255  258   Num  CCS: diagnosis 18
+NC  2011 CORE              61 DXCCS19                     259  262   Num  CCS: diagnosis 19
+NC  2011 CORE              62 DXCCS20                     263  266   Num  CCS: diagnosis 20
+NC  2011 CORE              63 DXCCS21                     267  270   Num  CCS: diagnosis 21
+NC  2011 CORE              64 DXCCS22                     271  274   Num  CCS: diagnosis 22
+NC  2011 CORE              65 DXCCS23                     275  278   Num  CCS: diagnosis 23
+NC  2011 CORE              66 DXCCS24                     279  282   Num  CCS: diagnosis 24
+NC  2011 CORE              67 DXCCS25                     283  286   Num  CCS: diagnosis 25
+NC  2011 CORE              68 ECODE1                      287  291   Char E code 1
+NC  2011 CORE              69 ECODE2                      292  296   Char E code 2
+NC  2011 CORE              70 ECODE3                      297  301   Char E code 3
+NC  2011 CORE              71 ECODE4                      302  306   Char E code 4
+NC  2011 CORE              72 ECODE5                      307  311   Char E code 5
+NC  2011 CORE              73 ECODE6                      312  316   Char E code 6
+NC  2011 CORE              74 ECODE7                      317  321   Char E code 7
+NC  2011 CORE              75 ECODE8                      322  326   Char E code 8
+NC  2011 CORE              76 ECODE9                      327  331   Char E code 9
+NC  2011 CORE              77 ECODE10                     332  336   Char E code 10
+NC  2011 CORE              78 E_CCS1                      337  340   Num  CCS: E Code 1
+NC  2011 CORE              79 E_CCS2                      341  344   Num  CCS: E Code 2
+NC  2011 CORE              80 E_CCS3                      345  348   Num  CCS: E Code 3
+NC  2011 CORE              81 E_CCS4                      349  352   Num  CCS: E Code 4
+NC  2011 CORE              82 E_CCS5                      353  356   Num  CCS: E Code 5
+NC  2011 CORE              83 E_CCS6                      357  360   Num  CCS: E Code 6
+NC  2011 CORE              84 E_CCS7                      361  364   Num  CCS: E Code 7
+NC  2011 CORE              85 E_CCS8                      365  368   Num  CCS: E Code 8
+NC  2011 CORE              86 E_CCS9                      369  372   Num  CCS: E Code 9
+NC  2011 CORE              87 E_CCS10                     373  376   Num  CCS: E Code 10
+NC  2011 CORE              88 FEMALE                      377  378   Num  Indicator of sex
+NC  2011 CORE              89 HCUP_ED                     379  380   Num  HCUP Emergency Department service indicator
+NC  2011 CORE              90 HCUP_OS                     381  382   Num  HCUP Observation Stay service indicator
+NC  2011 CORE              91 HCUP_SURGERY_BROAD          383  384   Num  Revised HCUP_AS (PCLASSn=3 or 4, or broad definition)
+NC  2011 CORE              92 HCUP_SURGERY_NARROW         385  386   Num  Revised HCUP_AS (PCLASSn=4, or narrow definition)
+NC  2011 CORE              93 HISPANIC_X                  387  388   Char Hispanic ethnicity (as received from source)
+NC  2011 CORE              94 HOSPBRTH                    389  391   Num  Indicator of birth in this hospital
+NC  2011 CORE              95 HOSPST                      392  393   Char Hospital state postal code
+NC  2011 CORE              96 KEY                         394  411   Num  HCUP record identifier
+NC  2011 CORE              97 LOS                         412  416   Num  Length of stay (cleaned)
+NC  2011 CORE              98 LOS_X                       417  422   Num  Length of stay (as received from source)
+NC  2011 CORE              99 MDC                         423  424   Num  MDC in effect on discharge date
+NC  2011 CORE             100 MDC24                       425  426   Num  MDC, version 24
+NC  2011 CORE             101 MDC_NoPOA                   427  428   Num  MDC in use on discharge date, calculated without POA
+NC  2011 CORE             102 MEDINCSTQ                   429  430   Num  Median household income state quartile for patient ZIP Code
+NC  2011 CORE             103 NCHRONIC                    431  433   Num  Number of chronic conditions
+NC  2011 CORE             104 NDX                         434  435   Num  Number of diagnoses on this record
+NC  2011 CORE             105 NECODE                      436  437   Num  Number of E codes on this record
+NC  2011 CORE             106 NEOMAT                      438  439   Num  Neonatal and/or maternal DX and/or PR
+NC  2011 CORE             107 NPR                         440  441   Num  Number of procedures on this record
+NC  2011 CORE             108 ORPROC                      442  443   Num  Major operating room procedure indicator
+NC  2011 CORE             109 OS_TIME                     444  451   Num  Observation stay time summed from UNITS
+NC  2011 CORE             110 PAY1                        452  453   Num  Primary expected payer (uniform)
+NC  2011 CORE             111 PAY1_X                      454  455   Char Primary expected payer (as received from source)
+NC  2011 CORE             112 PAY2                        456  457   Num  Secondary expected payer (uniform)
+NC  2011 CORE             113 PAY2_X                      458  459   Char Secondary expected payer (as received from source)
+NC  2011 CORE             114 PAY3                        460  461   Num  Tertiary expected payer (uniform)
+NC  2011 CORE             115 PAY3_X                      462  463   Char Tertiary expected payer (as received from source)
+NC  2011 CORE             116 PL_CBSA                     464  466   Num  Patient location: Core Based Statistical Area (CBSA)
+NC  2011 CORE             117 PL_MSA1993                  467  469   Num  Patient location: Metropolitan Statistical Area (MSA), 1993
+NC  2011 CORE             118 PL_NCHS2006                 470  471   Num  Patient Location: NCHS Urban-Rural Code (V2006)
+NC  2011 CORE             119 PL_RUCA10_2005              472  473   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, ten levels
+NC  2011 CORE             120 PL_RUCA2005                 474  477 1 Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes
+NC  2011 CORE             121 PL_RUCA4_2005               478  479   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, four levels
+NC  2011 CORE             122 PL_RUCC2003                 480  481   Num  Patient location: Rural-Urban Continuum Codes(RUCC), 2003
+NC  2011 CORE             123 PL_UIC2003                  482  483   Num  Patient location: Urban Influence Codes, 2003
+NC  2011 CORE             124 PL_UR_CAT4                  484  485   Num  Patient Location: Urban-Rural 4 Categories
+NC  2011 CORE             125 PR1                         486  489   Char Procedure 1
+NC  2011 CORE             126 PR2                         490  493   Char Procedure 2
+NC  2011 CORE             127 PR3                         494  497   Char Procedure 3
+NC  2011 CORE             128 PR4                         498  501   Char Procedure 4
+NC  2011 CORE             129 PR5                         502  505   Char Procedure 5
+NC  2011 CORE             130 PR6                         506  509   Char Procedure 6
+NC  2011 CORE             131 PR7                         510  513   Char Procedure 7
+NC  2011 CORE             132 PR8                         514  517   Char Procedure 8
+NC  2011 CORE             133 PR9                         518  521   Char Procedure 9
+NC  2011 CORE             134 PR10                        522  525   Char Procedure 10
+NC  2011 CORE             135 PR11                        526  529   Char Procedure 11
+NC  2011 CORE             136 PR12                        530  533   Char Procedure 12
+NC  2011 CORE             137 PR13                        534  537   Char Procedure 13
+NC  2011 CORE             138 PR14                        538  541   Char Procedure 14
+NC  2011 CORE             139 PR15                        542  545   Char Procedure 15
+NC  2011 CORE             140 PR16                        546  549   Char Procedure 16
+NC  2011 CORE             141 PR17                        550  553   Char Procedure 17
+NC  2011 CORE             142 PR18                        554  557   Char Procedure 18
+NC  2011 CORE             143 PR19                        558  561   Char Procedure 19
+NC  2011 CORE             144 PR20                        562  565   Char Procedure 20
+NC  2011 CORE             145 PRCCS1                      566  568   Num  CCS: procedure 1
+NC  2011 CORE             146 PRCCS2                      569  571   Num  CCS: procedure 2
+NC  2011 CORE             147 PRCCS3                      572  574   Num  CCS: procedure 3
+NC  2011 CORE             148 PRCCS4                      575  577   Num  CCS: procedure 4
+NC  2011 CORE             149 PRCCS5                      578  580   Num  CCS: procedure 5
+NC  2011 CORE             150 PRCCS6                      581  583   Num  CCS: procedure 6
+NC  2011 CORE             151 PRCCS7                      584  586   Num  CCS: procedure 7
+NC  2011 CORE             152 PRCCS8                      587  589   Num  CCS: procedure 8
+NC  2011 CORE             153 PRCCS9                      590  592   Num  CCS: procedure 9
+NC  2011 CORE             154 PRCCS10                     593  595   Num  CCS: procedure 10
+NC  2011 CORE             155 PRCCS11                     596  598   Num  CCS: procedure 11
+NC  2011 CORE             156 PRCCS12                     599  601   Num  CCS: procedure 12
+NC  2011 CORE             157 PRCCS13                     602  604   Num  CCS: procedure 13
+NC  2011 CORE             158 PRCCS14                     605  607   Num  CCS: procedure 14
+NC  2011 CORE             159 PRCCS15                     608  610   Num  CCS: procedure 15
+NC  2011 CORE             160 PRCCS16                     611  613   Num  CCS: procedure 16
+NC  2011 CORE             161 PRCCS17                     614  616   Num  CCS: procedure 17
+NC  2011 CORE             162 PRCCS18                     617  619   Num  CCS: procedure 18
+NC  2011 CORE             163 PRCCS19                     620  622   Num  CCS: procedure 19
+NC  2011 CORE             164 PRCCS20                     623  625   Num  CCS: procedure 20
+NC  2011 CORE             165 PRDAY1                      626  630   Num  Number of days from admission to PR1
+NC  2011 CORE             166 PRDAY2                      631  635   Num  Number of days from admission to PR2
+NC  2011 CORE             167 PRDAY3                      636  640   Num  Number of days from admission to PR3
+NC  2011 CORE             168 PRDAY4                      641  645   Num  Number of days from admission to PR4
+NC  2011 CORE             169 PRDAY5                      646  650   Num  Number of days from admission to PR5
+NC  2011 CORE             170 PRDAY6                      651  655   Num  Number of days from admission to PR6
+NC  2011 CORE             171 PRDAY7                      656  660   Num  Number of days from admission to PR7
+NC  2011 CORE             172 PRDAY8                      661  665   Num  Number of days from admission to PR8
+NC  2011 CORE             173 PRDAY9                      666  670   Num  Number of days from admission to PR9
+NC  2011 CORE             174 PRDAY10                     671  675   Num  Number of days from admission to PR10
+NC  2011 CORE             175 PRDAY11                     676  680   Num  Number of days from admission to PR11
+NC  2011 CORE             176 PRDAY12                     681  685   Num  Number of days from admission to PR12
+NC  2011 CORE             177 PRDAY13                     686  690   Num  Number of days from admission to PR13
+NC  2011 CORE             178 PRDAY14                     691  695   Num  Number of days from admission to PR14
+NC  2011 CORE             179 PRDAY15                     696  700   Num  Number of days from admission to PR15
+NC  2011 CORE             180 PRDAY16                     701  705   Num  Number of days from admission to PR16
+NC  2011 CORE             181 PRDAY17                     706  710   Num  Number of days from admission to PR17
+NC  2011 CORE             182 PRDAY18                     711  715   Num  Number of days from admission to PR18
+NC  2011 CORE             183 PRDAY19                     716  720   Num  Number of days from admission to PR19
+NC  2011 CORE             184 PRDAY20                     721  725   Num  Number of days from admission to PR20
+NC  2011 CORE             185 PROCTYPE                    726  728   Num  Procedure type indicator
+NC  2011 CORE             186 PSTATE                      729  730   Char Patient State postal code
+NC  2011 CORE             187 PSTCO                       731  735   Num  Patient state/county FIPS code
+NC  2011 CORE             188 PSTCO2                      736  740   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+NC  2011 CORE             189 PointOfOriginUB04           741  741   Char Point of origin for admission or visit, UB-04 standard coding
+NC  2011 CORE             190 PointOfOrigin_X             742  742   Char Point of origin for admission or visit, as received from source
+NC  2011 CORE             191 RACE                        743  744   Num  Race (uniform)
+NC  2011 CORE             192 RACE_X                      745  745   Char Race (as received from source)
+NC  2011 CORE             193 TOTCHG                      746  755   Num  Total charges (cleaned)
+NC  2011 CORE             194 TOTCHG_X                    756  770 2 Num  Total charges (as received from source)
+NC  2011 CORE             195 TRAN_IN                     771  772   Num  Transfer in indicator
+NC  2011 CORE             196 TRAN_OUT                    773  774   Num  Transfer out indicator
+NC  2011 CORE             197 YEAR                        775  778   Num  Calendar year
+NC  2011 CORE             198 ZIP3                        779  781   Char Patient ZIP Code, first 3 digits
+NC  2011 CORE             199 ZIPINC_QRTL                 782  784   Num  Median household income national quartile for patient ZIP Code
+NC  2011 CORE             200 ZIP                         785  789   Char Patient ZIP Code
+NC  2011 CORE             201 AYEAR                       790  793   Num  Admission year
+NC  2011 CORE             202 DMONTH                      794  795   Num  Discharge month
+NC  2011 CORE             203 BMONTH                      796  797   Num  Birth month
+NC  2011 CORE             204 BYEAR                       798  801   Num  Birth year

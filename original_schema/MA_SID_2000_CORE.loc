@@ -1,0 +1,130 @@
+Data Set Name: MA_SID_2000_CORE                
+Number of Observations: 788501
+Total Record Length: 412
+Total Number of Variables: 110
+
+
+Columns   Description:
+=======   ============
+ 1- 3     Database name
+ 5- 8     Discharge year of data
+10-17     File name
+19-21     Variable number
+23-41     Variable name
+43-45     Starting column of variable in ASCII file
+47-49     Ending column of variable in ASCII file
+   51     Non-zero number of digits after decimal point for numeric variable
+53-56     Variable type (Num=numeric; Char=character)
+58-113    Variable label
+
+
+MA  2000 CORE       1 KEY                   1  14   Num  HCUP record identifier
+MA  2000 CORE       2 AGE                  15  17   Num  Age in years at admission
+MA  2000 CORE       3 AMONTH               18  19   Num  Admission month
+MA  2000 CORE       4 ASOURCE              20  21   Num  Admission source (uniform)
+MA  2000 CORE       5 ASOURCE_X            22  22   Char Admission source (as received from source)
+MA  2000 CORE       6 ATYPE                23  24   Num  Admission type
+MA  2000 CORE       7 AWEEKEND             25  26   Num  Admission day is a weekend
+MA  2000 CORE       8 BWT                  27  30   Num  Birth weight in grams
+MA  2000 CORE       9 DIED                 31  32   Num  Died during hospitalization
+MA  2000 CORE      10 DISP_X               33  34   Char Disposition of patient (as received from source)
+MA  2000 CORE      11 DISPUB92             35  36   Num  Disposition of patient (UB-92 standard coding)
+MA  2000 CORE      12 DISPUNIFORM          37  38   Num  Disposition of patient (uniform)
+MA  2000 CORE      13 DQTR                 39  40   Num  Discharge quarter
+MA  2000 CORE      14 DRG                  41  43   Num  DRG in effect on discharge date
+MA  2000 CORE      15 DRG18                44  46   Num  DRG, version 18
+MA  2000 CORE      16 DRGVER               47  48   Num  DRG grouper version used on discharge date
+MA  2000 CORE      17 DSHOSPID             49  61   Char Data source hospital identifier
+MA  2000 CORE      18 DX1                  62  66   Char Principal diagnosis
+MA  2000 CORE      19 DX2                  67  71   Char Diagnosis 2
+MA  2000 CORE      20 DX3                  72  76   Char Diagnosis 3
+MA  2000 CORE      21 DX4                  77  81   Char Diagnosis 4
+MA  2000 CORE      22 DX5                  82  86   Char Diagnosis 5
+MA  2000 CORE      23 DX6                  87  91   Char Diagnosis 6
+MA  2000 CORE      24 DX7                  92  96   Char Diagnosis 7
+MA  2000 CORE      25 DX8                  97 101   Char Diagnosis 8
+MA  2000 CORE      26 DX9                 102 106   Char Diagnosis 9
+MA  2000 CORE      27 DX10                107 111   Char Diagnosis 10
+MA  2000 CORE      28 DX11                112 116   Char Diagnosis 11
+MA  2000 CORE      29 DX12                117 121   Char Diagnosis 12
+MA  2000 CORE      30 DX13                122 126   Char Diagnosis 13
+MA  2000 CORE      31 DX14                127 131   Char Diagnosis 14
+MA  2000 CORE      32 DX15                132 136   Char Diagnosis 15
+MA  2000 CORE      33 DX16                137 141   Char Diagnosis 16
+MA  2000 CORE      34 DXCCS1              142 145   Num  CCS: principal diagnosis
+MA  2000 CORE      35 DXCCS2              146 149   Num  CCS: diagnosis 2
+MA  2000 CORE      36 DXCCS3              150 153   Num  CCS: diagnosis 3
+MA  2000 CORE      37 DXCCS4              154 157   Num  CCS: diagnosis 4
+MA  2000 CORE      38 DXCCS5              158 161   Num  CCS: diagnosis 5
+MA  2000 CORE      39 DXCCS6              162 165   Num  CCS: diagnosis 6
+MA  2000 CORE      40 DXCCS7              166 169   Num  CCS: diagnosis 7
+MA  2000 CORE      41 DXCCS8              170 173   Num  CCS: diagnosis 8
+MA  2000 CORE      42 DXCCS9              174 177   Num  CCS: diagnosis 9
+MA  2000 CORE      43 DXCCS10             178 181   Num  CCS: diagnosis 10
+MA  2000 CORE      44 DXCCS11             182 185   Num  CCS: diagnosis 11
+MA  2000 CORE      45 DXCCS12             186 189   Num  CCS: diagnosis 12
+MA  2000 CORE      46 DXCCS13             190 193   Num  CCS: diagnosis 13
+MA  2000 CORE      47 DXCCS14             194 197   Num  CCS: diagnosis 14
+MA  2000 CORE      48 DXCCS15             198 201   Num  CCS: diagnosis 15
+MA  2000 CORE      49 DXCCS16             202 205   Num  CCS: diagnosis 16
+MA  2000 CORE      50 FEMALE              206 207   Num  Indicator of sex
+MA  2000 CORE      51 HOSPST              208 209   Char Hospital state postal code
+MA  2000 CORE      52 LOS                 210 214   Num  Length of stay (cleaned)
+MA  2000 CORE      53 LOS_X               215 220   Num  Length of stay (as received from source)
+MA  2000 CORE      54 MDC                 221 222   Num  MDC in effect on discharge date
+MA  2000 CORE      55 MDC18               223 224   Num  MDC, version 18
+MA  2000 CORE      56 NDX                 225 226   Num  Number of diagnoses on this record
+MA  2000 CORE      57 NEOMAT              227 228   Num  Neonatal and/or maternal DX and/or PR
+MA  2000 CORE      58 NPR                 229 230   Num  Number of procedures on this record
+MA  2000 CORE      59 PAY1                231 232   Num  Primary expected payer (uniform)
+MA  2000 CORE      60 PAY2                233 234   Num  Secondary expected payer (uniform)
+MA  2000 CORE      61 PAY1_X              235 235   Char Primary expected payer (as received from source)
+MA  2000 CORE      62 PAY2_X              236 236   Char Secondary expected payer (as received from source)
+MA  2000 CORE      63 PAYER1_X            237 239   Char Primary expected payer plan identifier (as received from source)
+MA  2000 CORE      64 PAYER2_X            240 242   Char Secondary expected payer plan identifier (as received from source)
+MA  2000 CORE      65 PR1                 243 246   Char Principal procedure
+MA  2000 CORE      66 PR2                 247 250   Char Procedure 2
+MA  2000 CORE      67 PR3                 251 254   Char Procedure 3
+MA  2000 CORE      68 PR4                 255 258   Char Procedure 4
+MA  2000 CORE      69 PR5                 259 262   Char Procedure 5
+MA  2000 CORE      70 PR6                 263 266   Char Procedure 6
+MA  2000 CORE      71 PR7                 267 270   Char Procedure 7
+MA  2000 CORE      72 PR8                 271 274   Char Procedure 8
+MA  2000 CORE      73 PR9                 275 278   Char Procedure 9
+MA  2000 CORE      74 PR10                279 282   Char Procedure 10
+MA  2000 CORE      75 PR11                283 286   Char Procedure 11
+MA  2000 CORE      76 PR12                287 290   Char Procedure 12
+MA  2000 CORE      77 PR13                291 294   Char Procedure 13
+MA  2000 CORE      78 PR14                295 298   Char Procedure 14
+MA  2000 CORE      79 PR15                299 302   Char Procedure 15
+MA  2000 CORE      80 PRCCS1              303 305   Num  CCS: principal procedure
+MA  2000 CORE      81 PRCCS2              306 308   Num  CCS: procedure 2
+MA  2000 CORE      82 PRCCS3              309 311   Num  CCS: procedure 3
+MA  2000 CORE      83 PRCCS4              312 314   Num  CCS: procedure 4
+MA  2000 CORE      84 PRCCS5              315 317   Num  CCS: procedure 5
+MA  2000 CORE      85 PRCCS6              318 320   Num  CCS: procedure 6
+MA  2000 CORE      86 PRCCS7              321 323   Num  CCS: procedure 7
+MA  2000 CORE      87 PRCCS8              324 326   Num  CCS: procedure 8
+MA  2000 CORE      88 PRCCS9              327 329   Num  CCS: procedure 9
+MA  2000 CORE      89 PRCCS10             330 332   Num  CCS: procedure 10
+MA  2000 CORE      90 PRCCS11             333 335   Num  CCS: procedure 11
+MA  2000 CORE      91 PRCCS12             336 338   Num  CCS: procedure 12
+MA  2000 CORE      92 PRCCS13             339 341   Num  CCS: procedure 13
+MA  2000 CORE      93 PRCCS14             342 344   Num  CCS: procedure 14
+MA  2000 CORE      94 PRCCS15             345 347   Num  CCS: procedure 15
+MA  2000 CORE      95 PRDAY1              348 350   Num  Number of days from admission to PR1
+MA  2000 CORE      96 PRDAY2              351 353   Num  Number of days from admission to PR2
+MA  2000 CORE      97 PRDAY3              354 356   Num  Number of days from admission to PR3
+MA  2000 CORE      98 RACE                357 358   Num  Race (uniform)
+MA  2000 CORE      99 RACE_X              359 359   Char Race (as received from source)
+MA  2000 CORE     100 TOTCHG              360 369   Num  Total charges (cleaned)
+MA  2000 CORE     101 TOTCHG_X            370 384 2 Num  Total charges (as received from source)
+MA  2000 CORE     102 YEAR                385 388   Num  Calendar year
+MA  2000 CORE     103 AYEAR               389 392   Num  Admission year
+MA  2000 CORE     104 DMONTH              393 394   Num  Discharge month
+MA  2000 CORE     105 PRMONTH1            395 396   Num  Month of procedure 1
+MA  2000 CORE     106 PRMONTH2            397 398   Num  Month of procedure 2
+MA  2000 CORE     107 PRMONTH3            399 400   Num  Month of procedure 3
+MA  2000 CORE     108 PRYEAR1             401 404   Num  Year of procedure 1
+MA  2000 CORE     109 PRYEAR2             405 408   Num  Year of procedure 2
+MA  2000 CORE     110 PRYEAR3             409 412   Num  Year of procedure 3

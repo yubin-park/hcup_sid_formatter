@@ -1,0 +1,92 @@
+Columns   Description:
+=======   ============
+ 1- 2     State postal code
+ 5- 8     Discharge year of data
+10-14     File name
+19-21     Variable number
+23-40     Variable name
+43-45     Starting column of variable in ASCII file
+47-49     Ending column of variable in ASCII file
+   51     Non-zero number of digits after decimal point for numeric variable
+53-56     Variable type (NUM=numeric; CHAR=character)
+57-88     Variable label
+
+
+WI  1998 CORE     1   KEY                 1   14    Num HCUP record identifier
+WI  1998 CORE     2   AGE                 15  17    Num Age in years at admission
+WI  1998 CORE     3   AGEDAY              18  20    Num Age in days (when age < 1 year)
+WI  1998 CORE     4   AGEMONTH            21  23    Num Age in months (when age < 11 years)
+WI  1998 CORE     5   AMONTH              24  25    Num Admission month
+WI  1998 CORE     6   ASOURCE             26  27    Num Admission source (uniform)
+WI  1998 CORE     7   ASOURCE_X           28  28    CharAdmission source (as received from source)
+WI  1998 CORE     8   ATYPE               29  30    Num Admission type
+WI  1998 CORE     9   AWEEKEND            31  32    Num Admission day is a weekend
+WI  1998 CORE     10  DIED                33  34    Num Died during hospitalization
+WI  1998 CORE     11  DISPUB92            35  36    Num Disposition of patient (UB-92 standard coding)
+WI  1998 CORE     12  DISPUNIFORM         37  38    Num Disposition of patient (uniform)
+WI  1998 CORE     13  DISP_X              39  40    CharDisposition of patient (as received from source)
+WI  1998 CORE     14  DQTR                41  41    Num Discharge quarter
+WI  1998 CORE     15  DRG                 42  44    Num DRG in effect on discharge date
+WI  1998 CORE     16  DRG10               45  47    Num DRG, version 10
+WI  1998 CORE     17  DRG18               48  50    Num DRG, version 18
+WI  1998 CORE     18  DRGVER              51  52    Num DRG grouper version used on discharge date
+WI  1998 CORE     19  DSHOSPID            53  65    CharData source hospital identifier
+WI  1998 CORE     20  DX1                 66  70    CharPrincipal diagnosis
+WI  1998 CORE     21  DX2                 71  75    CharDiagnosis 2
+WI  1998 CORE     22  DX3                 76  80    CharDiagnosis 3
+WI  1998 CORE     23  DX4                 81  85    CharDiagnosis 4
+WI  1998 CORE     24  DX5                 86  90    CharDiagnosis 5
+WI  1998 CORE     25  DX6                 91  95    CharDiagnosis 6
+WI  1998 CORE     26  DX7                 96  100   CharDiagnosis 7
+WI  1998 CORE     27  DX8                 101 105   CharDiagnosis 8
+WI  1998 CORE     28  DX9                 106 110   CharDiagnosis 9
+WI  1998 CORE     29  DX10                111 115   CharDiagnosis 10
+WI  1998 CORE     30  DXCCS1              116 119   Num CCS: principal diagnosis
+WI  1998 CORE     31  DXCCS2              120 123   Num CCS: diagnosis 2
+WI  1998 CORE     32  DXCCS3              124 127   Num CCS: diagnosis 3
+WI  1998 CORE     33  DXCCS4              128 131   Num CCS: diagnosis 4
+WI  1998 CORE     34  DXCCS5              132 135   Num CCS: diagnosis 5
+WI  1998 CORE     35  DXCCS6              136 139   Num CCS: diagnosis 6
+WI  1998 CORE     36  DXCCS7              140 143   Num CCS: diagnosis 7
+WI  1998 CORE     37  DXCCS8              144 147   Num CCS: diagnosis 8
+WI  1998 CORE     38  DXCCS9              148 151   Num CCS: diagnosis 9
+WI  1998 CORE     39  DXCCS10             152 155   Num CCS: diagnosis 10
+WI  1998 CORE     40  FEMALE              156 157   Num Indicator of sex
+WI  1998 CORE     41  HISPANIC_X          158 158   CharHispanic ethnicity (as received from source)
+WI  1998 CORE     42  HOSPST              159 160   CharHospital state postal code
+WI  1998 CORE     43  LOS                 161 165   Num Length of stay (cleaned)
+WI  1998 CORE     44  LOS_X               166 171   Num Length of stay (uncleaned)
+WI  1998 CORE     45  MDC                 172 173   Num MDC in effect on discharge date
+WI  1998 CORE     46  MDC10               174 175   Num MDC, version 10
+WI  1998 CORE     47  MDC18               176 177   Num MDC, version 18
+WI  1998 CORE     48  MRN_S               178 194   CharMedical record number (synthetic)
+WI  1998 CORE     49  NDX                 195 196   Num Number of diagnoses on this record
+WI  1998 CORE     50  NEOMAT              197 197   Num Neonatal and/or maternal DX and/or PR
+WI  1998 CORE     51  NPR                 198 199   Num Number of procedures on this record
+WI  1998 CORE     52  PAY1                200 201   Num Primary expected payer (uniform)
+WI  1998 CORE     53  PAY2                202 203   Num Secondary expected payer (uniform)
+WI  1998 CORE     54  PAY1_X              204 208   CharPrimary expected payer (as received from source)
+WI  1998 CORE     55  PAY2_X              209 213   CharSecondary expected payer (as received from source)
+WI  1998 CORE     56  PR1                 214 217   CharPrincipal procedure
+WI  1998 CORE     57  PR2                 218 221   CharProcedure 2
+WI  1998 CORE     58  PR3                 222 225   CharProcedure 3
+WI  1998 CORE     59  PR4                 226 229   CharProcedure 4
+WI  1998 CORE     60  PR5                 230 233   CharProcedure 5
+WI  1998 CORE     61  PR6                 234 237   CharProcedure 6
+WI  1998 CORE     62  PRCCS1              238 240   Num CCS: principal procedure
+WI  1998 CORE     63  PRCCS2              241 243   Num CCS: procedure 2
+WI  1998 CORE     64  PRCCS3              244 246   Num CCS: procedure 3
+WI  1998 CORE     65  PRCCS4              247 249   Num CCS: procedure 4
+WI  1998 CORE     66  PRCCS5              250 252   Num CCS: procedure 5
+WI  1998 CORE     67  PRCCS6              253 255   Num CCS: procedure 6
+WI  1998 CORE     68  PRDAY1              256 258   Num Number of days from admission to PR1
+WI  1998 CORE     69  RACE                259 260   Num Race (uniform)
+WI  1998 CORE     70  RACE_X              261 261   CharRace (as received from source)
+WI  1998 CORE     71  TOTCHG              262 271   Num Total charges (cleaned)
+WI  1998 CORE     72  TOTCHG_X            272 286 2 Num Total charges (as received from source)
+WI  1998 CORE     73  YEAR                287 290   Num Calendar year
+WI  1998 CORE     74  ZIP                 291 295   CharPatient zip code
+WI  1998 CORE     75  AYEAR               296 299   Num Admission year
+WI  1998 CORE     76  DMONTH              300 301   Num Discharge month
+WI  1998 CORE     77  BMONTH              302 303   Num Birth month
+WI  1998 CORE     78  BYEAR               304 307   Num Birth year

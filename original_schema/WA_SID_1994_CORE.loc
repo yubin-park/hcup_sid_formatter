@@ -1,0 +1,114 @@
+Data Set Name: WA_SID_1994_CORE                
+Number of Observations: 520540
+Total Record Length: 416
+Total Number of Variables: 94
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 49    Variable name
+51- 54    Starting column of variable in ASCII file
+56- 59    Ending column of variable in ASCII file
+    61    Non-zero number of digits after decimal point for numeric variable
+63- 66    Variable type (Num=numeric; Char=character)
+68-167    Variable label
+
+
+WA  1994 CORE               1 SEQ_SID                1   13   Num  I:HCUP-3 SID record sequence number
+WA  1994 CORE               2 AGE                   14   16   Num  I:Age in years at admission
+WA  1994 CORE               3 AGEDAY                17   19   Num  I:Age in days (when < 1 year)
+WA  1994 CORE               4 SEX                   20   22   Num  I:Sex
+WA  1994 CORE               5 DQTR                  23   24   Num  I:Discharge quarter
+WA  1994 CORE               6 LOS                   25   29   Num  I:Length of stay (cleaned)
+WA  1994 CORE               7 DISP                  30   31   Num  I:Disposition of patient
+WA  1994 CORE               8 DIED                  32   33   Num  I:Died during hospitalization
+WA  1994 CORE               9 ATYPE                 34   35   Num  I:Admission type
+WA  1994 CORE              10 ASOURCE               36   37   Num  I:Admission source
+WA  1994 CORE              11 NDX                   38   39   Num  I:Number of diagnoses on this discharge
+WA  1994 CORE              12 DX1                   40   44   Char I:Principal diagnosis
+WA  1994 CORE              13 DXV1                  45   48   Num  I:Validity flag: principal diagnosis
+WA  1994 CORE              14 DCCHPR1               49   52   Num  I:CCHPR: principal diagnosis
+WA  1994 CORE              15 NPR                   53   54   Num  I:Number of procedures on this discharge
+WA  1994 CORE              16 PR1                   55   58   Char I:Principal procedure
+WA  1994 CORE              17 PRV1                  59   61   Num  I:Validity flag: principal procedure
+WA  1994 CORE              18 PCCHPR1               62   65   Num  I:CCHPR: principal procedure
+WA  1994 CORE              19 DRG                   66   68   Num  I:DRG in effect on discharge date
+WA  1994 CORE              20 MDC                   69   70   Num  I:MDC in effect on discharge date
+WA  1994 CORE              21 DRGVER                71   72   Num  I:DRG grouper version used on disch date
+WA  1994 CORE              22 DRG10                 73   75   Num  I:DRG, Version 10
+WA  1994 CORE              23 MDC10                 76   77   Num  I:MDC, Version 10
+WA  1994 CORE              24 PAY1                  78   79   Num  I:Primary expected payer, uniform
+WA  1994 CORE              25 TOTCHG                80   89   Num  I:Total charges (cleaned)
+WA  1994 CORE              26 PROCESS               90  100   Num  I:HCUP-3 discharge processing ID number
+WA  1994 CORE              27 YEAR                 101  104   Num  Calendar year
+WA  1994 CORE              28 DSHOSPID             105  117   Char I:Data source hospital ID number
+WA  1994 CORE              29 DSNUM                118  120   Num  I:Data source ID number
+WA  1994 CORE              30 DSTYPE               121  123   Num  I:Data source type
+WA  1994 CORE              31 HOSPST               124  125   Char Hospital state postal code
+WA  1994 CORE              32 MDID_S               126  141   Char I:Attending physician number (synthetic)
+WA  1994 CORE              33 SURGID_S             142  157   Char I:Primary surgeon number (synthetic)
+WA  1994 CORE              34 ADAYWK               158  160   Num  I:Admission day of week
+WA  1994 CORE              35 AMONTH               161  162   Num  I:Admission month
+WA  1994 CORE              36 LOS_X                163  167   Num  I:Length of stay (uncleaned)
+WA  1994 CORE              37 NEOMAT               168  169   Num  I:Neonatal and/or maternal DX and/or PR
+WA  1994 CORE              38 DXSYS                170  172   Num  I:Diagnosis coding system
+WA  1994 CORE              39 DSNDX                173  175   Num  I:Max number of diagnoses from source
+WA  1994 CORE              40 PRSYS                176  178   Num  I:Procedure coding system
+WA  1994 CORE              41 DSNPR                179  181   Num  I:Max number of procedures from source
+WA  1994 CORE              42 PAY1_N               182  184   Num  I:Primary expected payer, nonuniform
+WA  1994 CORE              43 PAY2                 185  186   Num  I:Secondary expected payer, uniform
+WA  1994 CORE              44 PAY2_N               187  189   Num  I:Secondary expected payer, nonuniform
+WA  1994 CORE              45 TOTCHG_X             190  201 2 Num  I:Total charges (from data source)
+WA  1994 CORE              46 DX2                  202  206   Char I:Diagnosis 2
+WA  1994 CORE              47 DX3                  207  211   Char I:Diagnosis 3
+WA  1994 CORE              48 DX4                  212  216   Char I:Diagnosis 4
+WA  1994 CORE              49 DX5                  217  221   Char I:Diagnosis 5
+WA  1994 CORE              50 DX6                  222  226   Char I:Diagnosis 6
+WA  1994 CORE              51 DX7                  227  231   Char I:Diagnosis 7
+WA  1994 CORE              52 DX8                  232  236   Char I:Diagnosis 8
+WA  1994 CORE              53 DX9                  237  241   Char I:Diagnosis 9
+WA  1994 CORE              54 DX10                 242  246   Char I:Diagnosis 10
+WA  1994 CORE              55 DXV2                 247  250   Num  I:Validity flag: diagnosis 2
+WA  1994 CORE              56 DXV3                 251  254   Num  I:Validity flag: diagnosis 3
+WA  1994 CORE              57 DXV4                 255  258   Num  I:Validity flag: diagnosis 4
+WA  1994 CORE              58 DXV5                 259  262   Num  I:Validity flag: diagnosis 5
+WA  1994 CORE              59 DXV6                 263  266   Num  I:Validity flag: diagnosis 6
+WA  1994 CORE              60 DXV7                 267  270   Num  I:Validity flag: diagnosis 7
+WA  1994 CORE              61 DXV8                 271  274   Num  I:Validity flag: diagnosis 8
+WA  1994 CORE              62 DXV9                 275  278   Num  I:Validity flag: diagnosis 9
+WA  1994 CORE              63 DXV10                279  282   Num  I:Validity flag: diagnosis 10
+WA  1994 CORE              64 DCCHPR2              283  286   Num  I:CCHPR: diagnosis 2
+WA  1994 CORE              65 DCCHPR3              287  290   Num  I:CCHPR: diagnosis 3
+WA  1994 CORE              66 DCCHPR4              291  294   Num  I:CCHPR: diagnosis 4
+WA  1994 CORE              67 DCCHPR5              295  298   Num  I:CCHPR: diagnosis 5
+WA  1994 CORE              68 DCCHPR6              299  302   Num  I:CCHPR: diagnosis 6
+WA  1994 CORE              69 DCCHPR7              303  306   Num  I:CCHPR: diagnosis 7
+WA  1994 CORE              70 DCCHPR8              307  310   Num  I:CCHPR: diagnosis 8
+WA  1994 CORE              71 DCCHPR9              311  314   Num  I:CCHPR: diagnosis 9
+WA  1994 CORE              72 DCCHPR10             315  318   Num  I:CCHPR: diagnosis 10
+WA  1994 CORE              73 PR2                  319  322   Char I:Procedure 2
+WA  1994 CORE              74 PR3                  323  326   Char I:Procedure 3
+WA  1994 CORE              75 PR4                  327  330   Char I:Procedure 4
+WA  1994 CORE              76 PR5                  331  334   Char I:Procedure 5
+WA  1994 CORE              77 PR6                  335  338   Char I:Procedure 6
+WA  1994 CORE              78 PRV2                 339  341   Num  I:Validity flag: procedure 2
+WA  1994 CORE              79 PRV3                 342  344   Num  I:Validity flag: procedure 3
+WA  1994 CORE              80 PRV4                 345  347   Num  I:Validity flag: procedure 4
+WA  1994 CORE              81 PRV5                 348  350   Num  I:Validity flag: procedure 5
+WA  1994 CORE              82 PRV6                 351  353   Num  I:Validity flag: procedure 6
+WA  1994 CORE              83 PCCHPR2              354  357   Num  I:CCHPR: procedure 2
+WA  1994 CORE              84 PCCHPR3              358  361   Num  I:CCHPR: procedure 3
+WA  1994 CORE              85 PCCHPR4              362  365   Num  I:CCHPR: procedure 4
+WA  1994 CORE              86 PCCHPR5              366  369   Num  I:CCHPR: procedure 5
+WA  1994 CORE              87 PCCHPR6              370  373   Num  I:CCHPR: procedure 6
+WA  1994 CORE              88 ZIP                  374  378   Char I:Patient zip code
+WA  1994 CORE              89 PNUM_S               379  395   Char I:Person number (synthetic)
+WA  1994 CORE              90 PAY1_X               396  398   Char I:Primary exp. payer (from data source)
+WA  1994 CORE              91 PAY2_X               399  401   Char I:Secondary exp. payer (from data source
+WA  1994 CORE              92 RDRG                 402  405   Num  I:Refined DRG
+WA  1994 CORE              93 RDRGWT               406  412 4 Num  I:Refined DRG weight
+WA  1994 CORE              94 AYEAR                413  416   Num  Admission year

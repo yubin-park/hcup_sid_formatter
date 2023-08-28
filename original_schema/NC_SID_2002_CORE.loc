@@ -1,0 +1,128 @@
+Data Set Name: NC_SID_2002_CORE                
+Number of Observations: 1043439
+Total Record Length: 425
+Total Number of Variables: 108
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 49    Variable name
+51- 54    Starting column of variable in ASCII file
+56- 59    Ending column of variable in ASCII file
+    61    Non-zero number of digits after decimal point for numeric variable
+63- 66    Variable type (Num=numeric; Char=character)
+68-167    Variable label
+
+
+NC  2002 CORE               1 KEY                    1   14   Num  HCUP record identifier
+NC  2002 CORE               2 AGE                   15   17   Num  Age in years at admission
+NC  2002 CORE               3 AGEDAY                18   20   Num  Age in days (when age < 1 year)
+NC  2002 CORE               4 AGEMONTH              21   23   Num  Age in months (when age < 11 years)
+NC  2002 CORE               5 AMONTH                24   25   Num  Admission month
+NC  2002 CORE               6 ASOURCE               26   27   Num  Admission source (uniform)
+NC  2002 CORE               7 ASOURCE_X             28   28   Char Admission source (as received from source)
+NC  2002 CORE               8 ASOURCEUB92           29   29   Char Admission source (UB-92 standard coding)
+NC  2002 CORE               9 ATYPE                 30   31   Num  Admission type
+NC  2002 CORE              10 AWEEKEND              32   33   Num  Admission day is a weekend
+NC  2002 CORE              11 BWT                   34   37   Num  Birth weight in grams
+NC  2002 CORE              12 DIED                  38   39   Num  Died during hospitalization
+NC  2002 CORE              13 DISP_X                40   41   Char Disposition of patient (as received from source)
+NC  2002 CORE              14 DISPUB92              42   43   Num  Disposition of patient (UB-92 standard coding)
+NC  2002 CORE              15 DISPUNIFORM           44   45   Num  Disposition of patient (uniform)
+NC  2002 CORE              16 DQTR                  46   47   Num  Discharge quarter
+NC  2002 CORE              17 DRG                   48   50   Num  DRG in effect on discharge date
+NC  2002 CORE              18 DRG18                 51   53   Num  DRG, version 18
+NC  2002 CORE              19 DRGVER                54   55   Num  DRG grouper version used on discharge date
+NC  2002 CORE              20 DSHOSPID              56   68   Char Data source hospital identifier
+NC  2002 CORE              21 DX1                   69   73   Char Principal diagnosis
+NC  2002 CORE              22 DX2                   74   78   Char Diagnosis 2
+NC  2002 CORE              23 DX3                   79   83   Char Diagnosis 3
+NC  2002 CORE              24 DX4                   84   88   Char Diagnosis 4
+NC  2002 CORE              25 DX5                   89   93   Char Diagnosis 5
+NC  2002 CORE              26 DX6                   94   98   Char Diagnosis 6
+NC  2002 CORE              27 DX7                   99  103   Char Diagnosis 7
+NC  2002 CORE              28 DX8                  104  108   Char Diagnosis 8
+NC  2002 CORE              29 DX9                  109  113   Char Diagnosis 9
+NC  2002 CORE              30 DX10                 114  118   Char Diagnosis 10
+NC  2002 CORE              31 DX11                 119  123   Char Diagnosis 11
+NC  2002 CORE              32 DX12                 124  128   Char Diagnosis 12
+NC  2002 CORE              33 DX13                 129  133   Char Diagnosis 13
+NC  2002 CORE              34 DX14                 134  138   Char Diagnosis 14
+NC  2002 CORE              35 DX15                 139  143   Char Diagnosis 15
+NC  2002 CORE              36 DX16                 144  148   Char Diagnosis 16
+NC  2002 CORE              37 DX17                 149  153   Char Diagnosis 17
+NC  2002 CORE              38 DX18                 154  158   Char Diagnosis 18
+NC  2002 CORE              39 DXCCS1               159  162   Num  CCS: principal diagnosis
+NC  2002 CORE              40 DXCCS2               163  166   Num  CCS: diagnosis 2
+NC  2002 CORE              41 DXCCS3               167  170   Num  CCS: diagnosis 3
+NC  2002 CORE              42 DXCCS4               171  174   Num  CCS: diagnosis 4
+NC  2002 CORE              43 DXCCS5               175  178   Num  CCS: diagnosis 5
+NC  2002 CORE              44 DXCCS6               179  182   Num  CCS: diagnosis 6
+NC  2002 CORE              45 DXCCS7               183  186   Num  CCS: diagnosis 7
+NC  2002 CORE              46 DXCCS8               187  190   Num  CCS: diagnosis 8
+NC  2002 CORE              47 DXCCS9               191  194   Num  CCS: diagnosis 9
+NC  2002 CORE              48 DXCCS10              195  198   Num  CCS: diagnosis 10
+NC  2002 CORE              49 DXCCS11              199  202   Num  CCS: diagnosis 11
+NC  2002 CORE              50 DXCCS12              203  206   Num  CCS: diagnosis 12
+NC  2002 CORE              51 DXCCS13              207  210   Num  CCS: diagnosis 13
+NC  2002 CORE              52 DXCCS14              211  214   Num  CCS: diagnosis 14
+NC  2002 CORE              53 DXCCS15              215  218   Num  CCS: diagnosis 15
+NC  2002 CORE              54 DXCCS16              219  222   Num  CCS: diagnosis 16
+NC  2002 CORE              55 DXCCS17              223  226   Num  CCS: diagnosis 17
+NC  2002 CORE              56 DXCCS18              227  230   Num  CCS: diagnosis 18
+NC  2002 CORE              57 FEMALE               231  232   Num  Indicator of sex
+NC  2002 CORE              58 HOSPST               233  234   Char Hospital state postal code
+NC  2002 CORE              59 LOS                  235  239   Num  Length of stay (cleaned)
+NC  2002 CORE              60 LOS_X                240  245   Num  Length of stay (as received from source)
+NC  2002 CORE              61 MDC                  246  247   Num  MDC in effect on discharge date
+NC  2002 CORE              62 MDC18                248  249   Num  MDC, version 18
+NC  2002 CORE              63 NDX                  250  251   Num  Number of diagnoses on this record
+NC  2002 CORE              64 NEOMAT               252  253   Num  Neonatal and/or maternal DX and/or PR
+NC  2002 CORE              65 NPR                  254  255   Num  Number of procedures on this record
+NC  2002 CORE              66 PAY1                 256  257   Num  Primary expected payer (uniform)
+NC  2002 CORE              67 PAY2                 258  259   Num  Secondary expected payer (uniform)
+NC  2002 CORE              68 PAY1_X               260  260   Char Primary expected payer (as received from source)
+NC  2002 CORE              69 PAY2_X               261  261   Char Secondary expected payer (as received from source)
+NC  2002 CORE              70 PAY3_X               262  262   Char Tertiary expected payer (as received from source)
+NC  2002 CORE              71 PL_CBSA              263  264   Num  Patient location: Core Based Statistical Area (CBSA)
+NC  2002 CORE              72 PL_MSA1993           265  266   Num  Patient location: Metropolitan Statistical Area (MSA), 1993
+NC  2002 CORE              73 PL_RUCA              267  270 1 Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes
+NC  2002 CORE              74 PL_RUCA10            271  272   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, ten levels
+NC  2002 CORE              75 PL_RUCA4             273  274   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, four levels
+NC  2002 CORE              76 PL_RUCC              275  276   Num  Patient location: Rural-Urban Continuum Codes(RUCC)
+NC  2002 CORE              77 PL_UIC               277  278   Num  Patient location: Urban Influence Codes
+NC  2002 CORE              78 PNUM_S               279  295   Char Person number (synthetic)
+NC  2002 CORE              79 PR1                  296  299   Char Principal procedure
+NC  2002 CORE              80 PR2                  300  303   Char Procedure 2
+NC  2002 CORE              81 PR3                  304  307   Char Procedure 3
+NC  2002 CORE              82 PR4                  308  311   Char Procedure 4
+NC  2002 CORE              83 PR5                  312  315   Char Procedure 5
+NC  2002 CORE              84 PR6                  316  319   Char Procedure 6
+NC  2002 CORE              85 PRCCS1               320  322   Num  CCS: principal procedure
+NC  2002 CORE              86 PRCCS2               323  325   Num  CCS: procedure 2
+NC  2002 CORE              87 PRCCS3               326  328   Num  CCS: procedure 3
+NC  2002 CORE              88 PRCCS4               329  331   Num  CCS: procedure 4
+NC  2002 CORE              89 PRCCS5               332  334   Num  CCS: procedure 5
+NC  2002 CORE              90 PRCCS6               335  337   Num  CCS: procedure 6
+NC  2002 CORE              91 PRDAY1               338  342   Num  Number of days from admission to PR1
+NC  2002 CORE              92 PRDAY2               343  347   Num  Number of days from admission to PR2
+NC  2002 CORE              93 PRDAY3               348  352   Num  Number of days from admission to PR3
+NC  2002 CORE              94 PRDAY4               353  357   Num  Number of days from admission to PR4
+NC  2002 CORE              95 PRDAY5               358  362   Num  Number of days from admission to PR5
+NC  2002 CORE              96 PRDAY6               363  367   Num  Number of days from admission to PR6
+NC  2002 CORE              97 PSTCO2               368  372   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+NC  2002 CORE              98 RACE                 373  374   Num  Race (uniform)
+NC  2002 CORE              99 RACE_X               375  375   Char Race (as received from source)
+NC  2002 CORE             100 RDRG                 376  379   Char Refined DRG
+NC  2002 CORE             101 TOTCHG               380  389   Num  Total charges (cleaned)
+NC  2002 CORE             102 TOTCHG_X             390  404 2 Num  Total charges (as received from source)
+NC  2002 CORE             103 YEAR                 405  408   Num  Calendar year
+NC  2002 CORE             104 ZIP                  409  413   Char Patient ZIP Code
+NC  2002 CORE             105 AYEAR                414  417   Num  Admission year
+NC  2002 CORE             106 DMONTH               418  419   Num  Discharge month
+NC  2002 CORE             107 BMONTH               420  421   Num  Birth month
+NC  2002 CORE             108 BYEAR                422  425   Num  Birth year

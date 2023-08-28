@@ -1,0 +1,284 @@
+Data Set Name: WA_SIDC_2014_CORE               
+Number of Observations: 633390
+Total Record Length: 1104
+Total Number of Variables: 263
+Creation Date: 06/01/2016   
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 61    Variable name
+63- 66    Starting column of variable in ASCII file
+68- 71    Ending column of variable in ASCII file
+    73    Non-zero number of digits after decimal point for numeric variable
+75- 78    Variable type (Num=numeric; Char=character)
+80-179    Variable label
+
+
+WA  2014 CORE               1 AGE                                1    3   Num  Age in years at admission
+WA  2014 CORE               2 AGEDAY                             4    6   Num  Age in days (when age < 1 year)
+WA  2014 CORE               3 AGEMONTH                           7    9   Num  Age in months (when age < 11 years)
+WA  2014 CORE               4 AHOUR                             10   13   Num  Admission Hour
+WA  2014 CORE               5 AMONTH                            14   15   Num  Admission month
+WA  2014 CORE               6 ATYPE                             16   17   Num  Admission type
+WA  2014 CORE               7 AWEEKEND                          18   19   Num  Admission day is a weekend
+WA  2014 CORE               8 BILLTYPE                          20   23   Char Type of bill, UB-04 coding
+WA  2014 CORE               9 DHOUR                             24   27   Num  Discharge Hour
+WA  2014 CORE              10 DIED                              28   29   Num  Died during hospitalization
+WA  2014 CORE              11 DISPUB04                          30   31   Num  Disposition of patient (UB-04 standard coding)
+WA  2014 CORE              12 DISPUNIFORM                       32   33   Num  Disposition of patient (uniform)
+WA  2014 CORE              13 DISP_X                            34   35   Char Disposition of patient (as received from source)
+WA  2014 CORE              14 DQTR                              36   37   Num  Discharge quarter
+WA  2014 CORE              15 DRG                               38   40   Num  DRG in effect on discharge date
+WA  2014 CORE              16 DRG24                             41   43   Num  DRG, version 24
+WA  2014 CORE              17 DRGVER                            44   45   Num  DRG grouper version used on discharge date
+WA  2014 CORE              18 DRG_NoPOA                         46   48   Num  DRG in use on discharge date, calculated without POA
+WA  2014 CORE              19 DSHOSPID                          49   65   Char Data source hospital identifier
+WA  2014 CORE              20 DX1                               66   72   Char Diagnosis 1
+WA  2014 CORE              21 DX2                               73   79   Char Diagnosis 2
+WA  2014 CORE              22 DX3                               80   86   Char Diagnosis 3
+WA  2014 CORE              23 DX4                               87   93   Char Diagnosis 4
+WA  2014 CORE              24 DX5                               94  100   Char Diagnosis 5
+WA  2014 CORE              25 DX6                              101  107   Char Diagnosis 6
+WA  2014 CORE              26 DX7                              108  114   Char Diagnosis 7
+WA  2014 CORE              27 DX8                              115  121   Char Diagnosis 8
+WA  2014 CORE              28 DX9                              122  128   Char Diagnosis 9
+WA  2014 CORE              29 DX10                             129  135   Char Diagnosis 10
+WA  2014 CORE              30 DX11                             136  142   Char Diagnosis 11
+WA  2014 CORE              31 DX12                             143  149   Char Diagnosis 12
+WA  2014 CORE              32 DX13                             150  156   Char Diagnosis 13
+WA  2014 CORE              33 DX14                             157  163   Char Diagnosis 14
+WA  2014 CORE              34 DX15                             164  170   Char Diagnosis 15
+WA  2014 CORE              35 DX16                             171  177   Char Diagnosis 16
+WA  2014 CORE              36 DX17                             178  184   Char Diagnosis 17
+WA  2014 CORE              37 DX18                             185  191   Char Diagnosis 18
+WA  2014 CORE              38 DX19                             192  198   Char Diagnosis 19
+WA  2014 CORE              39 DX20                             199  205   Char Diagnosis 20
+WA  2014 CORE              40 DX21                             206  212   Char Diagnosis 21
+WA  2014 CORE              41 DX22                             213  219   Char Diagnosis 22
+WA  2014 CORE              42 DX23                             220  226   Char Diagnosis 23
+WA  2014 CORE              43 DX24                             227  233   Char Diagnosis 24
+WA  2014 CORE              44 DX25                             234  240   Char Diagnosis 25
+WA  2014 CORE              45 DXCCS1                           241  244   Num  CCS: diagnosis 1
+WA  2014 CORE              46 DXCCS2                           245  248   Num  CCS: diagnosis 2
+WA  2014 CORE              47 DXCCS3                           249  252   Num  CCS: diagnosis 3
+WA  2014 CORE              48 DXCCS4                           253  256   Num  CCS: diagnosis 4
+WA  2014 CORE              49 DXCCS5                           257  260   Num  CCS: diagnosis 5
+WA  2014 CORE              50 DXCCS6                           261  264   Num  CCS: diagnosis 6
+WA  2014 CORE              51 DXCCS7                           265  268   Num  CCS: diagnosis 7
+WA  2014 CORE              52 DXCCS8                           269  272   Num  CCS: diagnosis 8
+WA  2014 CORE              53 DXCCS9                           273  276   Num  CCS: diagnosis 9
+WA  2014 CORE              54 DXCCS10                          277  280   Num  CCS: diagnosis 10
+WA  2014 CORE              55 DXCCS11                          281  284   Num  CCS: diagnosis 11
+WA  2014 CORE              56 DXCCS12                          285  288   Num  CCS: diagnosis 12
+WA  2014 CORE              57 DXCCS13                          289  292   Num  CCS: diagnosis 13
+WA  2014 CORE              58 DXCCS14                          293  296   Num  CCS: diagnosis 14
+WA  2014 CORE              59 DXCCS15                          297  300   Num  CCS: diagnosis 15
+WA  2014 CORE              60 DXCCS16                          301  304   Num  CCS: diagnosis 16
+WA  2014 CORE              61 DXCCS17                          305  308   Num  CCS: diagnosis 17
+WA  2014 CORE              62 DXCCS18                          309  312   Num  CCS: diagnosis 18
+WA  2014 CORE              63 DXCCS19                          313  316   Num  CCS: diagnosis 19
+WA  2014 CORE              64 DXCCS20                          317  320   Num  CCS: diagnosis 20
+WA  2014 CORE              65 DXCCS21                          321  324   Num  CCS: diagnosis 21
+WA  2014 CORE              66 DXCCS22                          325  328   Num  CCS: diagnosis 22
+WA  2014 CORE              67 DXCCS23                          329  332   Num  CCS: diagnosis 23
+WA  2014 CORE              68 DXCCS24                          333  336   Num  CCS: diagnosis 24
+WA  2014 CORE              69 DXCCS25                          337  340   Num  CCS: diagnosis 25
+WA  2014 CORE              70 DXPOA1                           341  341   Char Diagnosis 1, present on admission indicator
+WA  2014 CORE              71 DXPOA2                           342  342   Char Diagnosis 2, present on admission indicator
+WA  2014 CORE              72 DXPOA3                           343  343   Char Diagnosis 3, present on admission indicator
+WA  2014 CORE              73 DXPOA4                           344  344   Char Diagnosis 4, present on admission indicator
+WA  2014 CORE              74 DXPOA5                           345  345   Char Diagnosis 5, present on admission indicator
+WA  2014 CORE              75 DXPOA6                           346  346   Char Diagnosis 6, present on admission indicator
+WA  2014 CORE              76 DXPOA7                           347  347   Char Diagnosis 7, present on admission indicator
+WA  2014 CORE              77 DXPOA8                           348  348   Char Diagnosis 8, present on admission indicator
+WA  2014 CORE              78 DXPOA9                           349  349   Char Diagnosis 9, present on admission indicator
+WA  2014 CORE              79 DXPOA10                          350  350   Char Diagnosis 10, present on admission indicator
+WA  2014 CORE              80 DXPOA11                          351  351   Char Diagnosis 11, present on admission indicator
+WA  2014 CORE              81 DXPOA12                          352  352   Char Diagnosis 12, present on admission indicator
+WA  2014 CORE              82 DXPOA13                          353  353   Char Diagnosis 13, present on admission indicator
+WA  2014 CORE              83 DXPOA14                          354  354   Char Diagnosis 14, present on admission indicator
+WA  2014 CORE              84 DXPOA15                          355  355   Char Diagnosis 15, present on admission indicator
+WA  2014 CORE              85 DXPOA16                          356  356   Char Diagnosis 16, present on admission indicator
+WA  2014 CORE              86 DXPOA17                          357  357   Char Diagnosis 17, present on admission indicator
+WA  2014 CORE              87 DXPOA18                          358  358   Char Diagnosis 18, present on admission indicator
+WA  2014 CORE              88 DXPOA19                          359  359   Char Diagnosis 19, present on admission indicator
+WA  2014 CORE              89 DXPOA20                          360  360   Char Diagnosis 20, present on admission indicator
+WA  2014 CORE              90 DXPOA21                          361  361   Char Diagnosis 21, present on admission indicator
+WA  2014 CORE              91 DXPOA22                          362  362   Char Diagnosis 22, present on admission indicator
+WA  2014 CORE              92 DXPOA23                          363  363   Char Diagnosis 23, present on admission indicator
+WA  2014 CORE              93 DXPOA24                          364  364   Char Diagnosis 24, present on admission indicator
+WA  2014 CORE              94 DXPOA25                          365  365   Char Diagnosis 25, present on admission indicator
+WA  2014 CORE              95 DXVER                            366  368   Num  Diagnosis Version
+WA  2014 CORE              96 DaysToEvent                      369  374   Num  Days from 'start date' to admission
+WA  2014 CORE              97 ECODE1                           375  381   Char E code 1
+WA  2014 CORE              98 ECODE2                           382  388   Char E code 2
+WA  2014 CORE              99 ECODE3                           389  395   Char E code 3
+WA  2014 CORE             100 ECODE4                           396  402   Char E code 4
+WA  2014 CORE             101 ECODE5                           403  409   Char E code 5
+WA  2014 CORE             102 ECODE6                           410  416   Char E code 6
+WA  2014 CORE             103 ECODE7                           417  423   Char E code 7
+WA  2014 CORE             104 ECODE8                           424  430   Char E code 8
+WA  2014 CORE             105 ECODE9                           431  437   Char E code 9
+WA  2014 CORE             106 ECODE10                          438  444   Char E code 10
+WA  2014 CORE             107 E_CCS1                           445  448   Num  CCS: E Code 1
+WA  2014 CORE             108 E_CCS2                           449  452   Num  CCS: E Code 2
+WA  2014 CORE             109 E_CCS3                           453  456   Num  CCS: E Code 3
+WA  2014 CORE             110 E_CCS4                           457  460   Num  CCS: E Code 4
+WA  2014 CORE             111 E_CCS5                           461  464   Num  CCS: E Code 5
+WA  2014 CORE             112 E_CCS6                           465  468   Num  CCS: E Code 6
+WA  2014 CORE             113 E_CCS7                           469  472   Num  CCS: E Code 7
+WA  2014 CORE             114 E_CCS8                           473  476   Num  CCS: E Code 8
+WA  2014 CORE             115 E_CCS9                           477  480   Num  CCS: E Code 9
+WA  2014 CORE             116 E_CCS10                          481  484   Num  CCS: E Code 10
+WA  2014 CORE             117 E_POA1                           485  485   Char E Code 1, present on admission indicator
+WA  2014 CORE             118 E_POA2                           486  486   Char E Code 2, present on admission indicator
+WA  2014 CORE             119 E_POA3                           487  487   Char E Code 3, present on admission indicator
+WA  2014 CORE             120 E_POA4                           488  488   Char E Code 4, present on admission indicator
+WA  2014 CORE             121 E_POA5                           489  489   Char E Code 5, present on admission indicator
+WA  2014 CORE             122 E_POA6                           490  490   Char E Code 6, present on admission indicator
+WA  2014 CORE             123 E_POA7                           491  491   Char E Code 7, present on admission indicator
+WA  2014 CORE             124 E_POA8                           492  492   Char E Code 8, present on admission indicator
+WA  2014 CORE             125 E_POA9                           493  493   Char E Code 9, present on admission indicator
+WA  2014 CORE             126 E_POA10                          494  494   Char E Code 10, present on admission indicator
+WA  2014 CORE             127 FEMALE                           495  496   Num  Indicator of sex
+WA  2014 CORE             128 HCUP_ED                          497  498   Num  HCUP Emergency Department service indicator
+WA  2014 CORE             129 HCUP_OS                          499  500   Num  HCUP Observation Stay service indicator
+WA  2014 CORE             130 HISPANIC_X                       501  501   Char Hispanic ethnicity (as received from source)
+WA  2014 CORE             131 HOSPBRTH                         502  504   Num  Indicator of birth in this hospital
+WA  2014 CORE             132 HOSPST                           505  506   Char Hospital state postal code
+WA  2014 CORE             133 Homeless                         507  508   Num  Indicator that patient is homeless
+WA  2014 CORE             134 HospitalUnit                     509  510   Num  Indicator that patient was discharged from a special unit within an acute care hospital (reported by source)
+WA  2014 CORE             135 KEY                              511  525   Num  HCUP record identifier
+WA  2014 CORE             136 LOS                              526  530   Num  Length of stay (cleaned)
+WA  2014 CORE             137 LOS_X                            531  536   Num  Length of stay (as received from source)
+WA  2014 CORE             138 MDC                              537  538   Num  MDC in effect on discharge date
+WA  2014 CORE             139 MDC24                            539  540   Num  MDC, version 24
+WA  2014 CORE             140 MDC_NoPOA                        541  542   Num  MDC in use on discharge date, calculated without POA
+WA  2014 CORE             141 MDNUM1_R                         543  551   Num  Physician 1 number (re-identified)
+WA  2014 CORE             142 MDNUM2_R                         552  560   Num  Physician 2 number (re-identified)
+WA  2014 CORE             143 MDNUM3_R                         561  569   Num  Physician 3 number (re-identified)
+WA  2014 CORE             144 MDNUM4_R                         570  578   Num  Physician 4 number (re-identified)
+WA  2014 CORE             145 MEDINCSTQ                        579  580   Num  Median household income state quartile for patient ZIP Code
+WA  2014 CORE             146 NCHRONIC                         581  583   Num  Number of chronic conditions
+WA  2014 CORE             147 NDX                              584  586   Num  Number of diagnoses on this record
+WA  2014 CORE             148 NECODE                           587  588   Num  Number of E codes on this record
+WA  2014 CORE             149 NEOMAT                           589  590   Num  Neonatal and/or maternal DX and/or PR
+WA  2014 CORE             150 NPR                              591  593   Num  Number of procedures on this record
+WA  2014 CORE             151 ORPROC                           594  595   Num  Major operating room procedure indicator
+WA  2014 CORE             152 OS_TIME                          596  603   Num  Observation stay time summed from UNITS
+WA  2014 CORE             153 PAY1                             604  605   Num  Primary expected payer (uniform)
+WA  2014 CORE             154 PAY1_X                           606  608   Char Primary expected payer (as received from source)
+WA  2014 CORE             155 PAY2                             609  610   Num  Secondary expected payer (uniform)
+WA  2014 CORE             156 PAY2_X                           611  613   Char Secondary expected payer (as received from source)
+WA  2014 CORE             157 PAY3                             614  615   Num  Tertiary expected payer (uniform)
+WA  2014 CORE             158 PAY3_X                           616  618   Char Tertiary expected payer (as received from source)
+WA  2014 CORE             159 PL_CBSA                          619  621   Num  Patient location: Core Based Statistical Area (CBSA)
+WA  2014 CORE             160 PL_NCHS                          622  623   Num  Patient Location: NCHS Urban-Rural Code
+WA  2014 CORE             161 PL_RUCC                          624  625   Num  Patient location: Rural-Urban Continuum Codes(RUCC)
+WA  2014 CORE             162 PL_UIC                           626  627   Num  Patient location: Urban Influence Codes
+WA  2014 CORE             163 PL_UR_CAT4                       628  629   Num  Patient Location: Urban-Rural 4 Categories
+WA  2014 CORE             164 POA_Disch_Edit1                  630  631   Num  Indication that a discharge has POA missing on all nonexempt diagnoses
+WA  2014 CORE             165 POA_Disch_Edit2                  632  633   Num  Indication that a discharge has POA missing on all nonexempt secondary diagnoses
+WA  2014 CORE             166 POA_Hosp_Edit1                   634  635   Num  Indication that a hospital has POA reported as Y on all diagnoses on all discharges
+WA  2014 CORE             167 POA_Hosp_Edit2                   636  637   Num  Indication that a hospital has POA reported as missing on all non-Medicare discharges
+WA  2014 CORE             168 POA_Hosp_Edit3                   638  639   Num  Indication that a hospital reported POA as missing on all nonexempt diagnoses for 15 percent or more of discharges
+WA  2014 CORE             169 POA_Hosp_Edit3_Value             640  647 2 Num  Percentage of discharges with all nonexempt diagnoses missing POA indicators
+WA  2014 CORE             170 PR1                              648  654   Char Procedure 1
+WA  2014 CORE             171 PR2                              655  661   Char Procedure 2
+WA  2014 CORE             172 PR3                              662  668   Char Procedure 3
+WA  2014 CORE             173 PR4                              669  675   Char Procedure 4
+WA  2014 CORE             174 PR5                              676  682   Char Procedure 5
+WA  2014 CORE             175 PR6                              683  689   Char Procedure 6
+WA  2014 CORE             176 PR7                              690  696   Char Procedure 7
+WA  2014 CORE             177 PR8                              697  703   Char Procedure 8
+WA  2014 CORE             178 PR9                              704  710   Char Procedure 9
+WA  2014 CORE             179 PR10                             711  717   Char Procedure 10
+WA  2014 CORE             180 PR11                             718  724   Char Procedure 11
+WA  2014 CORE             181 PR12                             725  731   Char Procedure 12
+WA  2014 CORE             182 PR13                             732  738   Char Procedure 13
+WA  2014 CORE             183 PR14                             739  745   Char Procedure 14
+WA  2014 CORE             184 PR15                             746  752   Char Procedure 15
+WA  2014 CORE             185 PR16                             753  759   Char Procedure 16
+WA  2014 CORE             186 PR17                             760  766   Char Procedure 17
+WA  2014 CORE             187 PR18                             767  773   Char Procedure 18
+WA  2014 CORE             188 PR19                             774  780   Char Procedure 19
+WA  2014 CORE             189 PR20                             781  787   Char Procedure 20
+WA  2014 CORE             190 PR21                             788  794   Char Procedure 21
+WA  2014 CORE             191 PR22                             795  801   Char Procedure 22
+WA  2014 CORE             192 PR23                             802  808   Char Procedure 23
+WA  2014 CORE             193 PR24                             809  815   Char Procedure 24
+WA  2014 CORE             194 PR25                             816  822   Char Procedure 25
+WA  2014 CORE             195 PRCCS1                           823  825   Num  CCS: procedure 1
+WA  2014 CORE             196 PRCCS2                           826  828   Num  CCS: procedure 2
+WA  2014 CORE             197 PRCCS3                           829  831   Num  CCS: procedure 3
+WA  2014 CORE             198 PRCCS4                           832  834   Num  CCS: procedure 4
+WA  2014 CORE             199 PRCCS5                           835  837   Num  CCS: procedure 5
+WA  2014 CORE             200 PRCCS6                           838  840   Num  CCS: procedure 6
+WA  2014 CORE             201 PRCCS7                           841  843   Num  CCS: procedure 7
+WA  2014 CORE             202 PRCCS8                           844  846   Num  CCS: procedure 8
+WA  2014 CORE             203 PRCCS9                           847  849   Num  CCS: procedure 9
+WA  2014 CORE             204 PRCCS10                          850  852   Num  CCS: procedure 10
+WA  2014 CORE             205 PRCCS11                          853  855   Num  CCS: procedure 11
+WA  2014 CORE             206 PRCCS12                          856  858   Num  CCS: procedure 12
+WA  2014 CORE             207 PRCCS13                          859  861   Num  CCS: procedure 13
+WA  2014 CORE             208 PRCCS14                          862  864   Num  CCS: procedure 14
+WA  2014 CORE             209 PRCCS15                          865  867   Num  CCS: procedure 15
+WA  2014 CORE             210 PRCCS16                          868  870   Num  CCS: procedure 16
+WA  2014 CORE             211 PRCCS17                          871  873   Num  CCS: procedure 17
+WA  2014 CORE             212 PRCCS18                          874  876   Num  CCS: procedure 18
+WA  2014 CORE             213 PRCCS19                          877  879   Num  CCS: procedure 19
+WA  2014 CORE             214 PRCCS20                          880  882   Num  CCS: procedure 20
+WA  2014 CORE             215 PRCCS21                          883  885   Num  CCS: procedure 21
+WA  2014 CORE             216 PRCCS22                          886  888   Num  CCS: procedure 22
+WA  2014 CORE             217 PRCCS23                          889  891   Num  CCS: procedure 23
+WA  2014 CORE             218 PRCCS24                          892  894   Num  CCS: procedure 24
+WA  2014 CORE             219 PRCCS25                          895  897   Num  CCS: procedure 25
+WA  2014 CORE             220 PRDAY1                           898  902   Num  Number of days from admission to PR1
+WA  2014 CORE             221 PRDAY2                           903  907   Num  Number of days from admission to PR2
+WA  2014 CORE             222 PRDAY3                           908  912   Num  Number of days from admission to PR3
+WA  2014 CORE             223 PRDAY4                           913  917   Num  Number of days from admission to PR4
+WA  2014 CORE             224 PRDAY5                           918  922   Num  Number of days from admission to PR5
+WA  2014 CORE             225 PRDAY6                           923  927   Num  Number of days from admission to PR6
+WA  2014 CORE             226 PRDAY7                           928  932   Num  Number of days from admission to PR7
+WA  2014 CORE             227 PRDAY8                           933  937   Num  Number of days from admission to PR8
+WA  2014 CORE             228 PRDAY9                           938  942   Num  Number of days from admission to PR9
+WA  2014 CORE             229 PRDAY10                          943  947   Num  Number of days from admission to PR10
+WA  2014 CORE             230 PRDAY11                          948  952   Num  Number of days from admission to PR11
+WA  2014 CORE             231 PRDAY12                          953  957   Num  Number of days from admission to PR12
+WA  2014 CORE             232 PRDAY13                          958  962   Num  Number of days from admission to PR13
+WA  2014 CORE             233 PRDAY14                          963  967   Num  Number of days from admission to PR14
+WA  2014 CORE             234 PRDAY15                          968  972   Num  Number of days from admission to PR15
+WA  2014 CORE             235 PRDAY16                          973  977   Num  Number of days from admission to PR16
+WA  2014 CORE             236 PRDAY17                          978  982   Num  Number of days from admission to PR17
+WA  2014 CORE             237 PRDAY18                          983  987   Num  Number of days from admission to PR18
+WA  2014 CORE             238 PRDAY19                          988  992   Num  Number of days from admission to PR19
+WA  2014 CORE             239 PRDAY20                          993  997   Num  Number of days from admission to PR20
+WA  2014 CORE             240 PRDAY21                          998 1002   Num  Number of days from admission to PR21
+WA  2014 CORE             241 PRDAY22                         1003 1007   Num  Number of days from admission to PR22
+WA  2014 CORE             242 PRDAY23                         1008 1012   Num  Number of days from admission to PR23
+WA  2014 CORE             243 PRDAY24                         1013 1017   Num  Number of days from admission to PR24
+WA  2014 CORE             244 PRDAY25                         1018 1022   Num  Number of days from admission to PR25
+WA  2014 CORE             245 PROCTYPE                        1023 1025   Num  Procedure type indicator
+WA  2014 CORE             246 PRVER                           1026 1028   Num  Procedure Version
+WA  2014 CORE             247 PSTATE                          1029 1030   Char Patient State postal code
+WA  2014 CORE             248 PSTCO2                          1031 1035   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+WA  2014 CORE             249 PointOfOriginUB04               1036 1036   Char Point of origin for admission or visit, UB-04 standard coding
+WA  2014 CORE             250 PointOfOrigin_X                 1037 1037   Char Point of origin for admission or visit, as received from source
+WA  2014 CORE             251 RACE                            1038 1039   Num  Race (uniform)
+WA  2014 CORE             252 RACE_X                          1040 1045   Char Race (as received from source)
+WA  2014 CORE             253 SERVICELINE                     1046 1047   Num  Hospital Service Line
+WA  2014 CORE             254 TOTCHG                          1048 1057   Num  Total charges (cleaned)
+WA  2014 CORE             255 TOTCHG_X                        1058 1072 2 Num  Total charges (as received from source)
+WA  2014 CORE             256 TRAN_IN                         1073 1074   Num  Transfer in indicator
+WA  2014 CORE             257 TRAN_OUT                        1075 1076   Num  Transfer out indicator
+WA  2014 CORE             258 VisitLink                       1077 1085   Num  Visit linkage variable
+WA  2014 CORE             259 YEAR                            1086 1089   Num  Calendar year
+WA  2014 CORE             260 ZIP                             1090 1094   Char Patient ZIP Code
+WA  2014 CORE             261 ZIP3                            1095 1097   Char Patient ZIP Code, first 3 digits
+WA  2014 CORE             262 ZIPINC_QRTL                     1098 1100   Num  Median household income national quartile for patient ZIP Code
+WA  2014 CORE             263 AYEAR                           1101 1104   Num  Admission year

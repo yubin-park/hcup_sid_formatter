@@ -1,0 +1,136 @@
+Data Set Name: SC_SIDC_2017_CORE               
+Number of Observations: 533330
+Total Record Length: 477
+Total Number of Variables: 115
+Creation Date: 07/12/2019   
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 61    Variable name
+63- 66    Starting column of variable in ASCII file
+68- 71    Ending column of variable in ASCII file
+73- 73    Non-zero number of digits after decimal point for numeric variable
+75- 78    Variable type (Num=numeric; Char=character)
+80-179    Variable label
+
+
+SC  2017 CORE               1 AMONTH                             1    2   Num  Admission month
+SC  2017 CORE               2 ATYPE                              3    4   Num  Admission type
+SC  2017 CORE               3 AWEEKEND                           5    6   Num  Admission day is a weekend
+SC  2017 CORE               4 DaysICU                            7    9   Num  Days in medical/surgical intensive care unit (as received from source)
+SC  2017 CORE               5 DIED                              10   11   Num  Died during hospitalization
+SC  2017 CORE               6 DISP_X                            12   13   Char Disposition of patient (as received from source)
+SC  2017 CORE               7 DISPUB04                          14   15   Num  Disposition of patient (UB-04 standard coding)
+SC  2017 CORE               8 DISPUNIFORM                       16   17   Num  Disposition of patient (uniform)
+SC  2017 CORE               9 DMONTH                            18   19   Num  Discharge month
+SC  2017 CORE              10 DQTR                              20   21   Num  Discharge quarter
+SC  2017 CORE              11 DRG                               22   24   Num  DRG in effect on discharge date
+SC  2017 CORE              12 DRG_NoPOA                         25   27   Num  DRG in use on discharge date, calculated without POA
+SC  2017 CORE              13 DRGVER                            28   29   Num  DRG grouper version used on discharge date
+SC  2017 CORE              14 DXPOA1                            30   30   Char Diagnosis 1, present on admission indicator
+SC  2017 CORE              15 DXPOA2                            31   31   Char Diagnosis 2, present on admission indicator
+SC  2017 CORE              16 DXPOA3                            32   32   Char Diagnosis 3, present on admission indicator
+SC  2017 CORE              17 DXPOA4                            33   33   Char Diagnosis 4, present on admission indicator
+SC  2017 CORE              18 DXPOA5                            34   34   Char Diagnosis 5, present on admission indicator
+SC  2017 CORE              19 DXPOA6                            35   35   Char Diagnosis 6, present on admission indicator
+SC  2017 CORE              20 DXPOA7                            36   36   Char Diagnosis 7, present on admission indicator
+SC  2017 CORE              21 DXPOA8                            37   37   Char Diagnosis 8, present on admission indicator
+SC  2017 CORE              22 DXPOA9                            38   38   Char Diagnosis 9, present on admission indicator
+SC  2017 CORE              23 DXPOA10                           39   39   Char Diagnosis 10, present on admission indicator
+SC  2017 CORE              24 DXPOA11                           40   40   Char Diagnosis 11, present on admission indicator
+SC  2017 CORE              25 DXPOA12                           41   41   Char Diagnosis 12, present on admission indicator
+SC  2017 CORE              26 DXPOA13                           42   42   Char Diagnosis 13, present on admission indicator
+SC  2017 CORE              27 DXPOA14                           43   43   Char Diagnosis 14, present on admission indicator
+SC  2017 CORE              28 DXPOA15                           44   44   Char Diagnosis 15, present on admission indicator
+SC  2017 CORE              29 DXPOA16                           45   45   Char Diagnosis 16, present on admission indicator
+SC  2017 CORE              30 DXVER                             46   48   Num  Diagnosis Version
+SC  2017 CORE              31 FEMALE                            49   50   Num  Indicator of sex
+SC  2017 CORE              32 HCUP_ED                           51   52   Num  HCUP Emergency Department service indicator
+SC  2017 CORE              33 HCUP_OS                           53   54   Num  HCUP Observation Stay service indicator
+SC  2017 CORE              34 HOSPST                            55   56   Char Hospital state postal code
+SC  2017 CORE              35 I10_DX1                           57   63   Char ICD-10-CM Diagnosis 1
+SC  2017 CORE              36 I10_DX2                           64   70   Char ICD-10-CM Diagnosis 2
+SC  2017 CORE              37 I10_DX3                           71   77   Char ICD-10-CM Diagnosis 3
+SC  2017 CORE              38 I10_DX4                           78   84   Char ICD-10-CM Diagnosis 4
+SC  2017 CORE              39 I10_DX5                           85   91   Char ICD-10-CM Diagnosis 5
+SC  2017 CORE              40 I10_DX6                           92   98   Char ICD-10-CM Diagnosis 6
+SC  2017 CORE              41 I10_DX7                           99  105   Char ICD-10-CM Diagnosis 7
+SC  2017 CORE              42 I10_DX8                          106  112   Char ICD-10-CM Diagnosis 8
+SC  2017 CORE              43 I10_DX9                          113  119   Char ICD-10-CM Diagnosis 9
+SC  2017 CORE              44 I10_DX10                         120  126   Char ICD-10-CM Diagnosis 10
+SC  2017 CORE              45 I10_DX11                         127  133   Char ICD-10-CM Diagnosis 11
+SC  2017 CORE              46 I10_DX12                         134  140   Char ICD-10-CM Diagnosis 12
+SC  2017 CORE              47 I10_DX13                         141  147   Char ICD-10-CM Diagnosis 13
+SC  2017 CORE              48 I10_DX14                         148  154   Char ICD-10-CM Diagnosis 14
+SC  2017 CORE              49 I10_DX15                         155  161   Char ICD-10-CM Diagnosis 15
+SC  2017 CORE              50 I10_DX16                         162  168   Char ICD-10-CM Diagnosis 16
+SC  2017 CORE              51 I10_DX17                         169  175   Char ICD-10-CM Diagnosis 17
+SC  2017 CORE              52 I10_NDX                          176  178   Num  ICD-10-CM Number of diagnoses on this record
+SC  2017 CORE              53 I10_NPR                          179  181   Num  ICD-10-PCS Number of procedures on this record
+SC  2017 CORE              54 I10_PR1                          182  188   Char ICD-10-PCS Procedure 1
+SC  2017 CORE              55 I10_PR2                          189  195   Char ICD-10-PCS Procedure 2
+SC  2017 CORE              56 I10_PR3                          196  202   Char ICD-10-PCS Procedure 3
+SC  2017 CORE              57 I10_PR4                          203  209   Char ICD-10-PCS Procedure 4
+SC  2017 CORE              58 I10_PR5                          210  216   Char ICD-10-PCS Procedure 5
+SC  2017 CORE              59 I10_PR6                          217  223   Char ICD-10-PCS Procedure 6
+SC  2017 CORE              60 I10_PR7                          224  230   Char ICD-10-PCS Procedure 7
+SC  2017 CORE              61 I10_PR8                          231  237   Char ICD-10-PCS Procedure 8
+SC  2017 CORE              62 I10_PR9                          238  244   Char ICD-10-PCS Procedure 9
+SC  2017 CORE              63 I10_PR10                         245  251   Char ICD-10-PCS Procedure 10
+SC  2017 CORE              64 I10_PR11                         252  258   Char ICD-10-PCS Procedure 11
+SC  2017 CORE              65 I10_PR12                         259  265   Char ICD-10-PCS Procedure 12
+SC  2017 CORE              66 I10_PR13                         266  272   Char ICD-10-PCS Procedure 13
+SC  2017 CORE              67 I10_PROCTYPE                     273  275   Num  ICD-10-PCS Procedure type indicator
+SC  2017 CORE              68 KEY                              276  290   Num  HCUP record identifier
+SC  2017 CORE              69 LOS                              291  295   Num  Length of stay (cleaned)
+SC  2017 CORE              70 LOS_X                            296  301   Num  Length of stay (as received from source)
+SC  2017 CORE              71 MDC                              302  303   Num  MDC in effect on discharge date
+SC  2017 CORE              72 MDC_NoPOA                        304  305   Num  MDC in use on discharge date, calculated without POA
+SC  2017 CORE              73 MDSPEC1                          306  308   Char Physician 1 specialty (as received from source)
+SC  2017 CORE              74 MDSPEC2                          309  311   Char Physician 2 specialty (as received from source)
+SC  2017 CORE              75 MEDINCSTQ                        312  313   Num  Median household income state quartile for patient ZIP Code
+SC  2017 CORE              76 OS_TIME                          314  324 2 Num  Observation stay time summed from UNITS
+SC  2017 CORE              77 PAY1                             325  326   Num  Primary expected payer (uniform)
+SC  2017 CORE              78 PAY1_X                           327  328   Char Primary expected payer (as received from source)
+SC  2017 CORE              79 PL_NCHS                          329  330   Num  Patient Location: NCHS Urban-Rural Code
+SC  2017 CORE              80 PL_UR_CAT4                       331  332   Num  Patient Location: Urban-Rural 4 Categories
+SC  2017 CORE              81 POA_Disch_Edit1                  333  334   Num  Discharge has POA missing on all nonexempt diagnoses
+SC  2017 CORE              82 POA_Disch_Edit2                  335  336   Num  Discharge has POA missing on all nonexempt secondary diagnoses
+SC  2017 CORE              83 POA_Hosp_Edit1                   337  338   Num  Hospital reported POA as Y on all diagnoses on all discharges
+SC  2017 CORE              84 POA_Hosp_Edit2                   339  340   Num  Hospital reported POA as missing on all non-Medicare discharges
+SC  2017 CORE              85 POA_Hosp_Edit3                   341  342   Num  Hospital reported POA as missing on all nonexempt diagnoses for 15% or more of discharges
+SC  2017 CORE              86 POA_Hosp_Edit3_Value             343  350 2 Num  Percentage of discharges with all nonexempt diagnoses missing POA indicators
+SC  2017 CORE              87 PointOfOrigin_X                  351  351   Char Point of origin for admission or visit, as received from source
+SC  2017 CORE              88 PointOfOriginUB04                352  352   Char Point of origin for admission or visit, UB-04 standard coding
+SC  2017 CORE              89 PRDAY1                           353  357   Num  Number of days from admission to I10_PR1
+SC  2017 CORE              90 PRDAY2                           358  362   Num  Number of days from admission to I10_PR2
+SC  2017 CORE              91 PRDAY3                           363  367   Num  Number of days from admission to I10_PR3
+SC  2017 CORE              92 PRDAY4                           368  372   Num  Number of days from admission to I10_PR4
+SC  2017 CORE              93 PRDAY5                           373  377   Num  Number of days from admission to I10_PR5
+SC  2017 CORE              94 PRDAY6                           378  382   Num  Number of days from admission to I10_PR6
+SC  2017 CORE              95 PRDAY7                           383  387   Num  Number of days from admission to I10_PR7
+SC  2017 CORE              96 PRDAY8                           388  392   Num  Number of days from admission to I10_PR8
+SC  2017 CORE              97 PRDAY9                           393  397   Num  Number of days from admission to I10_PR9
+SC  2017 CORE              98 PRDAY10                          398  402   Num  Number of days from admission to I10_PR10
+SC  2017 CORE              99 PRDAY11                          403  407   Num  Number of days from admission to I10_PR11
+SC  2017 CORE             100 PRDAY12                          408  412   Num  Number of days from admission to I10_PR12
+SC  2017 CORE             101 PRDAY13                          413  417   Num  Number of days from admission to I10_PR13
+SC  2017 CORE             102 PRVER                            418  420   Num  Procedure Version
+SC  2017 CORE             103 PSTATE                           421  422   Char Patient State postal code
+SC  2017 CORE             104 PSTCO                            423  427   Num  Patient state/county FIPS code
+SC  2017 CORE             105 RACE                             428  429   Num  Race (uniform)
+SC  2017 CORE             106 RACE_EDIT                        430  431   Num  Race Edit Checks
+SC  2017 CORE             107 RACE_X                           432  434   Char Race (as received from source)
+SC  2017 CORE             108 TOTCHG                           435  444   Num  Total charges (cleaned)
+SC  2017 CORE             109 TOTCHG_X                         445  459 2 Num  Total charges (as received from source)
+SC  2017 CORE             110 TRAN_IN                          460  461   Num  Transfer in indicator
+SC  2017 CORE             111 TRAN_OUT                         462  463   Num  Transfer out indicator
+SC  2017 CORE             112 YEAR                             464  467   Num  Calendar year
+SC  2017 CORE             113 ZIPINC_QRTL                      468  470   Num  Median household income national quartile for patient ZIP Code
+SC  2017 CORE             114 AGEGROUP                         471  473   Num  Age Group
+SC  2017 CORE             115 AYEAR                            474  477   Num  Admission year

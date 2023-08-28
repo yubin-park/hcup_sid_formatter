@@ -1,0 +1,99 @@
+Columns   Description:
+=======   ============
+ 1- 2     State postal code
+ 5- 8     Discharge year of data
+10-14     File name
+19-21     Variable number
+23-30     Variable name
+32-34     Starting column of variable in ASCII file
+36-38     Ending column of variable in ASCII file
+   40     Non-zero number of digits after decimal point for numeric variable
+42-45     Variable type (NUM=numeric; CHAR=character)
+46-88     Variable label
+
+
+NY  1997 SPEC     1   SEQ_SID  1   13    Num I:HCUP SID record sequence number
+NY  1997 SPEC     2   PSTCO    14  18    Num I:Patient state/county FIPS code
+NY  1997 SPEC     3   BWT      19  23    Num I:Birthweight in grams
+NY  1997 SPEC     4   TMDX1    24  25    Num I:Time of onset: principal diagnosis
+NY  1997 SPEC     5   TMDX2    26  27    Num I:Time of onset: diagnosis 2
+NY  1997 SPEC     6   TMDX3    28  29    Num I:Time of onset: diagnosis 3
+NY  1997 SPEC     7   TMDX4    30  31    Num I:Time of onset: diagnosis 4
+NY  1997 SPEC     8   TMDX5    32  33    Num I:Time of onset: diagnosis 5
+NY  1997 SPEC     9   TMDX6    34  35    Num I:Time of onset: diagnosis 6
+NY  1997 SPEC     10  TMDX7    36  37    Num I:Time of onset: diagnosis 7
+NY  1997 SPEC     11  TMDX8    38  39    Num I:Time of onset: diagnosis 8
+NY  1997 SPEC     12  TMDX9    40  41    Num I:Time of onset: diagnosis 9
+NY  1997 SPEC     13  TMDX10   42  43    Num I:Time of onset: diagnosis 10
+NY  1997 SPEC     14  TMDX11   44  45    Num I:Time of onset: diagnosis 11
+NY  1997 SPEC     15  TMDX12   46  47    Num I:Time of onset: diagnosis 12
+NY  1997 SPEC     16  TMDX13   48  49    Num I:Time of onset: diagnosis 13
+NY  1997 SPEC     17  TMDX14   50  51    Num I:Time of onset: diagnosis 14
+NY  1997 SPEC     18  TMDX15   52  53    Num I:Time of onset: diagnosis 15
+NY  1997 SPEC     19  PAY1_X   54  55    CharI:Primary exp. payer (from data source)
+NY  1997 SPEC     20  PAY2_X   56  57    CharI:Secondary exp. payer (from data source
+NY  1997 SPEC     21  PAY3_X   58  59    CharI:Tertiary exp. payer (from data source)
+NY  1997 SPEC     22  REVCD1   60  63    CharI:Revenue code 1 (from data source)
+NY  1997 SPEC     23  REVCD2   64  67    CharI:Revenue code 2 (from data source)
+NY  1997 SPEC     24  REVCD3   68  71    CharI:Revenue code 3 (from data source)
+NY  1997 SPEC     25  REVCD4   72  75    CharI:Revenue code 4 (from data source)
+NY  1997 SPEC     26  REVCD5   76  79    CharI:Revenue code 5 (from data source)
+NY  1997 SPEC     27  REVCD6   80  83    CharI:Revenue code 6 (from data source)
+NY  1997 SPEC     28  REVCD7   84  87    CharI:Revenue code 7 (from data source)
+NY  1997 SPEC     29  REVCD8   88  91    CharI:Revenue code 8 (from data source)
+NY  1997 SPEC     30  REVCD9   92  95    CharI:Revenue code 9 (from data source)
+NY  1997 SPEC     31  REVCD10  96  99    CharI:Revenue code 10 (from data source)
+NY  1997 SPEC     32  REVCD11  100 103   CharI:Revenue code 11 (from data source)
+NY  1997 SPEC     33  REVCD12  104 107   CharI:Revenue code 12 (from data source)
+NY  1997 SPEC     34  REVCD13  108 111   CharI:Revenue code 13 (from data source)
+NY  1997 SPEC     35  REVCD14  112 115   CharI:Revenue code 14 (from data source)
+NY  1997 SPEC     36  REVCD15  116 119   CharI:Revenue code 15 (from data source)
+NY  1997 SPEC     37  REVCD16  120 123   CharI:Revenue code 16 (from data source)
+NY  1997 SPEC     38  REVCD17  124 127   CharI:Revenue code 17 (from data source)
+NY  1997 SPEC     39  REVCD18  128 131   CharI:Revenue code 18 (from data source)
+NY  1997 SPEC     40  REVCD19  132 135   CharI:Revenue code 19 (from data source)
+NY  1997 SPEC     41  REVCD20  136 139   CharI:Revenue code 20 (from data source)
+NY  1997 SPEC     42  REVCD21  140 143   CharI:Revenue code 21 (from data source)
+NY  1997 SPEC     43  REVCD22  144 147   CharI:Revenue code 22 (from data source)
+NY  1997 SPEC     44  REVCD23  148 151   CharI:Revenue code 23 (from data source)
+NY  1997 SPEC     45  REVCD24  152 155   CharI:Revenue code 24 (from data source)
+NY  1997 SPEC     46  REVCD25  156 159   CharI:Revenue code 25 (from data source)
+NY  1997 SPEC     47  UNIT1    160 163   Num I:Units of service 1 (from data source)
+NY  1997 SPEC     48  UNIT2    164 167   Num I:Units of service 2 (from data source)
+NY  1997 SPEC     49  UNIT3    168 171   Num I:Units of service 3 (from data source)
+NY  1997 SPEC     50  UNIT4    172 175   Num I:Units of service 4 (from data source)
+NY  1997 SPEC     51  UNIT5    176 179   Num I:Units of service 5 (from data source)
+NY  1997 SPEC     52  CHG1     180 191 2 Num I:Detailed charges 1 (from data source)
+NY  1997 SPEC     53  CHG2     192 203 2 Num I:Detailed charges 2 (from data source)
+NY  1997 SPEC     54  CHG3     204 215 2 Num I:Detailed charges 3 (from data source)
+NY  1997 SPEC     55  CHG4     216 227 2 Num I:Detailed charges 4 (from data source)
+NY  1997 SPEC     56  CHG5     228 239 2 Num I:Detailed charges 5 (from data source)
+NY  1997 SPEC     57  CHG6     240 251 2 Num I:Detailed charges 6 (from data source)
+NY  1997 SPEC     58  CHG7     252 263 2 Num I:Detailed charges 7 (from data source)
+NY  1997 SPEC     59  CHG8     264 275 2 Num I:Detailed charges 8 (from data source)
+NY  1997 SPEC     60  CHG9     276 287 2 Num I:Detailed charges 9 (from data source)
+NY  1997 SPEC     61  CHG10    288 299 2 Num I:Detailed charges 10 (from data source)
+NY  1997 SPEC     62  CHG11    300 311 2 Num I:Detailed charges 11 (from data source)
+NY  1997 SPEC     63  CHG12    312 323 2 Num I:Detailed charges 12 (from data source)
+NY  1997 SPEC     64  CHG13    324 335 2 Num I:Detailed charges 13 (from data source)
+NY  1997 SPEC     65  CHG14    336 347 2 Num I:Detailed charges 14 (from data source)
+NY  1997 SPEC     66  CHG15    348 359 2 Num I:Detailed charges 15 (from data source)
+NY  1997 SPEC     67  CHG16    360 371 2 Num I:Detailed charges 16 (from data source)
+NY  1997 SPEC     68  CHG17    372 383 2 Num I:Detailed charges 17 (from data source)
+NY  1997 SPEC     69  CHG18    384 395 2 Num I:Detailed charges 18 (from data source)
+NY  1997 SPEC     70  CHG19    396 407 2 Num I:Detailed charges 19 (from data source)
+NY  1997 SPEC     71  CHG20    408 419 2 Num I:Detailed charges 20 (from data source)
+NY  1997 SPEC     72  CHG21    420 431 2 Num I:Detailed charges 21 (from data source)
+NY  1997 SPEC     73  CHG22    432 443 2 Num I:Detailed charges 22 (from data source)
+NY  1997 SPEC     74  CHG23    444 455 2 Num I:Detailed charges 23 (from data source)
+NY  1997 SPEC     75  CHG24    456 467 2 Num I:Detailed charges 24 (from data source)
+NY  1997 SPEC     76  CHG25    468 479 2 Num I:Detailed charges 25 (from data source)
+NY  1997 SPEC     77  RATE1    480 485 2 Num I:Daily rate 1 (from data source)
+NY  1997 SPEC     78  RATE2    486 491 2 Num I:Daily rate 2 (from data source)
+NY  1997 SPEC     79  RATE3    492 497 2 Num I:Daily rate 3 (from data source)
+NY  1997 SPEC     80  RATE4    498 503 2 Num I:Daily rate 4 (from data source)
+NY  1997 SPEC     81  RATE5    504 509 2 Num I:Daily rate 5 (from data source)
+NY  1997 SPEC     82  ADATE    510 519   CharI:Admission date
+NY  1997 SPEC     83  DDATE    520 529   CharI:Discharge date
+NY  1997 SPEC     84  DOB      530 539   CharI:Date of birth
+NY  1997 SPEC     85  ZIP      540 544   CharI:Patient zip code

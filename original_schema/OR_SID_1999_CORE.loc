@@ -1,0 +1,109 @@
+Columns   Description:
+=======   ============
+ 1- 2     State postal code
+ 5- 8     Discharge year of data
+10-14     File name
+19-21     Variable number
+23-40     Variable name
+43-45     Starting column of variable in ASCII file
+47-49     Ending column of variable in ASCII file
+   51     Non-zero number of digits after decimal point for numeric variable
+53-56     Variable type (NUM=numeric; CHAR=character)
+57-88     Variable label
+
+
+OR  1999 CORE     1   KEY                 1   14    Num HCUP record identifier
+OR  1999 CORE     2   AGE                 15  17    Num Age in years at admission
+OR  1999 CORE     3   AGEDAY              18  20    Num Age in days (when age < 1 year)
+OR  1999 CORE     4   AGEMONTH            21  23    Num Age in months (when age < 11 years)
+OR  1999 CORE     5   AMONTH              24  25    Num Admission month
+OR  1999 CORE     6   ASOURCE             26  27    Num Admission source (uniform)
+OR  1999 CORE     7   ASOURCE_X           28  29    CharAdmission source (as received from source)
+OR  1999 CORE     8   ATYPE               30  31    Num Admission type
+OR  1999 CORE     9   AWEEKEND            32  33    Num Admission day is a weekend
+OR  1999 CORE     10  DIED                34  35    Num Died during hospitalization
+OR  1999 CORE     11  DISPUB92            36  37    Num Disposition of patient (UB-92 standard coding)
+OR  1999 CORE     12  DISPUNIFORM         38  39    Num Disposition of patient (uniform)
+OR  1999 CORE     13  DISP_X              40  41    CharDisposition of patient (as received from source)
+OR  1999 CORE     14  DQTR                42  42    Num Discharge quarter
+OR  1999 CORE     15  DRG                 43  45    Num DRG in effect on discharge date
+OR  1999 CORE     16  DRG10               46  48    Num DRG, version 10
+OR  1999 CORE     17  DRG18               49  51    Num DRG, version 18
+OR  1999 CORE     18  DRGVER              52  53    Num DRG grouper version used on discharge date
+OR  1999 CORE     19  DSHOSPID            54  66    CharData source hospital identifier
+OR  1999 CORE     20  DX1                 67  71    CharPrincipal diagnosis
+OR  1999 CORE     21  DX2                 72  76    CharDiagnosis 2
+OR  1999 CORE     22  DX3                 77  81    CharDiagnosis 3
+OR  1999 CORE     23  DX4                 82  86    CharDiagnosis 4
+OR  1999 CORE     24  DX5                 87  91    CharDiagnosis 5
+OR  1999 CORE     25  DX6                 92  96    CharDiagnosis 6
+OR  1999 CORE     26  DX7                 97  101   CharDiagnosis 7
+OR  1999 CORE     27  DX8                 102 106   CharDiagnosis 8
+OR  1999 CORE     28  DX9                 107 111   CharDiagnosis 9
+OR  1999 CORE     29  DX10                112 116   CharDiagnosis 10
+OR  1999 CORE     30  DX11                117 121   CharDiagnosis 11
+OR  1999 CORE     31  DXCCS1              122 125   Num CCS: principal diagnosis
+OR  1999 CORE     32  DXCCS2              126 129   Num CCS: diagnosis 2
+OR  1999 CORE     33  DXCCS3              130 133   Num CCS: diagnosis 3
+OR  1999 CORE     34  DXCCS4              134 137   Num CCS: diagnosis 4
+OR  1999 CORE     35  DXCCS5              138 141   Num CCS: diagnosis 5
+OR  1999 CORE     36  DXCCS6              142 145   Num CCS: diagnosis 6
+OR  1999 CORE     37  DXCCS7              146 149   Num CCS: diagnosis 7
+OR  1999 CORE     38  DXCCS8              150 153   Num CCS: diagnosis 8
+OR  1999 CORE     39  DXCCS9              154 157   Num CCS: diagnosis 9
+OR  1999 CORE     40  DXCCS10             158 161   Num CCS: diagnosis 10
+OR  1999 CORE     41  DXCCS11             162 165   Num CCS: diagnosis 11
+OR  1999 CORE     42  FEMALE              166 167   Num Indicator of sex
+OR  1999 CORE     43  HOSPST              168 169   CharHospital state postal code
+OR  1999 CORE     44  LOS                 170 174   Num Length of stay (cleaned)
+OR  1999 CORE     45  LOS_X               175 180   Num Length of stay (uncleaned)
+OR  1999 CORE     46  MDC                 181 182   Num MDC in effect on discharge date
+OR  1999 CORE     47  MDC10               183 184   Num MDC, version 10
+OR  1999 CORE     48  MDC18               185 186   Num MDC, version 18
+OR  1999 CORE     49  NDX                 187 188   Num Number of diagnoses on this record
+OR  1999 CORE     50  NEOMAT              189 189   Num Neonatal and/or maternal DX and/or PR
+OR  1999 CORE     51  NPR                 190 191   Num Number of procedures on this record
+OR  1999 CORE     52  PAY1                192 193   Num Primary expected payer (uniform)
+OR  1999 CORE     53  PAY2                194 195   Num Secondary expected payer (uniform)
+OR  1999 CORE     54  PAY1_X              196 196   CharPrimary expected payer (as received from source)
+OR  1999 CORE     55  PAY2_X              197 197   CharSecondary expected payer (as received from source)
+OR  1999 CORE     56  PAY3_X              198 198   CharTertiary expected payer (as received from source)
+OR  1999 CORE     57  PR1                 199 202   CharPrincipal procedure
+OR  1999 CORE     58  PR2                 203 206   CharProcedure 2
+OR  1999 CORE     59  PR3                 207 210   CharProcedure 3
+OR  1999 CORE     60  PR4                 211 214   CharProcedure 4
+OR  1999 CORE     61  PR5                 215 218   CharProcedure 5
+OR  1999 CORE     62  PR6                 219 222   CharProcedure 6
+OR  1999 CORE     63  PRCCS1              223 225   Num CCS: principal procedure
+OR  1999 CORE     64  PRCCS2              226 228   Num CCS: procedure 2
+OR  1999 CORE     65  PRCCS3              229 231   Num CCS: procedure 3
+OR  1999 CORE     66  PRCCS4              232 234   Num CCS: procedure 4
+OR  1999 CORE     67  PRCCS5              235 237   Num CCS: procedure 5
+OR  1999 CORE     68  PRCCS6              238 240   Num CCS: procedure 6
+OR  1999 CORE     69  PRDAY1              241 243   Num Number of days from admission to PR1
+OR  1999 CORE     70  PRDAY2              244 246   Num Number of days from admission to PR2
+OR  1999 CORE     71  PRDAY3              247 249   Num Number of days from admission to PR3
+OR  1999 CORE     72  PRDAY4              250 252   Num Number of days from admission to PR4
+OR  1999 CORE     73  PRDAY5              253 255   Num Number of days from admission to PR5
+OR  1999 CORE     74  PRDAY6              256 258   Num Number of days from admission to PR6
+OR  1999 CORE     75  RDRG                259 262   CharRefined DRG
+OR  1999 CORE     76  TOTCHG              263 272   Num Total charges (cleaned)
+OR  1999 CORE     77  TOTCHG_X            273 287 2 Num Total charges (as received from source)
+OR  1999 CORE     78  YEAR                288 291   Num Calendar year
+OR  1999 CORE     79  ZIP                 292 296   CharPatient zip code
+OR  1999 CORE     80  AYEAR               297 300   Num Admission year
+OR  1999 CORE     81  DMONTH              301 302   Num Discharge month
+OR  1999 CORE     82  BMONTH              303 304   Num Birth month
+OR  1999 CORE     83  BYEAR               305 308   Num Birth year
+OR  1999 CORE     84  PRMONTH1            309 310   Num Month of procedure 1
+OR  1999 CORE     85  PRMONTH2            311 312   Num Month of procedure 2
+OR  1999 CORE     86  PRMONTH3            313 314   Num Month of procedure 3
+OR  1999 CORE     87  PRMONTH4            315 316   Num Month of procedure 4
+OR  1999 CORE     88  PRMONTH5            317 318   Num Month of procedure 5
+OR  1999 CORE     89  PRMONTH6            319 320   Num Month of procedure 6
+OR  1999 CORE     90  PRYEAR1             321 324   Num Year of procedure 1
+OR  1999 CORE     91  PRYEAR2             325 328   Num Year of procedure 2
+OR  1999 CORE     92  PRYEAR3             329 332   Num Year of procedure 3
+OR  1999 CORE     93  PRYEAR4             333 336   Num Year of procedure 4
+OR  1999 CORE     94  PRYEAR5             337 340   Num Year of procedure 5
+OR  1999 CORE     95  PRYEAR6             341 344   Num Year of procedure 6

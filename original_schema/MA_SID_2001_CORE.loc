@@ -1,0 +1,134 @@
+Data Set Name: MA_SID_2001_CORE                
+Number of Observations: 808583
+Total Record Length: 421
+Total Number of Variables: 114
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 49    Variable name
+51- 54    Starting column of variable in ASCII file
+56- 59    Ending column of variable in ASCII file
+    61    Non-zero number of digits after decimal point for numeric variable
+63- 66    Variable type (Num=numeric; Char=character)
+68-167    Variable label
+
+
+MA  2001 CORE               1 KEY                    1   14   Num  HCUP record identifier
+MA  2001 CORE               2 ADRG                  15   17   Num  All Patient Refined DRG
+MA  2001 CORE               3 ADRGRISKMORTALITY     18   19   Num  All Patient Refined DRG mortality risk
+MA  2001 CORE               4 ADRGSEV               20   21   Num  All Patient Refined DRG severity level
+MA  2001 CORE               5 AGE                   22   24   Num  Age in years at admission
+MA  2001 CORE               6 AMDC                  25   26   Num  All Patient Refined MDC
+MA  2001 CORE               7 AMONTH                27   28   Num  Admission month
+MA  2001 CORE               8 ASOURCE               29   30   Num  Admission source (uniform)
+MA  2001 CORE               9 ASOURCE_X             31   31   Char Admission source (as received from source)
+MA  2001 CORE              10 ATYPE                 32   33   Num  Admission type
+MA  2001 CORE              11 AWEEKEND              34   35   Num  Admission day is a weekend
+MA  2001 CORE              12 BWT                   36   39   Num  Birth weight in grams
+MA  2001 CORE              13 DIED                  40   41   Num  Died during hospitalization
+MA  2001 CORE              14 DISP_X                42   43   Char Disposition of patient (as received from source)
+MA  2001 CORE              15 DISPUB92              44   45   Num  Disposition of patient (UB-92 standard coding)
+MA  2001 CORE              16 DISPUNIFORM           46   47   Num  Disposition of patient (uniform)
+MA  2001 CORE              17 DQTR                  48   49   Num  Discharge quarter
+MA  2001 CORE              18 DRG                   50   52   Num  DRG in effect on discharge date
+MA  2001 CORE              19 DRG18                 53   55   Num  DRG, version 18
+MA  2001 CORE              20 DRGVER                56   57   Num  DRG grouper version used on discharge date
+MA  2001 CORE              21 DSHOSPID              58   70   Char Data source hospital identifier
+MA  2001 CORE              22 DX1                   71   75   Char Principal diagnosis
+MA  2001 CORE              23 DX2                   76   80   Char Diagnosis 2
+MA  2001 CORE              24 DX3                   81   85   Char Diagnosis 3
+MA  2001 CORE              25 DX4                   86   90   Char Diagnosis 4
+MA  2001 CORE              26 DX5                   91   95   Char Diagnosis 5
+MA  2001 CORE              27 DX6                   96  100   Char Diagnosis 6
+MA  2001 CORE              28 DX7                  101  105   Char Diagnosis 7
+MA  2001 CORE              29 DX8                  106  110   Char Diagnosis 8
+MA  2001 CORE              30 DX9                  111  115   Char Diagnosis 9
+MA  2001 CORE              31 DX10                 116  120   Char Diagnosis 10
+MA  2001 CORE              32 DX11                 121  125   Char Diagnosis 11
+MA  2001 CORE              33 DX12                 126  130   Char Diagnosis 12
+MA  2001 CORE              34 DX13                 131  135   Char Diagnosis 13
+MA  2001 CORE              35 DX14                 136  140   Char Diagnosis 14
+MA  2001 CORE              36 DX15                 141  145   Char Diagnosis 15
+MA  2001 CORE              37 DX16                 146  150   Char Diagnosis 16
+MA  2001 CORE              38 DXCCS1               151  154   Num  CCS: principal diagnosis
+MA  2001 CORE              39 DXCCS2               155  158   Num  CCS: diagnosis 2
+MA  2001 CORE              40 DXCCS3               159  162   Num  CCS: diagnosis 3
+MA  2001 CORE              41 DXCCS4               163  166   Num  CCS: diagnosis 4
+MA  2001 CORE              42 DXCCS5               167  170   Num  CCS: diagnosis 5
+MA  2001 CORE              43 DXCCS6               171  174   Num  CCS: diagnosis 6
+MA  2001 CORE              44 DXCCS7               175  178   Num  CCS: diagnosis 7
+MA  2001 CORE              45 DXCCS8               179  182   Num  CCS: diagnosis 8
+MA  2001 CORE              46 DXCCS9               183  186   Num  CCS: diagnosis 9
+MA  2001 CORE              47 DXCCS10              187  190   Num  CCS: diagnosis 10
+MA  2001 CORE              48 DXCCS11              191  194   Num  CCS: diagnosis 11
+MA  2001 CORE              49 DXCCS12              195  198   Num  CCS: diagnosis 12
+MA  2001 CORE              50 DXCCS13              199  202   Num  CCS: diagnosis 13
+MA  2001 CORE              51 DXCCS14              203  206   Num  CCS: diagnosis 14
+MA  2001 CORE              52 DXCCS15              207  210   Num  CCS: diagnosis 15
+MA  2001 CORE              53 DXCCS16              211  214   Num  CCS: diagnosis 16
+MA  2001 CORE              54 FEMALE               215  216   Num  Indicator of sex
+MA  2001 CORE              55 HOSPST               217  218   Char Hospital state postal code
+MA  2001 CORE              56 LOS                  219  223   Num  Length of stay (cleaned)
+MA  2001 CORE              57 LOS_X                224  229   Num  Length of stay (as received from source)
+MA  2001 CORE              58 MDC                  230  231   Num  MDC in effect on discharge date
+MA  2001 CORE              59 MDC18                232  233   Num  MDC, version 18
+MA  2001 CORE              60 NDX                  234  235   Num  Number of diagnoses on this record
+MA  2001 CORE              61 NEOMAT               236  237   Num  Neonatal and/or maternal DX and/or PR
+MA  2001 CORE              62 NPR                  238  239   Num  Number of procedures on this record
+MA  2001 CORE              63 PAY1                 240  241   Num  Primary expected payer (uniform)
+MA  2001 CORE              64 PAY2                 242  243   Num  Secondary expected payer (uniform)
+MA  2001 CORE              65 PAY1_X               244  244   Char Primary expected payer (as received from source)
+MA  2001 CORE              66 PAY2_X               245  245   Char Secondary expected payer (as received from source)
+MA  2001 CORE              67 PAYER1_X             246  248   Char Primary expected payer plan identifier (as received from source)
+MA  2001 CORE              68 PAYER2_X             249  251   Char Secondary expected payer plan identifier (as received from source)
+MA  2001 CORE              69 PR1                  252  255   Char Principal procedure
+MA  2001 CORE              70 PR2                  256  259   Char Procedure 2
+MA  2001 CORE              71 PR3                  260  263   Char Procedure 3
+MA  2001 CORE              72 PR4                  264  267   Char Procedure 4
+MA  2001 CORE              73 PR5                  268  271   Char Procedure 5
+MA  2001 CORE              74 PR6                  272  275   Char Procedure 6
+MA  2001 CORE              75 PR7                  276  279   Char Procedure 7
+MA  2001 CORE              76 PR8                  280  283   Char Procedure 8
+MA  2001 CORE              77 PR9                  284  287   Char Procedure 9
+MA  2001 CORE              78 PR10                 288  291   Char Procedure 10
+MA  2001 CORE              79 PR11                 292  295   Char Procedure 11
+MA  2001 CORE              80 PR12                 296  299   Char Procedure 12
+MA  2001 CORE              81 PR13                 300  303   Char Procedure 13
+MA  2001 CORE              82 PR14                 304  307   Char Procedure 14
+MA  2001 CORE              83 PR15                 308  311   Char Procedure 15
+MA  2001 CORE              84 PRCCS1               312  314   Num  CCS: principal procedure
+MA  2001 CORE              85 PRCCS2               315  317   Num  CCS: procedure 2
+MA  2001 CORE              86 PRCCS3               318  320   Num  CCS: procedure 3
+MA  2001 CORE              87 PRCCS4               321  323   Num  CCS: procedure 4
+MA  2001 CORE              88 PRCCS5               324  326   Num  CCS: procedure 5
+MA  2001 CORE              89 PRCCS6               327  329   Num  CCS: procedure 6
+MA  2001 CORE              90 PRCCS7               330  332   Num  CCS: procedure 7
+MA  2001 CORE              91 PRCCS8               333  335   Num  CCS: procedure 8
+MA  2001 CORE              92 PRCCS9               336  338   Num  CCS: procedure 9
+MA  2001 CORE              93 PRCCS10              339  341   Num  CCS: procedure 10
+MA  2001 CORE              94 PRCCS11              342  344   Num  CCS: procedure 11
+MA  2001 CORE              95 PRCCS12              345  347   Num  CCS: procedure 12
+MA  2001 CORE              96 PRCCS13              348  350   Num  CCS: procedure 13
+MA  2001 CORE              97 PRCCS14              351  353   Num  CCS: procedure 14
+MA  2001 CORE              98 PRCCS15              354  356   Num  CCS: procedure 15
+MA  2001 CORE              99 PRDAY1               357  359   Num  Number of days from admission to PR1
+MA  2001 CORE             100 PRDAY2               360  362   Num  Number of days from admission to PR2
+MA  2001 CORE             101 PRDAY3               363  365   Num  Number of days from admission to PR3
+MA  2001 CORE             102 RACE                 366  367   Num  Race (uniform)
+MA  2001 CORE             103 RACE_X               368  368   Char Race (as received from source)
+MA  2001 CORE             104 TOTCHG               369  378   Num  Total charges (cleaned)
+MA  2001 CORE             105 TOTCHG_X             379  393 2 Num  Total charges (as received from source)
+MA  2001 CORE             106 YEAR                 394  397   Num  Calendar year
+MA  2001 CORE             107 AYEAR                398  401   Num  Admission year
+MA  2001 CORE             108 DMONTH               402  403   Num  Discharge month
+MA  2001 CORE             109 PRMONTH1             404  405   Num  Month of procedure 1
+MA  2001 CORE             110 PRMONTH2             406  407   Num  Month of procedure 2
+MA  2001 CORE             111 PRMONTH3             408  409   Num  Month of procedure 3
+MA  2001 CORE             112 PRYEAR1              410  413   Num  Year of procedure 1
+MA  2001 CORE             113 PRYEAR2              414  417   Num  Year of procedure 2
+MA  2001 CORE             114 PRYEAR3              418  421   Num  Year of procedure 3

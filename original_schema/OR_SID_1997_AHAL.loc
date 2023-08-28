@@ -1,0 +1,21 @@
+Columns   Description:
+=======   ============
+ 1- 2     State postal code
+ 5- 8     Discharge year of data
+10-14     File name
+19-21     Variable number
+23-30     Variable name
+32-34     Starting column of variable in ASCII file
+36-38     Ending column of variable in ASCII file
+   40     Non-zero number of digits after decimal point for numeric variable
+42-45     Variable type (NUM=numeric; CHAR=character)
+46-88     Variable label
+
+
+OR  1997 AHAL     1   HOSPSTCO 1   5     Num Hospital modified FIPS state/county code
+OR  1997 AHAL     2   HOSPID   6   10    Num HCUP hospital ID number (SSHHH)
+OR  1997 AHAL     3   DSHOSPID 11  23    CharI:Data source hospital ID number
+OR  1997 AHAL     4   YEAR     24  25    Num Calendar year
+OR  1997 AHAL     5   HOSPST   26  27    CharHospital state postal code
+OR  1997 AHAL     6   IDNUMBER 28  33    CharHCUP AHA ID number without the leading 6
+OR  1997 AHAL     7   AHAID    34  40    CharAHA ID number with the leading 6

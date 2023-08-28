@@ -1,0 +1,142 @@
+Data Set Name: OR_SIDC_2006_CORE               
+Number of Observations: 377019
+Total Record Length: 462
+Total Number of Variables: 122
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 56    Variable name
+58- 61    Starting column of variable in ASCII file
+63- 66    Ending column of variable in ASCII file
+    68    Non-zero number of digits after decimal point for numeric variable
+70- 73    Variable type (Num=numeric; Char=character)
+75-174    Variable label
+
+
+OR  2006 CORE               1 KEY                           1   14   Num  HCUP record identifier
+OR  2006 CORE               2 AGE                          15   17   Num  Age in years at admission
+OR  2006 CORE               3 AGEDAY                       18   20   Num  Age in days (when age < 1 year)
+OR  2006 CORE               4 AGEMONTH                     21   23   Num  Age in months (when age < 11 years)
+OR  2006 CORE               5 AMONTH                       24   25   Num  Admission month
+OR  2006 CORE               6 ASOURCE                      26   27   Num  Admission source (uniform)
+OR  2006 CORE               7 ASOURCE_X                    28   29   Char Admission source (as received from source)
+OR  2006 CORE               8 ASOURCEUB92                  30   30   Char Admission source (UB-92 standard coding)
+OR  2006 CORE               9 ATYPE                        31   32   Num  Admission type
+OR  2006 CORE              10 AWEEKEND                     33   34   Num  Admission day is a weekend
+OR  2006 CORE              11 DIED                         35   36   Num  Died during hospitalization
+OR  2006 CORE              12 DISP_X                       37   38   Char Disposition of patient (as received from source)
+OR  2006 CORE              13 DISPUB92                     39   40   Num  Disposition of patient (UB-92 standard coding)
+OR  2006 CORE              14 DISPUNIFORM                  41   42   Num  Disposition of patient (uniform)
+OR  2006 CORE              15 DQTR                         43   44   Num  Discharge quarter
+OR  2006 CORE              16 DRG                          45   47   Num  DRG in effect on discharge date
+OR  2006 CORE              17 DRG18                        48   50   Num  DRG, version 18
+OR  2006 CORE              18 DRG24                        51   53   Num  DRG, version 24
+OR  2006 CORE              19 DRGVER                       54   55   Num  DRG grouper version used on discharge date
+OR  2006 CORE              20 DSHOSPID                     56   68   Char Data source hospital identifier
+OR  2006 CORE              21 DX1                          69   73   Char Principal diagnosis
+OR  2006 CORE              22 DX2                          74   78   Char Diagnosis 2
+OR  2006 CORE              23 DX3                          79   83   Char Diagnosis 3
+OR  2006 CORE              24 DX4                          84   88   Char Diagnosis 4
+OR  2006 CORE              25 DX5                          89   93   Char Diagnosis 5
+OR  2006 CORE              26 DX6                          94   98   Char Diagnosis 6
+OR  2006 CORE              27 DX7                          99  103   Char Diagnosis 7
+OR  2006 CORE              28 DX8                         104  108   Char Diagnosis 8
+OR  2006 CORE              29 DX9                         109  113   Char Diagnosis 9
+OR  2006 CORE              30 DXCCS1                      114  117   Num  CCS: principal diagnosis
+OR  2006 CORE              31 DXCCS2                      118  121   Num  CCS: diagnosis 2
+OR  2006 CORE              32 DXCCS3                      122  125   Num  CCS: diagnosis 3
+OR  2006 CORE              33 DXCCS4                      126  129   Num  CCS: diagnosis 4
+OR  2006 CORE              34 DXCCS5                      130  133   Num  CCS: diagnosis 5
+OR  2006 CORE              35 DXCCS6                      134  137   Num  CCS: diagnosis 6
+OR  2006 CORE              36 DXCCS7                      138  141   Num  CCS: diagnosis 7
+OR  2006 CORE              37 DXCCS8                      142  145   Num  CCS: diagnosis 8
+OR  2006 CORE              38 DXCCS9                      146  149   Num  CCS: diagnosis 9
+OR  2006 CORE              39 ECODE1                      150  154   Char E code 1
+OR  2006 CORE              40 ECODE2                      155  159   Char E code 2
+OR  2006 CORE              41 ECODE3                      160  164   Char E code 3
+OR  2006 CORE              42 ECODE4                      165  169   Char E code 4
+OR  2006 CORE              43 ECODE5                      170  174   Char E code 5
+OR  2006 CORE              44 ECODE6                      175  179   Char E code 6
+OR  2006 CORE              45 E_CCS1                      180  183   Num  CCS: E Code 1
+OR  2006 CORE              46 E_CCS2                      184  187   Num  CCS: E Code 2
+OR  2006 CORE              47 E_CCS3                      188  191   Num  CCS: E Code 3
+OR  2006 CORE              48 E_CCS4                      192  195   Num  CCS: E Code 4
+OR  2006 CORE              49 E_CCS5                      196  199   Num  CCS: E Code 5
+OR  2006 CORE              50 E_CCS6                      200  203   Num  CCS: E Code 6
+OR  2006 CORE              51 FEMALE                      204  205   Num  Indicator of sex
+OR  2006 CORE              52 HCUP_ED                     206  207   Num  HCUP Emergency Department service indicator
+OR  2006 CORE              53 HCUP_OS                     208  209   Num  HCUP Observation Stay service indicator
+OR  2006 CORE              54 HOSPBRTH                    210  212   Num  Indicator of birth in this hospital
+OR  2006 CORE              55 HOSPST                      213  214   Char Hospital state postal code
+OR  2006 CORE              56 LOS                         215  219   Num  Length of stay (cleaned)
+OR  2006 CORE              57 LOS_X                       220  225   Num  Length of stay (as received from source)
+OR  2006 CORE              58 MDC                         226  227   Num  MDC in effect on discharge date
+OR  2006 CORE              59 MDC18                       228  229   Num  MDC, version 18
+OR  2006 CORE              60 MDC24                       230  231   Num  MDC, version 24
+OR  2006 CORE              61 MEDINCSTQ                   232  233   Num  Median household income state quartile for patient ZIP Code
+OR  2006 CORE              62 NDX                         234  235   Num  Number of diagnoses on this record
+OR  2006 CORE              63 NECODE                      236  237   Num  Number of E codes on this record
+OR  2006 CORE              64 NEOMAT                      238  239   Num  Neonatal and/or maternal DX and/or PR
+OR  2006 CORE              65 NPR                         240  241   Num  Number of procedures on this record
+OR  2006 CORE              66 PAY1                        242  243   Num  Primary expected payer (uniform)
+OR  2006 CORE              67 PAY2                        244  245   Num  Secondary expected payer (uniform)
+OR  2006 CORE              68 PAY1_X                      246  254   Char Primary expected payer (as received from source)
+OR  2006 CORE              69 PAY2_X                      255  263   Char Secondary expected payer (as received from source)
+OR  2006 CORE              70 PAY3_X                      264  272   Char Tertiary expected payer (as received from source)
+OR  2006 CORE              71 PL_CBSA                     273  275   Num  Patient location: Core Based Statistical Area (CBSA)
+OR  2006 CORE              72 PL_MSA1993                  276  278   Num  Patient location: Metropolitan Statistical Area (MSA), 1993
+OR  2006 CORE              73 PL_NHCS2006                 279  280   Num  Patient Location: NCHS Urban-Rural Code (V2006)
+OR  2006 CORE              74 PL_RUCA10_2005              281  282   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, ten levels
+OR  2006 CORE              75 PL_RUCA2005                 283  286 1 Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes
+OR  2006 CORE              76 PL_RUCA4_2005               287  288   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, four levels
+OR  2006 CORE              77 PL_RUCC2003                 289  290   Num  Patient location: Rural-Urban Continuum Codes(RUCC), 2003
+OR  2006 CORE              78 PL_UIC2003                  291  292   Num  Patient location: Urban Influence Codes, 2003
+OR  2006 CORE              79 PL_UR_CAT4                  293  294   Num  Patient Location: Urban-Rural 4 Categories
+OR  2006 CORE              80 PL_UR_CAT5                  295  296   Num  Patient Location: Urban-Rural 5 Categories
+OR  2006 CORE              81 PR1                         297  300   Char Principal procedure
+OR  2006 CORE              82 PR2                         301  304   Char Procedure 2
+OR  2006 CORE              83 PR3                         305  308   Char Procedure 3
+OR  2006 CORE              84 PR4                         309  312   Char Procedure 4
+OR  2006 CORE              85 PR5                         313  316   Char Procedure 5
+OR  2006 CORE              86 PR6                         317  320   Char Procedure 6
+OR  2006 CORE              87 PRCCS1                      321  323   Num  CCS: principal procedure
+OR  2006 CORE              88 PRCCS2                      324  326   Num  CCS: procedure 2
+OR  2006 CORE              89 PRCCS3                      327  329   Num  CCS: procedure 3
+OR  2006 CORE              90 PRCCS4                      330  332   Num  CCS: procedure 4
+OR  2006 CORE              91 PRCCS5                      333  335   Num  CCS: procedure 5
+OR  2006 CORE              92 PRCCS6                      336  338   Num  CCS: procedure 6
+OR  2006 CORE              93 PRDAY1                      339  343   Num  Number of days from admission to PR1
+OR  2006 CORE              94 PRDAY2                      344  348   Num  Number of days from admission to PR2
+OR  2006 CORE              95 PRDAY3                      349  353   Num  Number of days from admission to PR3
+OR  2006 CORE              96 PRDAY4                      354  358   Num  Number of days from admission to PR4
+OR  2006 CORE              97 PRDAY5                      359  363   Num  Number of days from admission to PR5
+OR  2006 CORE              98 PRDAY6                      364  368   Num  Number of days from admission to PR6
+OR  2006 CORE              99 PROCTYPE                    369  371   Num  Procedure type indicator
+OR  2006 CORE             100 PSTATE                      372  373   Char Patient State postal code
+OR  2006 CORE             101 RDRG                        374  377   Char Refined DRG
+OR  2006 CORE             102 TOTCHG                      378  387   Num  Total charges (cleaned)
+OR  2006 CORE             103 TOTCHG_X                    388  402 2 Num  Total charges (as received from source)
+OR  2006 CORE             104 YEAR                        403  406   Num  Calendar year
+OR  2006 CORE             105 ZIPINC_QRTL                 407  409   Num  Median household income national quartile for patient ZIP Code
+OR  2006 CORE             106 ZIP                         410  414   Char Patient ZIP Code
+OR  2006 CORE             107 AYEAR                       415  418   Num  Admission year
+OR  2006 CORE             108 DMONTH                      419  420   Num  Discharge month
+OR  2006 CORE             109 BMONTH                      421  422   Num  Birth month
+OR  2006 CORE             110 BYEAR                       423  426   Num  Birth year
+OR  2006 CORE             111 PRMONTH1                    427  428   Num  Month of procedure 1
+OR  2006 CORE             112 PRMONTH2                    429  430   Num  Month of procedure 2
+OR  2006 CORE             113 PRMONTH3                    431  432   Num  Month of procedure 3
+OR  2006 CORE             114 PRMONTH4                    433  434   Num  Month of procedure 4
+OR  2006 CORE             115 PRMONTH5                    435  436   Num  Month of procedure 5
+OR  2006 CORE             116 PRMONTH6                    437  438   Num  Month of procedure 6
+OR  2006 CORE             117 PRYEAR1                     439  442   Num  Year of procedure 1
+OR  2006 CORE             118 PRYEAR2                     443  446   Num  Year of procedure 2
+OR  2006 CORE             119 PRYEAR3                     447  450   Num  Year of procedure 3
+OR  2006 CORE             120 PRYEAR4                     451  454   Num  Year of procedure 4
+OR  2006 CORE             121 PRYEAR5                     455  458   Num  Year of procedure 5
+OR  2006 CORE             122 PRYEAR6                     459  462   Num  Year of procedure 6

@@ -1,0 +1,910 @@
+Data Set Name: GA_SIDC_2018_CORE               
+Number of Observations: 1101923
+Total Record Length: 3725
+Total Number of Variables: 889
+Creation Date: 06/25/2020   
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 61    Variable name
+63- 66    Starting column of variable in ASCII file
+68- 71    Ending column of variable in ASCII file
+73- 73    Non-zero number of digits after decimal point for numeric variable
+75- 78    Variable type (Num=numeric; Char=character)
+80-179    Variable label
+
+
+GA  2018 CORE               1 AGE                                1    3   Num  Age in years at admission
+GA  2018 CORE               2 AGEDAY                             4    6   Num  Age in days (when age < 1 year)
+GA  2018 CORE               3 AGEMONTH                           7    9   Num  Age in months (when age < 11 years)
+GA  2018 CORE               4 AMONTH                            10   11   Num  Admission month
+GA  2018 CORE               5 ATYPE                             12   13   Num  Admission type
+GA  2018 CORE               6 AWEEKEND                          14   15   Num  Admission day is a weekend
+GA  2018 CORE               7 BILLTYPE                          16   19   Char Type of bill, UB-04 coding
+GA  2018 CORE               8 BWT                               20   23   Num  Birth weight in grams
+GA  2018 CORE               9 CPT1                              24   28   Char CPT/HCPCS procedure code 1
+GA  2018 CORE              10 CPT2                              29   33   Char CPT/HCPCS procedure code 2
+GA  2018 CORE              11 CPT3                              34   38   Char CPT/HCPCS procedure code 3
+GA  2018 CORE              12 CPT4                              39   43   Char CPT/HCPCS procedure code 4
+GA  2018 CORE              13 CPT5                              44   48   Char CPT/HCPCS procedure code 5
+GA  2018 CORE              14 CPT6                              49   53   Char CPT/HCPCS procedure code 6
+GA  2018 CORE              15 CPT7                              54   58   Char CPT/HCPCS procedure code 7
+GA  2018 CORE              16 CPT8                              59   63   Char CPT/HCPCS procedure code 8
+GA  2018 CORE              17 CPT9                              64   68   Char CPT/HCPCS procedure code 9
+GA  2018 CORE              18 CPT10                             69   73   Char CPT/HCPCS procedure code 10
+GA  2018 CORE              19 CPT11                             74   78   Char CPT/HCPCS procedure code 11
+GA  2018 CORE              20 CPT12                             79   83   Char CPT/HCPCS procedure code 12
+GA  2018 CORE              21 CPT13                             84   88   Char CPT/HCPCS procedure code 13
+GA  2018 CORE              22 CPT14                             89   93   Char CPT/HCPCS procedure code 14
+GA  2018 CORE              23 CPT15                             94   98   Char CPT/HCPCS procedure code 15
+GA  2018 CORE              24 CPT16                             99  103   Char CPT/HCPCS procedure code 16
+GA  2018 CORE              25 CPT17                            104  108   Char CPT/HCPCS procedure code 17
+GA  2018 CORE              26 CPT18                            109  113   Char CPT/HCPCS procedure code 18
+GA  2018 CORE              27 CPT19                            114  118   Char CPT/HCPCS procedure code 19
+GA  2018 CORE              28 CPT20                            119  123   Char CPT/HCPCS procedure code 20
+GA  2018 CORE              29 CPT21                            124  128   Char CPT/HCPCS procedure code 21
+GA  2018 CORE              30 CPT22                            129  133   Char CPT/HCPCS procedure code 22
+GA  2018 CORE              31 CPT23                            134  138   Char CPT/HCPCS procedure code 23
+GA  2018 CORE              32 CPT24                            139  143   Char CPT/HCPCS procedure code 24
+GA  2018 CORE              33 CPT25                            144  148   Char CPT/HCPCS procedure code 25
+GA  2018 CORE              34 CPT26                            149  153   Char CPT/HCPCS procedure code 26
+GA  2018 CORE              35 CPT27                            154  158   Char CPT/HCPCS procedure code 27
+GA  2018 CORE              36 CPT28                            159  163   Char CPT/HCPCS procedure code 28
+GA  2018 CORE              37 CPT29                            164  168   Char CPT/HCPCS procedure code 29
+GA  2018 CORE              38 CPT30                            169  173   Char CPT/HCPCS procedure code 30
+GA  2018 CORE              39 CPT31                            174  178   Char CPT/HCPCS procedure code 31
+GA  2018 CORE              40 CPT32                            179  183   Char CPT/HCPCS procedure code 32
+GA  2018 CORE              41 CPT33                            184  188   Char CPT/HCPCS procedure code 33
+GA  2018 CORE              42 CPT34                            189  193   Char CPT/HCPCS procedure code 34
+GA  2018 CORE              43 CPT35                            194  198   Char CPT/HCPCS procedure code 35
+GA  2018 CORE              44 CPT36                            199  203   Char CPT/HCPCS procedure code 36
+GA  2018 CORE              45 CPT37                            204  208   Char CPT/HCPCS procedure code 37
+GA  2018 CORE              46 CPT38                            209  213   Char CPT/HCPCS procedure code 38
+GA  2018 CORE              47 CPT39                            214  218   Char CPT/HCPCS procedure code 39
+GA  2018 CORE              48 CPT40                            219  223   Char CPT/HCPCS procedure code 40
+GA  2018 CORE              49 CPT41                            224  228   Char CPT/HCPCS procedure code 41
+GA  2018 CORE              50 CPT42                            229  233   Char CPT/HCPCS procedure code 42
+GA  2018 CORE              51 CPT43                            234  238   Char CPT/HCPCS procedure code 43
+GA  2018 CORE              52 CPT44                            239  243   Char CPT/HCPCS procedure code 44
+GA  2018 CORE              53 CPT45                            244  248   Char CPT/HCPCS procedure code 45
+GA  2018 CORE              54 CPT46                            249  253   Char CPT/HCPCS procedure code 46
+GA  2018 CORE              55 CPT47                            254  258   Char CPT/HCPCS procedure code 47
+GA  2018 CORE              56 CPT48                            259  263   Char CPT/HCPCS procedure code 48
+GA  2018 CORE              57 CPT49                            264  268   Char CPT/HCPCS procedure code 49
+GA  2018 CORE              58 CPT50                            269  273   Char CPT/HCPCS procedure code 50
+GA  2018 CORE              59 CPT51                            274  278   Char CPT/HCPCS procedure code 51
+GA  2018 CORE              60 CPT52                            279  283   Char CPT/HCPCS procedure code 52
+GA  2018 CORE              61 CPT53                            284  288   Char CPT/HCPCS procedure code 53
+GA  2018 CORE              62 CPT54                            289  293   Char CPT/HCPCS procedure code 54
+GA  2018 CORE              63 CPT55                            294  298   Char CPT/HCPCS procedure code 55
+GA  2018 CORE              64 CPT56                            299  303   Char CPT/HCPCS procedure code 56
+GA  2018 CORE              65 CPT57                            304  308   Char CPT/HCPCS procedure code 57
+GA  2018 CORE              66 CPT58                            309  313   Char CPT/HCPCS procedure code 58
+GA  2018 CORE              67 CPT59                            314  318   Char CPT/HCPCS procedure code 59
+GA  2018 CORE              68 CPT60                            319  323   Char CPT/HCPCS procedure code 60
+GA  2018 CORE              69 CPT61                            324  328   Char CPT/HCPCS procedure code 61
+GA  2018 CORE              70 CPT62                            329  333   Char CPT/HCPCS procedure code 62
+GA  2018 CORE              71 CPT63                            334  338   Char CPT/HCPCS procedure code 63
+GA  2018 CORE              72 CPT64                            339  343   Char CPT/HCPCS procedure code 64
+GA  2018 CORE              73 CPT65                            344  348   Char CPT/HCPCS procedure code 65
+GA  2018 CORE              74 CPT66                            349  353   Char CPT/HCPCS procedure code 66
+GA  2018 CORE              75 CPT67                            354  358   Char CPT/HCPCS procedure code 67
+GA  2018 CORE              76 CPT68                            359  363   Char CPT/HCPCS procedure code 68
+GA  2018 CORE              77 CPT69                            364  368   Char CPT/HCPCS procedure code 69
+GA  2018 CORE              78 CPT70                            369  373   Char CPT/HCPCS procedure code 70
+GA  2018 CORE              79 CPT71                            374  378   Char CPT/HCPCS procedure code 71
+GA  2018 CORE              80 CPT72                            379  383   Char CPT/HCPCS procedure code 72
+GA  2018 CORE              81 CPT73                            384  388   Char CPT/HCPCS procedure code 73
+GA  2018 CORE              82 CPT74                            389  393   Char CPT/HCPCS procedure code 74
+GA  2018 CORE              83 CPT75                            394  398   Char CPT/HCPCS procedure code 75
+GA  2018 CORE              84 CPT76                            399  403   Char CPT/HCPCS procedure code 76
+GA  2018 CORE              85 CPT77                            404  408   Char CPT/HCPCS procedure code 77
+GA  2018 CORE              86 CPT78                            409  413   Char CPT/HCPCS procedure code 78
+GA  2018 CORE              87 CPT79                            414  418   Char CPT/HCPCS procedure code 79
+GA  2018 CORE              88 CPT80                            419  423   Char CPT/HCPCS procedure code 80
+GA  2018 CORE              89 CPT81                            424  428   Char CPT/HCPCS procedure code 81
+GA  2018 CORE              90 CPT82                            429  433   Char CPT/HCPCS procedure code 82
+GA  2018 CORE              91 CPT83                            434  438   Char CPT/HCPCS procedure code 83
+GA  2018 CORE              92 CPT84                            439  443   Char CPT/HCPCS procedure code 84
+GA  2018 CORE              93 CPT85                            444  448   Char CPT/HCPCS procedure code 85
+GA  2018 CORE              94 CPT86                            449  453   Char CPT/HCPCS procedure code 86
+GA  2018 CORE              95 CPT87                            454  458   Char CPT/HCPCS procedure code 87
+GA  2018 CORE              96 CPT88                            459  463   Char CPT/HCPCS procedure code 88
+GA  2018 CORE              97 CPT89                            464  468   Char CPT/HCPCS procedure code 89
+GA  2018 CORE              98 CPT90                            469  473   Char CPT/HCPCS procedure code 90
+GA  2018 CORE              99 CPT91                            474  478   Char CPT/HCPCS procedure code 91
+GA  2018 CORE             100 CPT92                            479  483   Char CPT/HCPCS procedure code 92
+GA  2018 CORE             101 CPT93                            484  488   Char CPT/HCPCS procedure code 93
+GA  2018 CORE             102 CPT94                            489  493   Char CPT/HCPCS procedure code 94
+GA  2018 CORE             103 CPT95                            494  498   Char CPT/HCPCS procedure code 95
+GA  2018 CORE             104 CPT96                            499  503   Char CPT/HCPCS procedure code 96
+GA  2018 CORE             105 CPT97                            504  508   Char CPT/HCPCS procedure code 97
+GA  2018 CORE             106 CPT98                            509  513   Char CPT/HCPCS procedure code 98
+GA  2018 CORE             107 CPT99                            514  518   Char CPT/HCPCS procedure code 99
+GA  2018 CORE             108 CPT100                           519  523   Char CPT/HCPCS procedure code 100
+GA  2018 CORE             109 CPTCCS1                          524  526   Num  CCS: CPT 1
+GA  2018 CORE             110 CPTCCS2                          527  529   Num  CCS: CPT 2
+GA  2018 CORE             111 CPTCCS3                          530  532   Num  CCS: CPT 3
+GA  2018 CORE             112 CPTCCS4                          533  535   Num  CCS: CPT 4
+GA  2018 CORE             113 CPTCCS5                          536  538   Num  CCS: CPT 5
+GA  2018 CORE             114 CPTCCS6                          539  541   Num  CCS: CPT 6
+GA  2018 CORE             115 CPTCCS7                          542  544   Num  CCS: CPT 7
+GA  2018 CORE             116 CPTCCS8                          545  547   Num  CCS: CPT 8
+GA  2018 CORE             117 CPTCCS9                          548  550   Num  CCS: CPT 9
+GA  2018 CORE             118 CPTCCS10                         551  553   Num  CCS: CPT 10
+GA  2018 CORE             119 CPTCCS11                         554  556   Num  CCS: CPT 11
+GA  2018 CORE             120 CPTCCS12                         557  559   Num  CCS: CPT 12
+GA  2018 CORE             121 CPTCCS13                         560  562   Num  CCS: CPT 13
+GA  2018 CORE             122 CPTCCS14                         563  565   Num  CCS: CPT 14
+GA  2018 CORE             123 CPTCCS15                         566  568   Num  CCS: CPT 15
+GA  2018 CORE             124 CPTCCS16                         569  571   Num  CCS: CPT 16
+GA  2018 CORE             125 CPTCCS17                         572  574   Num  CCS: CPT 17
+GA  2018 CORE             126 CPTCCS18                         575  577   Num  CCS: CPT 18
+GA  2018 CORE             127 CPTCCS19                         578  580   Num  CCS: CPT 19
+GA  2018 CORE             128 CPTCCS20                         581  583   Num  CCS: CPT 20
+GA  2018 CORE             129 CPTCCS21                         584  586   Num  CCS: CPT 21
+GA  2018 CORE             130 CPTCCS22                         587  589   Num  CCS: CPT 22
+GA  2018 CORE             131 CPTCCS23                         590  592   Num  CCS: CPT 23
+GA  2018 CORE             132 CPTCCS24                         593  595   Num  CCS: CPT 24
+GA  2018 CORE             133 CPTCCS25                         596  598   Num  CCS: CPT 25
+GA  2018 CORE             134 CPTCCS26                         599  601   Num  CCS: CPT 26
+GA  2018 CORE             135 CPTCCS27                         602  604   Num  CCS: CPT 27
+GA  2018 CORE             136 CPTCCS28                         605  607   Num  CCS: CPT 28
+GA  2018 CORE             137 CPTCCS29                         608  610   Num  CCS: CPT 29
+GA  2018 CORE             138 CPTCCS30                         611  613   Num  CCS: CPT 30
+GA  2018 CORE             139 CPTCCS31                         614  616   Num  CCS: CPT 31
+GA  2018 CORE             140 CPTCCS32                         617  619   Num  CCS: CPT 32
+GA  2018 CORE             141 CPTCCS33                         620  622   Num  CCS: CPT 33
+GA  2018 CORE             142 CPTCCS34                         623  625   Num  CCS: CPT 34
+GA  2018 CORE             143 CPTCCS35                         626  628   Num  CCS: CPT 35
+GA  2018 CORE             144 CPTCCS36                         629  631   Num  CCS: CPT 36
+GA  2018 CORE             145 CPTCCS37                         632  634   Num  CCS: CPT 37
+GA  2018 CORE             146 CPTCCS38                         635  637   Num  CCS: CPT 38
+GA  2018 CORE             147 CPTCCS39                         638  640   Num  CCS: CPT 39
+GA  2018 CORE             148 CPTCCS40                         641  643   Num  CCS: CPT 40
+GA  2018 CORE             149 CPTCCS41                         644  646   Num  CCS: CPT 41
+GA  2018 CORE             150 CPTCCS42                         647  649   Num  CCS: CPT 42
+GA  2018 CORE             151 CPTCCS43                         650  652   Num  CCS: CPT 43
+GA  2018 CORE             152 CPTCCS44                         653  655   Num  CCS: CPT 44
+GA  2018 CORE             153 CPTCCS45                         656  658   Num  CCS: CPT 45
+GA  2018 CORE             154 CPTCCS46                         659  661   Num  CCS: CPT 46
+GA  2018 CORE             155 CPTCCS47                         662  664   Num  CCS: CPT 47
+GA  2018 CORE             156 CPTCCS48                         665  667   Num  CCS: CPT 48
+GA  2018 CORE             157 CPTCCS49                         668  670   Num  CCS: CPT 49
+GA  2018 CORE             158 CPTCCS50                         671  673   Num  CCS: CPT 50
+GA  2018 CORE             159 CPTCCS51                         674  676   Num  CCS: CPT 51
+GA  2018 CORE             160 CPTCCS52                         677  679   Num  CCS: CPT 52
+GA  2018 CORE             161 CPTCCS53                         680  682   Num  CCS: CPT 53
+GA  2018 CORE             162 CPTCCS54                         683  685   Num  CCS: CPT 54
+GA  2018 CORE             163 CPTCCS55                         686  688   Num  CCS: CPT 55
+GA  2018 CORE             164 CPTCCS56                         689  691   Num  CCS: CPT 56
+GA  2018 CORE             165 CPTCCS57                         692  694   Num  CCS: CPT 57
+GA  2018 CORE             166 CPTCCS58                         695  697   Num  CCS: CPT 58
+GA  2018 CORE             167 CPTCCS59                         698  700   Num  CCS: CPT 59
+GA  2018 CORE             168 CPTCCS60                         701  703   Num  CCS: CPT 60
+GA  2018 CORE             169 CPTCCS61                         704  706   Num  CCS: CPT 61
+GA  2018 CORE             170 CPTCCS62                         707  709   Num  CCS: CPT 62
+GA  2018 CORE             171 CPTCCS63                         710  712   Num  CCS: CPT 63
+GA  2018 CORE             172 CPTCCS64                         713  715   Num  CCS: CPT 64
+GA  2018 CORE             173 CPTCCS65                         716  718   Num  CCS: CPT 65
+GA  2018 CORE             174 CPTCCS66                         719  721   Num  CCS: CPT 66
+GA  2018 CORE             175 CPTCCS67                         722  724   Num  CCS: CPT 67
+GA  2018 CORE             176 CPTCCS68                         725  727   Num  CCS: CPT 68
+GA  2018 CORE             177 CPTCCS69                         728  730   Num  CCS: CPT 69
+GA  2018 CORE             178 CPTCCS70                         731  733   Num  CCS: CPT 70
+GA  2018 CORE             179 CPTCCS71                         734  736   Num  CCS: CPT 71
+GA  2018 CORE             180 CPTCCS72                         737  739   Num  CCS: CPT 72
+GA  2018 CORE             181 CPTCCS73                         740  742   Num  CCS: CPT 73
+GA  2018 CORE             182 CPTCCS74                         743  745   Num  CCS: CPT 74
+GA  2018 CORE             183 CPTCCS75                         746  748   Num  CCS: CPT 75
+GA  2018 CORE             184 CPTCCS76                         749  751   Num  CCS: CPT 76
+GA  2018 CORE             185 CPTCCS77                         752  754   Num  CCS: CPT 77
+GA  2018 CORE             186 CPTCCS78                         755  757   Num  CCS: CPT 78
+GA  2018 CORE             187 CPTCCS79                         758  760   Num  CCS: CPT 79
+GA  2018 CORE             188 CPTCCS80                         761  763   Num  CCS: CPT 80
+GA  2018 CORE             189 CPTCCS81                         764  766   Num  CCS: CPT 81
+GA  2018 CORE             190 CPTCCS82                         767  769   Num  CCS: CPT 82
+GA  2018 CORE             191 CPTCCS83                         770  772   Num  CCS: CPT 83
+GA  2018 CORE             192 CPTCCS84                         773  775   Num  CCS: CPT 84
+GA  2018 CORE             193 CPTCCS85                         776  778   Num  CCS: CPT 85
+GA  2018 CORE             194 CPTCCS86                         779  781   Num  CCS: CPT 86
+GA  2018 CORE             195 CPTCCS87                         782  784   Num  CCS: CPT 87
+GA  2018 CORE             196 CPTCCS88                         785  787   Num  CCS: CPT 88
+GA  2018 CORE             197 CPTCCS89                         788  790   Num  CCS: CPT 89
+GA  2018 CORE             198 CPTCCS90                         791  793   Num  CCS: CPT 90
+GA  2018 CORE             199 CPTCCS91                         794  796   Num  CCS: CPT 91
+GA  2018 CORE             200 CPTCCS92                         797  799   Num  CCS: CPT 92
+GA  2018 CORE             201 CPTCCS93                         800  802   Num  CCS: CPT 93
+GA  2018 CORE             202 CPTCCS94                         803  805   Num  CCS: CPT 94
+GA  2018 CORE             203 CPTCCS95                         806  808   Num  CCS: CPT 95
+GA  2018 CORE             204 CPTCCS96                         809  811   Num  CCS: CPT 96
+GA  2018 CORE             205 CPTCCS97                         812  814   Num  CCS: CPT 97
+GA  2018 CORE             206 CPTCCS98                         815  817   Num  CCS: CPT 98
+GA  2018 CORE             207 CPTCCS99                         818  820   Num  CCS: CPT 99
+GA  2018 CORE             208 CPTCCS100                        821  823   Num  CCS: CPT 100
+GA  2018 CORE             209 DaysToEvent                      824  829   Num  Days from 'start date' to admission
+GA  2018 CORE             210 DIED                             830  831   Num  Died during hospitalization
+GA  2018 CORE             211 DISP_X                           832  833   Char Disposition of patient (as received from source)
+GA  2018 CORE             212 DISPUB04                         834  835   Num  Disposition of patient (UB-04 standard coding)
+GA  2018 CORE             213 DISPUNIFORM                      836  837   Num  Disposition of patient (uniform)
+GA  2018 CORE             214 DMONTH                           838  839   Num  Discharge month
+GA  2018 CORE             215 DQTR                             840  841   Num  Discharge quarter
+GA  2018 CORE             216 DRG                              842  844   Num  DRG in effect on discharge date
+GA  2018 CORE             217 DRG_NoPOA                        845  847   Num  DRG in use on discharge date, calculated without POA
+GA  2018 CORE             218 DRGVER                           848  849   Num  DRG grouper version used on discharge date
+GA  2018 CORE             219 DXPOA1                           850  850   Char Diagnosis 1, present on admission indicator
+GA  2018 CORE             220 DXPOA2                           851  851   Char Diagnosis 2, present on admission indicator
+GA  2018 CORE             221 DXPOA3                           852  852   Char Diagnosis 3, present on admission indicator
+GA  2018 CORE             222 DXPOA4                           853  853   Char Diagnosis 4, present on admission indicator
+GA  2018 CORE             223 DXPOA5                           854  854   Char Diagnosis 5, present on admission indicator
+GA  2018 CORE             224 DXPOA6                           855  855   Char Diagnosis 6, present on admission indicator
+GA  2018 CORE             225 DXPOA7                           856  856   Char Diagnosis 7, present on admission indicator
+GA  2018 CORE             226 DXPOA8                           857  857   Char Diagnosis 8, present on admission indicator
+GA  2018 CORE             227 DXPOA9                           858  858   Char Diagnosis 9, present on admission indicator
+GA  2018 CORE             228 DXPOA10                          859  859   Char Diagnosis 10, present on admission indicator
+GA  2018 CORE             229 DXPOA11                          860  860   Char Diagnosis 11, present on admission indicator
+GA  2018 CORE             230 DXPOA12                          861  861   Char Diagnosis 12, present on admission indicator
+GA  2018 CORE             231 DXPOA13                          862  862   Char Diagnosis 13, present on admission indicator
+GA  2018 CORE             232 DXPOA14                          863  863   Char Diagnosis 14, present on admission indicator
+GA  2018 CORE             233 DXPOA15                          864  864   Char Diagnosis 15, present on admission indicator
+GA  2018 CORE             234 DXPOA16                          865  865   Char Diagnosis 16, present on admission indicator
+GA  2018 CORE             235 DXPOA17                          866  866   Char Diagnosis 17, present on admission indicator
+GA  2018 CORE             236 DXPOA18                          867  867   Char Diagnosis 18, present on admission indicator
+GA  2018 CORE             237 DXPOA19                          868  868   Char Diagnosis 19, present on admission indicator
+GA  2018 CORE             238 DXPOA20                          869  869   Char Diagnosis 20, present on admission indicator
+GA  2018 CORE             239 DXPOA21                          870  870   Char Diagnosis 21, present on admission indicator
+GA  2018 CORE             240 DXPOA22                          871  871   Char Diagnosis 22, present on admission indicator
+GA  2018 CORE             241 DXPOA23                          872  872   Char Diagnosis 23, present on admission indicator
+GA  2018 CORE             242 DXPOA24                          873  873   Char Diagnosis 24, present on admission indicator
+GA  2018 CORE             243 DXPOA25                          874  874   Char Diagnosis 25, present on admission indicator
+GA  2018 CORE             244 DXPOA26                          875  875   Char Diagnosis 26, present on admission indicator
+GA  2018 CORE             245 DXPOA27                          876  876   Char Diagnosis 27, present on admission indicator
+GA  2018 CORE             246 DXPOA28                          877  877   Char Diagnosis 28, present on admission indicator
+GA  2018 CORE             247 DXPOA29                          878  878   Char Diagnosis 29, present on admission indicator
+GA  2018 CORE             248 DXPOA30                          879  879   Char Diagnosis 30, present on admission indicator
+GA  2018 CORE             249 DXPOA31                          880  880   Char Diagnosis 31, present on admission indicator
+GA  2018 CORE             250 DXPOA32                          881  881   Char Diagnosis 32, present on admission indicator
+GA  2018 CORE             251 DXPOA33                          882  882   Char Diagnosis 33, present on admission indicator
+GA  2018 CORE             252 DXPOA34                          883  883   Char Diagnosis 34, present on admission indicator
+GA  2018 CORE             253 DXPOA35                          884  884   Char Diagnosis 35, present on admission indicator
+GA  2018 CORE             254 DXPOA36                          885  885   Char Diagnosis 36, present on admission indicator
+GA  2018 CORE             255 DXPOA37                          886  886   Char Diagnosis 37, present on admission indicator
+GA  2018 CORE             256 DXPOA38                          887  887   Char Diagnosis 38, present on admission indicator
+GA  2018 CORE             257 DXPOA39                          888  888   Char Diagnosis 39, present on admission indicator
+GA  2018 CORE             258 DXPOA40                          889  889   Char Diagnosis 40, present on admission indicator
+GA  2018 CORE             259 DXPOA41                          890  890   Char Diagnosis 41, present on admission indicator
+GA  2018 CORE             260 DXPOA42                          891  891   Char Diagnosis 42, present on admission indicator
+GA  2018 CORE             261 DXPOA43                          892  892   Char Diagnosis 43, present on admission indicator
+GA  2018 CORE             262 DXPOA44                          893  893   Char Diagnosis 44, present on admission indicator
+GA  2018 CORE             263 DXPOA45                          894  894   Char Diagnosis 45, present on admission indicator
+GA  2018 CORE             264 DXPOA46                          895  895   Char Diagnosis 46, present on admission indicator
+GA  2018 CORE             265 DXPOA47                          896  896   Char Diagnosis 47, present on admission indicator
+GA  2018 CORE             266 DXPOA48                          897  897   Char Diagnosis 48, present on admission indicator
+GA  2018 CORE             267 DXPOA49                          898  898   Char Diagnosis 49, present on admission indicator
+GA  2018 CORE             268 DXPOA50                          899  899   Char Diagnosis 50, present on admission indicator
+GA  2018 CORE             269 DXPOA51                          900  900   Char Diagnosis 51, present on admission indicator
+GA  2018 CORE             270 DXPOA52                          901  901   Char Diagnosis 52, present on admission indicator
+GA  2018 CORE             271 DXPOA53                          902  902   Char Diagnosis 53, present on admission indicator
+GA  2018 CORE             272 DXPOA54                          903  903   Char Diagnosis 54, present on admission indicator
+GA  2018 CORE             273 DXPOA55                          904  904   Char Diagnosis 55, present on admission indicator
+GA  2018 CORE             274 DXPOA56                          905  905   Char Diagnosis 56, present on admission indicator
+GA  2018 CORE             275 DXPOA57                          906  906   Char Diagnosis 57, present on admission indicator
+GA  2018 CORE             276 DXPOA58                          907  907   Char Diagnosis 58, present on admission indicator
+GA  2018 CORE             277 DXPOA59                          908  908   Char Diagnosis 59, present on admission indicator
+GA  2018 CORE             278 DXPOA60                          909  909   Char Diagnosis 60, present on admission indicator
+GA  2018 CORE             279 DXPOA61                          910  910   Char Diagnosis 61, present on admission indicator
+GA  2018 CORE             280 DXPOA62                          911  911   Char Diagnosis 62, present on admission indicator
+GA  2018 CORE             281 DXPOA63                          912  912   Char Diagnosis 63, present on admission indicator
+GA  2018 CORE             282 DXPOA64                          913  913   Char Diagnosis 64, present on admission indicator
+GA  2018 CORE             283 DXPOA65                          914  914   Char Diagnosis 65, present on admission indicator
+GA  2018 CORE             284 DXPOA66                          915  915   Char Diagnosis 66, present on admission indicator
+GA  2018 CORE             285 DXPOA67                          916  916   Char Diagnosis 67, present on admission indicator
+GA  2018 CORE             286 DXPOA68                          917  917   Char Diagnosis 68, present on admission indicator
+GA  2018 CORE             287 DXPOA69                          918  918   Char Diagnosis 69, present on admission indicator
+GA  2018 CORE             288 DXPOA70                          919  919   Char Diagnosis 70, present on admission indicator
+GA  2018 CORE             289 DXPOA71                          920  920   Char Diagnosis 71, present on admission indicator
+GA  2018 CORE             290 DXPOA72                          921  921   Char Diagnosis 72, present on admission indicator
+GA  2018 CORE             291 DXPOA73                          922  922   Char Diagnosis 73, present on admission indicator
+GA  2018 CORE             292 DXPOA74                          923  923   Char Diagnosis 74, present on admission indicator
+GA  2018 CORE             293 DXPOA75                          924  924   Char Diagnosis 75, present on admission indicator
+GA  2018 CORE             294 DXPOA76                          925  925   Char Diagnosis 76, present on admission indicator
+GA  2018 CORE             295 DXPOA77                          926  926   Char Diagnosis 77, present on admission indicator
+GA  2018 CORE             296 DXPOA78                          927  927   Char Diagnosis 78, present on admission indicator
+GA  2018 CORE             297 DXPOA79                          928  928   Char Diagnosis 79, present on admission indicator
+GA  2018 CORE             298 DXPOA80                          929  929   Char Diagnosis 80, present on admission indicator
+GA  2018 CORE             299 DXPOA81                          930  930   Char Diagnosis 81, present on admission indicator
+GA  2018 CORE             300 DXPOA82                          931  931   Char Diagnosis 82, present on admission indicator
+GA  2018 CORE             301 DXPOA83                          932  932   Char Diagnosis 83, present on admission indicator
+GA  2018 CORE             302 DXPOA84                          933  933   Char Diagnosis 84, present on admission indicator
+GA  2018 CORE             303 DXPOA85                          934  934   Char Diagnosis 85, present on admission indicator
+GA  2018 CORE             304 DXPOA86                          935  935   Char Diagnosis 86, present on admission indicator
+GA  2018 CORE             305 DXPOA87                          936  936   Char Diagnosis 87, present on admission indicator
+GA  2018 CORE             306 DXPOA88                          937  937   Char Diagnosis 88, present on admission indicator
+GA  2018 CORE             307 DXPOA89                          938  938   Char Diagnosis 89, present on admission indicator
+GA  2018 CORE             308 DXPOA90                          939  939   Char Diagnosis 90, present on admission indicator
+GA  2018 CORE             309 DXPOA91                          940  940   Char Diagnosis 91, present on admission indicator
+GA  2018 CORE             310 DXPOA92                          941  941   Char Diagnosis 92, present on admission indicator
+GA  2018 CORE             311 DXPOA93                          942  942   Char Diagnosis 93, present on admission indicator
+GA  2018 CORE             312 DXPOA94                          943  943   Char Diagnosis 94, present on admission indicator
+GA  2018 CORE             313 DXPOA95                          944  944   Char Diagnosis 95, present on admission indicator
+GA  2018 CORE             314 DXPOA96                          945  945   Char Diagnosis 96, present on admission indicator
+GA  2018 CORE             315 DXPOA97                          946  946   Char Diagnosis 97, present on admission indicator
+GA  2018 CORE             316 DXPOA98                          947  947   Char Diagnosis 98, present on admission indicator
+GA  2018 CORE             317 DXPOA99                          948  948   Char Diagnosis 99, present on admission indicator
+GA  2018 CORE             318 DXPOA100                         949  949   Char Diagnosis 100, present on admission indicator
+GA  2018 CORE             319 DXPOA101                         950  950   Char Diagnosis 101, present on admission indicator
+GA  2018 CORE             320 DXPOA102                         951  951   Char Diagnosis 102, present on admission indicator
+GA  2018 CORE             321 DXPOA103                         952  952   Char Diagnosis 103, present on admission indicator
+GA  2018 CORE             322 DXPOA104                         953  953   Char Diagnosis 104, present on admission indicator
+GA  2018 CORE             323 FEMALE                           954  955   Num  Indicator of sex
+GA  2018 CORE             324 HCUP_ED                          956  957   Num  HCUP Emergency Department service indicator
+GA  2018 CORE             325 HCUP_OS                          958  959   Num  HCUP Observation Stay service indicator
+GA  2018 CORE             326 HISPANIC                         960  961   Num  Hispanic ethnicity (uniform)
+GA  2018 CORE             327 HISPANIC_X                       962  962   Char Hispanic ethnicity (as received from source)
+GA  2018 CORE             328 Homeless                         963  964   Num  Indicator that patient is homeless
+GA  2018 CORE             329 HOSPST                           965  966   Char Hospital state postal code
+GA  2018 CORE             330 I10_DX1                          967  973   Char ICD-10-CM Diagnosis 1
+GA  2018 CORE             331 I10_DX2                          974  980   Char ICD-10-CM Diagnosis 2
+GA  2018 CORE             332 I10_DX3                          981  987   Char ICD-10-CM Diagnosis 3
+GA  2018 CORE             333 I10_DX4                          988  994   Char ICD-10-CM Diagnosis 4
+GA  2018 CORE             334 I10_DX5                          995 1001   Char ICD-10-CM Diagnosis 5
+GA  2018 CORE             335 I10_DX6                         1002 1008   Char ICD-10-CM Diagnosis 6
+GA  2018 CORE             336 I10_DX7                         1009 1015   Char ICD-10-CM Diagnosis 7
+GA  2018 CORE             337 I10_DX8                         1016 1022   Char ICD-10-CM Diagnosis 8
+GA  2018 CORE             338 I10_DX9                         1023 1029   Char ICD-10-CM Diagnosis 9
+GA  2018 CORE             339 I10_DX10                        1030 1036   Char ICD-10-CM Diagnosis 10
+GA  2018 CORE             340 I10_DX11                        1037 1043   Char ICD-10-CM Diagnosis 11
+GA  2018 CORE             341 I10_DX12                        1044 1050   Char ICD-10-CM Diagnosis 12
+GA  2018 CORE             342 I10_DX13                        1051 1057   Char ICD-10-CM Diagnosis 13
+GA  2018 CORE             343 I10_DX14                        1058 1064   Char ICD-10-CM Diagnosis 14
+GA  2018 CORE             344 I10_DX15                        1065 1071   Char ICD-10-CM Diagnosis 15
+GA  2018 CORE             345 I10_DX16                        1072 1078   Char ICD-10-CM Diagnosis 16
+GA  2018 CORE             346 I10_DX17                        1079 1085   Char ICD-10-CM Diagnosis 17
+GA  2018 CORE             347 I10_DX18                        1086 1092   Char ICD-10-CM Diagnosis 18
+GA  2018 CORE             348 I10_DX19                        1093 1099   Char ICD-10-CM Diagnosis 19
+GA  2018 CORE             349 I10_DX20                        1100 1106   Char ICD-10-CM Diagnosis 20
+GA  2018 CORE             350 I10_DX21                        1107 1113   Char ICD-10-CM Diagnosis 21
+GA  2018 CORE             351 I10_DX22                        1114 1120   Char ICD-10-CM Diagnosis 22
+GA  2018 CORE             352 I10_DX23                        1121 1127   Char ICD-10-CM Diagnosis 23
+GA  2018 CORE             353 I10_DX24                        1128 1134   Char ICD-10-CM Diagnosis 24
+GA  2018 CORE             354 I10_DX25                        1135 1141   Char ICD-10-CM Diagnosis 25
+GA  2018 CORE             355 I10_DX26                        1142 1148   Char ICD-10-CM Diagnosis 26
+GA  2018 CORE             356 I10_DX27                        1149 1155   Char ICD-10-CM Diagnosis 27
+GA  2018 CORE             357 I10_DX28                        1156 1162   Char ICD-10-CM Diagnosis 28
+GA  2018 CORE             358 I10_DX29                        1163 1169   Char ICD-10-CM Diagnosis 29
+GA  2018 CORE             359 I10_DX30                        1170 1176   Char ICD-10-CM Diagnosis 30
+GA  2018 CORE             360 I10_DX31                        1177 1183   Char ICD-10-CM Diagnosis 31
+GA  2018 CORE             361 I10_DX32                        1184 1190   Char ICD-10-CM Diagnosis 32
+GA  2018 CORE             362 I10_DX33                        1191 1197   Char ICD-10-CM Diagnosis 33
+GA  2018 CORE             363 I10_DX34                        1198 1204   Char ICD-10-CM Diagnosis 34
+GA  2018 CORE             364 I10_DX35                        1205 1211   Char ICD-10-CM Diagnosis 35
+GA  2018 CORE             365 I10_DX36                        1212 1218   Char ICD-10-CM Diagnosis 36
+GA  2018 CORE             366 I10_DX37                        1219 1225   Char ICD-10-CM Diagnosis 37
+GA  2018 CORE             367 I10_DX38                        1226 1232   Char ICD-10-CM Diagnosis 38
+GA  2018 CORE             368 I10_DX39                        1233 1239   Char ICD-10-CM Diagnosis 39
+GA  2018 CORE             369 I10_DX40                        1240 1246   Char ICD-10-CM Diagnosis 40
+GA  2018 CORE             370 I10_DX41                        1247 1253   Char ICD-10-CM Diagnosis 41
+GA  2018 CORE             371 I10_DX42                        1254 1260   Char ICD-10-CM Diagnosis 42
+GA  2018 CORE             372 I10_DX43                        1261 1267   Char ICD-10-CM Diagnosis 43
+GA  2018 CORE             373 I10_DX44                        1268 1274   Char ICD-10-CM Diagnosis 44
+GA  2018 CORE             374 I10_DX45                        1275 1281   Char ICD-10-CM Diagnosis 45
+GA  2018 CORE             375 I10_DX46                        1282 1288   Char ICD-10-CM Diagnosis 46
+GA  2018 CORE             376 I10_DX47                        1289 1295   Char ICD-10-CM Diagnosis 47
+GA  2018 CORE             377 I10_DX48                        1296 1302   Char ICD-10-CM Diagnosis 48
+GA  2018 CORE             378 I10_DX49                        1303 1309   Char ICD-10-CM Diagnosis 49
+GA  2018 CORE             379 I10_DX50                        1310 1316   Char ICD-10-CM Diagnosis 50
+GA  2018 CORE             380 I10_DX51                        1317 1323   Char ICD-10-CM Diagnosis 51
+GA  2018 CORE             381 I10_DX52                        1324 1330   Char ICD-10-CM Diagnosis 52
+GA  2018 CORE             382 I10_DX53                        1331 1337   Char ICD-10-CM Diagnosis 53
+GA  2018 CORE             383 I10_DX54                        1338 1344   Char ICD-10-CM Diagnosis 54
+GA  2018 CORE             384 I10_DX55                        1345 1351   Char ICD-10-CM Diagnosis 55
+GA  2018 CORE             385 I10_DX56                        1352 1358   Char ICD-10-CM Diagnosis 56
+GA  2018 CORE             386 I10_DX57                        1359 1365   Char ICD-10-CM Diagnosis 57
+GA  2018 CORE             387 I10_DX58                        1366 1372   Char ICD-10-CM Diagnosis 58
+GA  2018 CORE             388 I10_DX59                        1373 1379   Char ICD-10-CM Diagnosis 59
+GA  2018 CORE             389 I10_DX60                        1380 1386   Char ICD-10-CM Diagnosis 60
+GA  2018 CORE             390 I10_DX61                        1387 1393   Char ICD-10-CM Diagnosis 61
+GA  2018 CORE             391 I10_DX62                        1394 1400   Char ICD-10-CM Diagnosis 62
+GA  2018 CORE             392 I10_DX63                        1401 1407   Char ICD-10-CM Diagnosis 63
+GA  2018 CORE             393 I10_DX64                        1408 1414   Char ICD-10-CM Diagnosis 64
+GA  2018 CORE             394 I10_DX65                        1415 1421   Char ICD-10-CM Diagnosis 65
+GA  2018 CORE             395 I10_DX66                        1422 1428   Char ICD-10-CM Diagnosis 66
+GA  2018 CORE             396 I10_DX67                        1429 1435   Char ICD-10-CM Diagnosis 67
+GA  2018 CORE             397 I10_DX68                        1436 1442   Char ICD-10-CM Diagnosis 68
+GA  2018 CORE             398 I10_DX69                        1443 1449   Char ICD-10-CM Diagnosis 69
+GA  2018 CORE             399 I10_DX70                        1450 1456   Char ICD-10-CM Diagnosis 70
+GA  2018 CORE             400 I10_DX71                        1457 1463   Char ICD-10-CM Diagnosis 71
+GA  2018 CORE             401 I10_DX72                        1464 1470   Char ICD-10-CM Diagnosis 72
+GA  2018 CORE             402 I10_DX73                        1471 1477   Char ICD-10-CM Diagnosis 73
+GA  2018 CORE             403 I10_DX74                        1478 1484   Char ICD-10-CM Diagnosis 74
+GA  2018 CORE             404 I10_DX75                        1485 1491   Char ICD-10-CM Diagnosis 75
+GA  2018 CORE             405 I10_DX76                        1492 1498   Char ICD-10-CM Diagnosis 76
+GA  2018 CORE             406 I10_DX77                        1499 1505   Char ICD-10-CM Diagnosis 77
+GA  2018 CORE             407 I10_DX78                        1506 1512   Char ICD-10-CM Diagnosis 78
+GA  2018 CORE             408 I10_DX79                        1513 1519   Char ICD-10-CM Diagnosis 79
+GA  2018 CORE             409 I10_DX80                        1520 1526   Char ICD-10-CM Diagnosis 80
+GA  2018 CORE             410 I10_DX81                        1527 1533   Char ICD-10-CM Diagnosis 81
+GA  2018 CORE             411 I10_DX82                        1534 1540   Char ICD-10-CM Diagnosis 82
+GA  2018 CORE             412 I10_DX83                        1541 1547   Char ICD-10-CM Diagnosis 83
+GA  2018 CORE             413 I10_DX84                        1548 1554   Char ICD-10-CM Diagnosis 84
+GA  2018 CORE             414 I10_DX85                        1555 1561   Char ICD-10-CM Diagnosis 85
+GA  2018 CORE             415 I10_DX86                        1562 1568   Char ICD-10-CM Diagnosis 86
+GA  2018 CORE             416 I10_DX87                        1569 1575   Char ICD-10-CM Diagnosis 87
+GA  2018 CORE             417 I10_DX88                        1576 1582   Char ICD-10-CM Diagnosis 88
+GA  2018 CORE             418 I10_DX89                        1583 1589   Char ICD-10-CM Diagnosis 89
+GA  2018 CORE             419 I10_DX90                        1590 1596   Char ICD-10-CM Diagnosis 90
+GA  2018 CORE             420 I10_DX91                        1597 1603   Char ICD-10-CM Diagnosis 91
+GA  2018 CORE             421 I10_DX92                        1604 1610   Char ICD-10-CM Diagnosis 92
+GA  2018 CORE             422 I10_DX93                        1611 1617   Char ICD-10-CM Diagnosis 93
+GA  2018 CORE             423 I10_DX94                        1618 1624   Char ICD-10-CM Diagnosis 94
+GA  2018 CORE             424 I10_DX95                        1625 1631   Char ICD-10-CM Diagnosis 95
+GA  2018 CORE             425 I10_DX96                        1632 1638   Char ICD-10-CM Diagnosis 96
+GA  2018 CORE             426 I10_DX97                        1639 1645   Char ICD-10-CM Diagnosis 97
+GA  2018 CORE             427 I10_DX98                        1646 1652   Char ICD-10-CM Diagnosis 98
+GA  2018 CORE             428 I10_DX99                        1653 1659   Char ICD-10-CM Diagnosis 99
+GA  2018 CORE             429 I10_DX100                       1660 1666   Char ICD-10-CM Diagnosis 100
+GA  2018 CORE             430 I10_DX101                       1667 1673   Char ICD-10-CM Diagnosis 101
+GA  2018 CORE             431 I10_DX102                       1674 1680   Char ICD-10-CM Diagnosis 102
+GA  2018 CORE             432 I10_DX103                       1681 1687   Char ICD-10-CM Diagnosis 103
+GA  2018 CORE             433 I10_DX104                       1688 1694   Char ICD-10-CM Diagnosis 104
+GA  2018 CORE             434 I10_NDX                         1695 1697   Num  ICD-10-CM Number of diagnoses on this record
+GA  2018 CORE             435 I10_NPR                         1698 1700   Num  ICD-10-PCS Number of procedures on this record
+GA  2018 CORE             436 I10_PR1                         1701 1707   Char ICD-10-PCS Procedure 1
+GA  2018 CORE             437 I10_PR2                         1708 1714   Char ICD-10-PCS Procedure 2
+GA  2018 CORE             438 I10_PR3                         1715 1721   Char ICD-10-PCS Procedure 3
+GA  2018 CORE             439 I10_PR4                         1722 1728   Char ICD-10-PCS Procedure 4
+GA  2018 CORE             440 I10_PR5                         1729 1735   Char ICD-10-PCS Procedure 5
+GA  2018 CORE             441 I10_PR6                         1736 1742   Char ICD-10-PCS Procedure 6
+GA  2018 CORE             442 I10_PR7                         1743 1749   Char ICD-10-PCS Procedure 7
+GA  2018 CORE             443 I10_PR8                         1750 1756   Char ICD-10-PCS Procedure 8
+GA  2018 CORE             444 I10_PR9                         1757 1763   Char ICD-10-PCS Procedure 9
+GA  2018 CORE             445 I10_PR10                        1764 1770   Char ICD-10-PCS Procedure 10
+GA  2018 CORE             446 I10_PR11                        1771 1777   Char ICD-10-PCS Procedure 11
+GA  2018 CORE             447 I10_PR12                        1778 1784   Char ICD-10-PCS Procedure 12
+GA  2018 CORE             448 I10_PR13                        1785 1791   Char ICD-10-PCS Procedure 13
+GA  2018 CORE             449 I10_PR14                        1792 1798   Char ICD-10-PCS Procedure 14
+GA  2018 CORE             450 I10_PR15                        1799 1805   Char ICD-10-PCS Procedure 15
+GA  2018 CORE             451 I10_PR16                        1806 1812   Char ICD-10-PCS Procedure 16
+GA  2018 CORE             452 I10_PR17                        1813 1819   Char ICD-10-PCS Procedure 17
+GA  2018 CORE             453 I10_PR18                        1820 1826   Char ICD-10-PCS Procedure 18
+GA  2018 CORE             454 I10_PR19                        1827 1833   Char ICD-10-PCS Procedure 19
+GA  2018 CORE             455 I10_PR20                        1834 1840   Char ICD-10-PCS Procedure 20
+GA  2018 CORE             456 I10_PR21                        1841 1847   Char ICD-10-PCS Procedure 21
+GA  2018 CORE             457 I10_PR22                        1848 1854   Char ICD-10-PCS Procedure 22
+GA  2018 CORE             458 I10_PR23                        1855 1861   Char ICD-10-PCS Procedure 23
+GA  2018 CORE             459 I10_PR24                        1862 1868   Char ICD-10-PCS Procedure 24
+GA  2018 CORE             460 I10_PR25                        1869 1875   Char ICD-10-PCS Procedure 25
+GA  2018 CORE             461 I10_PR26                        1876 1882   Char ICD-10-PCS Procedure 26
+GA  2018 CORE             462 I10_PR27                        1883 1889   Char ICD-10-PCS Procedure 27
+GA  2018 CORE             463 I10_PR28                        1890 1896   Char ICD-10-PCS Procedure 28
+GA  2018 CORE             464 I10_PR29                        1897 1903   Char ICD-10-PCS Procedure 29
+GA  2018 CORE             465 I10_PR30                        1904 1910   Char ICD-10-PCS Procedure 30
+GA  2018 CORE             466 I10_PR31                        1911 1917   Char ICD-10-PCS Procedure 31
+GA  2018 CORE             467 I10_PR32                        1918 1924   Char ICD-10-PCS Procedure 32
+GA  2018 CORE             468 I10_PR33                        1925 1931   Char ICD-10-PCS Procedure 33
+GA  2018 CORE             469 I10_PR34                        1932 1938   Char ICD-10-PCS Procedure 34
+GA  2018 CORE             470 I10_PR35                        1939 1945   Char ICD-10-PCS Procedure 35
+GA  2018 CORE             471 I10_PR36                        1946 1952   Char ICD-10-PCS Procedure 36
+GA  2018 CORE             472 I10_PR37                        1953 1959   Char ICD-10-PCS Procedure 37
+GA  2018 CORE             473 I10_PR38                        1960 1966   Char ICD-10-PCS Procedure 38
+GA  2018 CORE             474 I10_PR39                        1967 1973   Char ICD-10-PCS Procedure 39
+GA  2018 CORE             475 I10_PR40                        1974 1980   Char ICD-10-PCS Procedure 40
+GA  2018 CORE             476 I10_PR41                        1981 1987   Char ICD-10-PCS Procedure 41
+GA  2018 CORE             477 I10_PR42                        1988 1994   Char ICD-10-PCS Procedure 42
+GA  2018 CORE             478 I10_PR43                        1995 2001   Char ICD-10-PCS Procedure 43
+GA  2018 CORE             479 I10_PR44                        2002 2008   Char ICD-10-PCS Procedure 44
+GA  2018 CORE             480 I10_PR45                        2009 2015   Char ICD-10-PCS Procedure 45
+GA  2018 CORE             481 I10_PR46                        2016 2022   Char ICD-10-PCS Procedure 46
+GA  2018 CORE             482 I10_PR47                        2023 2029   Char ICD-10-PCS Procedure 47
+GA  2018 CORE             483 I10_PR48                        2030 2036   Char ICD-10-PCS Procedure 48
+GA  2018 CORE             484 I10_PR49                        2037 2043   Char ICD-10-PCS Procedure 49
+GA  2018 CORE             485 I10_PR50                        2044 2050   Char ICD-10-PCS Procedure 50
+GA  2018 CORE             486 I10_PR51                        2051 2057   Char ICD-10-PCS Procedure 51
+GA  2018 CORE             487 I10_PR52                        2058 2064   Char ICD-10-PCS Procedure 52
+GA  2018 CORE             488 I10_PR53                        2065 2071   Char ICD-10-PCS Procedure 53
+GA  2018 CORE             489 I10_PR54                        2072 2078   Char ICD-10-PCS Procedure 54
+GA  2018 CORE             490 I10_PR55                        2079 2085   Char ICD-10-PCS Procedure 55
+GA  2018 CORE             491 I10_PR56                        2086 2092   Char ICD-10-PCS Procedure 56
+GA  2018 CORE             492 I10_PR57                        2093 2099   Char ICD-10-PCS Procedure 57
+GA  2018 CORE             493 I10_PR58                        2100 2106   Char ICD-10-PCS Procedure 58
+GA  2018 CORE             494 I10_PR59                        2107 2113   Char ICD-10-PCS Procedure 59
+GA  2018 CORE             495 I10_PR60                        2114 2120   Char ICD-10-PCS Procedure 60
+GA  2018 CORE             496 I10_PR61                        2121 2127   Char ICD-10-PCS Procedure 61
+GA  2018 CORE             497 I10_PR62                        2128 2134   Char ICD-10-PCS Procedure 62
+GA  2018 CORE             498 I10_PR63                        2135 2141   Char ICD-10-PCS Procedure 63
+GA  2018 CORE             499 I10_PR64                        2142 2148   Char ICD-10-PCS Procedure 64
+GA  2018 CORE             500 I10_PR65                        2149 2155   Char ICD-10-PCS Procedure 65
+GA  2018 CORE             501 I10_PR66                        2156 2162   Char ICD-10-PCS Procedure 66
+GA  2018 CORE             502 I10_PR67                        2163 2169   Char ICD-10-PCS Procedure 67
+GA  2018 CORE             503 I10_PR68                        2170 2176   Char ICD-10-PCS Procedure 68
+GA  2018 CORE             504 I10_PR69                        2177 2183   Char ICD-10-PCS Procedure 69
+GA  2018 CORE             505 I10_PR70                        2184 2190   Char ICD-10-PCS Procedure 70
+GA  2018 CORE             506 I10_PR71                        2191 2197   Char ICD-10-PCS Procedure 71
+GA  2018 CORE             507 I10_PR72                        2198 2204   Char ICD-10-PCS Procedure 72
+GA  2018 CORE             508 I10_PR73                        2205 2211   Char ICD-10-PCS Procedure 73
+GA  2018 CORE             509 I10_PR74                        2212 2218   Char ICD-10-PCS Procedure 74
+GA  2018 CORE             510 I10_PR75                        2219 2225   Char ICD-10-PCS Procedure 75
+GA  2018 CORE             511 I10_PR76                        2226 2232   Char ICD-10-PCS Procedure 76
+GA  2018 CORE             512 I10_PR77                        2233 2239   Char ICD-10-PCS Procedure 77
+GA  2018 CORE             513 I10_PR78                        2240 2246   Char ICD-10-PCS Procedure 78
+GA  2018 CORE             514 I10_PR79                        2247 2253   Char ICD-10-PCS Procedure 79
+GA  2018 CORE             515 I10_PR80                        2254 2260   Char ICD-10-PCS Procedure 80
+GA  2018 CORE             516 I10_PR81                        2261 2267   Char ICD-10-PCS Procedure 81
+GA  2018 CORE             517 I10_PR82                        2268 2274   Char ICD-10-PCS Procedure 82
+GA  2018 CORE             518 I10_PR83                        2275 2281   Char ICD-10-PCS Procedure 83
+GA  2018 CORE             519 I10_PR84                        2282 2288   Char ICD-10-PCS Procedure 84
+GA  2018 CORE             520 I10_PR85                        2289 2295   Char ICD-10-PCS Procedure 85
+GA  2018 CORE             521 I10_PR86                        2296 2302   Char ICD-10-PCS Procedure 86
+GA  2018 CORE             522 I10_PR87                        2303 2309   Char ICD-10-PCS Procedure 87
+GA  2018 CORE             523 I10_PR88                        2310 2316   Char ICD-10-PCS Procedure 88
+GA  2018 CORE             524 I10_PR89                        2317 2323   Char ICD-10-PCS Procedure 89
+GA  2018 CORE             525 I10_PR90                        2324 2330   Char ICD-10-PCS Procedure 90
+GA  2018 CORE             526 I10_PR91                        2331 2337   Char ICD-10-PCS Procedure 91
+GA  2018 CORE             527 I10_PR92                        2338 2344   Char ICD-10-PCS Procedure 92
+GA  2018 CORE             528 I10_PR93                        2345 2351   Char ICD-10-PCS Procedure 93
+GA  2018 CORE             529 I10_PR94                        2352 2358   Char ICD-10-PCS Procedure 94
+GA  2018 CORE             530 I10_PR95                        2359 2365   Char ICD-10-PCS Procedure 95
+GA  2018 CORE             531 I10_PR96                        2366 2372   Char ICD-10-PCS Procedure 96
+GA  2018 CORE             532 I10_PR97                        2373 2379   Char ICD-10-PCS Procedure 97
+GA  2018 CORE             533 I10_PR98                        2380 2386   Char ICD-10-PCS Procedure 98
+GA  2018 CORE             534 I10_PR99                        2387 2393   Char ICD-10-PCS Procedure 99
+GA  2018 CORE             535 I10_PR100                       2394 2400   Char ICD-10-PCS Procedure 100
+GA  2018 CORE             536 I10_PROCTYPE                    2401 2403   Num  ICD-10-PCS Procedure type indicator
+GA  2018 CORE             537 KEY                             2404 2418   Num  HCUP record identifier
+GA  2018 CORE             538 LOS                             2419 2423   Num  Length of stay (cleaned)
+GA  2018 CORE             539 LOS_X                           2424 2429   Num  Length of stay (as received from source)
+GA  2018 CORE             540 MARITALSTATUS_X                 2430 2430   Char Patient's marital status (as received from source)
+GA  2018 CORE             541 MARITALSTATUSUB04               2431 2431   Char Patient's marital status, UB-04 standard coding
+GA  2018 CORE             542 MDC                             2432 2433   Num  MDC in effect on discharge date
+GA  2018 CORE             543 MDC_NoPOA                       2434 2435   Num  MDC in use on discharge date, calculated without POA
+GA  2018 CORE             544 MDNUM1_R                        2436 2444   Num  Physician 1 number (re-identified)
+GA  2018 CORE             545 MDNUM2_R                        2445 2453   Num  Physician 2 number (re-identified)
+GA  2018 CORE             546 MDNUM3_R                        2454 2462   Num  Physician 3 number (re-identified)
+GA  2018 CORE             547 MDNUM4_R                        2463 2471   Num  Physician 4 number (re-identified)
+GA  2018 CORE             548 MEDINCSTQ                       2472 2473   Num  Median household income state quartile for patient ZIP Code
+GA  2018 CORE             549 NCPT                            2474 2477   Num  Number of CPT/HCPCS procedures for this visit
+GA  2018 CORE             550 OS_TIME                         2478 2488 2 Num  Observation stay time summed from UNITS
+GA  2018 CORE             551 PAY1                            2489 2490   Num  Primary expected payer (uniform)
+GA  2018 CORE             552 PAY1_X                          2491 2494   Char Primary expected payer (as received from source)
+GA  2018 CORE             553 PAY2                            2495 2496   Num  Secondary expected payer (uniform)
+GA  2018 CORE             554 PAY2_X                          2497 2500   Char Secondary expected payer (as received from source)
+GA  2018 CORE             555 PAY3                            2501 2502   Num  Tertiary expected payer (uniform)
+GA  2018 CORE             556 PAY3_X                          2503 2506   Char Tertiary expected payer (as received from source)
+GA  2018 CORE             557 PL_CBSA                         2507 2509   Num  Patient location: Core Based Statistical Area (CBSA)
+GA  2018 CORE             558 PL_NCHS                         2510 2511   Num  Patient Location: NCHS Urban-Rural Code
+GA  2018 CORE             559 PL_RUCC                         2512 2513   Num  Patient location: Rural-Urban Continuum Codes (RUCC)
+GA  2018 CORE             560 PL_UIC                          2514 2515   Num  Patient location: Urban Influence Codes
+GA  2018 CORE             561 PL_UR_CAT4                      2516 2517   Num  Patient Location: Urban-Rural 4 Categories
+GA  2018 CORE             562 POA_Disch_Edit1                 2518 2519   Num  Discharge has POA missing on all nonexempt diagnoses
+GA  2018 CORE             563 POA_Disch_Edit2                 2520 2521   Num  Discharge has POA missing on all nonexempt secondary diagnoses
+GA  2018 CORE             564 POA_Hosp_Edit1                  2522 2523   Num  Hospital reported POA as Y on all diagnoses on all discharges
+GA  2018 CORE             565 POA_Hosp_Edit2                  2524 2525   Num  Hospital reported POA as missing on all non-Medicare discharges
+GA  2018 CORE             566 POA_Hosp_Edit3                  2526 2527   Num  Hospital reported POA as missing on all nonexempt diagnoses for 15% or more of discharges
+GA  2018 CORE             567 POA_Hosp_Edit3_Value            2528 2535 2 Num  Percentage of discharges with all nonexempt diagnoses missing POA indicators
+GA  2018 CORE             568 PointOfOrigin_X                 2536 2536   Char Point of origin for admission or visit, as received from source
+GA  2018 CORE             569 PointOfOriginUB04               2537 2537   Char Point of origin for admission or visit, UB-04 standard coding
+GA  2018 CORE             570 PRDAY1                          2538 2542   Num  Number of days from admission to I10_PR1
+GA  2018 CORE             571 PRDAY2                          2543 2547   Num  Number of days from admission to I10_PR2
+GA  2018 CORE             572 PRDAY3                          2548 2552   Num  Number of days from admission to I10_PR3
+GA  2018 CORE             573 PRDAY4                          2553 2557   Num  Number of days from admission to I10_PR4
+GA  2018 CORE             574 PRDAY5                          2558 2562   Num  Number of days from admission to I10_PR5
+GA  2018 CORE             575 PRDAY6                          2563 2567   Num  Number of days from admission to I10_PR6
+GA  2018 CORE             576 PRDAY7                          2568 2572   Num  Number of days from admission to I10_PR7
+GA  2018 CORE             577 PRDAY8                          2573 2577   Num  Number of days from admission to I10_PR8
+GA  2018 CORE             578 PRDAY9                          2578 2582   Num  Number of days from admission to I10_PR9
+GA  2018 CORE             579 PRDAY10                         2583 2587   Num  Number of days from admission to I10_PR10
+GA  2018 CORE             580 PRDAY11                         2588 2592   Num  Number of days from admission to I10_PR11
+GA  2018 CORE             581 PRDAY12                         2593 2597   Num  Number of days from admission to I10_PR12
+GA  2018 CORE             582 PRDAY13                         2598 2602   Num  Number of days from admission to I10_PR13
+GA  2018 CORE             583 PRDAY14                         2603 2607   Num  Number of days from admission to I10_PR14
+GA  2018 CORE             584 PRDAY15                         2608 2612   Num  Number of days from admission to I10_PR15
+GA  2018 CORE             585 PRDAY16                         2613 2617   Num  Number of days from admission to I10_PR16
+GA  2018 CORE             586 PRDAY17                         2618 2622   Num  Number of days from admission to I10_PR17
+GA  2018 CORE             587 PRDAY18                         2623 2627   Num  Number of days from admission to I10_PR18
+GA  2018 CORE             588 PRDAY19                         2628 2632   Num  Number of days from admission to I10_PR19
+GA  2018 CORE             589 PRDAY20                         2633 2637   Num  Number of days from admission to I10_PR20
+GA  2018 CORE             590 PRDAY21                         2638 2642   Num  Number of days from admission to I10_PR21
+GA  2018 CORE             591 PRDAY22                         2643 2647   Num  Number of days from admission to I10_PR22
+GA  2018 CORE             592 PRDAY23                         2648 2652   Num  Number of days from admission to I10_PR23
+GA  2018 CORE             593 PRDAY24                         2653 2657   Num  Number of days from admission to I10_PR24
+GA  2018 CORE             594 PRDAY25                         2658 2662   Num  Number of days from admission to I10_PR25
+GA  2018 CORE             595 PRDAY26                         2663 2667   Num  Number of days from admission to I10_PR26
+GA  2018 CORE             596 PRDAY27                         2668 2672   Num  Number of days from admission to I10_PR27
+GA  2018 CORE             597 PRDAY28                         2673 2677   Num  Number of days from admission to I10_PR28
+GA  2018 CORE             598 PRDAY29                         2678 2682   Num  Number of days from admission to I10_PR29
+GA  2018 CORE             599 PRDAY30                         2683 2687   Num  Number of days from admission to I10_PR30
+GA  2018 CORE             600 PRDAY31                         2688 2692   Num  Number of days from admission to I10_PR31
+GA  2018 CORE             601 PRDAY32                         2693 2697   Num  Number of days from admission to I10_PR32
+GA  2018 CORE             602 PRDAY33                         2698 2702   Num  Number of days from admission to I10_PR33
+GA  2018 CORE             603 PRDAY34                         2703 2707   Num  Number of days from admission to I10_PR34
+GA  2018 CORE             604 PRDAY35                         2708 2712   Num  Number of days from admission to I10_PR35
+GA  2018 CORE             605 PRDAY36                         2713 2717   Num  Number of days from admission to I10_PR36
+GA  2018 CORE             606 PRDAY37                         2718 2722   Num  Number of days from admission to I10_PR37
+GA  2018 CORE             607 PRDAY38                         2723 2727   Num  Number of days from admission to I10_PR38
+GA  2018 CORE             608 PRDAY39                         2728 2732   Num  Number of days from admission to I10_PR39
+GA  2018 CORE             609 PRDAY40                         2733 2737   Num  Number of days from admission to I10_PR40
+GA  2018 CORE             610 PRDAY41                         2738 2742   Num  Number of days from admission to I10_PR41
+GA  2018 CORE             611 PRDAY42                         2743 2747   Num  Number of days from admission to I10_PR42
+GA  2018 CORE             612 PRDAY43                         2748 2752   Num  Number of days from admission to I10_PR43
+GA  2018 CORE             613 PRDAY44                         2753 2757   Num  Number of days from admission to I10_PR44
+GA  2018 CORE             614 PRDAY45                         2758 2762   Num  Number of days from admission to I10_PR45
+GA  2018 CORE             615 PRDAY46                         2763 2767   Num  Number of days from admission to I10_PR46
+GA  2018 CORE             616 PRDAY47                         2768 2772   Num  Number of days from admission to I10_PR47
+GA  2018 CORE             617 PRDAY48                         2773 2777   Num  Number of days from admission to I10_PR48
+GA  2018 CORE             618 PRDAY49                         2778 2782   Num  Number of days from admission to I10_PR49
+GA  2018 CORE             619 PRDAY50                         2783 2787   Num  Number of days from admission to I10_PR50
+GA  2018 CORE             620 PRDAY51                         2788 2792   Num  Number of days from admission to I10_PR51
+GA  2018 CORE             621 PRDAY52                         2793 2797   Num  Number of days from admission to I10_PR52
+GA  2018 CORE             622 PRDAY53                         2798 2802   Num  Number of days from admission to I10_PR53
+GA  2018 CORE             623 PRDAY54                         2803 2807   Num  Number of days from admission to I10_PR54
+GA  2018 CORE             624 PRDAY55                         2808 2812   Num  Number of days from admission to I10_PR55
+GA  2018 CORE             625 PRDAY56                         2813 2817   Num  Number of days from admission to I10_PR56
+GA  2018 CORE             626 PRDAY57                         2818 2822   Num  Number of days from admission to I10_PR57
+GA  2018 CORE             627 PRDAY58                         2823 2827   Num  Number of days from admission to I10_PR58
+GA  2018 CORE             628 PRDAY59                         2828 2832   Num  Number of days from admission to I10_PR59
+GA  2018 CORE             629 PRDAY60                         2833 2837   Num  Number of days from admission to I10_PR60
+GA  2018 CORE             630 PRDAY61                         2838 2842   Num  Number of days from admission to I10_PR61
+GA  2018 CORE             631 PRDAY62                         2843 2847   Num  Number of days from admission to I10_PR62
+GA  2018 CORE             632 PRDAY63                         2848 2852   Num  Number of days from admission to I10_PR63
+GA  2018 CORE             633 PRDAY64                         2853 2857   Num  Number of days from admission to I10_PR64
+GA  2018 CORE             634 PRDAY65                         2858 2862   Num  Number of days from admission to I10_PR65
+GA  2018 CORE             635 PRDAY66                         2863 2867   Num  Number of days from admission to I10_PR66
+GA  2018 CORE             636 PRDAY67                         2868 2872   Num  Number of days from admission to I10_PR67
+GA  2018 CORE             637 PRDAY68                         2873 2877   Num  Number of days from admission to I10_PR68
+GA  2018 CORE             638 PRDAY69                         2878 2882   Num  Number of days from admission to I10_PR69
+GA  2018 CORE             639 PRDAY70                         2883 2887   Num  Number of days from admission to I10_PR70
+GA  2018 CORE             640 PRDAY71                         2888 2892   Num  Number of days from admission to I10_PR71
+GA  2018 CORE             641 PRDAY72                         2893 2897   Num  Number of days from admission to I10_PR72
+GA  2018 CORE             642 PRDAY73                         2898 2902   Num  Number of days from admission to I10_PR73
+GA  2018 CORE             643 PRDAY74                         2903 2907   Num  Number of days from admission to I10_PR74
+GA  2018 CORE             644 PRDAY75                         2908 2912   Num  Number of days from admission to I10_PR75
+GA  2018 CORE             645 PRDAY76                         2913 2917   Num  Number of days from admission to I10_PR76
+GA  2018 CORE             646 PRDAY77                         2918 2922   Num  Number of days from admission to I10_PR77
+GA  2018 CORE             647 PRDAY78                         2923 2927   Num  Number of days from admission to I10_PR78
+GA  2018 CORE             648 PRDAY79                         2928 2932   Num  Number of days from admission to I10_PR79
+GA  2018 CORE             649 PRDAY80                         2933 2937   Num  Number of days from admission to I10_PR80
+GA  2018 CORE             650 PRDAY81                         2938 2942   Num  Number of days from admission to I10_PR81
+GA  2018 CORE             651 PRDAY82                         2943 2947   Num  Number of days from admission to I10_PR82
+GA  2018 CORE             652 PRDAY83                         2948 2952   Num  Number of days from admission to I10_PR83
+GA  2018 CORE             653 PRDAY84                         2953 2957   Num  Number of days from admission to I10_PR84
+GA  2018 CORE             654 PRDAY85                         2958 2962   Num  Number of days from admission to I10_PR85
+GA  2018 CORE             655 PRDAY86                         2963 2967   Num  Number of days from admission to I10_PR86
+GA  2018 CORE             656 PRDAY87                         2968 2972   Num  Number of days from admission to I10_PR87
+GA  2018 CORE             657 PRDAY88                         2973 2977   Num  Number of days from admission to I10_PR88
+GA  2018 CORE             658 PRDAY89                         2978 2982   Num  Number of days from admission to I10_PR89
+GA  2018 CORE             659 PRDAY90                         2983 2987   Num  Number of days from admission to I10_PR90
+GA  2018 CORE             660 PRDAY91                         2988 2992   Num  Number of days from admission to I10_PR91
+GA  2018 CORE             661 PRDAY92                         2993 2997   Num  Number of days from admission to I10_PR92
+GA  2018 CORE             662 PRDAY93                         2998 3002   Num  Number of days from admission to I10_PR93
+GA  2018 CORE             663 PRDAY94                         3003 3007   Num  Number of days from admission to I10_PR94
+GA  2018 CORE             664 PRDAY95                         3008 3012   Num  Number of days from admission to I10_PR95
+GA  2018 CORE             665 PRDAY96                         3013 3017   Num  Number of days from admission to I10_PR96
+GA  2018 CORE             666 PRDAY97                         3018 3022   Num  Number of days from admission to I10_PR97
+GA  2018 CORE             667 PRDAY98                         3023 3027   Num  Number of days from admission to I10_PR98
+GA  2018 CORE             668 PRDAY99                         3028 3032   Num  Number of days from admission to I10_PR99
+GA  2018 CORE             669 PRDAY100                        3033 3037   Num  Number of days from admission to I10_PR100
+GA  2018 CORE             670 PrimLang                        3038 3040   Char Primary language of patient
+GA  2018 CORE             671 PSTATE                          3041 3042   Char Patient State postal code
+GA  2018 CORE             672 PSTCO                           3043 3047   Num  Patient state/county FIPS code
+GA  2018 CORE             673 PSTCO2                          3048 3052   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+GA  2018 CORE             674 RACE                            3053 3054   Num  Race (uniform)
+GA  2018 CORE             675 RACE_EDIT                       3055 3056   Num  Race Edit Checks
+GA  2018 CORE             676 RACE_X                          3057 3057   Char Race (as received from source)
+GA  2018 CORE             677 TOTCHG                          3058 3067   Num  Total charges (cleaned)
+GA  2018 CORE             678 TOTCHG_X                        3068 3082 2 Num  Total charges (as received from source)
+GA  2018 CORE             679 TRAN_IN                         3083 3084   Num  Transfer in indicator
+GA  2018 CORE             680 TRAN_OUT                        3085 3086   Num  Transfer out indicator
+GA  2018 CORE             681 VisitLink                       3087 3095   Num  Visit linkage variable
+GA  2018 CORE             682 YEAR                            3096 3099   Num  Calendar year
+GA  2018 CORE             683 ZIP                             3100 3104   Char Patient ZIP Code
+GA  2018 CORE             684 ZIP3                            3105 3107   Char Patient ZIP Code, first 3 digits
+GA  2018 CORE             685 ZIPINC_QRTL                     3108 3110   Num  Median household income national quartile for patient ZIP Code
+GA  2018 CORE             686 HOSPID                          3111 3115   Num  HCUP hospital identification number
+GA  2018 CORE             687 AYEAR                           3116 3119   Num  Admission year
+GA  2018 CORE             688 BMONTH                          3120 3121   Num  Birth month
+GA  2018 CORE             689 BYEAR                           3122 3125   Num  Birth year
+GA  2018 CORE             690 PRMONTH1                        3126 3127   Num  Month of procedure 1
+GA  2018 CORE             691 PRMONTH2                        3128 3129   Num  Month of procedure 2
+GA  2018 CORE             692 PRMONTH3                        3130 3131   Num  Month of procedure 3
+GA  2018 CORE             693 PRMONTH4                        3132 3133   Num  Month of procedure 4
+GA  2018 CORE             694 PRMONTH5                        3134 3135   Num  Month of procedure 5
+GA  2018 CORE             695 PRMONTH6                        3136 3137   Num  Month of procedure 6
+GA  2018 CORE             696 PRMONTH7                        3138 3139   Num  Month of procedure 7
+GA  2018 CORE             697 PRMONTH8                        3140 3141   Num  Month of procedure 8
+GA  2018 CORE             698 PRMONTH9                        3142 3143   Num  Month of procedure 9
+GA  2018 CORE             699 PRMONTH10                       3144 3145   Num  Month of procedure 10
+GA  2018 CORE             700 PRMONTH11                       3146 3147   Num  Month of procedure 11
+GA  2018 CORE             701 PRMONTH12                       3148 3149   Num  Month of procedure 12
+GA  2018 CORE             702 PRMONTH13                       3150 3151   Num  Month of procedure 13
+GA  2018 CORE             703 PRMONTH14                       3152 3153   Num  Month of procedure 14
+GA  2018 CORE             704 PRMONTH15                       3154 3155   Num  Month of procedure 15
+GA  2018 CORE             705 PRMONTH16                       3156 3157   Num  Month of procedure 16
+GA  2018 CORE             706 PRMONTH17                       3158 3159   Num  Month of procedure 17
+GA  2018 CORE             707 PRMONTH18                       3160 3161   Num  Month of procedure 18
+GA  2018 CORE             708 PRMONTH19                       3162 3163   Num  Month of procedure 19
+GA  2018 CORE             709 PRMONTH20                       3164 3165   Num  Month of procedure 20
+GA  2018 CORE             710 PRMONTH21                       3166 3167   Num  Month of procedure 21
+GA  2018 CORE             711 PRMONTH22                       3168 3169   Num  Month of procedure 22
+GA  2018 CORE             712 PRMONTH23                       3170 3171   Num  Month of procedure 23
+GA  2018 CORE             713 PRMONTH24                       3172 3173   Num  Month of procedure 24
+GA  2018 CORE             714 PRMONTH25                       3174 3175   Num  Month of procedure 25
+GA  2018 CORE             715 PRMONTH26                       3176 3177   Num  Month of procedure 26
+GA  2018 CORE             716 PRMONTH27                       3178 3179   Num  Month of procedure 27
+GA  2018 CORE             717 PRMONTH28                       3180 3181   Num  Month of procedure 28
+GA  2018 CORE             718 PRMONTH29                       3182 3183   Num  Month of procedure 29
+GA  2018 CORE             719 PRMONTH30                       3184 3185   Num  Month of procedure 30
+GA  2018 CORE             720 PRMONTH31                       3186 3187   Num  Month of procedure 31
+GA  2018 CORE             721 PRMONTH32                       3188 3189   Num  Month of procedure 32
+GA  2018 CORE             722 PRMONTH33                       3190 3191   Num  Month of procedure 33
+GA  2018 CORE             723 PRMONTH34                       3192 3193   Num  Month of procedure 34
+GA  2018 CORE             724 PRMONTH35                       3194 3195   Num  Month of procedure 35
+GA  2018 CORE             725 PRMONTH36                       3196 3197   Num  Month of procedure 36
+GA  2018 CORE             726 PRMONTH37                       3198 3199   Num  Month of procedure 37
+GA  2018 CORE             727 PRMONTH38                       3200 3201   Num  Month of procedure 38
+GA  2018 CORE             728 PRMONTH39                       3202 3203   Num  Month of procedure 39
+GA  2018 CORE             729 PRMONTH40                       3204 3205   Num  Month of procedure 40
+GA  2018 CORE             730 PRMONTH41                       3206 3207   Num  Month of procedure 41
+GA  2018 CORE             731 PRMONTH42                       3208 3209   Num  Month of procedure 42
+GA  2018 CORE             732 PRMONTH43                       3210 3211   Num  Month of procedure 43
+GA  2018 CORE             733 PRMONTH44                       3212 3213   Num  Month of procedure 44
+GA  2018 CORE             734 PRMONTH45                       3214 3215   Num  Month of procedure 45
+GA  2018 CORE             735 PRMONTH46                       3216 3217   Num  Month of procedure 46
+GA  2018 CORE             736 PRMONTH47                       3218 3219   Num  Month of procedure 47
+GA  2018 CORE             737 PRMONTH48                       3220 3221   Num  Month of procedure 48
+GA  2018 CORE             738 PRMONTH49                       3222 3223   Num  Month of procedure 49
+GA  2018 CORE             739 PRMONTH50                       3224 3225   Num  Month of procedure 50
+GA  2018 CORE             740 PRMONTH51                       3226 3227   Num  Month of procedure 51
+GA  2018 CORE             741 PRMONTH52                       3228 3229   Num  Month of procedure 52
+GA  2018 CORE             742 PRMONTH53                       3230 3231   Num  Month of procedure 53
+GA  2018 CORE             743 PRMONTH54                       3232 3233   Num  Month of procedure 54
+GA  2018 CORE             744 PRMONTH55                       3234 3235   Num  Month of procedure 55
+GA  2018 CORE             745 PRMONTH56                       3236 3237   Num  Month of procedure 56
+GA  2018 CORE             746 PRMONTH57                       3238 3239   Num  Month of procedure 57
+GA  2018 CORE             747 PRMONTH58                       3240 3241   Num  Month of procedure 58
+GA  2018 CORE             748 PRMONTH59                       3242 3243   Num  Month of procedure 59
+GA  2018 CORE             749 PRMONTH60                       3244 3245   Num  Month of procedure 60
+GA  2018 CORE             750 PRMONTH61                       3246 3247   Num  Month of procedure 61
+GA  2018 CORE             751 PRMONTH62                       3248 3249   Num  Month of procedure 62
+GA  2018 CORE             752 PRMONTH63                       3250 3251   Num  Month of procedure 63
+GA  2018 CORE             753 PRMONTH64                       3252 3253   Num  Month of procedure 64
+GA  2018 CORE             754 PRMONTH65                       3254 3255   Num  Month of procedure 65
+GA  2018 CORE             755 PRMONTH66                       3256 3257   Num  Month of procedure 66
+GA  2018 CORE             756 PRMONTH67                       3258 3259   Num  Month of procedure 67
+GA  2018 CORE             757 PRMONTH68                       3260 3261   Num  Month of procedure 68
+GA  2018 CORE             758 PRMONTH69                       3262 3263   Num  Month of procedure 69
+GA  2018 CORE             759 PRMONTH70                       3264 3265   Num  Month of procedure 70
+GA  2018 CORE             760 PRMONTH71                       3266 3267   Num  Month of procedure 71
+GA  2018 CORE             761 PRMONTH72                       3268 3269   Num  Month of procedure 72
+GA  2018 CORE             762 PRMONTH73                       3270 3271   Num  Month of procedure 73
+GA  2018 CORE             763 PRMONTH74                       3272 3273   Num  Month of procedure 74
+GA  2018 CORE             764 PRMONTH75                       3274 3275   Num  Month of procedure 75
+GA  2018 CORE             765 PRMONTH76                       3276 3277   Num  Month of procedure 76
+GA  2018 CORE             766 PRMONTH77                       3278 3279   Num  Month of procedure 77
+GA  2018 CORE             767 PRMONTH78                       3280 3281   Num  Month of procedure 78
+GA  2018 CORE             768 PRMONTH79                       3282 3283   Num  Month of procedure 79
+GA  2018 CORE             769 PRMONTH80                       3284 3285   Num  Month of procedure 80
+GA  2018 CORE             770 PRMONTH81                       3286 3287   Num  Month of procedure 81
+GA  2018 CORE             771 PRMONTH82                       3288 3289   Num  Month of procedure 82
+GA  2018 CORE             772 PRMONTH83                       3290 3291   Num  Month of procedure 83
+GA  2018 CORE             773 PRMONTH84                       3292 3293   Num  Month of procedure 84
+GA  2018 CORE             774 PRMONTH85                       3294 3295   Num  Month of procedure 85
+GA  2018 CORE             775 PRMONTH86                       3296 3297   Num  Month of procedure 86
+GA  2018 CORE             776 PRMONTH87                       3298 3299   Num  Month of procedure 87
+GA  2018 CORE             777 PRMONTH88                       3300 3301   Num  Month of procedure 88
+GA  2018 CORE             778 PRMONTH89                       3302 3303   Num  Month of procedure 89
+GA  2018 CORE             779 PRMONTH90                       3304 3305   Num  Month of procedure 90
+GA  2018 CORE             780 PRMONTH91                       3306 3307   Num  Month of procedure 91
+GA  2018 CORE             781 PRMONTH92                       3308 3309   Num  Month of procedure 92
+GA  2018 CORE             782 PRMONTH93                       3310 3311   Num  Month of procedure 93
+GA  2018 CORE             783 PRMONTH94                       3312 3313   Num  Month of procedure 94
+GA  2018 CORE             784 PRMONTH95                       3314 3315   Num  Month of procedure 95
+GA  2018 CORE             785 PRMONTH96                       3316 3317   Num  Month of procedure 96
+GA  2018 CORE             786 PRMONTH97                       3318 3319   Num  Month of procedure 97
+GA  2018 CORE             787 PRMONTH98                       3320 3321   Num  Month of procedure 98
+GA  2018 CORE             788 PRMONTH99                       3322 3323   Num  Month of procedure 99
+GA  2018 CORE             789 PRMONTH100                      3324 3325   Num  Month of procedure 100
+GA  2018 CORE             790 PRYEAR1                         3326 3329   Num  Year of procedure 1
+GA  2018 CORE             791 PRYEAR2                         3330 3333   Num  Year of procedure 2
+GA  2018 CORE             792 PRYEAR3                         3334 3337   Num  Year of procedure 3
+GA  2018 CORE             793 PRYEAR4                         3338 3341   Num  Year of procedure 4
+GA  2018 CORE             794 PRYEAR5                         3342 3345   Num  Year of procedure 5
+GA  2018 CORE             795 PRYEAR6                         3346 3349   Num  Year of procedure 6
+GA  2018 CORE             796 PRYEAR7                         3350 3353   Num  Year of procedure 7
+GA  2018 CORE             797 PRYEAR8                         3354 3357   Num  Year of procedure 8
+GA  2018 CORE             798 PRYEAR9                         3358 3361   Num  Year of procedure 9
+GA  2018 CORE             799 PRYEAR10                        3362 3365   Num  Year of procedure 10
+GA  2018 CORE             800 PRYEAR11                        3366 3369   Num  Year of procedure 11
+GA  2018 CORE             801 PRYEAR12                        3370 3373   Num  Year of procedure 12
+GA  2018 CORE             802 PRYEAR13                        3374 3377   Num  Year of procedure 13
+GA  2018 CORE             803 PRYEAR14                        3378 3381   Num  Year of procedure 14
+GA  2018 CORE             804 PRYEAR15                        3382 3385   Num  Year of procedure 15
+GA  2018 CORE             805 PRYEAR16                        3386 3389   Num  Year of procedure 16
+GA  2018 CORE             806 PRYEAR17                        3390 3393   Num  Year of procedure 17
+GA  2018 CORE             807 PRYEAR18                        3394 3397   Num  Year of procedure 18
+GA  2018 CORE             808 PRYEAR19                        3398 3401   Num  Year of procedure 19
+GA  2018 CORE             809 PRYEAR20                        3402 3405   Num  Year of procedure 20
+GA  2018 CORE             810 PRYEAR21                        3406 3409   Num  Year of procedure 21
+GA  2018 CORE             811 PRYEAR22                        3410 3413   Num  Year of procedure 22
+GA  2018 CORE             812 PRYEAR23                        3414 3417   Num  Year of procedure 23
+GA  2018 CORE             813 PRYEAR24                        3418 3421   Num  Year of procedure 24
+GA  2018 CORE             814 PRYEAR25                        3422 3425   Num  Year of procedure 25
+GA  2018 CORE             815 PRYEAR26                        3426 3429   Num  Year of procedure 26
+GA  2018 CORE             816 PRYEAR27                        3430 3433   Num  Year of procedure 27
+GA  2018 CORE             817 PRYEAR28                        3434 3437   Num  Year of procedure 28
+GA  2018 CORE             818 PRYEAR29                        3438 3441   Num  Year of procedure 29
+GA  2018 CORE             819 PRYEAR30                        3442 3445   Num  Year of procedure 30
+GA  2018 CORE             820 PRYEAR31                        3446 3449   Num  Year of procedure 31
+GA  2018 CORE             821 PRYEAR32                        3450 3453   Num  Year of procedure 32
+GA  2018 CORE             822 PRYEAR33                        3454 3457   Num  Year of procedure 33
+GA  2018 CORE             823 PRYEAR34                        3458 3461   Num  Year of procedure 34
+GA  2018 CORE             824 PRYEAR35                        3462 3465   Num  Year of procedure 35
+GA  2018 CORE             825 PRYEAR36                        3466 3469   Num  Year of procedure 36
+GA  2018 CORE             826 PRYEAR37                        3470 3473   Num  Year of procedure 37
+GA  2018 CORE             827 PRYEAR38                        3474 3477   Num  Year of procedure 38
+GA  2018 CORE             828 PRYEAR39                        3478 3481   Num  Year of procedure 39
+GA  2018 CORE             829 PRYEAR40                        3482 3485   Num  Year of procedure 40
+GA  2018 CORE             830 PRYEAR41                        3486 3489   Num  Year of procedure 41
+GA  2018 CORE             831 PRYEAR42                        3490 3493   Num  Year of procedure 42
+GA  2018 CORE             832 PRYEAR43                        3494 3497   Num  Year of procedure 43
+GA  2018 CORE             833 PRYEAR44                        3498 3501   Num  Year of procedure 44
+GA  2018 CORE             834 PRYEAR45                        3502 3505   Num  Year of procedure 45
+GA  2018 CORE             835 PRYEAR46                        3506 3509   Num  Year of procedure 46
+GA  2018 CORE             836 PRYEAR47                        3510 3513   Num  Year of procedure 47
+GA  2018 CORE             837 PRYEAR48                        3514 3517   Num  Year of procedure 48
+GA  2018 CORE             838 PRYEAR49                        3518 3521   Num  Year of procedure 49
+GA  2018 CORE             839 PRYEAR50                        3522 3525   Num  Year of procedure 50
+GA  2018 CORE             840 PRYEAR51                        3526 3529   Num  Year of procedure 51
+GA  2018 CORE             841 PRYEAR52                        3530 3533   Num  Year of procedure 52
+GA  2018 CORE             842 PRYEAR53                        3534 3537   Num  Year of procedure 53
+GA  2018 CORE             843 PRYEAR54                        3538 3541   Num  Year of procedure 54
+GA  2018 CORE             844 PRYEAR55                        3542 3545   Num  Year of procedure 55
+GA  2018 CORE             845 PRYEAR56                        3546 3549   Num  Year of procedure 56
+GA  2018 CORE             846 PRYEAR57                        3550 3553   Num  Year of procedure 57
+GA  2018 CORE             847 PRYEAR58                        3554 3557   Num  Year of procedure 58
+GA  2018 CORE             848 PRYEAR59                        3558 3561   Num  Year of procedure 59
+GA  2018 CORE             849 PRYEAR60                        3562 3565   Num  Year of procedure 60
+GA  2018 CORE             850 PRYEAR61                        3566 3569   Num  Year of procedure 61
+GA  2018 CORE             851 PRYEAR62                        3570 3573   Num  Year of procedure 62
+GA  2018 CORE             852 PRYEAR63                        3574 3577   Num  Year of procedure 63
+GA  2018 CORE             853 PRYEAR64                        3578 3581   Num  Year of procedure 64
+GA  2018 CORE             854 PRYEAR65                        3582 3585   Num  Year of procedure 65
+GA  2018 CORE             855 PRYEAR66                        3586 3589   Num  Year of procedure 66
+GA  2018 CORE             856 PRYEAR67                        3590 3593   Num  Year of procedure 67
+GA  2018 CORE             857 PRYEAR68                        3594 3597   Num  Year of procedure 68
+GA  2018 CORE             858 PRYEAR69                        3598 3601   Num  Year of procedure 69
+GA  2018 CORE             859 PRYEAR70                        3602 3605   Num  Year of procedure 70
+GA  2018 CORE             860 PRYEAR71                        3606 3609   Num  Year of procedure 71
+GA  2018 CORE             861 PRYEAR72                        3610 3613   Num  Year of procedure 72
+GA  2018 CORE             862 PRYEAR73                        3614 3617   Num  Year of procedure 73
+GA  2018 CORE             863 PRYEAR74                        3618 3621   Num  Year of procedure 74
+GA  2018 CORE             864 PRYEAR75                        3622 3625   Num  Year of procedure 75
+GA  2018 CORE             865 PRYEAR76                        3626 3629   Num  Year of procedure 76
+GA  2018 CORE             866 PRYEAR77                        3630 3633   Num  Year of procedure 77
+GA  2018 CORE             867 PRYEAR78                        3634 3637   Num  Year of procedure 78
+GA  2018 CORE             868 PRYEAR79                        3638 3641   Num  Year of procedure 79
+GA  2018 CORE             869 PRYEAR80                        3642 3645   Num  Year of procedure 80
+GA  2018 CORE             870 PRYEAR81                        3646 3649   Num  Year of procedure 81
+GA  2018 CORE             871 PRYEAR82                        3650 3653   Num  Year of procedure 82
+GA  2018 CORE             872 PRYEAR83                        3654 3657   Num  Year of procedure 83
+GA  2018 CORE             873 PRYEAR84                        3658 3661   Num  Year of procedure 84
+GA  2018 CORE             874 PRYEAR85                        3662 3665   Num  Year of procedure 85
+GA  2018 CORE             875 PRYEAR86                        3666 3669   Num  Year of procedure 86
+GA  2018 CORE             876 PRYEAR87                        3670 3673   Num  Year of procedure 87
+GA  2018 CORE             877 PRYEAR88                        3674 3677   Num  Year of procedure 88
+GA  2018 CORE             878 PRYEAR89                        3678 3681   Num  Year of procedure 89
+GA  2018 CORE             879 PRYEAR90                        3682 3685   Num  Year of procedure 90
+GA  2018 CORE             880 PRYEAR91                        3686 3689   Num  Year of procedure 91
+GA  2018 CORE             881 PRYEAR92                        3690 3693   Num  Year of procedure 92
+GA  2018 CORE             882 PRYEAR93                        3694 3697   Num  Year of procedure 93
+GA  2018 CORE             883 PRYEAR94                        3698 3701   Num  Year of procedure 94
+GA  2018 CORE             884 PRYEAR95                        3702 3705   Num  Year of procedure 95
+GA  2018 CORE             885 PRYEAR96                        3706 3709   Num  Year of procedure 96
+GA  2018 CORE             886 PRYEAR97                        3710 3713   Num  Year of procedure 97
+GA  2018 CORE             887 PRYEAR98                        3714 3717   Num  Year of procedure 98
+GA  2018 CORE             888 PRYEAR99                        3718 3721   Num  Year of procedure 99
+GA  2018 CORE             889 PRYEAR100                       3722 3725   Num  Year of procedure 100

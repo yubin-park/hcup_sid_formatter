@@ -1,0 +1,29 @@
+Columns   Description:
+=======   ============
+ 1- 2     State postal code
+ 5- 8     Discharge year of data
+10-14     File name
+19-21     Variable number
+23-30     Variable name
+32-34     Starting column of variable in ASCII file
+36-38     Ending column of variable in ASCII file
+   40     Non-zero number of digits after decimal point for numeric variable
+42-45     Variable type (NUM=numeric; CHAR=character)
+46-88     Variable label
+
+
+IA  1997 SPEC     1   SEQ_SID  1   13    Num I:HCUP SID record sequence number
+IA  1997 SPEC     2   MRN_S    14  30    CharI:Medical record number (synthetic)
+IA  1997 SPEC     3   PSTCO    31  35    Num I:Patient state/county FIPS code
+IA  1997 SPEC     4   PAY1_X   36  37    CharI:Primary exp. payer (from data source)
+IA  1997 SPEC     5   CHG1     38  49  2 Num I:Detailed charges 1 (from data source)
+IA  1997 SPEC     6   ADATE    50  59    CharI:Admission date
+IA  1997 SPEC     7   DDATE    60  69    CharI:Discharge date
+IA  1997 SPEC     8   PRDATE1  70  79    CharI:Date of principal procedure
+IA  1997 SPEC     9   PRDATE2  80  89    CharI:Date of procedure 2
+IA  1997 SPEC     10  PRDATE3  90  99    CharI:Date of procedure 3
+IA  1997 SPEC     11  PRDATE4  100 109   CharI:Date of procedure 4
+IA  1997 SPEC     12  PRDATE5  110 119   CharI:Date of procedure 5
+IA  1997 SPEC     13  PRDATE6  120 129   CharI:Date of procedure 6
+IA  1997 SPEC     14  DOB      130 139   CharI:Date of birth
+IA  1997 SPEC     15  ZIP      140 144   CharI:Patient zip code

@@ -1,0 +1,103 @@
+NJ  1996 CORE     1   SEQ_SID  1   13    Num I:HCUP SID record sequence number
+NJ  1996 CORE     2   PROCESS  14  24    Num I:HCUP discharge processing ID number
+NJ  1996 CORE     3   YEAR     25  26    Num Calendar year
+NJ  1996 CORE     4   DSHOSPID 27  39    CharI:Data source hospital ID number
+NJ  1996 CORE     5   DSNUM    40  41    Num I:Data source ID number
+NJ  1996 CORE     6   DSTYPE   42  42    Num I:Data source type
+NJ  1996 CORE     7   HOSPST   43  44    CharHospital state postal code
+NJ  1996 CORE     8   MDID_S   45  60    CharI:Attending physician number (synthetic)
+NJ  1996 CORE     9   SURGID_S 61  76    CharI:Primary surgeon number (synthetic)
+NJ  1996 CORE     10  AGE      77  79    Num I:Age in years at admission
+NJ  1996 CORE     11  AGEDAY   80  82    Num I:Age in days (when < 1 year)
+NJ  1996 CORE     12  SEX      83  84    Num I:Sex
+NJ  1996 CORE     13  RACE     85  86    Num I:Race
+NJ  1996 CORE     14  ADAYWK   87  88    Num I:Admission day of week
+NJ  1996 CORE     15  AMONTH   89  90    Num I:Admission month
+NJ  1996 CORE     16  DQTR     91  91    Num I:Discharge quarter
+NJ  1996 CORE     17  LOS      92  96    Num I:Length of stay (cleaned)
+NJ  1996 CORE     18  LOS_X    97  102   Num I:Length of stay (uncleaned)
+NJ  1996 CORE     19  DISP     103 104   Num I:Disposition of patient
+NJ  1996 CORE     20  DIED     105 106   Num I:Died during hospitalization
+NJ  1996 CORE     21  NEOMAT   107 107   Num I:Neonatal and/or maternal DX and/or PR
+NJ  1996 CORE     22  ATYPE    108 109   Num I:Admission type
+NJ  1996 CORE     23  ASOURCE  110 111   Num I:Admission source
+NJ  1996 CORE     24  DXSYS    112 113   Num I:Diagnosis coding system
+NJ  1996 CORE     25  DSNDX    114 115   Num I:Max number of diagnoses from source
+NJ  1996 CORE     26  NDX      116 117   Num I:Number of diagnoses on this discharge
+NJ  1996 CORE     27  DX1      118 122   CharI:Principal diagnosis
+NJ  1996 CORE     28  DX2      123 127   CharI:Diagnosis 2
+NJ  1996 CORE     29  DX3      128 132   CharI:Diagnosis 3
+NJ  1996 CORE     30  DX4      133 137   CharI:Diagnosis 4
+NJ  1996 CORE     31  DX5      138 142   CharI:Diagnosis 5
+NJ  1996 CORE     32  DX6      143 147   CharI:Diagnosis 6
+NJ  1996 CORE     33  DX7      148 152   CharI:Diagnosis 7
+NJ  1996 CORE     34  DX8      153 157   CharI:Diagnosis 8
+NJ  1996 CORE     35  DX9      158 162   CharI:Diagnosis 9
+NJ  1996 CORE     36  DX10     163 167   CharI:Diagnosis 10
+NJ  1996 CORE     37  DXV1     168 169   Num I:Validity flag: principal diagnosis
+NJ  1996 CORE     38  DXV2     170 171   Num I:Validity flag: diagnosis 2
+NJ  1996 CORE     39  DXV3     172 173   Num I:Validity flag: diagnosis 3
+NJ  1996 CORE     40  DXV4     174 175   Num I:Validity flag: diagnosis 4
+NJ  1996 CORE     41  DXV5     176 177   Num I:Validity flag: diagnosis 5
+NJ  1996 CORE     42  DXV6     178 179   Num I:Validity flag: diagnosis 6
+NJ  1996 CORE     43  DXV7     180 181   Num I:Validity flag: diagnosis 7
+NJ  1996 CORE     44  DXV8     182 183   Num I:Validity flag: diagnosis 8
+NJ  1996 CORE     45  DXV9     184 185   Num I:Validity flag: diagnosis 9
+NJ  1996 CORE     46  DXV10    186 187   Num I:Validity flag: diagnosis 10
+NJ  1996 CORE     47  DCCHPR1  188 190   Num I:CCHPR: principal diagnosis
+NJ  1996 CORE     48  DCCHPR2  191 193   Num I:CCHPR: diagnosis 2
+NJ  1996 CORE     49  DCCHPR3  194 196   Num I:CCHPR: diagnosis 3
+NJ  1996 CORE     50  DCCHPR4  197 199   Num I:CCHPR: diagnosis 4
+NJ  1996 CORE     51  DCCHPR5  200 202   Num I:CCHPR: diagnosis 5
+NJ  1996 CORE     52  DCCHPR6  203 205   Num I:CCHPR: diagnosis 6
+NJ  1996 CORE     53  DCCHPR7  206 208   Num I:CCHPR: diagnosis 7
+NJ  1996 CORE     54  DCCHPR8  209 211   Num I:CCHPR: diagnosis 8
+NJ  1996 CORE     55  DCCHPR9  212 214   Num I:CCHPR: diagnosis 9
+NJ  1996 CORE     56  DCCHPR10 215 217   Num I:CCHPR: diagnosis 10
+NJ  1996 CORE     57  PRSYS    218 219   Num I:Procedure coding system
+NJ  1996 CORE     58  DSNPR    220 221   Num I:Max number of procedures from source
+NJ  1996 CORE     59  NPR      222 223   Num I:Number of procedures on this discharge
+NJ  1996 CORE     60  PR1      224 227   CharI:Principal procedure
+NJ  1996 CORE     61  PR2      228 231   CharI:Procedure 2
+NJ  1996 CORE     62  PR3      232 235   CharI:Procedure 3
+NJ  1996 CORE     63  PR4      236 239   CharI:Procedure 4
+NJ  1996 CORE     64  PR5      240 243   CharI:Procedure 5
+NJ  1996 CORE     65  PR6      244 247   CharI:Procedure 6
+NJ  1996 CORE     66  PR7      248 251   CharI:Procedure 7
+NJ  1996 CORE     67  PR8      252 255   CharI:Procedure 8
+NJ  1996 CORE     68  PRV1     256 257   Num I:Validity flag: principal procedure
+NJ  1996 CORE     69  PRV2     258 259   Num I:Validity flag: procedure 2
+NJ  1996 CORE     70  PRV3     260 261   Num I:Validity flag: procedure 3
+NJ  1996 CORE     71  PRV4     262 263   Num I:Validity flag: procedure 4
+NJ  1996 CORE     72  PRV5     264 265   Num I:Validity flag: procedure 5
+NJ  1996 CORE     73  PRV6     266 267   Num I:Validity flag: procedure 6
+NJ  1996 CORE     74  PRV7     268 269   Num I:Validity flag: procedure 7
+NJ  1996 CORE     75  PRV8     270 271   Num I:Validity flag: procedure 8
+NJ  1996 CORE     76  PCCHPR1  272 274   Num I:CCHPR: principal procedure
+NJ  1996 CORE     77  PCCHPR2  275 277   Num I:CCHPR: procedure 2
+NJ  1996 CORE     78  PCCHPR3  278 280   Num I:CCHPR: procedure 3
+NJ  1996 CORE     79  PCCHPR4  281 283   Num I:CCHPR: procedure 4
+NJ  1996 CORE     80  PCCHPR5  284 286   Num I:CCHPR: procedure 5
+NJ  1996 CORE     81  PCCHPR6  287 289   Num I:CCHPR: procedure 6
+NJ  1996 CORE     82  PCCHPR7  290 292   Num I:CCHPR: procedure 7
+NJ  1996 CORE     83  PCCHPR8  293 295   Num I:CCHPR: procedure 8
+NJ  1996 CORE     84  PRDAY1   296 300   Num I:No. of days from admission to PR1
+NJ  1996 CORE     85  PRDAY2   301 305   Num I:No. of days from admission to PR2
+NJ  1996 CORE     86  PRDAY3   306 310   Num I:No. of days from admission to PR3
+NJ  1996 CORE     87  PRDAY4   311 315   Num I:No. of days from admission to PR4
+NJ  1996 CORE     88  PRDAY5   316 320   Num I:No. of days from admission to PR5
+NJ  1996 CORE     89  PRDAY6   321 325   Num I:No. of days from admission to PR6
+NJ  1996 CORE     90  PRDAY7   326 330   Num I:No. of days from admission to PR7
+NJ  1996 CORE     91  PRDAY8   331 335   Num I:No. of days from admission to PR8
+NJ  1996 CORE     92  DRG      336 338   Num I:DRG in effect on discharge date
+NJ  1996 CORE     93  MDC      339 340   Num I:MDC in effect on discharge date
+NJ  1996 CORE     94  DRGVER   341 342   Num I:DRG grouper version used on disch date
+NJ  1996 CORE     95  DRG10    343 345   Num I:DRG, Version 10
+NJ  1996 CORE     96  MDC10    346 347   Num I:MDC, Version 10
+NJ  1996 CORE     97  PAY1     348 349   Num I:Primary expected payer, uniform
+NJ  1996 CORE     98  PAY1_N   350 351   Num I:Primary expected payer, nonuniform
+NJ  1996 CORE     99  PAY2     352 353   Num I:Secondary expected payer, uniform
+NJ  1996 CORE     100 PAY2_N   354 355   Num I:Secondary expected payer, nonuniform
+NJ  1996 CORE     101 TOTCHG   356 365   Num I:Total charges (cleaned)
+NJ  1996 CORE     102 TOTCHG_X 366 380 2 Num I:Total charges (from data source)
+NJ  1996 CORE     103 HOSPID   381 385   Num HCUP hospital ID number (SSHHH)

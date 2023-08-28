@@ -1,0 +1,102 @@
+Data Set Name: UT_SID_2002_CORE                
+Number of Observations: 253659
+Total Record Length: 298
+Total Number of Variables: 82
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 49    Variable name
+51- 54    Starting column of variable in ASCII file
+56- 59    Ending column of variable in ASCII file
+    61    Non-zero number of digits after decimal point for numeric variable
+63- 66    Variable type (Num=numeric; Char=character)
+68-167    Variable label
+
+
+UT  2002 CORE               1 KEY                    1   14   Num  HCUP record identifier
+UT  2002 CORE               2 ADRG                  15   17   Num  All Patient Refined DRG
+UT  2002 CORE               3 ADRGSEV               18   19   Num  All Patient Refined DRG severity level
+UT  2002 CORE               4 AGE                   20   22   Num  Age in years at admission
+UT  2002 CORE               5 AGEDAY                23   25   Num  Age in days (when age < 1 year)
+UT  2002 CORE               6 AGEMONTH              26   28   Num  Age in months (when age < 11 years)
+UT  2002 CORE               7 AMONTH                29   30   Num  Admission month
+UT  2002 CORE               8 ASOURCE               31   32   Num  Admission source (uniform)
+UT  2002 CORE               9 ASOURCE_X             33   33   Char Admission source (as received from source)
+UT  2002 CORE              10 ASOURCEUB92           34   34   Char Admission source (UB-92 standard coding)
+UT  2002 CORE              11 ATYPE                 35   36   Num  Admission type
+UT  2002 CORE              12 AWEEKEND              37   38   Num  Admission day is a weekend
+UT  2002 CORE              13 DIED                  39   40   Num  Died during hospitalization
+UT  2002 CORE              14 DISP_X                41   42   Char Disposition of patient (as received from source)
+UT  2002 CORE              15 DISPUB92              43   44   Num  Disposition of patient (UB-92 standard coding)
+UT  2002 CORE              16 DISPUNIFORM           45   46   Num  Disposition of patient (uniform)
+UT  2002 CORE              17 DQTR                  47   48   Num  Discharge quarter
+UT  2002 CORE              18 DRG                   49   51   Num  DRG in effect on discharge date
+UT  2002 CORE              19 DRG18                 52   54   Num  DRG, version 18
+UT  2002 CORE              20 DRGVER                55   56   Num  DRG grouper version used on discharge date
+UT  2002 CORE              21 DSHOSPID              57   69   Char Data source hospital identifier
+UT  2002 CORE              22 DX1                   70   74   Char Principal diagnosis
+UT  2002 CORE              23 DX2                   75   79   Char Diagnosis 2
+UT  2002 CORE              24 DX3                   80   84   Char Diagnosis 3
+UT  2002 CORE              25 DX4                   85   89   Char Diagnosis 4
+UT  2002 CORE              26 DX5                   90   94   Char Diagnosis 5
+UT  2002 CORE              27 DX6                   95   99   Char Diagnosis 6
+UT  2002 CORE              28 DX7                  100  104   Char Diagnosis 7
+UT  2002 CORE              29 DX8                  105  109   Char Diagnosis 8
+UT  2002 CORE              30 DX9                  110  114   Char Diagnosis 9
+UT  2002 CORE              31 DX10                 115  119   Char Diagnosis 10
+UT  2002 CORE              32 DXCCS1               120  123   Num  CCS: principal diagnosis
+UT  2002 CORE              33 DXCCS2               124  127   Num  CCS: diagnosis 2
+UT  2002 CORE              34 DXCCS3               128  131   Num  CCS: diagnosis 3
+UT  2002 CORE              35 DXCCS4               132  135   Num  CCS: diagnosis 4
+UT  2002 CORE              36 DXCCS5               136  139   Num  CCS: diagnosis 5
+UT  2002 CORE              37 DXCCS6               140  143   Num  CCS: diagnosis 6
+UT  2002 CORE              38 DXCCS7               144  147   Num  CCS: diagnosis 7
+UT  2002 CORE              39 DXCCS8               148  151   Num  CCS: diagnosis 8
+UT  2002 CORE              40 DXCCS9               152  155   Num  CCS: diagnosis 9
+UT  2002 CORE              41 DXCCS10              156  159   Num  CCS: diagnosis 10
+UT  2002 CORE              42 FEMALE               160  161   Num  Indicator of sex
+UT  2002 CORE              43 HOSPST               162  163   Char Hospital state postal code
+UT  2002 CORE              44 LOS                  164  168   Num  Length of stay (cleaned)
+UT  2002 CORE              45 LOS_X                169  174   Num  Length of stay (as received from source)
+UT  2002 CORE              46 MDC                  175  176   Num  MDC in effect on discharge date
+UT  2002 CORE              47 MDC18                177  178   Num  MDC, version 18
+UT  2002 CORE              48 NDX                  179  180   Num  Number of diagnoses on this record
+UT  2002 CORE              49 NEOMAT               181  182   Num  Neonatal and/or maternal DX and/or PR
+UT  2002 CORE              50 NPR                  183  184   Num  Number of procedures on this record
+UT  2002 CORE              51 PAY1                 185  186   Num  Primary expected payer (uniform)
+UT  2002 CORE              52 PAY2                 187  188   Num  Secondary expected payer (uniform)
+UT  2002 CORE              53 PAY1_X               189  190   Char Primary expected payer (as received from source)
+UT  2002 CORE              54 PAY2_X               191  192   Char Secondary expected payer (as received from source)
+UT  2002 CORE              55 PAY3_X               193  194   Char Tertiary expected payer (as received from source)
+UT  2002 CORE              56 PL_CBSA              195  196   Num  Patient location: Core Based Statistical Area (CBSA)
+UT  2002 CORE              57 PL_MSA1993           197  198   Num  Patient location: Metropolitan Statistical Area (MSA), 1993
+UT  2002 CORE              58 PL_RUCA              199  202 1 Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes
+UT  2002 CORE              59 PL_RUCA10            203  204   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, ten levels
+UT  2002 CORE              60 PL_RUCA4             205  206   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, four levels
+UT  2002 CORE              61 PL_RUCC              207  208   Num  Patient location: Rural-Urban Continuum Codes(RUCC)
+UT  2002 CORE              62 PL_UIC               209  210   Num  Patient location: Urban Influence Codes
+UT  2002 CORE              63 PR1                  211  214   Char Principal procedure
+UT  2002 CORE              64 PR2                  215  218   Char Procedure 2
+UT  2002 CORE              65 PR3                  219  222   Char Procedure 3
+UT  2002 CORE              66 PR4                  223  226   Char Procedure 4
+UT  2002 CORE              67 PR5                  227  230   Char Procedure 5
+UT  2002 CORE              68 PR6                  231  234   Char Procedure 6
+UT  2002 CORE              69 PRCCS1               235  237   Num  CCS: principal procedure
+UT  2002 CORE              70 PRCCS2               238  240   Num  CCS: procedure 2
+UT  2002 CORE              71 PRCCS3               241  243   Num  CCS: procedure 3
+UT  2002 CORE              72 PRCCS4               244  246   Num  CCS: procedure 4
+UT  2002 CORE              73 PRCCS5               247  249   Num  CCS: procedure 5
+UT  2002 CORE              74 PRCCS6               250  252   Num  CCS: procedure 6
+UT  2002 CORE              75 TOTCHG               253  262   Num  Total charges (cleaned)
+UT  2002 CORE              76 TOTCHG_X             263  277 2 Num  Total charges (as received from source)
+UT  2002 CORE              77 YEAR                 278  281   Num  Calendar year
+UT  2002 CORE              78 ZIP_S                282  286   Char Patient ZIP Code (synthetic)
+UT  2002 CORE              79 AYEAR                287  290   Num  Admission year
+UT  2002 CORE              80 DMONTH               291  292   Num  Discharge month
+UT  2002 CORE              81 BMONTH               293  294   Num  Birth month
+UT  2002 CORE              82 BYEAR                295  298   Num  Birth year

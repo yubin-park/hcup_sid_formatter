@@ -1,0 +1,109 @@
+Columns   Description:
+=======   ============
+ 1- 2     State postal code
+ 5- 8     Discharge year of data
+10-14     File name
+19-21     Variable number
+23-30     Variable name
+32-34     Starting column of variable in ASCII file
+36-38     Ending column of variable in ASCII file
+   40     Non-zero number of digits after decimal point for numeric variable
+42-45     Variable type (NUM=numeric; CHAR=character)
+46-88     Variable label
+
+
+FL  1996 CORE     1   SEQ_SID  1   13    Num I:HCUP SID record sequence number
+FL  1996 CORE     2   YEAR     14  15    Num Calendar year
+FL  1996 CORE     3   DSHOSPID 16  28    CharI:Data source hospital ID number
+FL  1996 CORE     4   DSTYPE   29  29    Num I:Data source type
+FL  1996 CORE     5   HOSPST   30  31    CharHospital state postal code
+FL  1996 CORE     6   MDID_S   32  47    CharI:Attending physician number (synthetic)
+FL  1996 CORE     7   SURGID_S 48  63    CharI:Primary surgeon number (synthetic)
+FL  1996 CORE     8   AGE      64  66    Num I:Age in years at admission
+FL  1996 CORE     9   SEX      67  68    Num I:Sex
+FL  1996 CORE     10  RACE     69  70    Num I:Race
+FL  1996 CORE     11  DQTR     71  71    Num I:Discharge quarter
+FL  1996 CORE     12  LOS      72  76    Num I:Length of stay (cleaned)
+FL  1996 CORE     13  LOS_X    77  82    Num I:Length of stay (uncleaned)
+FL  1996 CORE     14  DISP     83  84    Num I:Disposition of patient
+FL  1996 CORE     15  DIED     85  86    Num I:Died during hospitalization
+FL  1996 CORE     16  NEOMAT   87  87    Num I:Neonatal and/or maternal DX and/or PR
+FL  1996 CORE     17  ATYPE    88  89    Num I:Admission type
+FL  1996 CORE     18  ASOURCE  90  91    Num I:Admission source
+FL  1996 CORE     19  DXSYS    92  93    Num I:Diagnosis coding system
+FL  1996 CORE     20  DSNDX    94  95    Num I:Max number of diagnoses from source
+FL  1996 CORE     21  NDX      96  97    Num I:Number of diagnoses on this discharge
+FL  1996 CORE     22  DX1      98  102   CharI:Principal diagnosis
+FL  1996 CORE     23  DX2      103 107   CharI:Diagnosis 2
+FL  1996 CORE     24  DX3      108 112   CharI:Diagnosis 3
+FL  1996 CORE     25  DX4      113 117   CharI:Diagnosis 4
+FL  1996 CORE     26  DX5      118 122   CharI:Diagnosis 5
+FL  1996 CORE     27  DX6      123 127   CharI:Diagnosis 6
+FL  1996 CORE     28  DX7      128 132   CharI:Diagnosis 7
+FL  1996 CORE     29  DX8      133 137   CharI:Diagnosis 8
+FL  1996 CORE     30  DX9      138 142   CharI:Diagnosis 9
+FL  1996 CORE     31  DX10     143 147   CharI:Diagnosis 10
+FL  1996 CORE     32  DXV1     148 149   Num I:Validity flag: principal diagnosis
+FL  1996 CORE     33  DXV2     150 151   Num I:Validity flag: diagnosis 2
+FL  1996 CORE     34  DXV3     152 153   Num I:Validity flag: diagnosis 3
+FL  1996 CORE     35  DXV4     154 155   Num I:Validity flag: diagnosis 4
+FL  1996 CORE     36  DXV5     156 157   Num I:Validity flag: diagnosis 5
+FL  1996 CORE     37  DXV6     158 159   Num I:Validity flag: diagnosis 6
+FL  1996 CORE     38  DXV7     160 161   Num I:Validity flag: diagnosis 7
+FL  1996 CORE     39  DXV8     162 163   Num I:Validity flag: diagnosis 8
+FL  1996 CORE     40  DXV9     164 165   Num I:Validity flag: diagnosis 9
+FL  1996 CORE     41  DXV10    166 167   Num I:Validity flag: diagnosis 10
+FL  1996 CORE     42  DCCHPR1  168 170   Num I:CCHPR: principal diagnosis
+FL  1996 CORE     43  DCCHPR2  171 173   Num I:CCHPR: diagnosis 2
+FL  1996 CORE     44  DCCHPR3  174 176   Num I:CCHPR: diagnosis 3
+FL  1996 CORE     45  DCCHPR4  177 179   Num I:CCHPR: diagnosis 4
+FL  1996 CORE     46  DCCHPR5  180 182   Num I:CCHPR: diagnosis 5
+FL  1996 CORE     47  DCCHPR6  183 185   Num I:CCHPR: diagnosis 6
+FL  1996 CORE     48  DCCHPR7  186 188   Num I:CCHPR: diagnosis 7
+FL  1996 CORE     49  DCCHPR8  189 191   Num I:CCHPR: diagnosis 8
+FL  1996 CORE     50  DCCHPR9  192 194   Num I:CCHPR: diagnosis 9
+FL  1996 CORE     51  DCCHPR10 195 197   Num I:CCHPR: diagnosis 10
+FL  1996 CORE     52  PRSYS    198 199   Num I:Procedure coding system
+FL  1996 CORE     53  DSNPR    200 201   Num I:Max number of procedures from source
+FL  1996 CORE     54  NPR      202 203   Num I:Number of procedures on this discharge
+FL  1996 CORE     55  PR1      204 207   CharI:Principal procedure
+FL  1996 CORE     56  PR2      208 211   CharI:Procedure 2
+FL  1996 CORE     57  PR3      212 215   CharI:Procedure 3
+FL  1996 CORE     58  PR4      216 219   CharI:Procedure 4
+FL  1996 CORE     59  PR5      220 223   CharI:Procedure 5
+FL  1996 CORE     60  PR6      224 227   CharI:Procedure 6
+FL  1996 CORE     61  PR7      228 231   CharI:Procedure 7
+FL  1996 CORE     62  PR8      232 235   CharI:Procedure 8
+FL  1996 CORE     63  PR9      236 239   CharI:Procedure 9
+FL  1996 CORE     64  PR10     240 243   CharI:Procedure 10
+FL  1996 CORE     65  PRV1     244 245   Num I:Validity flag: principal procedure
+FL  1996 CORE     66  PRV2     246 247   Num I:Validity flag: procedure 2
+FL  1996 CORE     67  PRV3     248 249   Num I:Validity flag: procedure 3
+FL  1996 CORE     68  PRV4     250 251   Num I:Validity flag: procedure 4
+FL  1996 CORE     69  PRV5     252 253   Num I:Validity flag: procedure 5
+FL  1996 CORE     70  PRV6     254 255   Num I:Validity flag: procedure 6
+FL  1996 CORE     71  PRV7     256 257   Num I:Validity flag: procedure 7
+FL  1996 CORE     72  PRV8     258 259   Num I:Validity flag: procedure 8
+FL  1996 CORE     73  PRV9     260 261   Num I:Validity flag: procedure 9
+FL  1996 CORE     74  PRV10    262 263   Num I:Validity flag: procedure 10
+FL  1996 CORE     75  PCCHPR1  264 266   Num I:CCHPR: principal procedure
+FL  1996 CORE     76  PCCHPR2  267 269   Num I:CCHPR: procedure 2
+FL  1996 CORE     77  PCCHPR3  270 272   Num I:CCHPR: procedure 3
+FL  1996 CORE     78  PCCHPR4  273 275   Num I:CCHPR: procedure 4
+FL  1996 CORE     79  PCCHPR5  276 278   Num I:CCHPR: procedure 5
+FL  1996 CORE     80  PCCHPR6  279 281   Num I:CCHPR: procedure 6
+FL  1996 CORE     81  PCCHPR7  282 284   Num I:CCHPR: procedure 7
+FL  1996 CORE     82  PCCHPR8  285 287   Num I:CCHPR: procedure 8
+FL  1996 CORE     83  PCCHPR9  288 290   Num I:CCHPR: procedure 9
+FL  1996 CORE     84  PCCHPR10 291 293   Num I:CCHPR: procedure 10
+FL  1996 CORE     85  PRDAY1   294 298   Num I:No. of days from admission to PR1
+FL  1996 CORE     86  DRG      299 301   Num I:DRG in effect on discharge date
+FL  1996 CORE     87  MDC      302 303   Num I:MDC in effect on discharge date
+FL  1996 CORE     88  DRGVER   304 305   Num I:DRG grouper version used on disch date
+FL  1996 CORE     89  DRG10    306 308   Num I:DRG, Version 10
+FL  1996 CORE     90  MDC10    309 310   Num I:MDC, Version 10
+FL  1996 CORE     91  PAY1     311 312   Num I:Primary expected payer, uniform
+FL  1996 CORE     92  PAY1_N   313 314   Num I:Primary expected payer, nonuniform
+FL  1996 CORE     93  TOTCHG   315 324   Num I:Total charges (cleaned)
+FL  1996 CORE     94  TOTCHG_X 325 339 2 Num I:Total charges (from data source)
+FL  1996 CORE     95  HOSPID   340 344   Num HCUP hospital ID number (SSHHH)

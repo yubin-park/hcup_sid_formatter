@@ -1,0 +1,361 @@
+Data Set Name: MI_SIDC_2012_CORE               
+Number of Observations: 1249805
+Total Record Length: 1178
+Total Number of Variables: 341
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 56    Variable name
+58- 61    Starting column of variable in ASCII file
+63- 66    Ending column of variable in ASCII file
+    68    Non-zero number of digits after decimal point for numeric variable
+70- 73    Variable type (Num=numeric; Char=character)
+75-174    Variable label
+
+
+MI  2012 CORE               1 AGE                           1    3   Num  Age in years at admission
+MI  2012 CORE               2 AGEDAY                        4    6   Num  Age in days (when age < 1 year)
+MI  2012 CORE               3 AGEMONTH                      7    9   Num  Age in months (when age < 11 years)
+MI  2012 CORE               4 AMONTH                       10   11   Num  Admission month
+MI  2012 CORE               5 ATYPE                        12   13   Num  Admission type
+MI  2012 CORE               6 AWEEKEND                     14   15   Num  Admission day is a weekend
+MI  2012 CORE               7 DIED                         16   17   Num  Died during hospitalization
+MI  2012 CORE               8 DISPUB04                     18   19   Num  Disposition of patient (UB-04 standard coding)
+MI  2012 CORE               9 DISPUNIFORM                  20   21   Num  Disposition of patient (uniform)
+MI  2012 CORE              10 DISP_X                       22   23   Char Disposition of patient (as received from source)
+MI  2012 CORE              11 DQTR                         24   25   Num  Discharge quarter
+MI  2012 CORE              12 DRG                          26   28   Num  DRG in effect on discharge date
+MI  2012 CORE              13 DRG24                        29   31   Num  DRG, version 24
+MI  2012 CORE              14 DRGVER                       32   33   Num  DRG grouper version used on discharge date
+MI  2012 CORE              15 DRG_NoPOA                    34   36   Num  DRG in use on discharge date, calculated without POA
+MI  2012 CORE              16 DX1                          37   41   Char Diagnosis 1
+MI  2012 CORE              17 DX2                          42   46   Char Diagnosis 2
+MI  2012 CORE              18 DX3                          47   51   Char Diagnosis 3
+MI  2012 CORE              19 DX4                          52   56   Char Diagnosis 4
+MI  2012 CORE              20 DX5                          57   61   Char Diagnosis 5
+MI  2012 CORE              21 DX6                          62   66   Char Diagnosis 6
+MI  2012 CORE              22 DX7                          67   71   Char Diagnosis 7
+MI  2012 CORE              23 DX8                          72   76   Char Diagnosis 8
+MI  2012 CORE              24 DX9                          77   81   Char Diagnosis 9
+MI  2012 CORE              25 DX10                         82   86   Char Diagnosis 10
+MI  2012 CORE              26 DX11                         87   91   Char Diagnosis 11
+MI  2012 CORE              27 DX12                         92   96   Char Diagnosis 12
+MI  2012 CORE              28 DX13                         97  101   Char Diagnosis 13
+MI  2012 CORE              29 DX14                        102  106   Char Diagnosis 14
+MI  2012 CORE              30 DX15                        107  111   Char Diagnosis 15
+MI  2012 CORE              31 DX16                        112  116   Char Diagnosis 16
+MI  2012 CORE              32 DX17                        117  121   Char Diagnosis 17
+MI  2012 CORE              33 DX18                        122  126   Char Diagnosis 18
+MI  2012 CORE              34 DX19                        127  131   Char Diagnosis 19
+MI  2012 CORE              35 DX20                        132  136   Char Diagnosis 20
+MI  2012 CORE              36 DX21                        137  141   Char Diagnosis 21
+MI  2012 CORE              37 DX22                        142  146   Char Diagnosis 22
+MI  2012 CORE              38 DX23                        147  151   Char Diagnosis 23
+MI  2012 CORE              39 DX24                        152  156   Char Diagnosis 24
+MI  2012 CORE              40 DX25                        157  161   Char Diagnosis 25
+MI  2012 CORE              41 DX26                        162  166   Char Diagnosis 26
+MI  2012 CORE              42 DX27                        167  171   Char Diagnosis 27
+MI  2012 CORE              43 DX28                        172  176   Char Diagnosis 28
+MI  2012 CORE              44 DX29                        177  181   Char Diagnosis 29
+MI  2012 CORE              45 DX30                        182  186   Char Diagnosis 30
+MI  2012 CORE              46 DXCCS1                      187  190   Num  CCS: diagnosis 1
+MI  2012 CORE              47 DXCCS2                      191  194   Num  CCS: diagnosis 2
+MI  2012 CORE              48 DXCCS3                      195  198   Num  CCS: diagnosis 3
+MI  2012 CORE              49 DXCCS4                      199  202   Num  CCS: diagnosis 4
+MI  2012 CORE              50 DXCCS5                      203  206   Num  CCS: diagnosis 5
+MI  2012 CORE              51 DXCCS6                      207  210   Num  CCS: diagnosis 6
+MI  2012 CORE              52 DXCCS7                      211  214   Num  CCS: diagnosis 7
+MI  2012 CORE              53 DXCCS8                      215  218   Num  CCS: diagnosis 8
+MI  2012 CORE              54 DXCCS9                      219  222   Num  CCS: diagnosis 9
+MI  2012 CORE              55 DXCCS10                     223  226   Num  CCS: diagnosis 10
+MI  2012 CORE              56 DXCCS11                     227  230   Num  CCS: diagnosis 11
+MI  2012 CORE              57 DXCCS12                     231  234   Num  CCS: diagnosis 12
+MI  2012 CORE              58 DXCCS13                     235  238   Num  CCS: diagnosis 13
+MI  2012 CORE              59 DXCCS14                     239  242   Num  CCS: diagnosis 14
+MI  2012 CORE              60 DXCCS15                     243  246   Num  CCS: diagnosis 15
+MI  2012 CORE              61 DXCCS16                     247  250   Num  CCS: diagnosis 16
+MI  2012 CORE              62 DXCCS17                     251  254   Num  CCS: diagnosis 17
+MI  2012 CORE              63 DXCCS18                     255  258   Num  CCS: diagnosis 18
+MI  2012 CORE              64 DXCCS19                     259  262   Num  CCS: diagnosis 19
+MI  2012 CORE              65 DXCCS20                     263  266   Num  CCS: diagnosis 20
+MI  2012 CORE              66 DXCCS21                     267  270   Num  CCS: diagnosis 21
+MI  2012 CORE              67 DXCCS22                     271  274   Num  CCS: diagnosis 22
+MI  2012 CORE              68 DXCCS23                     275  278   Num  CCS: diagnosis 23
+MI  2012 CORE              69 DXCCS24                     279  282   Num  CCS: diagnosis 24
+MI  2012 CORE              70 DXCCS25                     283  286   Num  CCS: diagnosis 25
+MI  2012 CORE              71 DXCCS26                     287  290   Num  CCS: diagnosis 26
+MI  2012 CORE              72 DXCCS27                     291  294   Num  CCS: diagnosis 27
+MI  2012 CORE              73 DXCCS28                     295  298   Num  CCS: diagnosis 28
+MI  2012 CORE              74 DXCCS29                     299  302   Num  CCS: diagnosis 29
+MI  2012 CORE              75 DXCCS30                     303  306   Num  CCS: diagnosis 30
+MI  2012 CORE              76 DXPOA1                      307  307   Char Diagnosis 1, present on admission indicator
+MI  2012 CORE              77 DXPOA2                      308  308   Char Diagnosis 2, present on admission indicator
+MI  2012 CORE              78 DXPOA3                      309  309   Char Diagnosis 3, present on admission indicator
+MI  2012 CORE              79 DXPOA4                      310  310   Char Diagnosis 4, present on admission indicator
+MI  2012 CORE              80 DXPOA5                      311  311   Char Diagnosis 5, present on admission indicator
+MI  2012 CORE              81 DXPOA6                      312  312   Char Diagnosis 6, present on admission indicator
+MI  2012 CORE              82 DXPOA7                      313  313   Char Diagnosis 7, present on admission indicator
+MI  2012 CORE              83 DXPOA8                      314  314   Char Diagnosis 8, present on admission indicator
+MI  2012 CORE              84 DXPOA9                      315  315   Char Diagnosis 9, present on admission indicator
+MI  2012 CORE              85 DXPOA10                     316  316   Char Diagnosis 10, present on admission indicator
+MI  2012 CORE              86 DXPOA11                     317  317   Char Diagnosis 11, present on admission indicator
+MI  2012 CORE              87 DXPOA12                     318  318   Char Diagnosis 12, present on admission indicator
+MI  2012 CORE              88 DXPOA13                     319  319   Char Diagnosis 13, present on admission indicator
+MI  2012 CORE              89 DXPOA14                     320  320   Char Diagnosis 14, present on admission indicator
+MI  2012 CORE              90 DXPOA15                     321  321   Char Diagnosis 15, present on admission indicator
+MI  2012 CORE              91 DXPOA16                     322  322   Char Diagnosis 16, present on admission indicator
+MI  2012 CORE              92 DXPOA17                     323  323   Char Diagnosis 17, present on admission indicator
+MI  2012 CORE              93 DXPOA18                     324  324   Char Diagnosis 18, present on admission indicator
+MI  2012 CORE              94 DXPOA19                     325  325   Char Diagnosis 19, present on admission indicator
+MI  2012 CORE              95 DXPOA20                     326  326   Char Diagnosis 20, present on admission indicator
+MI  2012 CORE              96 DXPOA21                     327  327   Char Diagnosis 21, present on admission indicator
+MI  2012 CORE              97 DXPOA22                     328  328   Char Diagnosis 22, present on admission indicator
+MI  2012 CORE              98 DXPOA23                     329  329   Char Diagnosis 23, present on admission indicator
+MI  2012 CORE              99 DXPOA24                     330  330   Char Diagnosis 24, present on admission indicator
+MI  2012 CORE             100 DXPOA25                     331  331   Char Diagnosis 25, present on admission indicator
+MI  2012 CORE             101 DXPOA26                     332  332   Char Diagnosis 26, present on admission indicator
+MI  2012 CORE             102 DXPOA27                     333  333   Char Diagnosis 27, present on admission indicator
+MI  2012 CORE             103 DXPOA28                     334  334   Char Diagnosis 28, present on admission indicator
+MI  2012 CORE             104 DXPOA29                     335  335   Char Diagnosis 29, present on admission indicator
+MI  2012 CORE             105 DXPOA30                     336  336   Char Diagnosis 30, present on admission indicator
+MI  2012 CORE             106 DX_Admitting                337  341   Char Admitting Diagnosis Code
+MI  2012 CORE             107 DaysCCU                     342  344   Num  Days in coronary care unit (as received from source)
+MI  2012 CORE             108 DaysICU                     345  347   Num  Days in medical/surgical intensive care unit (as received from source)
+MI  2012 CORE             109 ECODE1                      348  352   Char E code 1
+MI  2012 CORE             110 ECODE2                      353  357   Char E code 2
+MI  2012 CORE             111 ECODE3                      358  362   Char E code 3
+MI  2012 CORE             112 ECODE4                      363  367   Char E code 4
+MI  2012 CORE             113 ECODE5                      368  372   Char E code 5
+MI  2012 CORE             114 ECODE6                      373  377   Char E code 6
+MI  2012 CORE             115 ECODE7                      378  382   Char E code 7
+MI  2012 CORE             116 ECODE8                      383  387   Char E code 8
+MI  2012 CORE             117 ECODE9                      388  392   Char E code 9
+MI  2012 CORE             118 E_CCS1                      393  396   Num  CCS: E Code 1
+MI  2012 CORE             119 E_CCS2                      397  400   Num  CCS: E Code 2
+MI  2012 CORE             120 E_CCS3                      401  404   Num  CCS: E Code 3
+MI  2012 CORE             121 E_CCS4                      405  408   Num  CCS: E Code 4
+MI  2012 CORE             122 E_CCS5                      409  412   Num  CCS: E Code 5
+MI  2012 CORE             123 E_CCS6                      413  416   Num  CCS: E Code 6
+MI  2012 CORE             124 E_CCS7                      417  420   Num  CCS: E Code 7
+MI  2012 CORE             125 E_CCS8                      421  424   Num  CCS: E Code 8
+MI  2012 CORE             126 E_CCS9                      425  428   Num  CCS: E Code 9
+MI  2012 CORE             127 E_POA1                      429  429   Char E Code 1, present on admission indicator
+MI  2012 CORE             128 E_POA2                      430  430   Char E Code 2, present on admission indicator
+MI  2012 CORE             129 E_POA3                      431  431   Char E Code 3, present on admission indicator
+MI  2012 CORE             130 E_POA4                      432  432   Char E Code 4, present on admission indicator
+MI  2012 CORE             131 E_POA5                      433  433   Char E Code 5, present on admission indicator
+MI  2012 CORE             132 E_POA6                      434  434   Char E Code 6, present on admission indicator
+MI  2012 CORE             133 E_POA7                      435  435   Char E Code 7, present on admission indicator
+MI  2012 CORE             134 E_POA8                      436  436   Char E Code 8, present on admission indicator
+MI  2012 CORE             135 E_POA9                      437  437   Char E Code 9, present on admission indicator
+MI  2012 CORE             136 FEMALE                      438  439   Num  Indicator of sex
+MI  2012 CORE             137 HCUP_ED                     440  441   Num  HCUP Emergency Department service indicator
+MI  2012 CORE             138 HCUP_OS                     442  443   Num  HCUP Observation Stay service indicator
+MI  2012 CORE             139 HISPANIC_X                  444  444   Char Hispanic ethnicity (as received from source)
+MI  2012 CORE             140 HOSPBRTH                    445  447   Num  Indicator of birth in this hospital
+MI  2012 CORE             141 HOSPST                      448  449   Char Hospital state postal code
+MI  2012 CORE             142 KEY                         450  464   Num  HCUP record identifier
+MI  2012 CORE             143 LOS                         465  469   Num  Length of stay (cleaned)
+MI  2012 CORE             144 LOS_X                       470  475   Num  Length of stay (as received from source)
+MI  2012 CORE             145 MDC                         476  477   Num  MDC in effect on discharge date
+MI  2012 CORE             146 MDC24                       478  479   Num  MDC, version 24
+MI  2012 CORE             147 MDC_NoPOA                   480  481   Num  MDC in use on discharge date, calculated without POA
+MI  2012 CORE             148 MDNUM1_R                    482  490   Num  Physician 1 number (re-identified)
+MI  2012 CORE             149 MDNUM2_R                    491  499   Num  Physician 2 number (re-identified)
+MI  2012 CORE             150 MEDINCSTQ                   500  501   Num  Median household income state quartile for patient ZIP Code
+MI  2012 CORE             151 MOMNUM_R                    502  510   Num  Mother's number (re-identified)
+MI  2012 CORE             152 MRN_R                       511  519   Num  Medical record number (re-identified)
+MI  2012 CORE             153 NCHRONIC                    520  522   Num  Number of chronic conditions
+MI  2012 CORE             154 NDX                         523  524   Num  Number of diagnoses on this record
+MI  2012 CORE             155 NECODE                      525  526   Num  Number of E codes on this record
+MI  2012 CORE             156 NEOMAT                      527  528   Num  Neonatal and/or maternal DX and/or PR
+MI  2012 CORE             157 NPR                         529  530   Num  Number of procedures on this record
+MI  2012 CORE             158 ORPROC                      531  532   Num  Major operating room procedure indicator
+MI  2012 CORE             159 PAY1                        533  534   Num  Primary expected payer (uniform)
+MI  2012 CORE             160 PAY1_X                      535  536   Char Primary expected payer (as received from source)
+MI  2012 CORE             161 PAY2                        537  538   Num  Secondary expected payer (uniform)
+MI  2012 CORE             162 PAY2_X                      539  540   Char Secondary expected payer (as received from source)
+MI  2012 CORE             163 PL_CBSA                     541  543   Num  Patient location: Core Based Statistical Area (CBSA)
+MI  2012 CORE             164 PL_MSA1993                  544  546   Num  Patient location: Metropolitan Statistical Area (MSA), 1993
+MI  2012 CORE             165 PL_NCHS2006                 547  548   Num  Patient Location: NCHS Urban-Rural Code (V2006)
+MI  2012 CORE             166 PL_RUCA10_2005              549  550   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, ten levels
+MI  2012 CORE             167 PL_RUCA2005                 551  554 1 Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes
+MI  2012 CORE             168 PL_RUCA4_2005               555  556   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, four levels
+MI  2012 CORE             169 PL_RUCC2003                 557  558   Num  Patient location: Rural-Urban Continuum Codes(RUCC), 2003
+MI  2012 CORE             170 PL_UIC2003                  559  560   Num  Patient location: Urban Influence Codes, 2003
+MI  2012 CORE             171 PL_UR_CAT4                  561  562   Num  Patient Location: Urban-Rural 4 Categories
+MI  2012 CORE             172 PR1                         563  566   Char Procedure 1
+MI  2012 CORE             173 PR2                         567  570   Char Procedure 2
+MI  2012 CORE             174 PR3                         571  574   Char Procedure 3
+MI  2012 CORE             175 PR4                         575  578   Char Procedure 4
+MI  2012 CORE             176 PR5                         579  582   Char Procedure 5
+MI  2012 CORE             177 PR6                         583  586   Char Procedure 6
+MI  2012 CORE             178 PR7                         587  590   Char Procedure 7
+MI  2012 CORE             179 PR8                         591  594   Char Procedure 8
+MI  2012 CORE             180 PR9                         595  598   Char Procedure 9
+MI  2012 CORE             181 PR10                        599  602   Char Procedure 10
+MI  2012 CORE             182 PR11                        603  606   Char Procedure 11
+MI  2012 CORE             183 PR12                        607  610   Char Procedure 12
+MI  2012 CORE             184 PR13                        611  614   Char Procedure 13
+MI  2012 CORE             185 PR14                        615  618   Char Procedure 14
+MI  2012 CORE             186 PR15                        619  622   Char Procedure 15
+MI  2012 CORE             187 PR16                        623  626   Char Procedure 16
+MI  2012 CORE             188 PR17                        627  630   Char Procedure 17
+MI  2012 CORE             189 PR18                        631  634   Char Procedure 18
+MI  2012 CORE             190 PR19                        635  638   Char Procedure 19
+MI  2012 CORE             191 PR20                        639  642   Char Procedure 20
+MI  2012 CORE             192 PR21                        643  646   Char Procedure 21
+MI  2012 CORE             193 PR22                        647  650   Char Procedure 22
+MI  2012 CORE             194 PR23                        651  654   Char Procedure 23
+MI  2012 CORE             195 PR24                        655  658   Char Procedure 24
+MI  2012 CORE             196 PR25                        659  662   Char Procedure 25
+MI  2012 CORE             197 PR26                        663  666   Char Procedure 26
+MI  2012 CORE             198 PR27                        667  670   Char Procedure 27
+MI  2012 CORE             199 PR28                        671  674   Char Procedure 28
+MI  2012 CORE             200 PR29                        675  678   Char Procedure 29
+MI  2012 CORE             201 PR30                        679  682   Char Procedure 30
+MI  2012 CORE             202 PRCCS1                      683  685   Num  CCS: procedure 1
+MI  2012 CORE             203 PRCCS2                      686  688   Num  CCS: procedure 2
+MI  2012 CORE             204 PRCCS3                      689  691   Num  CCS: procedure 3
+MI  2012 CORE             205 PRCCS4                      692  694   Num  CCS: procedure 4
+MI  2012 CORE             206 PRCCS5                      695  697   Num  CCS: procedure 5
+MI  2012 CORE             207 PRCCS6                      698  700   Num  CCS: procedure 6
+MI  2012 CORE             208 PRCCS7                      701  703   Num  CCS: procedure 7
+MI  2012 CORE             209 PRCCS8                      704  706   Num  CCS: procedure 8
+MI  2012 CORE             210 PRCCS9                      707  709   Num  CCS: procedure 9
+MI  2012 CORE             211 PRCCS10                     710  712   Num  CCS: procedure 10
+MI  2012 CORE             212 PRCCS11                     713  715   Num  CCS: procedure 11
+MI  2012 CORE             213 PRCCS12                     716  718   Num  CCS: procedure 12
+MI  2012 CORE             214 PRCCS13                     719  721   Num  CCS: procedure 13
+MI  2012 CORE             215 PRCCS14                     722  724   Num  CCS: procedure 14
+MI  2012 CORE             216 PRCCS15                     725  727   Num  CCS: procedure 15
+MI  2012 CORE             217 PRCCS16                     728  730   Num  CCS: procedure 16
+MI  2012 CORE             218 PRCCS17                     731  733   Num  CCS: procedure 17
+MI  2012 CORE             219 PRCCS18                     734  736   Num  CCS: procedure 18
+MI  2012 CORE             220 PRCCS19                     737  739   Num  CCS: procedure 19
+MI  2012 CORE             221 PRCCS20                     740  742   Num  CCS: procedure 20
+MI  2012 CORE             222 PRCCS21                     743  745   Num  CCS: procedure 21
+MI  2012 CORE             223 PRCCS22                     746  748   Num  CCS: procedure 22
+MI  2012 CORE             224 PRCCS23                     749  751   Num  CCS: procedure 23
+MI  2012 CORE             225 PRCCS24                     752  754   Num  CCS: procedure 24
+MI  2012 CORE             226 PRCCS25                     755  757   Num  CCS: procedure 25
+MI  2012 CORE             227 PRCCS26                     758  760   Num  CCS: procedure 26
+MI  2012 CORE             228 PRCCS27                     761  763   Num  CCS: procedure 27
+MI  2012 CORE             229 PRCCS28                     764  766   Num  CCS: procedure 28
+MI  2012 CORE             230 PRCCS29                     767  769   Num  CCS: procedure 29
+MI  2012 CORE             231 PRCCS30                     770  772   Num  CCS: procedure 30
+MI  2012 CORE             232 PRDAY1                      773  777   Num  Number of days from admission to PR1
+MI  2012 CORE             233 PRDAY2                      778  782   Num  Number of days from admission to PR2
+MI  2012 CORE             234 PRDAY3                      783  787   Num  Number of days from admission to PR3
+MI  2012 CORE             235 PRDAY4                      788  792   Num  Number of days from admission to PR4
+MI  2012 CORE             236 PRDAY5                      793  797   Num  Number of days from admission to PR5
+MI  2012 CORE             237 PRDAY6                      798  802   Num  Number of days from admission to PR6
+MI  2012 CORE             238 PRDAY7                      803  807   Num  Number of days from admission to PR7
+MI  2012 CORE             239 PRDAY8                      808  812   Num  Number of days from admission to PR8
+MI  2012 CORE             240 PRDAY9                      813  817   Num  Number of days from admission to PR9
+MI  2012 CORE             241 PRDAY10                     818  822   Num  Number of days from admission to PR10
+MI  2012 CORE             242 PRDAY11                     823  827   Num  Number of days from admission to PR11
+MI  2012 CORE             243 PRDAY12                     828  832   Num  Number of days from admission to PR12
+MI  2012 CORE             244 PRDAY13                     833  837   Num  Number of days from admission to PR13
+MI  2012 CORE             245 PRDAY14                     838  842   Num  Number of days from admission to PR14
+MI  2012 CORE             246 PRDAY15                     843  847   Num  Number of days from admission to PR15
+MI  2012 CORE             247 PRDAY16                     848  852   Num  Number of days from admission to PR16
+MI  2012 CORE             248 PRDAY17                     853  857   Num  Number of days from admission to PR17
+MI  2012 CORE             249 PRDAY18                     858  862   Num  Number of days from admission to PR18
+MI  2012 CORE             250 PRDAY19                     863  867   Num  Number of days from admission to PR19
+MI  2012 CORE             251 PRDAY20                     868  872   Num  Number of days from admission to PR20
+MI  2012 CORE             252 PRDAY21                     873  877   Num  Number of days from admission to PR21
+MI  2012 CORE             253 PRDAY22                     878  882   Num  Number of days from admission to PR22
+MI  2012 CORE             254 PRDAY23                     883  887   Num  Number of days from admission to PR23
+MI  2012 CORE             255 PRDAY24                     888  892   Num  Number of days from admission to PR24
+MI  2012 CORE             256 PRDAY25                     893  897   Num  Number of days from admission to PR25
+MI  2012 CORE             257 PRDAY26                     898  902   Num  Number of days from admission to PR26
+MI  2012 CORE             258 PRDAY27                     903  907   Num  Number of days from admission to PR27
+MI  2012 CORE             259 PRDAY28                     908  912   Num  Number of days from admission to PR28
+MI  2012 CORE             260 PRDAY29                     913  917   Num  Number of days from admission to PR29
+MI  2012 CORE             261 PRDAY30                     918  922   Num  Number of days from admission to PR30
+MI  2012 CORE             262 PROCTYPE                    923  925   Num  Procedure type indicator
+MI  2012 CORE             263 PSTATE                      926  927   Char Patient State postal code
+MI  2012 CORE             264 PSTCO2                      928  932   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+MI  2012 CORE             265 PointOfOriginUB04           933  933   Char Point of origin for admission or visit, UB-04 standard coding
+MI  2012 CORE             266 PointOfOrigin_X             934  934   Char Point of origin for admission or visit, as received from source
+MI  2012 CORE             267 RACE                        935  936   Num  Race (uniform)
+MI  2012 CORE             268 RACE_X                      937  937   Char Race (as received from source)
+MI  2012 CORE             269 TOTCHG                      938  947   Num  Total charges (cleaned)
+MI  2012 CORE             270 TOTCHG_X                    948  962 2 Num  Total charges (as received from source)
+MI  2012 CORE             271 TRAN_IN                     963  964   Num  Transfer in indicator
+MI  2012 CORE             272 TRAN_OUT                    965  966   Num  Transfer out indicator
+MI  2012 CORE             273 YEAR                        967  970   Num  Calendar year
+MI  2012 CORE             274 ZIP3                        971  973   Char Patient ZIP Code, first 3 digits
+MI  2012 CORE             275 ZIPINC_QRTL                 974  976   Num  Median household income national quartile for patient ZIP Code
+MI  2012 CORE             276 HOSPID                      977  981   Num  HCUP hospital identification number
+MI  2012 CORE             277 ZIP                         982  986   Char Patient ZIP Code
+MI  2012 CORE             278 AYEAR                       987  990   Num  Admission year
+MI  2012 CORE             279 DMONTH                      991  992   Num  Discharge month
+MI  2012 CORE             280 BMONTH                      993  994   Num  Birth month
+MI  2012 CORE             281 BYEAR                       995  998   Num  Birth year
+MI  2012 CORE             282 PRMONTH1                    999 1000   Num  Month of procedure 1
+MI  2012 CORE             283 PRMONTH2                   1001 1002   Num  Month of procedure 2
+MI  2012 CORE             284 PRMONTH3                   1003 1004   Num  Month of procedure 3
+MI  2012 CORE             285 PRMONTH4                   1005 1006   Num  Month of procedure 4
+MI  2012 CORE             286 PRMONTH5                   1007 1008   Num  Month of procedure 5
+MI  2012 CORE             287 PRMONTH6                   1009 1010   Num  Month of procedure 6
+MI  2012 CORE             288 PRMONTH7                   1011 1012   Num  Month of procedure 7
+MI  2012 CORE             289 PRMONTH8                   1013 1014   Num  Month of procedure 8
+MI  2012 CORE             290 PRMONTH9                   1015 1016   Num  Month of procedure 9
+MI  2012 CORE             291 PRMONTH10                  1017 1018   Num  Month of procedure 10
+MI  2012 CORE             292 PRMONTH11                  1019 1020   Num  Month of procedure 11
+MI  2012 CORE             293 PRMONTH12                  1021 1022   Num  Month of procedure 12
+MI  2012 CORE             294 PRMONTH13                  1023 1024   Num  Month of procedure 13
+MI  2012 CORE             295 PRMONTH14                  1025 1026   Num  Month of procedure 14
+MI  2012 CORE             296 PRMONTH15                  1027 1028   Num  Month of procedure 15
+MI  2012 CORE             297 PRMONTH16                  1029 1030   Num  Month of procedure 16
+MI  2012 CORE             298 PRMONTH17                  1031 1032   Num  Month of procedure 17
+MI  2012 CORE             299 PRMONTH18                  1033 1034   Num  Month of procedure 18
+MI  2012 CORE             300 PRMONTH19                  1035 1036   Num  Month of procedure 19
+MI  2012 CORE             301 PRMONTH20                  1037 1038   Num  Month of procedure 20
+MI  2012 CORE             302 PRMONTH21                  1039 1040   Num  Month of procedure 21
+MI  2012 CORE             303 PRMONTH22                  1041 1042   Num  Month of procedure 22
+MI  2012 CORE             304 PRMONTH23                  1043 1044   Num  Month of procedure 23
+MI  2012 CORE             305 PRMONTH24                  1045 1046   Num  Month of procedure 24
+MI  2012 CORE             306 PRMONTH25                  1047 1048   Num  Month of procedure 25
+MI  2012 CORE             307 PRMONTH26                  1049 1050   Num  Month of procedure 26
+MI  2012 CORE             308 PRMONTH27                  1051 1052   Num  Month of procedure 27
+MI  2012 CORE             309 PRMONTH28                  1053 1054   Num  Month of procedure 28
+MI  2012 CORE             310 PRMONTH29                  1055 1056   Num  Month of procedure 29
+MI  2012 CORE             311 PRMONTH30                  1057 1058   Num  Month of procedure 30
+MI  2012 CORE             312 PRYEAR1                    1059 1062   Num  Year of procedure 1
+MI  2012 CORE             313 PRYEAR2                    1063 1066   Num  Year of procedure 2
+MI  2012 CORE             314 PRYEAR3                    1067 1070   Num  Year of procedure 3
+MI  2012 CORE             315 PRYEAR4                    1071 1074   Num  Year of procedure 4
+MI  2012 CORE             316 PRYEAR5                    1075 1078   Num  Year of procedure 5
+MI  2012 CORE             317 PRYEAR6                    1079 1082   Num  Year of procedure 6
+MI  2012 CORE             318 PRYEAR7                    1083 1086   Num  Year of procedure 7
+MI  2012 CORE             319 PRYEAR8                    1087 1090   Num  Year of procedure 8
+MI  2012 CORE             320 PRYEAR9                    1091 1094   Num  Year of procedure 9
+MI  2012 CORE             321 PRYEAR10                   1095 1098   Num  Year of procedure 10
+MI  2012 CORE             322 PRYEAR11                   1099 1102   Num  Year of procedure 11
+MI  2012 CORE             323 PRYEAR12                   1103 1106   Num  Year of procedure 12
+MI  2012 CORE             324 PRYEAR13                   1107 1110   Num  Year of procedure 13
+MI  2012 CORE             325 PRYEAR14                   1111 1114   Num  Year of procedure 14
+MI  2012 CORE             326 PRYEAR15                   1115 1118   Num  Year of procedure 15
+MI  2012 CORE             327 PRYEAR16                   1119 1122   Num  Year of procedure 16
+MI  2012 CORE             328 PRYEAR17                   1123 1126   Num  Year of procedure 17
+MI  2012 CORE             329 PRYEAR18                   1127 1130   Num  Year of procedure 18
+MI  2012 CORE             330 PRYEAR19                   1131 1134   Num  Year of procedure 19
+MI  2012 CORE             331 PRYEAR20                   1135 1138   Num  Year of procedure 20
+MI  2012 CORE             332 PRYEAR21                   1139 1142   Num  Year of procedure 21
+MI  2012 CORE             333 PRYEAR22                   1143 1146   Num  Year of procedure 22
+MI  2012 CORE             334 PRYEAR23                   1147 1150   Num  Year of procedure 23
+MI  2012 CORE             335 PRYEAR24                   1151 1154   Num  Year of procedure 24
+MI  2012 CORE             336 PRYEAR25                   1155 1158   Num  Year of procedure 25
+MI  2012 CORE             337 PRYEAR26                   1159 1162   Num  Year of procedure 26
+MI  2012 CORE             338 PRYEAR27                   1163 1166   Num  Year of procedure 27
+MI  2012 CORE             339 PRYEAR28                   1167 1170   Num  Year of procedure 28
+MI  2012 CORE             340 PRYEAR29                   1171 1174   Num  Year of procedure 29
+MI  2012 CORE             341 PRYEAR30                   1175 1178   Num  Year of procedure 30

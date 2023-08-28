@@ -1,0 +1,355 @@
+Data Set Name: MI_SIDC_2008_CORE               
+Number of Observations: 1296622
+Total Record Length: 1165
+Total Number of Variables: 335
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 56    Variable name
+58- 61    Starting column of variable in ASCII file
+63- 66    Ending column of variable in ASCII file
+    68    Non-zero number of digits after decimal point for numeric variable
+70- 73    Variable type (Num=numeric; Char=character)
+75-174    Variable label
+
+
+MI  2008 CORE               1 ADRG                          1    3   Num  All Patient Refined DRG
+MI  2008 CORE               2 ADRGRISKMORTALITY             4    5   Num  All Patient Refined DRG mortality risk
+MI  2008 CORE               3 ADRGSEV                       6    7   Num  All Patient Refined DRG severity level
+MI  2008 CORE               4 AGE                           8   10   Num  Age in years at admission
+MI  2008 CORE               5 AGEDAY                       11   13   Num  Age in days (when age < 1 year)
+MI  2008 CORE               6 AGEMONTH                     14   16   Num  Age in months (when age < 11 years)
+MI  2008 CORE               7 AMONTH                       17   18   Num  Admission month
+MI  2008 CORE               8 ATYPE                        19   20   Num  Admission type
+MI  2008 CORE               9 AWEEKEND                     21   22   Num  Admission day is a weekend
+MI  2008 CORE              10 DIED                         23   24   Num  Died during hospitalization
+MI  2008 CORE              11 DISPUB04                     25   26   Num  Disposition of patient (UB-04 standard coding)
+MI  2008 CORE              12 DISPUNIFORM                  27   28   Num  Disposition of patient (uniform)
+MI  2008 CORE              13 DISP_X                       29   30   Char Disposition of patient (as received from source)
+MI  2008 CORE              14 DQTR                         31   32   Num  Discharge quarter
+MI  2008 CORE              15 DRG                          33   35   Num  DRG in effect on discharge date
+MI  2008 CORE              16 DRG24                        36   38   Num  DRG, version 24
+MI  2008 CORE              17 DRGVER                       39   40   Num  DRG grouper version used on discharge date
+MI  2008 CORE              18 DRG_NoPOA                    41   43   Num  DRG in use on discharge date, calculated without POA
+MI  2008 CORE              19 DX1                          44   48   Char Diagnosis 1
+MI  2008 CORE              20 DX2                          49   53   Char Diagnosis 2
+MI  2008 CORE              21 DX3                          54   58   Char Diagnosis 3
+MI  2008 CORE              22 DX4                          59   63   Char Diagnosis 4
+MI  2008 CORE              23 DX5                          64   68   Char Diagnosis 5
+MI  2008 CORE              24 DX6                          69   73   Char Diagnosis 6
+MI  2008 CORE              25 DX7                          74   78   Char Diagnosis 7
+MI  2008 CORE              26 DX8                          79   83   Char Diagnosis 8
+MI  2008 CORE              27 DX9                          84   88   Char Diagnosis 9
+MI  2008 CORE              28 DX10                         89   93   Char Diagnosis 10
+MI  2008 CORE              29 DX11                         94   98   Char Diagnosis 11
+MI  2008 CORE              30 DX12                         99  103   Char Diagnosis 12
+MI  2008 CORE              31 DX13                        104  108   Char Diagnosis 13
+MI  2008 CORE              32 DX14                        109  113   Char Diagnosis 14
+MI  2008 CORE              33 DX15                        114  118   Char Diagnosis 15
+MI  2008 CORE              34 DX16                        119  123   Char Diagnosis 16
+MI  2008 CORE              35 DX17                        124  128   Char Diagnosis 17
+MI  2008 CORE              36 DX18                        129  133   Char Diagnosis 18
+MI  2008 CORE              37 DX19                        134  138   Char Diagnosis 19
+MI  2008 CORE              38 DX20                        139  143   Char Diagnosis 20
+MI  2008 CORE              39 DX21                        144  148   Char Diagnosis 21
+MI  2008 CORE              40 DX22                        149  153   Char Diagnosis 22
+MI  2008 CORE              41 DX23                        154  158   Char Diagnosis 23
+MI  2008 CORE              42 DX24                        159  163   Char Diagnosis 24
+MI  2008 CORE              43 DX25                        164  168   Char Diagnosis 25
+MI  2008 CORE              44 DX26                        169  173   Char Diagnosis 26
+MI  2008 CORE              45 DX27                        174  178   Char Diagnosis 27
+MI  2008 CORE              46 DX28                        179  183   Char Diagnosis 28
+MI  2008 CORE              47 DX29                        184  188   Char Diagnosis 29
+MI  2008 CORE              48 DX30                        189  193   Char Diagnosis 30
+MI  2008 CORE              49 DXCCS1                      194  197   Num  CCS: diagnosis 1
+MI  2008 CORE              50 DXCCS2                      198  201   Num  CCS: diagnosis 2
+MI  2008 CORE              51 DXCCS3                      202  205   Num  CCS: diagnosis 3
+MI  2008 CORE              52 DXCCS4                      206  209   Num  CCS: diagnosis 4
+MI  2008 CORE              53 DXCCS5                      210  213   Num  CCS: diagnosis 5
+MI  2008 CORE              54 DXCCS6                      214  217   Num  CCS: diagnosis 6
+MI  2008 CORE              55 DXCCS7                      218  221   Num  CCS: diagnosis 7
+MI  2008 CORE              56 DXCCS8                      222  225   Num  CCS: diagnosis 8
+MI  2008 CORE              57 DXCCS9                      226  229   Num  CCS: diagnosis 9
+MI  2008 CORE              58 DXCCS10                     230  233   Num  CCS: diagnosis 10
+MI  2008 CORE              59 DXCCS11                     234  237   Num  CCS: diagnosis 11
+MI  2008 CORE              60 DXCCS12                     238  241   Num  CCS: diagnosis 12
+MI  2008 CORE              61 DXCCS13                     242  245   Num  CCS: diagnosis 13
+MI  2008 CORE              62 DXCCS14                     246  249   Num  CCS: diagnosis 14
+MI  2008 CORE              63 DXCCS15                     250  253   Num  CCS: diagnosis 15
+MI  2008 CORE              64 DXCCS16                     254  257   Num  CCS: diagnosis 16
+MI  2008 CORE              65 DXCCS17                     258  261   Num  CCS: diagnosis 17
+MI  2008 CORE              66 DXCCS18                     262  265   Num  CCS: diagnosis 18
+MI  2008 CORE              67 DXCCS19                     266  269   Num  CCS: diagnosis 19
+MI  2008 CORE              68 DXCCS20                     270  273   Num  CCS: diagnosis 20
+MI  2008 CORE              69 DXCCS21                     274  277   Num  CCS: diagnosis 21
+MI  2008 CORE              70 DXCCS22                     278  281   Num  CCS: diagnosis 22
+MI  2008 CORE              71 DXCCS23                     282  285   Num  CCS: diagnosis 23
+MI  2008 CORE              72 DXCCS24                     286  289   Num  CCS: diagnosis 24
+MI  2008 CORE              73 DXCCS25                     290  293   Num  CCS: diagnosis 25
+MI  2008 CORE              74 DXCCS26                     294  297   Num  CCS: diagnosis 26
+MI  2008 CORE              75 DXCCS27                     298  301   Num  CCS: diagnosis 27
+MI  2008 CORE              76 DXCCS28                     302  305   Num  CCS: diagnosis 28
+MI  2008 CORE              77 DXCCS29                     306  309   Num  CCS: diagnosis 29
+MI  2008 CORE              78 DXCCS30                     310  313   Num  CCS: diagnosis 30
+MI  2008 CORE              79 DXPOA1                      314  314   Char Diagnosis 1, present on admission indicator
+MI  2008 CORE              80 DXPOA2                      315  315   Char Diagnosis 2, present on admission indicator
+MI  2008 CORE              81 DXPOA3                      316  316   Char Diagnosis 3, present on admission indicator
+MI  2008 CORE              82 DXPOA4                      317  317   Char Diagnosis 4, present on admission indicator
+MI  2008 CORE              83 DXPOA5                      318  318   Char Diagnosis 5, present on admission indicator
+MI  2008 CORE              84 DXPOA6                      319  319   Char Diagnosis 6, present on admission indicator
+MI  2008 CORE              85 DXPOA7                      320  320   Char Diagnosis 7, present on admission indicator
+MI  2008 CORE              86 DXPOA8                      321  321   Char Diagnosis 8, present on admission indicator
+MI  2008 CORE              87 DXPOA9                      322  322   Char Diagnosis 9, present on admission indicator
+MI  2008 CORE              88 DXPOA10                     323  323   Char Diagnosis 10, present on admission indicator
+MI  2008 CORE              89 DXPOA11                     324  324   Char Diagnosis 11, present on admission indicator
+MI  2008 CORE              90 DXPOA12                     325  325   Char Diagnosis 12, present on admission indicator
+MI  2008 CORE              91 DXPOA13                     326  326   Char Diagnosis 13, present on admission indicator
+MI  2008 CORE              92 DXPOA14                     327  327   Char Diagnosis 14, present on admission indicator
+MI  2008 CORE              93 DXPOA15                     328  328   Char Diagnosis 15, present on admission indicator
+MI  2008 CORE              94 DXPOA16                     329  329   Char Diagnosis 16, present on admission indicator
+MI  2008 CORE              95 DXPOA17                     330  330   Char Diagnosis 17, present on admission indicator
+MI  2008 CORE              96 DXPOA18                     331  331   Char Diagnosis 18, present on admission indicator
+MI  2008 CORE              97 DXPOA19                     332  332   Char Diagnosis 19, present on admission indicator
+MI  2008 CORE              98 DXPOA20                     333  333   Char Diagnosis 20, present on admission indicator
+MI  2008 CORE              99 DXPOA21                     334  334   Char Diagnosis 21, present on admission indicator
+MI  2008 CORE             100 DXPOA22                     335  335   Char Diagnosis 22, present on admission indicator
+MI  2008 CORE             101 DXPOA23                     336  336   Char Diagnosis 23, present on admission indicator
+MI  2008 CORE             102 DXPOA24                     337  337   Char Diagnosis 24, present on admission indicator
+MI  2008 CORE             103 DXPOA25                     338  338   Char Diagnosis 25, present on admission indicator
+MI  2008 CORE             104 DXPOA26                     339  339   Char Diagnosis 26, present on admission indicator
+MI  2008 CORE             105 DXPOA27                     340  340   Char Diagnosis 27, present on admission indicator
+MI  2008 CORE             106 DXPOA28                     341  341   Char Diagnosis 28, present on admission indicator
+MI  2008 CORE             107 DXPOA29                     342  342   Char Diagnosis 29, present on admission indicator
+MI  2008 CORE             108 DXPOA30                     343  343   Char Diagnosis 30, present on admission indicator
+MI  2008 CORE             109 DaysCCU                     344  346   Num  Days in coronary care unit (as received from source)
+MI  2008 CORE             110 DaysICU                     347  349   Num  Days in medical/surgical intensive care unit (as received from source)
+MI  2008 CORE             111 ECODE1                      350  354   Char E code 1
+MI  2008 CORE             112 ECODE2                      355  359   Char E code 2
+MI  2008 CORE             113 ECODE3                      360  364   Char E code 3
+MI  2008 CORE             114 ECODE4                      365  369   Char E code 4
+MI  2008 CORE             115 ECODE5                      370  374   Char E code 5
+MI  2008 CORE             116 ECODE6                      375  379   Char E code 6
+MI  2008 CORE             117 ECODE7                      380  384   Char E code 7
+MI  2008 CORE             118 ECODE8                      385  389   Char E code 8
+MI  2008 CORE             119 E_CCS1                      390  393   Num  CCS: E Code 1
+MI  2008 CORE             120 E_CCS2                      394  397   Num  CCS: E Code 2
+MI  2008 CORE             121 E_CCS3                      398  401   Num  CCS: E Code 3
+MI  2008 CORE             122 E_CCS4                      402  405   Num  CCS: E Code 4
+MI  2008 CORE             123 E_CCS5                      406  409   Num  CCS: E Code 5
+MI  2008 CORE             124 E_CCS6                      410  413   Num  CCS: E Code 6
+MI  2008 CORE             125 E_CCS7                      414  417   Num  CCS: E Code 7
+MI  2008 CORE             126 E_CCS8                      418  421   Num  CCS: E Code 8
+MI  2008 CORE             127 E_POA1                      422  422   Char E Code 1, present on admission indicator
+MI  2008 CORE             128 E_POA2                      423  423   Char E Code 2, present on admission indicator
+MI  2008 CORE             129 E_POA3                      424  424   Char E Code 3, present on admission indicator
+MI  2008 CORE             130 E_POA4                      425  425   Char E Code 4, present on admission indicator
+MI  2008 CORE             131 E_POA5                      426  426   Char E Code 5, present on admission indicator
+MI  2008 CORE             132 E_POA6                      427  427   Char E Code 6, present on admission indicator
+MI  2008 CORE             133 E_POA7                      428  428   Char E Code 7, present on admission indicator
+MI  2008 CORE             134 E_POA8                      429  429   Char E Code 8, present on admission indicator
+MI  2008 CORE             135 FEMALE                      430  431   Num  Indicator of sex
+MI  2008 CORE             136 HCUP_ED                     432  433   Num  HCUP Emergency Department service indicator
+MI  2008 CORE             137 HCUP_OS                     434  435   Num  HCUP Observation Stay service indicator
+MI  2008 CORE             138 HISPANIC_X                  436  436   Char Hispanic ethnicity (as received from source)
+MI  2008 CORE             139 HOSPBRTH                    437  439   Num  Indicator of birth in this hospital
+MI  2008 CORE             140 HOSPST                      440  441   Char Hospital state postal code
+MI  2008 CORE             141 HOSP_NPI                    442  451   Char Hospital NPI
+MI  2008 CORE             142 KEY                         452  465   Num  HCUP record identifier
+MI  2008 CORE             143 LOS                         466  470   Num  Length of stay (cleaned)
+MI  2008 CORE             144 LOS_X                       471  476   Num  Length of stay (as received from source)
+MI  2008 CORE             145 MDC                         477  478   Num  MDC in effect on discharge date
+MI  2008 CORE             146 MDC24                       479  480   Num  MDC, version 24
+MI  2008 CORE             147 MDNUM1_R                    481  489   Num  Physician 1 number (re-identified)
+MI  2008 CORE             148 MDNUM2_R                    490  498   Num  Physician 2 number (re-identified)
+MI  2008 CORE             149 MEDINCSTQ                   499  500   Num  Median household income state quartile for patient ZIP Code
+MI  2008 CORE             150 MOMNUM_R                    501  509   Num  Mother's number (re-identified)
+MI  2008 CORE             151 MRN_R                       510  518   Num  Medical record number (re-identified)
+MI  2008 CORE             152 NDX                         519  520   Num  Number of diagnoses on this record
+MI  2008 CORE             153 NECODE                      521  522   Num  Number of E codes on this record
+MI  2008 CORE             154 NEOMAT                      523  524   Num  Neonatal and/or maternal DX and/or PR
+MI  2008 CORE             155 NPR                         525  526   Num  Number of procedures on this record
+MI  2008 CORE             156 PAY1                        527  528   Num  Primary expected payer (uniform)
+MI  2008 CORE             157 PAY1_X                      529  530   Char Primary expected payer (as received from source)
+MI  2008 CORE             158 PAY2                        531  532   Num  Secondary expected payer (uniform)
+MI  2008 CORE             159 PAY2_X                      533  534   Char Secondary expected payer (as received from source)
+MI  2008 CORE             160 PL_CBSA                     535  537   Num  Patient location: Core Based Statistical Area (CBSA)
+MI  2008 CORE             161 PL_MSA1993                  538  540   Num  Patient location: Metropolitan Statistical Area (MSA), 1993
+MI  2008 CORE             162 PL_NCHS2006                 541  542   Num  Patient Location: NCHS Urban-Rural Code (V2006)
+MI  2008 CORE             163 PL_RUCA10_2005              543  544   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, ten levels
+MI  2008 CORE             164 PL_RUCA2005                 545  548 1 Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes
+MI  2008 CORE             165 PL_RUCA4_2005               549  550   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, four levels
+MI  2008 CORE             166 PL_RUCC2003                 551  552   Num  Patient location: Rural-Urban Continuum Codes(RUCC), 2003
+MI  2008 CORE             167 PL_UIC2003                  553  554   Num  Patient location: Urban Influence Codes, 2003
+MI  2008 CORE             168 PL_UR_CAT4                  555  556   Num  Patient Location: Urban-Rural 4 Categories
+MI  2008 CORE             169 PR1                         557  560   Char Procedure 1
+MI  2008 CORE             170 PR2                         561  564   Char Procedure 2
+MI  2008 CORE             171 PR3                         565  568   Char Procedure 3
+MI  2008 CORE             172 PR4                         569  572   Char Procedure 4
+MI  2008 CORE             173 PR5                         573  576   Char Procedure 5
+MI  2008 CORE             174 PR6                         577  580   Char Procedure 6
+MI  2008 CORE             175 PR7                         581  584   Char Procedure 7
+MI  2008 CORE             176 PR8                         585  588   Char Procedure 8
+MI  2008 CORE             177 PR9                         589  592   Char Procedure 9
+MI  2008 CORE             178 PR10                        593  596   Char Procedure 10
+MI  2008 CORE             179 PR11                        597  600   Char Procedure 11
+MI  2008 CORE             180 PR12                        601  604   Char Procedure 12
+MI  2008 CORE             181 PR13                        605  608   Char Procedure 13
+MI  2008 CORE             182 PR14                        609  612   Char Procedure 14
+MI  2008 CORE             183 PR15                        613  616   Char Procedure 15
+MI  2008 CORE             184 PR16                        617  620   Char Procedure 16
+MI  2008 CORE             185 PR17                        621  624   Char Procedure 17
+MI  2008 CORE             186 PR18                        625  628   Char Procedure 18
+MI  2008 CORE             187 PR19                        629  632   Char Procedure 19
+MI  2008 CORE             188 PR20                        633  636   Char Procedure 20
+MI  2008 CORE             189 PR21                        637  640   Char Procedure 21
+MI  2008 CORE             190 PR22                        641  644   Char Procedure 22
+MI  2008 CORE             191 PR23                        645  648   Char Procedure 23
+MI  2008 CORE             192 PR24                        649  652   Char Procedure 24
+MI  2008 CORE             193 PR25                        653  656   Char Procedure 25
+MI  2008 CORE             194 PR26                        657  660   Char Procedure 26
+MI  2008 CORE             195 PR27                        661  664   Char Procedure 27
+MI  2008 CORE             196 PR28                        665  668   Char Procedure 28
+MI  2008 CORE             197 PR29                        669  672   Char Procedure 29
+MI  2008 CORE             198 PR30                        673  676   Char Procedure 30
+MI  2008 CORE             199 PRCCS1                      677  679   Num  CCS: procedure 1
+MI  2008 CORE             200 PRCCS2                      680  682   Num  CCS: procedure 2
+MI  2008 CORE             201 PRCCS3                      683  685   Num  CCS: procedure 3
+MI  2008 CORE             202 PRCCS4                      686  688   Num  CCS: procedure 4
+MI  2008 CORE             203 PRCCS5                      689  691   Num  CCS: procedure 5
+MI  2008 CORE             204 PRCCS6                      692  694   Num  CCS: procedure 6
+MI  2008 CORE             205 PRCCS7                      695  697   Num  CCS: procedure 7
+MI  2008 CORE             206 PRCCS8                      698  700   Num  CCS: procedure 8
+MI  2008 CORE             207 PRCCS9                      701  703   Num  CCS: procedure 9
+MI  2008 CORE             208 PRCCS10                     704  706   Num  CCS: procedure 10
+MI  2008 CORE             209 PRCCS11                     707  709   Num  CCS: procedure 11
+MI  2008 CORE             210 PRCCS12                     710  712   Num  CCS: procedure 12
+MI  2008 CORE             211 PRCCS13                     713  715   Num  CCS: procedure 13
+MI  2008 CORE             212 PRCCS14                     716  718   Num  CCS: procedure 14
+MI  2008 CORE             213 PRCCS15                     719  721   Num  CCS: procedure 15
+MI  2008 CORE             214 PRCCS16                     722  724   Num  CCS: procedure 16
+MI  2008 CORE             215 PRCCS17                     725  727   Num  CCS: procedure 17
+MI  2008 CORE             216 PRCCS18                     728  730   Num  CCS: procedure 18
+MI  2008 CORE             217 PRCCS19                     731  733   Num  CCS: procedure 19
+MI  2008 CORE             218 PRCCS20                     734  736   Num  CCS: procedure 20
+MI  2008 CORE             219 PRCCS21                     737  739   Num  CCS: procedure 21
+MI  2008 CORE             220 PRCCS22                     740  742   Num  CCS: procedure 22
+MI  2008 CORE             221 PRCCS23                     743  745   Num  CCS: procedure 23
+MI  2008 CORE             222 PRCCS24                     746  748   Num  CCS: procedure 24
+MI  2008 CORE             223 PRCCS25                     749  751   Num  CCS: procedure 25
+MI  2008 CORE             224 PRCCS26                     752  754   Num  CCS: procedure 26
+MI  2008 CORE             225 PRCCS27                     755  757   Num  CCS: procedure 27
+MI  2008 CORE             226 PRCCS28                     758  760   Num  CCS: procedure 28
+MI  2008 CORE             227 PRCCS29                     761  763   Num  CCS: procedure 29
+MI  2008 CORE             228 PRCCS30                     764  766   Num  CCS: procedure 30
+MI  2008 CORE             229 PRDAY1                      767  771   Num  Number of days from admission to PR1
+MI  2008 CORE             230 PRDAY2                      772  776   Num  Number of days from admission to PR2
+MI  2008 CORE             231 PRDAY3                      777  781   Num  Number of days from admission to PR3
+MI  2008 CORE             232 PRDAY4                      782  786   Num  Number of days from admission to PR4
+MI  2008 CORE             233 PRDAY5                      787  791   Num  Number of days from admission to PR5
+MI  2008 CORE             234 PRDAY6                      792  796   Num  Number of days from admission to PR6
+MI  2008 CORE             235 PRDAY7                      797  801   Num  Number of days from admission to PR7
+MI  2008 CORE             236 PRDAY8                      802  806   Num  Number of days from admission to PR8
+MI  2008 CORE             237 PRDAY9                      807  811   Num  Number of days from admission to PR9
+MI  2008 CORE             238 PRDAY10                     812  816   Num  Number of days from admission to PR10
+MI  2008 CORE             239 PRDAY11                     817  821   Num  Number of days from admission to PR11
+MI  2008 CORE             240 PRDAY12                     822  826   Num  Number of days from admission to PR12
+MI  2008 CORE             241 PRDAY13                     827  831   Num  Number of days from admission to PR13
+MI  2008 CORE             242 PRDAY14                     832  836   Num  Number of days from admission to PR14
+MI  2008 CORE             243 PRDAY15                     837  841   Num  Number of days from admission to PR15
+MI  2008 CORE             244 PRDAY16                     842  846   Num  Number of days from admission to PR16
+MI  2008 CORE             245 PRDAY17                     847  851   Num  Number of days from admission to PR17
+MI  2008 CORE             246 PRDAY18                     852  856   Num  Number of days from admission to PR18
+MI  2008 CORE             247 PRDAY19                     857  861   Num  Number of days from admission to PR19
+MI  2008 CORE             248 PRDAY20                     862  866   Num  Number of days from admission to PR20
+MI  2008 CORE             249 PRDAY21                     867  871   Num  Number of days from admission to PR21
+MI  2008 CORE             250 PRDAY22                     872  876   Num  Number of days from admission to PR22
+MI  2008 CORE             251 PRDAY23                     877  881   Num  Number of days from admission to PR23
+MI  2008 CORE             252 PRDAY24                     882  886   Num  Number of days from admission to PR24
+MI  2008 CORE             253 PRDAY25                     887  891   Num  Number of days from admission to PR25
+MI  2008 CORE             254 PRDAY26                     892  896   Num  Number of days from admission to PR26
+MI  2008 CORE             255 PRDAY27                     897  901   Num  Number of days from admission to PR27
+MI  2008 CORE             256 PRDAY28                     902  906   Num  Number of days from admission to PR28
+MI  2008 CORE             257 PRDAY29                     907  911   Num  Number of days from admission to PR29
+MI  2008 CORE             258 PRDAY30                     912  916   Num  Number of days from admission to PR30
+MI  2008 CORE             259 PROCTYPE                    917  919   Num  Procedure type indicator
+MI  2008 CORE             260 PSTATE                      920  921   Char Patient State postal code
+MI  2008 CORE             261 PSTCO2                      922  926   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+MI  2008 CORE             262 PointOfOriginUB04           927  927   Char Point of origin for admission or visit, UB-04 standard coding
+MI  2008 CORE             263 PointOfOrigin_X             928  928   Char Point of origin for admission or visit, as received from source
+MI  2008 CORE             264 RACE                        929  930   Num  Race (uniform)
+MI  2008 CORE             265 RACE_X                      931  931   Char Race (as received from source)
+MI  2008 CORE             266 TOTCHG                      932  941   Num  Total charges (cleaned)
+MI  2008 CORE             267 TOTCHG_X                    942  956 2 Num  Total charges (as received from source)
+MI  2008 CORE             268 YEAR                        957  960   Num  Calendar year
+MI  2008 CORE             269 ZIPINC_QRTL                 961  963   Num  Median household income national quartile for patient ZIP Code
+MI  2008 CORE             270 HOSPID                      964  968   Num  HCUP hospital identification number
+MI  2008 CORE             271 ZIP                         969  973   Char Patient ZIP Code
+MI  2008 CORE             272 AYEAR                       974  977   Num  Admission year
+MI  2008 CORE             273 DMONTH                      978  979   Num  Discharge month
+MI  2008 CORE             274 BMONTH                      980  981   Num  Birth month
+MI  2008 CORE             275 BYEAR                       982  985   Num  Birth year
+MI  2008 CORE             276 PRMONTH1                    986  987   Num  Month of procedure 1
+MI  2008 CORE             277 PRMONTH2                    988  989   Num  Month of procedure 2
+MI  2008 CORE             278 PRMONTH3                    990  991   Num  Month of procedure 3
+MI  2008 CORE             279 PRMONTH4                    992  993   Num  Month of procedure 4
+MI  2008 CORE             280 PRMONTH5                    994  995   Num  Month of procedure 5
+MI  2008 CORE             281 PRMONTH6                    996  997   Num  Month of procedure 6
+MI  2008 CORE             282 PRMONTH7                    998  999   Num  Month of procedure 7
+MI  2008 CORE             283 PRMONTH8                   1000 1001   Num  Month of procedure 8
+MI  2008 CORE             284 PRMONTH9                   1002 1003   Num  Month of procedure 9
+MI  2008 CORE             285 PRMONTH10                  1004 1005   Num  Month of procedure 10
+MI  2008 CORE             286 PRMONTH11                  1006 1007   Num  Month of procedure 11
+MI  2008 CORE             287 PRMONTH12                  1008 1009   Num  Month of procedure 12
+MI  2008 CORE             288 PRMONTH13                  1010 1011   Num  Month of procedure 13
+MI  2008 CORE             289 PRMONTH14                  1012 1013   Num  Month of procedure 14
+MI  2008 CORE             290 PRMONTH15                  1014 1015   Num  Month of procedure 15
+MI  2008 CORE             291 PRMONTH16                  1016 1017   Num  Month of procedure 16
+MI  2008 CORE             292 PRMONTH17                  1018 1019   Num  Month of procedure 17
+MI  2008 CORE             293 PRMONTH18                  1020 1021   Num  Month of procedure 18
+MI  2008 CORE             294 PRMONTH19                  1022 1023   Num  Month of procedure 19
+MI  2008 CORE             295 PRMONTH20                  1024 1025   Num  Month of procedure 20
+MI  2008 CORE             296 PRMONTH21                  1026 1027   Num  Month of procedure 21
+MI  2008 CORE             297 PRMONTH22                  1028 1029   Num  Month of procedure 22
+MI  2008 CORE             298 PRMONTH23                  1030 1031   Num  Month of procedure 23
+MI  2008 CORE             299 PRMONTH24                  1032 1033   Num  Month of procedure 24
+MI  2008 CORE             300 PRMONTH25                  1034 1035   Num  Month of procedure 25
+MI  2008 CORE             301 PRMONTH26                  1036 1037   Num  Month of procedure 26
+MI  2008 CORE             302 PRMONTH27                  1038 1039   Num  Month of procedure 27
+MI  2008 CORE             303 PRMONTH28                  1040 1041   Num  Month of procedure 28
+MI  2008 CORE             304 PRMONTH29                  1042 1043   Num  Month of procedure 29
+MI  2008 CORE             305 PRMONTH30                  1044 1045   Num  Month of procedure 30
+MI  2008 CORE             306 PRYEAR1                    1046 1049   Num  Year of procedure 1
+MI  2008 CORE             307 PRYEAR2                    1050 1053   Num  Year of procedure 2
+MI  2008 CORE             308 PRYEAR3                    1054 1057   Num  Year of procedure 3
+MI  2008 CORE             309 PRYEAR4                    1058 1061   Num  Year of procedure 4
+MI  2008 CORE             310 PRYEAR5                    1062 1065   Num  Year of procedure 5
+MI  2008 CORE             311 PRYEAR6                    1066 1069   Num  Year of procedure 6
+MI  2008 CORE             312 PRYEAR7                    1070 1073   Num  Year of procedure 7
+MI  2008 CORE             313 PRYEAR8                    1074 1077   Num  Year of procedure 8
+MI  2008 CORE             314 PRYEAR9                    1078 1081   Num  Year of procedure 9
+MI  2008 CORE             315 PRYEAR10                   1082 1085   Num  Year of procedure 10
+MI  2008 CORE             316 PRYEAR11                   1086 1089   Num  Year of procedure 11
+MI  2008 CORE             317 PRYEAR12                   1090 1093   Num  Year of procedure 12
+MI  2008 CORE             318 PRYEAR13                   1094 1097   Num  Year of procedure 13
+MI  2008 CORE             319 PRYEAR14                   1098 1101   Num  Year of procedure 14
+MI  2008 CORE             320 PRYEAR15                   1102 1105   Num  Year of procedure 15
+MI  2008 CORE             321 PRYEAR16                   1106 1109   Num  Year of procedure 16
+MI  2008 CORE             322 PRYEAR17                   1110 1113   Num  Year of procedure 17
+MI  2008 CORE             323 PRYEAR18                   1114 1117   Num  Year of procedure 18
+MI  2008 CORE             324 PRYEAR19                   1118 1121   Num  Year of procedure 19
+MI  2008 CORE             325 PRYEAR20                   1122 1125   Num  Year of procedure 20
+MI  2008 CORE             326 PRYEAR21                   1126 1129   Num  Year of procedure 21
+MI  2008 CORE             327 PRYEAR22                   1130 1133   Num  Year of procedure 22
+MI  2008 CORE             328 PRYEAR23                   1134 1137   Num  Year of procedure 23
+MI  2008 CORE             329 PRYEAR24                   1138 1141   Num  Year of procedure 24
+MI  2008 CORE             330 PRYEAR25                   1142 1145   Num  Year of procedure 25
+MI  2008 CORE             331 PRYEAR26                   1146 1149   Num  Year of procedure 26
+MI  2008 CORE             332 PRYEAR27                   1150 1153   Num  Year of procedure 27
+MI  2008 CORE             333 PRYEAR28                   1154 1157   Num  Year of procedure 28
+MI  2008 CORE             334 PRYEAR29                   1158 1161   Num  Year of procedure 29
+MI  2008 CORE             335 PRYEAR30                   1162 1165   Num  Year of procedure 30

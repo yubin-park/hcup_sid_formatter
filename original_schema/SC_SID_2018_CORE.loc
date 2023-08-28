@@ -1,0 +1,133 @@
+Data Set Name: SC_SIDC_2018_CORE               
+Number of Observations: 528910
+Total Record Length: 469
+Total Number of Variables: 112
+Creation Date: 06/08/2020   
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 61    Variable name
+63- 66    Starting column of variable in ASCII file
+68- 71    Ending column of variable in ASCII file
+73- 73    Non-zero number of digits after decimal point for numeric variable
+75- 78    Variable type (Num=numeric; Char=character)
+80-179    Variable label
+
+
+SC  2018 CORE               1 AMONTH                             1    2   Num  Admission month
+SC  2018 CORE               2 ATYPE                              3    4   Num  Admission type
+SC  2018 CORE               3 AWEEKEND                           5    6   Num  Admission day is a weekend
+SC  2018 CORE               4 DaysICU                            7    9   Num  Days in medical/surgical intensive care unit (as received from source)
+SC  2018 CORE               5 DIED                              10   11   Num  Died during hospitalization
+SC  2018 CORE               6 DISP_X                            12   13   Char Disposition of patient (as received from source)
+SC  2018 CORE               7 DISPUB04                          14   15   Num  Disposition of patient (UB-04 standard coding)
+SC  2018 CORE               8 DISPUNIFORM                       16   17   Num  Disposition of patient (uniform)
+SC  2018 CORE               9 DMONTH                            18   19   Num  Discharge month
+SC  2018 CORE              10 DQTR                              20   21   Num  Discharge quarter
+SC  2018 CORE              11 DRG                               22   24   Num  DRG in effect on discharge date
+SC  2018 CORE              12 DRG_NoPOA                         25   27   Num  DRG in use on discharge date, calculated without POA
+SC  2018 CORE              13 DXPOA1                            28   28   Char Diagnosis 1, present on admission indicator
+SC  2018 CORE              14 DXPOA2                            29   29   Char Diagnosis 2, present on admission indicator
+SC  2018 CORE              15 DXPOA3                            30   30   Char Diagnosis 3, present on admission indicator
+SC  2018 CORE              16 DXPOA4                            31   31   Char Diagnosis 4, present on admission indicator
+SC  2018 CORE              17 DXPOA5                            32   32   Char Diagnosis 5, present on admission indicator
+SC  2018 CORE              18 DXPOA6                            33   33   Char Diagnosis 6, present on admission indicator
+SC  2018 CORE              19 DXPOA7                            34   34   Char Diagnosis 7, present on admission indicator
+SC  2018 CORE              20 DXPOA8                            35   35   Char Diagnosis 8, present on admission indicator
+SC  2018 CORE              21 DXPOA9                            36   36   Char Diagnosis 9, present on admission indicator
+SC  2018 CORE              22 DXPOA10                           37   37   Char Diagnosis 10, present on admission indicator
+SC  2018 CORE              23 DXPOA11                           38   38   Char Diagnosis 11, present on admission indicator
+SC  2018 CORE              24 DXPOA12                           39   39   Char Diagnosis 12, present on admission indicator
+SC  2018 CORE              25 DXPOA13                           40   40   Char Diagnosis 13, present on admission indicator
+SC  2018 CORE              26 DXPOA14                           41   41   Char Diagnosis 14, present on admission indicator
+SC  2018 CORE              27 DXPOA15                           42   42   Char Diagnosis 15, present on admission indicator
+SC  2018 CORE              28 DXPOA16                           43   43   Char Diagnosis 16, present on admission indicator
+SC  2018 CORE              29 FEMALE                            44   45   Num  Indicator of sex
+SC  2018 CORE              30 HCUP_ED                           46   47   Num  HCUP Emergency Department service indicator
+SC  2018 CORE              31 HCUP_OS                           48   49   Num  HCUP Observation Stay service indicator
+SC  2018 CORE              32 HOSPST                            50   51   Char Hospital state postal code
+SC  2018 CORE              33 I10_DX1                           52   58   Char ICD-10-CM Diagnosis 1
+SC  2018 CORE              34 I10_DX2                           59   65   Char ICD-10-CM Diagnosis 2
+SC  2018 CORE              35 I10_DX3                           66   72   Char ICD-10-CM Diagnosis 3
+SC  2018 CORE              36 I10_DX4                           73   79   Char ICD-10-CM Diagnosis 4
+SC  2018 CORE              37 I10_DX5                           80   86   Char ICD-10-CM Diagnosis 5
+SC  2018 CORE              38 I10_DX6                           87   93   Char ICD-10-CM Diagnosis 6
+SC  2018 CORE              39 I10_DX7                           94  100   Char ICD-10-CM Diagnosis 7
+SC  2018 CORE              40 I10_DX8                          101  107   Char ICD-10-CM Diagnosis 8
+SC  2018 CORE              41 I10_DX9                          108  114   Char ICD-10-CM Diagnosis 9
+SC  2018 CORE              42 I10_DX10                         115  121   Char ICD-10-CM Diagnosis 10
+SC  2018 CORE              43 I10_DX11                         122  128   Char ICD-10-CM Diagnosis 11
+SC  2018 CORE              44 I10_DX12                         129  135   Char ICD-10-CM Diagnosis 12
+SC  2018 CORE              45 I10_DX13                         136  142   Char ICD-10-CM Diagnosis 13
+SC  2018 CORE              46 I10_DX14                         143  149   Char ICD-10-CM Diagnosis 14
+SC  2018 CORE              47 I10_DX15                         150  156   Char ICD-10-CM Diagnosis 15
+SC  2018 CORE              48 I10_DX16                         157  163   Char ICD-10-CM Diagnosis 16
+SC  2018 CORE              49 I10_DX17                         164  170   Char ICD-10-CM Diagnosis 17
+SC  2018 CORE              50 I10_NDX                          171  173   Num  ICD-10-CM Number of diagnoses on this record
+SC  2018 CORE              51 I10_NPR                          174  176   Num  ICD-10-PCS Number of procedures on this record
+SC  2018 CORE              52 I10_PR1                          177  183   Char ICD-10-PCS Procedure 1
+SC  2018 CORE              53 I10_PR2                          184  190   Char ICD-10-PCS Procedure 2
+SC  2018 CORE              54 I10_PR3                          191  197   Char ICD-10-PCS Procedure 3
+SC  2018 CORE              55 I10_PR4                          198  204   Char ICD-10-PCS Procedure 4
+SC  2018 CORE              56 I10_PR5                          205  211   Char ICD-10-PCS Procedure 5
+SC  2018 CORE              57 I10_PR6                          212  218   Char ICD-10-PCS Procedure 6
+SC  2018 CORE              58 I10_PR7                          219  225   Char ICD-10-PCS Procedure 7
+SC  2018 CORE              59 I10_PR8                          226  232   Char ICD-10-PCS Procedure 8
+SC  2018 CORE              60 I10_PR9                          233  239   Char ICD-10-PCS Procedure 9
+SC  2018 CORE              61 I10_PR10                         240  246   Char ICD-10-PCS Procedure 10
+SC  2018 CORE              62 I10_PR11                         247  253   Char ICD-10-PCS Procedure 11
+SC  2018 CORE              63 I10_PR12                         254  260   Char ICD-10-PCS Procedure 12
+SC  2018 CORE              64 I10_PR13                         261  267   Char ICD-10-PCS Procedure 13
+SC  2018 CORE              65 I10_PROCTYPE                     268  270   Num  ICD-10-PCS Procedure type indicator
+SC  2018 CORE              66 KEY                              271  285   Num  HCUP record identifier
+SC  2018 CORE              67 LOS                              286  290   Num  Length of stay (cleaned)
+SC  2018 CORE              68 LOS_X                            291  296   Num  Length of stay (as received from source)
+SC  2018 CORE              69 MDC                              297  298   Num  MDC in effect on discharge date
+SC  2018 CORE              70 MDC_NoPOA                        299  300   Num  MDC in use on discharge date, calculated without POA
+SC  2018 CORE              71 MDSPEC1                          301  303   Char Physician 1 specialty (as received from source)
+SC  2018 CORE              72 MDSPEC2                          304  306   Char Physician 2 specialty (as received from source)
+SC  2018 CORE              73 MEDINCSTQ                        307  308   Num  Median household income state quartile for patient ZIP Code
+SC  2018 CORE              74 OS_TIME                          309  319 2 Num  Observation stay time summed from UNITS
+SC  2018 CORE              75 PAY1                             320  321   Num  Primary expected payer (uniform)
+SC  2018 CORE              76 PAY1_X                           322  323   Char Primary expected payer (as received from source)
+SC  2018 CORE              77 PL_NCHS                          324  325   Num  Patient Location: NCHS Urban-Rural Code
+SC  2018 CORE              78 PL_UR_CAT4                       326  327   Num  Patient Location: Urban-Rural 4 Categories
+SC  2018 CORE              79 POA_Disch_Edit1                  328  329   Num  Discharge has POA missing on all nonexempt diagnoses
+SC  2018 CORE              80 POA_Disch_Edit2                  330  331   Num  Discharge has POA missing on all nonexempt secondary diagnoses
+SC  2018 CORE              81 POA_Hosp_Edit1                   332  333   Num  Hospital reported POA as Y on all diagnoses on all discharges
+SC  2018 CORE              82 POA_Hosp_Edit2                   334  335   Num  Hospital reported POA as missing on all non-Medicare discharges
+SC  2018 CORE              83 POA_Hosp_Edit3                   336  337   Num  Hospital reported POA as missing on all nonexempt diagnoses for 15% or more of discharges
+SC  2018 CORE              84 POA_Hosp_Edit3_Value             338  345 2 Num  Percentage of discharges with all nonexempt diagnoses missing POA indicators
+SC  2018 CORE              85 PointOfOrigin_X                  346  346   Char Point of origin for admission or visit, as received from source
+SC  2018 CORE              86 PointOfOriginUB04                347  347   Char Point of origin for admission or visit, UB-04 standard coding
+SC  2018 CORE              87 PRDAY1                           348  352   Num  Number of days from admission to I10_PR1
+SC  2018 CORE              88 PRDAY2                           353  357   Num  Number of days from admission to I10_PR2
+SC  2018 CORE              89 PRDAY3                           358  362   Num  Number of days from admission to I10_PR3
+SC  2018 CORE              90 PRDAY4                           363  367   Num  Number of days from admission to I10_PR4
+SC  2018 CORE              91 PRDAY5                           368  372   Num  Number of days from admission to I10_PR5
+SC  2018 CORE              92 PRDAY6                           373  377   Num  Number of days from admission to I10_PR6
+SC  2018 CORE              93 PRDAY7                           378  382   Num  Number of days from admission to I10_PR7
+SC  2018 CORE              94 PRDAY8                           383  387   Num  Number of days from admission to I10_PR8
+SC  2018 CORE              95 PRDAY9                           388  392   Num  Number of days from admission to I10_PR9
+SC  2018 CORE              96 PRDAY10                          393  397   Num  Number of days from admission to I10_PR10
+SC  2018 CORE              97 PRDAY11                          398  402   Num  Number of days from admission to I10_PR11
+SC  2018 CORE              98 PRDAY12                          403  407   Num  Number of days from admission to I10_PR12
+SC  2018 CORE              99 PRDAY13                          408  412   Num  Number of days from admission to I10_PR13
+SC  2018 CORE             100 PSTATE                           413  414   Char Patient State postal code
+SC  2018 CORE             101 PSTCO                            415  419   Num  Patient state/county FIPS code
+SC  2018 CORE             102 RACE                             420  421   Num  Race (uniform)
+SC  2018 CORE             103 RACE_EDIT                        422  423   Num  Race Edit Checks
+SC  2018 CORE             104 RACE_X                           424  426   Char Race (as received from source)
+SC  2018 CORE             105 TOTCHG                           427  436   Num  Total charges (cleaned)
+SC  2018 CORE             106 TOTCHG_X                         437  451 2 Num  Total charges (as received from source)
+SC  2018 CORE             107 TRAN_IN                          452  453   Num  Transfer in indicator
+SC  2018 CORE             108 TRAN_OUT                         454  455   Num  Transfer out indicator
+SC  2018 CORE             109 YEAR                             456  459   Num  Calendar year
+SC  2018 CORE             110 ZIPINC_QRTL                      460  462   Num  Median household income national quartile for patient ZIP Code
+SC  2018 CORE             111 AGEGROUP                         463  465   Num  Age Group
+SC  2018 CORE             112 AYEAR                            466  469   Num  Admission year

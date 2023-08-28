@@ -1,0 +1,108 @@
+Data Set Name: NY_SID_1991_CORE                
+Number of Observations: 2579384
+Total Record Length: 351
+Total Number of Variables: 88
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 49    Variable name
+51- 54    Starting column of variable in ASCII file
+56- 59    Ending column of variable in ASCII file
+    61    Non-zero number of digits after decimal point for numeric variable
+63- 66    Variable type (Num=numeric; Char=character)
+68-167    Variable label
+
+
+NY  1991 CORE               1 AGE                    1    3   Num  I:Age in years at admission
+NY  1991 CORE               2 AGEDAY                 4    6   Num  I:Age in days (when < 1 year)
+NY  1991 CORE               3 SEX                    7    9   Num  I:Sex
+NY  1991 CORE               4 RACE                  10   11   Num  I:Race
+NY  1991 CORE               5 DQTR                  12   13   Num  I:Discharge quarter
+NY  1991 CORE               6 LOS                   14   18   Num  I:Length of stay (cleaned)
+NY  1991 CORE               7 DISP                  19   20   Num  I:Disposition of patient
+NY  1991 CORE               8 DIED                  21   22   Num  I:Died during hospitalization
+NY  1991 CORE               9 ATYPE                 23   24   Num  I:Admission type
+NY  1991 CORE              10 ASOURCE               25   26   Num  I:Admission source
+NY  1991 CORE              11 NDX                   27   28   Num  I:Number of diagnoses on this discharge
+NY  1991 CORE              12 DX1                   29   33   Char I:Principal diagnosis
+NY  1991 CORE              13 DXV1                  34   37   Num  I:Validity flag: principal diagnosis
+NY  1991 CORE              14 DCCHPR1               38   41   Num  I:CCHPR: principal diagnosis
+NY  1991 CORE              15 NPR                   42   43   Num  I:Number of procedures on this discharge
+NY  1991 CORE              16 PR1                   44   47   Char I:Principal procedure
+NY  1991 CORE              17 PRV1                  48   50   Num  I:Validity flag: principal procedure
+NY  1991 CORE              18 PCCHPR1               51   54   Num  I:CCHPR: principal procedure
+NY  1991 CORE              19 DRG                   55   57   Num  I:DRG in effect on discharge date
+NY  1991 CORE              20 MDC                   58   59   Num  I:MDC in effect on discharge date
+NY  1991 CORE              21 DRGVER                60   61   Num  I:DRG grouper version used on disch date
+NY  1991 CORE              22 DRG10                 62   64   Num  I:DRG, Version 10
+NY  1991 CORE              23 MDC10                 65   66   Num  I:MDC, Version 10
+NY  1991 CORE              24 PAY1                  67   68   Num  I:Primary expected payer, uniform
+NY  1991 CORE              25 TOTCHG                69   78   Num  I:Total charges (cleaned)
+NY  1991 CORE              26 PROCESS               79   89   Num  I:HCUP-3 discharge processing ID number
+NY  1991 CORE              27 YEAR                  90   93   Num  Calendar year
+NY  1991 CORE              28 DSHOSPID              94  106   Char I:Data source hospital ID number
+NY  1991 CORE              29 DSNUM                107  109   Num  I:Data source ID number
+NY  1991 CORE              30 DSTYPE               110  112   Num  I:Data source type
+NY  1991 CORE              31 HOSPST               113  114   Char Hospital state postal code
+NY  1991 CORE              32 MDID_S               115  130   Char I:Attending physician number (synthetic)
+NY  1991 CORE              33 SURGID_S             131  146   Char I:Primary surgeon number (synthetic)
+NY  1991 CORE              34 ADAYWK               147  149   Num  I:Admission day of week
+NY  1991 CORE              35 AMONTH               150  151   Num  I:Admission month
+NY  1991 CORE              36 LOS_X                152  156   Num  I:Length of stay (uncleaned)
+NY  1991 CORE              37 NEOMAT               157  158   Num  I:Neonatal and/or maternal DX and/or PR
+NY  1991 CORE              38 DXSYS                159  161   Num  I:Diagnosis coding system
+NY  1991 CORE              39 DSNDX                162  164   Num  I:Max number of diagnoses from source
+NY  1991 CORE              40 PRSYS                165  167   Num  I:Procedure coding system
+NY  1991 CORE              41 DSNPR                168  170   Num  I:Max number of procedures from source
+NY  1991 CORE              42 PRDAY1               171  175   Num  I:No. of days from admission to PR1
+NY  1991 CORE              43 PAY1_N               176  178   Num  I:Primary expected payer, nonuniform
+NY  1991 CORE              44 PAY2                 179  180   Num  I:Secondary expected payer, uniform
+NY  1991 CORE              45 PAY2_N               181  183   Num  I:Secondary expected payer, nonuniform
+NY  1991 CORE              46 TOTCHG_X             184  195 2 Num  I:Total charges (from data source)
+NY  1991 CORE              47 DX2                  196  200   Char I:Diagnosis 2
+NY  1991 CORE              48 DX3                  201  205   Char I:Diagnosis 3
+NY  1991 CORE              49 DX4                  206  210   Char I:Diagnosis 4
+NY  1991 CORE              50 DX5                  211  215   Char I:Diagnosis 5
+NY  1991 CORE              51 DXV2                 216  219   Num  I:Validity flag: diagnosis 2
+NY  1991 CORE              52 DXV3                 220  223   Num  I:Validity flag: diagnosis 3
+NY  1991 CORE              53 DXV4                 224  227   Num  I:Validity flag: diagnosis 4
+NY  1991 CORE              54 DXV5                 228  231   Num  I:Validity flag: diagnosis 5
+NY  1991 CORE              55 DCCHPR2              232  235   Num  I:CCHPR: diagnosis 2
+NY  1991 CORE              56 DCCHPR3              236  239   Num  I:CCHPR: diagnosis 3
+NY  1991 CORE              57 DCCHPR4              240  243   Num  I:CCHPR: diagnosis 4
+NY  1991 CORE              58 DCCHPR5              244  247   Num  I:CCHPR: diagnosis 5
+NY  1991 CORE              59 PR2                  248  251   Char I:Procedure 2
+NY  1991 CORE              60 PR3                  252  255   Char I:Procedure 3
+NY  1991 CORE              61 PR4                  256  259   Char I:Procedure 4
+NY  1991 CORE              62 PR5                  260  263   Char I:Procedure 5
+NY  1991 CORE              63 PRV2                 264  266   Num  I:Validity flag: procedure 2
+NY  1991 CORE              64 PRV3                 267  269   Num  I:Validity flag: procedure 3
+NY  1991 CORE              65 PRV4                 270  272   Num  I:Validity flag: procedure 4
+NY  1991 CORE              66 PRV5                 273  275   Num  I:Validity flag: procedure 5
+NY  1991 CORE              67 PCCHPR2              276  279   Num  I:CCHPR: procedure 2
+NY  1991 CORE              68 PCCHPR3              280  283   Num  I:CCHPR: procedure 3
+NY  1991 CORE              69 PCCHPR4              284  287   Num  I:CCHPR: procedure 4
+NY  1991 CORE              70 PCCHPR5              288  291   Num  I:CCHPR: procedure 5
+NY  1991 CORE              71 PRDAY2               292  296   Num  I:No. of days from admission to PR2
+NY  1991 CORE              72 PRDAY3               297  301   Num  I:No. of days from admission to PR3
+NY  1991 CORE              73 PRDAY4               302  306   Num  I:No. of days from admission to PR4
+NY  1991 CORE              74 PRDAY5               307  311   Num  I:No. of days from admission to PR5
+NY  1991 CORE              75 ZIP                  312  316   Char I:Patient zip code
+NY  1991 CORE              76 PSTCO                317  321   Num  I:Patient state/county FIPS code
+NY  1991 CORE              77 BWT                  322  325   Num  I:Birthweight in grams
+NY  1991 CORE              78 TMDX1                326  327   Num  I:Time of onset: principal diagnosis
+NY  1991 CORE              79 TMDX2                328  329   Num  I:Time of onset: diagnosis 2
+NY  1991 CORE              80 TMDX3                330  331   Num  I:Time of onset: diagnosis 3
+NY  1991 CORE              81 TMDX4                332  333   Num  I:Time of onset: diagnosis 4
+NY  1991 CORE              82 TMDX5                334  335   Num  I:Time of onset: diagnosis 5
+NY  1991 CORE              83 PAY1_X               336  337   Char I:Primary exp. payer (from data source)
+NY  1991 CORE              84 PAY2_X               338  339   Char I:Secondary exp. payer (from data source
+NY  1991 CORE              85 AYEAR                340  343   Num  Admission year
+NY  1991 CORE              86 DMONTH               344  345   Num  Discharge month
+NY  1991 CORE              87 BMONTH               346  347   Num  Birth month
+NY  1991 CORE              88 BYEAR                348  351   Num  Birth year

@@ -1,0 +1,95 @@
+Data Set Name: FL_SID_2001_CORE                
+Number of Observations: 2343137
+Total Record Length: 316
+Total Number of Variables: 75
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 49    Variable name
+51- 54    Starting column of variable in ASCII file
+56- 59    Ending column of variable in ASCII file
+    61    Non-zero number of digits after decimal point for numeric variable
+63- 66    Variable type (Num=numeric; Char=character)
+68-167    Variable label
+
+
+FL  2001 CORE               1 KEY                    1   14   Num  HCUP record identifier
+FL  2001 CORE               2 AGE                   15   17   Num  Age in years at admission
+FL  2001 CORE               3 ASOURCE               18   19   Num  Admission source (uniform)
+FL  2001 CORE               4 ASOURCE_X             20   21   Char Admission source (as received from source)
+FL  2001 CORE               5 ATYPE                 22   23   Num  Admission type
+FL  2001 CORE               6 AWEEKEND              24   25   Num  Admission day is a weekend
+FL  2001 CORE               7 DIED                  26   27   Num  Died during hospitalization
+FL  2001 CORE               8 DISP_X                28   29   Char Disposition of patient (as received from source)
+FL  2001 CORE               9 DISPUB92              30   31   Num  Disposition of patient (UB-92 standard coding)
+FL  2001 CORE              10 DISPUNIFORM           32   33   Num  Disposition of patient (uniform)
+FL  2001 CORE              11 DQTR                  34   35   Num  Discharge quarter
+FL  2001 CORE              12 DRG                   36   38   Num  DRG in effect on discharge date
+FL  2001 CORE              13 DRG18                 39   41   Num  DRG, version 18
+FL  2001 CORE              14 DRGVER                42   43   Num  DRG grouper version used on discharge date
+FL  2001 CORE              15 DSHOSPID              44   56   Char Data source hospital identifier
+FL  2001 CORE              16 DX1                   57   61   Char Principal diagnosis
+FL  2001 CORE              17 DX2                   62   66   Char Diagnosis 2
+FL  2001 CORE              18 DX3                   67   71   Char Diagnosis 3
+FL  2001 CORE              19 DX4                   72   76   Char Diagnosis 4
+FL  2001 CORE              20 DX5                   77   81   Char Diagnosis 5
+FL  2001 CORE              21 DX6                   82   86   Char Diagnosis 6
+FL  2001 CORE              22 DX7                   87   91   Char Diagnosis 7
+FL  2001 CORE              23 DX8                   92   96   Char Diagnosis 8
+FL  2001 CORE              24 DX9                   97  101   Char Diagnosis 9
+FL  2001 CORE              25 DX10                 102  106   Char Diagnosis 10
+FL  2001 CORE              26 DXCCS1               107  110   Num  CCS: principal diagnosis
+FL  2001 CORE              27 DXCCS2               111  114   Num  CCS: diagnosis 2
+FL  2001 CORE              28 DXCCS3               115  118   Num  CCS: diagnosis 3
+FL  2001 CORE              29 DXCCS4               119  122   Num  CCS: diagnosis 4
+FL  2001 CORE              30 DXCCS5               123  126   Num  CCS: diagnosis 5
+FL  2001 CORE              31 DXCCS6               127  130   Num  CCS: diagnosis 6
+FL  2001 CORE              32 DXCCS7               131  134   Num  CCS: diagnosis 7
+FL  2001 CORE              33 DXCCS8               135  138   Num  CCS: diagnosis 8
+FL  2001 CORE              34 DXCCS9               139  142   Num  CCS: diagnosis 9
+FL  2001 CORE              35 DXCCS10              143  146   Num  CCS: diagnosis 10
+FL  2001 CORE              36 FEMALE               147  148   Num  Indicator of sex
+FL  2001 CORE              37 HOSPST               149  150   Char Hospital state postal code
+FL  2001 CORE              38 LOS                  151  155   Num  Length of stay (cleaned)
+FL  2001 CORE              39 LOS_X                156  161   Num  Length of stay (as received from source)
+FL  2001 CORE              40 MDC                  162  163   Num  MDC in effect on discharge date
+FL  2001 CORE              41 MDC18                164  165   Num  MDC, version 18
+FL  2001 CORE              42 MDNUM1_S             166  181   Char Physician 1 number (synthetic)
+FL  2001 CORE              43 MDNUM2_S             182  197   Char Physician 2 number (synthetic)
+FL  2001 CORE              44 NDX                  198  199   Num  Number of diagnoses on this record
+FL  2001 CORE              45 NEOMAT               200  201   Num  Neonatal and/or maternal DX and/or PR
+FL  2001 CORE              46 NPR                  202  203   Num  Number of procedures on this record
+FL  2001 CORE              47 PAY1                 204  205   Num  Primary expected payer (uniform)
+FL  2001 CORE              48 PAY1_X               206  206   Char Primary expected payer (as received from source)
+FL  2001 CORE              49 PR1                  207  210   Char Principal procedure
+FL  2001 CORE              50 PR2                  211  214   Char Procedure 2
+FL  2001 CORE              51 PR3                  215  218   Char Procedure 3
+FL  2001 CORE              52 PR4                  219  222   Char Procedure 4
+FL  2001 CORE              53 PR5                  223  226   Char Procedure 5
+FL  2001 CORE              54 PR6                  227  230   Char Procedure 6
+FL  2001 CORE              55 PR7                  231  234   Char Procedure 7
+FL  2001 CORE              56 PR8                  235  238   Char Procedure 8
+FL  2001 CORE              57 PR9                  239  242   Char Procedure 9
+FL  2001 CORE              58 PR10                 243  246   Char Procedure 10
+FL  2001 CORE              59 PRCCS1               247  249   Num  CCS: principal procedure
+FL  2001 CORE              60 PRCCS2               250  252   Num  CCS: procedure 2
+FL  2001 CORE              61 PRCCS3               253  255   Num  CCS: procedure 3
+FL  2001 CORE              62 PRCCS4               256  258   Num  CCS: procedure 4
+FL  2001 CORE              63 PRCCS5               259  261   Num  CCS: procedure 5
+FL  2001 CORE              64 PRCCS6               262  264   Num  CCS: procedure 6
+FL  2001 CORE              65 PRCCS7               265  267   Num  CCS: procedure 7
+FL  2001 CORE              66 PRCCS8               268  270   Num  CCS: procedure 8
+FL  2001 CORE              67 PRCCS9               271  273   Num  CCS: procedure 9
+FL  2001 CORE              68 PRCCS10              274  276   Num  CCS: procedure 10
+FL  2001 CORE              69 PRDAY1               277  279   Num  Number of days from admission to PR1
+FL  2001 CORE              70 RACE                 280  281   Num  Race (uniform)
+FL  2001 CORE              71 RACE_X               282  282   Char Race (as received from source)
+FL  2001 CORE              72 TOTCHG               283  292   Num  Total charges (cleaned)
+FL  2001 CORE              73 TOTCHG_X             293  307 2 Num  Total charges (as received from source)
+FL  2001 CORE              74 YEAR                 308  311   Num  Calendar year
+FL  2001 CORE              75 ZIP                  312  316   Char Patient ZIP Code

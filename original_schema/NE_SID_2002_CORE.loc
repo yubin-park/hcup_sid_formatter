@@ -1,0 +1,119 @@
+Data Set Name: NE_SIDC_2002_CORE               
+Number of Observations: 198047
+Total Record Length: 368
+Total Number of Variables: 99
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 56    Variable name
+58- 61    Starting column of variable in ASCII file
+63- 66    Ending column of variable in ASCII file
+    68    Non-zero number of digits after decimal point for numeric variable
+70- 73    Variable type (Num=numeric; Char=character)
+75-174    Variable label
+
+
+NE  2002 CORE               1 KEY                           1   14   Num  HCUP record identifier
+NE  2002 CORE               2 AGE                          15   17   Num  Age in years at admission
+NE  2002 CORE               3 AGEDAY                       18   20   Num  Age in days (when age < 1 year)
+NE  2002 CORE               4 AGEMONTH                     21   23   Num  Age in months (when age < 11 years)
+NE  2002 CORE               5 AMONTH                       24   25   Num  Admission month
+NE  2002 CORE               6 ASOURCE                      26   27   Num  Admission source (uniform)
+NE  2002 CORE               7 ASOURCE_X                    28   28   Char Admission source (as received from source)
+NE  2002 CORE               8 ASOURCEUB92                  29   29   Char Admission source (UB-92 standard coding)
+NE  2002 CORE               9 ATYPE                        30   31   Num  Admission type
+NE  2002 CORE              10 AWEEKEND                     32   33   Num  Admission day is a weekend
+NE  2002 CORE              11 DIED                         34   35   Num  Died during hospitalization
+NE  2002 CORE              12 DISP_X                       36   37   Char Disposition of patient (as received from source)
+NE  2002 CORE              13 DISPUB92                     38   39   Num  Disposition of patient (UB-92 standard coding)
+NE  2002 CORE              14 DISPUNIFORM                  40   41   Num  Disposition of patient (uniform)
+NE  2002 CORE              15 DQTR                         42   43   Num  Discharge quarter
+NE  2002 CORE              16 DRG                          44   46   Num  DRG in effect on discharge date
+NE  2002 CORE              17 DRG18                        47   49   Num  DRG, version 18
+NE  2002 CORE              18 DRGVER                       50   51   Num  DRG grouper version used on discharge date
+NE  2002 CORE              19 DX1                          52   56   Char Principal diagnosis
+NE  2002 CORE              20 DX2                          57   61   Char Diagnosis 2
+NE  2002 CORE              21 DX3                          62   66   Char Diagnosis 3
+NE  2002 CORE              22 DX4                          67   71   Char Diagnosis 4
+NE  2002 CORE              23 DX5                          72   76   Char Diagnosis 5
+NE  2002 CORE              24 DX6                          77   81   Char Diagnosis 6
+NE  2002 CORE              25 DX7                          82   86   Char Diagnosis 7
+NE  2002 CORE              26 DX8                          87   91   Char Diagnosis 8
+NE  2002 CORE              27 DX9                          92   96   Char Diagnosis 9
+NE  2002 CORE              28 DX10                         97  101   Char Diagnosis 10
+NE  2002 CORE              29 DXCCS1                      102  105   Num  CCS: principal diagnosis
+NE  2002 CORE              30 DXCCS2                      106  109   Num  CCS: diagnosis 2
+NE  2002 CORE              31 DXCCS3                      110  113   Num  CCS: diagnosis 3
+NE  2002 CORE              32 DXCCS4                      114  117   Num  CCS: diagnosis 4
+NE  2002 CORE              33 DXCCS5                      118  121   Num  CCS: diagnosis 5
+NE  2002 CORE              34 DXCCS6                      122  125   Num  CCS: diagnosis 6
+NE  2002 CORE              35 DXCCS7                      126  129   Num  CCS: diagnosis 7
+NE  2002 CORE              36 DXCCS8                      130  133   Num  CCS: diagnosis 8
+NE  2002 CORE              37 DXCCS9                      134  137   Num  CCS: diagnosis 9
+NE  2002 CORE              38 DXCCS10                     138  141   Num  CCS: diagnosis 10
+NE  2002 CORE              39 FEMALE                      142  143   Num  Indicator of sex
+NE  2002 CORE              40 HOSPST                      144  145   Char Hospital state postal code
+NE  2002 CORE              41 LOS                         146  150   Num  Length of stay (cleaned)
+NE  2002 CORE              42 LOS_X                       151  156   Num  Length of stay (as received from source)
+NE  2002 CORE              43 MDC                         157  158   Num  MDC in effect on discharge date
+NE  2002 CORE              44 MDC18                       159  160   Num  MDC, version 18
+NE  2002 CORE              45 NDX                         161  162   Num  Number of diagnoses on this record
+NE  2002 CORE              46 NEOMAT                      163  164   Num  Neonatal and/or maternal DX and/or PR
+NE  2002 CORE              47 NPR                         165  166   Num  Number of procedures on this record
+NE  2002 CORE              48 PAY1                        167  168   Num  Primary expected payer (uniform)
+NE  2002 CORE              49 PAY2                        169  170   Num  Secondary expected payer (uniform)
+NE  2002 CORE              50 PAY1_X                      171  172   Char Primary expected payer (as received from source)
+NE  2002 CORE              51 PAY2_X                      173  174   Char Secondary expected payer (as received from source)
+NE  2002 CORE              52 PAY3_X                      175  176   Char Tertiary expected payer (as received from source)
+NE  2002 CORE              53 PL_CBSA                     177  179   Num  Patient location: Core Based Statistical Area (CBSA)
+NE  2002 CORE              54 PL_MSA1993                  180  182   Num  Patient location: Metropolitan Statistical Area (MSA), 1993
+NE  2002 CORE              55 PL_RUCA                     183  186 1 Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes
+NE  2002 CORE              56 PL_RUCA10                   187  188   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, ten levels
+NE  2002 CORE              57 PL_RUCA4                    189  190   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, four levels
+NE  2002 CORE              58 PL_RUCC                     191  192   Num  Patient location: Rural-Urban Continuum Codes(RUCC)
+NE  2002 CORE              59 PL_UIC                      193  194   Num  Patient location: Urban Influence Codes
+NE  2002 CORE              60 PR1                         195  198   Char Principal procedure
+NE  2002 CORE              61 PR2                         199  202   Char Procedure 2
+NE  2002 CORE              62 PR3                         203  206   Char Procedure 3
+NE  2002 CORE              63 PR4                         207  210   Char Procedure 4
+NE  2002 CORE              64 PR5                         211  214   Char Procedure 5
+NE  2002 CORE              65 PR6                         215  218   Char Procedure 6
+NE  2002 CORE              66 PRCCS1                      219  221   Num  CCS: principal procedure
+NE  2002 CORE              67 PRCCS2                      222  224   Num  CCS: procedure 2
+NE  2002 CORE              68 PRCCS3                      225  227   Num  CCS: procedure 3
+NE  2002 CORE              69 PRCCS4                      228  230   Num  CCS: procedure 4
+NE  2002 CORE              70 PRCCS5                      231  233   Num  CCS: procedure 5
+NE  2002 CORE              71 PRCCS6                      234  236   Num  CCS: procedure 6
+NE  2002 CORE              72 PRDAY1                      237  241   Num  Number of days from admission to PR1
+NE  2002 CORE              73 PRDAY2                      242  246   Num  Number of days from admission to PR2
+NE  2002 CORE              74 PRDAY3                      247  251   Num  Number of days from admission to PR3
+NE  2002 CORE              75 PRDAY4                      252  256   Num  Number of days from admission to PR4
+NE  2002 CORE              76 PRDAY5                      257  261   Num  Number of days from admission to PR5
+NE  2002 CORE              77 PRDAY6                      262  266   Num  Number of days from admission to PR6
+NE  2002 CORE              78 PSTCO2                      267  271   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+NE  2002 CORE              79 TOTCHG                      272  281   Num  Total charges (cleaned)
+NE  2002 CORE              80 TOTCHG_X                    282  296 2 Num  Total charges (as received from source)
+NE  2002 CORE              81 YEAR                        297  300   Num  Calendar year
+NE  2002 CORE              82 TOWN                        301  315   Char Patient town of residence (as received from source)
+NE  2002 CORE              83 ZIP                         316  320   Char Patient ZIP Code
+NE  2002 CORE              84 AYEAR                       321  324   Num  Admission year
+NE  2002 CORE              85 DMONTH                      325  326   Num  Discharge month
+NE  2002 CORE              86 BMONTH                      327  328   Num  Birth month
+NE  2002 CORE              87 BYEAR                       329  332   Num  Birth year
+NE  2002 CORE              88 PRMONTH1                    333  334   Num  Month of procedure 1
+NE  2002 CORE              89 PRMONTH2                    335  336   Num  Month of procedure 2
+NE  2002 CORE              90 PRMONTH3                    337  338   Num  Month of procedure 3
+NE  2002 CORE              91 PRMONTH4                    339  340   Num  Month of procedure 4
+NE  2002 CORE              92 PRMONTH5                    341  342   Num  Month of procedure 5
+NE  2002 CORE              93 PRMONTH6                    343  344   Num  Month of procedure 6
+NE  2002 CORE              94 PRYEAR1                     345  348   Num  Year of procedure 1
+NE  2002 CORE              95 PRYEAR2                     349  352   Num  Year of procedure 2
+NE  2002 CORE              96 PRYEAR3                     353  356   Num  Year of procedure 3
+NE  2002 CORE              97 PRYEAR4                     357  360   Num  Year of procedure 4
+NE  2002 CORE              98 PRYEAR5                     361  364   Num  Year of procedure 5
+NE  2002 CORE              99 PRYEAR6                     365  368   Num  Year of procedure 6

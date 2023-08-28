@@ -1,0 +1,95 @@
+Data Set Name: CO_SID_1990_CORE                
+Number of Observations: 379729
+Total Record Length: 322
+Total Number of Variables: 75
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 49    Variable name
+51- 54    Starting column of variable in ASCII file
+56- 59    Ending column of variable in ASCII file
+    61    Non-zero number of digits after decimal point for numeric variable
+63- 66    Variable type (Num=numeric; Char=character)
+68-167    Variable label
+
+
+CO  1990 CORE               1 AGE                    1    3   Num  I:Age in years at admission
+CO  1990 CORE               2 AGEDAY                 4    6   Num  I:Age in days (when < 1 year)
+CO  1990 CORE               3 SEX                    7    9   Num  I:Sex
+CO  1990 CORE               4 RACE                  10   11   Num  I:Race
+CO  1990 CORE               5 DQTR                  12   13   Num  I:Discharge quarter
+CO  1990 CORE               6 LOS                   14   18   Num  I:Length of stay (cleaned)
+CO  1990 CORE               7 DISP                  19   20   Num  I:Disposition of patient
+CO  1990 CORE               8 DIED                  21   22   Num  I:Died during hospitalization
+CO  1990 CORE               9 ATYPE                 23   24   Num  I:Admission type
+CO  1990 CORE              10 ASOURCE               25   26   Num  I:Admission source
+CO  1990 CORE              11 NDX                   27   28   Num  I:Number of diagnoses on this discharge
+CO  1990 CORE              12 DX1                   29   33   Char I:Principal diagnosis
+CO  1990 CORE              13 DXV1                  34   37   Num  I:Validity flag: principal diagnosis
+CO  1990 CORE              14 DCCHPR1               38   41   Num  I:CCHPR: principal diagnosis
+CO  1990 CORE              15 NPR                   42   43   Num  I:Number of procedures on this discharge
+CO  1990 CORE              16 PR1                   44   47   Char I:Principal procedure
+CO  1990 CORE              17 PRV1                  48   50   Num  I:Validity flag: principal procedure
+CO  1990 CORE              18 PCCHPR1               51   54   Num  I:CCHPR: principal procedure
+CO  1990 CORE              19 DRG                   55   57   Num  I:DRG in effect on discharge date
+CO  1990 CORE              20 MDC                   58   59   Num  I:MDC in effect on discharge date
+CO  1990 CORE              21 DRGVER                60   61   Num  I:DRG grouper version used on disch date
+CO  1990 CORE              22 DRG10                 62   64   Num  I:DRG, Version 10
+CO  1990 CORE              23 MDC10                 65   66   Num  I:MDC, Version 10
+CO  1990 CORE              24 PAY1                  67   68   Num  I:Primary expected payer, uniform
+CO  1990 CORE              25 TOTCHG                69   78   Num  I:Total charges (cleaned)
+CO  1990 CORE              26 PROCESS               79   89   Num  I:HCUP-3 discharge processing ID number
+CO  1990 CORE              27 YEAR                  90   93   Num  Calendar year
+CO  1990 CORE              28 DSHOSPID              94  106   Char I:Data source hospital ID number
+CO  1990 CORE              29 DSNUM                107  109   Num  I:Data source ID number
+CO  1990 CORE              30 DSTYPE               110  112   Num  I:Data source type
+CO  1990 CORE              31 HOSPST               113  114   Char Hospital state postal code
+CO  1990 CORE              32 MDID_S               115  130   Char I:Attending physician number (synthetic)
+CO  1990 CORE              33 SURGID_S             131  146   Char I:Primary surgeon number (synthetic)
+CO  1990 CORE              34 ADAYWK               147  149   Num  I:Admission day of week
+CO  1990 CORE              35 AMONTH               150  151   Num  I:Admission month
+CO  1990 CORE              36 LOS_X                152  156   Num  I:Length of stay (uncleaned)
+CO  1990 CORE              37 NEOMAT               157  158   Num  I:Neonatal and/or maternal DX and/or PR
+CO  1990 CORE              38 DXSYS                159  161   Num  I:Diagnosis coding system
+CO  1990 CORE              39 DSNDX                162  164   Num  I:Max number of diagnoses from source
+CO  1990 CORE              40 PRSYS                165  167   Num  I:Procedure coding system
+CO  1990 CORE              41 DSNPR                168  170   Num  I:Max number of procedures from source
+CO  1990 CORE              42 PRDAY1               171  175   Num  I:No. of days from admission to PR1
+CO  1990 CORE              43 PAY1_N               176  178   Num  I:Primary expected payer, nonuniform
+CO  1990 CORE              44 TOTCHG_X             179  190 2 Num  I:Total charges (from data source)
+CO  1990 CORE              45 DX2                  191  195   Char I:Diagnosis 2
+CO  1990 CORE              46 DX3                  196  200   Char I:Diagnosis 3
+CO  1990 CORE              47 DX4                  201  205   Char I:Diagnosis 4
+CO  1990 CORE              48 DX5                  206  210   Char I:Diagnosis 5
+CO  1990 CORE              49 DXV2                 211  214   Num  I:Validity flag: diagnosis 2
+CO  1990 CORE              50 DXV3                 215  218   Num  I:Validity flag: diagnosis 3
+CO  1990 CORE              51 DXV4                 219  222   Num  I:Validity flag: diagnosis 4
+CO  1990 CORE              52 DXV5                 223  226   Num  I:Validity flag: diagnosis 5
+CO  1990 CORE              53 DCCHPR2              227  230   Num  I:CCHPR: diagnosis 2
+CO  1990 CORE              54 DCCHPR3              231  234   Num  I:CCHPR: diagnosis 3
+CO  1990 CORE              55 DCCHPR4              235  238   Num  I:CCHPR: diagnosis 4
+CO  1990 CORE              56 DCCHPR5              239  242   Num  I:CCHPR: diagnosis 5
+CO  1990 CORE              57 PR2                  243  246   Char I:Procedure 2
+CO  1990 CORE              58 PR3                  247  250   Char I:Procedure 3
+CO  1990 CORE              59 PR4                  251  254   Char I:Procedure 4
+CO  1990 CORE              60 PR5                  255  258   Char I:Procedure 5
+CO  1990 CORE              61 PRV2                 259  261   Num  I:Validity flag: procedure 2
+CO  1990 CORE              62 PRV3                 262  264   Num  I:Validity flag: procedure 3
+CO  1990 CORE              63 PRV4                 265  267   Num  I:Validity flag: procedure 4
+CO  1990 CORE              64 PRV5                 268  270   Num  I:Validity flag: procedure 5
+CO  1990 CORE              65 PCCHPR2              271  274   Num  I:CCHPR: procedure 2
+CO  1990 CORE              66 PCCHPR3              275  278   Num  I:CCHPR: procedure 3
+CO  1990 CORE              67 PCCHPR4              279  282   Num  I:CCHPR: procedure 4
+CO  1990 CORE              68 PCCHPR5              283  286   Num  I:CCHPR: procedure 5
+CO  1990 CORE              69 ZIP                  287  291   Char I:Patient zip code
+CO  1990 CORE              70 MRN_S                292  308   Char I:Medical record number (synthetic)
+CO  1990 CORE              71 PAY1_X               309  310   Char I:Primary exp. payer (from data source)
+CO  1990 CORE              72 AYEAR                311  314   Num  Admission year
+CO  1990 CORE              73 DMONTH               315  316   Num  Discharge month
+CO  1990 CORE              74 PRMONTH1             317  318   Num  Month of procedure 1
+CO  1990 CORE              75 PRYEAR1              319  322   Num  Year of procedure 1

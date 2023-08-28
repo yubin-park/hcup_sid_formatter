@@ -1,0 +1,116 @@
+Data Set Name: IA_SID_2001_CORE                
+Number of Observations: 368092
+Total Record Length: 413
+Total Number of Variables: 96
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 49    Variable name
+51- 54    Starting column of variable in ASCII file
+56- 59    Ending column of variable in ASCII file
+    61    Non-zero number of digits after decimal point for numeric variable
+63- 66    Variable type (Num=numeric; Char=character)
+68-167    Variable label
+
+
+IA  2001 CORE               1 KEY                    1   14   Num  HCUP record identifier
+IA  2001 CORE               2 AGE                   15   17   Num  Age in years at admission
+IA  2001 CORE               3 AGEDAY                18   20   Num  Age in days (when age < 1 year)
+IA  2001 CORE               4 AGEMONTH              21   23   Num  Age in months (when age < 11 years)
+IA  2001 CORE               5 AMONTH                24   25   Num  Admission month
+IA  2001 CORE               6 ASOURCE               26   27   Num  Admission source (uniform)
+IA  2001 CORE               7 ASOURCE_X             28   28   Char Admission source (as received from source)
+IA  2001 CORE               8 ATYPE                 29   30   Num  Admission type
+IA  2001 CORE               9 AWEEKEND              31   32   Num  Admission day is a weekend
+IA  2001 CORE              10 DIED                  33   34   Num  Died during hospitalization
+IA  2001 CORE              11 DISP_X                35   38   Char Disposition of patient (as received from source)
+IA  2001 CORE              12 DISPUB92              39   40   Num  Disposition of patient (UB-92 standard coding)
+IA  2001 CORE              13 DISPUNIFORM           41   42   Num  Disposition of patient (uniform)
+IA  2001 CORE              14 DQTR                  43   44   Num  Discharge quarter
+IA  2001 CORE              15 DRG                   45   47   Num  DRG in effect on discharge date
+IA  2001 CORE              16 DRG18                 48   50   Num  DRG, version 18
+IA  2001 CORE              17 DRGVER                51   52   Num  DRG grouper version used on discharge date
+IA  2001 CORE              18 DSHOSPID              53   65   Char Data source hospital identifier
+IA  2001 CORE              19 DX1                   66   70   Char Principal diagnosis
+IA  2001 CORE              20 DX2                   71   75   Char Diagnosis 2
+IA  2001 CORE              21 DX3                   76   80   Char Diagnosis 3
+IA  2001 CORE              22 DX4                   81   85   Char Diagnosis 4
+IA  2001 CORE              23 DX5                   86   90   Char Diagnosis 5
+IA  2001 CORE              24 DX6                   91   95   Char Diagnosis 6
+IA  2001 CORE              25 DX7                   96  100   Char Diagnosis 7
+IA  2001 CORE              26 DX8                  101  105   Char Diagnosis 8
+IA  2001 CORE              27 DX9                  106  110   Char Diagnosis 9
+IA  2001 CORE              28 DX10                 111  115   Char Diagnosis 10
+IA  2001 CORE              29 DX11                 116  120   Char Diagnosis 11
+IA  2001 CORE              30 DXCCS1               121  124   Num  CCS: principal diagnosis
+IA  2001 CORE              31 DXCCS2               125  128   Num  CCS: diagnosis 2
+IA  2001 CORE              32 DXCCS3               129  132   Num  CCS: diagnosis 3
+IA  2001 CORE              33 DXCCS4               133  136   Num  CCS: diagnosis 4
+IA  2001 CORE              34 DXCCS5               137  140   Num  CCS: diagnosis 5
+IA  2001 CORE              35 DXCCS6               141  144   Num  CCS: diagnosis 6
+IA  2001 CORE              36 DXCCS7               145  148   Num  CCS: diagnosis 7
+IA  2001 CORE              37 DXCCS8               149  152   Num  CCS: diagnosis 8
+IA  2001 CORE              38 DXCCS9               153  156   Num  CCS: diagnosis 9
+IA  2001 CORE              39 DXCCS10              157  160   Num  CCS: diagnosis 10
+IA  2001 CORE              40 DXCCS11              161  164   Num  CCS: diagnosis 11
+IA  2001 CORE              41 FEMALE               165  166   Num  Indicator of sex
+IA  2001 CORE              42 HOSPST               167  168   Char Hospital state postal code
+IA  2001 CORE              43 LOS                  169  173   Num  Length of stay (cleaned)
+IA  2001 CORE              44 LOS_X                174  179   Num  Length of stay (as received from source)
+IA  2001 CORE              45 MDC                  180  181   Num  MDC in effect on discharge date
+IA  2001 CORE              46 MDC18                182  183   Num  MDC, version 18
+IA  2001 CORE              47 MDNUM1_S             184  199   Char Physician 1 number (synthetic)
+IA  2001 CORE              48 MDNUM2_S             200  215   Char Physician 2 number (synthetic)
+IA  2001 CORE              49 MDNUM3_S             216  231   Char Physician 3 number (synthetic)
+IA  2001 CORE              50 MRN_S                232  248   Char Medical record number (synthetic)
+IA  2001 CORE              51 NDX                  249  250   Num  Number of diagnoses on this record
+IA  2001 CORE              52 NEOMAT               251  252   Num  Neonatal and/or maternal DX and/or PR
+IA  2001 CORE              53 NPR                  253  254   Num  Number of procedures on this record
+IA  2001 CORE              54 PAY1                 255  256   Num  Primary expected payer (uniform)
+IA  2001 CORE              55 PAY1_X               257  260   Char Primary expected payer (as received from source)
+IA  2001 CORE              56 PR1                  261  264   Char Principal procedure
+IA  2001 CORE              57 PR2                  265  268   Char Procedure 2
+IA  2001 CORE              58 PR3                  269  272   Char Procedure 3
+IA  2001 CORE              59 PR4                  273  276   Char Procedure 4
+IA  2001 CORE              60 PR5                  277  280   Char Procedure 5
+IA  2001 CORE              61 PR6                  281  284   Char Procedure 6
+IA  2001 CORE              62 PRCCS1               285  287   Num  CCS: principal procedure
+IA  2001 CORE              63 PRCCS2               288  290   Num  CCS: procedure 2
+IA  2001 CORE              64 PRCCS3               291  293   Num  CCS: procedure 3
+IA  2001 CORE              65 PRCCS4               294  296   Num  CCS: procedure 4
+IA  2001 CORE              66 PRCCS5               297  299   Num  CCS: procedure 5
+IA  2001 CORE              67 PRCCS6               300  302   Num  CCS: procedure 6
+IA  2001 CORE              68 PRDAY1               303  305   Num  Number of days from admission to PR1
+IA  2001 CORE              69 PRDAY2               306  308   Num  Number of days from admission to PR2
+IA  2001 CORE              70 PRDAY3               309  311   Num  Number of days from admission to PR3
+IA  2001 CORE              71 PRDAY4               312  314   Num  Number of days from admission to PR4
+IA  2001 CORE              72 PRDAY5               315  317   Num  Number of days from admission to PR5
+IA  2001 CORE              73 PRDAY6               318  320   Num  Number of days from admission to PR6
+IA  2001 CORE              74 PSTCO                321  325   Num  Patient state/county FIPS code
+IA  2001 CORE              75 RACE                 326  327   Num  Race (uniform)
+IA  2001 CORE              76 RACE_X               328  331   Char Race (as received from source)
+IA  2001 CORE              77 TOTCHG               332  341   Num  Total charges (cleaned)
+IA  2001 CORE              78 TOTCHG_X             342  356 2 Num  Total charges (as received from source)
+IA  2001 CORE              79 YEAR                 357  360   Num  Calendar year
+IA  2001 CORE              80 ZIP                  361  365   Char Patient ZIP Code
+IA  2001 CORE              81 AYEAR                366  369   Num  Admission year
+IA  2001 CORE              82 DMONTH               370  371   Num  Discharge month
+IA  2001 CORE              83 BMONTH               372  373   Num  Birth month
+IA  2001 CORE              84 BYEAR                374  377   Num  Birth year
+IA  2001 CORE              85 PRMONTH1             378  379   Num  Month of procedure 1
+IA  2001 CORE              86 PRMONTH2             380  381   Num  Month of procedure 2
+IA  2001 CORE              87 PRMONTH3             382  383   Num  Month of procedure 3
+IA  2001 CORE              88 PRMONTH4             384  385   Num  Month of procedure 4
+IA  2001 CORE              89 PRMONTH5             386  387   Num  Month of procedure 5
+IA  2001 CORE              90 PRMONTH6             388  389   Num  Month of procedure 6
+IA  2001 CORE              91 PRYEAR1              390  393   Num  Year of procedure 1
+IA  2001 CORE              92 PRYEAR2              394  397   Num  Year of procedure 2
+IA  2001 CORE              93 PRYEAR3              398  401   Num  Year of procedure 3
+IA  2001 CORE              94 PRYEAR4              402  405   Num  Year of procedure 4
+IA  2001 CORE              95 PRYEAR5              406  409   Num  Year of procedure 5
+IA  2001 CORE              96 PRYEAR6              410  413   Num  Year of procedure 6

@@ -1,0 +1,179 @@
+Data Set Name: MS_SIDC_2011_CORE               
+Number of Observations: 389828
+Total Record Length: 623
+Total Number of Variables: 159
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 56    Variable name
+58- 61    Starting column of variable in ASCII file
+63- 66    Ending column of variable in ASCII file
+    68    Non-zero number of digits after decimal point for numeric variable
+70- 73    Variable type (Num=numeric; Char=character)
+75-174    Variable label
+
+
+MS  2011 CORE               1 AGE                           1    3   Num  Age in years at admission
+MS  2011 CORE               2 AGEDAY                        4    6   Num  Age in days (when age < 1 year)
+MS  2011 CORE               3 AGEMONTH                      7    9   Num  Age in months (when age < 11 years)
+MS  2011 CORE               4 AHOUR                        10   13   Num  Admission Hour
+MS  2011 CORE               5 AMONTH                       14   15   Num  Admission month
+MS  2011 CORE               6 ASOURCE                      16   17   Num  Admission source (uniform)
+MS  2011 CORE               7 ASOURCEUB92                  18   18   Char Admission source (UB-92 standard coding)
+MS  2011 CORE               8 ASOURCE_X                    19   20   Char Admission source (as received from source)
+MS  2011 CORE               9 ATYPE                        21   22   Num  Admission type
+MS  2011 CORE              10 AWEEKEND                     23   24   Num  Admission day is a weekend
+MS  2011 CORE              11 DHOUR                        25   28   Num  Discharge Hour
+MS  2011 CORE              12 DIED                         29   30   Num  Died during hospitalization
+MS  2011 CORE              13 DISPUB04                     31   32   Num  Disposition of patient (UB-04 standard coding)
+MS  2011 CORE              14 DISPUNIFORM                  33   34   Num  Disposition of patient (uniform)
+MS  2011 CORE              15 DISP_X                       35   39   Char Disposition of patient (as received from source)
+MS  2011 CORE              16 DQTR                         40   41   Num  Discharge quarter
+MS  2011 CORE              17 DRG                          42   44   Num  DRG in effect on discharge date
+MS  2011 CORE              18 DRG24                        45   47   Num  DRG, version 24
+MS  2011 CORE              19 DRGVER                       48   49   Num  DRG grouper version used on discharge date
+MS  2011 CORE              20 DRG_NoPOA                    50   52   Num  DRG in use on discharge date, calculated without POA
+MS  2011 CORE              21 DSHOSPID                     53   69   Char Data source hospital identifier
+MS  2011 CORE              22 DX1                          70   74   Char Diagnosis 1
+MS  2011 CORE              23 DX2                          75   79   Char Diagnosis 2
+MS  2011 CORE              24 DX3                          80   84   Char Diagnosis 3
+MS  2011 CORE              25 DX4                          85   89   Char Diagnosis 4
+MS  2011 CORE              26 DX5                          90   94   Char Diagnosis 5
+MS  2011 CORE              27 DX6                          95   99   Char Diagnosis 6
+MS  2011 CORE              28 DX7                         100  104   Char Diagnosis 7
+MS  2011 CORE              29 DX8                         105  109   Char Diagnosis 8
+MS  2011 CORE              30 DX9                         110  114   Char Diagnosis 9
+MS  2011 CORE              31 DX10                        115  119   Char Diagnosis 10
+MS  2011 CORE              32 DX11                        120  124   Char Diagnosis 11
+MS  2011 CORE              33 DXCCS1                      125  128   Num  CCS: diagnosis 1
+MS  2011 CORE              34 DXCCS2                      129  132   Num  CCS: diagnosis 2
+MS  2011 CORE              35 DXCCS3                      133  136   Num  CCS: diagnosis 3
+MS  2011 CORE              36 DXCCS4                      137  140   Num  CCS: diagnosis 4
+MS  2011 CORE              37 DXCCS5                      141  144   Num  CCS: diagnosis 5
+MS  2011 CORE              38 DXCCS6                      145  148   Num  CCS: diagnosis 6
+MS  2011 CORE              39 DXCCS7                      149  152   Num  CCS: diagnosis 7
+MS  2011 CORE              40 DXCCS8                      153  156   Num  CCS: diagnosis 8
+MS  2011 CORE              41 DXCCS9                      157  160   Num  CCS: diagnosis 9
+MS  2011 CORE              42 DXCCS10                     161  164   Num  CCS: diagnosis 10
+MS  2011 CORE              43 DXCCS11                     165  168   Num  CCS: diagnosis 11
+MS  2011 CORE              44 DXPOA1                      169  169   Char Diagnosis 1, present on admission indicator
+MS  2011 CORE              45 DaysToEvent                 170  175   Num  Days from 'start date' to admission
+MS  2011 CORE              46 ECODE1                      176  180   Char E code 1
+MS  2011 CORE              47 ECODE2                      181  185   Char E code 2
+MS  2011 CORE              48 ECODE3                      186  190   Char E code 3
+MS  2011 CORE              49 ECODE4                      191  195   Char E code 4
+MS  2011 CORE              50 ECODE5                      196  200   Char E code 5
+MS  2011 CORE              51 ECODE6                      201  205   Char E code 6
+MS  2011 CORE              52 ECODE7                      206  210   Char E code 7
+MS  2011 CORE              53 E_CCS1                      211  214   Num  CCS: E Code 1
+MS  2011 CORE              54 E_CCS2                      215  218   Num  CCS: E Code 2
+MS  2011 CORE              55 E_CCS3                      219  222   Num  CCS: E Code 3
+MS  2011 CORE              56 E_CCS4                      223  226   Num  CCS: E Code 4
+MS  2011 CORE              57 E_CCS5                      227  230   Num  CCS: E Code 5
+MS  2011 CORE              58 E_CCS6                      231  234   Num  CCS: E Code 6
+MS  2011 CORE              59 E_CCS7                      235  238   Num  CCS: E Code 7
+MS  2011 CORE              60 E_POA1                      239  239   Char E Code 1, present on admission indicator
+MS  2011 CORE              61 E_POA2                      240  240   Char E Code 2, present on admission indicator
+MS  2011 CORE              62 E_POA3                      241  241   Char E Code 3, present on admission indicator
+MS  2011 CORE              63 E_POA4                      242  242   Char E Code 4, present on admission indicator
+MS  2011 CORE              64 E_POA5                      243  243   Char E Code 5, present on admission indicator
+MS  2011 CORE              65 E_POA6                      244  244   Char E Code 6, present on admission indicator
+MS  2011 CORE              66 E_POA7                      245  245   Char E Code 7, present on admission indicator
+MS  2011 CORE              67 FEMALE                      246  247   Num  Indicator of sex
+MS  2011 CORE              68 HCUP_ED                     248  249   Num  HCUP Emergency Department service indicator
+MS  2011 CORE              69 HCUP_OS                     250  251   Num  HCUP Observation Stay service indicator
+MS  2011 CORE              70 HCUP_SURGERY_BROAD          252  253   Num  Revised HCUP_AS (PCLASSn=3 or 4, or broad definition)
+MS  2011 CORE              71 HCUP_SURGERY_NARROW         254  255   Num  Revised HCUP_AS (PCLASSn=4, or narrow definition)
+MS  2011 CORE              72 HISPANIC_X                  256  263   Char Hispanic ethnicity (as received from source)
+MS  2011 CORE              73 HOSPBRTH                    264  266   Num  Indicator of birth in this hospital
+MS  2011 CORE              74 HOSPST                      267  268   Char Hospital state postal code
+MS  2011 CORE              75 KEY                         269  286   Num  HCUP record identifier
+MS  2011 CORE              76 LOS                         287  291   Num  Length of stay (cleaned)
+MS  2011 CORE              77 LOS_X                       292  297   Num  Length of stay (as received from source)
+MS  2011 CORE              78 MDC                         298  299   Num  MDC in effect on discharge date
+MS  2011 CORE              79 MDC24                       300  301   Num  MDC, version 24
+MS  2011 CORE              80 MDC_NoPOA                   302  303   Num  MDC in use on discharge date, calculated without POA
+MS  2011 CORE              81 MDNUM1_R                    304  312   Num  Physician 1 number (re-identified)
+MS  2011 CORE              82 MDNUM2_R                    313  321   Num  Physician 2 number (re-identified)
+MS  2011 CORE              83 MEDINCSTQ                   322  323   Num  Median household income state quartile for patient ZIP Code
+MS  2011 CORE              84 MRN_R                       324  332   Num  Medical record number (re-identified)
+MS  2011 CORE              85 NCHRONIC                    333  335   Num  Number of chronic conditions
+MS  2011 CORE              86 NDX                         336  337   Num  Number of diagnoses on this record
+MS  2011 CORE              87 NECODE                      338  339   Num  Number of E codes on this record
+MS  2011 CORE              88 NEOMAT                      340  341   Num  Neonatal and/or maternal DX and/or PR
+MS  2011 CORE              89 NPR                         342  343   Num  Number of procedures on this record
+MS  2011 CORE              90 ORPROC                      344  345   Num  Major operating room procedure indicator
+MS  2011 CORE              91 OS_TIME                     346  353   Num  Observation stay time summed from UNITS
+MS  2011 CORE              92 P7EDSRC_X                   354  355   Char Condition Code P7, Direct Inpatient Admission from Emergency Room
+MS  2011 CORE              93 PAY1                        356  357   Num  Primary expected payer (uniform)
+MS  2011 CORE              94 PAY1_X                      358  365   Char Primary expected payer (as received from source)
+MS  2011 CORE              95 PAY2                        366  367   Num  Secondary expected payer (uniform)
+MS  2011 CORE              96 PAY2_X                      368  375   Char Secondary expected payer (as received from source)
+MS  2011 CORE              97 PAY3                        376  377   Num  Tertiary expected payer (uniform)
+MS  2011 CORE              98 PAY3_X                      378  385   Char Tertiary expected payer (as received from source)
+MS  2011 CORE              99 PL_CBSA                     386  388   Num  Patient location: Core Based Statistical Area (CBSA)
+MS  2011 CORE             100 PL_MSA1993                  389  391   Num  Patient location: Metropolitan Statistical Area (MSA), 1993
+MS  2011 CORE             101 PL_NCHS2006                 392  393   Num  Patient Location: NCHS Urban-Rural Code (V2006)
+MS  2011 CORE             102 PL_RUCA10_2005              394  395   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, ten levels
+MS  2011 CORE             103 PL_RUCA2005                 396  399 1 Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes
+MS  2011 CORE             104 PL_RUCA4_2005               400  401   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, four levels
+MS  2011 CORE             105 PL_RUCC2003                 402  403   Num  Patient location: Rural-Urban Continuum Codes(RUCC), 2003
+MS  2011 CORE             106 PL_UIC2003                  404  405   Num  Patient location: Urban Influence Codes, 2003
+MS  2011 CORE             107 PL_UR_CAT4                  406  407   Num  Patient Location: Urban-Rural 4 Categories
+MS  2011 CORE             108 PNUM_R                      408  416   Num  Person number (re-identified)
+MS  2011 CORE             109 PR1                         417  420   Char Procedure 1
+MS  2011 CORE             110 PR2                         421  424   Char Procedure 2
+MS  2011 CORE             111 PR3                         425  428   Char Procedure 3
+MS  2011 CORE             112 PR4                         429  432   Char Procedure 4
+MS  2011 CORE             113 PR5                         433  436   Char Procedure 5
+MS  2011 CORE             114 PR6                         437  440   Char Procedure 6
+MS  2011 CORE             115 PRCCS1                      441  443   Num  CCS: procedure 1
+MS  2011 CORE             116 PRCCS2                      444  446   Num  CCS: procedure 2
+MS  2011 CORE             117 PRCCS3                      447  449   Num  CCS: procedure 3
+MS  2011 CORE             118 PRCCS4                      450  452   Num  CCS: procedure 4
+MS  2011 CORE             119 PRCCS5                      453  455   Num  CCS: procedure 5
+MS  2011 CORE             120 PRCCS6                      456  458   Num  CCS: procedure 6
+MS  2011 CORE             121 PRDAY1                      459  463   Num  Number of days from admission to PR1
+MS  2011 CORE             122 PRDAY2                      464  468   Num  Number of days from admission to PR2
+MS  2011 CORE             123 PRDAY3                      469  473   Num  Number of days from admission to PR3
+MS  2011 CORE             124 PRDAY4                      474  478   Num  Number of days from admission to PR4
+MS  2011 CORE             125 PRDAY5                      479  483   Num  Number of days from admission to PR5
+MS  2011 CORE             126 PRDAY6                      484  488   Num  Number of days from admission to PR6
+MS  2011 CORE             127 PROCTYPE                    489  491   Num  Procedure type indicator
+MS  2011 CORE             128 PSTATE                      492  493   Char Patient State postal code
+MS  2011 CORE             129 PSTCO                       494  498   Num  Patient state/county FIPS code
+MS  2011 CORE             130 PSTCO2                      499  503   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+MS  2011 CORE             131 PointOfOriginUB04           504  504   Char Point of origin for admission or visit, UB-04 standard coding
+MS  2011 CORE             132 PointOfOrigin_X             505  512   Char Point of origin for admission or visit, as received from source
+MS  2011 CORE             133 RACE                        513  514   Num  Race (uniform)
+MS  2011 CORE             134 RACE_X                      515  522   Char Race (as received from source)
+MS  2011 CORE             135 TOTCHG                      523  532   Num  Total charges (cleaned)
+MS  2011 CORE             136 TOTCHG_X                    533  547 2 Num  Total charges (as received from source)
+MS  2011 CORE             137 TRAN_IN                     548  549   Num  Transfer in indicator
+MS  2011 CORE             138 TRAN_OUT                    550  551   Num  Transfer out indicator
+MS  2011 CORE             139 VisitLink                   552  560   Num  Visit linkage variable
+MS  2011 CORE             140 YEAR                        561  564   Num  Calendar year
+MS  2011 CORE             141 ZIP3                        565  567   Char Patient ZIP Code, first 3 digits
+MS  2011 CORE             142 ZIPINC_QRTL                 568  570   Num  Median household income national quartile for patient ZIP Code
+MS  2011 CORE             143 ZIP                         571  575   Char Patient ZIP Code
+MS  2011 CORE             144 AYEAR                       576  579   Num  Admission year
+MS  2011 CORE             145 DMONTH                      580  581   Num  Discharge month
+MS  2011 CORE             146 BMONTH                      582  583   Num  Birth month
+MS  2011 CORE             147 BYEAR                       584  587   Num  Birth year
+MS  2011 CORE             148 PRMONTH1                    588  589   Num  Month of procedure 1
+MS  2011 CORE             149 PRMONTH2                    590  591   Num  Month of procedure 2
+MS  2011 CORE             150 PRMONTH3                    592  593   Num  Month of procedure 3
+MS  2011 CORE             151 PRMONTH4                    594  595   Num  Month of procedure 4
+MS  2011 CORE             152 PRMONTH5                    596  597   Num  Month of procedure 5
+MS  2011 CORE             153 PRMONTH6                    598  599   Num  Month of procedure 6
+MS  2011 CORE             154 PRYEAR1                     600  603   Num  Year of procedure 1
+MS  2011 CORE             155 PRYEAR2                     604  607   Num  Year of procedure 2
+MS  2011 CORE             156 PRYEAR3                     608  611   Num  Year of procedure 3
+MS  2011 CORE             157 PRYEAR4                     612  615   Num  Year of procedure 4
+MS  2011 CORE             158 PRYEAR5                     616  619   Num  Year of procedure 5
+MS  2011 CORE             159 PRYEAR6                     620  623   Num  Year of procedure 6

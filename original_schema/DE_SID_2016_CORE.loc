@@ -1,0 +1,123 @@
+Data Set Name: DE_SIDC_2016_CORE               
+Number of Observations: 112117
+Total Record Length: 427
+Total Number of Variables: 102
+Creation Date: 01/27/2020   
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 61    Variable name
+63- 66    Starting column of variable in ASCII file
+68- 71    Ending column of variable in ASCII file
+73- 73    Non-zero number of digits after decimal point for numeric variable
+75- 78    Variable type (Num=numeric; Char=character)
+80-179    Variable label
+
+
+DE  2016 CORE               1 AGE                                1    3   Num  Age in years at admission
+DE  2016 CORE               2 AGEDAY                             4    6   Num  Age in days (when age < 1 year)
+DE  2016 CORE               3 AGEMONTH                           7    9   Num  Age in months (when age < 11 years)
+DE  2016 CORE               4 AMONTH                            10   11   Num  Admission month
+DE  2016 CORE               5 ATYPE                             12   13   Num  Admission type
+DE  2016 CORE               6 AWEEKEND                          14   15   Num  Admission day is a weekend
+DE  2016 CORE               7 BILLTYPE                          16   19   Char Type of bill, UB-04 coding
+DE  2016 CORE               8 DaysToEvent                       20   25   Num  Days from 'start date' to admission
+DE  2016 CORE               9 DIED                              26   27   Num  Died during hospitalization
+DE  2016 CORE              10 DISP_X                            28   30   Char Disposition of patient (as received from source)
+DE  2016 CORE              11 DISPUB04                          31   32   Num  Disposition of patient (UB-04 standard coding)
+DE  2016 CORE              12 DISPUNIFORM                       33   34   Num  Disposition of patient (uniform)
+DE  2016 CORE              13 DMONTH                            35   36   Num  Discharge month
+DE  2016 CORE              14 DQTR                              37   38   Num  Discharge quarter
+DE  2016 CORE              15 DRG                               39   41   Num  DRG in effect on discharge date
+DE  2016 CORE              16 DRG_NoPOA                         42   44   Num  DRG in use on discharge date, calculated without POA
+DE  2016 CORE              17 DRGVER                            45   46   Num  DRG grouper version used on discharge date
+DE  2016 CORE              18 DSHOSPID                          47   63   Char Data source hospital identifier
+DE  2016 CORE              19 DXPOA1                            64   64   Char Diagnosis 1, present on admission indicator
+DE  2016 CORE              20 DXVER                             65   67   Num  Diagnosis Version
+DE  2016 CORE              21 E_POA1                            68   68   Char External cause 1, present on admission indicator
+DE  2016 CORE              22 E_POA2                            69   69   Char External cause 2, present on admission indicator
+DE  2016 CORE              23 E_POA3                            70   70   Char External cause 3, present on admission indicator
+DE  2016 CORE              24 E_POA4                            71   71   Char External cause 4, present on admission indicator
+DE  2016 CORE              25 E_POA5                            72   72   Char External cause 5, present on admission indicator
+DE  2016 CORE              26 FEMALE                            73   74   Num  Indicator of sex
+DE  2016 CORE              27 HCUP_ED                           75   76   Num  HCUP Emergency Department service indicator
+DE  2016 CORE              28 HCUP_OS                           77   78   Num  HCUP Observation Stay service indicator
+DE  2016 CORE              29 HOSPST                            79   80   Char Hospital state postal code
+DE  2016 CORE              30 I10_DX1                           81   87   Char ICD-10-CM Diagnosis 1
+DE  2016 CORE              31 I10_DX2                           88   94   Char ICD-10-CM Diagnosis 2
+DE  2016 CORE              32 I10_DX3                           95  101   Char ICD-10-CM Diagnosis 3
+DE  2016 CORE              33 I10_DX4                          102  108   Char ICD-10-CM Diagnosis 4
+DE  2016 CORE              34 I10_DX5                          109  115   Char ICD-10-CM Diagnosis 5
+DE  2016 CORE              35 I10_DX6                          116  122   Char ICD-10-CM Diagnosis 6
+DE  2016 CORE              36 I10_DX7                          123  129   Char ICD-10-CM Diagnosis 7
+DE  2016 CORE              37 I10_DX8                          130  136   Char ICD-10-CM Diagnosis 8
+DE  2016 CORE              38 I10_DX9                          137  143   Char ICD-10-CM Diagnosis 9
+DE  2016 CORE              39 I10_ECAUSE1                      144  150   Char ICD-10-CM External cause 1
+DE  2016 CORE              40 I10_ECAUSE2                      151  157   Char ICD-10-CM External cause 2
+DE  2016 CORE              41 I10_ECAUSE3                      158  164   Char ICD-10-CM External cause 3
+DE  2016 CORE              42 I10_ECAUSE4                      165  171   Char ICD-10-CM External cause 4
+DE  2016 CORE              43 I10_ECAUSE5                      172  178   Char ICD-10-CM External cause 5
+DE  2016 CORE              44 I10_NDX                          179  181   Num  ICD-10-CM Number of diagnoses on this record
+DE  2016 CORE              45 I10_NECAUSE                      182  183   Num  ICD-10-CM Number of External cause codes on this record
+DE  2016 CORE              46 I10_NPR                          184  186   Num  ICD-10-PCS Number of procedures on this record
+DE  2016 CORE              47 I10_PR1                          187  193   Char ICD-10-PCS Procedure 1
+DE  2016 CORE              48 I10_PR2                          194  200   Char ICD-10-PCS Procedure 2
+DE  2016 CORE              49 I10_PR3                          201  207   Char ICD-10-PCS Procedure 3
+DE  2016 CORE              50 I10_PR4                          208  214   Char ICD-10-PCS Procedure 4
+DE  2016 CORE              51 I10_PR5                          215  221   Char ICD-10-PCS Procedure 5
+DE  2016 CORE              52 I10_PR6                          222  228   Char ICD-10-PCS Procedure 6
+DE  2016 CORE              53 I10_PROCTYPE                     229  231   Num  ICD-10-PCS Procedure type indicator
+DE  2016 CORE              54 KEY                              232  246   Num  HCUP record identifier
+DE  2016 CORE              55 LOS                              247  251   Num  Length of stay (cleaned)
+DE  2016 CORE              56 LOS_X                            252  257   Num  Length of stay (as received from source)
+DE  2016 CORE              57 MDC                              258  259   Num  MDC in effect on discharge date
+DE  2016 CORE              58 MDC_NoPOA                        260  261   Num  MDC in use on discharge date, calculated without POA
+DE  2016 CORE              59 MEDINCSTQ                        262  263   Num  Median household income state quartile for patient ZIP Code
+DE  2016 CORE              60 OS_TIME                          264  274 2 Num  Observation stay time summed from UNITS
+DE  2016 CORE              61 PAY1                             275  276   Num  Primary expected payer (uniform)
+DE  2016 CORE              62 PAY1_X                           277  278   Char Primary expected payer (as received from source)
+DE  2016 CORE              63 PAY2                             279  280   Num  Secondary expected payer (uniform)
+DE  2016 CORE              64 PAY2_X                           281  288   Char Secondary expected payer (as received from source)
+DE  2016 CORE              65 PAY3                             289  290   Num  Tertiary expected payer (uniform)
+DE  2016 CORE              66 PAY3_X                           291  298   Char Tertiary expected payer (as received from source)
+DE  2016 CORE              67 PL_CBSA                          299  301   Num  Patient location: Core Based Statistical Area (CBSA)
+DE  2016 CORE              68 PL_NCHS                          302  303   Num  Patient Location: NCHS Urban-Rural Code
+DE  2016 CORE              69 PL_RUCC                          304  305   Num  Patient location: Rural-Urban Continuum Codes(RUCC)
+DE  2016 CORE              70 PL_UIC                           306  307   Num  Patient location: Urban Influence Codes
+DE  2016 CORE              71 PL_UR_CAT4                       308  309   Num  Patient Location: Urban-Rural 4 Categories
+DE  2016 CORE              72 POA_Disch_Edit1                  310  311   Num  Discharge has POA missing on all nonexempt diagnoses
+DE  2016 CORE              73 POA_Disch_Edit2                  312  313   Num  Discharge has POA missing on all nonexempt secondary diagnoses
+DE  2016 CORE              74 POA_Hosp_Edit1                   314  315   Num  Hospital reported POA as Y on all diagnoses on all discharges
+DE  2016 CORE              75 POA_Hosp_Edit2                   316  317   Num  Hospital reported POA as missing on all non-Medicare discharges
+DE  2016 CORE              76 POA_Hosp_Edit3                   318  319   Num  Hospital reported POA as missing on all nonexempt diagnoses for 15% or more of discharges
+DE  2016 CORE              77 POA_Hosp_Edit3_Value             320  327 2 Num  Percentage of discharges with all nonexempt diagnoses missing POA indicators
+DE  2016 CORE              78 PointOfOrigin_X                  328  328   Char Point of origin for admission or visit, as received from source
+DE  2016 CORE              79 PointOfOriginUB04                329  329   Char Point of origin for admission or visit, UB-04 standard coding
+DE  2016 CORE              80 PRDAY1                           330  334   Num  Number of days from admission to I10_PR1
+DE  2016 CORE              81 PRDAY2                           335  339   Num  Number of days from admission to I10_PR2
+DE  2016 CORE              82 PRVER                            340  342   Num  Procedure Version
+DE  2016 CORE              83 PSTATE                           343  344   Char Patient State postal code
+DE  2016 CORE              84 PSTCO2                           345  349   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+DE  2016 CORE              85 RACE                             350  351   Num  Race (uniform)
+DE  2016 CORE              86 RACE_X                           352  352   Char Race (as received from source)
+DE  2016 CORE              87 TOTCHG                           353  362   Num  Total charges (cleaned)
+DE  2016 CORE              88 TOTCHG_X                         363  377 2 Num  Total charges (as received from source)
+DE  2016 CORE              89 TRAN_IN                          378  379   Num  Transfer in indicator
+DE  2016 CORE              90 TRAN_OUT                         380  381   Num  Transfer out indicator
+DE  2016 CORE              91 VisitLink                        382  390   Num  Visit linkage variable
+DE  2016 CORE              92 YEAR                             391  394   Num  Calendar year
+DE  2016 CORE              93 ZIP                              395  399   Char Patient ZIP Code
+DE  2016 CORE              94 ZIP3                             400  402   Char Patient ZIP Code, first 3 digits
+DE  2016 CORE              95 ZIPINC_QRTL                      403  405   Num  Median household income national quartile for patient ZIP Code
+DE  2016 CORE              96 AYEAR                            406  409   Num  Admission year
+DE  2016 CORE              97 BMONTH                           410  411   Num  Birth month
+DE  2016 CORE              98 BYEAR                            412  415   Num  Birth year
+DE  2016 CORE              99 PRMONTH1                         416  417   Num  Month of procedure 1
+DE  2016 CORE             100 PRMONTH2                         418  419   Num  Month of procedure 2
+DE  2016 CORE             101 PRYEAR1                          420  423   Num  Year of procedure 1
+DE  2016 CORE             102 PRYEAR2                          424  427   Num  Year of procedure 2

@@ -1,0 +1,144 @@
+Columns   Description:
+=======   ============
+ 1- 2     State postal code
+ 5- 8     Discharge year of data
+10-14     File name
+19-21     Variable number
+23-30     Variable name
+32-34     Starting column of variable in ASCII file
+36-38     Ending column of variable in ASCII file
+   40     Non-zero number of digits after decimal point for numeric variable
+42-45     Variable type (NUM=numeric; CHAR=character)
+46-88     Variable label
+
+
+CO  1997 CORE     1   SEQ_SID  1   13    Num I:HCUP SID record sequence number
+CO  1997 CORE     2   PROCESS  14  24    Num I:HCUP discharge processing ID number
+CO  1997 CORE     3   YEAR     25  26    Num Calendar year
+CO  1997 CORE     4   DSHOSPID 27  39    CharI:Data source hospital ID number
+CO  1997 CORE     5   DSNUM    40  41    Num I:Data source ID number
+CO  1997 CORE     6   DSTYPE   42  42    Num I:Data source type
+CO  1997 CORE     7   HOSPST   43  44    CharHospital state postal code
+CO  1997 CORE     8   MDID_S   45  60    CharI:Attending physician number (synthetic)
+CO  1997 CORE     9   SURGID_S 61  76    CharI:Primary surgeon number (synthetic)
+CO  1997 CORE     10  AGE      77  79    Num I:Age in years at admission
+CO  1997 CORE     11  AGEDAY   80  82    Num I:Age in days (when < 1 year)
+CO  1997 CORE     12  SEX      83  84    Num I:Sex
+CO  1997 CORE     13  RACE     85  86    Num I:Race
+CO  1997 CORE     14  ADAYWK   87  88    Num I:Admission day of week
+CO  1997 CORE     15  AMONTH   89  90    Num I:Admission month
+CO  1997 CORE     16  DQTR     91  91    Num I:Discharge quarter
+CO  1997 CORE     17  LOS      92  96    Num I:Length of stay (cleaned)
+CO  1997 CORE     18  LOS_X    97  102   Num I:Length of stay (uncleaned)
+CO  1997 CORE     19  DISP     103 104   Num I:Disposition of patient
+CO  1997 CORE     20  DIED     105 106   Num I:Died during hospitalization
+CO  1997 CORE     21  NEOMAT   107 107   Num I:Neonatal and/or maternal DX and/or PR
+CO  1997 CORE     22  ATYPE    108 109   Num I:Admission type
+CO  1997 CORE     23  ASOURCE  110 111   Num I:Admission source
+CO  1997 CORE     24  DXSYS    112 113   Num I:Diagnosis coding system
+CO  1997 CORE     25  DSNDX    114 115   Num I:Max number of diagnoses from source
+CO  1997 CORE     26  NDX      116 117   Num I:Number of diagnoses on this discharge
+CO  1997 CORE     27  DX1      118 122   CharI:Principal diagnosis
+CO  1997 CORE     28  DX2      123 127   CharI:Diagnosis 2
+CO  1997 CORE     29  DX3      128 132   CharI:Diagnosis 3
+CO  1997 CORE     30  DX4      133 137   CharI:Diagnosis 4
+CO  1997 CORE     31  DX5      138 142   CharI:Diagnosis 5
+CO  1997 CORE     32  DX6      143 147   CharI:Diagnosis 6
+CO  1997 CORE     33  DX7      148 152   CharI:Diagnosis 7
+CO  1997 CORE     34  DX8      153 157   CharI:Diagnosis 8
+CO  1997 CORE     35  DX9      158 162   CharI:Diagnosis 9
+CO  1997 CORE     36  DX10     163 167   CharI:Diagnosis 10
+CO  1997 CORE     37  DX11     168 172   CharI:Diagnosis 11
+CO  1997 CORE     38  DX12     173 177   CharI:Diagnosis 12
+CO  1997 CORE     39  DX13     178 182   CharI:Diagnosis 13
+CO  1997 CORE     40  DX14     183 187   CharI:Diagnosis 14
+CO  1997 CORE     41  DX15     188 192   CharI:Diagnosis 15
+CO  1997 CORE     42  DXV1     193 194   Num I:Validity flag: principal diagnosis
+CO  1997 CORE     43  DXV2     195 196   Num I:Validity flag: diagnosis 2
+CO  1997 CORE     44  DXV3     197 198   Num I:Validity flag: diagnosis 3
+CO  1997 CORE     45  DXV4     199 200   Num I:Validity flag: diagnosis 4
+CO  1997 CORE     46  DXV5     201 202   Num I:Validity flag: diagnosis 5
+CO  1997 CORE     47  DXV6     203 204   Num I:Validity flag: diagnosis 6
+CO  1997 CORE     48  DXV7     205 206   Num I:Validity flag: diagnosis 7
+CO  1997 CORE     49  DXV8     207 208   Num I:Validity flag: diagnosis 8
+CO  1997 CORE     50  DXV9     209 210   Num I:Validity flag: diagnosis 9
+CO  1997 CORE     51  DXV10    211 212   Num I:Validity flag: diagnosis 10
+CO  1997 CORE     52  DXV11    213 214   Num I:Validity flag: diagnosis 11
+CO  1997 CORE     53  DXV12    215 216   Num I:Validity flag: diagnosis 12
+CO  1997 CORE     54  DXV13    217 218   Num I:Validity flag: diagnosis 13
+CO  1997 CORE     55  DXV14    219 220   Num I:Validity flag: diagnosis 14
+CO  1997 CORE     56  DXV15    221 222   Num I:Validity flag: diagnosis 15
+CO  1997 CORE     57  DCCHPR1  223 225   Num I:CCHPR: principal diagnosis
+CO  1997 CORE     58  DCCHPR2  226 228   Num I:CCHPR: diagnosis 2
+CO  1997 CORE     59  DCCHPR3  229 231   Num I:CCHPR: diagnosis 3
+CO  1997 CORE     60  DCCHPR4  232 234   Num I:CCHPR: diagnosis 4
+CO  1997 CORE     61  DCCHPR5  235 237   Num I:CCHPR: diagnosis 5
+CO  1997 CORE     62  DCCHPR6  238 240   Num I:CCHPR: diagnosis 6
+CO  1997 CORE     63  DCCHPR7  241 243   Num I:CCHPR: diagnosis 7
+CO  1997 CORE     64  DCCHPR8  244 246   Num I:CCHPR: diagnosis 8
+CO  1997 CORE     65  DCCHPR9  247 249   Num I:CCHPR: diagnosis 9
+CO  1997 CORE     66  DCCHPR10 250 252   Num I:CCHPR: diagnosis 10
+CO  1997 CORE     67  DCCHPR11 253 255   Num I:CCHPR: diagnosis 11
+CO  1997 CORE     68  DCCHPR12 256 258   Num I:CCHPR: diagnosis 12
+CO  1997 CORE     69  DCCHPR13 259 261   Num I:CCHPR: diagnosis 13
+CO  1997 CORE     70  DCCHPR14 262 264   Num I:CCHPR: diagnosis 14
+CO  1997 CORE     71  DCCHPR15 265 267   Num I:CCHPR: diagnosis 15
+CO  1997 CORE     72  PRSYS    268 269   Num I:Procedure coding system
+CO  1997 CORE     73  DSNPR    270 271   Num I:Max number of procedures from source
+CO  1997 CORE     74  NPR      272 273   Num I:Number of procedures on this discharge
+CO  1997 CORE     75  PR1      274 277   CharI:Principal procedure
+CO  1997 CORE     76  PR2      278 281   CharI:Procedure 2
+CO  1997 CORE     77  PR3      282 285   CharI:Procedure 3
+CO  1997 CORE     78  PR4      286 289   CharI:Procedure 4
+CO  1997 CORE     79  PR5      290 293   CharI:Procedure 5
+CO  1997 CORE     80  PR6      294 297   CharI:Procedure 6
+CO  1997 CORE     81  PR7      298 301   CharI:Procedure 7
+CO  1997 CORE     82  PR8      302 305   CharI:Procedure 8
+CO  1997 CORE     83  PR9      306 309   CharI:Procedure 9
+CO  1997 CORE     84  PR10     310 313   CharI:Procedure 10
+CO  1997 CORE     85  PR11     314 317   CharI:Procedure 11
+CO  1997 CORE     86  PR12     318 321   CharI:Procedure 12
+CO  1997 CORE     87  PR13     322 325   CharI:Procedure 13
+CO  1997 CORE     88  PR14     326 329   CharI:Procedure 14
+CO  1997 CORE     89  PR15     330 333   CharI:Procedure 15
+CO  1997 CORE     90  PRV1     334 335   Num I:Validity flag: principal procedure
+CO  1997 CORE     91  PRV2     336 337   Num I:Validity flag: procedure 2
+CO  1997 CORE     92  PRV3     338 339   Num I:Validity flag: procedure 3
+CO  1997 CORE     93  PRV4     340 341   Num I:Validity flag: procedure 4
+CO  1997 CORE     94  PRV5     342 343   Num I:Validity flag: procedure 5
+CO  1997 CORE     95  PRV6     344 345   Num I:Validity flag: procedure 6
+CO  1997 CORE     96  PRV7     346 347   Num I:Validity flag: procedure 7
+CO  1997 CORE     97  PRV8     348 349   Num I:Validity flag: procedure 8
+CO  1997 CORE     98  PRV9     350 351   Num I:Validity flag: procedure 9
+CO  1997 CORE     99  PRV10    352 353   Num I:Validity flag: procedure 10
+CO  1997 CORE     100 PRV11    354 355   Num I:Validity flag: procedure 11
+CO  1997 CORE     101 PRV12    356 357   Num I:Validity flag: procedure 12
+CO  1997 CORE     102 PRV13    358 359   Num I:Validity flag: procedure 13
+CO  1997 CORE     103 PRV14    360 361   Num I:Validity flag: procedure 14
+CO  1997 CORE     104 PRV15    362 363   Num I:Validity flag: procedure 15
+CO  1997 CORE     105 PCCHPR1  364 366   Num I:CCHPR: principal procedure
+CO  1997 CORE     106 PCCHPR2  367 369   Num I:CCHPR: procedure 2
+CO  1997 CORE     107 PCCHPR3  370 372   Num I:CCHPR: procedure 3
+CO  1997 CORE     108 PCCHPR4  373 375   Num I:CCHPR: procedure 4
+CO  1997 CORE     109 PCCHPR5  376 378   Num I:CCHPR: procedure 5
+CO  1997 CORE     110 PCCHPR6  379 381   Num I:CCHPR: procedure 6
+CO  1997 CORE     111 PCCHPR7  382 384   Num I:CCHPR: procedure 7
+CO  1997 CORE     112 PCCHPR8  385 387   Num I:CCHPR: procedure 8
+CO  1997 CORE     113 PCCHPR9  388 390   Num I:CCHPR: procedure 9
+CO  1997 CORE     114 PCCHPR10 391 393   Num I:CCHPR: procedure 10
+CO  1997 CORE     115 PCCHPR11 394 396   Num I:CCHPR: procedure 11
+CO  1997 CORE     116 PCCHPR12 397 399   Num I:CCHPR: procedure 12
+CO  1997 CORE     117 PCCHPR13 400 402   Num I:CCHPR: procedure 13
+CO  1997 CORE     118 PCCHPR14 403 405   Num I:CCHPR: procedure 14
+CO  1997 CORE     119 PCCHPR15 406 408   Num I:CCHPR: procedure 15
+CO  1997 CORE     120 PRDAY1   409 413   Num I:No. of days from admission to PR1
+CO  1997 CORE     121 DRG      414 416   Num I:DRG in effect on discharge date
+CO  1997 CORE     122 MDC      417 418   Num I:MDC in effect on discharge date
+CO  1997 CORE     123 DRGVER   419 420   Num I:DRG grouper version used on disch date
+CO  1997 CORE     124 DRG10    421 423   Num I:DRG, Version 10
+CO  1997 CORE     125 MDC10    424 425   Num I:MDC, Version 10
+CO  1997 CORE     126 PAY1     426 427   Num I:Primary expected payer, uniform
+CO  1997 CORE     127 PAY1_N   428 429   Num I:Primary expected payer, nonuniform
+CO  1997 CORE     128 TOTCHG   430 439   Num I:Total charges (cleaned)
+CO  1997 CORE     129 TOTCHG_X 440 454 2 Num I:Total charges (from data source)
+CO  1997 CORE     130 HOSPID   455 459   Num HCUP hospital ID number (SSHHH)

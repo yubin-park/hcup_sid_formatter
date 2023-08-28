@@ -1,0 +1,321 @@
+Data Set Name: VT_SIDC_2007_CORE               
+Number of Observations: 54408
+Total Record Length: 1154
+Total Number of Variables: 301
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 56    Variable name
+58- 61    Starting column of variable in ASCII file
+63- 66    Ending column of variable in ASCII file
+    68    Non-zero number of digits after decimal point for numeric variable
+70- 73    Variable type (Num=numeric; Char=character)
+75-174    Variable label
+
+
+VT  2007 CORE               1 AGE                           1    3   Num  Age in years at admission
+VT  2007 CORE               2 AGEDAY                        4    6   Num  Age in days (when age < 1 year)
+VT  2007 CORE               3 AGEMONTH                      7    9   Num  Age in months (when age < 11 years)
+VT  2007 CORE               4 AMONTH                       10   11   Num  Admission month
+VT  2007 CORE               5 ASOURCE                      12   13   Num  Admission source (uniform)
+VT  2007 CORE               6 ASOURCEUB92                  14   14   Char Admission source (UB-92 standard coding)
+VT  2007 CORE               7 ASOURCE_X                    15   22   Char Admission source (as received from source)
+VT  2007 CORE               8 ATYPE                        23   24   Num  Admission type
+VT  2007 CORE               9 AWEEKEND                     25   26   Num  Admission day is a weekend
+VT  2007 CORE              10 BWT                          27   30   Num  Birth weight in grams
+VT  2007 CORE              11 CPT1                         31   35   Char CPT/HCPCS procedure code 1
+VT  2007 CORE              12 CPT2                         36   40   Char CPT/HCPCS procedure code 2
+VT  2007 CORE              13 CPT3                         41   45   Char CPT/HCPCS procedure code 3
+VT  2007 CORE              14 CPT4                         46   50   Char CPT/HCPCS procedure code 4
+VT  2007 CORE              15 CPT5                         51   55   Char CPT/HCPCS procedure code 5
+VT  2007 CORE              16 CPT6                         56   60   Char CPT/HCPCS procedure code 6
+VT  2007 CORE              17 CPT7                         61   65   Char CPT/HCPCS procedure code 7
+VT  2007 CORE              18 CPT8                         66   70   Char CPT/HCPCS procedure code 8
+VT  2007 CORE              19 CPT9                         71   75   Char CPT/HCPCS procedure code 9
+VT  2007 CORE              20 CPT10                        76   80   Char CPT/HCPCS procedure code 10
+VT  2007 CORE              21 CPT11                        81   85   Char CPT/HCPCS procedure code 11
+VT  2007 CORE              22 CPT12                        86   90   Char CPT/HCPCS procedure code 12
+VT  2007 CORE              23 CPT13                        91   95   Char CPT/HCPCS procedure code 13
+VT  2007 CORE              24 CPT14                        96  100   Char CPT/HCPCS procedure code 14
+VT  2007 CORE              25 CPT15                       101  105   Char CPT/HCPCS procedure code 15
+VT  2007 CORE              26 CPT16                       106  110   Char CPT/HCPCS procedure code 16
+VT  2007 CORE              27 CPT17                       111  115   Char CPT/HCPCS procedure code 17
+VT  2007 CORE              28 CPT18                       116  120   Char CPT/HCPCS procedure code 18
+VT  2007 CORE              29 CPT19                       121  125   Char CPT/HCPCS procedure code 19
+VT  2007 CORE              30 CPT20                       126  130   Char CPT/HCPCS procedure code 20
+VT  2007 CORE              31 CPT21                       131  135   Char CPT/HCPCS procedure code 21
+VT  2007 CORE              32 CPT22                       136  140   Char CPT/HCPCS procedure code 22
+VT  2007 CORE              33 CPT23                       141  145   Char CPT/HCPCS procedure code 23
+VT  2007 CORE              34 CPT24                       146  150   Char CPT/HCPCS procedure code 24
+VT  2007 CORE              35 CPT25                       151  155   Char CPT/HCPCS procedure code 25
+VT  2007 CORE              36 CPTDAY1                     156  158   Num  Number of days from admission to CPT1
+VT  2007 CORE              37 CPTDAY2                     159  161   Num  Number of days from admission to CPT2
+VT  2007 CORE              38 CPTDAY3                     162  164   Num  Number of days from admission to CPT3
+VT  2007 CORE              39 CPTDAY4                     165  167   Num  Number of days from admission to CPT4
+VT  2007 CORE              40 CPTDAY5                     168  170   Num  Number of days from admission to CPT5
+VT  2007 CORE              41 CPTDAY6                     171  173   Num  Number of days from admission to CPT6
+VT  2007 CORE              42 CPTDAY7                     174  176   Num  Number of days from admission to CPT7
+VT  2007 CORE              43 CPTDAY8                     177  179   Num  Number of days from admission to CPT8
+VT  2007 CORE              44 CPTDAY9                     180  182   Num  Number of days from admission to CPT9
+VT  2007 CORE              45 CPTDAY10                    183  185   Num  Number of days from admission to CPT10
+VT  2007 CORE              46 CPTDAY11                    186  188   Num  Number of days from admission to CPT11
+VT  2007 CORE              47 CPTDAY12                    189  191   Num  Number of days from admission to CPT12
+VT  2007 CORE              48 CPTDAY13                    192  194   Num  Number of days from admission to CPT13
+VT  2007 CORE              49 CPTDAY14                    195  197   Num  Number of days from admission to CPT14
+VT  2007 CORE              50 CPTDAY15                    198  200   Num  Number of days from admission to CPT15
+VT  2007 CORE              51 CPTDAY16                    201  203   Num  Number of days from admission to CPT16
+VT  2007 CORE              52 CPTDAY17                    204  206   Num  Number of days from admission to CPT17
+VT  2007 CORE              53 CPTDAY18                    207  209   Num  Number of days from admission to CPT18
+VT  2007 CORE              54 CPTDAY19                    210  212   Num  Number of days from admission to CPT19
+VT  2007 CORE              55 CPTDAY20                    213  215   Num  Number of days from admission to CPT20
+VT  2007 CORE              56 CPTDAY21                    216  218   Num  Number of days from admission to CPT21
+VT  2007 CORE              57 CPTDAY22                    219  221   Num  Number of days from admission to CPT22
+VT  2007 CORE              58 CPTDAY23                    222  224   Num  Number of days from admission to CPT23
+VT  2007 CORE              59 CPTDAY24                    225  227   Num  Number of days from admission to CPT24
+VT  2007 CORE              60 CPTDAY25                    228  230   Num  Number of days from admission to CPT25
+VT  2007 CORE              61 CPTM1_1                     231  232   Char First CPT-4/HCPCS modifier 1
+VT  2007 CORE              62 CPTM1_2                     233  234   Char First CPT-4/HCPCS modifier 2
+VT  2007 CORE              63 CPTM1_3                     235  236   Char First CPT-4/HCPCS modifier 3
+VT  2007 CORE              64 CPTM1_4                     237  238   Char First CPT-4/HCPCS modifier 4
+VT  2007 CORE              65 CPTM1_5                     239  240   Char First CPT-4/HCPCS modifier 5
+VT  2007 CORE              66 CPTM1_6                     241  242   Char First CPT-4/HCPCS modifier 6
+VT  2007 CORE              67 CPTM1_7                     243  244   Char First CPT-4/HCPCS modifier 7
+VT  2007 CORE              68 CPTM1_8                     245  246   Char First CPT-4/HCPCS modifier 8
+VT  2007 CORE              69 CPTM1_9                     247  248   Char First CPT-4/HCPCS modifier 9
+VT  2007 CORE              70 CPTM1_10                    249  250   Char First CPT-4/HCPCS modifier 10
+VT  2007 CORE              71 CPTM1_11                    251  252   Char First CPT-4/HCPCS modifier 11
+VT  2007 CORE              72 CPTM1_12                    253  254   Char First CPT-4/HCPCS modifier 12
+VT  2007 CORE              73 CPTM1_13                    255  256   Char First CPT-4/HCPCS modifier 13
+VT  2007 CORE              74 CPTM1_14                    257  258   Char First CPT-4/HCPCS modifier 14
+VT  2007 CORE              75 CPTM1_15                    259  260   Char First CPT-4/HCPCS modifier 15
+VT  2007 CORE              76 CPTM1_16                    261  262   Char First CPT-4/HCPCS modifier 16
+VT  2007 CORE              77 CPTM1_17                    263  264   Char First CPT-4/HCPCS modifier 17
+VT  2007 CORE              78 CPTM1_18                    265  266   Char First CPT-4/HCPCS modifier 18
+VT  2007 CORE              79 CPTM1_19                    267  268   Char First CPT-4/HCPCS modifier 19
+VT  2007 CORE              80 CPTM1_20                    269  270   Char First CPT-4/HCPCS modifier 20
+VT  2007 CORE              81 CPTM1_21                    271  272   Char First CPT-4/HCPCS modifier 21
+VT  2007 CORE              82 CPTM1_22                    273  274   Char First CPT-4/HCPCS modifier 22
+VT  2007 CORE              83 CPTM1_23                    275  276   Char First CPT-4/HCPCS modifier 23
+VT  2007 CORE              84 CPTM1_24                    277  278   Char First CPT-4/HCPCS modifier 24
+VT  2007 CORE              85 CPTM1_25                    279  280   Char First CPT-4/HCPCS modifier 25
+VT  2007 CORE              86 DIED                        281  282   Num  Died during hospitalization
+VT  2007 CORE              87 DISPUB04                    283  284   Num  Disposition of patient (UB-04 standard coding)
+VT  2007 CORE              88 DISPUNIFORM                 285  286   Num  Disposition of patient (uniform)
+VT  2007 CORE              89 DISP_X                      287  288   Char Disposition of patient (as received from source)
+VT  2007 CORE              90 DQTR                        289  290   Num  Discharge quarter
+VT  2007 CORE              91 DRG                         291  293   Num  DRG in effect on discharge date
+VT  2007 CORE              92 DRG24                       294  296   Num  DRG, version 24
+VT  2007 CORE              93 DRGVER                      297  298   Num  DRG grouper version used on discharge date
+VT  2007 CORE              94 DSHOSPID                    299  311   Char Data source hospital identifier
+VT  2007 CORE              95 DX1                         312  316   Char Diagnosis 1
+VT  2007 CORE              96 DX2                         317  321   Char Diagnosis 2
+VT  2007 CORE              97 DX3                         322  326   Char Diagnosis 3
+VT  2007 CORE              98 DX4                         327  331   Char Diagnosis 4
+VT  2007 CORE              99 DX5                         332  336   Char Diagnosis 5
+VT  2007 CORE             100 DX6                         337  341   Char Diagnosis 6
+VT  2007 CORE             101 DX7                         342  346   Char Diagnosis 7
+VT  2007 CORE             102 DX8                         347  351   Char Diagnosis 8
+VT  2007 CORE             103 DX9                         352  356   Char Diagnosis 9
+VT  2007 CORE             104 DX10                        357  361   Char Diagnosis 10
+VT  2007 CORE             105 DX11                        362  366   Char Diagnosis 11
+VT  2007 CORE             106 DX12                        367  371   Char Diagnosis 12
+VT  2007 CORE             107 DX13                        372  376   Char Diagnosis 13
+VT  2007 CORE             108 DX14                        377  381   Char Diagnosis 14
+VT  2007 CORE             109 DX15                        382  386   Char Diagnosis 15
+VT  2007 CORE             110 DX16                        387  391   Char Diagnosis 16
+VT  2007 CORE             111 DX17                        392  396   Char Diagnosis 17
+VT  2007 CORE             112 DX18                        397  401   Char Diagnosis 18
+VT  2007 CORE             113 DX19                        402  406   Char Diagnosis 19
+VT  2007 CORE             114 DX20                        407  411   Char Diagnosis 20
+VT  2007 CORE             115 DXCCS1                      412  415   Num  CCS: diagnosis 1
+VT  2007 CORE             116 DXCCS2                      416  419   Num  CCS: diagnosis 2
+VT  2007 CORE             117 DXCCS3                      420  423   Num  CCS: diagnosis 3
+VT  2007 CORE             118 DXCCS4                      424  427   Num  CCS: diagnosis 4
+VT  2007 CORE             119 DXCCS5                      428  431   Num  CCS: diagnosis 5
+VT  2007 CORE             120 DXCCS6                      432  435   Num  CCS: diagnosis 6
+VT  2007 CORE             121 DXCCS7                      436  439   Num  CCS: diagnosis 7
+VT  2007 CORE             122 DXCCS8                      440  443   Num  CCS: diagnosis 8
+VT  2007 CORE             123 DXCCS9                      444  447   Num  CCS: diagnosis 9
+VT  2007 CORE             124 DXCCS10                     448  451   Num  CCS: diagnosis 10
+VT  2007 CORE             125 DXCCS11                     452  455   Num  CCS: diagnosis 11
+VT  2007 CORE             126 DXCCS12                     456  459   Num  CCS: diagnosis 12
+VT  2007 CORE             127 DXCCS13                     460  463   Num  CCS: diagnosis 13
+VT  2007 CORE             128 DXCCS14                     464  467   Num  CCS: diagnosis 14
+VT  2007 CORE             129 DXCCS15                     468  471   Num  CCS: diagnosis 15
+VT  2007 CORE             130 DXCCS16                     472  475   Num  CCS: diagnosis 16
+VT  2007 CORE             131 DXCCS17                     476  479   Num  CCS: diagnosis 17
+VT  2007 CORE             132 DXCCS18                     480  483   Num  CCS: diagnosis 18
+VT  2007 CORE             133 DXCCS19                     484  487   Num  CCS: diagnosis 19
+VT  2007 CORE             134 DXCCS20                     488  491   Num  CCS: diagnosis 20
+VT  2007 CORE             135 ECODE1                      492  496   Char E code 1
+VT  2007 CORE             136 ECODE2                      497  501   Char E code 2
+VT  2007 CORE             137 ECODE3                      502  506   Char E code 3
+VT  2007 CORE             138 ECODE4                      507  511   Char E code 4
+VT  2007 CORE             139 ECODE5                      512  516   Char E code 5
+VT  2007 CORE             140 ECODE6                      517  521   Char E code 6
+VT  2007 CORE             141 ECODE7                      522  526   Char E code 7
+VT  2007 CORE             142 E_CCS1                      527  530   Num  CCS: E Code 1
+VT  2007 CORE             143 E_CCS2                      531  534   Num  CCS: E Code 2
+VT  2007 CORE             144 E_CCS3                      535  538   Num  CCS: E Code 3
+VT  2007 CORE             145 E_CCS4                      539  542   Num  CCS: E Code 4
+VT  2007 CORE             146 E_CCS5                      543  546   Num  CCS: E Code 5
+VT  2007 CORE             147 E_CCS6                      547  550   Num  CCS: E Code 6
+VT  2007 CORE             148 E_CCS7                      551  554   Num  CCS: E Code 7
+VT  2007 CORE             149 FEMALE                      555  556   Num  Indicator of sex
+VT  2007 CORE             150 HCUP_ED                     557  558   Num  HCUP Emergency Department service indicator
+VT  2007 CORE             151 HCUP_OS                     559  560   Num  HCUP Observation Stay service indicator
+VT  2007 CORE             152 HOSPBRTH                    561  563   Num  Indicator of birth in this hospital
+VT  2007 CORE             153 HOSPST                      564  565   Char Hospital state postal code
+VT  2007 CORE             154 KEY                         566  579   Num  HCUP record identifier
+VT  2007 CORE             155 LOS                         580  584   Num  Length of stay (cleaned)
+VT  2007 CORE             156 LOS_X                       585  590   Num  Length of stay (as received from source)
+VT  2007 CORE             157 MDC                         591  592   Num  MDC in effect on discharge date
+VT  2007 CORE             158 MDC24                       593  594   Num  MDC, version 24
+VT  2007 CORE             159 MEDINCSTQ                   595  596   Num  Median household income state quartile for patient ZIP Code
+VT  2007 CORE             160 MRN_R                       597  605   Num  Medical record number (re-identified)
+VT  2007 CORE             161 NCPT                        606  608   Num  Number of CPT/HCPCS procedures on this record
+VT  2007 CORE             162 NDX                         609  610   Num  Number of diagnoses on this record
+VT  2007 CORE             163 NECODE                      611  612   Num  Number of E codes on this record
+VT  2007 CORE             164 NEOMAT                      613  614   Num  Neonatal and/or maternal DX and/or PR
+VT  2007 CORE             165 NPR                         615  616   Num  Number of procedures on this record
+VT  2007 CORE             166 PAY1                        617  618   Num  Primary expected payer (uniform)
+VT  2007 CORE             167 PAY1_X                      619  626   Char Primary expected payer (as received from source)
+VT  2007 CORE             168 PAY2                        627  628   Num  Secondary expected payer (uniform)
+VT  2007 CORE             169 PAY2_X                      629  636   Char Secondary expected payer (as received from source)
+VT  2007 CORE             170 PAY3_X                      637  644   Char Tertiary expected payer (as received from source)
+VT  2007 CORE             171 PAYER1_X                    645  660   Char Primary expected payer plan identifier (as received from source)
+VT  2007 CORE             172 PAYER2_X                    661  676   Char Secondary expected payer plan identifier (as received from source)
+VT  2007 CORE             173 PL_CBSA                     677  679   Num  Patient location: Core Based Statistical Area (CBSA)
+VT  2007 CORE             174 PL_MSA1993                  680  682   Num  Patient location: Metropolitan Statistical Area (MSA), 1993
+VT  2007 CORE             175 PL_NCHS2006                 683  684   Num  Patient Location: NCHS Urban-Rural Code (V2006)
+VT  2007 CORE             176 PL_RUCA10_2005              685  686   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, ten levels
+VT  2007 CORE             177 PL_RUCA2005                 687  690 1 Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes
+VT  2007 CORE             178 PL_RUCA4_2005               691  692   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, four levels
+VT  2007 CORE             179 PL_RUCC2003                 693  694   Num  Patient location: Rural-Urban Continuum Codes(RUCC), 2003
+VT  2007 CORE             180 PL_UIC2003                  695  696   Num  Patient location: Urban Influence Codes, 2003
+VT  2007 CORE             181 PL_UR_CAT4                  697  698   Num  Patient Location: Urban-Rural 4 Categories
+VT  2007 CORE             182 PR1                         699  702   Char Procedure 1
+VT  2007 CORE             183 PR2                         703  706   Char Procedure 2
+VT  2007 CORE             184 PR3                         707  710   Char Procedure 3
+VT  2007 CORE             185 PR4                         711  714   Char Procedure 4
+VT  2007 CORE             186 PR5                         715  718   Char Procedure 5
+VT  2007 CORE             187 PR6                         719  722   Char Procedure 6
+VT  2007 CORE             188 PR7                         723  726   Char Procedure 7
+VT  2007 CORE             189 PR8                         727  730   Char Procedure 8
+VT  2007 CORE             190 PR9                         731  734   Char Procedure 9
+VT  2007 CORE             191 PR10                        735  738   Char Procedure 10
+VT  2007 CORE             192 PR11                        739  742   Char Procedure 11
+VT  2007 CORE             193 PR12                        743  746   Char Procedure 12
+VT  2007 CORE             194 PR13                        747  750   Char Procedure 13
+VT  2007 CORE             195 PR14                        751  754   Char Procedure 14
+VT  2007 CORE             196 PR15                        755  758   Char Procedure 15
+VT  2007 CORE             197 PR16                        759  762   Char Procedure 16
+VT  2007 CORE             198 PR17                        763  766   Char Procedure 17
+VT  2007 CORE             199 PR18                        767  770   Char Procedure 18
+VT  2007 CORE             200 PR19                        771  774   Char Procedure 19
+VT  2007 CORE             201 PR20                        775  778   Char Procedure 20
+VT  2007 CORE             202 PRCCS1                      779  781   Num  CCS: procedure 1
+VT  2007 CORE             203 PRCCS2                      782  784   Num  CCS: procedure 2
+VT  2007 CORE             204 PRCCS3                      785  787   Num  CCS: procedure 3
+VT  2007 CORE             205 PRCCS4                      788  790   Num  CCS: procedure 4
+VT  2007 CORE             206 PRCCS5                      791  793   Num  CCS: procedure 5
+VT  2007 CORE             207 PRCCS6                      794  796   Num  CCS: procedure 6
+VT  2007 CORE             208 PRCCS7                      797  799   Num  CCS: procedure 7
+VT  2007 CORE             209 PRCCS8                      800  802   Num  CCS: procedure 8
+VT  2007 CORE             210 PRCCS9                      803  805   Num  CCS: procedure 9
+VT  2007 CORE             211 PRCCS10                     806  808   Num  CCS: procedure 10
+VT  2007 CORE             212 PRCCS11                     809  811   Num  CCS: procedure 11
+VT  2007 CORE             213 PRCCS12                     812  814   Num  CCS: procedure 12
+VT  2007 CORE             214 PRCCS13                     815  817   Num  CCS: procedure 13
+VT  2007 CORE             215 PRCCS14                     818  820   Num  CCS: procedure 14
+VT  2007 CORE             216 PRCCS15                     821  823   Num  CCS: procedure 15
+VT  2007 CORE             217 PRCCS16                     824  826   Num  CCS: procedure 16
+VT  2007 CORE             218 PRCCS17                     827  829   Num  CCS: procedure 17
+VT  2007 CORE             219 PRCCS18                     830  832   Num  CCS: procedure 18
+VT  2007 CORE             220 PRCCS19                     833  835   Num  CCS: procedure 19
+VT  2007 CORE             221 PRCCS20                     836  838   Num  CCS: procedure 20
+VT  2007 CORE             222 PRDAY1                      839  843   Num  Number of days from admission to PR1
+VT  2007 CORE             223 PRDAY2                      844  848   Num  Number of days from admission to PR2
+VT  2007 CORE             224 PRDAY3                      849  853   Num  Number of days from admission to PR3
+VT  2007 CORE             225 PRDAY4                      854  858   Num  Number of days from admission to PR4
+VT  2007 CORE             226 PRDAY5                      859  863   Num  Number of days from admission to PR5
+VT  2007 CORE             227 PRDAY6                      864  868   Num  Number of days from admission to PR6
+VT  2007 CORE             228 PRDAY7                      869  873   Num  Number of days from admission to PR7
+VT  2007 CORE             229 PRDAY8                      874  878   Num  Number of days from admission to PR8
+VT  2007 CORE             230 PRDAY9                      879  883   Num  Number of days from admission to PR9
+VT  2007 CORE             231 PRDAY10                     884  888   Num  Number of days from admission to PR10
+VT  2007 CORE             232 PRDAY11                     889  893   Num  Number of days from admission to PR11
+VT  2007 CORE             233 PRDAY12                     894  898   Num  Number of days from admission to PR12
+VT  2007 CORE             234 PRDAY13                     899  903   Num  Number of days from admission to PR13
+VT  2007 CORE             235 PRDAY14                     904  908   Num  Number of days from admission to PR14
+VT  2007 CORE             236 PRDAY15                     909  913   Num  Number of days from admission to PR15
+VT  2007 CORE             237 PRDAY16                     914  918   Num  Number of days from admission to PR16
+VT  2007 CORE             238 PRDAY17                     919  923   Num  Number of days from admission to PR17
+VT  2007 CORE             239 PRDAY18                     924  928   Num  Number of days from admission to PR18
+VT  2007 CORE             240 PRDAY19                     929  933   Num  Number of days from admission to PR19
+VT  2007 CORE             241 PRDAY20                     934  938   Num  Number of days from admission to PR20
+VT  2007 CORE             242 PROCTYPE                    939  941   Num  Procedure type indicator
+VT  2007 CORE             243 PSTATE                      942  943   Char Patient State postal code
+VT  2007 CORE             244 PSTCO                       944  948   Num  Patient state/county FIPS code
+VT  2007 CORE             245 PSTCO2                      949  953   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+VT  2007 CORE             246 PointOfOriginUB04           954  954   Char Point of origin for admission or visit, UB-04 standard coding
+VT  2007 CORE             247 PointOfOrigin_X             955  962   Char Point of origin for admission or visit, as received from source
+VT  2007 CORE             248 RACE                        963  964   Num  Race (uniform)
+VT  2007 CORE             249 RACE_X                      965  972   Char Race (as received from source)
+VT  2007 CORE             250 READMIT                     973  974   Num  Readmission
+VT  2007 CORE             251 TOTCHG                      975  984   Num  Total charges (cleaned)
+VT  2007 CORE             252 TOTCHG_X                    985  999 2 Num  Total charges (as received from source)
+VT  2007 CORE             253 YEAR                       1000 1003   Num  Calendar year
+VT  2007 CORE             254 ZIP3                       1004 1006   Char Patient ZIP Code, first 3 digits
+VT  2007 CORE             255 ZIPINC_QRTL                1007 1009   Num  Median household income national quartile for patient ZIP Code
+VT  2007 CORE             256 TOWN                       1010 1017   Char Patient town of residence (as received from source)
+VT  2007 CORE             257 ZIP                        1018 1022   Char Patient ZIP Code
+VT  2007 CORE             258 AYEAR                      1023 1026   Num  Admission year
+VT  2007 CORE             259 DMONTH                     1027 1028   Num  Discharge month
+VT  2007 CORE             260 BMONTH                     1029 1030   Num  Birth month
+VT  2007 CORE             261 BYEAR                      1031 1034   Num  Birth year
+VT  2007 CORE             262 PRMONTH1                   1035 1036   Num  Month of procedure 1
+VT  2007 CORE             263 PRMONTH2                   1037 1038   Num  Month of procedure 2
+VT  2007 CORE             264 PRMONTH3                   1039 1040   Num  Month of procedure 3
+VT  2007 CORE             265 PRMONTH4                   1041 1042   Num  Month of procedure 4
+VT  2007 CORE             266 PRMONTH5                   1043 1044   Num  Month of procedure 5
+VT  2007 CORE             267 PRMONTH6                   1045 1046   Num  Month of procedure 6
+VT  2007 CORE             268 PRMONTH7                   1047 1048   Num  Month of procedure 7
+VT  2007 CORE             269 PRMONTH8                   1049 1050   Num  Month of procedure 8
+VT  2007 CORE             270 PRMONTH9                   1051 1052   Num  Month of procedure 9
+VT  2007 CORE             271 PRMONTH10                  1053 1054   Num  Month of procedure 10
+VT  2007 CORE             272 PRMONTH11                  1055 1056   Num  Month of procedure 11
+VT  2007 CORE             273 PRMONTH12                  1057 1058   Num  Month of procedure 12
+VT  2007 CORE             274 PRMONTH13                  1059 1060   Num  Month of procedure 13
+VT  2007 CORE             275 PRMONTH14                  1061 1062   Num  Month of procedure 14
+VT  2007 CORE             276 PRMONTH15                  1063 1064   Num  Month of procedure 15
+VT  2007 CORE             277 PRMONTH16                  1065 1066   Num  Month of procedure 16
+VT  2007 CORE             278 PRMONTH17                  1067 1068   Num  Month of procedure 17
+VT  2007 CORE             279 PRMONTH18                  1069 1070   Num  Month of procedure 18
+VT  2007 CORE             280 PRMONTH19                  1071 1072   Num  Month of procedure 19
+VT  2007 CORE             281 PRMONTH20                  1073 1074   Num  Month of procedure 20
+VT  2007 CORE             282 PRYEAR1                    1075 1078   Num  Year of procedure 1
+VT  2007 CORE             283 PRYEAR2                    1079 1082   Num  Year of procedure 2
+VT  2007 CORE             284 PRYEAR3                    1083 1086   Num  Year of procedure 3
+VT  2007 CORE             285 PRYEAR4                    1087 1090   Num  Year of procedure 4
+VT  2007 CORE             286 PRYEAR5                    1091 1094   Num  Year of procedure 5
+VT  2007 CORE             287 PRYEAR6                    1095 1098   Num  Year of procedure 6
+VT  2007 CORE             288 PRYEAR7                    1099 1102   Num  Year of procedure 7
+VT  2007 CORE             289 PRYEAR8                    1103 1106   Num  Year of procedure 8
+VT  2007 CORE             290 PRYEAR9                    1107 1110   Num  Year of procedure 9
+VT  2007 CORE             291 PRYEAR10                   1111 1114   Num  Year of procedure 10
+VT  2007 CORE             292 PRYEAR11                   1115 1118   Num  Year of procedure 11
+VT  2007 CORE             293 PRYEAR12                   1119 1122   Num  Year of procedure 12
+VT  2007 CORE             294 PRYEAR13                   1123 1126   Num  Year of procedure 13
+VT  2007 CORE             295 PRYEAR14                   1127 1130   Num  Year of procedure 14
+VT  2007 CORE             296 PRYEAR15                   1131 1134   Num  Year of procedure 15
+VT  2007 CORE             297 PRYEAR16                   1135 1138   Num  Year of procedure 16
+VT  2007 CORE             298 PRYEAR17                   1139 1142   Num  Year of procedure 17
+VT  2007 CORE             299 PRYEAR18                   1143 1146   Num  Year of procedure 18
+VT  2007 CORE             300 PRYEAR19                   1147 1150   Num  Year of procedure 19
+VT  2007 CORE             301 PRYEAR20                   1151 1154   Num  Year of procedure 20

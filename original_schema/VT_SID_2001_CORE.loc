@@ -1,0 +1,211 @@
+Data Set Name: VT_SID_2001_CORE                
+Number of Observations: 60654
+Total Record Length: 768
+Total Number of Variables: 191
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 56    Variable name
+58- 61    Starting column of variable in ASCII file
+63- 66    Ending column of variable in ASCII file
+    68    Non-zero number of digits after decimal point for numeric variable
+70- 73    Variable type (Num=numeric; Char=character)
+75-174    Variable label
+
+
+VT  2001 CORE               1 KEY                           1   14   Num  HCUP record identifier
+VT  2001 CORE               2 AGE                          15   17   Num  Age in years at admission
+VT  2001 CORE               3 AGEDAY                       18   20   Num  Age in days (when age < 1 year)
+VT  2001 CORE               4 AGEMONTH                     21   23   Num  Age in months (when age < 11 years)
+VT  2001 CORE               5 AMONTH                       24   25   Num  Admission month
+VT  2001 CORE               6 ASOURCE                      26   27   Num  Admission source (uniform)
+VT  2001 CORE               7 ASOURCE_X                    28   28   Char Admission source (as received from source)
+VT  2001 CORE               8 ATYPE                        29   30   Num  Admission type
+VT  2001 CORE               9 AWEEKEND                     31   32   Num  Admission day is a weekend
+VT  2001 CORE              10 BWT                          33   36   Num  Birth weight in grams
+VT  2001 CORE              11 DIED                         37   38   Num  Died during hospitalization
+VT  2001 CORE              12 DISP_X                       39   40   Char Disposition of patient (as received from source)
+VT  2001 CORE              13 DISPUB92                     41   42   Num  Disposition of patient (UB-92 standard coding)
+VT  2001 CORE              14 DISPUNIFORM                  43   44   Num  Disposition of patient (uniform)
+VT  2001 CORE              15 DQTR                         45   46   Num  Discharge quarter
+VT  2001 CORE              16 DRG                          47   49   Num  DRG in effect on discharge date
+VT  2001 CORE              17 DRG18                        50   52   Num  DRG, version 18
+VT  2001 CORE              18 DRGVER                       53   54   Num  DRG grouper version used on discharge date
+VT  2001 CORE              19 DSHOSPID                     55   67   Char Data source hospital identifier
+VT  2001 CORE              20 DX1                          68   72   Char Principal diagnosis
+VT  2001 CORE              21 DX2                          73   77   Char Diagnosis 2
+VT  2001 CORE              22 DX3                          78   82   Char Diagnosis 3
+VT  2001 CORE              23 DX4                          83   87   Char Diagnosis 4
+VT  2001 CORE              24 DX5                          88   92   Char Diagnosis 5
+VT  2001 CORE              25 DX6                          93   97   Char Diagnosis 6
+VT  2001 CORE              26 DX7                          98  102   Char Diagnosis 7
+VT  2001 CORE              27 DX8                         103  107   Char Diagnosis 8
+VT  2001 CORE              28 DX9                         108  112   Char Diagnosis 9
+VT  2001 CORE              29 DX10                        113  117   Char Diagnosis 10
+VT  2001 CORE              30 DX11                        118  122   Char Diagnosis 11
+VT  2001 CORE              31 DX12                        123  127   Char Diagnosis 12
+VT  2001 CORE              32 DX13                        128  132   Char Diagnosis 13
+VT  2001 CORE              33 DX14                        133  137   Char Diagnosis 14
+VT  2001 CORE              34 DX15                        138  142   Char Diagnosis 15
+VT  2001 CORE              35 DX16                        143  147   Char Diagnosis 16
+VT  2001 CORE              36 DX17                        148  152   Char Diagnosis 17
+VT  2001 CORE              37 DX18                        153  157   Char Diagnosis 18
+VT  2001 CORE              38 DX19                        158  162   Char Diagnosis 19
+VT  2001 CORE              39 DX20                        163  167   Char Diagnosis 20
+VT  2001 CORE              40 DX21                        168  172   Char Diagnosis 21
+VT  2001 CORE              41 DXCCS1                      173  176   Num  CCS: principal diagnosis
+VT  2001 CORE              42 DXCCS2                      177  180   Num  CCS: diagnosis 2
+VT  2001 CORE              43 DXCCS3                      181  184   Num  CCS: diagnosis 3
+VT  2001 CORE              44 DXCCS4                      185  188   Num  CCS: diagnosis 4
+VT  2001 CORE              45 DXCCS5                      189  192   Num  CCS: diagnosis 5
+VT  2001 CORE              46 DXCCS6                      193  196   Num  CCS: diagnosis 6
+VT  2001 CORE              47 DXCCS7                      197  200   Num  CCS: diagnosis 7
+VT  2001 CORE              48 DXCCS8                      201  204   Num  CCS: diagnosis 8
+VT  2001 CORE              49 DXCCS9                      205  208   Num  CCS: diagnosis 9
+VT  2001 CORE              50 DXCCS10                     209  212   Num  CCS: diagnosis 10
+VT  2001 CORE              51 DXCCS11                     213  216   Num  CCS: diagnosis 11
+VT  2001 CORE              52 DXCCS12                     217  220   Num  CCS: diagnosis 12
+VT  2001 CORE              53 DXCCS13                     221  224   Num  CCS: diagnosis 13
+VT  2001 CORE              54 DXCCS14                     225  228   Num  CCS: diagnosis 14
+VT  2001 CORE              55 DXCCS15                     229  232   Num  CCS: diagnosis 15
+VT  2001 CORE              56 DXCCS16                     233  236   Num  CCS: diagnosis 16
+VT  2001 CORE              57 DXCCS17                     237  240   Num  CCS: diagnosis 17
+VT  2001 CORE              58 DXCCS18                     241  244   Num  CCS: diagnosis 18
+VT  2001 CORE              59 DXCCS19                     245  248   Num  CCS: diagnosis 19
+VT  2001 CORE              60 DXCCS20                     249  252   Num  CCS: diagnosis 20
+VT  2001 CORE              61 DXCCS21                     253  256   Num  CCS: diagnosis 21
+VT  2001 CORE              62 FEMALE                      257  258   Num  Indicator of sex
+VT  2001 CORE              63 HOSPST                      259  260   Char Hospital state postal code
+VT  2001 CORE              64 LOS                         261  265   Num  Length of stay (cleaned)
+VT  2001 CORE              65 LOS_X                       266  271   Num  Length of stay (as received from source)
+VT  2001 CORE              66 MDC                         272  273   Num  MDC in effect on discharge date
+VT  2001 CORE              67 MDC18                       274  275   Num  MDC, version 18
+VT  2001 CORE              68 NDX                         276  277   Num  Number of diagnoses on this record
+VT  2001 CORE              69 NEOMAT                      278  279   Num  Neonatal and/or maternal DX and/or PR
+VT  2001 CORE              70 NPR                         280  281   Num  Number of procedures on this record
+VT  2001 CORE              71 PAY1                        282  283   Num  Primary expected payer (uniform)
+VT  2001 CORE              72 PAY2                        284  285   Num  Secondary expected payer (uniform)
+VT  2001 CORE              73 PAY1_X                      286  293   Char Primary expected payer (as received from source)
+VT  2001 CORE              74 PAY2_X                      294  301   Char Secondary expected payer (as received from source)
+VT  2001 CORE              75 PAY3_X                      302  309   Char Tertiary expected payer (as received from source)
+VT  2001 CORE              76 PAYER1_X                    310  325   Char Primary expected payer plan identifier (as received from source)
+VT  2001 CORE              77 PAYER2_X                    326  341   Char Secondary expected payer plan identifier (as received from source)
+VT  2001 CORE              78 PR1                         342  345   Char Principal procedure
+VT  2001 CORE              79 PR2                         346  349   Char Procedure 2
+VT  2001 CORE              80 PR3                         350  353   Char Procedure 3
+VT  2001 CORE              81 PR4                         354  357   Char Procedure 4
+VT  2001 CORE              82 PR5                         358  361   Char Procedure 5
+VT  2001 CORE              83 PR6                         362  365   Char Procedure 6
+VT  2001 CORE              84 PR7                         366  369   Char Procedure 7
+VT  2001 CORE              85 PR8                         370  373   Char Procedure 8
+VT  2001 CORE              86 PR9                         374  377   Char Procedure 9
+VT  2001 CORE              87 PR10                        378  381   Char Procedure 10
+VT  2001 CORE              88 PR11                        382  385   Char Procedure 11
+VT  2001 CORE              89 PR12                        386  389   Char Procedure 12
+VT  2001 CORE              90 PR13                        390  393   Char Procedure 13
+VT  2001 CORE              91 PR14                        394  397   Char Procedure 14
+VT  2001 CORE              92 PR15                        398  401   Char Procedure 15
+VT  2001 CORE              93 PR16                        402  405   Char Procedure 16
+VT  2001 CORE              94 PR17                        406  409   Char Procedure 17
+VT  2001 CORE              95 PR18                        410  413   Char Procedure 18
+VT  2001 CORE              96 PR19                        414  417   Char Procedure 19
+VT  2001 CORE              97 PR20                        418  421   Char Procedure 20
+VT  2001 CORE              98 PRCCS1                      422  424   Num  CCS: principal procedure
+VT  2001 CORE              99 PRCCS2                      425  427   Num  CCS: procedure 2
+VT  2001 CORE             100 PRCCS3                      428  430   Num  CCS: procedure 3
+VT  2001 CORE             101 PRCCS4                      431  433   Num  CCS: procedure 4
+VT  2001 CORE             102 PRCCS5                      434  436   Num  CCS: procedure 5
+VT  2001 CORE             103 PRCCS6                      437  439   Num  CCS: procedure 6
+VT  2001 CORE             104 PRCCS7                      440  442   Num  CCS: procedure 7
+VT  2001 CORE             105 PRCCS8                      443  445   Num  CCS: procedure 8
+VT  2001 CORE             106 PRCCS9                      446  448   Num  CCS: procedure 9
+VT  2001 CORE             107 PRCCS10                     449  451   Num  CCS: procedure 10
+VT  2001 CORE             108 PRCCS11                     452  454   Num  CCS: procedure 11
+VT  2001 CORE             109 PRCCS12                     455  457   Num  CCS: procedure 12
+VT  2001 CORE             110 PRCCS13                     458  460   Num  CCS: procedure 13
+VT  2001 CORE             111 PRCCS14                     461  463   Num  CCS: procedure 14
+VT  2001 CORE             112 PRCCS15                     464  466   Num  CCS: procedure 15
+VT  2001 CORE             113 PRCCS16                     467  469   Num  CCS: procedure 16
+VT  2001 CORE             114 PRCCS17                     470  472   Num  CCS: procedure 17
+VT  2001 CORE             115 PRCCS18                     473  475   Num  CCS: procedure 18
+VT  2001 CORE             116 PRCCS19                     476  478   Num  CCS: procedure 19
+VT  2001 CORE             117 PRCCS20                     479  481   Num  CCS: procedure 20
+VT  2001 CORE             118 PRDAY1                      482  486   Num  Number of days from admission to PR1
+VT  2001 CORE             119 PRDAY2                      487  491   Num  Number of days from admission to PR2
+VT  2001 CORE             120 PRDAY3                      492  496   Num  Number of days from admission to PR3
+VT  2001 CORE             121 PRDAY4                      497  501   Num  Number of days from admission to PR4
+VT  2001 CORE             122 PRDAY5                      502  506   Num  Number of days from admission to PR5
+VT  2001 CORE             123 PRDAY6                      507  511   Num  Number of days from admission to PR6
+VT  2001 CORE             124 PRDAY7                      512  516   Num  Number of days from admission to PR7
+VT  2001 CORE             125 PRDAY8                      517  521   Num  Number of days from admission to PR8
+VT  2001 CORE             126 PRDAY9                      522  526   Num  Number of days from admission to PR9
+VT  2001 CORE             127 PRDAY10                     527  531   Num  Number of days from admission to PR10
+VT  2001 CORE             128 PRDAY11                     532  536   Num  Number of days from admission to PR11
+VT  2001 CORE             129 PRDAY12                     537  541   Num  Number of days from admission to PR12
+VT  2001 CORE             130 PRDAY13                     542  546   Num  Number of days from admission to PR13
+VT  2001 CORE             131 PRDAY14                     547  551   Num  Number of days from admission to PR14
+VT  2001 CORE             132 PRDAY15                     552  556   Num  Number of days from admission to PR15
+VT  2001 CORE             133 PRDAY16                     557  561   Num  Number of days from admission to PR16
+VT  2001 CORE             134 PRDAY17                     562  566   Num  Number of days from admission to PR17
+VT  2001 CORE             135 PRDAY18                     567  571   Num  Number of days from admission to PR18
+VT  2001 CORE             136 PRDAY19                     572  576   Num  Number of days from admission to PR19
+VT  2001 CORE             137 PRDAY20                     577  581   Num  Number of days from admission to PR20
+VT  2001 CORE             138 PSTCO                       582  586   Num  Patient state/county FIPS code
+VT  2001 CORE             139 RACE                        587  588   Num  Race (uniform)
+VT  2001 CORE             140 RACE_X                      589  589   Char Race (as received from source)
+VT  2001 CORE             141 READMIT                     590  591   Num  Readmission
+VT  2001 CORE             142 TOTCHG                      592  601   Num  Total charges (cleaned)
+VT  2001 CORE             143 TOTCHG_X                    602  616 2 Num  Total charges (as received from source)
+VT  2001 CORE             144 YEAR                        617  620   Num  Calendar year
+VT  2001 CORE             145 ZIP3                        621  623   Char Patient ZIP Code, first 3 digits
+VT  2001 CORE             146 TOWN                        624  631   Char Patient town of residence (as received from source)
+VT  2001 CORE             147 ZIP                         632  636   Char Patient ZIP Code
+VT  2001 CORE             148 AYEAR                       637  640   Num  Admission year
+VT  2001 CORE             149 DMONTH                      641  642   Num  Discharge month
+VT  2001 CORE             150 BMONTH                      643  644   Num  Birth month
+VT  2001 CORE             151 BYEAR                       645  648   Num  Birth year
+VT  2001 CORE             152 PRMONTH1                    649  650   Num  Month of procedure 1
+VT  2001 CORE             153 PRMONTH2                    651  652   Num  Month of procedure 2
+VT  2001 CORE             154 PRMONTH3                    653  654   Num  Month of procedure 3
+VT  2001 CORE             155 PRMONTH4                    655  656   Num  Month of procedure 4
+VT  2001 CORE             156 PRMONTH5                    657  658   Num  Month of procedure 5
+VT  2001 CORE             157 PRMONTH6                    659  660   Num  Month of procedure 6
+VT  2001 CORE             158 PRMONTH7                    661  662   Num  Month of procedure 7
+VT  2001 CORE             159 PRMONTH8                    663  664   Num  Month of procedure 8
+VT  2001 CORE             160 PRMONTH9                    665  666   Num  Month of procedure 9
+VT  2001 CORE             161 PRMONTH10                   667  668   Num  Month of procedure 10
+VT  2001 CORE             162 PRMONTH11                   669  670   Num  Month of procedure 11
+VT  2001 CORE             163 PRMONTH12                   671  672   Num  Month of procedure 12
+VT  2001 CORE             164 PRMONTH13                   673  674   Num  Month of procedure 13
+VT  2001 CORE             165 PRMONTH14                   675  676   Num  Month of procedure 14
+VT  2001 CORE             166 PRMONTH15                   677  678   Num  Month of procedure 15
+VT  2001 CORE             167 PRMONTH16                   679  680   Num  Month of procedure 16
+VT  2001 CORE             168 PRMONTH17                   681  682   Num  Month of procedure 17
+VT  2001 CORE             169 PRMONTH18                   683  684   Num  Month of procedure 18
+VT  2001 CORE             170 PRMONTH19                   685  686   Num  Month of procedure 19
+VT  2001 CORE             171 PRMONTH20                   687  688   Num  Month of procedure 20
+VT  2001 CORE             172 PRYEAR1                     689  692   Num  Year of procedure 1
+VT  2001 CORE             173 PRYEAR2                     693  696   Num  Year of procedure 2
+VT  2001 CORE             174 PRYEAR3                     697  700   Num  Year of procedure 3
+VT  2001 CORE             175 PRYEAR4                     701  704   Num  Year of procedure 4
+VT  2001 CORE             176 PRYEAR5                     705  708   Num  Year of procedure 5
+VT  2001 CORE             177 PRYEAR6                     709  712   Num  Year of procedure 6
+VT  2001 CORE             178 PRYEAR7                     713  716   Num  Year of procedure 7
+VT  2001 CORE             179 PRYEAR8                     717  720   Num  Year of procedure 8
+VT  2001 CORE             180 PRYEAR9                     721  724   Num  Year of procedure 9
+VT  2001 CORE             181 PRYEAR10                    725  728   Num  Year of procedure 10
+VT  2001 CORE             182 PRYEAR11                    729  732   Num  Year of procedure 11
+VT  2001 CORE             183 PRYEAR12                    733  736   Num  Year of procedure 12
+VT  2001 CORE             184 PRYEAR13                    737  740   Num  Year of procedure 13
+VT  2001 CORE             185 PRYEAR14                    741  744   Num  Year of procedure 14
+VT  2001 CORE             186 PRYEAR15                    745  748   Num  Year of procedure 15
+VT  2001 CORE             187 PRYEAR16                    749  752   Num  Year of procedure 16
+VT  2001 CORE             188 PRYEAR17                    753  756   Num  Year of procedure 17
+VT  2001 CORE             189 PRYEAR18                    757  760   Num  Year of procedure 18
+VT  2001 CORE             190 PRYEAR19                    761  764   Num  Year of procedure 19
+VT  2001 CORE             191 PRYEAR20                    765  768   Num  Year of procedure 20

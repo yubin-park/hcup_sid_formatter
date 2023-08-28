@@ -1,0 +1,596 @@
+Data Set Name: AR_SIDC_2019_CORE               
+Number of Observations: 411283
+Total Record Length: 2332
+Total Number of Variables: 575
+Creation Date: 08/19/2021   
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 61    Variable name
+63- 66    Starting column of variable in ASCII file
+68- 71    Ending column of variable in ASCII file
+73- 73    Non-zero number of digits after decimal point for numeric variable
+75- 78    Variable type (Num=numeric; Char=character)
+80-179    Variable label
+
+
+AR  2019 CORE               1 AGE                                1    3   Num  Age in years at admission
+AR  2019 CORE               2 AGEDAY                             4    6   Num  Age in days (when age < 1 year)
+AR  2019 CORE               3 AGEMONTH                           7    9   Num  Age in months (when age < 11 years)
+AR  2019 CORE               4 AHOUR                             10   13   Num  Admission Hour
+AR  2019 CORE               5 AMONTH                            14   15   Num  Admission month
+AR  2019 CORE               6 APGAR1                            16   17   Num  One-minute APGAR score
+AR  2019 CORE               7 APGAR5                            18   19   Num  Five-minute APGAR score
+AR  2019 CORE               8 ATYPE                             20   21   Num  Admission type
+AR  2019 CORE               9 AWEEKEND                          22   23   Num  Admission day is a weekend
+AR  2019 CORE              10 BILLTYPE                          24   27   Char Type of bill, UB-04 coding
+AR  2019 CORE              11 BWT                               28   31   Num  Birth weight in grams
+AR  2019 CORE              12 CPT1                              32   36   Char CPT/HCPCS procedure code 1
+AR  2019 CORE              13 CPT2                              37   41   Char CPT/HCPCS procedure code 2
+AR  2019 CORE              14 CPT3                              42   46   Char CPT/HCPCS procedure code 3
+AR  2019 CORE              15 CPT4                              47   51   Char CPT/HCPCS procedure code 4
+AR  2019 CORE              16 CPT5                              52   56   Char CPT/HCPCS procedure code 5
+AR  2019 CORE              17 CPT6                              57   61   Char CPT/HCPCS procedure code 6
+AR  2019 CORE              18 CPT7                              62   66   Char CPT/HCPCS procedure code 7
+AR  2019 CORE              19 CPT8                              67   71   Char CPT/HCPCS procedure code 8
+AR  2019 CORE              20 CPT9                              72   76   Char CPT/HCPCS procedure code 9
+AR  2019 CORE              21 CPT10                             77   81   Char CPT/HCPCS procedure code 10
+AR  2019 CORE              22 CPT11                             82   86   Char CPT/HCPCS procedure code 11
+AR  2019 CORE              23 CPT12                             87   91   Char CPT/HCPCS procedure code 12
+AR  2019 CORE              24 CPT13                             92   96   Char CPT/HCPCS procedure code 13
+AR  2019 CORE              25 CPT14                             97  101   Char CPT/HCPCS procedure code 14
+AR  2019 CORE              26 CPT15                            102  106   Char CPT/HCPCS procedure code 15
+AR  2019 CORE              27 CPT16                            107  111   Char CPT/HCPCS procedure code 16
+AR  2019 CORE              28 CPT17                            112  116   Char CPT/HCPCS procedure code 17
+AR  2019 CORE              29 CPT18                            117  121   Char CPT/HCPCS procedure code 18
+AR  2019 CORE              30 CPT19                            122  126   Char CPT/HCPCS procedure code 19
+AR  2019 CORE              31 CPT20                            127  131   Char CPT/HCPCS procedure code 20
+AR  2019 CORE              32 CPT21                            132  136   Char CPT/HCPCS procedure code 21
+AR  2019 CORE              33 CPT22                            137  141   Char CPT/HCPCS procedure code 22
+AR  2019 CORE              34 CPT23                            142  146   Char CPT/HCPCS procedure code 23
+AR  2019 CORE              35 CPT24                            147  151   Char CPT/HCPCS procedure code 24
+AR  2019 CORE              36 CPT25                            152  156   Char CPT/HCPCS procedure code 25
+AR  2019 CORE              37 CPT26                            157  161   Char CPT/HCPCS procedure code 26
+AR  2019 CORE              38 CPT27                            162  166   Char CPT/HCPCS procedure code 27
+AR  2019 CORE              39 CPT28                            167  171   Char CPT/HCPCS procedure code 28
+AR  2019 CORE              40 CPT29                            172  176   Char CPT/HCPCS procedure code 29
+AR  2019 CORE              41 CPT30                            177  181   Char CPT/HCPCS procedure code 30
+AR  2019 CORE              42 CPT31                            182  186   Char CPT/HCPCS procedure code 31
+AR  2019 CORE              43 CPT32                            187  191   Char CPT/HCPCS procedure code 32
+AR  2019 CORE              44 CPT33                            192  196   Char CPT/HCPCS procedure code 33
+AR  2019 CORE              45 CPT34                            197  201   Char CPT/HCPCS procedure code 34
+AR  2019 CORE              46 CPT35                            202  206   Char CPT/HCPCS procedure code 35
+AR  2019 CORE              47 CPT36                            207  211   Char CPT/HCPCS procedure code 36
+AR  2019 CORE              48 CPT37                            212  216   Char CPT/HCPCS procedure code 37
+AR  2019 CORE              49 CPT38                            217  221   Char CPT/HCPCS procedure code 38
+AR  2019 CORE              50 CPT39                            222  226   Char CPT/HCPCS procedure code 39
+AR  2019 CORE              51 CPT40                            227  231   Char CPT/HCPCS procedure code 40
+AR  2019 CORE              52 CPT41                            232  236   Char CPT/HCPCS procedure code 41
+AR  2019 CORE              53 CPT42                            237  241   Char CPT/HCPCS procedure code 42
+AR  2019 CORE              54 CPT43                            242  246   Char CPT/HCPCS procedure code 43
+AR  2019 CORE              55 CPT44                            247  251   Char CPT/HCPCS procedure code 44
+AR  2019 CORE              56 CPT45                            252  256   Char CPT/HCPCS procedure code 45
+AR  2019 CORE              57 CPT46                            257  261   Char CPT/HCPCS procedure code 46
+AR  2019 CORE              58 CPT47                            262  266   Char CPT/HCPCS procedure code 47
+AR  2019 CORE              59 CPT48                            267  271   Char CPT/HCPCS procedure code 48
+AR  2019 CORE              60 CPT49                            272  276   Char CPT/HCPCS procedure code 49
+AR  2019 CORE              61 CPT50                            277  281   Char CPT/HCPCS procedure code 50
+AR  2019 CORE              62 CPT51                            282  286   Char CPT/HCPCS procedure code 51
+AR  2019 CORE              63 CPT52                            287  291   Char CPT/HCPCS procedure code 52
+AR  2019 CORE              64 CPT53                            292  296   Char CPT/HCPCS procedure code 53
+AR  2019 CORE              65 CPT54                            297  301   Char CPT/HCPCS procedure code 54
+AR  2019 CORE              66 CPT55                            302  306   Char CPT/HCPCS procedure code 55
+AR  2019 CORE              67 CPT56                            307  311   Char CPT/HCPCS procedure code 56
+AR  2019 CORE              68 CPT57                            312  316   Char CPT/HCPCS procedure code 57
+AR  2019 CORE              69 CPT58                            317  321   Char CPT/HCPCS procedure code 58
+AR  2019 CORE              70 CPT59                            322  326   Char CPT/HCPCS procedure code 59
+AR  2019 CORE              71 CPT60                            327  331   Char CPT/HCPCS procedure code 60
+AR  2019 CORE              72 CPT61                            332  336   Char CPT/HCPCS procedure code 61
+AR  2019 CORE              73 CPT62                            337  341   Char CPT/HCPCS procedure code 62
+AR  2019 CORE              74 CPT63                            342  346   Char CPT/HCPCS procedure code 63
+AR  2019 CORE              75 CPT64                            347  351   Char CPT/HCPCS procedure code 64
+AR  2019 CORE              76 CPT65                            352  356   Char CPT/HCPCS procedure code 65
+AR  2019 CORE              77 CPT66                            357  361   Char CPT/HCPCS procedure code 66
+AR  2019 CORE              78 CPT67                            362  366   Char CPT/HCPCS procedure code 67
+AR  2019 CORE              79 CPT68                            367  371   Char CPT/HCPCS procedure code 68
+AR  2019 CORE              80 CPT69                            372  376   Char CPT/HCPCS procedure code 69
+AR  2019 CORE              81 CPT70                            377  381   Char CPT/HCPCS procedure code 70
+AR  2019 CORE              82 CPT71                            382  386   Char CPT/HCPCS procedure code 71
+AR  2019 CORE              83 CPT72                            387  391   Char CPT/HCPCS procedure code 72
+AR  2019 CORE              84 CPT73                            392  396   Char CPT/HCPCS procedure code 73
+AR  2019 CORE              85 CPT74                            397  401   Char CPT/HCPCS procedure code 74
+AR  2019 CORE              86 CPT75                            402  406   Char CPT/HCPCS procedure code 75
+AR  2019 CORE              87 CPT76                            407  411   Char CPT/HCPCS procedure code 76
+AR  2019 CORE              88 CPT77                            412  416   Char CPT/HCPCS procedure code 77
+AR  2019 CORE              89 CPT78                            417  421   Char CPT/HCPCS procedure code 78
+AR  2019 CORE              90 CPT79                            422  426   Char CPT/HCPCS procedure code 79
+AR  2019 CORE              91 CPT80                            427  431   Char CPT/HCPCS procedure code 80
+AR  2019 CORE              92 CPT81                            432  436   Char CPT/HCPCS procedure code 81
+AR  2019 CORE              93 CPT82                            437  441   Char CPT/HCPCS procedure code 82
+AR  2019 CORE              94 CPT83                            442  446   Char CPT/HCPCS procedure code 83
+AR  2019 CORE              95 CPT84                            447  451   Char CPT/HCPCS procedure code 84
+AR  2019 CORE              96 CPT85                            452  456   Char CPT/HCPCS procedure code 85
+AR  2019 CORE              97 CPT86                            457  461   Char CPT/HCPCS procedure code 86
+AR  2019 CORE              98 CPT87                            462  466   Char CPT/HCPCS procedure code 87
+AR  2019 CORE              99 CPT88                            467  471   Char CPT/HCPCS procedure code 88
+AR  2019 CORE             100 CPT89                            472  476   Char CPT/HCPCS procedure code 89
+AR  2019 CORE             101 CPT90                            477  481   Char CPT/HCPCS procedure code 90
+AR  2019 CORE             102 CPT91                            482  486   Char CPT/HCPCS procedure code 91
+AR  2019 CORE             103 CPT92                            487  491   Char CPT/HCPCS procedure code 92
+AR  2019 CORE             104 CPT93                            492  496   Char CPT/HCPCS procedure code 93
+AR  2019 CORE             105 CPT94                            497  501   Char CPT/HCPCS procedure code 94
+AR  2019 CORE             106 CPT95                            502  506   Char CPT/HCPCS procedure code 95
+AR  2019 CORE             107 CPT96                            507  511   Char CPT/HCPCS procedure code 96
+AR  2019 CORE             108 CPT97                            512  516   Char CPT/HCPCS procedure code 97
+AR  2019 CORE             109 CPT98                            517  521   Char CPT/HCPCS procedure code 98
+AR  2019 CORE             110 CPT99                            522  526   Char CPT/HCPCS procedure code 99
+AR  2019 CORE             111 CPT100                           527  531   Char CPT/HCPCS procedure code 100
+AR  2019 CORE             112 CPT101                           532  536   Char CPT/HCPCS procedure code 101
+AR  2019 CORE             113 CPT102                           537  541   Char CPT/HCPCS procedure code 102
+AR  2019 CORE             114 CPT103                           542  546   Char CPT/HCPCS procedure code 103
+AR  2019 CORE             115 CPT104                           547  551   Char CPT/HCPCS procedure code 104
+AR  2019 CORE             116 CPT105                           552  556   Char CPT/HCPCS procedure code 105
+AR  2019 CORE             117 CPT106                           557  561   Char CPT/HCPCS procedure code 106
+AR  2019 CORE             118 CPT107                           562  566   Char CPT/HCPCS procedure code 107
+AR  2019 CORE             119 CPT108                           567  571   Char CPT/HCPCS procedure code 108
+AR  2019 CORE             120 CPT109                           572  576   Char CPT/HCPCS procedure code 109
+AR  2019 CORE             121 CPT110                           577  581   Char CPT/HCPCS procedure code 110
+AR  2019 CORE             122 CPT111                           582  586   Char CPT/HCPCS procedure code 111
+AR  2019 CORE             123 CPT112                           587  591   Char CPT/HCPCS procedure code 112
+AR  2019 CORE             124 CPT113                           592  596   Char CPT/HCPCS procedure code 113
+AR  2019 CORE             125 CPT114                           597  601   Char CPT/HCPCS procedure code 114
+AR  2019 CORE             126 CPT115                           602  606   Char CPT/HCPCS procedure code 115
+AR  2019 CORE             127 CPT116                           607  611   Char CPT/HCPCS procedure code 116
+AR  2019 CORE             128 CPT117                           612  616   Char CPT/HCPCS procedure code 117
+AR  2019 CORE             129 CPT118                           617  621   Char CPT/HCPCS procedure code 118
+AR  2019 CORE             130 CPT119                           622  626   Char CPT/HCPCS procedure code 119
+AR  2019 CORE             131 CPT120                           627  631   Char CPT/HCPCS procedure code 120
+AR  2019 CORE             132 CPT121                           632  636   Char CPT/HCPCS procedure code 121
+AR  2019 CORE             133 CPT122                           637  641   Char CPT/HCPCS procedure code 122
+AR  2019 CORE             134 CPT123                           642  646   Char CPT/HCPCS procedure code 123
+AR  2019 CORE             135 CPT124                           647  651   Char CPT/HCPCS procedure code 124
+AR  2019 CORE             136 CPT125                           652  656   Char CPT/HCPCS procedure code 125
+AR  2019 CORE             137 CPT126                           657  661   Char CPT/HCPCS procedure code 126
+AR  2019 CORE             138 CPT127                           662  666   Char CPT/HCPCS procedure code 127
+AR  2019 CORE             139 CPT128                           667  671   Char CPT/HCPCS procedure code 128
+AR  2019 CORE             140 CPT129                           672  676   Char CPT/HCPCS procedure code 129
+AR  2019 CORE             141 CPT130                           677  681   Char CPT/HCPCS procedure code 130
+AR  2019 CORE             142 CPT131                           682  686   Char CPT/HCPCS procedure code 131
+AR  2019 CORE             143 CPT132                           687  691   Char CPT/HCPCS procedure code 132
+AR  2019 CORE             144 CPT133                           692  696   Char CPT/HCPCS procedure code 133
+AR  2019 CORE             145 CPT134                           697  701   Char CPT/HCPCS procedure code 134
+AR  2019 CORE             146 CPT135                           702  706   Char CPT/HCPCS procedure code 135
+AR  2019 CORE             147 CPT136                           707  711   Char CPT/HCPCS procedure code 136
+AR  2019 CORE             148 CPT137                           712  716   Char CPT/HCPCS procedure code 137
+AR  2019 CORE             149 CPT138                           717  721   Char CPT/HCPCS procedure code 138
+AR  2019 CORE             150 CPT139                           722  726   Char CPT/HCPCS procedure code 139
+AR  2019 CORE             151 CPT140                           727  731   Char CPT/HCPCS procedure code 140
+AR  2019 CORE             152 CPT141                           732  736   Char CPT/HCPCS procedure code 141
+AR  2019 CORE             153 CPT142                           737  741   Char CPT/HCPCS procedure code 142
+AR  2019 CORE             154 CPT143                           742  746   Char CPT/HCPCS procedure code 143
+AR  2019 CORE             155 CPT144                           747  751   Char CPT/HCPCS procedure code 144
+AR  2019 CORE             156 CPT145                           752  756   Char CPT/HCPCS procedure code 145
+AR  2019 CORE             157 CPT146                           757  761   Char CPT/HCPCS procedure code 146
+AR  2019 CORE             158 CPT147                           762  766   Char CPT/HCPCS procedure code 147
+AR  2019 CORE             159 CPT148                           767  771   Char CPT/HCPCS procedure code 148
+AR  2019 CORE             160 CPT149                           772  776   Char CPT/HCPCS procedure code 149
+AR  2019 CORE             161 CPT150                           777  781   Char CPT/HCPCS procedure code 150
+AR  2019 CORE             162 CPT151                           782  786   Char CPT/HCPCS procedure code 151
+AR  2019 CORE             163 CPT152                           787  791   Char CPT/HCPCS procedure code 152
+AR  2019 CORE             164 CPT153                           792  796   Char CPT/HCPCS procedure code 153
+AR  2019 CORE             165 CPT154                           797  801   Char CPT/HCPCS procedure code 154
+AR  2019 CORE             166 CPT155                           802  806   Char CPT/HCPCS procedure code 155
+AR  2019 CORE             167 CPT156                           807  811   Char CPT/HCPCS procedure code 156
+AR  2019 CORE             168 CPT157                           812  816   Char CPT/HCPCS procedure code 157
+AR  2019 CORE             169 CPT158                           817  821   Char CPT/HCPCS procedure code 158
+AR  2019 CORE             170 CPT159                           822  826   Char CPT/HCPCS procedure code 159
+AR  2019 CORE             171 CPT160                           827  831   Char CPT/HCPCS procedure code 160
+AR  2019 CORE             172 CPT161                           832  836   Char CPT/HCPCS procedure code 161
+AR  2019 CORE             173 CPT162                           837  841   Char CPT/HCPCS procedure code 162
+AR  2019 CORE             174 CPT163                           842  846   Char CPT/HCPCS procedure code 163
+AR  2019 CORE             175 CPT164                           847  851   Char CPT/HCPCS procedure code 164
+AR  2019 CORE             176 CPT165                           852  856   Char CPT/HCPCS procedure code 165
+AR  2019 CORE             177 CPT166                           857  861   Char CPT/HCPCS procedure code 166
+AR  2019 CORE             178 CPTCCS1                          862  864   Num  CCS: CPT 1
+AR  2019 CORE             179 CPTCCS2                          865  867   Num  CCS: CPT 2
+AR  2019 CORE             180 CPTCCS3                          868  870   Num  CCS: CPT 3
+AR  2019 CORE             181 CPTCCS4                          871  873   Num  CCS: CPT 4
+AR  2019 CORE             182 CPTCCS5                          874  876   Num  CCS: CPT 5
+AR  2019 CORE             183 CPTCCS6                          877  879   Num  CCS: CPT 6
+AR  2019 CORE             184 CPTCCS7                          880  882   Num  CCS: CPT 7
+AR  2019 CORE             185 CPTCCS8                          883  885   Num  CCS: CPT 8
+AR  2019 CORE             186 CPTCCS9                          886  888   Num  CCS: CPT 9
+AR  2019 CORE             187 CPTCCS10                         889  891   Num  CCS: CPT 10
+AR  2019 CORE             188 CPTCCS11                         892  894   Num  CCS: CPT 11
+AR  2019 CORE             189 CPTCCS12                         895  897   Num  CCS: CPT 12
+AR  2019 CORE             190 CPTCCS13                         898  900   Num  CCS: CPT 13
+AR  2019 CORE             191 CPTCCS14                         901  903   Num  CCS: CPT 14
+AR  2019 CORE             192 CPTCCS15                         904  906   Num  CCS: CPT 15
+AR  2019 CORE             193 CPTCCS16                         907  909   Num  CCS: CPT 16
+AR  2019 CORE             194 CPTCCS17                         910  912   Num  CCS: CPT 17
+AR  2019 CORE             195 CPTCCS18                         913  915   Num  CCS: CPT 18
+AR  2019 CORE             196 CPTCCS19                         916  918   Num  CCS: CPT 19
+AR  2019 CORE             197 CPTCCS20                         919  921   Num  CCS: CPT 20
+AR  2019 CORE             198 CPTCCS21                         922  924   Num  CCS: CPT 21
+AR  2019 CORE             199 CPTCCS22                         925  927   Num  CCS: CPT 22
+AR  2019 CORE             200 CPTCCS23                         928  930   Num  CCS: CPT 23
+AR  2019 CORE             201 CPTCCS24                         931  933   Num  CCS: CPT 24
+AR  2019 CORE             202 CPTCCS25                         934  936   Num  CCS: CPT 25
+AR  2019 CORE             203 CPTCCS26                         937  939   Num  CCS: CPT 26
+AR  2019 CORE             204 CPTCCS27                         940  942   Num  CCS: CPT 27
+AR  2019 CORE             205 CPTCCS28                         943  945   Num  CCS: CPT 28
+AR  2019 CORE             206 CPTCCS29                         946  948   Num  CCS: CPT 29
+AR  2019 CORE             207 CPTCCS30                         949  951   Num  CCS: CPT 30
+AR  2019 CORE             208 CPTCCS31                         952  954   Num  CCS: CPT 31
+AR  2019 CORE             209 CPTCCS32                         955  957   Num  CCS: CPT 32
+AR  2019 CORE             210 CPTCCS33                         958  960   Num  CCS: CPT 33
+AR  2019 CORE             211 CPTCCS34                         961  963   Num  CCS: CPT 34
+AR  2019 CORE             212 CPTCCS35                         964  966   Num  CCS: CPT 35
+AR  2019 CORE             213 CPTCCS36                         967  969   Num  CCS: CPT 36
+AR  2019 CORE             214 CPTCCS37                         970  972   Num  CCS: CPT 37
+AR  2019 CORE             215 CPTCCS38                         973  975   Num  CCS: CPT 38
+AR  2019 CORE             216 CPTCCS39                         976  978   Num  CCS: CPT 39
+AR  2019 CORE             217 CPTCCS40                         979  981   Num  CCS: CPT 40
+AR  2019 CORE             218 CPTCCS41                         982  984   Num  CCS: CPT 41
+AR  2019 CORE             219 CPTCCS42                         985  987   Num  CCS: CPT 42
+AR  2019 CORE             220 CPTCCS43                         988  990   Num  CCS: CPT 43
+AR  2019 CORE             221 CPTCCS44                         991  993   Num  CCS: CPT 44
+AR  2019 CORE             222 CPTCCS45                         994  996   Num  CCS: CPT 45
+AR  2019 CORE             223 CPTCCS46                         997  999   Num  CCS: CPT 46
+AR  2019 CORE             224 CPTCCS47                        1000 1002   Num  CCS: CPT 47
+AR  2019 CORE             225 CPTCCS48                        1003 1005   Num  CCS: CPT 48
+AR  2019 CORE             226 CPTCCS49                        1006 1008   Num  CCS: CPT 49
+AR  2019 CORE             227 CPTCCS50                        1009 1011   Num  CCS: CPT 50
+AR  2019 CORE             228 CPTCCS51                        1012 1014   Num  CCS: CPT 51
+AR  2019 CORE             229 CPTCCS52                        1015 1017   Num  CCS: CPT 52
+AR  2019 CORE             230 CPTCCS53                        1018 1020   Num  CCS: CPT 53
+AR  2019 CORE             231 CPTCCS54                        1021 1023   Num  CCS: CPT 54
+AR  2019 CORE             232 CPTCCS55                        1024 1026   Num  CCS: CPT 55
+AR  2019 CORE             233 CPTCCS56                        1027 1029   Num  CCS: CPT 56
+AR  2019 CORE             234 CPTCCS57                        1030 1032   Num  CCS: CPT 57
+AR  2019 CORE             235 CPTCCS58                        1033 1035   Num  CCS: CPT 58
+AR  2019 CORE             236 CPTCCS59                        1036 1038   Num  CCS: CPT 59
+AR  2019 CORE             237 CPTCCS60                        1039 1041   Num  CCS: CPT 60
+AR  2019 CORE             238 CPTCCS61                        1042 1044   Num  CCS: CPT 61
+AR  2019 CORE             239 CPTCCS62                        1045 1047   Num  CCS: CPT 62
+AR  2019 CORE             240 CPTCCS63                        1048 1050   Num  CCS: CPT 63
+AR  2019 CORE             241 CPTCCS64                        1051 1053   Num  CCS: CPT 64
+AR  2019 CORE             242 CPTCCS65                        1054 1056   Num  CCS: CPT 65
+AR  2019 CORE             243 CPTCCS66                        1057 1059   Num  CCS: CPT 66
+AR  2019 CORE             244 CPTCCS67                        1060 1062   Num  CCS: CPT 67
+AR  2019 CORE             245 CPTCCS68                        1063 1065   Num  CCS: CPT 68
+AR  2019 CORE             246 CPTCCS69                        1066 1068   Num  CCS: CPT 69
+AR  2019 CORE             247 CPTCCS70                        1069 1071   Num  CCS: CPT 70
+AR  2019 CORE             248 CPTCCS71                        1072 1074   Num  CCS: CPT 71
+AR  2019 CORE             249 CPTCCS72                        1075 1077   Num  CCS: CPT 72
+AR  2019 CORE             250 CPTCCS73                        1078 1080   Num  CCS: CPT 73
+AR  2019 CORE             251 CPTCCS74                        1081 1083   Num  CCS: CPT 74
+AR  2019 CORE             252 CPTCCS75                        1084 1086   Num  CCS: CPT 75
+AR  2019 CORE             253 CPTCCS76                        1087 1089   Num  CCS: CPT 76
+AR  2019 CORE             254 CPTCCS77                        1090 1092   Num  CCS: CPT 77
+AR  2019 CORE             255 CPTCCS78                        1093 1095   Num  CCS: CPT 78
+AR  2019 CORE             256 CPTCCS79                        1096 1098   Num  CCS: CPT 79
+AR  2019 CORE             257 CPTCCS80                        1099 1101   Num  CCS: CPT 80
+AR  2019 CORE             258 CPTCCS81                        1102 1104   Num  CCS: CPT 81
+AR  2019 CORE             259 CPTCCS82                        1105 1107   Num  CCS: CPT 82
+AR  2019 CORE             260 CPTCCS83                        1108 1110   Num  CCS: CPT 83
+AR  2019 CORE             261 CPTCCS84                        1111 1113   Num  CCS: CPT 84
+AR  2019 CORE             262 CPTCCS85                        1114 1116   Num  CCS: CPT 85
+AR  2019 CORE             263 CPTCCS86                        1117 1119   Num  CCS: CPT 86
+AR  2019 CORE             264 CPTCCS87                        1120 1122   Num  CCS: CPT 87
+AR  2019 CORE             265 CPTCCS88                        1123 1125   Num  CCS: CPT 88
+AR  2019 CORE             266 CPTCCS89                        1126 1128   Num  CCS: CPT 89
+AR  2019 CORE             267 CPTCCS90                        1129 1131   Num  CCS: CPT 90
+AR  2019 CORE             268 CPTCCS91                        1132 1134   Num  CCS: CPT 91
+AR  2019 CORE             269 CPTCCS92                        1135 1137   Num  CCS: CPT 92
+AR  2019 CORE             270 CPTCCS93                        1138 1140   Num  CCS: CPT 93
+AR  2019 CORE             271 CPTCCS94                        1141 1143   Num  CCS: CPT 94
+AR  2019 CORE             272 CPTCCS95                        1144 1146   Num  CCS: CPT 95
+AR  2019 CORE             273 CPTCCS96                        1147 1149   Num  CCS: CPT 96
+AR  2019 CORE             274 CPTCCS97                        1150 1152   Num  CCS: CPT 97
+AR  2019 CORE             275 CPTCCS98                        1153 1155   Num  CCS: CPT 98
+AR  2019 CORE             276 CPTCCS99                        1156 1158   Num  CCS: CPT 99
+AR  2019 CORE             277 CPTCCS100                       1159 1161   Num  CCS: CPT 100
+AR  2019 CORE             278 CPTCCS101                       1162 1164   Num  CCS: CPT 101
+AR  2019 CORE             279 CPTCCS102                       1165 1167   Num  CCS: CPT 102
+AR  2019 CORE             280 CPTCCS103                       1168 1170   Num  CCS: CPT 103
+AR  2019 CORE             281 CPTCCS104                       1171 1173   Num  CCS: CPT 104
+AR  2019 CORE             282 CPTCCS105                       1174 1176   Num  CCS: CPT 105
+AR  2019 CORE             283 CPTCCS106                       1177 1179   Num  CCS: CPT 106
+AR  2019 CORE             284 CPTCCS107                       1180 1182   Num  CCS: CPT 107
+AR  2019 CORE             285 CPTCCS108                       1183 1185   Num  CCS: CPT 108
+AR  2019 CORE             286 CPTCCS109                       1186 1188   Num  CCS: CPT 109
+AR  2019 CORE             287 CPTCCS110                       1189 1191   Num  CCS: CPT 110
+AR  2019 CORE             288 CPTCCS111                       1192 1194   Num  CCS: CPT 111
+AR  2019 CORE             289 CPTCCS112                       1195 1197   Num  CCS: CPT 112
+AR  2019 CORE             290 CPTCCS113                       1198 1200   Num  CCS: CPT 113
+AR  2019 CORE             291 CPTCCS114                       1201 1203   Num  CCS: CPT 114
+AR  2019 CORE             292 CPTCCS115                       1204 1206   Num  CCS: CPT 115
+AR  2019 CORE             293 CPTCCS116                       1207 1209   Num  CCS: CPT 116
+AR  2019 CORE             294 CPTCCS117                       1210 1212   Num  CCS: CPT 117
+AR  2019 CORE             295 CPTCCS118                       1213 1215   Num  CCS: CPT 118
+AR  2019 CORE             296 CPTCCS119                       1216 1218   Num  CCS: CPT 119
+AR  2019 CORE             297 CPTCCS120                       1219 1221   Num  CCS: CPT 120
+AR  2019 CORE             298 CPTCCS121                       1222 1224   Num  CCS: CPT 121
+AR  2019 CORE             299 CPTCCS122                       1225 1227   Num  CCS: CPT 122
+AR  2019 CORE             300 CPTCCS123                       1228 1230   Num  CCS: CPT 123
+AR  2019 CORE             301 CPTCCS124                       1231 1233   Num  CCS: CPT 124
+AR  2019 CORE             302 CPTCCS125                       1234 1236   Num  CCS: CPT 125
+AR  2019 CORE             303 CPTCCS126                       1237 1239   Num  CCS: CPT 126
+AR  2019 CORE             304 CPTCCS127                       1240 1242   Num  CCS: CPT 127
+AR  2019 CORE             305 CPTCCS128                       1243 1245   Num  CCS: CPT 128
+AR  2019 CORE             306 CPTCCS129                       1246 1248   Num  CCS: CPT 129
+AR  2019 CORE             307 CPTCCS130                       1249 1251   Num  CCS: CPT 130
+AR  2019 CORE             308 CPTCCS131                       1252 1254   Num  CCS: CPT 131
+AR  2019 CORE             309 CPTCCS132                       1255 1257   Num  CCS: CPT 132
+AR  2019 CORE             310 CPTCCS133                       1258 1260   Num  CCS: CPT 133
+AR  2019 CORE             311 CPTCCS134                       1261 1263   Num  CCS: CPT 134
+AR  2019 CORE             312 CPTCCS135                       1264 1266   Num  CCS: CPT 135
+AR  2019 CORE             313 CPTCCS136                       1267 1269   Num  CCS: CPT 136
+AR  2019 CORE             314 CPTCCS137                       1270 1272   Num  CCS: CPT 137
+AR  2019 CORE             315 CPTCCS138                       1273 1275   Num  CCS: CPT 138
+AR  2019 CORE             316 CPTCCS139                       1276 1278   Num  CCS: CPT 139
+AR  2019 CORE             317 CPTCCS140                       1279 1281   Num  CCS: CPT 140
+AR  2019 CORE             318 CPTCCS141                       1282 1284   Num  CCS: CPT 141
+AR  2019 CORE             319 CPTCCS142                       1285 1287   Num  CCS: CPT 142
+AR  2019 CORE             320 CPTCCS143                       1288 1290   Num  CCS: CPT 143
+AR  2019 CORE             321 CPTCCS144                       1291 1293   Num  CCS: CPT 144
+AR  2019 CORE             322 CPTCCS145                       1294 1296   Num  CCS: CPT 145
+AR  2019 CORE             323 CPTCCS146                       1297 1299   Num  CCS: CPT 146
+AR  2019 CORE             324 CPTCCS147                       1300 1302   Num  CCS: CPT 147
+AR  2019 CORE             325 CPTCCS148                       1303 1305   Num  CCS: CPT 148
+AR  2019 CORE             326 CPTCCS149                       1306 1308   Num  CCS: CPT 149
+AR  2019 CORE             327 CPTCCS150                       1309 1311   Num  CCS: CPT 150
+AR  2019 CORE             328 CPTCCS151                       1312 1314   Num  CCS: CPT 151
+AR  2019 CORE             329 CPTCCS152                       1315 1317   Num  CCS: CPT 152
+AR  2019 CORE             330 CPTCCS153                       1318 1320   Num  CCS: CPT 153
+AR  2019 CORE             331 CPTCCS154                       1321 1323   Num  CCS: CPT 154
+AR  2019 CORE             332 CPTCCS155                       1324 1326   Num  CCS: CPT 155
+AR  2019 CORE             333 CPTCCS156                       1327 1329   Num  CCS: CPT 156
+AR  2019 CORE             334 CPTCCS157                       1330 1332   Num  CCS: CPT 157
+AR  2019 CORE             335 CPTCCS158                       1333 1335   Num  CCS: CPT 158
+AR  2019 CORE             336 CPTCCS159                       1336 1338   Num  CCS: CPT 159
+AR  2019 CORE             337 CPTCCS160                       1339 1341   Num  CCS: CPT 160
+AR  2019 CORE             338 CPTCCS161                       1342 1344   Num  CCS: CPT 161
+AR  2019 CORE             339 CPTCCS162                       1345 1347   Num  CCS: CPT 162
+AR  2019 CORE             340 CPTCCS163                       1348 1350   Num  CCS: CPT 163
+AR  2019 CORE             341 CPTCCS164                       1351 1353   Num  CCS: CPT 164
+AR  2019 CORE             342 CPTCCS165                       1354 1356   Num  CCS: CPT 165
+AR  2019 CORE             343 CPTCCS166                       1357 1359   Num  CCS: CPT 166
+AR  2019 CORE             344 DaysToEvent                     1360 1365   Num  Days from 'start date' to admission
+AR  2019 CORE             345 DHOUR                           1366 1369   Num  Discharge Hour
+AR  2019 CORE             346 DIED                            1370 1371   Num  Died during hospitalization
+AR  2019 CORE             347 DISP_X                          1372 1373   Char Disposition of patient (as received from source)
+AR  2019 CORE             348 DISPUB04                        1374 1375   Num  Disposition of patient (UB-04 standard coding)
+AR  2019 CORE             349 DISPUNIFORM                     1376 1377   Num  Disposition of patient (uniform)
+AR  2019 CORE             350 DMONTH                          1378 1379   Num  Discharge month
+AR  2019 CORE             351 DNR                             1380 1381   Num  Do not resuscitate indicator
+AR  2019 CORE             352 DQTR                            1382 1383   Num  Discharge quarter
+AR  2019 CORE             353 DRG                             1384 1386   Num  DRG in effect on discharge date
+AR  2019 CORE             354 DRG_NoPOA                       1387 1389   Num  DRG in use on discharge date, calculated without POA
+AR  2019 CORE             355 DRGVER                          1390 1391   Num  DRG grouper version used on discharge date
+AR  2019 CORE             356 DSHOSPID                        1392 1408   Char Data source hospital identifier
+AR  2019 CORE             357 DXPOA1                          1409 1409   Char Diagnosis 1, present on admission indicator
+AR  2019 CORE             358 DXPOA2                          1410 1410   Char Diagnosis 2, present on admission indicator
+AR  2019 CORE             359 DXPOA3                          1411 1411   Char Diagnosis 3, present on admission indicator
+AR  2019 CORE             360 DXPOA4                          1412 1412   Char Diagnosis 4, present on admission indicator
+AR  2019 CORE             361 DXPOA5                          1413 1413   Char Diagnosis 5, present on admission indicator
+AR  2019 CORE             362 DXPOA6                          1414 1414   Char Diagnosis 6, present on admission indicator
+AR  2019 CORE             363 DXPOA7                          1415 1415   Char Diagnosis 7, present on admission indicator
+AR  2019 CORE             364 DXPOA8                          1416 1416   Char Diagnosis 8, present on admission indicator
+AR  2019 CORE             365 DXPOA9                          1417 1417   Char Diagnosis 9, present on admission indicator
+AR  2019 CORE             366 DXPOA10                         1418 1418   Char Diagnosis 10, present on admission indicator
+AR  2019 CORE             367 DXPOA11                         1419 1419   Char Diagnosis 11, present on admission indicator
+AR  2019 CORE             368 DXPOA12                         1420 1420   Char Diagnosis 12, present on admission indicator
+AR  2019 CORE             369 DXPOA13                         1421 1421   Char Diagnosis 13, present on admission indicator
+AR  2019 CORE             370 DXPOA14                         1422 1422   Char Diagnosis 14, present on admission indicator
+AR  2019 CORE             371 DXPOA15                         1423 1423   Char Diagnosis 15, present on admission indicator
+AR  2019 CORE             372 DXPOA16                         1424 1424   Char Diagnosis 16, present on admission indicator
+AR  2019 CORE             373 DXPOA17                         1425 1425   Char Diagnosis 17, present on admission indicator
+AR  2019 CORE             374 DXPOA18                         1426 1426   Char Diagnosis 18, present on admission indicator
+AR  2019 CORE             375 DXPOA19                         1427 1427   Char Diagnosis 19, present on admission indicator
+AR  2019 CORE             376 DXPOA20                         1428 1428   Char Diagnosis 20, present on admission indicator
+AR  2019 CORE             377 DXPOA21                         1429 1429   Char Diagnosis 21, present on admission indicator
+AR  2019 CORE             378 DXPOA22                         1430 1430   Char Diagnosis 22, present on admission indicator
+AR  2019 CORE             379 DXPOA23                         1431 1431   Char Diagnosis 23, present on admission indicator
+AR  2019 CORE             380 DXPOA24                         1432 1432   Char Diagnosis 24, present on admission indicator
+AR  2019 CORE             381 DXPOA25                         1433 1433   Char Diagnosis 25, present on admission indicator
+AR  2019 CORE             382 DXPOA26                         1434 1434   Char Diagnosis 26, present on admission indicator
+AR  2019 CORE             383 DXPOA27                         1435 1435   Char Diagnosis 27, present on admission indicator
+AR  2019 CORE             384 DXPOA28                         1436 1436   Char Diagnosis 28, present on admission indicator
+AR  2019 CORE             385 DXPOA29                         1437 1437   Char Diagnosis 29, present on admission indicator
+AR  2019 CORE             386 DXPOA30                         1438 1438   Char Diagnosis 30, present on admission indicator
+AR  2019 CORE             387 FEMALE                          1439 1440   Num  Indicator of sex
+AR  2019 CORE             388 HCUP_ED                         1441 1442   Num  HCUP Emergency Department service indicator
+AR  2019 CORE             389 HCUP_OS                         1443 1444   Num  HCUP Observation Stay service indicator
+AR  2019 CORE             390 HISPANIC                        1445 1446   Num  Hispanic ethnicity (uniform)
+AR  2019 CORE             391 HISPANIC_X                      1447 1447   Char Hispanic ethnicity (as received from source)
+AR  2019 CORE             392 HOSPST                          1448 1449   Char Hospital state postal code
+AR  2019 CORE             393 I10_BIRTH                       1450 1452   Num  ICD-10-CM Birth Indicator
+AR  2019 CORE             394 I10_DELIVERY                    1453 1455   Num  ICD-10-CM Delivery Indicator
+AR  2019 CORE             395 I10_DX_Admitting                1456 1462   Char ICD-10-CM Admitting Diagnosis Code
+AR  2019 CORE             396 I10_DX1                         1463 1469   Char ICD-10-CM Diagnosis 1
+AR  2019 CORE             397 I10_DX2                         1470 1476   Char ICD-10-CM Diagnosis 2
+AR  2019 CORE             398 I10_DX3                         1477 1483   Char ICD-10-CM Diagnosis 3
+AR  2019 CORE             399 I10_DX4                         1484 1490   Char ICD-10-CM Diagnosis 4
+AR  2019 CORE             400 I10_DX5                         1491 1497   Char ICD-10-CM Diagnosis 5
+AR  2019 CORE             401 I10_DX6                         1498 1504   Char ICD-10-CM Diagnosis 6
+AR  2019 CORE             402 I10_DX7                         1505 1511   Char ICD-10-CM Diagnosis 7
+AR  2019 CORE             403 I10_DX8                         1512 1518   Char ICD-10-CM Diagnosis 8
+AR  2019 CORE             404 I10_DX9                         1519 1525   Char ICD-10-CM Diagnosis 9
+AR  2019 CORE             405 I10_DX10                        1526 1532   Char ICD-10-CM Diagnosis 10
+AR  2019 CORE             406 I10_DX11                        1533 1539   Char ICD-10-CM Diagnosis 11
+AR  2019 CORE             407 I10_DX12                        1540 1546   Char ICD-10-CM Diagnosis 12
+AR  2019 CORE             408 I10_DX13                        1547 1553   Char ICD-10-CM Diagnosis 13
+AR  2019 CORE             409 I10_DX14                        1554 1560   Char ICD-10-CM Diagnosis 14
+AR  2019 CORE             410 I10_DX15                        1561 1567   Char ICD-10-CM Diagnosis 15
+AR  2019 CORE             411 I10_DX16                        1568 1574   Char ICD-10-CM Diagnosis 16
+AR  2019 CORE             412 I10_DX17                        1575 1581   Char ICD-10-CM Diagnosis 17
+AR  2019 CORE             413 I10_DX18                        1582 1588   Char ICD-10-CM Diagnosis 18
+AR  2019 CORE             414 I10_DX19                        1589 1595   Char ICD-10-CM Diagnosis 19
+AR  2019 CORE             415 I10_DX20                        1596 1602   Char ICD-10-CM Diagnosis 20
+AR  2019 CORE             416 I10_DX21                        1603 1609   Char ICD-10-CM Diagnosis 21
+AR  2019 CORE             417 I10_DX22                        1610 1616   Char ICD-10-CM Diagnosis 22
+AR  2019 CORE             418 I10_DX23                        1617 1623   Char ICD-10-CM Diagnosis 23
+AR  2019 CORE             419 I10_DX24                        1624 1630   Char ICD-10-CM Diagnosis 24
+AR  2019 CORE             420 I10_DX25                        1631 1637   Char ICD-10-CM Diagnosis 25
+AR  2019 CORE             421 I10_DX26                        1638 1644   Char ICD-10-CM Diagnosis 26
+AR  2019 CORE             422 I10_DX27                        1645 1651   Char ICD-10-CM Diagnosis 27
+AR  2019 CORE             423 I10_DX28                        1652 1658   Char ICD-10-CM Diagnosis 28
+AR  2019 CORE             424 I10_DX29                        1659 1665   Char ICD-10-CM Diagnosis 29
+AR  2019 CORE             425 I10_DX30                        1666 1672   Char ICD-10-CM Diagnosis 30
+AR  2019 CORE             426 I10_DX31                        1673 1679   Char ICD-10-CM Diagnosis 31
+AR  2019 CORE             427 I10_DX32                        1680 1686   Char ICD-10-CM Diagnosis 32
+AR  2019 CORE             428 I10_DX33                        1687 1693   Char ICD-10-CM Diagnosis 33
+AR  2019 CORE             429 I10_DX34                        1694 1700   Char ICD-10-CM Diagnosis 34
+AR  2019 CORE             430 I10_DX35                        1701 1707   Char ICD-10-CM Diagnosis 35
+AR  2019 CORE             431 I10_DX36                        1708 1714   Char ICD-10-CM Diagnosis 36
+AR  2019 CORE             432 I10_DX37                        1715 1721   Char ICD-10-CM Diagnosis 37
+AR  2019 CORE             433 I10_DX38                        1722 1728   Char ICD-10-CM Diagnosis 38
+AR  2019 CORE             434 I10_NDX                         1729 1731   Num  ICD-10-CM Number of diagnoses on this record
+AR  2019 CORE             435 I10_NPR                         1732 1734   Num  ICD-10-PCS Number of procedures on this record
+AR  2019 CORE             436 I10_ORPROC                      1735 1736   Num  ICD-10-PCS Major operating room procedure indicator
+AR  2019 CORE             437 I10_PR1                         1737 1743   Char ICD-10-PCS Procedure 1
+AR  2019 CORE             438 I10_PR2                         1744 1750   Char ICD-10-PCS Procedure 2
+AR  2019 CORE             439 I10_PR3                         1751 1757   Char ICD-10-PCS Procedure 3
+AR  2019 CORE             440 I10_PR4                         1758 1764   Char ICD-10-PCS Procedure 4
+AR  2019 CORE             441 I10_PR5                         1765 1771   Char ICD-10-PCS Procedure 5
+AR  2019 CORE             442 I10_PR6                         1772 1778   Char ICD-10-PCS Procedure 6
+AR  2019 CORE             443 I10_PR7                         1779 1785   Char ICD-10-PCS Procedure 7
+AR  2019 CORE             444 I10_PR8                         1786 1792   Char ICD-10-PCS Procedure 8
+AR  2019 CORE             445 I10_PR9                         1793 1799   Char ICD-10-PCS Procedure 9
+AR  2019 CORE             446 I10_PR10                        1800 1806   Char ICD-10-PCS Procedure 10
+AR  2019 CORE             447 I10_PR11                        1807 1813   Char ICD-10-PCS Procedure 11
+AR  2019 CORE             448 I10_PR12                        1814 1820   Char ICD-10-PCS Procedure 12
+AR  2019 CORE             449 I10_PR13                        1821 1827   Char ICD-10-PCS Procedure 13
+AR  2019 CORE             450 I10_PR14                        1828 1834   Char ICD-10-PCS Procedure 14
+AR  2019 CORE             451 I10_PR15                        1835 1841   Char ICD-10-PCS Procedure 15
+AR  2019 CORE             452 I10_PR16                        1842 1848   Char ICD-10-PCS Procedure 16
+AR  2019 CORE             453 I10_PR17                        1849 1855   Char ICD-10-PCS Procedure 17
+AR  2019 CORE             454 I10_PR18                        1856 1862   Char ICD-10-PCS Procedure 18
+AR  2019 CORE             455 I10_PR19                        1863 1869   Char ICD-10-PCS Procedure 19
+AR  2019 CORE             456 I10_PR20                        1870 1876   Char ICD-10-PCS Procedure 20
+AR  2019 CORE             457 I10_PR21                        1877 1883   Char ICD-10-PCS Procedure 21
+AR  2019 CORE             458 I10_PROCTYPE                    1884 1886   Num  ICD-10-PCS Procedure type indicator
+AR  2019 CORE             459 I10_SERVICELINE                 1887 1888   Num  ICD-10-CM/PCS Hospital Service Line
+AR  2019 CORE             460 KEY                             1889 1903   Num  HCUP record identifier
+AR  2019 CORE             461 LOS                             1904 1908   Num  Length of stay (cleaned)
+AR  2019 CORE             462 LOS_X                           1909 1914   Num  Length of stay (as received from source)
+AR  2019 CORE             463 MARITALSTATUS_X                 1915 1915   Char Patient's marital status (as received from source)
+AR  2019 CORE             464 MARITALSTATUSUB04               1916 1916   Char Patient's marital status, UB-04 standard coding
+AR  2019 CORE             465 MDC                             1917 1918   Num  MDC in effect on discharge date
+AR  2019 CORE             466 MDC_NoPOA                       1919 1920   Num  MDC in use on discharge date, calculated without POA
+AR  2019 CORE             467 MDNUM1_R                        1921 1929   Num  Physician 1 number (re-identified)
+AR  2019 CORE             468 MDNUM2_R                        1930 1938   Num  Physician 2 number (re-identified)
+AR  2019 CORE             469 MDNUM3_R                        1939 1947   Num  Physician 3 number (re-identified)
+AR  2019 CORE             470 MDNUM4_R                        1948 1956   Num  Physician 4 number (re-identified)
+AR  2019 CORE             471 MEDINCSTQ                       1957 1958   Num  Median household income state quartile for patient ZIP Code
+AR  2019 CORE             472 MRN_R                           1959 1967   Num  Medical record number (re-identified)
+AR  2019 CORE             473 NCPT                            1968 1971   Num  Number of CPT/HCPCS procedures for this visit
+AR  2019 CORE             474 OS_TIME                         1972 1982 2 Num  Observation stay time summed from UNITS
+AR  2019 CORE             475 P7EDSRC_X                       1983 1984   Char Condition Code P7, Direct Inpatient Admission from Emergency Room
+AR  2019 CORE             476 PAY1                            1985 1986   Num  Primary expected payer (uniform)
+AR  2019 CORE             477 PAY1_X                          1987 1987   Char Primary expected payer (as received from source)
+AR  2019 CORE             478 PAY2                            1988 1989   Num  Secondary expected payer (uniform)
+AR  2019 CORE             479 PAY2_X                          1990 1990   Char Secondary expected payer (as received from source)
+AR  2019 CORE             480 PAY3                            1991 1992   Num  Tertiary expected payer (uniform)
+AR  2019 CORE             481 PAY3_X                          1993 1993   Char Tertiary expected payer (as received from source)
+AR  2019 CORE             482 PL_CBSA                         1994 1996   Num  Patient location: Core Based Statistical Area (CBSA)
+AR  2019 CORE             483 PL_NCHS                         1997 1998   Num  Patient Location: NCHS Urban-Rural Code
+AR  2019 CORE             484 PL_RUCC                         1999 2000   Num  Patient location: Rural-Urban Continuum Codes (RUCC)
+AR  2019 CORE             485 PL_UIC                          2001 2002   Num  Patient location: Urban Influence Codes
+AR  2019 CORE             486 PL_UR_CAT4                      2003 2004   Num  Patient Location: Urban-Rural 4 Categories
+AR  2019 CORE             487 POA_Disch_Edit1                 2005 2006   Num  Discharge has POA missing on all nonexempt diagnoses
+AR  2019 CORE             488 POA_Disch_Edit2                 2007 2008   Num  Discharge has POA missing on all nonexempt secondary diagnoses
+AR  2019 CORE             489 POA_Hosp_Edit1                  2009 2010   Num  Hospital reported POA as Y on all diagnoses on all discharges
+AR  2019 CORE             490 POA_Hosp_Edit2                  2011 2012   Num  Hospital reported POA as missing on all non-Medicare discharges
+AR  2019 CORE             491 POA_Hosp_Edit3                  2013 2014   Num  Hospital reported POA as missing on all nonexempt diagnoses for 15% or more of discharges
+AR  2019 CORE             492 POA_Hosp_Edit3_Value            2015 2022 2 Num  Percentage of discharges with all nonexempt diagnoses missing POA indicators
+AR  2019 CORE             493 PointOfOrigin_X                 2023 2023   Char Point of origin for admission or visit, as received from source
+AR  2019 CORE             494 PointOfOriginUB04               2024 2024   Char Point of origin for admission or visit, UB-04 standard coding
+AR  2019 CORE             495 PRDAY1                          2025 2029   Num  Number of days from admission to I10_PR1
+AR  2019 CORE             496 PRDAY2                          2030 2034   Num  Number of days from admission to I10_PR2
+AR  2019 CORE             497 PRDAY3                          2035 2039   Num  Number of days from admission to I10_PR3
+AR  2019 CORE             498 PRDAY4                          2040 2044   Num  Number of days from admission to I10_PR4
+AR  2019 CORE             499 PRDAY5                          2045 2049   Num  Number of days from admission to I10_PR5
+AR  2019 CORE             500 PRDAY6                          2050 2054   Num  Number of days from admission to I10_PR6
+AR  2019 CORE             501 PRDAY7                          2055 2059   Num  Number of days from admission to I10_PR7
+AR  2019 CORE             502 PRDAY8                          2060 2064   Num  Number of days from admission to I10_PR8
+AR  2019 CORE             503 PRDAY9                          2065 2069   Num  Number of days from admission to I10_PR9
+AR  2019 CORE             504 PRDAY10                         2070 2074   Num  Number of days from admission to I10_PR10
+AR  2019 CORE             505 PRDAY11                         2075 2079   Num  Number of days from admission to I10_PR11
+AR  2019 CORE             506 PRDAY12                         2080 2084   Num  Number of days from admission to I10_PR12
+AR  2019 CORE             507 PRDAY13                         2085 2089   Num  Number of days from admission to I10_PR13
+AR  2019 CORE             508 PRDAY14                         2090 2094   Num  Number of days from admission to I10_PR14
+AR  2019 CORE             509 PRDAY15                         2095 2099   Num  Number of days from admission to I10_PR15
+AR  2019 CORE             510 PRDAY16                         2100 2104   Num  Number of days from admission to I10_PR16
+AR  2019 CORE             511 PRDAY17                         2105 2109   Num  Number of days from admission to I10_PR17
+AR  2019 CORE             512 PRDAY18                         2110 2114   Num  Number of days from admission to I10_PR18
+AR  2019 CORE             513 PRDAY19                         2115 2119   Num  Number of days from admission to I10_PR19
+AR  2019 CORE             514 PRDAY20                         2120 2124   Num  Number of days from admission to I10_PR20
+AR  2019 CORE             515 PRDAY21                         2125 2129   Num  Number of days from admission to I10_PR21
+AR  2019 CORE             516 PSTATE                          2130 2131   Char Patient State postal code
+AR  2019 CORE             517 PSTATE_GEO                      2132 2133   Char Patient State postal code assigned from ZIP Code
+AR  2019 CORE             518 PSTCO                           2134 2138   Num  Patient state/county FIPS code
+AR  2019 CORE             519 PSTCO_GEO                       2139 2143   Num  Counties assigned based on ZIP Code geographic centroids
+AR  2019 CORE             520 RACE                            2144 2145   Num  Race (uniform)
+AR  2019 CORE             521 RACE_EDIT                       2146 2147   Num  Race Edit Checks
+AR  2019 CORE             522 RACE_X                          2148 2148   Char Race (as received from source)
+AR  2019 CORE             523 TOTCHG                          2149 2158   Num  Total charges (cleaned)
+AR  2019 CORE             524 TOTCHG_X                        2159 2173 2 Num  Total charges (as received from source)
+AR  2019 CORE             525 TRAN_IN                         2174 2175   Num  Transfer in indicator
+AR  2019 CORE             526 TRAN_OUT                        2176 2177   Num  Transfer out indicator
+AR  2019 CORE             527 VisitLink                       2178 2186   Num  Visit linkage variable
+AR  2019 CORE             528 YEAR                            2187 2190   Num  Calendar year
+AR  2019 CORE             529 ZIP3                            2191 2193   Char Patient ZIP Code, first 3 digits
+AR  2019 CORE             530 ZIPINC_QRTL                     2194 2196   Num  Median household income national quartile for patient ZIP Code
+AR  2019 CORE             531 AYEAR                           2197 2200   Num  Admission year
+AR  2019 CORE             532 BMONTH                          2201 2202   Num  Birth month
+AR  2019 CORE             533 BYEAR                           2203 2206   Num  Birth year
+AR  2019 CORE             534 PRMONTH1                        2207 2208   Num  Month of procedure 1
+AR  2019 CORE             535 PRMONTH2                        2209 2210   Num  Month of procedure 2
+AR  2019 CORE             536 PRMONTH3                        2211 2212   Num  Month of procedure 3
+AR  2019 CORE             537 PRMONTH4                        2213 2214   Num  Month of procedure 4
+AR  2019 CORE             538 PRMONTH5                        2215 2216   Num  Month of procedure 5
+AR  2019 CORE             539 PRMONTH6                        2217 2218   Num  Month of procedure 6
+AR  2019 CORE             540 PRMONTH7                        2219 2220   Num  Month of procedure 7
+AR  2019 CORE             541 PRMONTH8                        2221 2222   Num  Month of procedure 8
+AR  2019 CORE             542 PRMONTH9                        2223 2224   Num  Month of procedure 9
+AR  2019 CORE             543 PRMONTH10                       2225 2226   Num  Month of procedure 10
+AR  2019 CORE             544 PRMONTH11                       2227 2228   Num  Month of procedure 11
+AR  2019 CORE             545 PRMONTH12                       2229 2230   Num  Month of procedure 12
+AR  2019 CORE             546 PRMONTH13                       2231 2232   Num  Month of procedure 13
+AR  2019 CORE             547 PRMONTH14                       2233 2234   Num  Month of procedure 14
+AR  2019 CORE             548 PRMONTH15                       2235 2236   Num  Month of procedure 15
+AR  2019 CORE             549 PRMONTH16                       2237 2238   Num  Month of procedure 16
+AR  2019 CORE             550 PRMONTH17                       2239 2240   Num  Month of procedure 17
+AR  2019 CORE             551 PRMONTH18                       2241 2242   Num  Month of procedure 18
+AR  2019 CORE             552 PRMONTH19                       2243 2244   Num  Month of procedure 19
+AR  2019 CORE             553 PRMONTH20                       2245 2246   Num  Month of procedure 20
+AR  2019 CORE             554 PRMONTH21                       2247 2248   Num  Month of procedure 21
+AR  2019 CORE             555 PRYEAR1                         2249 2252   Num  Year of procedure 1
+AR  2019 CORE             556 PRYEAR2                         2253 2256   Num  Year of procedure 2
+AR  2019 CORE             557 PRYEAR3                         2257 2260   Num  Year of procedure 3
+AR  2019 CORE             558 PRYEAR4                         2261 2264   Num  Year of procedure 4
+AR  2019 CORE             559 PRYEAR5                         2265 2268   Num  Year of procedure 5
+AR  2019 CORE             560 PRYEAR6                         2269 2272   Num  Year of procedure 6
+AR  2019 CORE             561 PRYEAR7                         2273 2276   Num  Year of procedure 7
+AR  2019 CORE             562 PRYEAR8                         2277 2280   Num  Year of procedure 8
+AR  2019 CORE             563 PRYEAR9                         2281 2284   Num  Year of procedure 9
+AR  2019 CORE             564 PRYEAR10                        2285 2288   Num  Year of procedure 10
+AR  2019 CORE             565 PRYEAR11                        2289 2292   Num  Year of procedure 11
+AR  2019 CORE             566 PRYEAR12                        2293 2296   Num  Year of procedure 12
+AR  2019 CORE             567 PRYEAR13                        2297 2300   Num  Year of procedure 13
+AR  2019 CORE             568 PRYEAR14                        2301 2304   Num  Year of procedure 14
+AR  2019 CORE             569 PRYEAR15                        2305 2308   Num  Year of procedure 15
+AR  2019 CORE             570 PRYEAR16                        2309 2312   Num  Year of procedure 16
+AR  2019 CORE             571 PRYEAR17                        2313 2316   Num  Year of procedure 17
+AR  2019 CORE             572 PRYEAR18                        2317 2320   Num  Year of procedure 18
+AR  2019 CORE             573 PRYEAR19                        2321 2324   Num  Year of procedure 19
+AR  2019 CORE             574 PRYEAR20                        2325 2328   Num  Year of procedure 20
+AR  2019 CORE             575 PRYEAR21                        2329 2332   Num  Year of procedure 21

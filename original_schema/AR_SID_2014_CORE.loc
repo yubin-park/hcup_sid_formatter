@@ -1,0 +1,247 @@
+Data Set Name: AR_SIDC_2014_CORE               
+Number of Observations: 393002
+Total Record Length: 875
+Total Number of Variables: 226
+Creation Date: 10/05/2016   
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 61    Variable name
+63- 66    Starting column of variable in ASCII file
+68- 71    Ending column of variable in ASCII file
+    73    Non-zero number of digits after decimal point for numeric variable
+75- 78    Variable type (Num=numeric; Char=character)
+80-179    Variable label
+
+
+AR  2014 CORE               1 AGE                                1    3   Num  Age in years at admission
+AR  2014 CORE               2 AGEDAY                             4    6   Num  Age in days (when age < 1 year)
+AR  2014 CORE               3 AGEMONTH                           7    9   Num  Age in months (when age < 11 years)
+AR  2014 CORE               4 AHOUR                             10   13   Num  Admission Hour
+AR  2014 CORE               5 AMONTH                            14   15   Num  Admission month
+AR  2014 CORE               6 APGAR1                            16   17   Num  One-minute APGAR score
+AR  2014 CORE               7 APGAR5                            18   19   Num  Five-minute APGAR score
+AR  2014 CORE               8 ATYPE                             20   21   Num  Admission type
+AR  2014 CORE               9 AWEEKEND                          22   23   Num  Admission day is a weekend
+AR  2014 CORE              10 BILLTYPE                          24   27   Char Type of bill, UB-04 coding
+AR  2014 CORE              11 BWT                               28   31   Num  Birth weight in grams
+AR  2014 CORE              12 CPT1                              32   36   Char CPT/HCPCS procedure code 1
+AR  2014 CORE              13 CPT2                              37   41   Char CPT/HCPCS procedure code 2
+AR  2014 CORE              14 CPT3                              42   46   Char CPT/HCPCS procedure code 3
+AR  2014 CORE              15 CPTCCS1                           47   49   Num  CCS: CPT 1
+AR  2014 CORE              16 CPTCCS2                           50   52   Num  CCS: CPT 2
+AR  2014 CORE              17 CPTCCS3                           53   55   Num  CCS: CPT 3
+AR  2014 CORE              18 DHOUR                             56   59   Num  Discharge Hour
+AR  2014 CORE              19 DIED                              60   61   Num  Died during hospitalization
+AR  2014 CORE              20 DISPUB04                          62   63   Num  Disposition of patient (UB-04 standard coding)
+AR  2014 CORE              21 DISPUNIFORM                       64   65   Num  Disposition of patient (uniform)
+AR  2014 CORE              22 DISP_X                            66   67   Char Disposition of patient (as received from source)
+AR  2014 CORE              23 DMONTH                            68   69   Num  Discharge month
+AR  2014 CORE              24 DNR                               70   71   Num  Do not resuscitate indicator
+AR  2014 CORE              25 DQTR                              72   73   Num  Discharge quarter
+AR  2014 CORE              26 DRG                               74   76   Num  DRG in effect on discharge date
+AR  2014 CORE              27 DRG24                             77   79   Num  DRG, version 24
+AR  2014 CORE              28 DRGVER                            80   81   Num  DRG grouper version used on discharge date
+AR  2014 CORE              29 DRG_NoPOA                         82   84   Num  DRG in use on discharge date, calculated without POA
+AR  2014 CORE              30 DSHOSPID                          85  101   Char Data source hospital identifier
+AR  2014 CORE              31 DX1                              102  108   Char Diagnosis 1
+AR  2014 CORE              32 DX2                              109  115   Char Diagnosis 2
+AR  2014 CORE              33 DX3                              116  122   Char Diagnosis 3
+AR  2014 CORE              34 DX4                              123  129   Char Diagnosis 4
+AR  2014 CORE              35 DX5                              130  136   Char Diagnosis 5
+AR  2014 CORE              36 DX6                              137  143   Char Diagnosis 6
+AR  2014 CORE              37 DX7                              144  150   Char Diagnosis 7
+AR  2014 CORE              38 DX8                              151  157   Char Diagnosis 8
+AR  2014 CORE              39 DX9                              158  164   Char Diagnosis 9
+AR  2014 CORE              40 DX10                             165  171   Char Diagnosis 10
+AR  2014 CORE              41 DX11                             172  178   Char Diagnosis 11
+AR  2014 CORE              42 DX12                             179  185   Char Diagnosis 12
+AR  2014 CORE              43 DX13                             186  192   Char Diagnosis 13
+AR  2014 CORE              44 DX14                             193  199   Char Diagnosis 14
+AR  2014 CORE              45 DX15                             200  206   Char Diagnosis 15
+AR  2014 CORE              46 DX16                             207  213   Char Diagnosis 16
+AR  2014 CORE              47 DX17                             214  220   Char Diagnosis 17
+AR  2014 CORE              48 DX18                             221  227   Char Diagnosis 18
+AR  2014 CORE              49 DXCCS1                           228  231   Num  CCS: diagnosis 1
+AR  2014 CORE              50 DXCCS2                           232  235   Num  CCS: diagnosis 2
+AR  2014 CORE              51 DXCCS3                           236  239   Num  CCS: diagnosis 3
+AR  2014 CORE              52 DXCCS4                           240  243   Num  CCS: diagnosis 4
+AR  2014 CORE              53 DXCCS5                           244  247   Num  CCS: diagnosis 5
+AR  2014 CORE              54 DXCCS6                           248  251   Num  CCS: diagnosis 6
+AR  2014 CORE              55 DXCCS7                           252  255   Num  CCS: diagnosis 7
+AR  2014 CORE              56 DXCCS8                           256  259   Num  CCS: diagnosis 8
+AR  2014 CORE              57 DXCCS9                           260  263   Num  CCS: diagnosis 9
+AR  2014 CORE              58 DXCCS10                          264  267   Num  CCS: diagnosis 10
+AR  2014 CORE              59 DXCCS11                          268  271   Num  CCS: diagnosis 11
+AR  2014 CORE              60 DXCCS12                          272  275   Num  CCS: diagnosis 12
+AR  2014 CORE              61 DXCCS13                          276  279   Num  CCS: diagnosis 13
+AR  2014 CORE              62 DXCCS14                          280  283   Num  CCS: diagnosis 14
+AR  2014 CORE              63 DXCCS15                          284  287   Num  CCS: diagnosis 15
+AR  2014 CORE              64 DXCCS16                          288  291   Num  CCS: diagnosis 16
+AR  2014 CORE              65 DXCCS17                          292  295   Num  CCS: diagnosis 17
+AR  2014 CORE              66 DXCCS18                          296  299   Num  CCS: diagnosis 18
+AR  2014 CORE              67 DXPOA1                           300  300   Char Diagnosis 1, present on admission indicator
+AR  2014 CORE              68 DXPOA2                           301  301   Char Diagnosis 2, present on admission indicator
+AR  2014 CORE              69 DXPOA3                           302  302   Char Diagnosis 3, present on admission indicator
+AR  2014 CORE              70 DXPOA4                           303  303   Char Diagnosis 4, present on admission indicator
+AR  2014 CORE              71 DXPOA5                           304  304   Char Diagnosis 5, present on admission indicator
+AR  2014 CORE              72 DXPOA6                           305  305   Char Diagnosis 6, present on admission indicator
+AR  2014 CORE              73 DXPOA7                           306  306   Char Diagnosis 7, present on admission indicator
+AR  2014 CORE              74 DXPOA8                           307  307   Char Diagnosis 8, present on admission indicator
+AR  2014 CORE              75 DXPOA9                           308  308   Char Diagnosis 9, present on admission indicator
+AR  2014 CORE              76 DXPOA10                          309  309   Char Diagnosis 10, present on admission indicator
+AR  2014 CORE              77 DXPOA11                          310  310   Char Diagnosis 11, present on admission indicator
+AR  2014 CORE              78 DXPOA12                          311  311   Char Diagnosis 12, present on admission indicator
+AR  2014 CORE              79 DXPOA13                          312  312   Char Diagnosis 13, present on admission indicator
+AR  2014 CORE              80 DXPOA14                          313  313   Char Diagnosis 14, present on admission indicator
+AR  2014 CORE              81 DXPOA15                          314  314   Char Diagnosis 15, present on admission indicator
+AR  2014 CORE              82 DXPOA16                          315  315   Char Diagnosis 16, present on admission indicator
+AR  2014 CORE              83 DXPOA17                          316  316   Char Diagnosis 17, present on admission indicator
+AR  2014 CORE              84 DXPOA18                          317  317   Char Diagnosis 18, present on admission indicator
+AR  2014 CORE              85 DXVER                            318  320   Num  Diagnosis Version
+AR  2014 CORE              86 DX_Admitting                     321  327   Char Admitting Diagnosis Code
+AR  2014 CORE              87 DaysToEvent                      328  333   Num  Days from 'start date' to admission
+AR  2014 CORE              88 ECODE1                           334  340   Char E code 1
+AR  2014 CORE              89 ECODE2                           341  347   Char E code 2
+AR  2014 CORE              90 ECODE3                           348  354   Char E code 3
+AR  2014 CORE              91 ECODE4                           355  361   Char E code 4
+AR  2014 CORE              92 ECODE5                           362  368   Char E code 5
+AR  2014 CORE              93 ECODE6                           369  375   Char E code 6
+AR  2014 CORE              94 ECODE7                           376  382   Char E code 7
+AR  2014 CORE              95 ECODE8                           383  389   Char E code 8
+AR  2014 CORE              96 ECODE9                           390  396   Char E code 9
+AR  2014 CORE              97 ECODE10                          397  403   Char E code 10
+AR  2014 CORE              98 ECODE11                          404  410   Char E code 11
+AR  2014 CORE              99 ECODE12                          411  417   Char E code 12
+AR  2014 CORE             100 E_CCS1                           418  421   Num  CCS: E Code 1
+AR  2014 CORE             101 E_CCS2                           422  425   Num  CCS: E Code 2
+AR  2014 CORE             102 E_CCS3                           426  429   Num  CCS: E Code 3
+AR  2014 CORE             103 E_CCS4                           430  433   Num  CCS: E Code 4
+AR  2014 CORE             104 E_CCS5                           434  437   Num  CCS: E Code 5
+AR  2014 CORE             105 E_CCS6                           438  441   Num  CCS: E Code 6
+AR  2014 CORE             106 E_CCS7                           442  445   Num  CCS: E Code 7
+AR  2014 CORE             107 E_CCS8                           446  449   Num  CCS: E Code 8
+AR  2014 CORE             108 E_CCS9                           450  453   Num  CCS: E Code 9
+AR  2014 CORE             109 E_CCS10                          454  457   Num  CCS: E Code 10
+AR  2014 CORE             110 E_CCS11                          458  461   Num  CCS: E Code 11
+AR  2014 CORE             111 E_CCS12                          462  465   Num  CCS: E Code 12
+AR  2014 CORE             112 E_POA1                           466  466   Char E Code 1, present on admission indicator
+AR  2014 CORE             113 E_POA2                           467  467   Char E Code 2, present on admission indicator
+AR  2014 CORE             114 E_POA3                           468  468   Char E Code 3, present on admission indicator
+AR  2014 CORE             115 E_POA4                           469  469   Char E Code 4, present on admission indicator
+AR  2014 CORE             116 E_POA5                           470  470   Char E Code 5, present on admission indicator
+AR  2014 CORE             117 E_POA6                           471  471   Char E Code 6, present on admission indicator
+AR  2014 CORE             118 E_POA7                           472  472   Char E Code 7, present on admission indicator
+AR  2014 CORE             119 E_POA8                           473  473   Char E Code 8, present on admission indicator
+AR  2014 CORE             120 E_POA9                           474  474   Char E Code 9, present on admission indicator
+AR  2014 CORE             121 E_POA10                          475  475   Char E Code 10, present on admission indicator
+AR  2014 CORE             122 E_POA11                          476  476   Char E Code 11, present on admission indicator
+AR  2014 CORE             123 E_POA12                          477  477   Char E Code 12, present on admission indicator
+AR  2014 CORE             124 FEMALE                           478  479   Num  Indicator of sex
+AR  2014 CORE             125 HCUP_ED                          480  481   Num  HCUP Emergency Department service indicator
+AR  2014 CORE             126 HCUP_OS                          482  483   Num  HCUP Observation Stay service indicator
+AR  2014 CORE             127 HISPANIC_X                       484  484   Char Hispanic ethnicity (as received from source)
+AR  2014 CORE             128 HOSPBRTH                         485  487   Num  Indicator of birth in this hospital
+AR  2014 CORE             129 HOSPST                           488  489   Char Hospital state postal code
+AR  2014 CORE             130 KEY                              490  504   Num  HCUP record identifier
+AR  2014 CORE             131 LOS                              505  509   Num  Length of stay (cleaned)
+AR  2014 CORE             132 LOS_X                            510  515   Num  Length of stay (as received from source)
+AR  2014 CORE             133 MARITALSTATUSUB04                516  516   Char Patient's marital status, UB-04 standard coding
+AR  2014 CORE             134 MARITALSTATUS_X                  517  517   Char Patient's marital status (as received from source)
+AR  2014 CORE             135 MDC                              518  519   Num  MDC in effect on discharge date
+AR  2014 CORE             136 MDC24                            520  521   Num  MDC, version 24
+AR  2014 CORE             137 MDC_NoPOA                        522  523   Num  MDC in use on discharge date, calculated without POA
+AR  2014 CORE             138 MDNUM1_R                         524  532   Num  Physician 1 number (re-identified)
+AR  2014 CORE             139 MDNUM2_R                         533  541   Num  Physician 2 number (re-identified)
+AR  2014 CORE             140 MDNUM3_R                         542  550   Num  Physician 3 number (re-identified)
+AR  2014 CORE             141 MDNUM4_R                         551  559   Num  Physician 4 number (re-identified)
+AR  2014 CORE             142 MDNUMTYPE1                       560  560   Char Physician 1 number type
+AR  2014 CORE             143 MEDINCSTQ                        561  562   Num  Median household income state quartile for patient ZIP Code
+AR  2014 CORE             144 MRN_R                            563  571   Num  Medical record number (re-identified)
+AR  2014 CORE             145 NCHRONIC                         572  574   Num  Number of chronic conditions
+AR  2014 CORE             146 NCPT                             575  578   Num  Number of CPT/HCPCS procedures on this record
+AR  2014 CORE             147 NDX                              579  581   Num  Number of diagnoses on this record
+AR  2014 CORE             148 NECODE                           582  583   Num  Number of E codes on this record
+AR  2014 CORE             149 NEOMAT                           584  585   Num  Neonatal and/or maternal DX and/or PR
+AR  2014 CORE             150 NPR                              586  588   Num  Number of procedures on this record
+AR  2014 CORE             151 ORPROC                           589  590   Num  Major operating room procedure indicator
+AR  2014 CORE             152 OS_TIME                          591  601 2 Num  Observation stay time summed from UNITS
+AR  2014 CORE             153 P7EDSRC_X                        602  603   Char Condition Code P7, Direct Inpatient Admission from Emergency Room
+AR  2014 CORE             154 PAY1                             604  605   Num  Primary expected payer (uniform)
+AR  2014 CORE             155 PAY1_X                           606  606   Char Primary expected payer (as received from source)
+AR  2014 CORE             156 PAY2                             607  608   Num  Secondary expected payer (uniform)
+AR  2014 CORE             157 PAY2_X                           609  609   Char Secondary expected payer (as received from source)
+AR  2014 CORE             158 PAY3                             610  611   Num  Tertiary expected payer (uniform)
+AR  2014 CORE             159 PAY3_X                           612  612   Char Tertiary expected payer (as received from source)
+AR  2014 CORE             160 PL_CBSA                          613  615   Num  Patient location: Core Based Statistical Area (CBSA)
+AR  2014 CORE             161 PL_NCHS                          616  617   Num  Patient Location: NCHS Urban-Rural Code
+AR  2014 CORE             162 PL_RUCC                          618  619   Num  Patient location: Rural-Urban Continuum Codes(RUCC)
+AR  2014 CORE             163 PL_UIC                           620  621   Num  Patient location: Urban Influence Codes
+AR  2014 CORE             164 PL_UR_CAT4                       622  623   Num  Patient Location: Urban-Rural 4 Categories
+AR  2014 CORE             165 POA_Disch_Edit1                  624  625   Num  Indication that a discharge has POA missing on all nonexempt diagnoses
+AR  2014 CORE             166 POA_Disch_Edit2                  626  627   Num  Indication that a discharge has POA missing on all nonexempt secondary diagnoses
+AR  2014 CORE             167 POA_Hosp_Edit1                   628  629   Num  Indication that a hospital has POA reported as Y on all diagnoses on all discharges
+AR  2014 CORE             168 POA_Hosp_Edit2                   630  631   Num  Indication that a hospital has POA reported as missing on all non-Medicare discharges
+AR  2014 CORE             169 POA_Hosp_Edit3                   632  633   Num  Indication that a hospital reported POA as missing on all nonexempt diagnoses for 15 percent or more of discharges
+AR  2014 CORE             170 POA_Hosp_Edit3_Value             634  641 2 Num  Percentage of discharges with all nonexempt diagnoses missing POA indicators
+AR  2014 CORE             171 PR1                              642  648   Char Procedure 1
+AR  2014 CORE             172 PR2                              649  655   Char Procedure 2
+AR  2014 CORE             173 PR3                              656  662   Char Procedure 3
+AR  2014 CORE             174 PR4                              663  669   Char Procedure 4
+AR  2014 CORE             175 PR5                              670  676   Char Procedure 5
+AR  2014 CORE             176 PR6                              677  683   Char Procedure 6
+AR  2014 CORE             177 PR7                              684  690   Char Procedure 7
+AR  2014 CORE             178 PR8                              691  697   Char Procedure 8
+AR  2014 CORE             179 PRCCS1                           698  700   Num  CCS: procedure 1
+AR  2014 CORE             180 PRCCS2                           701  703   Num  CCS: procedure 2
+AR  2014 CORE             181 PRCCS3                           704  706   Num  CCS: procedure 3
+AR  2014 CORE             182 PRCCS4                           707  709   Num  CCS: procedure 4
+AR  2014 CORE             183 PRCCS5                           710  712   Num  CCS: procedure 5
+AR  2014 CORE             184 PRCCS6                           713  715   Num  CCS: procedure 6
+AR  2014 CORE             185 PRCCS7                           716  718   Num  CCS: procedure 7
+AR  2014 CORE             186 PRCCS8                           719  721   Num  CCS: procedure 8
+AR  2014 CORE             187 PRDAY1                           722  726   Num  Number of days from admission to PR1
+AR  2014 CORE             188 PRDAY2                           727  731   Num  Number of days from admission to PR2
+AR  2014 CORE             189 PRDAY3                           732  736   Num  Number of days from admission to PR3
+AR  2014 CORE             190 PRDAY4                           737  741   Num  Number of days from admission to PR4
+AR  2014 CORE             191 PRDAY5                           742  746   Num  Number of days from admission to PR5
+AR  2014 CORE             192 PRDAY6                           747  751   Num  Number of days from admission to PR6
+AR  2014 CORE             193 PRDAY7                           752  756   Num  Number of days from admission to PR7
+AR  2014 CORE             194 PRDAY8                           757  761   Num  Number of days from admission to PR8
+AR  2014 CORE             195 PROCTYPE                         762  764   Num  Procedure type indicator
+AR  2014 CORE             196 PRVER                            765  767   Num  Procedure Version
+AR  2014 CORE             197 PSTATE                           768  769   Char Patient State postal code
+AR  2014 CORE             198 PSTCO2                           770  774   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+AR  2014 CORE             199 PointOfOriginUB04                775  775   Char Point of origin for admission or visit, UB-04 standard coding
+AR  2014 CORE             200 PointOfOrigin_X                  776  776   Char Point of origin for admission or visit, as received from source
+AR  2014 CORE             201 RACE                             777  778   Num  Race (uniform)
+AR  2014 CORE             202 RACE_X                           779  779   Char Race (as received from source)
+AR  2014 CORE             203 SERVICELINE                      780  781   Num  Hospital Service Line
+AR  2014 CORE             204 TOTCHG                           782  791   Num  Total charges (cleaned)
+AR  2014 CORE             205 TOTCHG_X                         792  806 2 Num  Total charges (as received from source)
+AR  2014 CORE             206 TRAN_IN                          807  808   Num  Transfer in indicator
+AR  2014 CORE             207 TRAN_OUT                         809  810   Num  Transfer out indicator
+AR  2014 CORE             208 VisitLink                        811  819   Num  Visit linkage variable
+AR  2014 CORE             209 YEAR                             820  823   Num  Calendar year
+AR  2014 CORE             210 ZIP3                             824  826   Char Patient ZIP Code, first 3 digits
+AR  2014 CORE             211 ZIPINC_QRTL                      827  829   Num  Median household income national quartile for patient ZIP Code
+AR  2014 CORE             212 AYEAR                            830  833   Num  Admission year
+AR  2014 CORE             213 BMONTH                           834  835   Num  Birth month
+AR  2014 CORE             214 BYEAR                            836  839   Num  Birth year
+AR  2014 CORE             215 PRMONTH1                         840  841   Num  Month of procedure 1
+AR  2014 CORE             216 PRMONTH2                         842  843   Num  Month of procedure 2
+AR  2014 CORE             217 PRMONTH3                         844  845   Num  Month of procedure 3
+AR  2014 CORE             218 PRMONTH4                         846  847   Num  Month of procedure 4
+AR  2014 CORE             219 PRMONTH5                         848  849   Num  Month of procedure 5
+AR  2014 CORE             220 PRMONTH6                         850  851   Num  Month of procedure 6
+AR  2014 CORE             221 PRYEAR1                          852  855   Num  Year of procedure 1
+AR  2014 CORE             222 PRYEAR2                          856  859   Num  Year of procedure 2
+AR  2014 CORE             223 PRYEAR3                          860  863   Num  Year of procedure 3
+AR  2014 CORE             224 PRYEAR4                          864  867   Num  Year of procedure 4
+AR  2014 CORE             225 PRYEAR5                          868  871   Num  Year of procedure 5
+AR  2014 CORE             226 PRYEAR6                          872  875   Num  Year of procedure 6

@@ -1,0 +1,130 @@
+Data Set Name: AZ_SID_2005_CORE                
+Number of Observations: 745581
+Total Record Length: 413
+Total Number of Variables: 110
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 56    Variable name
+58- 61    Starting column of variable in ASCII file
+63- 66    Ending column of variable in ASCII file
+    68    Non-zero number of digits after decimal point for numeric variable
+70- 73    Variable type (Num=numeric; Char=character)
+75-174    Variable label
+
+
+AZ  2005 CORE               1 KEY                           1   14   Num  HCUP record identifier
+AZ  2005 CORE               2 AGE                          15   17   Num  Age in years at admission
+AZ  2005 CORE               3 AGEDAY                       18   20   Num  Age in days (when age < 1 year)
+AZ  2005 CORE               4 AGEMONTH                     21   23   Num  Age in months (when age < 11 years)
+AZ  2005 CORE               5 AHOUR                        24   27   Num  Admission Hour
+AZ  2005 CORE               6 AMONTH                       28   29   Num  Admission month
+AZ  2005 CORE               7 ASOURCE                      30   31   Num  Admission source (uniform)
+AZ  2005 CORE               8 ASOURCE_X                    32   32   Char Admission source (as received from source)
+AZ  2005 CORE               9 ASOURCEUB92                  33   33   Char Admission source (UB-92 standard coding)
+AZ  2005 CORE              10 ATYPE                        34   35   Num  Admission type
+AZ  2005 CORE              11 AWEEKEND                     36   37   Num  Admission day is a weekend
+AZ  2005 CORE              12 BWT                          38   41   Num  Birth weight in grams
+AZ  2005 CORE              13 DHOUR                        42   45   Num  Discharge Hour
+AZ  2005 CORE              14 DIED                         46   47   Num  Died during hospitalization
+AZ  2005 CORE              15 DISP_X                       48   49   Char Disposition of patient (as received from source)
+AZ  2005 CORE              16 DISPUB92                     50   51   Num  Disposition of patient (UB-92 standard coding)
+AZ  2005 CORE              17 DISPUNIFORM                  52   53   Num  Disposition of patient (uniform)
+AZ  2005 CORE              18 DNR                          54   55   Num  Do not resuscitate indicator
+AZ  2005 CORE              19 DQTR                         56   57   Num  Discharge quarter
+AZ  2005 CORE              20 DRG                          58   60   Num  DRG in effect on discharge date
+AZ  2005 CORE              21 DRG18                        61   63   Num  DRG, version 18
+AZ  2005 CORE              22 DRGVER                       64   65   Num  DRG grouper version used on discharge date
+AZ  2005 CORE              23 DSHOSPID                     66   78   Char Data source hospital identifier
+AZ  2005 CORE              24 DX1                          79   83   Char Principal diagnosis
+AZ  2005 CORE              25 DX2                          84   88   Char Diagnosis 2
+AZ  2005 CORE              26 DX3                          89   93   Char Diagnosis 3
+AZ  2005 CORE              27 DX4                          94   98   Char Diagnosis 4
+AZ  2005 CORE              28 DX5                          99  103   Char Diagnosis 5
+AZ  2005 CORE              29 DX6                         104  108   Char Diagnosis 6
+AZ  2005 CORE              30 DX7                         109  113   Char Diagnosis 7
+AZ  2005 CORE              31 DX8                         114  118   Char Diagnosis 8
+AZ  2005 CORE              32 DX9                         119  123   Char Diagnosis 9
+AZ  2005 CORE              33 DXCCS1                      124  127   Num  CCS: principal diagnosis
+AZ  2005 CORE              34 DXCCS2                      128  131   Num  CCS: diagnosis 2
+AZ  2005 CORE              35 DXCCS3                      132  135   Num  CCS: diagnosis 3
+AZ  2005 CORE              36 DXCCS4                      136  139   Num  CCS: diagnosis 4
+AZ  2005 CORE              37 DXCCS5                      140  143   Num  CCS: diagnosis 5
+AZ  2005 CORE              38 DXCCS6                      144  147   Num  CCS: diagnosis 6
+AZ  2005 CORE              39 DXCCS7                      148  151   Num  CCS: diagnosis 7
+AZ  2005 CORE              40 DXCCS8                      152  155   Num  CCS: diagnosis 8
+AZ  2005 CORE              41 DXCCS9                      156  159   Num  CCS: diagnosis 9
+AZ  2005 CORE              42 ECODE1                      160  164   Char E code 1
+AZ  2005 CORE              43 ECODE2                      165  169   Char E code 2
+AZ  2005 CORE              44 ECODE3                      170  174   Char E code 3
+AZ  2005 CORE              45 ECODE4                      175  179   Char E code 4
+AZ  2005 CORE              46 ECODE5                      180  184   Char E code 5
+AZ  2005 CORE              47 E_CCS1                      185  188   Num  CCS: E Code 1
+AZ  2005 CORE              48 E_CCS2                      189  192   Num  CCS: E Code 2
+AZ  2005 CORE              49 E_CCS3                      193  196   Num  CCS: E Code 3
+AZ  2005 CORE              50 E_CCS4                      197  200   Num  CCS: E Code 4
+AZ  2005 CORE              51 E_CCS5                      201  204   Num  CCS: E Code 5
+AZ  2005 CORE              52 FEMALE                      205  206   Num  Indicator of sex
+AZ  2005 CORE              53 HCUP_ED                     207  208   Num  HCUP Emergency Department service indicator
+AZ  2005 CORE              54 HCUP_OS                     209  210   Num  HCUP Observation Stay service indicator
+AZ  2005 CORE              55 HOSPST                      211  212   Char Hospital state postal code
+AZ  2005 CORE              56 LOS                         213  217   Num  Length of stay (cleaned)
+AZ  2005 CORE              57 LOS_X                       218  223   Num  Length of stay (as received from source)
+AZ  2005 CORE              58 MEDINCSTQ                   224  225   Num  Median household income state quartile for patient ZIP Code
+AZ  2005 CORE              59 MARITALSTATUS               226  226   Char Patient's marital status
+AZ  2005 CORE              60 MDBOARD1                    227  227   Char Physician 1 licensing board (as received from source)
+AZ  2005 CORE              61 MDBOARD2                    228  228   Char Physician 2 licensing board (as received from source)
+AZ  2005 CORE              62 MDC                         229  230   Num  MDC in effect on discharge date
+AZ  2005 CORE              63 MDC18                       231  232   Num  MDC, version 18
+AZ  2005 CORE              64 MDNUM1_R                    233  241   Num  Physician 1 number (re-identified)
+AZ  2005 CORE              65 MDNUM2_R                    242  250   Num  Physician 2 number (re-identified)
+AZ  2005 CORE              66 MRN_R                       251  259   Num  Medical record number (re-identified)
+AZ  2005 CORE              67 NDX                         260  261   Num  Number of diagnoses on this record
+AZ  2005 CORE              68 NECODE                      262  263   Num  Number of E codes on this record
+AZ  2005 CORE              69 NEOMAT                      264  265   Num  Neonatal and/or maternal DX and/or PR
+AZ  2005 CORE              70 NPR                         266  267   Num  Number of procedures on this record
+AZ  2005 CORE              71 PAY1                        268  269   Num  Primary expected payer (uniform)
+AZ  2005 CORE              72 PAY1_X                      270  271   Char Primary expected payer (as received from source)
+AZ  2005 CORE              73 PL_CBSA                     272  274   Num  Patient location: Core Based Statistical Area (CBSA)
+AZ  2005 CORE              74 PL_MSA1993                  275  277   Num  Patient location: Metropolitan Statistical Area (MSA), 1993
+AZ  2005 CORE              75 PL_NHCS2006                 278  279   Num  Patient Location: NCHS Urban-Rural Code (V2006)
+AZ  2005 CORE              76 PL_RUCA10_2005              280  281   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, ten levels
+AZ  2005 CORE              77 PL_RUCA2005                 282  285 1 Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes
+AZ  2005 CORE              78 PL_RUCA4_2005               286  287   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, four levels
+AZ  2005 CORE              79 PL_RUCC2003                 288  289   Num  Patient location: Rural-Urban Continuum Codes(RUCC), 2003
+AZ  2005 CORE              80 PL_UIC2003                  290  291   Num  Patient location: Urban Influence Codes, 2003
+AZ  2005 CORE              81 PL_UR_CAT4                  292  293   Num  Patient Location: Urban-Rural 4 Categories
+AZ  2005 CORE              82 PL_UR_CAT5                  294  295   Num  Patient Location: Urban-Rural 5 Categories
+AZ  2005 CORE              83 PNUM_R                      296  304   Num  Person number (re-identified)
+AZ  2005 CORE              84 PR1                         305  308   Char Principal procedure
+AZ  2005 CORE              85 PR2                         309  312   Char Procedure 2
+AZ  2005 CORE              86 PR3                         313  316   Char Procedure 3
+AZ  2005 CORE              87 PR4                         317  320   Char Procedure 4
+AZ  2005 CORE              88 PR5                         321  324   Char Procedure 5
+AZ  2005 CORE              89 PR6                         325  328   Char Procedure 6
+AZ  2005 CORE              90 PRCCS1                      329  331   Num  CCS: principal procedure
+AZ  2005 CORE              91 PRCCS2                      332  334   Num  CCS: procedure 2
+AZ  2005 CORE              92 PRCCS3                      335  337   Num  CCS: procedure 3
+AZ  2005 CORE              93 PRCCS4                      338  340   Num  CCS: procedure 4
+AZ  2005 CORE              94 PRCCS5                      341  343   Num  CCS: procedure 5
+AZ  2005 CORE              95 PRCCS6                      344  346   Num  CCS: procedure 6
+AZ  2005 CORE              96 PRDAY1                      347  351   Num  Number of days from admission to PR1
+AZ  2005 CORE              97 PSTATE                      352  353   Char Patient State postal code
+AZ  2005 CORE              98 PSTCO2                      354  358   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+AZ  2005 CORE              99 RACE                        359  360   Num  Race (uniform)
+AZ  2005 CORE             100 RACE_X                      361  361   Char Race (as received from source)
+AZ  2005 CORE             101 TOTCHG                      362  371   Num  Total charges (cleaned)
+AZ  2005 CORE             102 TOTCHG_X                    372  386 2 Num  Total charges (as received from source)
+AZ  2005 CORE             103 YEAR                        387  390   Num  Calendar year
+AZ  2005 CORE             104 ZIP                         391  395   Char Patient ZIP Code
+AZ  2005 CORE             105 AYEAR                       396  399   Num  Admission year
+AZ  2005 CORE             106 DMONTH                      400  401   Num  Discharge month
+AZ  2005 CORE             107 BMONTH                      402  403   Num  Birth month
+AZ  2005 CORE             108 BYEAR                       404  407   Num  Birth year
+AZ  2005 CORE             109 PRMONTH1                    408  409   Num  Month of procedure 1
+AZ  2005 CORE             110 PRYEAR1                     410  413   Num  Year of procedure 1

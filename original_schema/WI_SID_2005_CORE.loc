@@ -1,0 +1,125 @@
+Data Set Name: WI_SID_2005_CORE                
+Number of Observations: 674489
+Total Record Length: 422
+Total Number of Variables: 105
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 56    Variable name
+58- 61    Starting column of variable in ASCII file
+63- 66    Ending column of variable in ASCII file
+    68    Non-zero number of digits after decimal point for numeric variable
+70- 73    Variable type (Num=numeric; Char=character)
+75-174    Variable label
+
+
+WI  2005 CORE               1 KEY                           1   14   Num  HCUP record identifier
+WI  2005 CORE               2 AGE                          15   17   Num  Age in years at admission
+WI  2005 CORE               3 AGEDAY                       18   20   Num  Age in days (when age < 1 year)
+WI  2005 CORE               4 AGEMONTH                     21   23   Num  Age in months (when age < 11 years)
+WI  2005 CORE               5 AMONTH                       24   25   Num  Admission month
+WI  2005 CORE               6 ASOURCE                      26   27   Num  Admission source (uniform)
+WI  2005 CORE               7 ASOURCE_X                    28   35   Char Admission source (as received from source)
+WI  2005 CORE               8 ASOURCEUB92                  36   36   Char Admission source (UB-92 standard coding)
+WI  2005 CORE               9 ATYPE                        37   38   Num  Admission type
+WI  2005 CORE              10 AWEEKEND                     39   40   Num  Admission day is a weekend
+WI  2005 CORE              11 BILLTYPE                     41   43   Char UB-92 bill type
+WI  2005 CORE              12 DIED                         44   45   Num  Died during hospitalization
+WI  2005 CORE              13 DISP_X                       46   53   Char Disposition of patient (as received from source)
+WI  2005 CORE              14 DISPUB92                     54   55   Num  Disposition of patient (UB-92 standard coding)
+WI  2005 CORE              15 DISPUNIFORM                  56   57   Num  Disposition of patient (uniform)
+WI  2005 CORE              16 DQTR                         58   59   Num  Discharge quarter
+WI  2005 CORE              17 DRG                          60   62   Num  DRG in effect on discharge date
+WI  2005 CORE              18 DRG18                        63   65   Num  DRG, version 18
+WI  2005 CORE              19 DRGVER                       66   67   Num  DRG grouper version used on discharge date
+WI  2005 CORE              20 DSHOSPID                     68   80   Char Data source hospital identifier
+WI  2005 CORE              21 DX1                          81   85   Char Principal diagnosis
+WI  2005 CORE              22 DX2                          86   90   Char Diagnosis 2
+WI  2005 CORE              23 DX3                          91   95   Char Diagnosis 3
+WI  2005 CORE              24 DX4                          96  100   Char Diagnosis 4
+WI  2005 CORE              25 DX5                         101  105   Char Diagnosis 5
+WI  2005 CORE              26 DX6                         106  110   Char Diagnosis 6
+WI  2005 CORE              27 DX7                         111  115   Char Diagnosis 7
+WI  2005 CORE              28 DX8                         116  120   Char Diagnosis 8
+WI  2005 CORE              29 DX9                         121  125   Char Diagnosis 9
+WI  2005 CORE              30 DXCCS1                      126  129   Num  CCS: principal diagnosis
+WI  2005 CORE              31 DXCCS2                      130  133   Num  CCS: diagnosis 2
+WI  2005 CORE              32 DXCCS3                      134  137   Num  CCS: diagnosis 3
+WI  2005 CORE              33 DXCCS4                      138  141   Num  CCS: diagnosis 4
+WI  2005 CORE              34 DXCCS5                      142  145   Num  CCS: diagnosis 5
+WI  2005 CORE              35 DXCCS6                      146  149   Num  CCS: diagnosis 6
+WI  2005 CORE              36 DXCCS7                      150  153   Num  CCS: diagnosis 7
+WI  2005 CORE              37 DXCCS8                      154  157   Num  CCS: diagnosis 8
+WI  2005 CORE              38 DXCCS9                      158  161   Num  CCS: diagnosis 9
+WI  2005 CORE              39 ECODE1                      162  166   Char E code 1
+WI  2005 CORE              40 ECODE2                      167  171   Char E code 2
+WI  2005 CORE              41 ECODE3                      172  176   Char E code 3
+WI  2005 CORE              42 ECODE4                      177  181   Char E code 4
+WI  2005 CORE              43 ECODE5                      182  186   Char E code 5
+WI  2005 CORE              44 E_CCS1                      187  190   Num  CCS: E Code 1
+WI  2005 CORE              45 E_CCS2                      191  194   Num  CCS: E Code 2
+WI  2005 CORE              46 E_CCS3                      195  198   Num  CCS: E Code 3
+WI  2005 CORE              47 E_CCS4                      199  202   Num  CCS: E Code 4
+WI  2005 CORE              48 E_CCS5                      203  206   Num  CCS: E Code 5
+WI  2005 CORE              49 FEMALE                      207  208   Num  Indicator of sex
+WI  2005 CORE              50 HCUP_ED                     209  210   Num  HCUP Emergency Department service indicator
+WI  2005 CORE              51 HCUP_OS                     211  212   Num  HCUP Observation Stay service indicator
+WI  2005 CORE              52 HISPANIC_X                  213  220   Char Hispanic ethnicity (as received from source)
+WI  2005 CORE              53 Homeless                    221  222   Num  Indicator that patient is homeless
+WI  2005 CORE              54 HOSPST                      223  224   Char Hospital state postal code
+WI  2005 CORE              55 LOS                         225  229   Num  Length of stay (cleaned)
+WI  2005 CORE              56 LOS_X                       230  235   Num  Length of stay (as received from source)
+WI  2005 CORE              57 MEDINCSTQ                   236  237   Num  Median household income state quartile for patient ZIP Code
+WI  2005 CORE              58 MDC                         238  239   Num  MDC in effect on discharge date
+WI  2005 CORE              59 MDC18                       240  241   Num  MDC, version 18
+WI  2005 CORE              60 MDSPEC1                     242  249   Char Physician 1 specialty (as received from source)
+WI  2005 CORE              61 MDSPEC2                     250  257   Char Physician 2 specialty (as received from source)
+WI  2005 CORE              62 MRN_R                       258  266   Num  Medical record number (re-identified)
+WI  2005 CORE              63 NDX                         267  268   Num  Number of diagnoses on this record
+WI  2005 CORE              64 NECODE                      269  270   Num  Number of E codes on this record
+WI  2005 CORE              65 NEOMAT                      271  272   Num  Neonatal and/or maternal DX and/or PR
+WI  2005 CORE              66 NPR                         273  274   Num  Number of procedures on this record
+WI  2005 CORE              67 PAY1                        275  276   Num  Primary expected payer (uniform)
+WI  2005 CORE              68 PAY2                        277  278   Num  Secondary expected payer (uniform)
+WI  2005 CORE              69 PAY1_X                      279  283   Char Primary expected payer (as received from source)
+WI  2005 CORE              70 PAY2_X                      284  288   Char Secondary expected payer (as received from source)
+WI  2005 CORE              71 PL_CBSA                     289  291   Num  Patient location: Core Based Statistical Area (CBSA)
+WI  2005 CORE              72 PL_MSA1993                  292  294   Num  Patient location: Metropolitan Statistical Area (MSA), 1993
+WI  2005 CORE              73 PL_NHCS2006                 295  296   Num  Patient Location: NCHS Urban-Rural Code (V2006)
+WI  2005 CORE              74 PL_RUCA10_2005              297  298   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, ten levels
+WI  2005 CORE              75 PL_RUCA2005                 299  302 1 Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes
+WI  2005 CORE              76 PL_RUCA4_2005               303  304   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, four levels
+WI  2005 CORE              77 PL_RUCC2003                 305  306   Num  Patient location: Rural-Urban Continuum Codes(RUCC), 2003
+WI  2005 CORE              78 PL_UIC2003                  307  308   Num  Patient location: Urban Influence Codes, 2003
+WI  2005 CORE              79 PL_UR_CAT4                  309  310   Num  Patient Location: Urban-Rural 4 Categories
+WI  2005 CORE              80 PL_UR_CAT5                  311  312   Num  Patient Location: Urban-Rural 5 Categories
+WI  2005 CORE              81 PR1                         313  316   Char Principal procedure
+WI  2005 CORE              82 PR2                         317  320   Char Procedure 2
+WI  2005 CORE              83 PR3                         321  324   Char Procedure 3
+WI  2005 CORE              84 PR4                         325  328   Char Procedure 4
+WI  2005 CORE              85 PR5                         329  332   Char Procedure 5
+WI  2005 CORE              86 PR6                         333  336   Char Procedure 6
+WI  2005 CORE              87 PRCCS1                      337  339   Num  CCS: principal procedure
+WI  2005 CORE              88 PRCCS2                      340  342   Num  CCS: procedure 2
+WI  2005 CORE              89 PRCCS3                      343  345   Num  CCS: procedure 3
+WI  2005 CORE              90 PRCCS4                      346  348   Num  CCS: procedure 4
+WI  2005 CORE              91 PRCCS5                      349  351   Num  CCS: procedure 5
+WI  2005 CORE              92 PRCCS6                      352  354   Num  CCS: procedure 6
+WI  2005 CORE              93 PRDAY1                      355  359   Num  Number of days from admission to PR1
+WI  2005 CORE              94 PSTATE                      360  361   Char Patient State postal code
+WI  2005 CORE              95 PSTCO2                      362  366   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+WI  2005 CORE              96 RACE                        367  368   Num  Race (uniform)
+WI  2005 CORE              97 RACE_X                      369  376   Char Race (as received from source)
+WI  2005 CORE              98 TOTCHG                      377  386   Num  Total charges (cleaned)
+WI  2005 CORE              99 TOTCHG_X                    387  401 2 Num  Total charges (as received from source)
+WI  2005 CORE             100 YEAR                        402  405   Num  Calendar year
+WI  2005 CORE             101 ZIP                         406  410   Char Patient ZIP Code
+WI  2005 CORE             102 AYEAR                       411  414   Num  Admission year
+WI  2005 CORE             103 DMONTH                      415  416   Num  Discharge month
+WI  2005 CORE             104 BMONTH                      417  418   Num  Birth month
+WI  2005 CORE             105 BYEAR                       419  422   Num  Birth year

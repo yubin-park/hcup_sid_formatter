@@ -1,0 +1,144 @@
+MD  1995 CORE     1   SEQ_SID  1   13    Num I:HCUP SID record sequence number
+MD  1995 CORE     2   PROCESS  14  24    Num I:HCUP discharge processing ID number
+MD  1995 CORE     3   YEAR     25  26    Num Calendar year
+MD  1995 CORE     4   DSHOSPID 27  39    CharI:Data source hospital ID number
+MD  1995 CORE     5   DSNUM    40  41    Num I:Data source ID number
+MD  1995 CORE     6   DSTYPE   42  42    Num I:Data source type
+MD  1995 CORE     7   HOSPST   43  44    CharHospital state postal code
+MD  1995 CORE     8   MDID_S   45  60    CharI:Attending physician number (synthetic)
+MD  1995 CORE     9   SURGID_S 61  76    CharI:Primary surgeon number (synthetic)
+MD  1995 CORE     10  AGE      77  79    Num I:Age in years at admission
+MD  1995 CORE     11  AGEDAY   80  82    Num I:Age in days (when < 1 year)
+MD  1995 CORE     12  SEX      83  84    Num I:Sex
+MD  1995 CORE     13  RACE     85  86    Num I:Race
+MD  1995 CORE     14  ADAYWK   87  88    Num I:Admission day of week
+MD  1995 CORE     15  DQTR     89  89    Num I:Discharge quarter
+MD  1995 CORE     16  LOS      90  94    Num I:Length of stay (cleaned)
+MD  1995 CORE     17  LOS_X    95  100   Num I:Length of stay (uncleaned)
+MD  1995 CORE     18  DISP     101 102   Num I:Disposition of patient
+MD  1995 CORE     19  DIED     103 104   Num I:Died during hospitalization
+MD  1995 CORE     20  NEOMAT   105 105   Num I:Neonatal and/or maternal DX and/or PR
+MD  1995 CORE     21  ATYPE    106 107   Num I:Admission type
+MD  1995 CORE     22  ASOURCE  108 109   Num I:Admission source
+MD  1995 CORE     23  DXSYS    110 111   Num I:Diagnosis coding system
+MD  1995 CORE     24  DSNDX    112 113   Num I:Max number of diagnoses from source
+MD  1995 CORE     25  NDX      114 115   Num I:Number of diagnoses on this discharge
+MD  1995 CORE     26  DX1      116 120   CharI:Principal diagnosis
+MD  1995 CORE     27  DX2      121 125   CharI:Diagnosis 2
+MD  1995 CORE     28  DX3      126 130   CharI:Diagnosis 3
+MD  1995 CORE     29  DX4      131 135   CharI:Diagnosis 4
+MD  1995 CORE     30  DX5      136 140   CharI:Diagnosis 5
+MD  1995 CORE     31  DX6      141 145   CharI:Diagnosis 6
+MD  1995 CORE     32  DX7      146 150   CharI:Diagnosis 7
+MD  1995 CORE     33  DX8      151 155   CharI:Diagnosis 8
+MD  1995 CORE     34  DX9      156 160   CharI:Diagnosis 9
+MD  1995 CORE     35  DX10     161 165   CharI:Diagnosis 10
+MD  1995 CORE     36  DX11     166 170   CharI:Diagnosis 11
+MD  1995 CORE     37  DX12     171 175   CharI:Diagnosis 12
+MD  1995 CORE     38  DX13     176 180   CharI:Diagnosis 13
+MD  1995 CORE     39  DX14     181 185   CharI:Diagnosis 14
+MD  1995 CORE     40  DX15     186 190   CharI:Diagnosis 15
+MD  1995 CORE     41  DX16     191 195   CharI:Diagnosis 16
+MD  1995 CORE     42  DXV1     196 197   Num I:Validity flag: principal diagnosis
+MD  1995 CORE     43  DXV2     198 199   Num I:Validity flag: diagnosis 2
+MD  1995 CORE     44  DXV3     200 201   Num I:Validity flag: diagnosis 3
+MD  1995 CORE     45  DXV4     202 203   Num I:Validity flag: diagnosis 4
+MD  1995 CORE     46  DXV5     204 205   Num I:Validity flag: diagnosis 5
+MD  1995 CORE     47  DXV6     206 207   Num I:Validity flag: diagnosis 6
+MD  1995 CORE     48  DXV7     208 209   Num I:Validity flag: diagnosis 7
+MD  1995 CORE     49  DXV8     210 211   Num I:Validity flag: diagnosis 8
+MD  1995 CORE     50  DXV9     212 213   Num I:Validity flag: diagnosis 9
+MD  1995 CORE     51  DXV10    214 215   Num I:Validity flag: diagnosis 10
+MD  1995 CORE     52  DXV11    216 217   Num I:Validity flag: diagnosis 11
+MD  1995 CORE     53  DXV12    218 219   Num I:Validity flag: diagnosis 12
+MD  1995 CORE     54  DXV13    220 221   Num I:Validity flag: diagnosis 13
+MD  1995 CORE     55  DXV14    222 223   Num I:Validity flag: diagnosis 14
+MD  1995 CORE     56  DXV15    224 225   Num I:Validity flag: diagnosis 15
+MD  1995 CORE     57  DXV16    226 227   Num I:Validity flag: diagnosis 16
+MD  1995 CORE     58  DCCHPR1  228 230   Num I:CCHPR: principal diagnosis
+MD  1995 CORE     59  DCCHPR2  231 233   Num I:CCHPR: diagnosis 2
+MD  1995 CORE     60  DCCHPR3  234 236   Num I:CCHPR: diagnosis 3
+MD  1995 CORE     61  DCCHPR4  237 239   Num I:CCHPR: diagnosis 4
+MD  1995 CORE     62  DCCHPR5  240 242   Num I:CCHPR: diagnosis 5
+MD  1995 CORE     63  DCCHPR6  243 245   Num I:CCHPR: diagnosis 6
+MD  1995 CORE     64  DCCHPR7  246 248   Num I:CCHPR: diagnosis 7
+MD  1995 CORE     65  DCCHPR8  249 251   Num I:CCHPR: diagnosis 8
+MD  1995 CORE     66  DCCHPR9  252 254   Num I:CCHPR: diagnosis 9
+MD  1995 CORE     67  DCCHPR10 255 257   Num I:CCHPR: diagnosis 10
+MD  1995 CORE     68  DCCHPR11 258 260   Num I:CCHPR: diagnosis 11
+MD  1995 CORE     69  DCCHPR12 261 263   Num I:CCHPR: diagnosis 12
+MD  1995 CORE     70  DCCHPR13 264 266   Num I:CCHPR: diagnosis 13
+MD  1995 CORE     71  DCCHPR14 267 269   Num I:CCHPR: diagnosis 14
+MD  1995 CORE     72  DCCHPR15 270 272   Num I:CCHPR: diagnosis 15
+MD  1995 CORE     73  DCCHPR16 273 275   Num I:CCHPR: diagnosis 16
+MD  1995 CORE     74  PRSYS    276 277   Num I:Procedure coding system
+MD  1995 CORE     75  DSNPR    278 279   Num I:Max number of procedures from source
+MD  1995 CORE     76  NPR      280 281   Num I:Number of procedures on this discharge
+MD  1995 CORE     77  PR1      282 285   CharI:Principal procedure
+MD  1995 CORE     78  PR2      286 289   CharI:Procedure 2
+MD  1995 CORE     79  PR3      290 293   CharI:Procedure 3
+MD  1995 CORE     80  PR4      294 297   CharI:Procedure 4
+MD  1995 CORE     81  PR5      298 301   CharI:Procedure 5
+MD  1995 CORE     82  PR6      302 305   CharI:Procedure 6
+MD  1995 CORE     83  PR7      306 309   CharI:Procedure 7
+MD  1995 CORE     84  PR8      310 313   CharI:Procedure 8
+MD  1995 CORE     85  PR9      314 317   CharI:Procedure 9
+MD  1995 CORE     86  PR10     318 321   CharI:Procedure 10
+MD  1995 CORE     87  PR11     322 325   CharI:Procedure 11
+MD  1995 CORE     88  PR12     326 329   CharI:Procedure 12
+MD  1995 CORE     89  PR13     330 333   CharI:Procedure 13
+MD  1995 CORE     90  PR14     334 337   CharI:Procedure 14
+MD  1995 CORE     91  PR15     338 341   CharI:Procedure 15
+MD  1995 CORE     92  PRV1     342 343   Num I:Validity flag: principal procedure
+MD  1995 CORE     93  PRV2     344 345   Num I:Validity flag: procedure 2
+MD  1995 CORE     94  PRV3     346 347   Num I:Validity flag: procedure 3
+MD  1995 CORE     95  PRV4     348 349   Num I:Validity flag: procedure 4
+MD  1995 CORE     96  PRV5     350 351   Num I:Validity flag: procedure 5
+MD  1995 CORE     97  PRV6     352 353   Num I:Validity flag: procedure 6
+MD  1995 CORE     98  PRV7     354 355   Num I:Validity flag: procedure 7
+MD  1995 CORE     99  PRV8     356 357   Num I:Validity flag: procedure 8
+MD  1995 CORE     100 PRV9     358 359   Num I:Validity flag: procedure 9
+MD  1995 CORE     101 PRV10    360 361   Num I:Validity flag: procedure 10
+MD  1995 CORE     102 PRV11    362 363   Num I:Validity flag: procedure 11
+MD  1995 CORE     103 PRV12    364 365   Num I:Validity flag: procedure 12
+MD  1995 CORE     104 PRV13    366 367   Num I:Validity flag: procedure 13
+MD  1995 CORE     105 PRV14    368 369   Num I:Validity flag: procedure 14
+MD  1995 CORE     106 PRV15    370 371   Num I:Validity flag: procedure 15
+MD  1995 CORE     107 PCCHPR1  372 374   Num I:CCHPR: principal procedure
+MD  1995 CORE     108 PCCHPR2  375 377   Num I:CCHPR: procedure 2
+MD  1995 CORE     109 PCCHPR3  378 380   Num I:CCHPR: procedure 3
+MD  1995 CORE     110 PCCHPR4  381 383   Num I:CCHPR: procedure 4
+MD  1995 CORE     111 PCCHPR5  384 386   Num I:CCHPR: procedure 5
+MD  1995 CORE     112 PCCHPR6  387 389   Num I:CCHPR: procedure 6
+MD  1995 CORE     113 PCCHPR7  390 392   Num I:CCHPR: procedure 7
+MD  1995 CORE     114 PCCHPR8  393 395   Num I:CCHPR: procedure 8
+MD  1995 CORE     115 PCCHPR9  396 398   Num I:CCHPR: procedure 9
+MD  1995 CORE     116 PCCHPR10 399 401   Num I:CCHPR: procedure 10
+MD  1995 CORE     117 PCCHPR11 402 404   Num I:CCHPR: procedure 11
+MD  1995 CORE     118 PCCHPR12 405 407   Num I:CCHPR: procedure 12
+MD  1995 CORE     119 PCCHPR13 408 410   Num I:CCHPR: procedure 13
+MD  1995 CORE     120 PCCHPR14 411 413   Num I:CCHPR: procedure 14
+MD  1995 CORE     121 PCCHPR15 414 416   Num I:CCHPR: procedure 15
+MD  1995 CORE     122 PRDAY1   417 421   Num I:No. of days from admission to PR1
+MD  1995 CORE     123 PRDAY2   422 426   Num I:No. of days from admission to PR2
+MD  1995 CORE     124 PRDAY3   427 431   Num I:No. of days from admission to PR3
+MD  1995 CORE     125 PRDAY4   432 436   Num I:No. of days from admission to PR4
+MD  1995 CORE     126 PRDAY5   437 441   Num I:No. of days from admission to PR5
+MD  1995 CORE     127 PRDAY6   442 446   Num I:No. of days from admission to PR6
+MD  1995 CORE     128 PRDAY7   447 451   Num I:No. of days from admission to PR7
+MD  1995 CORE     129 PRDAY8   452 456   Num I:No. of days from admission to PR8
+MD  1995 CORE     130 PRDAY9   457 461   Num I:No. of days from admission to PR9
+MD  1995 CORE     131 PRDAY10  462 466   Num I:No. of days from admission to PR10
+MD  1995 CORE     132 PRDAY11  467 471   Num I:No. of days from admission to PR11
+MD  1995 CORE     133 DRG      472 474   Num I:DRG in effect on discharge date
+MD  1995 CORE     134 MDC      475 476   Num I:MDC in effect on discharge date
+MD  1995 CORE     135 DRGVER   477 478   Num I:DRG grouper version used on disch date
+MD  1995 CORE     136 DRG10    479 481   Num I:DRG, Version 10
+MD  1995 CORE     137 MDC10    482 483   Num I:MDC, Version 10
+MD  1995 CORE     138 PAY1     484 485   Num I:Primary expected payer, uniform
+MD  1995 CORE     139 PAY1_N   486 487   Num I:Primary expected payer, nonuniform
+MD  1995 CORE     140 PAY2     488 489   Num I:Secondary expected payer, uniform
+MD  1995 CORE     141 PAY2_N   490 491   Num I:Secondary expected payer, nonuniform
+MD  1995 CORE     142 TOTCHG   492 501   Num I:Total charges (cleaned)
+MD  1995 CORE     143 TOTCHG_X 502 516 2 Num I:Total charges (from data source)
+MD  1995 CORE     144 HOSPID   517 521   Num HCUP hospital ID number (SSHHH)

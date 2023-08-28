@@ -1,0 +1,263 @@
+Data Set Name: VT_SID_2004_CORE                
+Number of Observations: 55291
+Total Record Length: 1005
+Total Number of Variables: 243
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 56    Variable name
+58- 61    Starting column of variable in ASCII file
+63- 66    Ending column of variable in ASCII file
+    68    Non-zero number of digits after decimal point for numeric variable
+70- 73    Variable type (Num=numeric; Char=character)
+75-174    Variable label
+
+
+VT  2004 CORE               1 KEY                           1   14   Num  HCUP record identifier
+VT  2004 CORE               2 AGE                          15   17   Num  Age in years at admission
+VT  2004 CORE               3 AGEDAY                       18   20   Num  Age in days (when age < 1 year)
+VT  2004 CORE               4 AGEMONTH                     21   23   Num  Age in months (when age < 11 years)
+VT  2004 CORE               5 AMONTH                       24   25   Num  Admission month
+VT  2004 CORE               6 ASOURCE                      26   27   Num  Admission source (uniform)
+VT  2004 CORE               7 ASOURCE_X                    28   35   Char Admission source (as received from source)
+VT  2004 CORE               8 ASOURCEUB92                  36   36   Char Admission source (UB-92 standard coding)
+VT  2004 CORE               9 ATYPE                        37   38   Num  Admission type
+VT  2004 CORE              10 AWEEKEND                     39   40   Num  Admission day is a weekend
+VT  2004 CORE              11 BILLTYPE                     41   43   Char UB-92 bill type
+VT  2004 CORE              12 BWT                          44   47   Num  Birth weight in grams
+VT  2004 CORE              13 CPT1                         48   52   Char CPT/HCPCS procedure code 1
+VT  2004 CORE              14 CPT2                         53   57   Char CPT/HCPCS procedure code 2
+VT  2004 CORE              15 CPT3                         58   62   Char CPT/HCPCS procedure code 3
+VT  2004 CORE              16 CPT4                         63   67   Char CPT/HCPCS procedure code 4
+VT  2004 CORE              17 CPT5                         68   72   Char CPT/HCPCS procedure code 5
+VT  2004 CORE              18 CPT6                         73   77   Char CPT/HCPCS procedure code 6
+VT  2004 CORE              19 CPT7                         78   82   Char CPT/HCPCS procedure code 7
+VT  2004 CORE              20 CPT8                         83   87   Char CPT/HCPCS procedure code 8
+VT  2004 CORE              21 CPT9                         88   92   Char CPT/HCPCS procedure code 9
+VT  2004 CORE              22 CPT10                        93   97   Char CPT/HCPCS procedure code 10
+VT  2004 CORE              23 CPT11                        98  102   Char CPT/HCPCS procedure code 11
+VT  2004 CORE              24 CPT12                       103  107   Char CPT/HCPCS procedure code 12
+VT  2004 CORE              25 CPT13                       108  112   Char CPT/HCPCS procedure code 13
+VT  2004 CORE              26 CPT14                       113  117   Char CPT/HCPCS procedure code 14
+VT  2004 CORE              27 CPT15                       118  122   Char CPT/HCPCS procedure code 15
+VT  2004 CORE              28 CPT16                       123  127   Char CPT/HCPCS procedure code 16
+VT  2004 CORE              29 CPT17                       128  132   Char CPT/HCPCS procedure code 17
+VT  2004 CORE              30 CPT18                       133  137   Char CPT/HCPCS procedure code 18
+VT  2004 CORE              31 CPT19                       138  142   Char CPT/HCPCS procedure code 19
+VT  2004 CORE              32 CPT20                       143  147   Char CPT/HCPCS procedure code 20
+VT  2004 CORE              33 CPT21                       148  152   Char CPT/HCPCS procedure code 21
+VT  2004 CORE              34 CPT22                       153  157   Char CPT/HCPCS procedure code 22
+VT  2004 CORE              35 CPT23                       158  162   Char CPT/HCPCS procedure code 23
+VT  2004 CORE              36 CPT24                       163  167   Char CPT/HCPCS procedure code 24
+VT  2004 CORE              37 CPT25                       168  172   Char CPT/HCPCS procedure code 25
+VT  2004 CORE              38 DIED                        173  174   Num  Died during hospitalization
+VT  2004 CORE              39 DISP_X                      175  182   Char Disposition of patient (as received from source)
+VT  2004 CORE              40 DISPUB92                    183  184   Num  Disposition of patient (UB-92 standard coding)
+VT  2004 CORE              41 DISPUNIFORM                 185  186   Num  Disposition of patient (uniform)
+VT  2004 CORE              42 DQTR                        187  188   Num  Discharge quarter
+VT  2004 CORE              43 DRG                         189  191   Num  DRG in effect on discharge date
+VT  2004 CORE              44 DRG18                       192  194   Num  DRG, version 18
+VT  2004 CORE              45 DRGVER                      195  196   Num  DRG grouper version used on discharge date
+VT  2004 CORE              46 DSHOSPID                    197  209   Char Data source hospital identifier
+VT  2004 CORE              47 DX1                         210  214   Char Principal diagnosis
+VT  2004 CORE              48 DX2                         215  219   Char Diagnosis 2
+VT  2004 CORE              49 DX3                         220  224   Char Diagnosis 3
+VT  2004 CORE              50 DX4                         225  229   Char Diagnosis 4
+VT  2004 CORE              51 DX5                         230  234   Char Diagnosis 5
+VT  2004 CORE              52 DX6                         235  239   Char Diagnosis 6
+VT  2004 CORE              53 DX7                         240  244   Char Diagnosis 7
+VT  2004 CORE              54 DX8                         245  249   Char Diagnosis 8
+VT  2004 CORE              55 DX9                         250  254   Char Diagnosis 9
+VT  2004 CORE              56 DX10                        255  259   Char Diagnosis 10
+VT  2004 CORE              57 DX11                        260  264   Char Diagnosis 11
+VT  2004 CORE              58 DX12                        265  269   Char Diagnosis 12
+VT  2004 CORE              59 DX13                        270  274   Char Diagnosis 13
+VT  2004 CORE              60 DX14                        275  279   Char Diagnosis 14
+VT  2004 CORE              61 DX15                        280  284   Char Diagnosis 15
+VT  2004 CORE              62 DX16                        285  289   Char Diagnosis 16
+VT  2004 CORE              63 DX17                        290  294   Char Diagnosis 17
+VT  2004 CORE              64 DX18                        295  299   Char Diagnosis 18
+VT  2004 CORE              65 DX19                        300  304   Char Diagnosis 19
+VT  2004 CORE              66 DX20                        305  309   Char Diagnosis 20
+VT  2004 CORE              67 DXCCS1                      310  313   Num  CCS: principal diagnosis
+VT  2004 CORE              68 DXCCS2                      314  317   Num  CCS: diagnosis 2
+VT  2004 CORE              69 DXCCS3                      318  321   Num  CCS: diagnosis 3
+VT  2004 CORE              70 DXCCS4                      322  325   Num  CCS: diagnosis 4
+VT  2004 CORE              71 DXCCS5                      326  329   Num  CCS: diagnosis 5
+VT  2004 CORE              72 DXCCS6                      330  333   Num  CCS: diagnosis 6
+VT  2004 CORE              73 DXCCS7                      334  337   Num  CCS: diagnosis 7
+VT  2004 CORE              74 DXCCS8                      338  341   Num  CCS: diagnosis 8
+VT  2004 CORE              75 DXCCS9                      342  345   Num  CCS: diagnosis 9
+VT  2004 CORE              76 DXCCS10                     346  349   Num  CCS: diagnosis 10
+VT  2004 CORE              77 DXCCS11                     350  353   Num  CCS: diagnosis 11
+VT  2004 CORE              78 DXCCS12                     354  357   Num  CCS: diagnosis 12
+VT  2004 CORE              79 DXCCS13                     358  361   Num  CCS: diagnosis 13
+VT  2004 CORE              80 DXCCS14                     362  365   Num  CCS: diagnosis 14
+VT  2004 CORE              81 DXCCS15                     366  369   Num  CCS: diagnosis 15
+VT  2004 CORE              82 DXCCS16                     370  373   Num  CCS: diagnosis 16
+VT  2004 CORE              83 DXCCS17                     374  377   Num  CCS: diagnosis 17
+VT  2004 CORE              84 DXCCS18                     378  381   Num  CCS: diagnosis 18
+VT  2004 CORE              85 DXCCS19                     382  385   Num  CCS: diagnosis 19
+VT  2004 CORE              86 DXCCS20                     386  389   Num  CCS: diagnosis 20
+VT  2004 CORE              87 ECODE1                      390  394   Char E code 1
+VT  2004 CORE              88 ECODE2                      395  399   Char E code 2
+VT  2004 CORE              89 ECODE3                      400  404   Char E code 3
+VT  2004 CORE              90 ECODE4                      405  409   Char E code 4
+VT  2004 CORE              91 ECODE5                      410  414   Char E code 5
+VT  2004 CORE              92 ECODE6                      415  419   Char E code 6
+VT  2004 CORE              93 ECODE7                      420  424   Char E code 7
+VT  2004 CORE              94 E_CCS1                      425  428   Num  CCS: E Code 1
+VT  2004 CORE              95 E_CCS2                      429  432   Num  CCS: E Code 2
+VT  2004 CORE              96 E_CCS3                      433  436   Num  CCS: E Code 3
+VT  2004 CORE              97 E_CCS4                      437  440   Num  CCS: E Code 4
+VT  2004 CORE              98 E_CCS5                      441  444   Num  CCS: E Code 5
+VT  2004 CORE              99 E_CCS6                      445  448   Num  CCS: E Code 6
+VT  2004 CORE             100 E_CCS7                      449  452   Num  CCS: E Code 7
+VT  2004 CORE             101 FEMALE                      453  454   Num  Indicator of sex
+VT  2004 CORE             102 HOSPST                      455  456   Char Hospital state postal code
+VT  2004 CORE             103 LOS                         457  461   Num  Length of stay (cleaned)
+VT  2004 CORE             104 LOS_X                       462  467   Num  Length of stay (as received from source)
+VT  2004 CORE             105 MDC                         468  469   Num  MDC in effect on discharge date
+VT  2004 CORE             106 MDC18                       470  471   Num  MDC, version 18
+VT  2004 CORE             107 NCPT                        472  474   Num  Number of CPT/HCPCS procedures on this record
+VT  2004 CORE             108 NDX                         475  476   Num  Number of diagnoses on this record
+VT  2004 CORE             109 NECODE                      477  478   Num  Number of E codes on this record
+VT  2004 CORE             110 NEOMAT                      479  480   Num  Neonatal and/or maternal DX and/or PR
+VT  2004 CORE             111 NPR                         481  482   Num  Number of procedures on this record
+VT  2004 CORE             112 PAY1                        483  484   Num  Primary expected payer (uniform)
+VT  2004 CORE             113 PAY2                        485  486   Num  Secondary expected payer (uniform)
+VT  2004 CORE             114 PAY1_X                      487  494   Char Primary expected payer (as received from source)
+VT  2004 CORE             115 PAY2_X                      495  502   Char Secondary expected payer (as received from source)
+VT  2004 CORE             116 PAY3_X                      503  510   Char Tertiary expected payer (as received from source)
+VT  2004 CORE             117 PAYER1_X                    511  526   Char Primary expected payer plan identifier (as received from source)
+VT  2004 CORE             118 PAYER2_X                    527  542   Char Secondary expected payer plan identifier (as received from source)
+VT  2004 CORE             119 PL_CBSA                     543  545   Num  Patient location: Core Based Statistical Area (CBSA)
+VT  2004 CORE             120 PL_MSA1993                  546  548   Num  Patient location: Metropolitan Statistical Area (MSA), 1993
+VT  2004 CORE             121 PL_RUCA                     549  552 1 Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes
+VT  2004 CORE             122 PL_RUCA10                   553  554   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, ten levels
+VT  2004 CORE             123 PL_RUCA4                    555  556   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, four levels
+VT  2004 CORE             124 PL_RUCC2003                 557  558   Num  Patient location: Rural-Urban Continuum Codes(RUCC), 2003
+VT  2004 CORE             125 PL_UIC2003                  559  560   Num  Patient location: Urban Influence Codes, 2003
+VT  2004 CORE             126 PL_UR_CAT4                  561  562   Num  Patient Location: Urban-Rural 4 Categories
+VT  2004 CORE             127 PL_UR_CAT5                  563  564   Num  Patient Location: Urban-Rural 5 Categories
+VT  2004 CORE             128 PR1                         565  568   Char Principal procedure
+VT  2004 CORE             129 PR2                         569  572   Char Procedure 2
+VT  2004 CORE             130 PR3                         573  576   Char Procedure 3
+VT  2004 CORE             131 PR4                         577  580   Char Procedure 4
+VT  2004 CORE             132 PR5                         581  584   Char Procedure 5
+VT  2004 CORE             133 PR6                         585  588   Char Procedure 6
+VT  2004 CORE             134 PR7                         589  592   Char Procedure 7
+VT  2004 CORE             135 PR8                         593  596   Char Procedure 8
+VT  2004 CORE             136 PR9                         597  600   Char Procedure 9
+VT  2004 CORE             137 PR10                        601  604   Char Procedure 10
+VT  2004 CORE             138 PR11                        605  608   Char Procedure 11
+VT  2004 CORE             139 PR12                        609  612   Char Procedure 12
+VT  2004 CORE             140 PR13                        613  616   Char Procedure 13
+VT  2004 CORE             141 PR14                        617  620   Char Procedure 14
+VT  2004 CORE             142 PR15                        621  624   Char Procedure 15
+VT  2004 CORE             143 PR16                        625  628   Char Procedure 16
+VT  2004 CORE             144 PR17                        629  632   Char Procedure 17
+VT  2004 CORE             145 PR18                        633  636   Char Procedure 18
+VT  2004 CORE             146 PR19                        637  640   Char Procedure 19
+VT  2004 CORE             147 PR20                        641  644   Char Procedure 20
+VT  2004 CORE             148 PRCCS1                      645  647   Num  CCS: principal procedure
+VT  2004 CORE             149 PRCCS2                      648  650   Num  CCS: procedure 2
+VT  2004 CORE             150 PRCCS3                      651  653   Num  CCS: procedure 3
+VT  2004 CORE             151 PRCCS4                      654  656   Num  CCS: procedure 4
+VT  2004 CORE             152 PRCCS5                      657  659   Num  CCS: procedure 5
+VT  2004 CORE             153 PRCCS6                      660  662   Num  CCS: procedure 6
+VT  2004 CORE             154 PRCCS7                      663  665   Num  CCS: procedure 7
+VT  2004 CORE             155 PRCCS8                      666  668   Num  CCS: procedure 8
+VT  2004 CORE             156 PRCCS9                      669  671   Num  CCS: procedure 9
+VT  2004 CORE             157 PRCCS10                     672  674   Num  CCS: procedure 10
+VT  2004 CORE             158 PRCCS11                     675  677   Num  CCS: procedure 11
+VT  2004 CORE             159 PRCCS12                     678  680   Num  CCS: procedure 12
+VT  2004 CORE             160 PRCCS13                     681  683   Num  CCS: procedure 13
+VT  2004 CORE             161 PRCCS14                     684  686   Num  CCS: procedure 14
+VT  2004 CORE             162 PRCCS15                     687  689   Num  CCS: procedure 15
+VT  2004 CORE             163 PRCCS16                     690  692   Num  CCS: procedure 16
+VT  2004 CORE             164 PRCCS17                     693  695   Num  CCS: procedure 17
+VT  2004 CORE             165 PRCCS18                     696  698   Num  CCS: procedure 18
+VT  2004 CORE             166 PRCCS19                     699  701   Num  CCS: procedure 19
+VT  2004 CORE             167 PRCCS20                     702  704   Num  CCS: procedure 20
+VT  2004 CORE             168 PRDAY1                      705  709   Num  Number of days from admission to PR1
+VT  2004 CORE             169 PRDAY2                      710  714   Num  Number of days from admission to PR2
+VT  2004 CORE             170 PRDAY3                      715  719   Num  Number of days from admission to PR3
+VT  2004 CORE             171 PRDAY4                      720  724   Num  Number of days from admission to PR4
+VT  2004 CORE             172 PRDAY5                      725  729   Num  Number of days from admission to PR5
+VT  2004 CORE             173 PRDAY6                      730  734   Num  Number of days from admission to PR6
+VT  2004 CORE             174 PRDAY7                      735  739   Num  Number of days from admission to PR7
+VT  2004 CORE             175 PRDAY8                      740  744   Num  Number of days from admission to PR8
+VT  2004 CORE             176 PRDAY9                      745  749   Num  Number of days from admission to PR9
+VT  2004 CORE             177 PRDAY10                     750  754   Num  Number of days from admission to PR10
+VT  2004 CORE             178 PRDAY11                     755  759   Num  Number of days from admission to PR11
+VT  2004 CORE             179 PRDAY12                     760  764   Num  Number of days from admission to PR12
+VT  2004 CORE             180 PRDAY13                     765  769   Num  Number of days from admission to PR13
+VT  2004 CORE             181 PRDAY14                     770  774   Num  Number of days from admission to PR14
+VT  2004 CORE             182 PRDAY15                     775  779   Num  Number of days from admission to PR15
+VT  2004 CORE             183 PRDAY16                     780  784   Num  Number of days from admission to PR16
+VT  2004 CORE             184 PRDAY17                     785  789   Num  Number of days from admission to PR17
+VT  2004 CORE             185 PRDAY18                     790  794   Num  Number of days from admission to PR18
+VT  2004 CORE             186 PRDAY19                     795  799   Num  Number of days from admission to PR19
+VT  2004 CORE             187 PRDAY20                     800  804   Num  Number of days from admission to PR20
+VT  2004 CORE             188 PSTATE                      805  806   Char Patient State postal code
+VT  2004 CORE             189 PSTCO                       807  811   Num  Patient state/county FIPS code
+VT  2004 CORE             190 PSTCO2                      812  816   Num  Patient state/county FIPS code, possibly derived from ZIP Code
+VT  2004 CORE             191 RACE                        817  818   Num  Race (uniform)
+VT  2004 CORE             192 RACE_X                      819  826   Char Race (as received from source)
+VT  2004 CORE             193 READMIT                     827  828   Num  Readmission
+VT  2004 CORE             194 TOTCHG                      829  838   Num  Total charges (cleaned)
+VT  2004 CORE             195 TOTCHG_X                    839  853 2 Num  Total charges (as received from source)
+VT  2004 CORE             196 YEAR                        854  857   Num  Calendar year
+VT  2004 CORE             197 ZIP3                        858  860   Char Patient ZIP Code, first 3 digits
+VT  2004 CORE             198 TOWN                        861  868   Char Patient town of residence (as received from source)
+VT  2004 CORE             199 ZIP                         869  873   Char Patient ZIP Code
+VT  2004 CORE             200 AYEAR                       874  877   Num  Admission year
+VT  2004 CORE             201 DMONTH                      878  879   Num  Discharge month
+VT  2004 CORE             202 BMONTH                      880  881   Num  Birth month
+VT  2004 CORE             203 BYEAR                       882  885   Num  Birth year
+VT  2004 CORE             204 PRMONTH1                    886  887   Num  Month of procedure 1
+VT  2004 CORE             205 PRMONTH2                    888  889   Num  Month of procedure 2
+VT  2004 CORE             206 PRMONTH3                    890  891   Num  Month of procedure 3
+VT  2004 CORE             207 PRMONTH4                    892  893   Num  Month of procedure 4
+VT  2004 CORE             208 PRMONTH5                    894  895   Num  Month of procedure 5
+VT  2004 CORE             209 PRMONTH6                    896  897   Num  Month of procedure 6
+VT  2004 CORE             210 PRMONTH7                    898  899   Num  Month of procedure 7
+VT  2004 CORE             211 PRMONTH8                    900  901   Num  Month of procedure 8
+VT  2004 CORE             212 PRMONTH9                    902  903   Num  Month of procedure 9
+VT  2004 CORE             213 PRMONTH10                   904  905   Num  Month of procedure 10
+VT  2004 CORE             214 PRMONTH11                   906  907   Num  Month of procedure 11
+VT  2004 CORE             215 PRMONTH12                   908  909   Num  Month of procedure 12
+VT  2004 CORE             216 PRMONTH13                   910  911   Num  Month of procedure 13
+VT  2004 CORE             217 PRMONTH14                   912  913   Num  Month of procedure 14
+VT  2004 CORE             218 PRMONTH15                   914  915   Num  Month of procedure 15
+VT  2004 CORE             219 PRMONTH16                   916  917   Num  Month of procedure 16
+VT  2004 CORE             220 PRMONTH17                   918  919   Num  Month of procedure 17
+VT  2004 CORE             221 PRMONTH18                   920  921   Num  Month of procedure 18
+VT  2004 CORE             222 PRMONTH19                   922  923   Num  Month of procedure 19
+VT  2004 CORE             223 PRMONTH20                   924  925   Num  Month of procedure 20
+VT  2004 CORE             224 PRYEAR1                     926  929   Num  Year of procedure 1
+VT  2004 CORE             225 PRYEAR2                     930  933   Num  Year of procedure 2
+VT  2004 CORE             226 PRYEAR3                     934  937   Num  Year of procedure 3
+VT  2004 CORE             227 PRYEAR4                     938  941   Num  Year of procedure 4
+VT  2004 CORE             228 PRYEAR5                     942  945   Num  Year of procedure 5
+VT  2004 CORE             229 PRYEAR6                     946  949   Num  Year of procedure 6
+VT  2004 CORE             230 PRYEAR7                     950  953   Num  Year of procedure 7
+VT  2004 CORE             231 PRYEAR8                     954  957   Num  Year of procedure 8
+VT  2004 CORE             232 PRYEAR9                     958  961   Num  Year of procedure 9
+VT  2004 CORE             233 PRYEAR10                    962  965   Num  Year of procedure 10
+VT  2004 CORE             234 PRYEAR11                    966  969   Num  Year of procedure 11
+VT  2004 CORE             235 PRYEAR12                    970  973   Num  Year of procedure 12
+VT  2004 CORE             236 PRYEAR13                    974  977   Num  Year of procedure 13
+VT  2004 CORE             237 PRYEAR14                    978  981   Num  Year of procedure 14
+VT  2004 CORE             238 PRYEAR15                    982  985   Num  Year of procedure 15
+VT  2004 CORE             239 PRYEAR16                    986  989   Num  Year of procedure 16
+VT  2004 CORE             240 PRYEAR17                    990  993   Num  Year of procedure 17
+VT  2004 CORE             241 PRYEAR18                    994  997   Num  Year of procedure 18
+VT  2004 CORE             242 PRYEAR19                    998 1001   Num  Year of procedure 19
+VT  2004 CORE             243 PRYEAR20                   1002 1005   Num  Year of procedure 20

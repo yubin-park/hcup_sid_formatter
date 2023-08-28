@@ -1,0 +1,89 @@
+Columns   Description:
+=======   ============
+ 1- 2     State postal code
+ 5- 8     Discharge year of data
+10-14     File name
+19-21     Variable number
+23-40     Variable name
+43-45     Starting column of variable in ASCII file
+47-49     Ending column of variable in ASCII file
+   51     Non-zero number of digits after decimal point for numeric variable
+53-56     Variable type (NUM=numeric; CHAR=character)
+57-88     Variable label
+
+
+WA  1998 CORE     1   KEY                 1   14    Num HCUP record identifier
+WA  1998 CORE     2   AGE                 15  17    Num Age in years at admission
+WA  1998 CORE     3   AGEDAY              18  20    Num Age in days (when age < 1 year)
+WA  1998 CORE     4   AGEMONTH            21  23    Num Age in months (when age < 11 years)
+WA  1998 CORE     5   AMONTH              24  25    Num Admission month
+WA  1998 CORE     6   ASOURCE             26  27    Num Admission source (uniform)
+WA  1998 CORE     7   ASOURCE_X           28  28    CharAdmission source (as received from source)
+WA  1998 CORE     8   ATYPE               29  30    Num Admission type
+WA  1998 CORE     9   AWEEKEND            31  32    Num Admission day is a weekend
+WA  1998 CORE     10  DIED                33  34    Num Died during hospitalization
+WA  1998 CORE     11  DISPUB92            35  36    Num Disposition of patient (UB-92 standard coding)
+WA  1998 CORE     12  DISPUNIFORM         37  38    Num Disposition of patient (uniform)
+WA  1998 CORE     13  DISP_X              39  40    CharDisposition of patient (as received from source)
+WA  1998 CORE     14  DQTR                41  41    Num Discharge quarter
+WA  1998 CORE     15  DRG                 42  44    Num DRG in effect on discharge date
+WA  1998 CORE     16  DRG10               45  47    Num DRG, version 10
+WA  1998 CORE     17  DRG18               48  50    Num DRG, version 18
+WA  1998 CORE     18  DRGVER              51  52    Num DRG grouper version used on discharge date
+WA  1998 CORE     19  DSHOSPID            53  65    CharData source hospital identifier
+WA  1998 CORE     20  DX1                 66  70    CharPrincipal diagnosis
+WA  1998 CORE     21  DX2                 71  75    CharDiagnosis 2
+WA  1998 CORE     22  DX3                 76  80    CharDiagnosis 3
+WA  1998 CORE     23  DX4                 81  85    CharDiagnosis 4
+WA  1998 CORE     24  DX5                 86  90    CharDiagnosis 5
+WA  1998 CORE     25  DX6                 91  95    CharDiagnosis 6
+WA  1998 CORE     26  DX7                 96  100   CharDiagnosis 7
+WA  1998 CORE     27  DX8                 101 105   CharDiagnosis 8
+WA  1998 CORE     28  DX9                 106 110   CharDiagnosis 9
+WA  1998 CORE     29  DX10                111 115   CharDiagnosis 10
+WA  1998 CORE     30  DXCCS1              116 119   Num CCS: principal diagnosis
+WA  1998 CORE     31  DXCCS2              120 123   Num CCS: diagnosis 2
+WA  1998 CORE     32  DXCCS3              124 127   Num CCS: diagnosis 3
+WA  1998 CORE     33  DXCCS4              128 131   Num CCS: diagnosis 4
+WA  1998 CORE     34  DXCCS5              132 135   Num CCS: diagnosis 5
+WA  1998 CORE     35  DXCCS6              136 139   Num CCS: diagnosis 6
+WA  1998 CORE     36  DXCCS7              140 143   Num CCS: diagnosis 7
+WA  1998 CORE     37  DXCCS8              144 147   Num CCS: diagnosis 8
+WA  1998 CORE     38  DXCCS9              148 151   Num CCS: diagnosis 9
+WA  1998 CORE     39  DXCCS10             152 155   Num CCS: diagnosis 10
+WA  1998 CORE     40  FEMALE              156 157   Num Indicator of sex
+WA  1998 CORE     41  HOSPST              158 159   CharHospital state postal code
+WA  1998 CORE     42  LOS                 160 164   Num Length of stay (cleaned)
+WA  1998 CORE     43  LOS_X               165 170   Num Length of stay (uncleaned)
+WA  1998 CORE     44  MDC                 171 172   Num MDC in effect on discharge date
+WA  1998 CORE     45  MDC10               173 174   Num MDC, version 10
+WA  1998 CORE     46  MDC18               175 176   Num MDC, version 18
+WA  1998 CORE     47  MDID_S              177 192   CharAttending physician number (synthetic)
+WA  1998 CORE     48  NDX                 193 194   Num Number of diagnoses on this record
+WA  1998 CORE     49  NEOMAT              195 195   Num Neonatal and/or maternal DX and/or PR
+WA  1998 CORE     50  NPR                 196 197   Num Number of procedures on this record
+WA  1998 CORE     51  PAY1                198 199   Num Primary expected payer (uniform)
+WA  1998 CORE     52  PAY2                200 201   Num Secondary expected payer (uniform)
+WA  1998 CORE     53  PAY1_X              202 204   CharPrimary expected payer (as received from source)
+WA  1998 CORE     54  PAY2_X              205 207   CharSecondary expected payer (as received from source)
+WA  1998 CORE     55  PNUM_S              208 224   CharPerson number (synthetic)
+WA  1998 CORE     56  PR1                 225 228   CharPrincipal procedure
+WA  1998 CORE     57  PR2                 229 232   CharProcedure 2
+WA  1998 CORE     58  PR3                 233 236   CharProcedure 3
+WA  1998 CORE     59  PR4                 237 240   CharProcedure 4
+WA  1998 CORE     60  PR5                 241 244   CharProcedure 5
+WA  1998 CORE     61  PR6                 245 248   CharProcedure 6
+WA  1998 CORE     62  PRCCS1              249 251   Num CCS: principal procedure
+WA  1998 CORE     63  PRCCS2              252 254   Num CCS: procedure 2
+WA  1998 CORE     64  PRCCS3              255 257   Num CCS: procedure 3
+WA  1998 CORE     65  PRCCS4              258 260   Num CCS: procedure 4
+WA  1998 CORE     66  PRCCS5              261 263   Num CCS: procedure 5
+WA  1998 CORE     67  PRCCS6              264 266   Num CCS: procedure 6
+WA  1998 CORE     68  RDRG                267 270   CharRefined DRG
+WA  1998 CORE     69  RDRGWT              271 277 2 Num Refined DRG weight
+WA  1998 CORE     70  SURGID_S            278 293   CharPrimary surgeon number (synthetic)
+WA  1998 CORE     71  TOTCHG              294 303   Num Total charges (cleaned)
+WA  1998 CORE     72  TOTCHG_X            304 318 2 Num Total charges (as received from source)
+WA  1998 CORE     73  YEAR                319 322   Num Calendar year
+WA  1998 CORE     74  ZIP                 323 327   CharPatient zip code
+WA  1998 CORE     75  AYEAR               328 331   Num Admission year

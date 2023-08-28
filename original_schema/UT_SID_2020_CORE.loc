@@ -1,0 +1,937 @@
+Data Set Name: UT_SIDC_2020_CORE               
+Number of Observations: 271747
+Total Record Length: 2950
+Total Number of Variables: 916
+Creation Date: 01/05/2022   
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 61    Variable name
+63- 66    Starting column of variable in ASCII file
+68- 71    Ending column of variable in ASCII file
+73- 73    Non-zero number of digits after decimal point for numeric variable
+75- 78    Variable type (Num=numeric; Char=character)
+80-179    Variable label
+
+
+UT  2020 CORE               1 AGE                                1    3   Num  Age in years at admission
+UT  2020 CORE               2 AGEDAY                             4    6   Num  Age in days (when age < 1 year)
+UT  2020 CORE               3 AGEMONTH                           7    9   Num  Age in months (when age < 11 years)
+UT  2020 CORE               4 AHOUR                             10   13   Num  Admission Hour
+UT  2020 CORE               5 AMONTH                            14   15   Num  Admission month
+UT  2020 CORE               6 ATYPE                             16   17   Num  Admission type
+UT  2020 CORE               7 AWEEKEND                          18   19   Num  Admission day is a weekend
+UT  2020 CORE               8 BILLTYPE                          20   23   Char Type of bill, UB-04 coding
+UT  2020 CORE               9 CPT1                              24   28   Char CPT/HCPCS procedure code 1
+UT  2020 CORE              10 CPT2                              29   33   Char CPT/HCPCS procedure code 2
+UT  2020 CORE              11 CPT3                              34   38   Char CPT/HCPCS procedure code 3
+UT  2020 CORE              12 CPT4                              39   43   Char CPT/HCPCS procedure code 4
+UT  2020 CORE              13 CPT5                              44   48   Char CPT/HCPCS procedure code 5
+UT  2020 CORE              14 CPT6                              49   53   Char CPT/HCPCS procedure code 6
+UT  2020 CORE              15 CPT7                              54   58   Char CPT/HCPCS procedure code 7
+UT  2020 CORE              16 CPT8                              59   63   Char CPT/HCPCS procedure code 8
+UT  2020 CORE              17 CPT9                              64   68   Char CPT/HCPCS procedure code 9
+UT  2020 CORE              18 CPT10                             69   73   Char CPT/HCPCS procedure code 10
+UT  2020 CORE              19 CPT11                             74   78   Char CPT/HCPCS procedure code 11
+UT  2020 CORE              20 CPT12                             79   83   Char CPT/HCPCS procedure code 12
+UT  2020 CORE              21 CPT13                             84   88   Char CPT/HCPCS procedure code 13
+UT  2020 CORE              22 CPT14                             89   93   Char CPT/HCPCS procedure code 14
+UT  2020 CORE              23 CPT15                             94   98   Char CPT/HCPCS procedure code 15
+UT  2020 CORE              24 CPT16                             99  103   Char CPT/HCPCS procedure code 16
+UT  2020 CORE              25 CPT17                            104  108   Char CPT/HCPCS procedure code 17
+UT  2020 CORE              26 CPT18                            109  113   Char CPT/HCPCS procedure code 18
+UT  2020 CORE              27 CPT19                            114  118   Char CPT/HCPCS procedure code 19
+UT  2020 CORE              28 CPT20                            119  123   Char CPT/HCPCS procedure code 20
+UT  2020 CORE              29 CPT21                            124  128   Char CPT/HCPCS procedure code 21
+UT  2020 CORE              30 CPT22                            129  133   Char CPT/HCPCS procedure code 22
+UT  2020 CORE              31 CPT23                            134  138   Char CPT/HCPCS procedure code 23
+UT  2020 CORE              32 CPT24                            139  143   Char CPT/HCPCS procedure code 24
+UT  2020 CORE              33 CPT25                            144  148   Char CPT/HCPCS procedure code 25
+UT  2020 CORE              34 CPT26                            149  153   Char CPT/HCPCS procedure code 26
+UT  2020 CORE              35 CPT27                            154  158   Char CPT/HCPCS procedure code 27
+UT  2020 CORE              36 CPT28                            159  163   Char CPT/HCPCS procedure code 28
+UT  2020 CORE              37 CPT29                            164  168   Char CPT/HCPCS procedure code 29
+UT  2020 CORE              38 CPT30                            169  173   Char CPT/HCPCS procedure code 30
+UT  2020 CORE              39 CPT31                            174  178   Char CPT/HCPCS procedure code 31
+UT  2020 CORE              40 CPT32                            179  183   Char CPT/HCPCS procedure code 32
+UT  2020 CORE              41 CPT33                            184  188   Char CPT/HCPCS procedure code 33
+UT  2020 CORE              42 CPT34                            189  193   Char CPT/HCPCS procedure code 34
+UT  2020 CORE              43 CPT35                            194  198   Char CPT/HCPCS procedure code 35
+UT  2020 CORE              44 CPT36                            199  203   Char CPT/HCPCS procedure code 36
+UT  2020 CORE              45 CPT37                            204  208   Char CPT/HCPCS procedure code 37
+UT  2020 CORE              46 CPT38                            209  213   Char CPT/HCPCS procedure code 38
+UT  2020 CORE              47 CPT39                            214  218   Char CPT/HCPCS procedure code 39
+UT  2020 CORE              48 CPT40                            219  223   Char CPT/HCPCS procedure code 40
+UT  2020 CORE              49 CPT41                            224  228   Char CPT/HCPCS procedure code 41
+UT  2020 CORE              50 CPT42                            229  233   Char CPT/HCPCS procedure code 42
+UT  2020 CORE              51 CPT43                            234  238   Char CPT/HCPCS procedure code 43
+UT  2020 CORE              52 CPT44                            239  243   Char CPT/HCPCS procedure code 44
+UT  2020 CORE              53 CPT45                            244  248   Char CPT/HCPCS procedure code 45
+UT  2020 CORE              54 CPT46                            249  253   Char CPT/HCPCS procedure code 46
+UT  2020 CORE              55 CPT47                            254  258   Char CPT/HCPCS procedure code 47
+UT  2020 CORE              56 CPT48                            259  263   Char CPT/HCPCS procedure code 48
+UT  2020 CORE              57 CPT49                            264  268   Char CPT/HCPCS procedure code 49
+UT  2020 CORE              58 CPT50                            269  273   Char CPT/HCPCS procedure code 50
+UT  2020 CORE              59 CPT51                            274  278   Char CPT/HCPCS procedure code 51
+UT  2020 CORE              60 CPT52                            279  283   Char CPT/HCPCS procedure code 52
+UT  2020 CORE              61 CPT53                            284  288   Char CPT/HCPCS procedure code 53
+UT  2020 CORE              62 CPT54                            289  293   Char CPT/HCPCS procedure code 54
+UT  2020 CORE              63 CPT55                            294  298   Char CPT/HCPCS procedure code 55
+UT  2020 CORE              64 CPT56                            299  303   Char CPT/HCPCS procedure code 56
+UT  2020 CORE              65 CPT57                            304  308   Char CPT/HCPCS procedure code 57
+UT  2020 CORE              66 CPT58                            309  313   Char CPT/HCPCS procedure code 58
+UT  2020 CORE              67 CPT59                            314  318   Char CPT/HCPCS procedure code 59
+UT  2020 CORE              68 CPT60                            319  323   Char CPT/HCPCS procedure code 60
+UT  2020 CORE              69 CPT61                            324  328   Char CPT/HCPCS procedure code 61
+UT  2020 CORE              70 CPT62                            329  333   Char CPT/HCPCS procedure code 62
+UT  2020 CORE              71 CPT63                            334  338   Char CPT/HCPCS procedure code 63
+UT  2020 CORE              72 CPT64                            339  343   Char CPT/HCPCS procedure code 64
+UT  2020 CORE              73 CPT65                            344  348   Char CPT/HCPCS procedure code 65
+UT  2020 CORE              74 CPT66                            349  353   Char CPT/HCPCS procedure code 66
+UT  2020 CORE              75 CPT67                            354  358   Char CPT/HCPCS procedure code 67
+UT  2020 CORE              76 CPT68                            359  363   Char CPT/HCPCS procedure code 68
+UT  2020 CORE              77 CPT69                            364  368   Char CPT/HCPCS procedure code 69
+UT  2020 CORE              78 CPT70                            369  373   Char CPT/HCPCS procedure code 70
+UT  2020 CORE              79 CPT71                            374  378   Char CPT/HCPCS procedure code 71
+UT  2020 CORE              80 CPT72                            379  383   Char CPT/HCPCS procedure code 72
+UT  2020 CORE              81 CPT73                            384  388   Char CPT/HCPCS procedure code 73
+UT  2020 CORE              82 CPT74                            389  393   Char CPT/HCPCS procedure code 74
+UT  2020 CORE              83 CPT75                            394  398   Char CPT/HCPCS procedure code 75
+UT  2020 CORE              84 CPT76                            399  403   Char CPT/HCPCS procedure code 76
+UT  2020 CORE              85 CPT77                            404  408   Char CPT/HCPCS procedure code 77
+UT  2020 CORE              86 CPT78                            409  413   Char CPT/HCPCS procedure code 78
+UT  2020 CORE              87 CPT79                            414  418   Char CPT/HCPCS procedure code 79
+UT  2020 CORE              88 CPT80                            419  423   Char CPT/HCPCS procedure code 80
+UT  2020 CORE              89 CPT81                            424  428   Char CPT/HCPCS procedure code 81
+UT  2020 CORE              90 CPT82                            429  433   Char CPT/HCPCS procedure code 82
+UT  2020 CORE              91 CPT83                            434  438   Char CPT/HCPCS procedure code 83
+UT  2020 CORE              92 CPT84                            439  443   Char CPT/HCPCS procedure code 84
+UT  2020 CORE              93 CPT85                            444  448   Char CPT/HCPCS procedure code 85
+UT  2020 CORE              94 CPT86                            449  453   Char CPT/HCPCS procedure code 86
+UT  2020 CORE              95 CPT87                            454  458   Char CPT/HCPCS procedure code 87
+UT  2020 CORE              96 CPT88                            459  463   Char CPT/HCPCS procedure code 88
+UT  2020 CORE              97 CPT89                            464  468   Char CPT/HCPCS procedure code 89
+UT  2020 CORE              98 CPT90                            469  473   Char CPT/HCPCS procedure code 90
+UT  2020 CORE              99 CPT91                            474  478   Char CPT/HCPCS procedure code 91
+UT  2020 CORE             100 CPT92                            479  483   Char CPT/HCPCS procedure code 92
+UT  2020 CORE             101 CPT93                            484  488   Char CPT/HCPCS procedure code 93
+UT  2020 CORE             102 CPT94                            489  493   Char CPT/HCPCS procedure code 94
+UT  2020 CORE             103 CPT95                            494  498   Char CPT/HCPCS procedure code 95
+UT  2020 CORE             104 CPT96                            499  503   Char CPT/HCPCS procedure code 96
+UT  2020 CORE             105 CPT97                            504  508   Char CPT/HCPCS procedure code 97
+UT  2020 CORE             106 CPT98                            509  513   Char CPT/HCPCS procedure code 98
+UT  2020 CORE             107 CPT99                            514  518   Char CPT/HCPCS procedure code 99
+UT  2020 CORE             108 CPT100                           519  523   Char CPT/HCPCS procedure code 100
+UT  2020 CORE             109 CPT101                           524  528   Char CPT/HCPCS procedure code 101
+UT  2020 CORE             110 CPT102                           529  533   Char CPT/HCPCS procedure code 102
+UT  2020 CORE             111 CPT103                           534  538   Char CPT/HCPCS procedure code 103
+UT  2020 CORE             112 CPT104                           539  543   Char CPT/HCPCS procedure code 104
+UT  2020 CORE             113 CPT105                           544  548   Char CPT/HCPCS procedure code 105
+UT  2020 CORE             114 CPT106                           549  553   Char CPT/HCPCS procedure code 106
+UT  2020 CORE             115 CPT107                           554  558   Char CPT/HCPCS procedure code 107
+UT  2020 CORE             116 CPT108                           559  563   Char CPT/HCPCS procedure code 108
+UT  2020 CORE             117 CPT109                           564  568   Char CPT/HCPCS procedure code 109
+UT  2020 CORE             118 CPT110                           569  573   Char CPT/HCPCS procedure code 110
+UT  2020 CORE             119 CPT111                           574  578   Char CPT/HCPCS procedure code 111
+UT  2020 CORE             120 CPT112                           579  583   Char CPT/HCPCS procedure code 112
+UT  2020 CORE             121 CPT113                           584  588   Char CPT/HCPCS procedure code 113
+UT  2020 CORE             122 CPT114                           589  593   Char CPT/HCPCS procedure code 114
+UT  2020 CORE             123 CPT115                           594  598   Char CPT/HCPCS procedure code 115
+UT  2020 CORE             124 CPT116                           599  603   Char CPT/HCPCS procedure code 116
+UT  2020 CORE             125 CPT117                           604  608   Char CPT/HCPCS procedure code 117
+UT  2020 CORE             126 CPT118                           609  613   Char CPT/HCPCS procedure code 118
+UT  2020 CORE             127 CPT119                           614  618   Char CPT/HCPCS procedure code 119
+UT  2020 CORE             128 CPT120                           619  623   Char CPT/HCPCS procedure code 120
+UT  2020 CORE             129 CPT121                           624  628   Char CPT/HCPCS procedure code 121
+UT  2020 CORE             130 CPT122                           629  633   Char CPT/HCPCS procedure code 122
+UT  2020 CORE             131 CPT123                           634  638   Char CPT/HCPCS procedure code 123
+UT  2020 CORE             132 CPT124                           639  643   Char CPT/HCPCS procedure code 124
+UT  2020 CORE             133 CPT125                           644  648   Char CPT/HCPCS procedure code 125
+UT  2020 CORE             134 CPT126                           649  653   Char CPT/HCPCS procedure code 126
+UT  2020 CORE             135 CPT127                           654  658   Char CPT/HCPCS procedure code 127
+UT  2020 CORE             136 CPT128                           659  663   Char CPT/HCPCS procedure code 128
+UT  2020 CORE             137 CPT129                           664  668   Char CPT/HCPCS procedure code 129
+UT  2020 CORE             138 CPT130                           669  673   Char CPT/HCPCS procedure code 130
+UT  2020 CORE             139 CPT131                           674  678   Char CPT/HCPCS procedure code 131
+UT  2020 CORE             140 CPT132                           679  683   Char CPT/HCPCS procedure code 132
+UT  2020 CORE             141 CPT133                           684  688   Char CPT/HCPCS procedure code 133
+UT  2020 CORE             142 CPT134                           689  693   Char CPT/HCPCS procedure code 134
+UT  2020 CORE             143 CPT135                           694  698   Char CPT/HCPCS procedure code 135
+UT  2020 CORE             144 CPT136                           699  703   Char CPT/HCPCS procedure code 136
+UT  2020 CORE             145 CPT137                           704  708   Char CPT/HCPCS procedure code 137
+UT  2020 CORE             146 CPT138                           709  713   Char CPT/HCPCS procedure code 138
+UT  2020 CORE             147 CPT139                           714  718   Char CPT/HCPCS procedure code 139
+UT  2020 CORE             148 CPT140                           719  723   Char CPT/HCPCS procedure code 140
+UT  2020 CORE             149 CPT141                           724  728   Char CPT/HCPCS procedure code 141
+UT  2020 CORE             150 CPT142                           729  733   Char CPT/HCPCS procedure code 142
+UT  2020 CORE             151 CPT143                           734  738   Char CPT/HCPCS procedure code 143
+UT  2020 CORE             152 CPT144                           739  743   Char CPT/HCPCS procedure code 144
+UT  2020 CORE             153 CPT145                           744  748   Char CPT/HCPCS procedure code 145
+UT  2020 CORE             154 CPT146                           749  753   Char CPT/HCPCS procedure code 146
+UT  2020 CORE             155 CPT147                           754  758   Char CPT/HCPCS procedure code 147
+UT  2020 CORE             156 CPT148                           759  763   Char CPT/HCPCS procedure code 148
+UT  2020 CORE             157 CPT149                           764  768   Char CPT/HCPCS procedure code 149
+UT  2020 CORE             158 CPT150                           769  773   Char CPT/HCPCS procedure code 150
+UT  2020 CORE             159 CPT151                           774  778   Char CPT/HCPCS procedure code 151
+UT  2020 CORE             160 CPT152                           779  783   Char CPT/HCPCS procedure code 152
+UT  2020 CORE             161 CPT153                           784  788   Char CPT/HCPCS procedure code 153
+UT  2020 CORE             162 CPT154                           789  793   Char CPT/HCPCS procedure code 154
+UT  2020 CORE             163 CPT155                           794  798   Char CPT/HCPCS procedure code 155
+UT  2020 CORE             164 CPT156                           799  803   Char CPT/HCPCS procedure code 156
+UT  2020 CORE             165 CPT157                           804  808   Char CPT/HCPCS procedure code 157
+UT  2020 CORE             166 CPT158                           809  813   Char CPT/HCPCS procedure code 158
+UT  2020 CORE             167 CPT159                           814  818   Char CPT/HCPCS procedure code 159
+UT  2020 CORE             168 CPT160                           819  823   Char CPT/HCPCS procedure code 160
+UT  2020 CORE             169 CPT161                           824  828   Char CPT/HCPCS procedure code 161
+UT  2020 CORE             170 CPT162                           829  833   Char CPT/HCPCS procedure code 162
+UT  2020 CORE             171 CPT163                           834  838   Char CPT/HCPCS procedure code 163
+UT  2020 CORE             172 CPT164                           839  843   Char CPT/HCPCS procedure code 164
+UT  2020 CORE             173 CPT165                           844  848   Char CPT/HCPCS procedure code 165
+UT  2020 CORE             174 CPT166                           849  853   Char CPT/HCPCS procedure code 166
+UT  2020 CORE             175 CPT167                           854  858   Char CPT/HCPCS procedure code 167
+UT  2020 CORE             176 CPT168                           859  863   Char CPT/HCPCS procedure code 168
+UT  2020 CORE             177 CPT169                           864  868   Char CPT/HCPCS procedure code 169
+UT  2020 CORE             178 CPT170                           869  873   Char CPT/HCPCS procedure code 170
+UT  2020 CORE             179 CPT171                           874  878   Char CPT/HCPCS procedure code 171
+UT  2020 CORE             180 CPT172                           879  883   Char CPT/HCPCS procedure code 172
+UT  2020 CORE             181 CPT173                           884  888   Char CPT/HCPCS procedure code 173
+UT  2020 CORE             182 CPT174                           889  893   Char CPT/HCPCS procedure code 174
+UT  2020 CORE             183 CPT175                           894  898   Char CPT/HCPCS procedure code 175
+UT  2020 CORE             184 CPT176                           899  903   Char CPT/HCPCS procedure code 176
+UT  2020 CORE             185 CPT177                           904  908   Char CPT/HCPCS procedure code 177
+UT  2020 CORE             186 CPT178                           909  913   Char CPT/HCPCS procedure code 178
+UT  2020 CORE             187 CPT179                           914  918   Char CPT/HCPCS procedure code 179
+UT  2020 CORE             188 CPT180                           919  923   Char CPT/HCPCS procedure code 180
+UT  2020 CORE             189 CPT181                           924  928   Char CPT/HCPCS procedure code 181
+UT  2020 CORE             190 CPT182                           929  933   Char CPT/HCPCS procedure code 182
+UT  2020 CORE             191 CPT183                           934  938   Char CPT/HCPCS procedure code 183
+UT  2020 CORE             192 CPT184                           939  943   Char CPT/HCPCS procedure code 184
+UT  2020 CORE             193 CPT185                           944  948   Char CPT/HCPCS procedure code 185
+UT  2020 CORE             194 CPT186                           949  953   Char CPT/HCPCS procedure code 186
+UT  2020 CORE             195 CPT187                           954  958   Char CPT/HCPCS procedure code 187
+UT  2020 CORE             196 CPT188                           959  963   Char CPT/HCPCS procedure code 188
+UT  2020 CORE             197 CPT189                           964  968   Char CPT/HCPCS procedure code 189
+UT  2020 CORE             198 CPT190                           969  973   Char CPT/HCPCS procedure code 190
+UT  2020 CORE             199 CPT191                           974  978   Char CPT/HCPCS procedure code 191
+UT  2020 CORE             200 CPT192                           979  983   Char CPT/HCPCS procedure code 192
+UT  2020 CORE             201 CPT193                           984  988   Char CPT/HCPCS procedure code 193
+UT  2020 CORE             202 CPT194                           989  993   Char CPT/HCPCS procedure code 194
+UT  2020 CORE             203 CPT195                           994  998   Char CPT/HCPCS procedure code 195
+UT  2020 CORE             204 CPT196                           999 1003   Char CPT/HCPCS procedure code 196
+UT  2020 CORE             205 CPT197                          1004 1008   Char CPT/HCPCS procedure code 197
+UT  2020 CORE             206 CPT198                          1009 1013   Char CPT/HCPCS procedure code 198
+UT  2020 CORE             207 CPT199                          1014 1018   Char CPT/HCPCS procedure code 199
+UT  2020 CORE             208 CPT200                          1019 1023   Char CPT/HCPCS procedure code 200
+UT  2020 CORE             209 CPTCCS1                         1024 1026   Num  CCS: CPT 1
+UT  2020 CORE             210 CPTCCS2                         1027 1029   Num  CCS: CPT 2
+UT  2020 CORE             211 CPTCCS3                         1030 1032   Num  CCS: CPT 3
+UT  2020 CORE             212 CPTCCS4                         1033 1035   Num  CCS: CPT 4
+UT  2020 CORE             213 CPTCCS5                         1036 1038   Num  CCS: CPT 5
+UT  2020 CORE             214 CPTCCS6                         1039 1041   Num  CCS: CPT 6
+UT  2020 CORE             215 CPTCCS7                         1042 1044   Num  CCS: CPT 7
+UT  2020 CORE             216 CPTCCS8                         1045 1047   Num  CCS: CPT 8
+UT  2020 CORE             217 CPTCCS9                         1048 1050   Num  CCS: CPT 9
+UT  2020 CORE             218 CPTCCS10                        1051 1053   Num  CCS: CPT 10
+UT  2020 CORE             219 CPTCCS11                        1054 1056   Num  CCS: CPT 11
+UT  2020 CORE             220 CPTCCS12                        1057 1059   Num  CCS: CPT 12
+UT  2020 CORE             221 CPTCCS13                        1060 1062   Num  CCS: CPT 13
+UT  2020 CORE             222 CPTCCS14                        1063 1065   Num  CCS: CPT 14
+UT  2020 CORE             223 CPTCCS15                        1066 1068   Num  CCS: CPT 15
+UT  2020 CORE             224 CPTCCS16                        1069 1071   Num  CCS: CPT 16
+UT  2020 CORE             225 CPTCCS17                        1072 1074   Num  CCS: CPT 17
+UT  2020 CORE             226 CPTCCS18                        1075 1077   Num  CCS: CPT 18
+UT  2020 CORE             227 CPTCCS19                        1078 1080   Num  CCS: CPT 19
+UT  2020 CORE             228 CPTCCS20                        1081 1083   Num  CCS: CPT 20
+UT  2020 CORE             229 CPTCCS21                        1084 1086   Num  CCS: CPT 21
+UT  2020 CORE             230 CPTCCS22                        1087 1089   Num  CCS: CPT 22
+UT  2020 CORE             231 CPTCCS23                        1090 1092   Num  CCS: CPT 23
+UT  2020 CORE             232 CPTCCS24                        1093 1095   Num  CCS: CPT 24
+UT  2020 CORE             233 CPTCCS25                        1096 1098   Num  CCS: CPT 25
+UT  2020 CORE             234 CPTCCS26                        1099 1101   Num  CCS: CPT 26
+UT  2020 CORE             235 CPTCCS27                        1102 1104   Num  CCS: CPT 27
+UT  2020 CORE             236 CPTCCS28                        1105 1107   Num  CCS: CPT 28
+UT  2020 CORE             237 CPTCCS29                        1108 1110   Num  CCS: CPT 29
+UT  2020 CORE             238 CPTCCS30                        1111 1113   Num  CCS: CPT 30
+UT  2020 CORE             239 CPTCCS31                        1114 1116   Num  CCS: CPT 31
+UT  2020 CORE             240 CPTCCS32                        1117 1119   Num  CCS: CPT 32
+UT  2020 CORE             241 CPTCCS33                        1120 1122   Num  CCS: CPT 33
+UT  2020 CORE             242 CPTCCS34                        1123 1125   Num  CCS: CPT 34
+UT  2020 CORE             243 CPTCCS35                        1126 1128   Num  CCS: CPT 35
+UT  2020 CORE             244 CPTCCS36                        1129 1131   Num  CCS: CPT 36
+UT  2020 CORE             245 CPTCCS37                        1132 1134   Num  CCS: CPT 37
+UT  2020 CORE             246 CPTCCS38                        1135 1137   Num  CCS: CPT 38
+UT  2020 CORE             247 CPTCCS39                        1138 1140   Num  CCS: CPT 39
+UT  2020 CORE             248 CPTCCS40                        1141 1143   Num  CCS: CPT 40
+UT  2020 CORE             249 CPTCCS41                        1144 1146   Num  CCS: CPT 41
+UT  2020 CORE             250 CPTCCS42                        1147 1149   Num  CCS: CPT 42
+UT  2020 CORE             251 CPTCCS43                        1150 1152   Num  CCS: CPT 43
+UT  2020 CORE             252 CPTCCS44                        1153 1155   Num  CCS: CPT 44
+UT  2020 CORE             253 CPTCCS45                        1156 1158   Num  CCS: CPT 45
+UT  2020 CORE             254 CPTCCS46                        1159 1161   Num  CCS: CPT 46
+UT  2020 CORE             255 CPTCCS47                        1162 1164   Num  CCS: CPT 47
+UT  2020 CORE             256 CPTCCS48                        1165 1167   Num  CCS: CPT 48
+UT  2020 CORE             257 CPTCCS49                        1168 1170   Num  CCS: CPT 49
+UT  2020 CORE             258 CPTCCS50                        1171 1173   Num  CCS: CPT 50
+UT  2020 CORE             259 CPTCCS51                        1174 1176   Num  CCS: CPT 51
+UT  2020 CORE             260 CPTCCS52                        1177 1179   Num  CCS: CPT 52
+UT  2020 CORE             261 CPTCCS53                        1180 1182   Num  CCS: CPT 53
+UT  2020 CORE             262 CPTCCS54                        1183 1185   Num  CCS: CPT 54
+UT  2020 CORE             263 CPTCCS55                        1186 1188   Num  CCS: CPT 55
+UT  2020 CORE             264 CPTCCS56                        1189 1191   Num  CCS: CPT 56
+UT  2020 CORE             265 CPTCCS57                        1192 1194   Num  CCS: CPT 57
+UT  2020 CORE             266 CPTCCS58                        1195 1197   Num  CCS: CPT 58
+UT  2020 CORE             267 CPTCCS59                        1198 1200   Num  CCS: CPT 59
+UT  2020 CORE             268 CPTCCS60                        1201 1203   Num  CCS: CPT 60
+UT  2020 CORE             269 CPTCCS61                        1204 1206   Num  CCS: CPT 61
+UT  2020 CORE             270 CPTCCS62                        1207 1209   Num  CCS: CPT 62
+UT  2020 CORE             271 CPTCCS63                        1210 1212   Num  CCS: CPT 63
+UT  2020 CORE             272 CPTCCS64                        1213 1215   Num  CCS: CPT 64
+UT  2020 CORE             273 CPTCCS65                        1216 1218   Num  CCS: CPT 65
+UT  2020 CORE             274 CPTCCS66                        1219 1221   Num  CCS: CPT 66
+UT  2020 CORE             275 CPTCCS67                        1222 1224   Num  CCS: CPT 67
+UT  2020 CORE             276 CPTCCS68                        1225 1227   Num  CCS: CPT 68
+UT  2020 CORE             277 CPTCCS69                        1228 1230   Num  CCS: CPT 69
+UT  2020 CORE             278 CPTCCS70                        1231 1233   Num  CCS: CPT 70
+UT  2020 CORE             279 CPTCCS71                        1234 1236   Num  CCS: CPT 71
+UT  2020 CORE             280 CPTCCS72                        1237 1239   Num  CCS: CPT 72
+UT  2020 CORE             281 CPTCCS73                        1240 1242   Num  CCS: CPT 73
+UT  2020 CORE             282 CPTCCS74                        1243 1245   Num  CCS: CPT 74
+UT  2020 CORE             283 CPTCCS75                        1246 1248   Num  CCS: CPT 75
+UT  2020 CORE             284 CPTCCS76                        1249 1251   Num  CCS: CPT 76
+UT  2020 CORE             285 CPTCCS77                        1252 1254   Num  CCS: CPT 77
+UT  2020 CORE             286 CPTCCS78                        1255 1257   Num  CCS: CPT 78
+UT  2020 CORE             287 CPTCCS79                        1258 1260   Num  CCS: CPT 79
+UT  2020 CORE             288 CPTCCS80                        1261 1263   Num  CCS: CPT 80
+UT  2020 CORE             289 CPTCCS81                        1264 1266   Num  CCS: CPT 81
+UT  2020 CORE             290 CPTCCS82                        1267 1269   Num  CCS: CPT 82
+UT  2020 CORE             291 CPTCCS83                        1270 1272   Num  CCS: CPT 83
+UT  2020 CORE             292 CPTCCS84                        1273 1275   Num  CCS: CPT 84
+UT  2020 CORE             293 CPTCCS85                        1276 1278   Num  CCS: CPT 85
+UT  2020 CORE             294 CPTCCS86                        1279 1281   Num  CCS: CPT 86
+UT  2020 CORE             295 CPTCCS87                        1282 1284   Num  CCS: CPT 87
+UT  2020 CORE             296 CPTCCS88                        1285 1287   Num  CCS: CPT 88
+UT  2020 CORE             297 CPTCCS89                        1288 1290   Num  CCS: CPT 89
+UT  2020 CORE             298 CPTCCS90                        1291 1293   Num  CCS: CPT 90
+UT  2020 CORE             299 CPTCCS91                        1294 1296   Num  CCS: CPT 91
+UT  2020 CORE             300 CPTCCS92                        1297 1299   Num  CCS: CPT 92
+UT  2020 CORE             301 CPTCCS93                        1300 1302   Num  CCS: CPT 93
+UT  2020 CORE             302 CPTCCS94                        1303 1305   Num  CCS: CPT 94
+UT  2020 CORE             303 CPTCCS95                        1306 1308   Num  CCS: CPT 95
+UT  2020 CORE             304 CPTCCS96                        1309 1311   Num  CCS: CPT 96
+UT  2020 CORE             305 CPTCCS97                        1312 1314   Num  CCS: CPT 97
+UT  2020 CORE             306 CPTCCS98                        1315 1317   Num  CCS: CPT 98
+UT  2020 CORE             307 CPTCCS99                        1318 1320   Num  CCS: CPT 99
+UT  2020 CORE             308 CPTCCS100                       1321 1323   Num  CCS: CPT 100
+UT  2020 CORE             309 CPTCCS101                       1324 1326   Num  CCS: CPT 101
+UT  2020 CORE             310 CPTCCS102                       1327 1329   Num  CCS: CPT 102
+UT  2020 CORE             311 CPTCCS103                       1330 1332   Num  CCS: CPT 103
+UT  2020 CORE             312 CPTCCS104                       1333 1335   Num  CCS: CPT 104
+UT  2020 CORE             313 CPTCCS105                       1336 1338   Num  CCS: CPT 105
+UT  2020 CORE             314 CPTCCS106                       1339 1341   Num  CCS: CPT 106
+UT  2020 CORE             315 CPTCCS107                       1342 1344   Num  CCS: CPT 107
+UT  2020 CORE             316 CPTCCS108                       1345 1347   Num  CCS: CPT 108
+UT  2020 CORE             317 CPTCCS109                       1348 1350   Num  CCS: CPT 109
+UT  2020 CORE             318 CPTCCS110                       1351 1353   Num  CCS: CPT 110
+UT  2020 CORE             319 CPTCCS111                       1354 1356   Num  CCS: CPT 111
+UT  2020 CORE             320 CPTCCS112                       1357 1359   Num  CCS: CPT 112
+UT  2020 CORE             321 CPTCCS113                       1360 1362   Num  CCS: CPT 113
+UT  2020 CORE             322 CPTCCS114                       1363 1365   Num  CCS: CPT 114
+UT  2020 CORE             323 CPTCCS115                       1366 1368   Num  CCS: CPT 115
+UT  2020 CORE             324 CPTCCS116                       1369 1371   Num  CCS: CPT 116
+UT  2020 CORE             325 CPTCCS117                       1372 1374   Num  CCS: CPT 117
+UT  2020 CORE             326 CPTCCS118                       1375 1377   Num  CCS: CPT 118
+UT  2020 CORE             327 CPTCCS119                       1378 1380   Num  CCS: CPT 119
+UT  2020 CORE             328 CPTCCS120                       1381 1383   Num  CCS: CPT 120
+UT  2020 CORE             329 CPTCCS121                       1384 1386   Num  CCS: CPT 121
+UT  2020 CORE             330 CPTCCS122                       1387 1389   Num  CCS: CPT 122
+UT  2020 CORE             331 CPTCCS123                       1390 1392   Num  CCS: CPT 123
+UT  2020 CORE             332 CPTCCS124                       1393 1395   Num  CCS: CPT 124
+UT  2020 CORE             333 CPTCCS125                       1396 1398   Num  CCS: CPT 125
+UT  2020 CORE             334 CPTCCS126                       1399 1401   Num  CCS: CPT 126
+UT  2020 CORE             335 CPTCCS127                       1402 1404   Num  CCS: CPT 127
+UT  2020 CORE             336 CPTCCS128                       1405 1407   Num  CCS: CPT 128
+UT  2020 CORE             337 CPTCCS129                       1408 1410   Num  CCS: CPT 129
+UT  2020 CORE             338 CPTCCS130                       1411 1413   Num  CCS: CPT 130
+UT  2020 CORE             339 CPTCCS131                       1414 1416   Num  CCS: CPT 131
+UT  2020 CORE             340 CPTCCS132                       1417 1419   Num  CCS: CPT 132
+UT  2020 CORE             341 CPTCCS133                       1420 1422   Num  CCS: CPT 133
+UT  2020 CORE             342 CPTCCS134                       1423 1425   Num  CCS: CPT 134
+UT  2020 CORE             343 CPTCCS135                       1426 1428   Num  CCS: CPT 135
+UT  2020 CORE             344 CPTCCS136                       1429 1431   Num  CCS: CPT 136
+UT  2020 CORE             345 CPTCCS137                       1432 1434   Num  CCS: CPT 137
+UT  2020 CORE             346 CPTCCS138                       1435 1437   Num  CCS: CPT 138
+UT  2020 CORE             347 CPTCCS139                       1438 1440   Num  CCS: CPT 139
+UT  2020 CORE             348 CPTCCS140                       1441 1443   Num  CCS: CPT 140
+UT  2020 CORE             349 CPTCCS141                       1444 1446   Num  CCS: CPT 141
+UT  2020 CORE             350 CPTCCS142                       1447 1449   Num  CCS: CPT 142
+UT  2020 CORE             351 CPTCCS143                       1450 1452   Num  CCS: CPT 143
+UT  2020 CORE             352 CPTCCS144                       1453 1455   Num  CCS: CPT 144
+UT  2020 CORE             353 CPTCCS145                       1456 1458   Num  CCS: CPT 145
+UT  2020 CORE             354 CPTCCS146                       1459 1461   Num  CCS: CPT 146
+UT  2020 CORE             355 CPTCCS147                       1462 1464   Num  CCS: CPT 147
+UT  2020 CORE             356 CPTCCS148                       1465 1467   Num  CCS: CPT 148
+UT  2020 CORE             357 CPTCCS149                       1468 1470   Num  CCS: CPT 149
+UT  2020 CORE             358 CPTCCS150                       1471 1473   Num  CCS: CPT 150
+UT  2020 CORE             359 CPTCCS151                       1474 1476   Num  CCS: CPT 151
+UT  2020 CORE             360 CPTCCS152                       1477 1479   Num  CCS: CPT 152
+UT  2020 CORE             361 CPTCCS153                       1480 1482   Num  CCS: CPT 153
+UT  2020 CORE             362 CPTCCS154                       1483 1485   Num  CCS: CPT 154
+UT  2020 CORE             363 CPTCCS155                       1486 1488   Num  CCS: CPT 155
+UT  2020 CORE             364 CPTCCS156                       1489 1491   Num  CCS: CPT 156
+UT  2020 CORE             365 CPTCCS157                       1492 1494   Num  CCS: CPT 157
+UT  2020 CORE             366 CPTCCS158                       1495 1497   Num  CCS: CPT 158
+UT  2020 CORE             367 CPTCCS159                       1498 1500   Num  CCS: CPT 159
+UT  2020 CORE             368 CPTCCS160                       1501 1503   Num  CCS: CPT 160
+UT  2020 CORE             369 CPTCCS161                       1504 1506   Num  CCS: CPT 161
+UT  2020 CORE             370 CPTCCS162                       1507 1509   Num  CCS: CPT 162
+UT  2020 CORE             371 CPTCCS163                       1510 1512   Num  CCS: CPT 163
+UT  2020 CORE             372 CPTCCS164                       1513 1515   Num  CCS: CPT 164
+UT  2020 CORE             373 CPTCCS165                       1516 1518   Num  CCS: CPT 165
+UT  2020 CORE             374 CPTCCS166                       1519 1521   Num  CCS: CPT 166
+UT  2020 CORE             375 CPTCCS167                       1522 1524   Num  CCS: CPT 167
+UT  2020 CORE             376 CPTCCS168                       1525 1527   Num  CCS: CPT 168
+UT  2020 CORE             377 CPTCCS169                       1528 1530   Num  CCS: CPT 169
+UT  2020 CORE             378 CPTCCS170                       1531 1533   Num  CCS: CPT 170
+UT  2020 CORE             379 CPTCCS171                       1534 1536   Num  CCS: CPT 171
+UT  2020 CORE             380 CPTCCS172                       1537 1539   Num  CCS: CPT 172
+UT  2020 CORE             381 CPTCCS173                       1540 1542   Num  CCS: CPT 173
+UT  2020 CORE             382 CPTCCS174                       1543 1545   Num  CCS: CPT 174
+UT  2020 CORE             383 CPTCCS175                       1546 1548   Num  CCS: CPT 175
+UT  2020 CORE             384 CPTCCS176                       1549 1551   Num  CCS: CPT 176
+UT  2020 CORE             385 CPTCCS177                       1552 1554   Num  CCS: CPT 177
+UT  2020 CORE             386 CPTCCS178                       1555 1557   Num  CCS: CPT 178
+UT  2020 CORE             387 CPTCCS179                       1558 1560   Num  CCS: CPT 179
+UT  2020 CORE             388 CPTCCS180                       1561 1563   Num  CCS: CPT 180
+UT  2020 CORE             389 CPTCCS181                       1564 1566   Num  CCS: CPT 181
+UT  2020 CORE             390 CPTCCS182                       1567 1569   Num  CCS: CPT 182
+UT  2020 CORE             391 CPTCCS183                       1570 1572   Num  CCS: CPT 183
+UT  2020 CORE             392 CPTCCS184                       1573 1575   Num  CCS: CPT 184
+UT  2020 CORE             393 CPTCCS185                       1576 1578   Num  CCS: CPT 185
+UT  2020 CORE             394 CPTCCS186                       1579 1581   Num  CCS: CPT 186
+UT  2020 CORE             395 CPTCCS187                       1582 1584   Num  CCS: CPT 187
+UT  2020 CORE             396 CPTCCS188                       1585 1587   Num  CCS: CPT 188
+UT  2020 CORE             397 CPTCCS189                       1588 1590   Num  CCS: CPT 189
+UT  2020 CORE             398 CPTCCS190                       1591 1593   Num  CCS: CPT 190
+UT  2020 CORE             399 CPTCCS191                       1594 1596   Num  CCS: CPT 191
+UT  2020 CORE             400 CPTCCS192                       1597 1599   Num  CCS: CPT 192
+UT  2020 CORE             401 CPTCCS193                       1600 1602   Num  CCS: CPT 193
+UT  2020 CORE             402 CPTCCS194                       1603 1605   Num  CCS: CPT 194
+UT  2020 CORE             403 CPTCCS195                       1606 1608   Num  CCS: CPT 195
+UT  2020 CORE             404 CPTCCS196                       1609 1611   Num  CCS: CPT 196
+UT  2020 CORE             405 CPTCCS197                       1612 1614   Num  CCS: CPT 197
+UT  2020 CORE             406 CPTCCS198                       1615 1617   Num  CCS: CPT 198
+UT  2020 CORE             407 CPTCCS199                       1618 1620   Num  CCS: CPT 199
+UT  2020 CORE             408 CPTCCS200                       1621 1623   Num  CCS: CPT 200
+UT  2020 CORE             409 CPTM1_1                         1624 1625   Char First CPT-4/HCPCS modifier 1
+UT  2020 CORE             410 CPTM1_2                         1626 1627   Char First CPT-4/HCPCS modifier 2
+UT  2020 CORE             411 CPTM1_3                         1628 1629   Char First CPT-4/HCPCS modifier 3
+UT  2020 CORE             412 CPTM1_4                         1630 1631   Char First CPT-4/HCPCS modifier 4
+UT  2020 CORE             413 CPTM1_5                         1632 1633   Char First CPT-4/HCPCS modifier 5
+UT  2020 CORE             414 CPTM1_6                         1634 1635   Char First CPT-4/HCPCS modifier 6
+UT  2020 CORE             415 CPTM1_7                         1636 1637   Char First CPT-4/HCPCS modifier 7
+UT  2020 CORE             416 CPTM1_8                         1638 1639   Char First CPT-4/HCPCS modifier 8
+UT  2020 CORE             417 CPTM1_9                         1640 1641   Char First CPT-4/HCPCS modifier 9
+UT  2020 CORE             418 CPTM1_10                        1642 1643   Char First CPT-4/HCPCS modifier 10
+UT  2020 CORE             419 CPTM1_11                        1644 1645   Char First CPT-4/HCPCS modifier 11
+UT  2020 CORE             420 CPTM1_12                        1646 1647   Char First CPT-4/HCPCS modifier 12
+UT  2020 CORE             421 CPTM1_13                        1648 1649   Char First CPT-4/HCPCS modifier 13
+UT  2020 CORE             422 CPTM1_14                        1650 1651   Char First CPT-4/HCPCS modifier 14
+UT  2020 CORE             423 CPTM1_15                        1652 1653   Char First CPT-4/HCPCS modifier 15
+UT  2020 CORE             424 CPTM1_16                        1654 1655   Char First CPT-4/HCPCS modifier 16
+UT  2020 CORE             425 CPTM1_17                        1656 1657   Char First CPT-4/HCPCS modifier 17
+UT  2020 CORE             426 CPTM1_18                        1658 1659   Char First CPT-4/HCPCS modifier 18
+UT  2020 CORE             427 CPTM1_19                        1660 1661   Char First CPT-4/HCPCS modifier 19
+UT  2020 CORE             428 CPTM1_20                        1662 1663   Char First CPT-4/HCPCS modifier 20
+UT  2020 CORE             429 CPTM1_21                        1664 1665   Char First CPT-4/HCPCS modifier 21
+UT  2020 CORE             430 CPTM1_22                        1666 1667   Char First CPT-4/HCPCS modifier 22
+UT  2020 CORE             431 CPTM1_23                        1668 1669   Char First CPT-4/HCPCS modifier 23
+UT  2020 CORE             432 CPTM1_24                        1670 1671   Char First CPT-4/HCPCS modifier 24
+UT  2020 CORE             433 CPTM1_25                        1672 1673   Char First CPT-4/HCPCS modifier 25
+UT  2020 CORE             434 CPTM1_26                        1674 1675   Char First CPT-4/HCPCS modifier 26
+UT  2020 CORE             435 CPTM1_27                        1676 1677   Char First CPT-4/HCPCS modifier 27
+UT  2020 CORE             436 CPTM1_28                        1678 1679   Char First CPT-4/HCPCS modifier 28
+UT  2020 CORE             437 CPTM1_29                        1680 1681   Char First CPT-4/HCPCS modifier 29
+UT  2020 CORE             438 CPTM1_30                        1682 1683   Char First CPT-4/HCPCS modifier 30
+UT  2020 CORE             439 CPTM1_31                        1684 1685   Char First CPT-4/HCPCS modifier 31
+UT  2020 CORE             440 CPTM1_32                        1686 1687   Char First CPT-4/HCPCS modifier 32
+UT  2020 CORE             441 CPTM1_33                        1688 1689   Char First CPT-4/HCPCS modifier 33
+UT  2020 CORE             442 CPTM1_34                        1690 1691   Char First CPT-4/HCPCS modifier 34
+UT  2020 CORE             443 CPTM1_35                        1692 1693   Char First CPT-4/HCPCS modifier 35
+UT  2020 CORE             444 CPTM1_36                        1694 1695   Char First CPT-4/HCPCS modifier 36
+UT  2020 CORE             445 CPTM1_37                        1696 1697   Char First CPT-4/HCPCS modifier 37
+UT  2020 CORE             446 CPTM1_38                        1698 1699   Char First CPT-4/HCPCS modifier 38
+UT  2020 CORE             447 CPTM1_39                        1700 1701   Char First CPT-4/HCPCS modifier 39
+UT  2020 CORE             448 CPTM1_40                        1702 1703   Char First CPT-4/HCPCS modifier 40
+UT  2020 CORE             449 CPTM1_41                        1704 1705   Char First CPT-4/HCPCS modifier 41
+UT  2020 CORE             450 CPTM1_42                        1706 1707   Char First CPT-4/HCPCS modifier 42
+UT  2020 CORE             451 CPTM1_43                        1708 1709   Char First CPT-4/HCPCS modifier 43
+UT  2020 CORE             452 CPTM1_44                        1710 1711   Char First CPT-4/HCPCS modifier 44
+UT  2020 CORE             453 CPTM1_45                        1712 1713   Char First CPT-4/HCPCS modifier 45
+UT  2020 CORE             454 CPTM1_46                        1714 1715   Char First CPT-4/HCPCS modifier 46
+UT  2020 CORE             455 CPTM1_47                        1716 1717   Char First CPT-4/HCPCS modifier 47
+UT  2020 CORE             456 CPTM1_48                        1718 1719   Char First CPT-4/HCPCS modifier 48
+UT  2020 CORE             457 CPTM1_49                        1720 1721   Char First CPT-4/HCPCS modifier 49
+UT  2020 CORE             458 CPTM1_50                        1722 1723   Char First CPT-4/HCPCS modifier 50
+UT  2020 CORE             459 CPTM1_51                        1724 1725   Char First CPT-4/HCPCS modifier 51
+UT  2020 CORE             460 CPTM1_52                        1726 1727   Char First CPT-4/HCPCS modifier 52
+UT  2020 CORE             461 CPTM1_53                        1728 1729   Char First CPT-4/HCPCS modifier 53
+UT  2020 CORE             462 CPTM1_54                        1730 1731   Char First CPT-4/HCPCS modifier 54
+UT  2020 CORE             463 CPTM1_55                        1732 1733   Char First CPT-4/HCPCS modifier 55
+UT  2020 CORE             464 CPTM1_56                        1734 1735   Char First CPT-4/HCPCS modifier 56
+UT  2020 CORE             465 CPTM1_57                        1736 1737   Char First CPT-4/HCPCS modifier 57
+UT  2020 CORE             466 CPTM1_58                        1738 1739   Char First CPT-4/HCPCS modifier 58
+UT  2020 CORE             467 CPTM1_59                        1740 1741   Char First CPT-4/HCPCS modifier 59
+UT  2020 CORE             468 CPTM1_60                        1742 1743   Char First CPT-4/HCPCS modifier 60
+UT  2020 CORE             469 CPTM1_61                        1744 1745   Char First CPT-4/HCPCS modifier 61
+UT  2020 CORE             470 CPTM1_62                        1746 1747   Char First CPT-4/HCPCS modifier 62
+UT  2020 CORE             471 CPTM1_63                        1748 1749   Char First CPT-4/HCPCS modifier 63
+UT  2020 CORE             472 CPTM1_64                        1750 1751   Char First CPT-4/HCPCS modifier 64
+UT  2020 CORE             473 CPTM1_65                        1752 1753   Char First CPT-4/HCPCS modifier 65
+UT  2020 CORE             474 CPTM1_66                        1754 1755   Char First CPT-4/HCPCS modifier 66
+UT  2020 CORE             475 CPTM1_67                        1756 1757   Char First CPT-4/HCPCS modifier 67
+UT  2020 CORE             476 CPTM1_68                        1758 1759   Char First CPT-4/HCPCS modifier 68
+UT  2020 CORE             477 CPTM1_69                        1760 1761   Char First CPT-4/HCPCS modifier 69
+UT  2020 CORE             478 CPTM1_70                        1762 1763   Char First CPT-4/HCPCS modifier 70
+UT  2020 CORE             479 CPTM1_71                        1764 1765   Char First CPT-4/HCPCS modifier 71
+UT  2020 CORE             480 CPTM1_72                        1766 1767   Char First CPT-4/HCPCS modifier 72
+UT  2020 CORE             481 CPTM1_73                        1768 1769   Char First CPT-4/HCPCS modifier 73
+UT  2020 CORE             482 CPTM1_74                        1770 1771   Char First CPT-4/HCPCS modifier 74
+UT  2020 CORE             483 CPTM1_75                        1772 1773   Char First CPT-4/HCPCS modifier 75
+UT  2020 CORE             484 CPTM1_76                        1774 1775   Char First CPT-4/HCPCS modifier 76
+UT  2020 CORE             485 CPTM1_77                        1776 1777   Char First CPT-4/HCPCS modifier 77
+UT  2020 CORE             486 CPTM1_78                        1778 1779   Char First CPT-4/HCPCS modifier 78
+UT  2020 CORE             487 CPTM1_79                        1780 1781   Char First CPT-4/HCPCS modifier 79
+UT  2020 CORE             488 CPTM1_80                        1782 1783   Char First CPT-4/HCPCS modifier 80
+UT  2020 CORE             489 CPTM1_81                        1784 1785   Char First CPT-4/HCPCS modifier 81
+UT  2020 CORE             490 CPTM1_82                        1786 1787   Char First CPT-4/HCPCS modifier 82
+UT  2020 CORE             491 CPTM1_83                        1788 1789   Char First CPT-4/HCPCS modifier 83
+UT  2020 CORE             492 CPTM1_84                        1790 1791   Char First CPT-4/HCPCS modifier 84
+UT  2020 CORE             493 CPTM1_85                        1792 1793   Char First CPT-4/HCPCS modifier 85
+UT  2020 CORE             494 CPTM1_86                        1794 1795   Char First CPT-4/HCPCS modifier 86
+UT  2020 CORE             495 CPTM1_87                        1796 1797   Char First CPT-4/HCPCS modifier 87
+UT  2020 CORE             496 CPTM1_88                        1798 1799   Char First CPT-4/HCPCS modifier 88
+UT  2020 CORE             497 CPTM1_89                        1800 1801   Char First CPT-4/HCPCS modifier 89
+UT  2020 CORE             498 CPTM1_90                        1802 1803   Char First CPT-4/HCPCS modifier 90
+UT  2020 CORE             499 CPTM1_91                        1804 1805   Char First CPT-4/HCPCS modifier 91
+UT  2020 CORE             500 CPTM1_92                        1806 1807   Char First CPT-4/HCPCS modifier 92
+UT  2020 CORE             501 CPTM1_93                        1808 1809   Char First CPT-4/HCPCS modifier 93
+UT  2020 CORE             502 CPTM1_94                        1810 1811   Char First CPT-4/HCPCS modifier 94
+UT  2020 CORE             503 CPTM1_95                        1812 1813   Char First CPT-4/HCPCS modifier 95
+UT  2020 CORE             504 CPTM1_96                        1814 1815   Char First CPT-4/HCPCS modifier 96
+UT  2020 CORE             505 CPTM1_97                        1816 1817   Char First CPT-4/HCPCS modifier 97
+UT  2020 CORE             506 CPTM1_98                        1818 1819   Char First CPT-4/HCPCS modifier 98
+UT  2020 CORE             507 CPTM1_99                        1820 1821   Char First CPT-4/HCPCS modifier 99
+UT  2020 CORE             508 CPTM1_100                       1822 1823   Char First CPT-4/HCPCS modifier 100
+UT  2020 CORE             509 CPTM1_101                       1824 1825   Char First CPT-4/HCPCS modifier 101
+UT  2020 CORE             510 CPTM1_102                       1826 1827   Char First CPT-4/HCPCS modifier 102
+UT  2020 CORE             511 CPTM1_103                       1828 1829   Char First CPT-4/HCPCS modifier 103
+UT  2020 CORE             512 CPTM1_104                       1830 1831   Char First CPT-4/HCPCS modifier 104
+UT  2020 CORE             513 CPTM1_105                       1832 1833   Char First CPT-4/HCPCS modifier 105
+UT  2020 CORE             514 CPTM1_106                       1834 1835   Char First CPT-4/HCPCS modifier 106
+UT  2020 CORE             515 CPTM1_107                       1836 1837   Char First CPT-4/HCPCS modifier 107
+UT  2020 CORE             516 CPTM1_108                       1838 1839   Char First CPT-4/HCPCS modifier 108
+UT  2020 CORE             517 CPTM1_109                       1840 1841   Char First CPT-4/HCPCS modifier 109
+UT  2020 CORE             518 CPTM1_110                       1842 1843   Char First CPT-4/HCPCS modifier 110
+UT  2020 CORE             519 CPTM1_111                       1844 1845   Char First CPT-4/HCPCS modifier 111
+UT  2020 CORE             520 CPTM1_112                       1846 1847   Char First CPT-4/HCPCS modifier 112
+UT  2020 CORE             521 CPTM1_113                       1848 1849   Char First CPT-4/HCPCS modifier 113
+UT  2020 CORE             522 CPTM1_114                       1850 1851   Char First CPT-4/HCPCS modifier 114
+UT  2020 CORE             523 CPTM1_115                       1852 1853   Char First CPT-4/HCPCS modifier 115
+UT  2020 CORE             524 CPTM1_116                       1854 1855   Char First CPT-4/HCPCS modifier 116
+UT  2020 CORE             525 CPTM1_117                       1856 1857   Char First CPT-4/HCPCS modifier 117
+UT  2020 CORE             526 CPTM1_118                       1858 1859   Char First CPT-4/HCPCS modifier 118
+UT  2020 CORE             527 CPTM1_119                       1860 1861   Char First CPT-4/HCPCS modifier 119
+UT  2020 CORE             528 CPTM1_120                       1862 1863   Char First CPT-4/HCPCS modifier 120
+UT  2020 CORE             529 CPTM1_121                       1864 1865   Char First CPT-4/HCPCS modifier 121
+UT  2020 CORE             530 CPTM1_122                       1866 1867   Char First CPT-4/HCPCS modifier 122
+UT  2020 CORE             531 CPTM1_123                       1868 1869   Char First CPT-4/HCPCS modifier 123
+UT  2020 CORE             532 CPTM1_124                       1870 1871   Char First CPT-4/HCPCS modifier 124
+UT  2020 CORE             533 CPTM1_125                       1872 1873   Char First CPT-4/HCPCS modifier 125
+UT  2020 CORE             534 CPTM1_126                       1874 1875   Char First CPT-4/HCPCS modifier 126
+UT  2020 CORE             535 CPTM1_127                       1876 1877   Char First CPT-4/HCPCS modifier 127
+UT  2020 CORE             536 CPTM1_128                       1878 1879   Char First CPT-4/HCPCS modifier 128
+UT  2020 CORE             537 CPTM1_129                       1880 1881   Char First CPT-4/HCPCS modifier 129
+UT  2020 CORE             538 CPTM1_130                       1882 1883   Char First CPT-4/HCPCS modifier 130
+UT  2020 CORE             539 CPTM1_131                       1884 1885   Char First CPT-4/HCPCS modifier 131
+UT  2020 CORE             540 CPTM1_132                       1886 1887   Char First CPT-4/HCPCS modifier 132
+UT  2020 CORE             541 CPTM1_133                       1888 1889   Char First CPT-4/HCPCS modifier 133
+UT  2020 CORE             542 CPTM1_134                       1890 1891   Char First CPT-4/HCPCS modifier 134
+UT  2020 CORE             543 CPTM1_135                       1892 1893   Char First CPT-4/HCPCS modifier 135
+UT  2020 CORE             544 CPTM1_136                       1894 1895   Char First CPT-4/HCPCS modifier 136
+UT  2020 CORE             545 CPTM1_137                       1896 1897   Char First CPT-4/HCPCS modifier 137
+UT  2020 CORE             546 CPTM1_138                       1898 1899   Char First CPT-4/HCPCS modifier 138
+UT  2020 CORE             547 CPTM1_139                       1900 1901   Char First CPT-4/HCPCS modifier 139
+UT  2020 CORE             548 CPTM1_140                       1902 1903   Char First CPT-4/HCPCS modifier 140
+UT  2020 CORE             549 CPTM1_141                       1904 1905   Char First CPT-4/HCPCS modifier 141
+UT  2020 CORE             550 CPTM1_142                       1906 1907   Char First CPT-4/HCPCS modifier 142
+UT  2020 CORE             551 CPTM1_143                       1908 1909   Char First CPT-4/HCPCS modifier 143
+UT  2020 CORE             552 CPTM1_144                       1910 1911   Char First CPT-4/HCPCS modifier 144
+UT  2020 CORE             553 CPTM1_145                       1912 1913   Char First CPT-4/HCPCS modifier 145
+UT  2020 CORE             554 CPTM1_146                       1914 1915   Char First CPT-4/HCPCS modifier 146
+UT  2020 CORE             555 CPTM1_147                       1916 1917   Char First CPT-4/HCPCS modifier 147
+UT  2020 CORE             556 CPTM1_148                       1918 1919   Char First CPT-4/HCPCS modifier 148
+UT  2020 CORE             557 CPTM1_149                       1920 1921   Char First CPT-4/HCPCS modifier 149
+UT  2020 CORE             558 CPTM1_150                       1922 1923   Char First CPT-4/HCPCS modifier 150
+UT  2020 CORE             559 CPTM1_151                       1924 1925   Char First CPT-4/HCPCS modifier 151
+UT  2020 CORE             560 CPTM1_152                       1926 1927   Char First CPT-4/HCPCS modifier 152
+UT  2020 CORE             561 CPTM1_153                       1928 1929   Char First CPT-4/HCPCS modifier 153
+UT  2020 CORE             562 CPTM1_154                       1930 1931   Char First CPT-4/HCPCS modifier 154
+UT  2020 CORE             563 CPTM1_155                       1932 1933   Char First CPT-4/HCPCS modifier 155
+UT  2020 CORE             564 CPTM1_156                       1934 1935   Char First CPT-4/HCPCS modifier 156
+UT  2020 CORE             565 CPTM1_157                       1936 1937   Char First CPT-4/HCPCS modifier 157
+UT  2020 CORE             566 CPTM1_158                       1938 1939   Char First CPT-4/HCPCS modifier 158
+UT  2020 CORE             567 CPTM1_159                       1940 1941   Char First CPT-4/HCPCS modifier 159
+UT  2020 CORE             568 CPTM1_160                       1942 1943   Char First CPT-4/HCPCS modifier 160
+UT  2020 CORE             569 CPTM1_161                       1944 1945   Char First CPT-4/HCPCS modifier 161
+UT  2020 CORE             570 CPTM1_162                       1946 1947   Char First CPT-4/HCPCS modifier 162
+UT  2020 CORE             571 CPTM1_163                       1948 1949   Char First CPT-4/HCPCS modifier 163
+UT  2020 CORE             572 CPTM1_164                       1950 1951   Char First CPT-4/HCPCS modifier 164
+UT  2020 CORE             573 CPTM1_165                       1952 1953   Char First CPT-4/HCPCS modifier 165
+UT  2020 CORE             574 CPTM1_166                       1954 1955   Char First CPT-4/HCPCS modifier 166
+UT  2020 CORE             575 CPTM1_167                       1956 1957   Char First CPT-4/HCPCS modifier 167
+UT  2020 CORE             576 CPTM1_168                       1958 1959   Char First CPT-4/HCPCS modifier 168
+UT  2020 CORE             577 CPTM1_169                       1960 1961   Char First CPT-4/HCPCS modifier 169
+UT  2020 CORE             578 CPTM1_170                       1962 1963   Char First CPT-4/HCPCS modifier 170
+UT  2020 CORE             579 CPTM1_171                       1964 1965   Char First CPT-4/HCPCS modifier 171
+UT  2020 CORE             580 CPTM1_172                       1966 1967   Char First CPT-4/HCPCS modifier 172
+UT  2020 CORE             581 CPTM1_173                       1968 1969   Char First CPT-4/HCPCS modifier 173
+UT  2020 CORE             582 CPTM1_174                       1970 1971   Char First CPT-4/HCPCS modifier 174
+UT  2020 CORE             583 CPTM1_175                       1972 1973   Char First CPT-4/HCPCS modifier 175
+UT  2020 CORE             584 CPTM1_176                       1974 1975   Char First CPT-4/HCPCS modifier 176
+UT  2020 CORE             585 CPTM1_177                       1976 1977   Char First CPT-4/HCPCS modifier 177
+UT  2020 CORE             586 CPTM1_178                       1978 1979   Char First CPT-4/HCPCS modifier 178
+UT  2020 CORE             587 CPTM1_179                       1980 1981   Char First CPT-4/HCPCS modifier 179
+UT  2020 CORE             588 CPTM1_180                       1982 1983   Char First CPT-4/HCPCS modifier 180
+UT  2020 CORE             589 CPTM1_181                       1984 1985   Char First CPT-4/HCPCS modifier 181
+UT  2020 CORE             590 CPTM1_182                       1986 1987   Char First CPT-4/HCPCS modifier 182
+UT  2020 CORE             591 CPTM1_183                       1988 1989   Char First CPT-4/HCPCS modifier 183
+UT  2020 CORE             592 CPTM1_184                       1990 1991   Char First CPT-4/HCPCS modifier 184
+UT  2020 CORE             593 CPTM1_185                       1992 1993   Char First CPT-4/HCPCS modifier 185
+UT  2020 CORE             594 CPTM1_186                       1994 1995   Char First CPT-4/HCPCS modifier 186
+UT  2020 CORE             595 CPTM1_187                       1996 1997   Char First CPT-4/HCPCS modifier 187
+UT  2020 CORE             596 CPTM1_188                       1998 1999   Char First CPT-4/HCPCS modifier 188
+UT  2020 CORE             597 CPTM1_189                       2000 2001   Char First CPT-4/HCPCS modifier 189
+UT  2020 CORE             598 CPTM1_190                       2002 2003   Char First CPT-4/HCPCS modifier 190
+UT  2020 CORE             599 CPTM1_191                       2004 2005   Char First CPT-4/HCPCS modifier 191
+UT  2020 CORE             600 CPTM1_192                       2006 2007   Char First CPT-4/HCPCS modifier 192
+UT  2020 CORE             601 CPTM1_193                       2008 2009   Char First CPT-4/HCPCS modifier 193
+UT  2020 CORE             602 CPTM1_194                       2010 2011   Char First CPT-4/HCPCS modifier 194
+UT  2020 CORE             603 CPTM1_195                       2012 2013   Char First CPT-4/HCPCS modifier 195
+UT  2020 CORE             604 CPTM1_196                       2014 2015   Char First CPT-4/HCPCS modifier 196
+UT  2020 CORE             605 CPTM1_197                       2016 2017   Char First CPT-4/HCPCS modifier 197
+UT  2020 CORE             606 CPTM1_198                       2018 2019   Char First CPT-4/HCPCS modifier 198
+UT  2020 CORE             607 CPTM1_199                       2020 2021   Char First CPT-4/HCPCS modifier 199
+UT  2020 CORE             608 CPTM1_200                       2022 2023   Char First CPT-4/HCPCS modifier 200
+UT  2020 CORE             609 CPTM2_1                         2024 2025   Char Second CPT-4/HCPCS modifier 1
+UT  2020 CORE             610 CPTM2_2                         2026 2027   Char Second CPT-4/HCPCS modifier 2
+UT  2020 CORE             611 CPTM2_3                         2028 2029   Char Second CPT-4/HCPCS modifier 3
+UT  2020 CORE             612 CPTM2_4                         2030 2031   Char Second CPT-4/HCPCS modifier 4
+UT  2020 CORE             613 CPTM2_5                         2032 2033   Char Second CPT-4/HCPCS modifier 5
+UT  2020 CORE             614 CPTM2_6                         2034 2035   Char Second CPT-4/HCPCS modifier 6
+UT  2020 CORE             615 CPTM2_7                         2036 2037   Char Second CPT-4/HCPCS modifier 7
+UT  2020 CORE             616 CPTM2_8                         2038 2039   Char Second CPT-4/HCPCS modifier 8
+UT  2020 CORE             617 CPTM2_9                         2040 2041   Char Second CPT-4/HCPCS modifier 9
+UT  2020 CORE             618 CPTM2_10                        2042 2043   Char Second CPT-4/HCPCS modifier 10
+UT  2020 CORE             619 CPTM2_11                        2044 2045   Char Second CPT-4/HCPCS modifier 11
+UT  2020 CORE             620 CPTM2_12                        2046 2047   Char Second CPT-4/HCPCS modifier 12
+UT  2020 CORE             621 CPTM2_13                        2048 2049   Char Second CPT-4/HCPCS modifier 13
+UT  2020 CORE             622 CPTM2_14                        2050 2051   Char Second CPT-4/HCPCS modifier 14
+UT  2020 CORE             623 CPTM2_15                        2052 2053   Char Second CPT-4/HCPCS modifier 15
+UT  2020 CORE             624 CPTM2_16                        2054 2055   Char Second CPT-4/HCPCS modifier 16
+UT  2020 CORE             625 CPTM2_17                        2056 2057   Char Second CPT-4/HCPCS modifier 17
+UT  2020 CORE             626 CPTM2_18                        2058 2059   Char Second CPT-4/HCPCS modifier 18
+UT  2020 CORE             627 CPTM2_19                        2060 2061   Char Second CPT-4/HCPCS modifier 19
+UT  2020 CORE             628 CPTM2_20                        2062 2063   Char Second CPT-4/HCPCS modifier 20
+UT  2020 CORE             629 CPTM2_21                        2064 2065   Char Second CPT-4/HCPCS modifier 21
+UT  2020 CORE             630 CPTM2_22                        2066 2067   Char Second CPT-4/HCPCS modifier 22
+UT  2020 CORE             631 CPTM2_23                        2068 2069   Char Second CPT-4/HCPCS modifier 23
+UT  2020 CORE             632 CPTM2_24                        2070 2071   Char Second CPT-4/HCPCS modifier 24
+UT  2020 CORE             633 CPTM2_25                        2072 2073   Char Second CPT-4/HCPCS modifier 25
+UT  2020 CORE             634 CPTM2_26                        2074 2075   Char Second CPT-4/HCPCS modifier 26
+UT  2020 CORE             635 CPTM2_27                        2076 2077   Char Second CPT-4/HCPCS modifier 27
+UT  2020 CORE             636 CPTM2_28                        2078 2079   Char Second CPT-4/HCPCS modifier 28
+UT  2020 CORE             637 CPTM2_29                        2080 2081   Char Second CPT-4/HCPCS modifier 29
+UT  2020 CORE             638 CPTM2_30                        2082 2083   Char Second CPT-4/HCPCS modifier 30
+UT  2020 CORE             639 CPTM2_31                        2084 2085   Char Second CPT-4/HCPCS modifier 31
+UT  2020 CORE             640 CPTM2_32                        2086 2087   Char Second CPT-4/HCPCS modifier 32
+UT  2020 CORE             641 CPTM2_33                        2088 2089   Char Second CPT-4/HCPCS modifier 33
+UT  2020 CORE             642 CPTM2_34                        2090 2091   Char Second CPT-4/HCPCS modifier 34
+UT  2020 CORE             643 CPTM2_35                        2092 2093   Char Second CPT-4/HCPCS modifier 35
+UT  2020 CORE             644 CPTM2_36                        2094 2095   Char Second CPT-4/HCPCS modifier 36
+UT  2020 CORE             645 CPTM2_37                        2096 2097   Char Second CPT-4/HCPCS modifier 37
+UT  2020 CORE             646 CPTM2_38                        2098 2099   Char Second CPT-4/HCPCS modifier 38
+UT  2020 CORE             647 CPTM2_39                        2100 2101   Char Second CPT-4/HCPCS modifier 39
+UT  2020 CORE             648 CPTM2_40                        2102 2103   Char Second CPT-4/HCPCS modifier 40
+UT  2020 CORE             649 CPTM2_41                        2104 2105   Char Second CPT-4/HCPCS modifier 41
+UT  2020 CORE             650 CPTM2_42                        2106 2107   Char Second CPT-4/HCPCS modifier 42
+UT  2020 CORE             651 CPTM2_43                        2108 2109   Char Second CPT-4/HCPCS modifier 43
+UT  2020 CORE             652 CPTM2_44                        2110 2111   Char Second CPT-4/HCPCS modifier 44
+UT  2020 CORE             653 CPTM2_45                        2112 2113   Char Second CPT-4/HCPCS modifier 45
+UT  2020 CORE             654 CPTM2_46                        2114 2115   Char Second CPT-4/HCPCS modifier 46
+UT  2020 CORE             655 CPTM2_47                        2116 2117   Char Second CPT-4/HCPCS modifier 47
+UT  2020 CORE             656 CPTM2_48                        2118 2119   Char Second CPT-4/HCPCS modifier 48
+UT  2020 CORE             657 CPTM2_49                        2120 2121   Char Second CPT-4/HCPCS modifier 49
+UT  2020 CORE             658 CPTM2_50                        2122 2123   Char Second CPT-4/HCPCS modifier 50
+UT  2020 CORE             659 CPTM2_51                        2124 2125   Char Second CPT-4/HCPCS modifier 51
+UT  2020 CORE             660 CPTM2_52                        2126 2127   Char Second CPT-4/HCPCS modifier 52
+UT  2020 CORE             661 CPTM2_53                        2128 2129   Char Second CPT-4/HCPCS modifier 53
+UT  2020 CORE             662 CPTM2_54                        2130 2131   Char Second CPT-4/HCPCS modifier 54
+UT  2020 CORE             663 CPTM2_55                        2132 2133   Char Second CPT-4/HCPCS modifier 55
+UT  2020 CORE             664 CPTM2_56                        2134 2135   Char Second CPT-4/HCPCS modifier 56
+UT  2020 CORE             665 CPTM2_57                        2136 2137   Char Second CPT-4/HCPCS modifier 57
+UT  2020 CORE             666 CPTM2_58                        2138 2139   Char Second CPT-4/HCPCS modifier 58
+UT  2020 CORE             667 CPTM2_59                        2140 2141   Char Second CPT-4/HCPCS modifier 59
+UT  2020 CORE             668 CPTM2_60                        2142 2143   Char Second CPT-4/HCPCS modifier 60
+UT  2020 CORE             669 CPTM2_61                        2144 2145   Char Second CPT-4/HCPCS modifier 61
+UT  2020 CORE             670 CPTM2_62                        2146 2147   Char Second CPT-4/HCPCS modifier 62
+UT  2020 CORE             671 CPTM2_63                        2148 2149   Char Second CPT-4/HCPCS modifier 63
+UT  2020 CORE             672 CPTM2_64                        2150 2151   Char Second CPT-4/HCPCS modifier 64
+UT  2020 CORE             673 CPTM2_65                        2152 2153   Char Second CPT-4/HCPCS modifier 65
+UT  2020 CORE             674 CPTM2_66                        2154 2155   Char Second CPT-4/HCPCS modifier 66
+UT  2020 CORE             675 CPTM2_67                        2156 2157   Char Second CPT-4/HCPCS modifier 67
+UT  2020 CORE             676 CPTM2_68                        2158 2159   Char Second CPT-4/HCPCS modifier 68
+UT  2020 CORE             677 CPTM2_69                        2160 2161   Char Second CPT-4/HCPCS modifier 69
+UT  2020 CORE             678 CPTM2_70                        2162 2163   Char Second CPT-4/HCPCS modifier 70
+UT  2020 CORE             679 CPTM2_71                        2164 2165   Char Second CPT-4/HCPCS modifier 71
+UT  2020 CORE             680 CPTM2_72                        2166 2167   Char Second CPT-4/HCPCS modifier 72
+UT  2020 CORE             681 CPTM2_73                        2168 2169   Char Second CPT-4/HCPCS modifier 73
+UT  2020 CORE             682 CPTM2_74                        2170 2171   Char Second CPT-4/HCPCS modifier 74
+UT  2020 CORE             683 CPTM2_75                        2172 2173   Char Second CPT-4/HCPCS modifier 75
+UT  2020 CORE             684 CPTM2_76                        2174 2175   Char Second CPT-4/HCPCS modifier 76
+UT  2020 CORE             685 CPTM2_77                        2176 2177   Char Second CPT-4/HCPCS modifier 77
+UT  2020 CORE             686 CPTM2_78                        2178 2179   Char Second CPT-4/HCPCS modifier 78
+UT  2020 CORE             687 CPTM2_79                        2180 2181   Char Second CPT-4/HCPCS modifier 79
+UT  2020 CORE             688 CPTM2_80                        2182 2183   Char Second CPT-4/HCPCS modifier 80
+UT  2020 CORE             689 CPTM2_81                        2184 2185   Char Second CPT-4/HCPCS modifier 81
+UT  2020 CORE             690 CPTM2_82                        2186 2187   Char Second CPT-4/HCPCS modifier 82
+UT  2020 CORE             691 CPTM2_83                        2188 2189   Char Second CPT-4/HCPCS modifier 83
+UT  2020 CORE             692 CPTM2_84                        2190 2191   Char Second CPT-4/HCPCS modifier 84
+UT  2020 CORE             693 CPTM2_85                        2192 2193   Char Second CPT-4/HCPCS modifier 85
+UT  2020 CORE             694 CPTM2_86                        2194 2195   Char Second CPT-4/HCPCS modifier 86
+UT  2020 CORE             695 CPTM2_87                        2196 2197   Char Second CPT-4/HCPCS modifier 87
+UT  2020 CORE             696 CPTM2_88                        2198 2199   Char Second CPT-4/HCPCS modifier 88
+UT  2020 CORE             697 CPTM2_89                        2200 2201   Char Second CPT-4/HCPCS modifier 89
+UT  2020 CORE             698 CPTM2_90                        2202 2203   Char Second CPT-4/HCPCS modifier 90
+UT  2020 CORE             699 CPTM2_91                        2204 2205   Char Second CPT-4/HCPCS modifier 91
+UT  2020 CORE             700 CPTM2_92                        2206 2207   Char Second CPT-4/HCPCS modifier 92
+UT  2020 CORE             701 CPTM2_93                        2208 2209   Char Second CPT-4/HCPCS modifier 93
+UT  2020 CORE             702 CPTM2_94                        2210 2211   Char Second CPT-4/HCPCS modifier 94
+UT  2020 CORE             703 CPTM2_95                        2212 2213   Char Second CPT-4/HCPCS modifier 95
+UT  2020 CORE             704 CPTM2_96                        2214 2215   Char Second CPT-4/HCPCS modifier 96
+UT  2020 CORE             705 CPTM2_97                        2216 2217   Char Second CPT-4/HCPCS modifier 97
+UT  2020 CORE             706 CPTM2_98                        2218 2219   Char Second CPT-4/HCPCS modifier 98
+UT  2020 CORE             707 CPTM2_99                        2220 2221   Char Second CPT-4/HCPCS modifier 99
+UT  2020 CORE             708 CPTM2_100                       2222 2223   Char Second CPT-4/HCPCS modifier 100
+UT  2020 CORE             709 CPTM2_101                       2224 2225   Char Second CPT-4/HCPCS modifier 101
+UT  2020 CORE             710 CPTM2_102                       2226 2227   Char Second CPT-4/HCPCS modifier 102
+UT  2020 CORE             711 CPTM2_103                       2228 2229   Char Second CPT-4/HCPCS modifier 103
+UT  2020 CORE             712 CPTM2_104                       2230 2231   Char Second CPT-4/HCPCS modifier 104
+UT  2020 CORE             713 CPTM2_105                       2232 2233   Char Second CPT-4/HCPCS modifier 105
+UT  2020 CORE             714 CPTM2_106                       2234 2235   Char Second CPT-4/HCPCS modifier 106
+UT  2020 CORE             715 CPTM2_107                       2236 2237   Char Second CPT-4/HCPCS modifier 107
+UT  2020 CORE             716 CPTM2_108                       2238 2239   Char Second CPT-4/HCPCS modifier 108
+UT  2020 CORE             717 CPTM2_109                       2240 2241   Char Second CPT-4/HCPCS modifier 109
+UT  2020 CORE             718 CPTM2_110                       2242 2243   Char Second CPT-4/HCPCS modifier 110
+UT  2020 CORE             719 CPTM2_111                       2244 2245   Char Second CPT-4/HCPCS modifier 111
+UT  2020 CORE             720 CPTM2_112                       2246 2247   Char Second CPT-4/HCPCS modifier 112
+UT  2020 CORE             721 CPTM2_113                       2248 2249   Char Second CPT-4/HCPCS modifier 113
+UT  2020 CORE             722 CPTM2_114                       2250 2251   Char Second CPT-4/HCPCS modifier 114
+UT  2020 CORE             723 CPTM2_115                       2252 2253   Char Second CPT-4/HCPCS modifier 115
+UT  2020 CORE             724 CPTM2_116                       2254 2255   Char Second CPT-4/HCPCS modifier 116
+UT  2020 CORE             725 CPTM2_117                       2256 2257   Char Second CPT-4/HCPCS modifier 117
+UT  2020 CORE             726 CPTM2_118                       2258 2259   Char Second CPT-4/HCPCS modifier 118
+UT  2020 CORE             727 CPTM2_119                       2260 2261   Char Second CPT-4/HCPCS modifier 119
+UT  2020 CORE             728 CPTM2_120                       2262 2263   Char Second CPT-4/HCPCS modifier 120
+UT  2020 CORE             729 CPTM2_121                       2264 2265   Char Second CPT-4/HCPCS modifier 121
+UT  2020 CORE             730 CPTM2_122                       2266 2267   Char Second CPT-4/HCPCS modifier 122
+UT  2020 CORE             731 CPTM2_123                       2268 2269   Char Second CPT-4/HCPCS modifier 123
+UT  2020 CORE             732 CPTM2_124                       2270 2271   Char Second CPT-4/HCPCS modifier 124
+UT  2020 CORE             733 CPTM2_125                       2272 2273   Char Second CPT-4/HCPCS modifier 125
+UT  2020 CORE             734 CPTM2_126                       2274 2275   Char Second CPT-4/HCPCS modifier 126
+UT  2020 CORE             735 CPTM2_127                       2276 2277   Char Second CPT-4/HCPCS modifier 127
+UT  2020 CORE             736 CPTM2_128                       2278 2279   Char Second CPT-4/HCPCS modifier 128
+UT  2020 CORE             737 CPTM2_129                       2280 2281   Char Second CPT-4/HCPCS modifier 129
+UT  2020 CORE             738 CPTM2_130                       2282 2283   Char Second CPT-4/HCPCS modifier 130
+UT  2020 CORE             739 CPTM2_131                       2284 2285   Char Second CPT-4/HCPCS modifier 131
+UT  2020 CORE             740 CPTM2_132                       2286 2287   Char Second CPT-4/HCPCS modifier 132
+UT  2020 CORE             741 CPTM2_133                       2288 2289   Char Second CPT-4/HCPCS modifier 133
+UT  2020 CORE             742 CPTM2_134                       2290 2291   Char Second CPT-4/HCPCS modifier 134
+UT  2020 CORE             743 CPTM2_135                       2292 2293   Char Second CPT-4/HCPCS modifier 135
+UT  2020 CORE             744 CPTM2_136                       2294 2295   Char Second CPT-4/HCPCS modifier 136
+UT  2020 CORE             745 CPTM2_137                       2296 2297   Char Second CPT-4/HCPCS modifier 137
+UT  2020 CORE             746 CPTM2_138                       2298 2299   Char Second CPT-4/HCPCS modifier 138
+UT  2020 CORE             747 CPTM2_139                       2300 2301   Char Second CPT-4/HCPCS modifier 139
+UT  2020 CORE             748 CPTM2_140                       2302 2303   Char Second CPT-4/HCPCS modifier 140
+UT  2020 CORE             749 CPTM2_141                       2304 2305   Char Second CPT-4/HCPCS modifier 141
+UT  2020 CORE             750 CPTM2_142                       2306 2307   Char Second CPT-4/HCPCS modifier 142
+UT  2020 CORE             751 CPTM2_143                       2308 2309   Char Second CPT-4/HCPCS modifier 143
+UT  2020 CORE             752 CPTM2_144                       2310 2311   Char Second CPT-4/HCPCS modifier 144
+UT  2020 CORE             753 CPTM2_145                       2312 2313   Char Second CPT-4/HCPCS modifier 145
+UT  2020 CORE             754 CPTM2_146                       2314 2315   Char Second CPT-4/HCPCS modifier 146
+UT  2020 CORE             755 CPTM2_147                       2316 2317   Char Second CPT-4/HCPCS modifier 147
+UT  2020 CORE             756 CPTM2_148                       2318 2319   Char Second CPT-4/HCPCS modifier 148
+UT  2020 CORE             757 CPTM2_149                       2320 2321   Char Second CPT-4/HCPCS modifier 149
+UT  2020 CORE             758 CPTM2_150                       2322 2323   Char Second CPT-4/HCPCS modifier 150
+UT  2020 CORE             759 CPTM2_151                       2324 2325   Char Second CPT-4/HCPCS modifier 151
+UT  2020 CORE             760 CPTM2_152                       2326 2327   Char Second CPT-4/HCPCS modifier 152
+UT  2020 CORE             761 CPTM2_153                       2328 2329   Char Second CPT-4/HCPCS modifier 153
+UT  2020 CORE             762 CPTM2_154                       2330 2331   Char Second CPT-4/HCPCS modifier 154
+UT  2020 CORE             763 CPTM2_155                       2332 2333   Char Second CPT-4/HCPCS modifier 155
+UT  2020 CORE             764 CPTM2_156                       2334 2335   Char Second CPT-4/HCPCS modifier 156
+UT  2020 CORE             765 CPTM2_157                       2336 2337   Char Second CPT-4/HCPCS modifier 157
+UT  2020 CORE             766 CPTM2_158                       2338 2339   Char Second CPT-4/HCPCS modifier 158
+UT  2020 CORE             767 CPTM2_159                       2340 2341   Char Second CPT-4/HCPCS modifier 159
+UT  2020 CORE             768 CPTM2_160                       2342 2343   Char Second CPT-4/HCPCS modifier 160
+UT  2020 CORE             769 CPTM2_161                       2344 2345   Char Second CPT-4/HCPCS modifier 161
+UT  2020 CORE             770 CPTM2_162                       2346 2347   Char Second CPT-4/HCPCS modifier 162
+UT  2020 CORE             771 CPTM2_163                       2348 2349   Char Second CPT-4/HCPCS modifier 163
+UT  2020 CORE             772 CPTM2_164                       2350 2351   Char Second CPT-4/HCPCS modifier 164
+UT  2020 CORE             773 CPTM2_165                       2352 2353   Char Second CPT-4/HCPCS modifier 165
+UT  2020 CORE             774 CPTM2_166                       2354 2355   Char Second CPT-4/HCPCS modifier 166
+UT  2020 CORE             775 CPTM2_167                       2356 2357   Char Second CPT-4/HCPCS modifier 167
+UT  2020 CORE             776 CPTM2_168                       2358 2359   Char Second CPT-4/HCPCS modifier 168
+UT  2020 CORE             777 CPTM2_169                       2360 2361   Char Second CPT-4/HCPCS modifier 169
+UT  2020 CORE             778 CPTM2_170                       2362 2363   Char Second CPT-4/HCPCS modifier 170
+UT  2020 CORE             779 CPTM2_171                       2364 2365   Char Second CPT-4/HCPCS modifier 171
+UT  2020 CORE             780 CPTM2_172                       2366 2367   Char Second CPT-4/HCPCS modifier 172
+UT  2020 CORE             781 CPTM2_173                       2368 2369   Char Second CPT-4/HCPCS modifier 173
+UT  2020 CORE             782 CPTM2_174                       2370 2371   Char Second CPT-4/HCPCS modifier 174
+UT  2020 CORE             783 CPTM2_175                       2372 2373   Char Second CPT-4/HCPCS modifier 175
+UT  2020 CORE             784 CPTM2_176                       2374 2375   Char Second CPT-4/HCPCS modifier 176
+UT  2020 CORE             785 CPTM2_177                       2376 2377   Char Second CPT-4/HCPCS modifier 177
+UT  2020 CORE             786 CPTM2_178                       2378 2379   Char Second CPT-4/HCPCS modifier 178
+UT  2020 CORE             787 CPTM2_179                       2380 2381   Char Second CPT-4/HCPCS modifier 179
+UT  2020 CORE             788 CPTM2_180                       2382 2383   Char Second CPT-4/HCPCS modifier 180
+UT  2020 CORE             789 CPTM2_181                       2384 2385   Char Second CPT-4/HCPCS modifier 181
+UT  2020 CORE             790 CPTM2_182                       2386 2387   Char Second CPT-4/HCPCS modifier 182
+UT  2020 CORE             791 CPTM2_183                       2388 2389   Char Second CPT-4/HCPCS modifier 183
+UT  2020 CORE             792 CPTM2_184                       2390 2391   Char Second CPT-4/HCPCS modifier 184
+UT  2020 CORE             793 CPTM2_185                       2392 2393   Char Second CPT-4/HCPCS modifier 185
+UT  2020 CORE             794 CPTM2_186                       2394 2395   Char Second CPT-4/HCPCS modifier 186
+UT  2020 CORE             795 CPTM2_187                       2396 2397   Char Second CPT-4/HCPCS modifier 187
+UT  2020 CORE             796 CPTM2_188                       2398 2399   Char Second CPT-4/HCPCS modifier 188
+UT  2020 CORE             797 CPTM2_189                       2400 2401   Char Second CPT-4/HCPCS modifier 189
+UT  2020 CORE             798 CPTM2_190                       2402 2403   Char Second CPT-4/HCPCS modifier 190
+UT  2020 CORE             799 CPTM2_191                       2404 2405   Char Second CPT-4/HCPCS modifier 191
+UT  2020 CORE             800 CPTM2_192                       2406 2407   Char Second CPT-4/HCPCS modifier 192
+UT  2020 CORE             801 CPTM2_193                       2408 2409   Char Second CPT-4/HCPCS modifier 193
+UT  2020 CORE             802 CPTM2_194                       2410 2411   Char Second CPT-4/HCPCS modifier 194
+UT  2020 CORE             803 CPTM2_195                       2412 2413   Char Second CPT-4/HCPCS modifier 195
+UT  2020 CORE             804 CPTM2_196                       2414 2415   Char Second CPT-4/HCPCS modifier 196
+UT  2020 CORE             805 CPTM2_197                       2416 2417   Char Second CPT-4/HCPCS modifier 197
+UT  2020 CORE             806 CPTM2_198                       2418 2419   Char Second CPT-4/HCPCS modifier 198
+UT  2020 CORE             807 CPTM2_199                       2420 2421   Char Second CPT-4/HCPCS modifier 199
+UT  2020 CORE             808 CPTM2_200                       2422 2423   Char Second CPT-4/HCPCS modifier 200
+UT  2020 CORE             809 DaysToEvent                     2424 2429   Num  Days from 'start date' to admission
+UT  2020 CORE             810 DHOUR                           2430 2433   Num  Discharge Hour
+UT  2020 CORE             811 DIED                            2434 2435   Num  Died during hospitalization
+UT  2020 CORE             812 DISP_X                          2436 2437   Char Disposition of patient (as received from source)
+UT  2020 CORE             813 DISPUB04                        2438 2439   Num  Disposition of patient (UB-04 standard coding)
+UT  2020 CORE             814 DISPUNIFORM                     2440 2441   Num  Disposition of patient (uniform)
+UT  2020 CORE             815 DMONTH                          2442 2443   Num  Discharge month
+UT  2020 CORE             816 DQTR                            2444 2445   Num  Discharge quarter
+UT  2020 CORE             817 DRG                             2446 2448   Num  DRG in effect on discharge date
+UT  2020 CORE             818 DRG_NoPOA                       2449 2451   Num  DRG in use on discharge date, calculated without POA
+UT  2020 CORE             819 DRGVER                          2452 2453   Num  DRG grouper version used on discharge date
+UT  2020 CORE             820 DSHOSPID                        2454 2470   Char Data source hospital identifier
+UT  2020 CORE             821 FEMALE                          2471 2472   Num  Indicator of sex
+UT  2020 CORE             822 HCUP_ED                         2473 2474   Num  HCUP Emergency Department service indicator
+UT  2020 CORE             823 HCUP_OS                         2475 2476   Num  HCUP Observation Stay service indicator
+UT  2020 CORE             824 HISPANIC                        2477 2478   Num  Hispanic ethnicity (uniform)
+UT  2020 CORE             825 HISPANIC_X                      2479 2484   Char Hispanic ethnicity (as received from source)
+UT  2020 CORE             826 HOSPST                          2485 2486   Char Hospital state postal code
+UT  2020 CORE             827 I10_BIRTH                       2487 2489   Num  ICD-10-CM Birth Indicator
+UT  2020 CORE             828 I10_DELIVERY                    2490 2492   Num  ICD-10-CM Delivery Indicator
+UT  2020 CORE             829 I10_DX_Admitting                2493 2499   Char ICD-10-CM Admitting Diagnosis Code
+UT  2020 CORE             830 I10_DX1                         2500 2506   Char ICD-10-CM Diagnosis 1
+UT  2020 CORE             831 I10_DX2                         2507 2513   Char ICD-10-CM Diagnosis 2
+UT  2020 CORE             832 I10_DX3                         2514 2520   Char ICD-10-CM Diagnosis 3
+UT  2020 CORE             833 I10_DX4                         2521 2527   Char ICD-10-CM Diagnosis 4
+UT  2020 CORE             834 I10_DX5                         2528 2534   Char ICD-10-CM Diagnosis 5
+UT  2020 CORE             835 I10_DX6                         2535 2541   Char ICD-10-CM Diagnosis 6
+UT  2020 CORE             836 I10_DX7                         2542 2548   Char ICD-10-CM Diagnosis 7
+UT  2020 CORE             837 I10_DX8                         2549 2555   Char ICD-10-CM Diagnosis 8
+UT  2020 CORE             838 I10_DX9                         2556 2562   Char ICD-10-CM Diagnosis 9
+UT  2020 CORE             839 I10_DX10                        2563 2569   Char ICD-10-CM Diagnosis 10
+UT  2020 CORE             840 I10_DX11                        2570 2576   Char ICD-10-CM Diagnosis 11
+UT  2020 CORE             841 I10_DX12                        2577 2583   Char ICD-10-CM Diagnosis 12
+UT  2020 CORE             842 I10_DX13                        2584 2590   Char ICD-10-CM Diagnosis 13
+UT  2020 CORE             843 I10_DX14                        2591 2597   Char ICD-10-CM Diagnosis 14
+UT  2020 CORE             844 I10_DX15                        2598 2604   Char ICD-10-CM Diagnosis 15
+UT  2020 CORE             845 I10_DX16                        2605 2611   Char ICD-10-CM Diagnosis 16
+UT  2020 CORE             846 I10_DX17                        2612 2618   Char ICD-10-CM Diagnosis 17
+UT  2020 CORE             847 I10_DX18                        2619 2625   Char ICD-10-CM Diagnosis 18
+UT  2020 CORE             848 I10_DX19                        2626 2632   Char ICD-10-CM Diagnosis 19
+UT  2020 CORE             849 I10_DX20                        2633 2639   Char ICD-10-CM Diagnosis 20
+UT  2020 CORE             850 I10_NDX                         2640 2642   Num  ICD-10-CM Number of diagnoses on this record
+UT  2020 CORE             851 I10_NPR                         2643 2645   Num  ICD-10-PCS Number of procedures on this record
+UT  2020 CORE             852 I10_PR1                         2646 2652   Char ICD-10-PCS Procedure 1
+UT  2020 CORE             853 I10_PR2                         2653 2659   Char ICD-10-PCS Procedure 2
+UT  2020 CORE             854 I10_PR3                         2660 2666   Char ICD-10-PCS Procedure 3
+UT  2020 CORE             855 I10_PR4                         2667 2673   Char ICD-10-PCS Procedure 4
+UT  2020 CORE             856 I10_PR5                         2674 2680   Char ICD-10-PCS Procedure 5
+UT  2020 CORE             857 I10_PR6                         2681 2687   Char ICD-10-PCS Procedure 6
+UT  2020 CORE             858 I10_PROCTYPE                    2688 2690   Num  ICD-10-PCS Procedure type indicator
+UT  2020 CORE             859 I10_SERVICELINE                 2691 2692   Num  ICD-10-CM/PCS Hospital Service Line
+UT  2020 CORE             860 KEY                             2693 2707   Num  HCUP record identifier
+UT  2020 CORE             861 LOS                             2708 2712   Num  Length of stay (cleaned)
+UT  2020 CORE             862 LOS_X                           2713 2718   Num  Length of stay (as received from source)
+UT  2020 CORE             863 MARITALSTATUS_X                 2719 2719   Char Patient's marital status (as received from source)
+UT  2020 CORE             864 MARITALSTATUSUB04               2720 2720   Char Patient's marital status, UB-04 standard coding
+UT  2020 CORE             865 MDC                             2721 2722   Num  MDC in effect on discharge date
+UT  2020 CORE             866 MDC_NoPOA                       2723 2724   Num  MDC in use on discharge date, calculated without POA
+UT  2020 CORE             867 MDNUM1_R                        2725 2733   Num  Physician 1 number (re-identified)
+UT  2020 CORE             868 MEDINCSTQ                       2734 2735   Num  Median household income state quartile for patient ZIP Code
+UT  2020 CORE             869 NCPT                            2736 2739   Num  Number of CPT/HCPCS procedures for this visit
+UT  2020 CORE             870 OS_TIME                         2740 2750 2 Num  Observation stay time summed from UNITS
+UT  2020 CORE             871 PAY1                            2751 2752   Num  Primary expected payer (uniform)
+UT  2020 CORE             872 PAY1_X                          2753 2782   Char Primary expected payer (as received from source)
+UT  2020 CORE             873 PCLASS_ORPROC                   2783 2784   Num  Indicates operating room (major diagnostic or therapeutic) procedure on the record
+UT  2020 CORE             874 PL_CBSA                         2785 2787   Num  Patient location: Core Based Statistical Area (CBSA)
+UT  2020 CORE             875 PL_NCHS                         2788 2789   Num  Patient Location: NCHS Urban-Rural Code
+UT  2020 CORE             876 PL_RUCC                         2790 2791   Num  Patient location: Rural-Urban Continuum Codes (RUCC)
+UT  2020 CORE             877 PL_UIC                          2792 2793   Num  Patient location: Urban Influence Codes
+UT  2020 CORE             878 PL_UR_CAT4                      2794 2795   Num  Patient Location: Urban-Rural 4 Categories
+UT  2020 CORE             879 PointOfOrigin_X                 2796 2796   Char Point of origin for admission or visit, as received from source
+UT  2020 CORE             880 PointOfOriginUB04               2797 2797   Char Point of origin for admission or visit, UB-04 standard coding
+UT  2020 CORE             881 PRDAY1                          2798 2802   Num  Number of days from admission to I10_PR1
+UT  2020 CORE             882 PRDAY2                          2803 2807   Num  Number of days from admission to I10_PR2
+UT  2020 CORE             883 PRDAY3                          2808 2812   Num  Number of days from admission to I10_PR3
+UT  2020 CORE             884 PRDAY4                          2813 2817   Num  Number of days from admission to I10_PR4
+UT  2020 CORE             885 PRDAY5                          2818 2822   Num  Number of days from admission to I10_PR5
+UT  2020 CORE             886 PRDAY6                          2823 2827   Num  Number of days from admission to I10_PR6
+UT  2020 CORE             887 PSTATE                          2828 2829   Char Patient State postal code
+UT  2020 CORE             888 PSTATE_GEO                      2830 2831   Char Patient State postal code assigned from ZIP Code
+UT  2020 CORE             889 PSTCO_GEO                       2832 2836   Num  Counties assigned based on ZIP Code geographic centroids
+UT  2020 CORE             890 RACE                            2837 2838   Num  Race (uniform)
+UT  2020 CORE             891 RACE_PCT_MISS_HOSP              2839 2845 2 Num  Hospital percentage of missing or invalid race values
+UT  2020 CORE             892 RACE_X                          2846 2851   Char Race (as received from source)
+UT  2020 CORE             893 TOTCHG                          2852 2861   Num  Total charges (cleaned)
+UT  2020 CORE             894 TOTCHG_X                        2862 2876 2 Num  Total charges (as received from source)
+UT  2020 CORE             895 TRAN_IN                         2877 2878   Num  Transfer in indicator
+UT  2020 CORE             896 TRAN_OUT                        2879 2880   Num  Transfer out indicator
+UT  2020 CORE             897 VisitLink                       2881 2889   Num  Visit linkage variable
+UT  2020 CORE             898 YEAR                            2890 2893   Num  Calendar year
+UT  2020 CORE             899 ZIP                             2894 2898   Char Patient ZIP Code
+UT  2020 CORE             900 ZIP3                            2899 2901   Char Patient ZIP Code, first 3 digits
+UT  2020 CORE             901 ZIPINC_QRTL                     2902 2904   Num  Median household income national quartile for patient ZIP Code
+UT  2020 CORE             902 AYEAR                           2905 2908   Num  Admission year
+UT  2020 CORE             903 BMONTH                          2909 2910   Num  Birth month
+UT  2020 CORE             904 BYEAR                           2911 2914   Num  Birth year
+UT  2020 CORE             905 PRMONTH1                        2915 2916   Num  Month of procedure 1
+UT  2020 CORE             906 PRMONTH2                        2917 2918   Num  Month of procedure 2
+UT  2020 CORE             907 PRMONTH3                        2919 2920   Num  Month of procedure 3
+UT  2020 CORE             908 PRMONTH4                        2921 2922   Num  Month of procedure 4
+UT  2020 CORE             909 PRMONTH5                        2923 2924   Num  Month of procedure 5
+UT  2020 CORE             910 PRMONTH6                        2925 2926   Num  Month of procedure 6
+UT  2020 CORE             911 PRYEAR1                         2927 2930   Num  Year of procedure 1
+UT  2020 CORE             912 PRYEAR2                         2931 2934   Num  Year of procedure 2
+UT  2020 CORE             913 PRYEAR3                         2935 2938   Num  Year of procedure 3
+UT  2020 CORE             914 PRYEAR4                         2939 2942   Num  Year of procedure 4
+UT  2020 CORE             915 PRYEAR5                         2943 2946   Num  Year of procedure 5
+UT  2020 CORE             916 PRYEAR6                         2947 2950   Num  Year of procedure 6

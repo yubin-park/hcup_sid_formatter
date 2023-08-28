@@ -1,0 +1,121 @@
+Columns   Description:
+=======   ============
+ 1- 2     State postal code
+ 5- 8     Discharge year of data
+10-14     File name
+19-21     Variable number
+23-40     Variable name
+43-45     Starting column of variable in ASCII file
+47-49     Ending column of variable in ASCII file
+   51     Non-zero number of digits after decimal point for numeric variable
+53-56     Variable type (NUM=numeric; CHAR=character)
+57-88     Variable label
+
+
+CO  1998 CORE     1   KEY                 1   14    Num HCUP record identifier
+CO  1998 CORE     2   AGE                 15  17    Num Age in years at admission
+CO  1998 CORE     3   AGEDAY              18  20    Num Age in days (when age < 1 year)
+CO  1998 CORE     4   AGEMONTH            21  23    Num Age in months (when age < 11 years)
+CO  1998 CORE     5   AMONTH              24  25    Num Admission month
+CO  1998 CORE     6   ASOURCE             26  27    Num Admission source (uniform)
+CO  1998 CORE     7   ASOURCE_X           28  28    CharAdmission source (as received from source)
+CO  1998 CORE     8   ATYPE               29  30    Num Admission type
+CO  1998 CORE     9   AWEEKEND            31  32    Num Admission day is a weekend
+CO  1998 CORE     10  BWT                 33  36    Num Birth weight in grams
+CO  1998 CORE     11  DIED                37  38    Num Died during hospitalization
+CO  1998 CORE     12  DISPUB92            39  40    Num Disposition of patient (UB-92 standard coding)
+CO  1998 CORE     13  DISPUNIFORM         41  42    Num Disposition of patient (uniform)
+CO  1998 CORE     14  DISP_X              43  44    CharDisposition of patient (as received from source)
+CO  1998 CORE     15  DQTR                45  45    Num Discharge quarter
+CO  1998 CORE     16  DRG                 46  48    Num DRG in effect on discharge date
+CO  1998 CORE     17  DRG10               49  51    Num DRG, version 10
+CO  1998 CORE     18  DRG18               52  54    Num DRG, version 18
+CO  1998 CORE     19  DRGVER              55  56    Num DRG grouper version used on discharge date
+CO  1998 CORE     20  DSHOSPID            57  69    CharData source hospital identifier
+CO  1998 CORE     21  DX1                 70  74    CharPrincipal diagnosis
+CO  1998 CORE     22  DX2                 75  79    CharDiagnosis 2
+CO  1998 CORE     23  DX3                 80  84    CharDiagnosis 3
+CO  1998 CORE     24  DX4                 85  89    CharDiagnosis 4
+CO  1998 CORE     25  DX5                 90  94    CharDiagnosis 5
+CO  1998 CORE     26  DX6                 95  99    CharDiagnosis 6
+CO  1998 CORE     27  DX7                 100 104   CharDiagnosis 7
+CO  1998 CORE     28  DX8                 105 109   CharDiagnosis 8
+CO  1998 CORE     29  DX9                 110 114   CharDiagnosis 9
+CO  1998 CORE     30  DX10                115 119   CharDiagnosis 10
+CO  1998 CORE     31  DX11                120 124   CharDiagnosis 11
+CO  1998 CORE     32  DX12                125 129   CharDiagnosis 12
+CO  1998 CORE     33  DX13                130 134   CharDiagnosis 13
+CO  1998 CORE     34  DX14                135 139   CharDiagnosis 14
+CO  1998 CORE     35  DX15                140 144   CharDiagnosis 15
+CO  1998 CORE     36  DXCCS1              145 148   Num CCS: principal diagnosis
+CO  1998 CORE     37  DXCCS2              149 152   Num CCS: diagnosis 2
+CO  1998 CORE     38  DXCCS3              153 156   Num CCS: diagnosis 3
+CO  1998 CORE     39  DXCCS4              157 160   Num CCS: diagnosis 4
+CO  1998 CORE     40  DXCCS5              161 164   Num CCS: diagnosis 5
+CO  1998 CORE     41  DXCCS6              165 168   Num CCS: diagnosis 6
+CO  1998 CORE     42  DXCCS7              169 172   Num CCS: diagnosis 7
+CO  1998 CORE     43  DXCCS8              173 176   Num CCS: diagnosis 8
+CO  1998 CORE     44  DXCCS9              177 180   Num CCS: diagnosis 9
+CO  1998 CORE     45  DXCCS10             181 184   Num CCS: diagnosis 10
+CO  1998 CORE     46  DXCCS11             185 188   Num CCS: diagnosis 11
+CO  1998 CORE     47  DXCCS12             189 192   Num CCS: diagnosis 12
+CO  1998 CORE     48  DXCCS13             193 196   Num CCS: diagnosis 13
+CO  1998 CORE     49  DXCCS14             197 200   Num CCS: diagnosis 14
+CO  1998 CORE     50  DXCCS15             201 204   Num CCS: diagnosis 15
+CO  1998 CORE     51  FEMALE              205 206   Num Indicator of sex
+CO  1998 CORE     52  HOSPST              207 208   CharHospital state postal code
+CO  1998 CORE     53  LOS                 209 213   Num Length of stay (cleaned)
+CO  1998 CORE     54  LOS_X               214 219   Num Length of stay (uncleaned)
+CO  1998 CORE     55  MDC                 220 221   Num MDC in effect on discharge date
+CO  1998 CORE     56  MDC10               222 223   Num MDC, version 10
+CO  1998 CORE     57  MDC18               224 225   Num MDC, version 18
+CO  1998 CORE     58  MDID_S              226 241   CharAttending physician number (synthetic)
+CO  1998 CORE     59  MRN_S               242 258   CharMedical record number (synthetic)
+CO  1998 CORE     60  NDX                 259 260   Num Number of diagnoses on this record
+CO  1998 CORE     61  NEOMAT              261 261   Num Neonatal and/or maternal DX and/or PR
+CO  1998 CORE     62  NPR                 262 263   Num Number of procedures on this record
+CO  1998 CORE     63  PAY1                264 265   Num Primary expected payer (uniform)
+CO  1998 CORE     64  PAY1_X              266 267   CharPrimary expected payer (as received from source)
+CO  1998 CORE     65  PR1                 268 271   CharPrincipal procedure
+CO  1998 CORE     66  PR2                 272 275   CharProcedure 2
+CO  1998 CORE     67  PR3                 276 279   CharProcedure 3
+CO  1998 CORE     68  PR4                 280 283   CharProcedure 4
+CO  1998 CORE     69  PR5                 284 287   CharProcedure 5
+CO  1998 CORE     70  PR6                 288 291   CharProcedure 6
+CO  1998 CORE     71  PR7                 292 295   CharProcedure 7
+CO  1998 CORE     72  PR8                 296 299   CharProcedure 8
+CO  1998 CORE     73  PR9                 300 303   CharProcedure 9
+CO  1998 CORE     74  PR10                304 307   CharProcedure 10
+CO  1998 CORE     75  PR11                308 311   CharProcedure 11
+CO  1998 CORE     76  PR12                312 315   CharProcedure 12
+CO  1998 CORE     77  PR13                316 319   CharProcedure 13
+CO  1998 CORE     78  PR14                320 323   CharProcedure 14
+CO  1998 CORE     79  PR15                324 327   CharProcedure 15
+CO  1998 CORE     80  PRCCS1              328 330   Num CCS: principal procedure
+CO  1998 CORE     81  PRCCS2              331 333   Num CCS: procedure 2
+CO  1998 CORE     82  PRCCS3              334 336   Num CCS: procedure 3
+CO  1998 CORE     83  PRCCS4              337 339   Num CCS: procedure 4
+CO  1998 CORE     84  PRCCS5              340 342   Num CCS: procedure 5
+CO  1998 CORE     85  PRCCS6              343 345   Num CCS: procedure 6
+CO  1998 CORE     86  PRCCS7              346 348   Num CCS: procedure 7
+CO  1998 CORE     87  PRCCS8              349 351   Num CCS: procedure 8
+CO  1998 CORE     88  PRCCS9              352 354   Num CCS: procedure 9
+CO  1998 CORE     89  PRCCS10             355 357   Num CCS: procedure 10
+CO  1998 CORE     90  PRCCS11             358 360   Num CCS: procedure 11
+CO  1998 CORE     91  PRCCS12             361 363   Num CCS: procedure 12
+CO  1998 CORE     92  PRCCS13             364 366   Num CCS: procedure 13
+CO  1998 CORE     93  PRCCS14             367 369   Num CCS: procedure 14
+CO  1998 CORE     94  PRCCS15             370 372   Num CCS: procedure 15
+CO  1998 CORE     95  PRDAY1              373 375   Num Number of days from admission to PR1
+CO  1998 CORE     96  PSTCO               376 380   Num Patient state/county FIPS code
+CO  1998 CORE     97  RACE                381 382   Num Race (uniform)
+CO  1998 CORE     98  RACE_X              383 383   CharRace (as received from source)
+CO  1998 CORE     99  SURGID_S            384 399   CharPrimary surgeon number (synthetic)
+CO  1998 CORE     100 TOTCHG              400 409   Num Total charges (cleaned)
+CO  1998 CORE     101 TOTCHG_X            410 424 2 Num Total charges (as received from source)
+CO  1998 CORE     102 YEAR                425 428   Num Calendar year
+CO  1998 CORE     103 ZIP                 429 433   CharPatient zip code
+CO  1998 CORE     104 AYEAR               434 437   Num Admission year
+CO  1998 CORE     105 DMONTH              438 439   Num Discharge month
+CO  1998 CORE     106 PRMONTH1            440 441   Num Month of procedure 1
+CO  1998 CORE     107 PRYEAR1             442 445   Num Year of procedure 1

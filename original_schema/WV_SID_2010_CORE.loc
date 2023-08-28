@@ -1,0 +1,136 @@
+Data Set Name: WV_SIDC_2010_CORE               
+Number of Observations: 291237
+Total Record Length: 453
+Total Number of Variables: 116
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 56    Variable name
+58- 61    Starting column of variable in ASCII file
+63- 66    Ending column of variable in ASCII file
+    68    Non-zero number of digits after decimal point for numeric variable
+70- 73    Variable type (Num=numeric; Char=character)
+75-174    Variable label
+
+
+WV  2010 CORE               1 AGE                           1    3   Num  Age in years at admission
+WV  2010 CORE               2 AGEDAY                        4    6   Num  Age in days (when age < 1 year)
+WV  2010 CORE               3 AGEMONTH                      7    9   Num  Age in months (when age < 11 years)
+WV  2010 CORE               4 ASOURCE                      10   11   Num  Admission source (uniform)
+WV  2010 CORE               5 ASOURCEUB92                  12   12   Char Admission source (UB-92 standard coding)
+WV  2010 CORE               6 ASOURCE_X                    13   16   Char Admission source (as received from source)
+WV  2010 CORE               7 ATYPE                        17   18   Num  Admission type
+WV  2010 CORE               8 AWEEKEND                     19   20   Num  Admission day is a weekend
+WV  2010 CORE               9 DIED                         21   22   Num  Died during hospitalization
+WV  2010 CORE              10 DISPUB04                     23   24   Num  Disposition of patient (UB-04 standard coding)
+WV  2010 CORE              11 DISPUNIFORM                  25   26   Num  Disposition of patient (uniform)
+WV  2010 CORE              12 DISP_X                       27   34   Char Disposition of patient (as received from source)
+WV  2010 CORE              13 DQTR                         35   36   Num  Discharge quarter
+WV  2010 CORE              14 DRG                          37   39   Num  DRG in effect on discharge date
+WV  2010 CORE              15 DRG24                        40   42   Num  DRG, version 24
+WV  2010 CORE              16 DRGVER                       43   44   Num  DRG grouper version used on discharge date
+WV  2010 CORE              17 DRG_NoPOA                    45   47   Num  DRG in use on discharge date, calculated without POA
+WV  2010 CORE              18 DSHOSPID                     48   64   Char Data source hospital identifier
+WV  2010 CORE              19 DX1                          65   69   Char Diagnosis 1
+WV  2010 CORE              20 DX2                          70   74   Char Diagnosis 2
+WV  2010 CORE              21 DX3                          75   79   Char Diagnosis 3
+WV  2010 CORE              22 DX4                          80   84   Char Diagnosis 4
+WV  2010 CORE              23 DX5                          85   89   Char Diagnosis 5
+WV  2010 CORE              24 DX6                          90   94   Char Diagnosis 6
+WV  2010 CORE              25 DX7                          95   99   Char Diagnosis 7
+WV  2010 CORE              26 DX8                         100  104   Char Diagnosis 8
+WV  2010 CORE              27 DX9                         105  109   Char Diagnosis 9
+WV  2010 CORE              28 DX10                        110  114   Char Diagnosis 10
+WV  2010 CORE              29 DX11                        115  119   Char Diagnosis 11
+WV  2010 CORE              30 DX12                        120  124   Char Diagnosis 12
+WV  2010 CORE              31 DX13                        125  129   Char Diagnosis 13
+WV  2010 CORE              32 DX14                        130  134   Char Diagnosis 14
+WV  2010 CORE              33 DX15                        135  139   Char Diagnosis 15
+WV  2010 CORE              34 DX16                        140  144   Char Diagnosis 16
+WV  2010 CORE              35 DX17                        145  149   Char Diagnosis 17
+WV  2010 CORE              36 DX18                        150  154   Char Diagnosis 18
+WV  2010 CORE              37 DXCCS1                      155  158   Num  CCS: diagnosis 1
+WV  2010 CORE              38 DXCCS2                      159  162   Num  CCS: diagnosis 2
+WV  2010 CORE              39 DXCCS3                      163  166   Num  CCS: diagnosis 3
+WV  2010 CORE              40 DXCCS4                      167  170   Num  CCS: diagnosis 4
+WV  2010 CORE              41 DXCCS5                      171  174   Num  CCS: diagnosis 5
+WV  2010 CORE              42 DXCCS6                      175  178   Num  CCS: diagnosis 6
+WV  2010 CORE              43 DXCCS7                      179  182   Num  CCS: diagnosis 7
+WV  2010 CORE              44 DXCCS8                      183  186   Num  CCS: diagnosis 8
+WV  2010 CORE              45 DXCCS9                      187  190   Num  CCS: diagnosis 9
+WV  2010 CORE              46 DXCCS10                     191  194   Num  CCS: diagnosis 10
+WV  2010 CORE              47 DXCCS11                     195  198   Num  CCS: diagnosis 11
+WV  2010 CORE              48 DXCCS12                     199  202   Num  CCS: diagnosis 12
+WV  2010 CORE              49 DXCCS13                     203  206   Num  CCS: diagnosis 13
+WV  2010 CORE              50 DXCCS14                     207  210   Num  CCS: diagnosis 14
+WV  2010 CORE              51 DXCCS15                     211  214   Num  CCS: diagnosis 15
+WV  2010 CORE              52 DXCCS16                     215  218   Num  CCS: diagnosis 16
+WV  2010 CORE              53 DXCCS17                     219  222   Num  CCS: diagnosis 17
+WV  2010 CORE              54 DXCCS18                     223  226   Num  CCS: diagnosis 18
+WV  2010 CORE              55 ECODE1                      227  231   Char E code 1
+WV  2010 CORE              56 ECODE2                      232  236   Char E code 2
+WV  2010 CORE              57 ECODE3                      237  241   Char E code 3
+WV  2010 CORE              58 ECODE4                      242  246   Char E code 4
+WV  2010 CORE              59 ECODE5                      247  251   Char E code 5
+WV  2010 CORE              60 ECODE6                      252  256   Char E code 6
+WV  2010 CORE              61 E_CCS1                      257  260   Num  CCS: E Code 1
+WV  2010 CORE              62 E_CCS2                      261  264   Num  CCS: E Code 2
+WV  2010 CORE              63 E_CCS3                      265  268   Num  CCS: E Code 3
+WV  2010 CORE              64 E_CCS4                      269  272   Num  CCS: E Code 4
+WV  2010 CORE              65 E_CCS5                      273  276   Num  CCS: E Code 5
+WV  2010 CORE              66 E_CCS6                      277  280   Num  CCS: E Code 6
+WV  2010 CORE              67 FEMALE                      281  282   Num  Indicator of sex
+WV  2010 CORE              68 HCUP_ED                     283  284   Num  HCUP Emergency Department service indicator
+WV  2010 CORE              69 HCUP_OS                     285  286   Num  HCUP Observation Stay service indicator
+WV  2010 CORE              70 HOSPBRTH                    287  289   Num  Indicator of birth in this hospital
+WV  2010 CORE              71 HOSPST                      290  291   Char Hospital state postal code
+WV  2010 CORE              72 KEY                         292  309   Num  HCUP record identifier
+WV  2010 CORE              73 LOS                         310  314   Num  Length of stay (cleaned)
+WV  2010 CORE              74 LOS_X                       315  320   Num  Length of stay (as received from source)
+WV  2010 CORE              75 MDC                         321  322   Num  MDC in effect on discharge date
+WV  2010 CORE              76 MDC24                       323  324   Num  MDC, version 24
+WV  2010 CORE              77 MDC_NoPOA                   325  326   Num  MDC in use on discharge date, calculated without POA
+WV  2010 CORE              78 MEDINCSTQ                   327  328   Num  Median household income state quartile for patient ZIP Code
+WV  2010 CORE              79 NCHRONIC                    329  331   Num  Number of chronic conditions
+WV  2010 CORE              80 NDX                         332  333   Num  Number of diagnoses on this record
+WV  2010 CORE              81 NECODE                      334  335   Num  Number of E codes on this record
+WV  2010 CORE              82 NEOMAT                      336  337   Num  Neonatal and/or maternal DX and/or PR
+WV  2010 CORE              83 NPR                         338  339   Num  Number of procedures on this record
+WV  2010 CORE              84 ORPROC                      340  341   Num  Major operating room procedure indicator
+WV  2010 CORE              85 PAY1                        342  343   Num  Primary expected payer (uniform)
+WV  2010 CORE              86 PAY2                        344  345   Num  Secondary expected payer (uniform)
+WV  2010 CORE              87 PAY3                        346  347   Num  Tertiary expected payer (uniform)
+WV  2010 CORE              88 PL_CBSA                     348  350   Num  Patient location: Core Based Statistical Area (CBSA)
+WV  2010 CORE              89 PL_MSA1993                  351  353   Num  Patient location: Metropolitan Statistical Area (MSA), 1993
+WV  2010 CORE              90 PL_NCHS2006                 354  355   Num  Patient Location: NCHS Urban-Rural Code (V2006)
+WV  2010 CORE              91 PL_RUCA10_2005              356  357   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, ten levels
+WV  2010 CORE              92 PL_RUCA4_2005               358  359   Num  Patient location: Rural-Urban Commuting Area (RUCA) Codes, four levels
+WV  2010 CORE              93 PL_UR_CAT4                  360  361   Num  Patient Location: Urban-Rural 4 Categories
+WV  2010 CORE              94 PR1                         362  365   Char Procedure 1
+WV  2010 CORE              95 PR2                         366  369   Char Procedure 2
+WV  2010 CORE              96 PR3                         370  373   Char Procedure 3
+WV  2010 CORE              97 PR4                         374  377   Char Procedure 4
+WV  2010 CORE              98 PR5                         378  381   Char Procedure 5
+WV  2010 CORE              99 PR6                         382  385   Char Procedure 6
+WV  2010 CORE             100 PRCCS1                      386  388   Num  CCS: procedure 1
+WV  2010 CORE             101 PRCCS2                      389  391   Num  CCS: procedure 2
+WV  2010 CORE             102 PRCCS3                      392  394   Num  CCS: procedure 3
+WV  2010 CORE             103 PRCCS4                      395  397   Num  CCS: procedure 4
+WV  2010 CORE             104 PRCCS5                      398  400   Num  CCS: procedure 5
+WV  2010 CORE             105 PRCCS6                      401  403   Num  CCS: procedure 6
+WV  2010 CORE             106 PROCTYPE                    404  406   Num  Procedure type indicator
+WV  2010 CORE             107 PSTATE                      407  408   Char Patient State postal code
+WV  2010 CORE             108 PointOfOriginUB04           409  409   Char Point of origin for admission or visit, UB-04 standard coding
+WV  2010 CORE             109 PointOfOrigin_X             410  413   Char Point of origin for admission or visit, as received from source
+WV  2010 CORE             110 TOTCHG                      414  423   Num  Total charges (cleaned)
+WV  2010 CORE             111 TOTCHG_X                    424  438 2 Num  Total charges (as received from source)
+WV  2010 CORE             112 TRAN_IN                     439  440   Num  Transfer in indicator
+WV  2010 CORE             113 TRAN_OUT                    441  442   Num  Transfer out indicator
+WV  2010 CORE             114 YEAR                        443  446   Num  Calendar year
+WV  2010 CORE             115 ZIPINC_QRTL                 447  449   Num  Median household income national quartile for patient ZIP Code
+WV  2010 CORE             116 AYEAR                       450  453   Num  Admission year

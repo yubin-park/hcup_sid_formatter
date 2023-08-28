@@ -1,0 +1,136 @@
+Data Set Name: NY_SID_1993_CORE                
+Number of Observations: 2591025
+Total Record Length: 457
+Total Number of Variables: 116
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 49    Variable name
+51- 54    Starting column of variable in ASCII file
+56- 59    Ending column of variable in ASCII file
+    61    Non-zero number of digits after decimal point for numeric variable
+63- 66    Variable type (Num=numeric; Char=character)
+68-167    Variable label
+
+
+NY  1993 CORE               1 AGE                    1    3   Num  I:Age in years at admission
+NY  1993 CORE               2 AGEDAY                 4    6   Num  I:Age in days (when < 1 year)
+NY  1993 CORE               3 SEX                    7    9   Num  I:Sex
+NY  1993 CORE               4 RACE                  10   11   Num  I:Race
+NY  1993 CORE               5 DQTR                  12   13   Num  I:Discharge quarter
+NY  1993 CORE               6 LOS                   14   18   Num  I:Length of stay (cleaned)
+NY  1993 CORE               7 DISP                  19   20   Num  I:Disposition of patient
+NY  1993 CORE               8 DIED                  21   22   Num  I:Died during hospitalization
+NY  1993 CORE               9 ATYPE                 23   24   Num  I:Admission type
+NY  1993 CORE              10 ASOURCE               25   26   Num  I:Admission source
+NY  1993 CORE              11 NDX                   27   28   Num  I:Number of diagnoses on this discharge
+NY  1993 CORE              12 DX1                   29   33   Char I:Principal diagnosis
+NY  1993 CORE              13 DXV1                  34   37   Num  I:Validity flag: principal diagnosis
+NY  1993 CORE              14 DCCHPR1               38   41   Num  I:CCHPR: principal diagnosis
+NY  1993 CORE              15 NPR                   42   43   Num  I:Number of procedures on this discharge
+NY  1993 CORE              16 PR1                   44   47   Char I:Principal procedure
+NY  1993 CORE              17 PRV1                  48   50   Num  I:Validity flag: principal procedure
+NY  1993 CORE              18 PCCHPR1               51   54   Num  I:CCHPR: principal procedure
+NY  1993 CORE              19 DRG                   55   57   Num  I:DRG in effect on discharge date
+NY  1993 CORE              20 MDC                   58   59   Num  I:MDC in effect on discharge date
+NY  1993 CORE              21 DRGVER                60   61   Num  I:DRG grouper version used on disch date
+NY  1993 CORE              22 DRG10                 62   64   Num  I:DRG, Version 10
+NY  1993 CORE              23 MDC10                 65   66   Num  I:MDC, Version 10
+NY  1993 CORE              24 PAY1                  67   68   Num  I:Primary expected payer, uniform
+NY  1993 CORE              25 TOTCHG                69   78   Num  I:Total charges (cleaned)
+NY  1993 CORE              26 PROCESS               79   89   Num  I:HCUP-3 discharge processing ID number
+NY  1993 CORE              27 YEAR                  90   93   Num  Calendar year
+NY  1993 CORE              28 DSHOSPID              94  106   Char I:Data source hospital ID number
+NY  1993 CORE              29 DSNUM                107  109   Num  I:Data source ID number
+NY  1993 CORE              30 DSTYPE               110  112   Num  I:Data source type
+NY  1993 CORE              31 HOSPST               113  114   Char Hospital state postal code
+NY  1993 CORE              32 MDID_S               115  130   Char I:Attending physician number (synthetic)
+NY  1993 CORE              33 SURGID_S             131  146   Char I:Primary surgeon number (synthetic)
+NY  1993 CORE              34 ADAYWK               147  149   Num  I:Admission day of week
+NY  1993 CORE              35 AMONTH               150  151   Num  I:Admission month
+NY  1993 CORE              36 LOS_X                152  156   Num  I:Length of stay (uncleaned)
+NY  1993 CORE              37 NEOMAT               157  158   Num  I:Neonatal and/or maternal DX and/or PR
+NY  1993 CORE              38 DXSYS                159  161   Num  I:Diagnosis coding system
+NY  1993 CORE              39 DSNDX                162  164   Num  I:Max number of diagnoses from source
+NY  1993 CORE              40 PRSYS                165  167   Num  I:Procedure coding system
+NY  1993 CORE              41 DSNPR                168  170   Num  I:Max number of procedures from source
+NY  1993 CORE              42 PRDAY1               171  175   Num  I:No. of days from admission to PR1
+NY  1993 CORE              43 PAY1_N               176  178   Num  I:Primary expected payer, nonuniform
+NY  1993 CORE              44 PAY2                 179  180   Num  I:Secondary expected payer, uniform
+NY  1993 CORE              45 PAY2_N               181  183   Num  I:Secondary expected payer, nonuniform
+NY  1993 CORE              46 TOTCHG_X             184  195 2 Num  I:Total charges (from data source)
+NY  1993 CORE              47 DX2                  196  200   Char I:Diagnosis 2
+NY  1993 CORE              48 DX3                  201  205   Char I:Diagnosis 3
+NY  1993 CORE              49 DX4                  206  210   Char I:Diagnosis 4
+NY  1993 CORE              50 DX5                  211  215   Char I:Diagnosis 5
+NY  1993 CORE              51 DX6                  216  220   Char I:Diagnosis 6
+NY  1993 CORE              52 DX7                  221  225   Char I:Diagnosis 7
+NY  1993 CORE              53 DX8                  226  230   Char I:Diagnosis 8
+NY  1993 CORE              54 DX9                  231  235   Char I:Diagnosis 9
+NY  1993 CORE              55 DX10                 236  240   Char I:Diagnosis 10
+NY  1993 CORE              56 DX11                 241  245   Char I:Diagnosis 11
+NY  1993 CORE              57 DXV2                 246  249   Num  I:Validity flag: diagnosis 2
+NY  1993 CORE              58 DXV3                 250  253   Num  I:Validity flag: diagnosis 3
+NY  1993 CORE              59 DXV4                 254  257   Num  I:Validity flag: diagnosis 4
+NY  1993 CORE              60 DXV5                 258  261   Num  I:Validity flag: diagnosis 5
+NY  1993 CORE              61 DXV6                 262  265   Num  I:Validity flag: diagnosis 6
+NY  1993 CORE              62 DXV7                 266  269   Num  I:Validity flag: diagnosis 7
+NY  1993 CORE              63 DXV8                 270  273   Num  I:Validity flag: diagnosis 8
+NY  1993 CORE              64 DXV9                 274  277   Num  I:Validity flag: diagnosis 9
+NY  1993 CORE              65 DXV10                278  281   Num  I:Validity flag: diagnosis 10
+NY  1993 CORE              66 DXV11                282  285   Num  I:Validity flag: diagnosis 11
+NY  1993 CORE              67 DCCHPR2              286  289   Num  I:CCHPR: diagnosis 2
+NY  1993 CORE              68 DCCHPR3              290  293   Num  I:CCHPR: diagnosis 3
+NY  1993 CORE              69 DCCHPR4              294  297   Num  I:CCHPR: diagnosis 4
+NY  1993 CORE              70 DCCHPR5              298  301   Num  I:CCHPR: diagnosis 5
+NY  1993 CORE              71 DCCHPR6              302  305   Num  I:CCHPR: diagnosis 6
+NY  1993 CORE              72 DCCHPR7              306  309   Num  I:CCHPR: diagnosis 7
+NY  1993 CORE              73 DCCHPR8              310  313   Num  I:CCHPR: diagnosis 8
+NY  1993 CORE              74 DCCHPR9              314  317   Num  I:CCHPR: diagnosis 9
+NY  1993 CORE              75 DCCHPR10             318  321   Num  I:CCHPR: diagnosis 10
+NY  1993 CORE              76 DCCHPR11             322  325   Num  I:CCHPR: diagnosis 11
+NY  1993 CORE              77 PR2                  326  329   Char I:Procedure 2
+NY  1993 CORE              78 PR3                  330  333   Char I:Procedure 3
+NY  1993 CORE              79 PR4                  334  337   Char I:Procedure 4
+NY  1993 CORE              80 PR5                  338  341   Char I:Procedure 5
+NY  1993 CORE              81 PR6                  342  345   Char I:Procedure 6
+NY  1993 CORE              82 PRV2                 346  348   Num  I:Validity flag: procedure 2
+NY  1993 CORE              83 PRV3                 349  351   Num  I:Validity flag: procedure 3
+NY  1993 CORE              84 PRV4                 352  354   Num  I:Validity flag: procedure 4
+NY  1993 CORE              85 PRV5                 355  357   Num  I:Validity flag: procedure 5
+NY  1993 CORE              86 PRV6                 358  360   Num  I:Validity flag: procedure 6
+NY  1993 CORE              87 PCCHPR2              361  364   Num  I:CCHPR: procedure 2
+NY  1993 CORE              88 PCCHPR3              365  368   Num  I:CCHPR: procedure 3
+NY  1993 CORE              89 PCCHPR4              369  372   Num  I:CCHPR: procedure 4
+NY  1993 CORE              90 PCCHPR5              373  376   Num  I:CCHPR: procedure 5
+NY  1993 CORE              91 PCCHPR6              377  380   Num  I:CCHPR: procedure 6
+NY  1993 CORE              92 PRDAY2               381  385   Num  I:No. of days from admission to PR2
+NY  1993 CORE              93 PRDAY3               386  390   Num  I:No. of days from admission to PR3
+NY  1993 CORE              94 PRDAY4               391  395   Num  I:No. of days from admission to PR4
+NY  1993 CORE              95 PRDAY5               396  400   Num  I:No. of days from admission to PR5
+NY  1993 CORE              96 PRDAY6               401  405   Num  I:No. of days from admission to PR6
+NY  1993 CORE              97 ZIP                  406  410   Char I:Patient zip code
+NY  1993 CORE              98 PSTCO                411  415   Num  I:Patient state/county FIPS code
+NY  1993 CORE              99 BWT                  416  419   Num  I:Birthweight in grams
+NY  1993 CORE             100 TMDX1                420  421   Num  I:Time of onset: principal diagnosis
+NY  1993 CORE             101 TMDX2                422  423   Num  I:Time of onset: diagnosis 2
+NY  1993 CORE             102 TMDX3                424  425   Num  I:Time of onset: diagnosis 3
+NY  1993 CORE             103 TMDX4                426  427   Num  I:Time of onset: diagnosis 4
+NY  1993 CORE             104 TMDX5                428  429   Num  I:Time of onset: diagnosis 5
+NY  1993 CORE             105 TMDX6                430  431   Num  I:Time of onset: diagnosis 6
+NY  1993 CORE             106 TMDX7                432  433   Num  I:Time of onset: diagnosis 7
+NY  1993 CORE             107 TMDX8                434  435   Num  I:Time of onset: diagnosis 8
+NY  1993 CORE             108 TMDX9                436  437   Num  I:Time of onset: diagnosis 9
+NY  1993 CORE             109 TMDX10               438  439   Num  I:Time of onset: diagnosis 10
+NY  1993 CORE             110 TMDX11               440  441   Num  I:Time of onset: diagnosis 11
+NY  1993 CORE             111 PAY1_X               442  443   Char I:Primary exp. payer (from data source)
+NY  1993 CORE             112 PAY2_X               444  445   Char I:Secondary exp. payer (from data source
+NY  1993 CORE             113 AYEAR                446  449   Num  Admission year
+NY  1993 CORE             114 DMONTH               450  451   Num  Discharge month
+NY  1993 CORE             115 BMONTH               452  453   Num  Birth month
+NY  1993 CORE             116 BYEAR                454  457   Num  Birth year

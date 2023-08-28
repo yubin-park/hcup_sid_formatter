@@ -1,0 +1,111 @@
+Data Set Name: NM_SIDC_2007_CORE               
+Number of Observations: 214497
+Total Record Length: 387
+Total Number of Variables: 90
+Creation Date: 08/28/2018   
+
+
+Columns   Description:
+=======   ============
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 25    File name
+27- 29    Variable number
+31- 61    Variable name
+63- 66    Starting column of variable in ASCII file
+68- 71    Ending column of variable in ASCII file
+73- 73    Non-zero number of digits after decimal point for numeric variable
+75- 78    Variable type (Num=numeric; Char=character)
+80-179    Variable label
+
+
+NM  2007 CORE               1 AGE                                1    3   Num  Age in years at admission
+NM  2007 CORE               2 AGEDAY                             4    6   Num  Age in days (when age < 1 year)
+NM  2007 CORE               3 AGEMONTH                           7    9   Num  Age in months (when age < 11 years)
+NM  2007 CORE               4 AMONTH                            10   11   Num  Admission month
+NM  2007 CORE               5 ASOURCE                           12   13   Num  Admission source (uniform)
+NM  2007 CORE               6 ASOURCEUB92                       14   14   Char Admission source (UB-92 standard coding)
+NM  2007 CORE               7 ASOURCE_X                         15   15   Char Admission source (as received from source)
+NM  2007 CORE               8 ATYPE                             16   17   Num  Admission type
+NM  2007 CORE               9 AWEEKEND                          18   19   Num  Admission day is a weekend
+NM  2007 CORE              10 DIED                              20   21   Num  Died during hospitalization
+NM  2007 CORE              11 DISPUB04                          22   23   Num  Disposition of patient (UB-04 standard coding)
+NM  2007 CORE              12 DISPUNIFORM                       24   25   Num  Disposition of patient (uniform)
+NM  2007 CORE              13 DISP_X                            26   27   Char Disposition of patient (as received from source)
+NM  2007 CORE              14 DQTR                              28   29   Num  Discharge quarter
+NM  2007 CORE              15 DRG                               30   32   Num  DRG in effect on discharge date
+NM  2007 CORE              16 DRG24                             33   35   Num  DRG, version 24
+NM  2007 CORE              17 DRGVER                            36   37   Num  DRG grouper version used on discharge date
+NM  2007 CORE              18 DX1                               38   44   Char Diagnosis 1
+NM  2007 CORE              19 DX2                               45   51   Char Diagnosis 2
+NM  2007 CORE              20 DX3                               52   58   Char Diagnosis 3
+NM  2007 CORE              21 DX4                               59   65   Char Diagnosis 4
+NM  2007 CORE              22 DX5                               66   72   Char Diagnosis 5
+NM  2007 CORE              23 DX6                               73   79   Char Diagnosis 6
+NM  2007 CORE              24 DX7                               80   86   Char Diagnosis 7
+NM  2007 CORE              25 DX8                               87   93   Char Diagnosis 8
+NM  2007 CORE              26 DX9                               94  100   Char Diagnosis 9
+NM  2007 CORE              27 DXCCS1                           101  104   Num  CCS: diagnosis 1
+NM  2007 CORE              28 DXCCS2                           105  108   Num  CCS: diagnosis 2
+NM  2007 CORE              29 DXCCS3                           109  112   Num  CCS: diagnosis 3
+NM  2007 CORE              30 DXCCS4                           113  116   Num  CCS: diagnosis 4
+NM  2007 CORE              31 DXCCS5                           117  120   Num  CCS: diagnosis 5
+NM  2007 CORE              32 DXCCS6                           121  124   Num  CCS: diagnosis 6
+NM  2007 CORE              33 DXCCS7                           125  128   Num  CCS: diagnosis 7
+NM  2007 CORE              34 DXCCS8                           129  132   Num  CCS: diagnosis 8
+NM  2007 CORE              35 DXCCS9                           133  136   Num  CCS: diagnosis 9
+NM  2007 CORE              36 ECODE1                           137  143   Char E code 1
+NM  2007 CORE              37 ECODE2                           144  150   Char E code 2
+NM  2007 CORE              38 ECODE3                           151  157   Char E code 3
+NM  2007 CORE              39 ECODE4                           158  164   Char E code 4
+NM  2007 CORE              40 E_CCS1                           165  168   Num  CCS: E Code 1
+NM  2007 CORE              41 E_CCS2                           169  172   Num  CCS: E Code 2
+NM  2007 CORE              42 E_CCS3                           173  176   Num  CCS: E Code 3
+NM  2007 CORE              43 E_CCS4                           177  180   Num  CCS: E Code 4
+NM  2007 CORE              44 FEMALE                           181  182   Num  Indicator of sex
+NM  2007 CORE              45 HCUP_ED                          183  184   Num  HCUP Emergency Department service indicator
+NM  2007 CORE              46 HCUP_OS                          185  186   Num  HCUP Observation Stay service indicator
+NM  2007 CORE              47 HOSPBRTH                         187  189   Num  Indicator of birth in this hospital
+NM  2007 CORE              48 HOSPST                           190  191   Char Hospital state postal code
+NM  2007 CORE              49 KEY                              192  206   Num  HCUP record identifier
+NM  2007 CORE              50 LOS                              207  211   Num  Length of stay (cleaned)
+NM  2007 CORE              51 LOS_X                            212  217   Num  Length of stay (as received from source)
+NM  2007 CORE              52 MDC                              218  219   Num  MDC in effect on discharge date
+NM  2007 CORE              53 MDC24                            220  221   Num  MDC, version 24
+NM  2007 CORE              54 MDNUM1_R                         222  230   Num  Physician 1 number (re-identified)
+NM  2007 CORE              55 MDNUM2_R                         231  239   Num  Physician 2 number (re-identified)
+NM  2007 CORE              56 NDX                              240  242   Num  Number of diagnoses on this record
+NM  2007 CORE              57 NECODE                           243  244   Num  Number of E codes on this record
+NM  2007 CORE              58 NEOMAT                           245  246   Num  Neonatal and/or maternal DX and/or PR
+NM  2007 CORE              59 NPR                              247  249   Num  Number of procedures on this record
+NM  2007 CORE              60 PAY1                             250  251   Num  Primary expected payer (uniform)
+NM  2007 CORE              61 PAY2                             252  253   Num  Secondary expected payer (uniform)
+NM  2007 CORE              62 PNUM_R                           254  262   Num  Person number (re-identified)
+NM  2007 CORE              63 PR1                              263  269   Char Procedure 1
+NM  2007 CORE              64 PR2                              270  276   Char Procedure 2
+NM  2007 CORE              65 PR3                              277  283   Char Procedure 3
+NM  2007 CORE              66 PR4                              284  290   Char Procedure 4
+NM  2007 CORE              67 PR5                              291  297   Char Procedure 5
+NM  2007 CORE              68 PR6                              298  304   Char Procedure 6
+NM  2007 CORE              69 PRCCS1                           305  307   Num  CCS: procedure 1
+NM  2007 CORE              70 PRCCS2                           308  310   Num  CCS: procedure 2
+NM  2007 CORE              71 PRCCS3                           311  313   Num  CCS: procedure 3
+NM  2007 CORE              72 PRCCS4                           314  316   Num  CCS: procedure 4
+NM  2007 CORE              73 PRCCS5                           317  319   Num  CCS: procedure 5
+NM  2007 CORE              74 PRCCS6                           320  322   Num  CCS: procedure 6
+NM  2007 CORE              75 PRDAY1                           323  327   Num  Number of days from admission to PR1
+NM  2007 CORE              76 PROCTYPE                         328  330   Num  Procedure type indicator
+NM  2007 CORE              77 PointOfOriginUB04                331  331   Char Point of origin for admission or visit, UB-04 standard coding
+NM  2007 CORE              78 PointOfOrigin_X                  332  332   Char Point of origin for admission or visit, as received from source
+NM  2007 CORE              79 RACE                             333  334   Num  Race (uniform)
+NM  2007 CORE              80 RACE_X                           335  335   Char Race (as received from source)
+NM  2007 CORE              81 TOTCHG                           336  345   Num  Total charges (cleaned)
+NM  2007 CORE              82 TOTCHG_X                         346  360 2 Num  Total charges (as received from source)
+NM  2007 CORE              83 YEAR                             361  364   Num  Calendar year
+NM  2007 CORE              84 HOSPID                           365  369   Num  HCUP hospital identification number
+NM  2007 CORE              85 AYEAR                            370  373   Num  Admission year
+NM  2007 CORE              86 DMONTH                           374  375   Num  Discharge month
+NM  2007 CORE              87 BMONTH                           376  377   Num  Birth month
+NM  2007 CORE              88 BYEAR                            378  381   Num  Birth year
+NM  2007 CORE              89 PRMONTH1                         382  383   Num  Month of procedure 1
+NM  2007 CORE              90 PRYEAR1                          384  387   Num  Year of procedure 1
